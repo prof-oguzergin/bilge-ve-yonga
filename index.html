@@ -264,6 +264,25 @@ section.band{padding:76px 0}
 .series-head p{color:var(--muted);font-size:.98rem;max-width:96ch}
 .books-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:26px}
 .books-grid + .series-head{margin-top:54px}
+/* Zenodo ciltleri: alt seri basina toplu PDF, DOI ile arsivlenmis. */
+.cilt-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
+.cilt{background:var(--surface);border:1px solid var(--line);border-radius:20px;
+  padding:24px 24px 22px;border-top:4px solid var(--accent);
+  display:flex;flex-direction:column;gap:8px;transition:transform .22s,box-shadow .22s}
+.cilt:hover{transform:translateY(-6px);box-shadow:0 26px 46px -26px var(--bg)}
+.cilt-no{font-size:.76rem;letter-spacing:.14em;text-transform:uppercase;
+  font-weight:800;color:var(--accent)}
+.cilt h3{font-family:var(--font-display);font-size:1.3rem;margin:0}
+.cilt-bilgi{color:var(--muted);font-size:.92rem;margin:0}
+.cilt-doi{margin:2px 0 0;font-size:.84rem;word-break:break-all}
+.cilt-doi a{color:var(--muted);text-decoration:none;border-bottom:1px dotted var(--line)}
+.cilt-doi a:hover{color:var(--accent)}
+.cilt-btn{margin-top:auto;align-self:flex-start;display:inline-flex;align-items:center;
+  gap:8px;background:var(--accent);color:#fff;text-decoration:none;font-weight:800;
+  padding:11px 22px;border-radius:999px;font-size:.94rem;
+  transition:transform .16s, box-shadow .16s}
+.cilt-btn:hover{transform:translateY(-2px);box-shadow:0 14px 30px -14px var(--accent)}
+.cilt-btn:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
 .book{background:var(--surface);border:1px solid var(--line);border-radius:20px;overflow:hidden;
   display:flex;flex-direction:column;transition:transform .22s,box-shadow .22s}
 .book:hover{transform:translateY(-8px);box-shadow:0 26px 46px -26px var(--bg)}
@@ -976,6 +995,39 @@ footer p{color:var(--muted);font-size:.9rem}
           </div>
         </div>
       </article>
+  </div>
+</div></section>
+
+<hr class="divider">
+
+<section class="band" id="ciltler"><div class="wrap">
+  <div class="sec-head">
+    <span class="eyebrow">Ciltler ve atıf</span>
+    <h2>Üç cilt, kalıcı bağlantı</h2>
+    <p>Her alt seri, kitapları bir arada tutan tek bir PDF cilt olarak Zenodo arşivine kondu. Ciltlerin DOI numarası vardır: bağlantı hiç kırılmaz, kaynak gösterirken bunu kullanabilirsiniz.</p>
+  </div>
+  <div class="cilt-grid">
+    <article class="cilt" style="--accent:#2E8CC7">
+      <span class="cilt-no">1. Cilt</span>
+      <h3>Kumdan Bilgisayara</h3>
+      <p class="cilt-bilgi">11 kitap · 171 sayfa · PDF, 34 MB</p>
+      <p class="cilt-doi"><a href="https://doi.org/10.5281/zenodo.21725876" target="_blank" rel="noopener">doi.org/10.5281/zenodo.21725876</a></p>
+      <a class="cilt-btn" href="https://zenodo.org/api/records/21725877/files/Bilge%20ve%20Yonga%20-%20Cilt%201%20-%20Kumdan%20Bilgisayara.pdf/content">Cildi indir</a>
+    </article>
+    <article class="cilt" style="--accent:#D97326">
+      <span class="cilt-no">2. Cilt</span>
+      <h3>Hız ve Güç</h3>
+      <p class="cilt-bilgi">10 kitap · 160 sayfa · PDF, 34 MB</p>
+      <p class="cilt-doi"><a href="https://doi.org/10.5281/zenodo.21725924" target="_blank" rel="noopener">doi.org/10.5281/zenodo.21725924</a></p>
+      <a class="cilt-btn" href="https://zenodo.org/api/records/21725925/files/Bilge%20ve%20Yonga%20-%20Cilt%202%20-%20H%C4%B1z%20ve%20G%C3%BC%C3%A7.pdf/content">Cildi indir</a>
+    </article>
+    <article class="cilt" style="--accent:#2E9E5B">
+      <span class="cilt-no">3. Cilt</span>
+      <h3>Buyrukların Dünyası</h3>
+      <p class="cilt-bilgi">11 kitap · 174 sayfa · PDF, 32 MB</p>
+      <p class="cilt-doi"><a href="https://doi.org/10.5281/zenodo.21725978" target="_blank" rel="noopener">doi.org/10.5281/zenodo.21725978</a></p>
+      <a class="cilt-btn" href="https://zenodo.org/api/records/21725979/files/Bilge%20ve%20Yonga%20-%20Cilt%203%20-%20Buyruklar%C4%B1n%20D%C3%BCnyas%C4%B1.pdf/content">Cildi indir</a>
+    </article>
   </div>
 </div></section>
 

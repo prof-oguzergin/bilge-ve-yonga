@@ -974,6 +974,32 @@ def _booknav_html(prev, nxt):
     return left + home + right
 
 
+# Google Scholar atif ustverisi. Mimari kitabi alti ay Scholar'a cikmadi;
+# nedenlerinden biri sitede citation_* etiketinin hic olmamasiydi.
+# citation_doi BILEREK YOK: DOI ciltlere ait, tek tek kitaplara degil. Ayni
+# DOI'yi 11 kitabin sayfasina yazmak Scholar'da kayitlari birbirine karistirir.
+# Kitabin hangi cilde ait oldugu citation_inbook_title ile belirtiliyor.
+def _citation_meta(folder, no, title, medya):
+    seri = no.split('.')[0]
+    cilt = CILTLER.get(seri)
+    ad = SERIES[seri][0] if seri in SERIES else ''
+    kok = 'https://bilgeveyonga.oguzergin.net'
+    m = [
+        ('citation_title', title),
+        ('citation_author', 'Ergin, Oğuz'),
+        ('citation_publication_date', '2026'),
+        ('citation_language', 'tr'),
+        ('citation_public_url', '{}/okuyucu/{}.html'.format(kok, folder)),
+        ('citation_pdf_url', '{}/{}.pdf'.format(kok, medya)),
+    ]
+    if cilt:
+        m.append(('citation_inbook_title',
+                  'Bilge ve Yonga: Bilgisayar Mimarisi Çocuk Kitapları '
+                  'Serisi — Cilt {}: {}'.format(seri, ad)))
+    return ''.join('<meta name="{}" content="{}">'.format(k, escape(v, {'"': '&quot;'}))
+                   for k, v in m)
+
+
 def build_reader(folder, no, title, subtitle, glow, prev=None, nxt=None):
     d = REPO / folder
     pdf = find_pdf(d)
@@ -1002,7 +1028,9 @@ def build_reader(folder, no, title, subtitle, glow, prev=None, nxt=None):
           .replace('__AD__', json.dumps(title, ensure_ascii=False)[1:-1])
           .replace('__ACIKLAMA__', json.dumps(subtitle, ensure_ascii=False)[1:-1])
           .replace('__SAYFA__', str(sum(1 for p in pages if p.get('type') == 'page'))))
-    html = html.replace('</head>', BVY_TELIF_META + ld + '\n</head>', 1)
+    html = html.replace('</head>', BVY_TELIF_META
+                        + _citation_meta(folder, no, title, medya)
+                        + ld + '\n</head>', 1)
 
     out = OKU / f'{folder}.html'
     out.write_text(html, encoding='utf-8')
@@ -1105,6 +1133,46 @@ def temizle_bayat_okuyucular():
     return silinen
 
 
+# Zenodo ciltleri. DOI olarak KAVRAM DOI'si yazilir: butun surumleri temsil
+# eder ve her zaman en guncele cozulur. Surum DOI'si (kayit numarasi) hicbir
+# yere yazilmaz; mimari kitabinda aylarca surum DOI'si kullanilip atif verenler
+# ilk taslaga yonlendirilmisti.
+CILTLER = {
+    '1': {'doi': '10.5281/zenodo.21725876', 'kayit': 21725877,
+          'dosya': 'Bilge ve Yonga - Cilt 1 - Kumdan Bilgisayara.pdf',
+          'sayfa': 171, 'mb': 34},
+    '2': {'doi': '10.5281/zenodo.21725924', 'kayit': 21725925,
+          'dosya': 'Bilge ve Yonga - Cilt 2 - Hız ve Güç.pdf',
+          'sayfa': 160, 'mb': 34},
+    '3': {'doi': '10.5281/zenodo.21725978', 'kayit': 21725979,
+          'dosya': 'Bilge ve Yonga - Cilt 3 - Buyrukların Dünyası.pdf',
+          'sayfa': 174, 'mb': 32},
+}
+
+
+def build_ciltler():
+    """Ana sayfadaki cilt kartlarini uretir."""
+    p = ['  <div class="cilt-grid">']
+    for key, c in CILTLER.items():
+        ad, _desc, renk = SERIES[key]
+        n = len([b for b in BOOKS if b[1].split('.')[0] == key])
+        if not n:
+            continue
+        indir = ('https://zenodo.org/api/records/{}/files/{}/content'
+                 .format(c['kayit'], quote(c['dosya'])))
+        p.append('    <article class="cilt" style="--accent:{}">'.format(renk))
+        p.append('      <span class="cilt-no">{}. Cilt</span>'.format(key))
+        p.append('      <h3>{}</h3>'.format(ad))
+        p.append('      <p class="cilt-bilgi">{} kitap · {} sayfa · '
+                 'PDF, {} MB</p>'.format(n, c['sayfa'], c['mb']))
+        p.append('      <p class="cilt-doi"><a href="https://doi.org/{0}" '
+                 'target="_blank" rel="noopener">doi.org/{0}</a></p>'.format(c['doi']))
+        p.append('      <a class="cilt-btn" href="{}">Cildi indir</a>'.format(indir))
+        p.append('    </article>')
+    p.append('  </div>')
+    return '\n'.join(p)
+
+
 def build_index():
     """Kitaplari alt serilere gore bolumleyip index.html'i kurar."""
     tpl = (REPO / '_template_site.html').read_text(encoding='utf-8')
@@ -1125,6 +1193,7 @@ def build_index():
     kartlar, havuz = build_deste()
     tpl = tpl.replace('__DESTE__', kartlar)
     tpl = tpl.replace('__DESTE_HAVUZ__', havuz)
+    tpl = tpl.replace('__CILTLER__', build_ciltler())
     tpl = tpl.replace('__COUNT__', str(len(BOOKS)))
     (REPO / 'index.html').write_text(tpl, encoding='utf-8')
     temizle_bayat_okuyucular()
