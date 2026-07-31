@@ -1,0 +1,167 @@
+================================================================================
+BİLGE VE YONGA — BİLGİSAYAR MİMARİSİ ÇOCUK KİTAPLARI SERİSİ
+Telif ve Lisans Bildirimi / Copyright and Licence Notice
+================================================================================
+
+Eser sahibi / Rightholder : Prof. Dr. Oğuz Ergin
+Yayın yeri / Place        : Ankara, Türkiye
+Yayın yılı / Year         : 2026
+Site                      : https://bilgeveyonga.oguzergin.net
+İletişim / Contact        : bilgi@oguzergin.net
+Sürüm / Version           : 1.0 — 26 Temmuz 2026
+
+--------------------------------------------------------------------------------
+1. TELİF BİLDİRİMİ
+--------------------------------------------------------------------------------
+
+© 2026 Prof. Dr. Oğuz Ergin.
+Tüm eserler CC BY-NC-ND 4.0 lisansı ile açık erişime sunulmuştur.
+LİSANSIN KAPSAMADIĞI TÜM HAKLAR SAKLIDIR.
+
+Bu bildirim; bu alan adında yayımlanan bütün metinleri, görselleri, kapakları,
+seri yapısını, sunum düzenini, web okuyucu sayfalarını, PDF ve EPUB dosyalarını
+kapsar.
+
+--------------------------------------------------------------------------------
+2. LİSANS
+--------------------------------------------------------------------------------
+
+Creative Commons Atıf-GayriTicari-Türetilemez 4.0 Uluslararası
+(CC BY-NC-ND 4.0)
+
+  Kısa özet (Türkçe)  : https://creativecommons.org/licenses/by-nc-nd/4.0/deed.tr
+  Bağlayıcı metin (TR): https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.tr
+  Bağlayıcı metin (EN): https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.en
+
+Lisans size, aşağıdaki üç koşula uymanız şartıyla, eseri çoğaltma ve paylaşma
+izni verir:
+
+  BY  — Atıf          : Eser sahibinin adını, telif bildirimini, lisansı ve
+                        lisans bağlantısını belirtin.
+  NC  — GayriTicari   : Temel amacı ticari avantaj veya parasal karşılık olan
+                        kullanımlar lisans kapsamı dışındadır.
+  ND  — Türetilemez   : Değiştirilmiş biçimleri paylaşamazsınız.
+
+Bu koşullar birer şarttır. Koşullardan birine uyulmaması, lisansın
+kendiliğinden sona ermesi sonucunu doğurur (CC BY-NC-ND 4.0, madde 6(a)).
+
+--------------------------------------------------------------------------------
+3. İZİN GEREKMEYEN KULLANIMLAR
+--------------------------------------------------------------------------------
+
+Aşağıdakiler için izin almanıza gerek yoktur:
+
+  · Kitapları indirmek, saklamak, yedeklemek, arşivlemek
+  · Arkadaşlarınıza, öğrencilerinize ve velilere göndermek
+  · Sınıfta, kütüphanede, atölyede, evde okumak ve okutmak
+  · Çıktı alıp çoğaltmak ve ücretsiz dağıtmak
+  · Kendi sitenizde, blogunuzda veya sosyal medyanızda olduğu gibi paylaşmak
+    (gelir getirmiyorsa)
+  · Erişilebilirlik için biçim dönüştürmek (büyük punto, ekran okuyucu, Braille)
+  · Kaynak göstererek alıntı yapmak, kitabı tanıtmak, eleştirmek
+  · Kütüphanede ücretsiz ödünç vermek, katalogda listelemek
+
+Ayrıntı: https://bilgeveyonga.oguzergin.net/telif-ve-lisans.html
+
+--------------------------------------------------------------------------------
+4. LİSANSIN KAPSAMADIĞI HAKLAR — AYRI YAZILI İZNE BAĞLIDIR
+--------------------------------------------------------------------------------
+
+CC BY-NC-ND 4.0 madde 2(b), marka haklarını, patent haklarını, manevi hakları
+ile kişilik ve tanıtım haklarını lisans dışında bırakır. Buna göre aşağıdakiler
+bu lisansla verilmemiştir ve eser sahibinin ayrı, yazılı izni olmadan
+kullanılamaz:
+
+  · "Bilge ve Yonga" seri adı
+  · "Bilge" ve "Yonga" karakter adları ve figürleri
+  · Seri amblemi ve görsel kimliği
+  · Prof. Dr. Oğuz Ergin'in adı ve unvanının tanıtımda kullanılması
+  · Manevi haklar (umuma arz, adın belirtilmesi, eserde değişikliği menetme)
+  · Her türlü ticari sunum: baskı satışı, oyuncak, kırtasiye, giyim,
+    uygulama, oyun, çizgi film, sesli kitap, uyarlama ve çeviri
+  · Metin ve veri madenciliği ile yapay zekâ modeli eğitimi
+
+--------------------------------------------------------------------------------
+5. YAPAY ZEKÂ VE VERİ MADENCİLİĞİ — HAK SAKLI TUTMA
+--------------------------------------------------------------------------------
+
+Eser sahibi; bu sitedeki içeriğin metin ve veri madenciliği, üretken veya
+üretken olmayan yapay zekâ modeli eğitimi, ince ayar (fine-tuning), damıtma
+(distillation), sürekli ön eğitim, gömme (embedding) üretimi ve erişim
+artırılmış üretim (RAG) korpusuna dâhil etme amaçlarıyla çoğaltılması ve
+işlenmesi haklarını AÇIKÇA VE TÜMÜYLE SAKLI TUTAR.
+
+Bu rezervasyon, 2019/790 sayılı Avrupa Birliği Direktifi'nin 4(3) maddesi
+anlamında makine okunabilir biçimde ifade edilmiştir. Aynı Direktif'in
+3. maddesindeki, araştırma kuruluşları ve kültürel miras kurumlarınca bilimsel
+araştırma amacıyla yürütülen madencilik bu rezervasyonun dışındadır.
+
+Makine okunabilir bildirimler:
+  https://bilgeveyonga.oguzergin.net/robots.txt
+  https://bilgeveyonga.oguzergin.net/ai.txt
+  https://bilgeveyonga.oguzergin.net/llms.txt
+  https://bilgeveyonga.oguzergin.net/.well-known/tdmrep.json
+  https://bilgeveyonga.oguzergin.net/tdm-policy.json
+
+--------------------------------------------------------------------------------
+6. ATIF BİÇİMİ
+--------------------------------------------------------------------------------
+
+Ergin, O. (2026). Bilge ve Yonga: Bilgisayar Mimarisi Çocuk Kitapları Serisi.
+https://bilgeveyonga.oguzergin.net
+
+Tek satır künye:
+  Bilge ve Yonga © 2026 Prof. Dr. Oğuz Ergin · CC BY-NC-ND 4.0
+
+--------------------------------------------------------------------------------
+7. TİCARİ KULLANIM İZNİ
+--------------------------------------------------------------------------------
+
+Ticari kullanım izni yalnızca ayrı, yazılı ve devredilen hakları tek tek
+gösteren bir sözleşmeyle verilir. Sessiz kalma, yanıt vermeme veya içeriğin
+herkese açık olması izin sayılmaz.
+
+  Başvuru : bilgi@oguzergin.net — konu satırı "TİCARİ KULLANIM İZNİ"
+  Usul    : https://bilgeveyonga.oguzergin.net/ticari-kullanim.html
+
+--------------------------------------------------------------------------------
+8. UYGULANACAK HUKUK
+--------------------------------------------------------------------------------
+
+Bu bildirimden doğan uyuşmazlıklarda Türk hukuku uygulanır ve Ankara mahkemeleri
+yetkilidir. Eser sahibinin, ihlalin gerçekleştiği veya etkisini gösterdiği başka
+bir ülkenin hukukuna göre koruma talep etme hakkı saklıdır.
+
+İhlal bildirimi: bilgi@oguzergin.net — konu satırı "İHLAL BİLDİRİMİ"
+
+================================================================================
+ENGLISH SUMMARY
+================================================================================
+
+"Bilge ve Yonga" is a 32-volume open-access series of children's books on
+computer architecture, written in Turkish by Prof. Dr. Oğuz Ergin.
+
+© 2026 Prof. Dr. Oğuz Ergin. Licensed under Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0):
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+ALL RIGHTS NOT GRANTED BY THE LICENCE ARE RESERVED. In particular, and as
+provided by section 2(b) of the licence, trademark rights, moral rights and
+personality rights are not licensed. The series name "Bilge ve Yonga", the
+character names and figures "Bilge" and "Yonga", and any commercial exploitation
+(printing for sale, merchandising, applications, adaptations, translations)
+require separate written permission.
+
+The rightholder EXPRESSLY RESERVES all rights of reproduction and extraction for
+text and data mining and for the training of artificial intelligence models.
+This reservation is expressed by machine-readable means pursuant to Article 4(3)
+of Directive (EU) 2019/790; the exception in Article 3 of that Directive is not
+affected.
+
+Attribution: Ergin, O. (2026). Bilge ve Yonga: Bilgisayar Mimarisi Çocuk
+Kitapları Serisi. https://bilgeveyonga.oguzergin.net
+
+Commercial licensing and infringement notices: bilgi@oguzergin.net
+Governing law: Turkish law. Courts of Ankara, Türkiye.
+
+================================================================================

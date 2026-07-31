@@ -1,0 +1,175 @@
+/* ==========================================================================
+   belge.css — Bilge ve Yonga hukuki sayfaları ortak biçemi
+   --------------------------------------------------------------------------
+   Ana sayfanın renk değişkenlerini ve yazı tiplerini birebir kullanır; böylece
+   hukuki sayfalar siteyle aynı görsel dilde görünür ve tema düğmesiyle uyumlu
+   çalışır. Ana sayfadaki gibi VARSAYILAN TEMA KARANLIKTIR; localStorage'daki
+   'theme' değeri devralınır.
+
+   © 2026 Prof. Dr. Oğuz Ergin · CC BY-NC-ND 4.0
+   ========================================================================== */
+
+:root{
+  --ground:#0D1530; --ground-2:#111B3C; --surface:#182348;
+  --text:#F2EBD9; --muted:#A7B0D6; --line:rgba(255,255,255,.10);
+  --glow:#33C6E6; --glow-soft:#7FD9EE; --coral:#F16A50; --amber:#F3AC2E;
+  --paper:#FBF2E1; --paper-ink:#33294A;
+  --shadow:24px 32px 60px -28px rgba(0,0,0,.6);
+  --font-display:ui-rounded,"Segoe UI Rounded","SF Pro Rounded",Nunito,"Trebuchet MS",system-ui,sans-serif;
+  --font-body:"Segoe UI",system-ui,-apple-system,"Helvetica Neue",sans-serif;
+}
+:root[data-theme="light"]{
+  --ground:#FBF2E1; --ground-2:#F6E7CC; --surface:#FFFFFF;
+  --text:#182253; --muted:#5C6699; --line:rgba(24,34,83,.12);
+  --glow:#159FCB; --glow-soft:#5CC7E0;
+  --shadow:24px 32px 60px -30px rgba(24,34,83,.45);
+}
+:root[data-theme="dark"]{
+  --ground:#0D1530; --ground-2:#111B3C; --surface:#182348;
+  --text:#F2EBD9; --muted:#A7B0D6; --line:rgba(255,255,255,.10);
+  --glow:#33C6E6; --glow-soft:#7FD9EE;
+  --shadow:24px 32px 60px -28px rgba(0,0,0,.6);
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; background:var(--ground); color:var(--text);
+  font-family:var(--font-body); line-height:1.72;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+
+/* ------------------------------------------------------------ üst çubuk */
+.ust{
+  position:sticky; top:0; z-index:20; background:var(--ground-2);
+  border-bottom:1px solid var(--line);
+  padding:12px clamp(16px,3vw,32px);
+  display:flex; align-items:center; gap:14px; flex-wrap:wrap;
+}
+.ust .marka{
+  display:flex; align-items:center; gap:9px; text-decoration:none;
+  font-family:var(--font-display); font-weight:800; color:var(--text);
+  font-size:1.06rem;
+}
+.ust .marka img{width:30px;height:30px}
+.ust .marka span{color:var(--coral)}
+.ust .geri{
+  margin-left:auto; text-decoration:none; color:var(--muted); font-weight:700;
+  font-size:.9rem; border:1.5px solid var(--line); border-radius:999px;
+  padding:.45em .95em; transition:.16s;
+}
+.ust .geri:hover{color:var(--glow); border-color:var(--glow)}
+.ust .tema{
+  background:transparent; border:1.5px solid var(--line); border-radius:999px;
+  color:var(--muted); cursor:pointer; font:inherit; font-size:.9rem;
+  padding:.45em .8em; transition:.16s;
+}
+.ust .tema:hover{color:var(--glow); border-color:var(--glow)}
+
+/* --------------------------------------------------------------- gövde */
+.sayfa{max-width:860px; margin:0 auto; padding:clamp(28px,5vw,64px) clamp(18px,4vw,28px) 80px}
+
+.baslik{margin-bottom:34px; padding-bottom:26px; border-bottom:2px solid var(--line)}
+.baslik .etiket{
+  font-size:.74rem; letter-spacing:.16em; text-transform:uppercase;
+  font-weight:800; color:var(--glow); margin:0 0 10px;
+}
+.baslik h1{
+  font-family:var(--font-display); font-weight:800; line-height:1.1;
+  font-size:clamp(1.85rem,4.4vw,2.7rem); margin:0 0 12px; text-wrap:balance;
+}
+.baslik .ozet{color:var(--muted); font-size:1.06rem; margin:0}
+
+.kunye-kutu{
+  background:var(--surface); border:1px solid var(--line); border-radius:16px;
+  padding:16px 20px; margin:22px 0 0; font-size:.9rem; color:var(--muted);
+  display:grid; grid-template-columns:auto 1fr; gap:6px 18px;
+}
+.kunye-kutu b{color:var(--text); font-weight:700; white-space:nowrap}
+
+h2{
+  font-family:var(--font-display); font-weight:800; line-height:1.2;
+  font-size:clamp(1.3rem,2.6vw,1.7rem); margin:46px 0 14px;
+  scroll-margin-top:74px;
+}
+h3{
+  font-family:var(--font-display); font-weight:800; line-height:1.25;
+  font-size:clamp(1.06rem,2vw,1.25rem); margin:30px 0 10px; color:var(--glow-soft);
+  scroll-margin-top:74px;
+}
+p{margin:0 0 15px}
+ul,ol{margin:0 0 18px; padding-left:1.35em}
+li{margin:0 0 8px}
+a{color:var(--glow)}
+a:hover{color:var(--glow-soft)}
+strong{color:var(--text)}
+code{
+  font-family:ui-monospace,"Cascadia Mono",Consolas,monospace; font-size:.92em;
+  background:var(--surface); border:1px solid var(--line);
+  border-radius:6px; padding:.08em .38em;
+}
+hr{border:0; border-top:1px solid var(--line); margin:38px 0}
+
+/* -------------------------------------------------------------- tablo */
+.tablo-kap{overflow-x:auto; margin:0 0 22px; border-radius:14px; border:1px solid var(--line)}
+table{border-collapse:collapse; width:100%; min-width:520px; font-size:.94rem}
+th,td{padding:11px 14px; text-align:left; vertical-align:top;
+  border-bottom:1px solid var(--line)}
+th{background:var(--ground-2); font-weight:800; color:var(--text)}
+tr:last-child td{border-bottom:0}
+
+/* ------------------------------------------------------------ kutular */
+.kutu{
+  background:var(--surface); border:1px solid var(--line);
+  border-left:4px solid var(--glow); border-radius:14px;
+  padding:18px 20px; margin:0 0 22px;
+}
+.kutu.uyari{border-left-color:var(--coral)}
+.kutu.olur{border-left-color:#3FBF7F}
+.kutu.bilgi{border-left-color:var(--amber)}
+.kutu > :last-child{margin-bottom:0}
+.kutu .kutu-baslik{
+  font-family:var(--font-display); font-weight:800; margin:0 0 8px;
+  font-size:1.02rem;
+}
+
+.ozet-serit{
+  background:linear-gradient(135deg,rgba(51,198,230,.13),rgba(241,106,80,.10));
+  border:1px solid var(--line); border-radius:18px;
+  padding:20px 22px; margin:0 0 30px;
+}
+.ozet-serit > :last-child{margin-bottom:0}
+
+/* ------------------------------------------------------- içindekiler */
+.icindekiler{
+  background:var(--ground-2); border:1px solid var(--line); border-radius:16px;
+  padding:18px 22px; margin:0 0 36px;
+}
+.icindekiler p{font-weight:800; margin:0 0 10px; font-family:var(--font-display)}
+.icindekiler ol{margin:0; padding-left:1.3em; columns:2; column-gap:26px}
+.icindekiler li{margin:0 0 6px; break-inside:avoid}
+@media (max-width:620px){.icindekiler ol{columns:1}}
+
+/* ---------------------------------------------------------- altbilgi */
+.alt{
+  border-top:1px solid var(--line); background:var(--ground-2);
+  padding:30px clamp(18px,4vw,28px) 42px; text-align:center;
+  color:var(--muted); font-size:.86rem; line-height:1.7;
+}
+.alt .telif{font-weight:700; color:var(--text); margin:0 0 6px}
+.alt .baglar{
+  margin-top:12px; display:flex; flex-wrap:wrap; gap:6px 16px;
+  justify-content:center;
+}
+.alt a{color:inherit; text-decoration:none; border-bottom:1px solid var(--line)}
+.alt a:hover{color:var(--glow); border-color:var(--glow)}
+.alt .atif{margin-top:12px; font-size:.8rem; opacity:.78}
+
+/* -------------------------------------------------------- yazdırma */
+@media print{
+  .ust,.alt .baglar,#bvy-olcum{display:none}
+  body{background:#fff;color:#111}
+  a{color:#111}
+  .sayfa{max-width:none;padding:0}
+}

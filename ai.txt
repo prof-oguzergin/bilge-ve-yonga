@@ -1,0 +1,148 @@
+# ============================================================================
+# ai.txt — Yapay Zekâ Kullanım İzinleri Bildirimi
+# AI Usage Permissions Declaration
+#
+# Site: https://bilgeveyonga.oguzergin.net/
+# Eser sahibi / Rightholder: Prof. Dr. Oğuz Ergin
+# İletişim / Contact: bilgi@oguzergin.net
+# Yürürlük / Effective: 2026-07-26
+# Sürüm / Version: 1.0
+# ============================================================================
+
+
+## 1. İÇERİK TANIMI / CONTENT DESCRIPTION
+
+Bu alan adında yayımlanan içerik, "Bilge ve Yonga" adlı 32 kitaplık çocuk
+kitabı serisidir. Seri, bilgisayar mimarisini 7-12 yaş grubuna anlatır.
+Metinlerin tamamı Prof. Dr. Oğuz Ergin tarafından yazılmıştır. Görseller,
+tek bir karakter föyüne bağlı kalınarak yapay zekâ araçlarıyla üretilmiş ve
+eser sahibi tarafından tek tek seçilerek düzenlenmiştir.
+
+İçerik türleri: HTML (web okuyucu), PDF, EPUB, JPEG/PNG görseller.
+
+The content published on this domain is "Bilge ve Yonga", a 32-volume series
+of children's books on computer architecture, written by Prof. Dr. Oguz Ergin
+and published in Turkish.
+
+
+## 2. LİSANS / LICENCE
+
+Creative Commons Atıf-GayriTicari-Türetilemez 4.0 Uluslararası
+(CC BY-NC-ND 4.0)
+https://creativecommons.org/licenses/by-nc-nd/4.0/deed.tr
+
+İzin verilen: ad belirterek, değiştirmeden, ticari olmayan amaçla paylaşım.
+İzin verilmeyen: ticari kullanım, türev eser üretimi, uyarlama.
+
+Permitted: sharing with attribution, unmodified, for non-commercial purposes.
+Not permitted: commercial use, adaptations, derivative works.
+
+
+## 3. HAK SAKLI TUTMA / RIGHTS RESERVATION
+
+Eser sahibi, bu sitedeki hiçbir içeriğin aşağıdaki amaçlarla kullanılmasına
+izin VERMEMEKTEDİR ve bu haklarını açıkça saklı tutmaktadır:
+
+The rightholder EXPRESSLY RESERVES all rights and does NOT permit the use of
+any content on this site for:
+
+  - Metin ve veri madenciliği / text and data mining
+  - Üretken yapay zekâ modeli eğitimi / generative AI model training
+  - Üretken olmayan yapay zekâ modeli eğitimi / non-generative AI training
+  - İnce ayar, damıtma, sürekli ön eğitim /
+    fine-tuning, distillation, continued pre-training
+  - Gömme (embedding) ve vektör veri tabanı üretimi /
+    embedding and vector database generation
+  - Erişim artırılmış üretim (RAG) korpusuna dahil etme /
+    inclusion in retrieval-augmented generation corpora
+  - Ticari veri kümesi derleme ve yeniden dağıtımı /
+    compilation and redistribution as a commercial dataset
+  - Karakterlerin (Bilge, Yonga) görsel veya anlatısal olarak yeniden
+    üretilmesini sağlayacak model eğitimi /
+    training aimed at reproducing the characters "Bilge" and "Yonga"
+
+Bu rezervasyon, 2019/790 sayılı Avrupa Birliği Direktifi'nin 4(3) maddesi
+anlamında makine okunabilir biçimde ifade edilmiş bir hak saklı tutmadır.
+Aynı Direktif'in 3. maddesi kapsamındaki, araştırma kuruluşları ve kültürel
+miras kurumları tarafından bilimsel araştırma amacıyla yürütülen metin ve
+veri madenciliği bu rezervasyonun dışındadır.
+
+This reservation is expressed by machine-readable means pursuant to
+Article 4(3) of Directive (EU) 2019/790. It does not affect the mandatory
+exception in Article 3 of that Directive for scientific research carried out
+by research organisations and cultural heritage institutions.
+
+Türk hukuku bakımından: 5846 sayılı Fikir ve Sanat Eserleri Kanunu'nda metin
+ve veri madenciliğine ilişkin bir istisna bulunmamaktadır. İzinsiz çoğaltma
+ve işleme, aynı Kanunun 21, 22 ve 25. maddelerindeki mali hakların ihlalidir.
+
+
+## 4. MAKİNE OKUNABİLİR YÖNERGELER / MACHINE-READABLE DIRECTIVES
+
+User-Agent: *
+Disallow: /
+Disallow: *.html
+Disallow: *.pdf
+Disallow: *.epub
+Disallow: *.jpg
+Disallow: *.jpeg
+Disallow: *.png
+Disallow: *.webp
+Disallow: *.svg
+Disallow: *.txt
+Disallow: *.json
+Disallow: *.xml
+
+# Yukarıdaki yönergeler yalnızca yapay zekâ eğitimi ve veri madenciliği
+# amaçlı erişimi kapsar. Sıradan okuma, indirme, arama motoru indekslemesi
+# ve lisansa uygun paylaşım serbesttir; bunlar robots.txt ile düzenlenmiştir.
+#
+# The directives above apply solely to AI training and data mining. Ordinary
+# reading, downloading, search engine indexing and licence-compliant sharing
+# remain permitted and are governed by /robots.txt.
+
+
+## 5. İZİN ALMA / OBTAINING PERMISSION
+
+Yapay zekâ eğitimi veya herhangi bir ticari kullanım için izin, yalnızca
+eser sahibinin ayrı, yazılı ve devredilen hakları tek tek gösteren
+sözleşmesiyle verilir. Sessiz kalma, yanıt vermeme veya içeriğin herkese
+açık olması izin sayılmaz.
+
+Permission for AI training or any commercial use is granted only by a
+separate written agreement signed by the rightholder, enumerating each right
+transferred. Silence, non-response, or public accessibility of the content
+does not constitute permission.
+
+  Başvuru / Requests: bilgi@oguzergin.net
+  Konu satırı / Subject line: "YZ EĞİTİM İZNİ" veya "AI TRAINING REQUEST"
+
+Başvuruda belirtilmesi gerekenler / Please state:
+  1. Talep eden kuruluşun tam unvanı ve ülkesi
+  2. Modelin adı, türü ve kullanım amacı
+  3. Kullanılacak içeriğin kapsamı (hangi kitaplar, hangi biçimler)
+  4. Çıktıda atıf ve türev üretim politikası
+  5. Önerilen bedel ve süre
+
+
+## 6. İLGİLİ DOSYALAR / RELATED FILES
+
+  /robots.txt
+  /llms.txt
+  /LICENSE.txt
+  /sitemap.xml
+  /.well-known/tdmrep.json          (W3C TDMRep rezervasyon konumu)
+  /tdm-policy.json                  (rezervasyon politikası belgesi)
+  /telif-ve-lisans.html             (telif, lisans ve ticari kullanım politikası)
+  /kullanim-kosullari.html          (sitenin kullanım koşulları)
+  /yapay-zeka-bildirimi.html        (bu bildirimin kanonik ve tam metni)
+  /ticari-kullanim.html             (izin başvurusu usulü ve formu)
+
+
+## 7. İHLAL BİLDİRİMİ / NOTICE OF INFRINGEMENT
+
+Bu bildirime aykırı kullanım tespit edildiğinde eser sahibi, tespit,
+tecavüzün ref'i, men ve tazminat talepleriyle birlikte 5846 sayılı Kanunun
+68. maddesi uyarınca rayiç bedelin üç katına kadar tazminat talep etme
+hakkını saklı tutar. Uygulanacak hukuk Türk hukuku, yetkili mahkeme Ankara
+mahkemeleridir; koruma talep edilen ülkenin hukukuna başvurma hakkı saklıdır.

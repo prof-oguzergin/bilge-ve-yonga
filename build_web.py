@@ -1,0 +1,1146 @@
+# -*- coding: utf-8 -*-
+"""Bilge ve Yonga sitesini kurar: her kitap icin tarayici okuyucu (okuyucu/) +
+ana sayfa (index.html). Gorseller depodaki gercek dosyalara baglanir; serit icin
+kucuk jpg'ler uretilir. Yeni kitap eklerken BOOKS listesine bir satir ekleyip calistir."""
+import io, json, re, zipfile
+from pathlib import Path
+from urllib.parse import quote
+from xml.sax.saxutils import escape
+from PIL import Image
+
+REPO = Path(__file__).resolve().parent
+OKU = REPO / 'okuyucu'
+THUMBS = OKU / 'thumbs'
+OKU.mkdir(exist_ok=True)
+THUMBS.mkdir(exist_ok=True)
+
+# Okuyucudaki konusan kalibi ({B}"..." / {Y}"...") ilk kapanan tirnakta durur.
+# Bir replik icinde ikinci bir cift tirnak acilirsa kalip repligi ortasindan
+# keser; gerisi renksiz, simgesiz duz metin olarak kalir. Kirilmanin izi nettir:
+# yakalanan replik boslukla biter ('"Buna "' gibi). Anlatiya dusen tirnaklar
+# (... dedi. Bu "ANLA" adimiydi.) kalibi bozmaz, uyari uretmez. Terimi vurgulamak
+# icin replik icinde tirnak degil **kalin** kullanilir.
+UYARILAR = []
+
+
+def replik_denetle(kitap, no, text):
+    for m in re.finditer(r'\{[BYD]\}"([^"]*)"', text):
+        if m.group(1) != m.group(1).strip():
+            UYARILAR.append('%s S%s: replik icinde ikinci tirnak aciliyor -> %s'
+                            % (kitap, no, m.group(0)[:46]))
+
+# Seri kimlikleri: (baslik, aciklama, seri-rengi). Anahtar = kitap numarasinin
+# noktadan onceki kismi ('1' -> Alt Seri 1). Yeni seri eklerken buraya bir satir ekle.
+SERIES = {
+    '1': ('Kumdan Bilgisayara',
+          'Bir yonga nasıl doğar, bilgisayar nasıl çalışır ve nasıl düşünmeyi öğrenir.',
+          '#2E8CC7'),
+    '2': ('Hız ve Güç',
+          'Bir bilgisayarı hızlı ve güvenilir yapan nedir? Başarımın sırları.',
+          '#D97326'),
+    '3': ('Buyrukların Dünyası',
+          'Bir bilgisayara ne yapacağını nasıl söyleriz? Buyrukların dili.',
+          '#2E9E5B'),
+    # 4. seri MOR kimliktedir (eflatundan koyu mora). Kitaplari BOOKS listesine
+    # eklenene kadar bu seri sayfada gorunmez, build_index bos seriyi atlar.
+    # Kart sirasi (10 kitap): #9B5FD0 #8F57C2 #834EB4 #7746A7 #6B3E99
+    #                        #5E358B #522D7D #462570 #3A1C62 #2E1454
+    '4': ('İşlemcinin İçi',
+          'Bir işlemci içeriden nasıl kurulur? Toplayıcılar, veri yolları ve denetim birimi.',
+          '#8A4FC0'),
+}
+
+# (klasor, no, baslik, alt-baslik, vurgu-renk)
+# Alt Seri 1 mavi kimliktedir: her kitap camgobeginden civit maviye uzanan bir mavi tonu.
+# Alt Seri 2 turuncu kimliktedir: kehribardan kiremit turuncusuna uzanan tonlar.
+# ─── Kahraman destesi ────────────────────────────────────────────────────────
+# Ondeki kart hep ayni (ilk izlenim ve serinin girisi), arkadaki dort kart
+# her sayfa yuklenisinde bu havuzdan rastgele cekilir. Havuz elle secildi:
+# kucuk egik kartta guclu duran, birbirine benzemeyen, uc seriyi de temsil
+# eden kapaklar. Kapaklar 900 piksele olceklenir; 480 piksellik kapaklar
+# yogun ekranlarda bulanik kaliyordu.
+DESTE_ON = 'kitap1.01a'
+DESTE_HAVUZ = ['kitap1.02', 'kitap1.09', 'kitap2.02', 'kitap2.04', 'kitap2.06',
+               'kitap2.10', 'kitap3.01', 'kitap3.07', 'kitap3.08', 'kitap3.11']
+DESTE_ARKA = 4            # ondeki kartin arkasinda kac kart durur
+DESTE_GENISLIK = 900      # piksel
+
+BOOKS = [
+    ('kitap1.01a-kumdan-bilgisayar', '1.1a', 'Kumdan Bilgisayar',
+     'Bir avuç kumdan yongaya uzanan üretim yolculuğu', '#2B93D1'),
+    ('kitap1.01b-bazen-gecer-bazen-gecmez', '1.1b', 'Bazen Geçer, Bazen Geçmez',
+     'Silisyum neden seçildi: yarı iletken ve transistörün doğuşu', '#2889C6'),
+    ('kitap1.02-milyarlarca-kucuk-anahtar', '1.2', 'Milyarlarca Küçük Anahtar',
+     'Transistörler, açık-kapalı anahtarlar ve ikili sayılar', '#267FBA'),
+    ('kitap1.03-bilgisayarin-bes-arkadasi', '1.3', 'Bilgisayarın Beş Arkadaşı',
+     'İşlemci, bellek, depo, giriş ve çıkış', '#2375AF'),
+    ('kitap1.04-al-anla-yap', '1.4', 'Al, Anla, Yap!',
+     'Bir bilgisayar buyrukları nasıl adım adım işler', '#216BA3'),
+    ('kitap1.05-soganin-katmanlari', '1.5', 'Soğanın Katmanları',
+     'Donanımdan uygulamalara yazılımın katmanları', '#1E6298'),
+    ('kitap1.06-moorenun-sihirli-takvimi', '1.6', 'Moore’un Sihirli Takvimi',
+     'Moore Yasası ve transistörlerin çoğalışı', '#1B588D'),
+    ('kitap1.07-iki-kardes-risc-ve-cisc', '1.7', 'İki Kardeş: RISC ve CISC',
+     'İki buyruk kümesi ailesi: az ama hızlı, çok ama güçlü', '#194E81'),
+    ('kitap1.08-acik-kapi', '1.8', 'Açık Kapı',
+     'Açık kaynak donanım ve RISC-V: paylaşınca herkes büyür', '#164476'),
+    ('kitap1.09-bilgisayarin-atesi', '1.9', 'Bilgisayarın Ateşi',
+     'Güç, ısı ve güç duvarı: bilgisayar neden ısınır', '#143A6A'),
+    ('kitap1.10-bilgisayar-dusunmeyi-ogreniyor', '1.10', 'Bilgisayar Düşünmeyi Öğreniyor',
+     'Yapay zeka hızlandırıcıları: CPU, GPU, TPU, NPU', '#11305F'),
+    ('kitap2.01-uzaydaki-bilgisayar', '2.1', 'Uzaydaki Bilgisayar',
+     'Güvenilirlik, kozmik ışınlar ve Mars’taki Curiosity', '#E08A2E'),
+    ('kitap2.02-davulcu-ve-kurekciler', '2.2', 'Davulcu ve Kürekçiler',
+     'Saat vuruş sıklığı, buyruk sayısı ve BBÇ: başarım denklemi', '#D97326'),
+    ('kitap2.03-dunyanin-en-hizli-mutfagi', '2.3', 'Dünyanın En Hızlı Mutfağı',
+     'Gecikme, işlem hacmi ve koşutluk: aşçılar gibi çekirdekler', '#C85F1F'),
+    ('kitap2.04-corumlu-orhan-ile-edirneli-orhan', '2.4', 'Çorumlu Orhan ile Edirneli Orhan',
+     'Adım boyu × tempo: bir adımda yapılan iş ile saat hızı', '#C04F18'),
+    ('kitap2.05-ayakkabi-bagini-hizli-baglasan', '2.5', 'Ayakkabı Bağını Hızlı Bağlasan Ne Olur?',
+     'Amdahl Yasası: en büyük parçayı, darboğazı hızlandır', '#B84812'),
+    ('kitap2.06-yaris-pisti', '2.6', 'Yarış Pisti',
+     'Sınama programları ve SPEC: bilgisayarları adil karşılaştırmak', '#B0400E'),
+    ('kitap2.07-altin-cag-ve-duvar', '2.7', 'Altın Çağ ve Duvar',
+     'Altın çağ, güç duvarı ve çok çekirdeğe geçiş', '#A8380A'),
+    ('kitap2.08-gustafsonun-bahcesi', '2.8', 'Gustafson\'un Bahçesi',
+     'Gustafson Yasası: daha çok çekirdekle daha büyük iş', '#A0300B'),
+    ('kitap2.09-dar-gecit', '2.9', 'Dar Geçit',
+     'Bellek duvarı ve önbellek: hızlı işlemci, yavaş bellek', '#982A0B'),
+    ('kitap2.10-kim-daha-hizli', '2.10', 'Kim Daha Hızlı?',
+     'Her iş için doğru araç: telefondan süper bilgisayara', '#90240B'),
+    ('kitap3.01-iki-dunyanin-koprusu', '3.1', 'İki Dünyanın Köprüsü',
+     'Buyruk kümesi mimarisi: yazılım ile donanımın ortak dili', '#2E9E5B'),
+    ('kitap3.02-siranin-ustundeki-kalemler', '3.2', 'Sıranın Üstündeki Kalemler',
+     'Yazmaçlar, bellek düzeni ve bayt sırası', '#2C9553'),
+    ('kitap3.03-zarfin-ustundeki-bolmeler', '3.3', 'Zarfın Üstündeki Bölmeler',
+     'Buyruk biçimleri ve adresleme kipleri', '#2A8C4E'),
+    ('kitap3.04-parkta-kavsak', '3.4', 'Parkta Kavşak',
+     'Dallanma, döngüler ve altyordamlar', '#277F49'),
+    ('kitap3.05-mektup-fabrikasi', '3.5', 'Mektup Fabrikası',
+     'Derleme zinciri: derleyici, çevirici, bağlayıcı', '#24763F'),
+    ('kitap3.06-toplama-makinesi', '3.6', 'Toplama Makinesi',
+     'Aritmetik buyruklar: toplama, çıkarma, çarpma', '#216D3A'),
+    ('kitap3.07-sihirli-maskeler', '3.7', 'Sihirli Maskeler',
+     'Mantık buyrukları: VE, VEYA, DEĞİL ve bit maskeleri', '#1E6435'),
+    ('kitap3.08-sifirin-gucu', '3.8', 'Sıfırın Gücü',
+     'x0 yazmacı: hep sıfır kalan güvenilir arkadaş', '#1B5B30'),
+    ('kitap3.09-kulelerin-oyunu', '3.9', 'Kulelerin Oyunu',
+     'Yığıt ve altyordamlar: son giren ilk çıkar', '#195B2C'),
+    ('kitap3.10-tasiyicilar', '3.10', 'Taşıyıcılar',
+     'Yükle ve sakla: bellek ile yazmaç arasındaki yolculuk', '#175229'),
+    ('kitap3.11-dedektif-bilge-ve-kayip-sonuc', '3.11', 'Dedektif Bilge ve Kayıp Sonuç',
+     'Hata ayıklama: ara nokta, adım adım yürütme, yazmaçlara bakmak', '#144822'),
+]
+
+
+def make_thumb(src_png, out_jpg, w=240, q=72):
+    im = Image.open(src_png).convert('RGB')
+    h = round(im.height * w / im.width)
+    im.resize((w, h), Image.LANCZOS).save(out_jpg, 'JPEG', quality=q)
+
+
+def find_pdf(folder_dir):
+    pdfs = sorted(folder_dir.glob('*.pdf'))
+    return pdfs[0].name if pdfs else None
+
+
+def parse_book(folder, no, title, subtitle):
+    d = REPO / folder
+    md = (d / (folder + '.md')).read_text(encoding='utf-8')
+    res = d / 'resimler'
+    key = 'k' + no.replace('.', '')  # 1.7 -> k17
+    pages = []
+
+    # kapak
+    make_thumb(res / 'GPT_Kapak.jpg', THUMBS / f'{key}_K.jpg')
+    pages.append({
+        'type': 'cover',
+        'eyebrow': f'Bilge ve Yonga · Kitap {no}',
+        'title': title,
+        'sub': subtitle,
+        'img': f'../{folder}/resimler/GPT_Kapak.jpg',
+        'thumb': f'thumbs/{key}_K.jpg',
+    })
+
+    # sayfalar
+    for b in re.split(r'\n## ', md):
+        m = re.match(r'Sayfa (\d+)(?:\s*[—–-]\s*(.+))?', b)
+        if not m:
+            continue
+        n = int(m.group(1))
+        ttl = (m.group(2) or '').strip()
+        # Metin ya alt satirda ya da **Metin:** ile ayni satirda baslar
+        # (3.11 ayni satir bicimini kullaniyor). Her ikisini de kabul et.
+        tm = re.search(r'\*\*Metin:\*\*[ \t]*\n?(.+?)\n\s*\n\*\*Resim', b, re.S)
+        text = tm.group(1).strip() if tm else ''
+        # Madde imleri: kaynak markdown '-' kullaniyor ama ne okuyucu ne PDF
+        # markdown listesi cozuyor; ham '-' metne sizmasin diye gercek
+        # madde isaretine cevriliyor.
+        text = re.sub(r'(?m)^[-*+] ', '• ', text)
+        replik_denetle(folder, n, text)
+        png = res / f'GPT_Sayfa_{n}.jpg'
+        if not png.exists():
+            continue
+        make_thumb(png, THUMBS / f'{key}_{n}.jpg')
+        pages.append({'type': 'page', 'no': n, 'title': ttl, 'text': text,
+                      'img': f'../{folder}/resimler/GPT_Sayfa_{n}.jpg',
+                      'thumb': f'thumbs/{key}_{n}.jpg'})
+
+    # bugun ne ogrendik
+    sm = re.search(r'## Bugün Ne Öğrendik\?\s*\n(.+?)(?:\n\s*---|\Z)', md, re.S)
+    if sm:
+        lines = [re.sub(r'^[-*+\u2022]\s+', '', ln.strip())
+                 for ln in sm.group(1).strip().split('\n') if ln.strip()]
+        pages.append({'type': 'summary', 'title': 'Bugün Ne Öğrendik?', 'lines': lines})
+    return pages
+
+
+def _epub_bloklar(t):
+    """Sayfa metnini <p>/<pre> bloklarina ayirir.
+
+    (html, olculer) dondurur; olculer sabit duzende yazi boyu hesabi icin
+    ('p', karakter) ya da ('kod', satir) ciftleridir. Bos satirla ayrilan
+    paragraflar ayri <p> olur; eskiden hepsi tek <p> icinde birlesip
+    paragraf araligi kayboluyordu.
+    """
+    # Konusan isaretleri yalnizca tarayici okuyucusunda gosteriliyor;
+    # EPUB ve PDF'te temizleniyor.
+    t = re.sub(r'\{[BYD]\}', '', t)
+    kod = []
+
+    def _sakla(m):
+        kod.append(m.group(1).rstrip())
+        return '\x00K%d\x00' % (len(kod) - 1)
+
+    t = re.sub(r'```\n?([\s\S]*?)```', _sakla, t)
+
+    html, olcu = [], []
+    for par in re.split(r'\n\s*\n', t.strip()):
+        par = par.strip()
+        if not par:
+            continue
+        tek = re.fullmatch(r'\x00K(\d+)\x00', par)
+        if tek:
+            k = kod[int(tek.group(1))]
+            html.append('<pre class="code">' + escape(k) + '</pre>')
+            olcu.append(('kod', k.count('\n') + 1))
+            continue
+        s = escape(par)
+        # paragrafin ortasina dusen kod parcasi <pre> olamaz, satir ici olur
+        s = re.sub(r'\x00K(\d+)\x00',
+                   lambda m: '<code class="cmd">' + escape(kod[int(m.group(1))]) + '</code>', s)
+        s = re.sub(r'`([^`\n]+)`', r'<code class="cmd">\1</code>', s)
+        s = re.sub(r'\*\*(.+?)\*\*', r'<em class="term">\1</em>', s)
+        html.append('<p>' + s.replace('\n', ' ') + '</p>')
+        olcu.append(('p', len(par)))
+    return ''.join(html), olcu
+
+
+def _yazi_boyu(olcu, genislik, butce, boylar, satir=1.5, ara=0.5):
+    """Bloklarin tahmini yuksekligi butceye sigan en buyuk yazi boyunu secer.
+
+    Sabit duzende sayfa tasmasi metni kirpar, bu yuzden boy pesin hesaplanir.
+    Karakter genisligi olcut olarak 0.52 em alinir (Georgia, Turkce metin).
+    """
+    for fs in boylar:
+        kps = max(8, int(genislik / (fs * 0.52)))
+        satirlar = 0
+        for tur, deger in olcu:
+            satirlar += deger if tur == 'kod' else max(1, -(-deger // kps))
+        h = satirlar * fs * satir + max(0, len(olcu) - 1) * fs * ara
+        if h <= butce:
+            return fs
+    return boylar[-1]
+
+
+def _jpeg_bytes(path, w=1400, q=82):
+    im = Image.open(path).convert('RGB')
+    h = round(im.height * w / im.width)
+    im = im.resize((w, h), Image.LANCZOS)
+    bio = io.BytesIO(); im.save(bio, 'JPEG', quality=q)
+    return bio.getvalue()
+
+
+def _parse_pages_local(folder, no, title, subtitle):
+    """EPUB icin: gorsel dosya yollari + metin dondurur."""
+    d = REPO / folder
+    md = (d / (folder + '.md')).read_text(encoding='utf-8')
+    res = d / 'resimler'
+    pages = [{'kind': 'cover', 'img': res / 'GPT_Kapak.jpg'}]
+    for b in re.split(r'\n## ', md):
+        m = re.match(r'Sayfa (\d+)(?:\s*[—–-]\s*(.+))?', b)
+        if not m:
+            continue
+        n = int(m.group(1)); ttl = (m.group(2) or '').strip()
+        # Metin ya alt satirda ya da **Metin:** ile ayni satirda baslar
+        # (3.11 ayni satir bicimini kullaniyor). Her ikisini de kabul et.
+        tm = re.search(r'\*\*Metin:\*\*[ \t]*\n?(.+?)\n\s*\n\*\*Resim', b, re.S)
+        text = tm.group(1).strip() if tm else ''
+        # Madde imleri: kaynak markdown '-' kullaniyor ama ne okuyucu ne PDF
+        # markdown listesi cozuyor; ham '-' metne sizmasin diye gercek
+        # madde isaretine cevriliyor.
+        text = re.sub(r'(?m)^[-*+] ', '• ', text)
+        png = res / f'GPT_Sayfa_{n}.jpg'
+        if not png.exists():
+            continue
+        pages.append({'kind': 'page', 'no': n, 'title': ttl, 'text': text, 'img': png})
+    sm = re.search(r'## Bugün Ne Öğrendik\?\s*\n(.+?)(?:\n\s*---|\Z)', md, re.S)
+    if sm:
+        lines = [re.sub(r'^[-*+\u2022]\s+', '', ln.strip())
+                 for ln in sm.group(1).strip().split('\n') if ln.strip()]
+        pages.append({'kind': 'summary', 'lines': lines})
+    return pages
+
+
+# ─── EPUB hak bildirimleri ───────────────────────────────────────────────────
+# Metinler Av. Mehmet Arın Gülüm'ün uygulama şartnamesinin H.2 ve H.3
+# bölümlerinden BİREBİR alınmıştır; sözcükleri değiştirilmez.
+EPUB_HAKLAR = (
+    '© 2026 Prof. Dr. Oğuz Ergin. Bu eser Creative Commons '
+    'Atıf-GayriTicari-Türetilemez 4.0 Uluslararası (CC BY-NC-ND 4.0) lisansı '
+    'ile açık erişime sunulmuştur '
+    '(https://creativecommons.org/licenses/by-nc-nd/4.0/deed.tr). '
+    'Lisansın kapsamadığı tüm haklar saklıdır: "Bilge ve Yonga" seri adı, '
+    '"Bilge" ve "Yonga" karakter adları ile figürleri, marka hakları, eser '
+    'sahibinin adı ve unvanı ve manevi haklar lisans kapsamı dışındadır. '
+    'Metin ve veri madenciliği ile yapay zekâ modeli eğitimi bakımından '
+    'haklar açıkça saklı tutulmuştur. Ticari kullanım izni: '
+    'bilgi@oguzergin.net'
+)
+EPUB_KATKI = (
+    'Prof. Dr. Oğuz Ergin (görsel yönetimi: karakter föyü, seçim ve '
+    'düzenleme; görseller yapay zekâ araçlarıyla üretilmiştir)'
+)
+CC_URI = 'https://creativecommons.org/licenses/by-nc-nd/4.0/'
+
+# Sabit duzen (fixed-layout) sayfa olcusu. Resimler 16:9 oldugu icin sayfa da
+# 16:9: boylece resim kenar bosluksuz oturur ve Apple Books sayfayi iki sutuna
+# bolmez. Yeniden akan (reflowable) kipte iPad yatayken bir ekranda iki kitap
+# sayfasi goruluyor, kapak da sutun genisligine kuculuyordu.
+EP_W, EP_H = 1400, 788
+
+EPUB_CSS = """@charset "utf-8";
+html,body{margin:0;padding:0;width:1400px;height:788px;overflow:hidden}
+body{background:#0a0e20;color:#2b2440;-webkit-text-size-adjust:none;
+  font-family:Georgia,"Iowan Old Style","Times New Roman",serif}
+.pg{position:absolute;top:0;left:0;width:1400px;height:788px;overflow:hidden}
+.pg img{position:absolute;top:0;left:0;width:1400px;height:788px;margin:0;padding:0}
+.band{position:absolute;left:0;bottom:0;width:1400px;box-sizing:border-box;
+  padding:22px 44px 26px;color:#fff;
+  background:-webkit-linear-gradient(top,rgba(23,32,110,.56),rgba(23,32,110,.86));
+  background:linear-gradient(to bottom,rgba(23,32,110,.56),rgba(23,32,110,.86))}
+.band p{margin:0;padding:0}
+.band p+p{margin-top:.5em}
+.band .term{font-style:normal;font-weight:700;color:#FFC978}
+.band .cmd{font-family:"Courier New",monospace;color:#9FE8C4;
+  background:rgba(255,255,255,.12);padding:0 .22em;border-radius:4px}
+.band .code{display:block; font-family:"Courier New",monospace;color:#D6E9FF;white-space:pre;
+  background:rgba(0,0,0,.34);padding:.5em .7em;border-radius:8px;margin:.5em 0 0}
+.sum{position:absolute;top:0;left:0;width:1400px;height:788px;box-sizing:border-box;
+  background:#FBF2E1;color:#33294A;padding:38px 68px}
+.sum h2{font-family:"Helvetica Neue",Arial,sans-serif;color:#182253;
+  font-size:34px;line-height:1.15;margin:0 0 22px}
+.sum ul{list-style:none;padding:0;margin:0}
+.sum li{border-left:3px solid #f3ac2e;padding:.1em 0 .1em .7em;margin:0 0 .5em}
+.sum li:last-child{margin-bottom:0}
+.sum .term{font-style:normal;font-weight:700;color:#C24A18}
+.sum .telif{position:absolute;left:0;bottom:20px;width:1400px;margin:0;
+  text-align:center;font-size:15px;opacity:.55}
+"""
+
+
+def _xhtml(title_text, body):
+    return ('<?xml version="1.0" encoding="UTF-8"?>\n'
+            '<!DOCTYPE html>\n'
+            '<html xmlns="http://www.w3.org/1999/xhtml" '
+            'xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="tr" lang="tr">\n'
+            '<head><meta charset="utf-8"/>'
+            f'<meta name="viewport" content="width={EP_W}, height={EP_H}"/>'
+            '<title>' + escape(title_text) + '</title>'
+            '<link rel="stylesheet" type="text/css" href="style.css"/></head>\n'
+            '<body>' + body + '</body>\n</html>\n')
+
+
+
+# Sartname B.1 — her sayfada ayni telif blogu (D.3 tutarlilik kurali)
+BVY_TELIF_META = '''<!-- BVY-TELIF-BASLANGIC -->
+<meta name="author" content="Prof. Dr. Oğuz Ergin">
+<meta name="copyright" content="© 2026 Prof. Dr. Oğuz Ergin. Tüm eserler CC BY-NC-ND 4.0 lisansı ile açık erişime sunulmuştur. Lisansın kapsamadığı tüm haklar saklıdır.">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+<meta name="license" content="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+<meta name="dcterms.rightsHolder" content="Prof. Dr. Oğuz Ergin">
+<meta name="tdm-reservation" content="1">
+<meta name="tdm-policy" content="https://bilgeveyonga.oguzergin.net/tdm-policy.json">
+<meta name="robots" content="index, follow, noai, noimageai">
+<meta name="ai-content-declaration" content="no-training, no-mining">
+<!-- BVY-TELIF-BITIS -->
+'''
+
+# Sartname D.5 — kitap sayfasi yapisal verisi (Book)
+BVY_KITAP_LD = '<script type="application/ld+json">\n{\n  "@context": "https://schema.org",\n  "@type": "Book",\n  "@id": "https://bilgeveyonga.oguzergin.net/okuyucu/__SLUG__.html#kitap",\n  "name": "__AD__",\n  "alternateName": "Bilge ve Yonga · Kitap __NO__",\n  "description": "__ACIKLAMA__",\n  "url": "https://bilgeveyonga.oguzergin.net/okuyucu/__SLUG__.html",\n  "inLanguage": "tr",\n  "bookFormat": "https://schema.org/EBook",\n  "numberOfPages": __SAYFA__,\n  "datePublished": "2026",\n  "author": {\n    "@type": "Person",\n    "@id": "https://oguzergin.net/#kisi",\n    "name": "Prof. Dr. Oğuz Ergin",\n    "url": "https://oguzergin.net"\n  },\n  "copyrightHolder": { "@id": "https://oguzergin.net/#kisi" },\n  "copyrightYear": 2026,\n  "copyrightNotice": "© 2026 Prof. Dr. Oğuz Ergin. Lisansın kapsamadığı tüm haklar saklıdır.",\n  "publisher": {\n    "@type": "Organization",\n    "name": "Bilge ve Yonga — Bilgisayar Mimarisi Çocuk Kitapları",\n    "url": "https://bilgeveyonga.oguzergin.net/"\n  },\n  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",\n  "usageInfo": "https://bilgeveyonga.oguzergin.net/telif-ve-lisans.html",\n  "isAccessibleForFree": true,\n  "creditText": "Ergin, O. (2026). Bilge ve Yonga: Bilgisayar Mimarisi Çocuk Kitapları Serisi. https://bilgeveyonga.oguzergin.net",\n  "isPartOf": {\n    "@type": "CreativeWorkSeries",\n    "@id": "https://bilgeveyonga.oguzergin.net/#seri",\n    "name": "Bilge ve Yonga",\n    "url": "https://bilgeveyonga.oguzergin.net/"\n  },\n  "audience": {\n    "@type": "PeopleAudience",\n    "suggestedMinAge": 7,\n    "suggestedMaxAge": 12\n  },\n  "learningResourceType": "Hikâye kitabı",\n  "educationalUse": "Ders dışı okuma, sınıf içi okuma",\n  "associatedMedia": [\n    {\n      "@type": "MediaObject",\n      "encodingFormat": "application/pdf",\n      "contentUrl": "https://bilgeveyonga.oguzergin.net/__MEDYA__.pdf",\n      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",\n      "copyrightHolder": { "@id": "https://oguzergin.net/#kisi" },\n      "isAccessibleForFree": true\n    },\n    {\n      "@type": "MediaObject",\n      "encodingFormat": "application/epub+zip",\n      "contentUrl": "https://bilgeveyonga.oguzergin.net/__MEDYA__.epub",\n      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",\n      "copyrightHolder": { "@id": "https://oguzergin.net/#kisi" },\n      "isAccessibleForFree": true\n    }\n  ]\n}\n</script>'
+
+def build_epub(folder, no, title, subtitle):
+    d = REPO / folder
+    pdf = find_pdf(d)
+    epub_name = (Path(pdf).stem if pdf else title) + '.epub'
+    pages = _parse_pages_local(folder, no, title, subtitle)
+
+    files = {}          # arcname -> bytes
+    manifest = []       # (id, href, media-type, extra)
+    spine = []          # idref
+    nav_items = []      # (href, label)
+    imgcount = 0
+
+    ilk_sayfa = 'cover.xhtml'   # landmarks icin ilk icerik sayfasi
+
+    # her sayfayi xhtml + jpeg olarak uret
+    for idx, p in enumerate(pages):
+        if p['kind'] == 'cover':
+            files['OEBPS/img/cover.jpg'] = _jpeg_bytes(p['img'], EP_W, 86)
+            manifest.append(('img-cover', 'img/cover.jpg', 'image/jpeg', ' properties="cover-image"'))
+            body = ('<div class="pg" epub:type="cover"><img src="img/cover.jpg" alt="' +
+                    escape(title) + ' kapağı"/></div>')
+            files['OEBPS/cover.xhtml'] = _xhtml(title, body).encode('utf-8')
+            manifest.append(('cover', 'cover.xhtml', 'application/xhtml+xml', ''))
+            spine.append('cover'); nav_items.append(('cover.xhtml', 'Kapak'))
+        elif p['kind'] == 'summary':
+            lis, olcu = '', []
+            for ln in p['lines']:
+                olcu.append(('p', len(ln)))
+                lis += '<li>' + re.sub(r'\*\*(.+?)\*\*', r'<em class="term">\1</em>',
+                                       escape(ln)) + '</li>'
+            fs = _yazi_boyu(olcu, EP_W - 150, EP_H - 190,
+                            [27, 25, 23, 21, 19, 17, 15], ara=0.75)
+            body = ('<div class="sum"><h2>🎓 Bugün Ne Öğrendik?</h2>'
+                    '<ul style="font-size:%dpx;line-height:1.5">%s</ul>'
+                    '<p class="telif">© Oğuz Ergin · Bilge ve Yonga · CC BY-NC-ND 4.0</p>'
+                    '</div>' % (fs, lis))
+            files['OEBPS/summary.xhtml'] = _xhtml('Bugün Ne Öğrendik?', body).encode('utf-8')
+            manifest.append(('summary', 'summary.xhtml', 'application/xhtml+xml', ''))
+            spine.append('summary'); nav_items.append(('summary.xhtml', 'Bugün Ne Öğrendik?'))
+        else:
+            n = p['no']; imgcount += 1
+            iid = 'img%d' % n; ihref = 'img/p%d.jpg' % n
+            files['OEBPS/' + ihref] = _jpeg_bytes(p['img'], EP_W, 82)
+            manifest.append((iid, ihref, 'image/jpeg', ''))
+            ic, olcu = _epub_bloklar(p['text'])
+            bant = ''
+            if ic:
+                fs = _yazi_boyu(olcu, EP_W - 96, 400, [31, 29, 27, 25, 23, 21, 19])
+                bant = ('<div class="band" style="font-size:%dpx;line-height:1.5">%s</div>'
+                        % (fs, ic))
+            alt = ('Sayfa %d — %s' % (n, p['title'])) if p['title'] else ('Sayfa %d' % n)
+            body = ('<div class="pg"><img src="%s" alt="%s"/>%s</div>'
+                    % (ihref, escape(alt), bant))
+            pid = 'page%d' % n; phref = 'page%d.xhtml' % n
+            files['OEBPS/' + phref] = _xhtml('Sayfa %d' % n, body).encode('utf-8')
+            manifest.append((pid, phref, 'application/xhtml+xml', ''))
+            spine.append(pid)
+            if ilk_sayfa == 'cover.xhtml':
+                ilk_sayfa = phref
+            nav_items.append((phref, alt))
+
+    # Kunye sayfasi (sartname H.4). Metin G.2'den birebir; ek olarak
+    # gorsellerin uretim yontemine iliskin seffaflik paragrafi.
+    kunye = ('<div class="sum" style="font-size:19px;line-height:1.5">'
+             '<h2>Künye</h2>'
+             '<p><strong>© 2026 Prof. Dr. Oğuz Ergin</strong><br/>'
+             + escape(title) + '<br/>'
+             'Bilge ve Yonga: Bilgisayar Mimarisi Çocuk Kitapları Serisi<br/>'
+             'Ankara, 2026</p>'
+             '<p>Bu eser, Creative Commons Atıf-GayriTicari-Türetilemez 4.0 '
+             'Uluslararası (CC BY-NC-ND 4.0) lisansı ile açık erişime '
+             'sunulmuştur.<br/>Lisans metni: '
+             'https://creativecommons.org/licenses/by-nc-nd/4.0/deed.tr</p>'
+             '<p><strong>LİSANSIN KAPSAMADIĞI TÜM HAKLAR SAKLIDIR.</strong> '
+             '“Bilge ve Yonga” seri adı, “Bilge” ve “Yonga” karakter adları '
+             'ile figürleri, seri amblemi, marka hakları, eser sahibinin adı '
+             've unvanı ile manevi haklar bu lisansın kapsamı dışındadır ve '
+             'ayrı yazılı izne bağlıdır.</p>'
+             '<p>Metin ve veri madenciliği ile yapay zekâ modeli eğitimi '
+             'bakımından haklar açıkça saklı tutulmuştur.</p>'
+             '<p>Görseller, tek bir karakter föyüne sadık kalınarak yapay '
+             'zekâ araçlarıyla üretilmiş ve tek tek elden geçirilmiştir; '
+             'seçim, düzenleme ve görsel yönetimi eser sahibine aittir.</p>'
+             '<p>Ticari kullanım izni ve sorularınız için: '
+             'bilgi@oguzergin.net<br/>Telif ve lisans politikası: '
+             'bilgeveyonga.oguzergin.net/telif-ve-lisans.html</p>'
+             '<p>Atıf: Ergin, O. (2026). Bilge ve Yonga: Bilgisayar Mimarisi '
+             'Çocuk Kitapları Serisi. https://bilgeveyonga.oguzergin.net</p>'
+             '</div>')
+    files['OEBPS/colophon.xhtml'] = _xhtml('Künye', kunye).encode('utf-8')
+    manifest.append(('kunye', 'colophon.xhtml', 'application/xhtml+xml', ''))
+    spine.append('kunye')
+    nav_items.append(('colophon.xhtml', 'Künye'))
+
+    files['OEBPS/style.css'] = EPUB_CSS.encode('utf-8')
+
+    # nav.xhtml
+    nav_ol = ''.join('<li><a href="%s">%s</a></li>' % (h, escape(l)) for h, l in nav_items)
+    nav = ('<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE html>\n'
+           '<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" '
+           'xml:lang="tr" lang="tr"><head><meta charset="utf-8"/><title>' + escape(title) +
+           '</title></head><body><nav epub:type="toc" id="toc"><h1>İçindekiler</h1><ol>' +
+           nav_ol + '</ol></nav>\n'
+           '<nav epub:type="landmarks" id="landmarks" hidden="hidden"><ol>'
+           '<li><a epub:type="cover" href="cover.xhtml">Kapak</a></li>'
+           '<li><a epub:type="bodymatter" href="' + ilk_sayfa + '">Başla</a></li>'
+           '</ol></nav></body></html>\n')
+    files['OEBPS/nav.xhtml'] = nav.encode('utf-8')
+    manifest.insert(0, ('nav', 'nav.xhtml', 'application/xhtml+xml', ' properties="nav"'))
+    manifest.append(('css', 'style.css', 'text/css', ''))
+
+    # content.opf
+    man = '\n'.join('  <item id="%s" href="%s" media-type="%s"%s/>' % (i, h, mt, ex)
+                    for i, h, mt, ex in manifest)
+    spn = '\n'.join('  <itemref idref="%s"/>' % s for s in spine)
+    opf = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+           '<package xmlns="http://www.idpf.org/2007/opf" version="3.0" '
+           'unique-identifier="bookid" xml:lang="tr" '
+           'prefix="tdm: http://www.w3.org/ns/tdmrep#">\n'
+           '<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">\n'
+           '  <dc:identifier id="bookid">urn:bilge-yonga:' + folder + '</dc:identifier>\n'
+           '  <dc:title>' + escape(title) + '</dc:title>\n'
+           '  <dc:creator>Ergin, Oğuz</dc:creator>\n'
+           '  <dc:language>tr</dc:language>\n'
+           '  <dc:publisher>Bilge ve Yonga — Bilgisayar Mimarisi Çocuk Kitapları</dc:publisher>\n'
+           '  <dc:rights>' + EPUB_HAKLAR + '</dc:rights>\n'
+           '  <dc:date>2026-07-13</dc:date>\n'
+           '  <dc:subject>Bilgisayar mimarisi</dc:subject>\n'
+           '  <dc:subject>Çocuk kitabı</dc:subject>\n'
+           '  <dc:subject>Bilgisayar bilimi</dc:subject>\n'
+           '  <dc:subject>Açık erişim</dc:subject>\n'
+           '  <dc:contributor id="gorsel-yonetimi">' + EPUB_KATKI +
+           '</dc:contributor>\n'
+           '  <meta refines="#gorsel-yonetimi" property="role" '
+           'scheme="marc:relators">art</meta>\n'
+           '  <meta property="dcterms:rightsHolder">Prof. Dr. Oğuz Ergin</meta>\n'
+           '  <meta property="dcterms:license">' + CC_URI + '</meta>\n'
+           '  <link rel="cc:license" href="' + CC_URI + '"/>\n'
+           '  <meta property="tdm:reservation">1</meta>\n'
+           '  <meta property="tdm:policy">'
+           'https://bilgeveyonga.oguzergin.net/tdm-policy.json</meta>\n'
+           '  <dc:description>' + escape(subtitle) + '</dc:description>\n'
+           '  <meta property="dcterms:modified">2026-07-26T00:00:00Z</meta>\n'
+           '  <meta name="cover" content="img-cover"/>\n'
+           # Sabit duzen: sayfa tasarlandigi gibi tek ekranda gorunur.
+           # spread=none olmasa Apple Books iki sayfayi yan yana dizer.
+           '  <meta property="rendition:layout">pre-paginated</meta>\n'
+           '  <meta property="rendition:orientation">landscape</meta>\n'
+           '  <meta property="rendition:spread">none</meta>\n'
+           '</metadata>\n<manifest>\n' + man + '\n</manifest>\n'
+           '<spine page-progression-direction="ltr">\n' + spn +
+           '\n</spine>\n</package>\n')
+    files['OEBPS/content.opf'] = opf.encode('utf-8')
+
+    files['META-INF/container.xml'] = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<container version="1.0" xmlns="urn:oasis:names:tc:opendocument:xmlns:container">\n'
+        '  <rootfiles><rootfile full-path="OEBPS/content.opf" '
+        'media-type="application/oebps-package+xml"/></rootfiles>\n</container>\n').encode('utf-8')
+
+    # Eski iBooks surumleri rendition:layout yerine bu dosyaya bakiyor.
+    files['META-INF/com.apple.ibooks.display-options.xml'] = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<display_options>\n  <platform name="*">\n'
+        '    <option name="fixed-layout">true</option>\n'
+        '    <option name="open-to-spread">false</option>\n'
+        '  </platform>\n</display_options>\n').encode('utf-8')
+
+    out = d / epub_name
+    with zipfile.ZipFile(out, 'w') as z:
+        # mimetype ILK ve sikistirmasiz olmali
+        z.writestr('mimetype', 'application/epub+zip', compress_type=zipfile.ZIP_STORED)
+        for arc, data in files.items():
+            z.writestr(arc, data, compress_type=zipfile.ZIP_DEFLATED)
+    return epub_name, imgcount + 1
+
+
+READER_TPL = r'''<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bilge ve Yonga — __BRAND__</title>
+<link rel="icon" href="../amblem.ico?v=2" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="../amblem-32.png?v=2">
+<link rel="apple-touch-icon" href="../amblem-180.png?v=2">
+<!-- BVY-TELIF-BASLANGIC -->
+<script src="../kunye.js" defer></script>
+<!-- Olcum: izne bagli, varsayilan KAPALI. Sartname bolum J. -->
+<script src="../olcum-tercihi.js" defer></script>
+<!-- BVY-TELIF-BITIS -->
+<meta name="theme-color" content="#0C1226">
+<script>try{var _t=localStorage.getItem('theme');if(_t)document.documentElement.setAttribute('data-theme',_t);}catch(e){}</script>
+<style>
+:root{
+  /* Varsayılan: karanlık (ana sayfadaki seçim localStorage ile devralınır) */
+  --paper:#FBF2E1; --paper-ink:#33294A;
+  --glow:#159FCB; --amber:#F3AC2E; --coral:#F16A50;
+  --ground:#0C1226; --stage:#121b38; --chrome:#EAF0F6; --chrome-soft:#9AA6C6;
+  --edge:rgba(180,200,240,.16); --shadow:rgba(0,0,0,.5);
+  --ff-disp:"Segoe UI",Verdana,system-ui,sans-serif;
+  --ff-body:"Georgia","Iowan Old Style",serif;
+}
+:root[data-theme="light"]{ --ground:#E7EEF3; --stage:#F3ECDD; --chrome:#182253; --chrome-soft:#5A6382;
+  --edge:rgba(24,34,83,.14); --shadow:rgba(24,34,83,.20); }
+:root[data-theme="dark"]{ --ground:#0C1226; --stage:#121b38; --chrome:#EAF0F6; --chrome-soft:#9AA6C6;
+  --edge:rgba(180,200,240,.16); --shadow:rgba(0,0,0,.5); }
+
+*{box-sizing:border-box}
+body{margin:0}
+.reader{
+  min-height:100vh; color:var(--chrome);
+  font-family:var(--ff-disp);
+  display:flex; flex-direction:column;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(1200px 720px at 16% 10%, rgba(21,159,203,.11), transparent 62%),
+    radial-gradient(1100px 820px at 86% 92%, rgba(241,106,80,.10), transparent 62%),
+    var(--ground);
+}
+.progress{height:4px; background:transparent}
+.progress i{display:block; height:100%; background:linear-gradient(90deg,var(--glow),var(--amber));
+  width:0; transition:width .35s ease}
+
+.bar{display:flex; align-items:center; gap:clamp(12px,1.2vw,20px);
+  padding:clamp(14px,1.2vw,22px) clamp(20px,2vw,40px)}
+.back{display:inline-flex; align-items:center; text-decoration:none; font-weight:700;
+  font-size:clamp(.82rem,.9vw,1.08rem); color:var(--chrome-soft);
+  border:1.5px solid var(--edge); border-radius:999px; padding:.5em .9em; transition:.16s}
+.back:hover{border-color:var(--glow); color:var(--glow)}
+.brand{display:flex; align-items:baseline; gap:9px; font-weight:700; letter-spacing:.02em;
+  font-size:clamp(1rem,1.05vw,1.4rem)}
+.brand b{color:var(--glow)} .brand span{color:var(--chrome-soft);
+  font-size:clamp(.82rem,.85vw,1.08rem); font-weight:600}
+.count{margin-left:auto; font-variant-numeric:tabular-nums; font-weight:700;
+  color:var(--chrome-soft); font-size:clamp(.9rem,.95vw,1.2rem)}
+.dl{display:inline-flex; align-items:center; gap:.5em; text-decoration:none;
+  font-weight:700; font-size:clamp(.86rem,.92vw,1.14rem); color:var(--chrome);
+  border:1.5px solid var(--edge); padding:.55em 1em; border-radius:999px; background:transparent;
+  cursor:pointer; transition:.18s}
+.dl:hover{border-color:var(--glow); color:var(--glow)}
+.dl svg{width:1.15em;height:1.15em}
+
+/* Ust cubuk dar ekranda sigmiyordu ve sayfayi yatay olarak 167 piksel
+   tasiriyordu. Uzun kitap adi artik kirpiliyor, indirme dugmeleri
+   kuculuyor, gerekirse cubuk saran duzene geciyor. */
+.bar{flex-wrap:wrap; min-width:0}
+.brand{min-width:0; flex:1 1 auto}
+.brand span:not(.kno){min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.count{flex:none}
+@media (max-width:640px){
+  .bar{gap:8px; padding:10px 12px}
+  .brand span:not(.kno){display:none}   /* kitap adi zaten kapakta yaziyor; rozet kalir */
+  .back{padding:.4em .7em; font-size:.78rem}
+  .count{font-size:.82rem}
+  .dl{padding:.45em .7em; font-size:.82rem}
+  .dl svg{width:1em; height:1em}
+}
+
+.stage{flex:1; display:flex; align-items:center; justify-content:center;
+  padding:8px clamp(64px,6vw,110px) 14px; position:relative}
+.stage::before{content:""; position:absolute; inset:0; pointer-events:none; z-index:0;
+  background:radial-gradient(760px 560px at 50% 45%, rgba(255,241,214,.07), transparent 72%)}
+.arrow{position:absolute; top:50%; transform:translateY(-50%); z-index:6;
+  width:60px; height:60px; border-radius:50%; border:none; cursor:pointer;
+  background:var(--stage); color:var(--chrome); box-shadow:0 6px 22px var(--shadow);
+  font-size:1.9rem; line-height:1; display:grid; place-items:center; transition:.16s}
+.arrow.prev{left:clamp(10px,2vw,28px)} .arrow.next{right:clamp(10px,2vw,28px)}
+.arrow:hover:not(:disabled){background:var(--glow); color:#fff; transform:translateY(-50%) scale(1.08)}
+.arrow:disabled{opacity:.3; cursor:default}
+.arrow:focus-visible{outline:3px solid var(--amber); outline-offset:3px}
+
+.book{width:min(1760px,97vw); margin-inline:auto; position:relative; z-index:1}
+.slide{display:none}
+.slide.on{display:block; animation:fade .38s ease}
+@keyframes fade{from{opacity:0; transform:translateY(8px)} to{opacity:1; transform:none}}
+@media (prefers-reduced-motion:reduce){ .slide.on{animation:none} .progress i{transition:none} }
+
+.spread{display:grid; grid-template-columns:minmax(0,1fr) clamp(300px,28vw,500px);
+  gap:clamp(20px,3vw,52px); align-items:center; justify-items:center}
+.spread .art{width:auto; height:auto; max-width:100%; max-height:72vh; aspect-ratio:16/9; margin:0}
+.spread .card{width:100%; margin:0}
+
+.art{width:100%; aspect-ratio:16/9; border-radius:18px; overflow:hidden;
+  box-shadow:0 16px 46px var(--shadow); background:#0002}
+.art img{width:100%; height:100%; object-fit:cover; display:block}
+
+.card{background:var(--paper); color:var(--paper-ink); position:relative;
+  border-radius:16px; padding:clamp(24px,2.4vw,40px) clamp(26px,2.6vw,46px);
+  box-shadow:0 10px 30px var(--shadow)}
+.spread .card{padding-bottom:clamp(46px,4vw,62px)}
+.eyebrow{font-family:var(--ff-disp); font-weight:800; font-size:.76rem; letter-spacing:.18em;
+  text-transform:uppercase; color:var(--coral); margin:0 0 6px}
+.pageno{position:absolute; right:clamp(20px,2vw,32px); bottom:clamp(16px,1.6vw,24px);
+  font-family:var(--ff-disp); font-weight:800; font-size:.72rem; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--coral); background:rgba(241,106,80,.12);
+  padding:4px 12px; border-radius:999px}
+.card h2{font-family:var(--ff-disp); font-weight:800; font-size:clamp(1.35rem,1.8vw,1.85rem);
+  margin:0 0 16px; color:var(--paper-ink); text-wrap:balance; line-height:1.15}
+.card p,.card .metin{font-family:var(--ff-body); font-size:clamp(1.12rem,1.25vw,1.4rem); line-height:1.74;
+  margin:0; max-width:42ch}
+.card .term{font-style:normal; font-weight:600; color:#C24A18; font-family:var(--ff-disp)}
+/* Konusani ayirt etme: kaynak metinde {B} ve {Y} isaretleriyle belirtilir.
+   Turuncu terimlere, yesil buyruklara ayrildigi icin konusanlara gul ve
+   mavi verildi; ikisi de krem zeminde rahat okunuyor. */
+.card .say{font-style:normal}
+.card .say.b{color:#A03356}
+.card .say.y{color:#1D5C86}
+.card .say .who{display:inline-block; width:1.25em; height:1.25em; border-radius:50%;
+  vertical-align:-.28em; margin-right:.28em; object-fit:contain}
+/* Sira degisiminde replik yeni satirda baslar; simge cizgi gibi sola oturur. */
+.card .say.turn{display:inline}
+.card .ara{display:block; height:.5em}
+.card .say.b .who{background:#F7C9C0}
+.card .say.y .who{background:#CFE6F2}
+/* Ucuncu karakterler (Ayse Teyze, Murat Bey, Risko, Sisko, Islemci...) tek tek
+   portre tasimadigi icin tarafsiz bir konusma balonu simgesi ve mor murekkep
+   kullaniyor. Ad zaten metinde geciyor; simge "baskasi konusuyor" diyor. */
+.card .say.d{color:#6B3FA0}
+.card .say.d .who{background:none; padding:.06em}
+/* Replik icindeki terim, konusanin renginde ve koyu olur. Turuncu terim rengi
+   mavi/gul repligin icinde yabanci duruyordu (konusan renkleri sonradan
+   eklendi). Anlatim icindeki terim turuncu kalir. */
+.card .say .term{color:inherit; font-weight:800}
+.card .cmd{font-family:ui-monospace,"Cascadia Mono",Consolas,monospace; font-size:.9em;
+  background:rgba(24,34,83,.07); color:#1F6F4A; padding:.08em .34em; border-radius:5px}
+.card .code{display:block; font-family:ui-monospace,"Cascadia Mono",Consolas,monospace; font-size:.84em;
+  background:rgba(24,34,83,.06); color:#22405F; padding:.6em .85em; border-radius:10px;
+  margin:.5em 0 0; white-space:pre; overflow-x:auto; line-height:1.5}
+
+.cover .art{aspect-ratio:16/9; max-height:84vh; width:auto; margin-inline:auto; position:relative}
+/* Katman sirasi onemli: perde ::after ile uretildigi icin agac sirasinda en
+   sondadir ve z-index verilmezse yazinin ustune biner, baslik solgun gorunur.
+   Bu yuzden resim 0, perde 1, yazi 2 katmaninda duruyor. */
+.cover .art img{position:relative; z-index:0}
+.cover .art::after{content:""; position:absolute; inset:0; z-index:1; pointer-events:none;
+  background:linear-gradient(180deg,transparent 34%,rgba(10,14,32,.55) 62%,rgba(8,11,26,.92) 100%);
+  border-radius:18px}
+.cover-tag{position:absolute; left:24px; bottom:22px; right:24px; z-index:2}
+.cover-tag .eyebrow{color:var(--amber); text-shadow:0 1px 3px #000, 0 2px 10px #000c}
+.cover-tag h1{font-family:var(--ff-disp); font-weight:800; color:#fff; margin:2px 0 0;
+  font-size:clamp(1.5rem,4vw,2.3rem); line-height:1.08;
+  text-shadow:0 1px 3px #000, 0 3px 18px #000e; text-wrap:balance}
+.cover-tag .csub{color:#fdf3df; font-family:var(--ff-body); font-style:italic;
+  margin:8px 0 0; font-size:1.02rem; text-shadow:0 1px 3px #000, 0 2px 12px #000d; max-width:44ch}
+
+.summary .card{margin:0 auto; max-width:940px}
+/* Telif satiri: md kuyrugunda tutarsizdi (26 kitapta vardi, 8'inde ayirici
+   yoktu ve ozet listesine madde olarak siziyordu, yildizlari da duz metin
+   goruunuyordu). Artik uretici yaziyor, listenin disinda ve sade. */
+.summary .telif{margin:22px 0 0; text-align:center; color:var(--paper-ink);
+  opacity:.55; font-size:.82rem; font-family:var(--ff-body)}
+.summary h2{color:var(--paper-ink); font-size:clamp(1.4rem,1.9vw,1.75rem);
+  display:flex; align-items:center; gap:10px; margin:0}
+.slist{list-style:none; margin:18px 0 0; padding:0; display:grid; gap:14px}
+.slist li{font-family:var(--ff-body); font-size:clamp(1.06rem,1.2vw,1.22rem); line-height:1.55;
+  padding-left:14px; border-left:3px solid var(--amber)}
+.slist li b{font-family:var(--ff-disp)}
+
+/* min-width:0 sart: esnek kutu icindeki oge bunsuz icerigin altina kuculemez,
+   serit de sayfayi yatay olarak genisletir (telefonda 190 piksel tasma). */
+.strip{display:flex; gap:10px; overflow-x:auto; padding:14px 20px 20px;
+  scroll-behavior:smooth; min-width:0}
+.strip::-webkit-scrollbar{height:8px}
+.strip::-webkit-scrollbar-thumb{background:var(--edge); border-radius:8px}
+.thumb{flex:none; width:104px; aspect-ratio:16/9; border-radius:9px; overflow:hidden;
+  border:2.5px solid transparent; cursor:pointer; background:var(--stage); padding:0;
+  position:relative; transition:.16s; opacity:.6}
+.thumb img{width:100%; height:100%; object-fit:cover; display:block}
+.thumb.sum{display:grid; place-items:center; color:var(--chrome-soft); font-size:1.5rem}
+.thumb:hover{opacity:1}
+.thumb.on{opacity:1; border-color:var(--amber); transform:translateY(-3px)}
+.thumb .n{position:absolute; left:5px; top:4px; font-size:.62rem; font-weight:800;
+  color:#fff; background:#0009; border-radius:5px; padding:1px 5px; font-variant-numeric:tabular-nums}
+
+.hint{text-align:center; color:var(--chrome-soft); font-size:clamp(.8rem,.85vw,1.02rem);
+  padding:0 0 clamp(16px,1.4vw,24px)}
+.hint kbd{font-family:var(--ff-disp); border:1px solid var(--edge); border-bottom-width:2px;
+  border-radius:5px; padding:1px .5em; font-size:.86em}
+
+/* kitap numarasi rozeti (ust bar) */
+.brand .kno{background:var(--accent); color:#fff; font-family:var(--ff-disp); font-weight:800;
+  font-size:clamp(.72rem,.8vw,.98rem); padding:3px 11px; border-radius:999px; letter-spacing:.02em}
+
+/* onceki/sonraki kitap gezinmesi */
+.booknav{display:flex; align-items:stretch; justify-content:center; gap:12px;
+  padding:2px clamp(20px,2vw,40px) 12px; flex-wrap:wrap}
+.bn{flex:1 1 0; max-width:360px; display:flex; flex-direction:column; gap:2px; text-decoration:none;
+  border:1.5px solid var(--edge); border-radius:14px; padding:11px 18px; background:transparent;
+  color:var(--chrome); transition:transform .16s, border-color .16s, box-shadow .16s}
+.bn span{font-size:.7rem; font-weight:800; letter-spacing:.12em; text-transform:uppercase; color:var(--chrome-soft)}
+.bn b{font-family:var(--ff-disp); font-weight:800; font-size:clamp(.9rem,1vw,1.08rem); line-height:1.15}
+.bn.next{text-align:right}
+.bn:hover{border-color:var(--accent); transform:translateY(-2px); box-shadow:0 10px 24px -14px var(--accent)}
+.bn:focus-visible{outline:3px solid var(--accent); outline-offset:2px}
+.bn.home{flex:0 0 auto; align-self:center; max-width:none; justify-content:center;
+  border-radius:999px; color:var(--chrome-soft); font-weight:700; padding:11px 20px}
+.bn.home b{font-size:.92rem}
+.bn.disabled{flex:1 1 0; max-width:360px; border:1.5px dashed var(--edge); opacity:.3; pointer-events:none}
+@media (max-width:640px){ .bn{flex-basis:44%} .bn.home{order:-1; flex-basis:100%} }
+
+/* gorus bildirme */
+.gorus{text-align:center; padding:4px clamp(20px,2vw,40px) 22px}
+.gorus a{display:inline-flex; align-items:center; gap:8px; text-decoration:none;
+  border:1.5px solid var(--edge); border-radius:999px; padding:9px 20px;
+  color:var(--chrome-soft); font-weight:700; font-size:.9rem;
+  transition:border-color .16s, color .16s, transform .16s}
+.gorus a:hover{border-color:var(--accent); color:var(--chrome); transform:translateY(-1px)}
+.gorus a:focus-visible{outline:3px solid var(--accent); outline-offset:2px}
+.gorus p{margin:8px 0 0; color:var(--chrome-soft); font-size:.78rem; opacity:.8}
+
+@media (max-width:880px){
+  .stage{padding:8px 16px 12px}
+  .spread{grid-template-columns:1fr; gap:0}
+  .spread .art{width:100%; height:auto; max-width:none; max-height:none; aspect-ratio:16/9}
+  .spread .card{width:92%; max-width:none; margin:-26px auto 0}
+}
+@media (max-width:640px){
+  .arrow{position:fixed; top:auto; bottom:86px; transform:none; width:52px; height:52px; font-size:1.6rem}
+  .arrow.prev{left:12px} .arrow.next{right:12px}
+  .arrow:hover:not(:disabled){transform:scale(1.06)}
+  .stage{padding:4px 10px 10px}
+  .spread .card{width:100%; padding:20px 22px 22px}
+  .card p,.card .metin{max-width:none}
+  .cover .art{max-height:68vh}
+}
+</style>
+</head>
+<body>
+
+<div class="reader" style="--accent:__ACCENT__">
+  <div class="progress"><i id="bar"></i></div>
+  <div class="bar">
+    <a class="back" href="__BACK__">‹ Seri</a>
+    <div class="brand"><b>Bilge</b> ve <b>Yonga</b> <span class="kno">Kitap __NO__</span> <span>__BRAND__</span></div>
+    <div class="count"><span id="cur">1</span> / <span id="tot">1</span></div>
+    <a class="dl" href="__EPUB__" download title="E-kitap (EPUB) indir">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+        stroke-linecap="round" stroke-linejoin="round"><path d="M4 5a2 2 0 0 1 2-2h9l5 5v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/><path d="M14 3v6h6"/></svg>E-kitap</a>
+    <a class="dl" href="__PDF__" target="_blank" rel="noopener" title="Kitabı PDF olarak aç">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+        stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="M7 11l5 4 5-4"/>
+        <path d="M4 20h16"/></svg>PDF</a>
+  </div>
+
+  <div class="stage">
+    <button class="arrow prev" id="prev" aria-label="Önceki sayfa">‹</button>
+    <div class="book" id="book"></div>
+    <button class="arrow next" id="next" aria-label="Sonraki sayfa">›</button>
+  </div>
+
+  <div class="strip" id="strip"></div>
+  <div class="booknav">__BOOKNAV__</div>
+  <div class="hint">Oklarla veya <kbd>←</kbd> <kbd>→</kbd> tuşlarıyla gezin · alttaki küçük resimlere dokun</div>
+  <div class="gorus">
+    <a href="__GORUS__">✉ Bu kitap hakkında görüş bildir</a>
+    <p>Beğendiğiniz, karışık bulduğunuz ya da yanlış olduğunu düşündüğünüz her şeyi yazabilirsiniz.</p>
+  </div>
+</div>
+
+<script>
+const PAGES = __DATA__;
+let i = 0;
+const book = document.getElementById('book');
+const strip = document.getElementById('strip');
+const tot = PAGES.length;
+document.getElementById('tot').textContent = tot;
+function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function fmt(s){var t=esc(s);
+  // Kod parcalari once saklanir: konusan kalibi tirnak arar ve HTML
+  // ozniteliklerindeki tirnaklara takilirsa repligi ortasindan keser.
+  var KOD=[];
+  function sakla(h){KOD.push(h);return '\u0001'+(KOD.length-1)+'\u0001';}
+  t=t.replace(/```\n?([\s\S]*?)```/g,function(m,c){
+    return sakla('<span class="code">'+c.replace(/\n+$/,'')+'</span>');});
+  t=t.replace(/`([^`\n]+)`/g,function(m,c){
+    return sakla('<code class="cmd">'+c+'</code>');});
+  // {B}"..." / {Y}"..." -> konusan kabugu (simge + renk). Isaretsiz alintilar
+  // (ekran icerigi, terim) oldugu gibi kalir; asla tahmin yurutulmez.
+  // Konusan degistiginde replik yeni satirda basliyor ve basina karakter
+  // simgesi geliyor: simge, Turkce konusma cizgisinin yapisal isini yapar.
+  // Ayni kisinin suren repligi ayni satirda kalir, rengini korur, simge
+  // yinelenmez. Boylece sira degisimi bosluktan, kimlik simgeden okunur.
+  var oncekiKonusan = '';
+  var BALON = '<svg class="who" viewBox="0 0 24 24" role="img" aria-label="Başka biri konuşuyor">'
+    + '<path fill="currentColor" d="M12 3C6.9 3 3 6.3 3 10.3c0 2.3 1.3 4.4 3.4 5.7L5.6 20l3.9-2.1'
+    + 'c.8.2 1.6.3 2.5.3 5.1 0 9-3.3 9-7.3S17.1 3 12 3z"/></svg>';
+  t=t.replace(/\{([BYD])\}("[^"]*")/g,function(m,k,q,konum){
+    var kim = k==='B' ? {s:'b', ad:'Bilge', im:'../bilge.png?v=10'}
+            : k==='Y' ? {s:'y', ad:'Yonga', im:'../yonga.png?v=10'}
+                      : {s:'d', ad:'', im:null};
+    var degisti = (k!==oncekiKonusan);
+    oncekiKonusan = k;
+    if(!degisti) return '<span class="say '+kim.s+'">'+q+'</span>';
+    var simge = kim.im
+      ? '<img class="who" src="'+kim.im+'" alt="'+kim.ad+' konuşuyor">'
+      : BALON;
+    var basta = (t.slice(0, konum).trim() === '');
+    return (basta ? '' : '<span class="ara"></span>')
+      + '<span class="say turn '+kim.s+'">' + simge + q + '</span>';
+  });
+  t=t.replace(/\*\*(.+?)\*\*/g,'<em class="term">$1</em>');
+  return t.replace(/\u0001(\d+)\u0001/g,function(m,i){return KOD[+i];});}
+
+PAGES.forEach((p, idx)=>{
+  const s = document.createElement('div');
+  s.className = 'slide' + (p.type==='cover'?' cover':p.type==='summary'?' summary':'');
+  const lz = idx===0 ? '' : ' loading="lazy" decoding="async"';
+  if(p.type==='cover'){
+    s.innerHTML = '<div class="art"><img src="'+p.img+'" alt="Kapak"'+lz+'>'
+      +'<div class="cover-tag"><p class="eyebrow">'+esc(p.eyebrow)+'</p>'
+      +'<h1>'+esc(p.title)+'</h1><p class="csub">'+esc(p.sub)+'</p></div></div>';
+  } else if(p.type==='summary'){
+    const lis = p.lines.map(l=>'<li>'+l.replace(/\*\*(.+?)\*\*/g,'<b>$1</b>')+'</li>').join('');
+    s.innerHTML = '<div class="card"><h2>🎓 '+esc(p.title)+'</h2><ul class="slist">'+lis+'</ul>'
+      + '<p class="telif">© Oğuz Ergin · Bilge ve Yonga · CC BY-NC-ND 4.0</p></div>';
+  } else {
+    s.innerHTML = '<div class="spread"><div class="art"><img src="'+p.img+'" alt="Sayfa '+p.no+'"'+lz+'></div>'
+      +'<div class="card">'+(p.title?'<h2>'+esc(p.title)+'</h2>':'')
+      +'<div class="metin">'+fmt(p.text)+'</div><span class="pageno">Sayfa '+p.no+'</span></div></div>';
+  }
+  book.appendChild(s);
+
+  const t = document.createElement('button');
+  t.className = 'thumb' + (p.type==='summary'?' sum':'');
+  if(p.type==='summary'){ t.innerHTML = '🎓'; }
+  else { t.innerHTML = '<img src="'+p.thumb+'" alt="" loading="lazy" decoding="async"><span class="n">'
+      +(p.type==='cover'?'K':p.no)+'</span>'; }
+  t.addEventListener('click', ()=>go(idx));
+  strip.appendChild(t);
+});
+
+const slides = [...book.children];
+const thumbs = [...strip.children];
+const prev = document.getElementById('prev');
+const next = document.getElementById('next');
+function go(n){
+  i = Math.max(0, Math.min(tot-1, n));
+  slides.forEach((s,k)=>s.classList.toggle('on', k===i));
+  thumbs.forEach((t,k)=>t.classList.toggle('on', k===i));
+  document.getElementById('cur').textContent = i+1;
+  document.getElementById('bar').style.width = ((i+1)/tot*100)+'%';
+  prev.disabled = i===0; next.disabled = i===tot-1;
+  thumbs[i].scrollIntoView({inline:'center', block:'nearest'});
+}
+prev.addEventListener('click', ()=>go(i-1));
+next.addEventListener('click', ()=>go(i+1));
+document.addEventListener('keydown', e=>{
+  if(e.key==='ArrowRight') go(i+1);
+  else if(e.key==='ArrowLeft') go(i-1);
+  else if(e.key==='Home') go(0);
+  else if(e.key==='End') go(tot-1);
+});
+let x0=null;
+book.addEventListener('touchstart', e=>x0=e.touches[0].clientX, {passive:true});
+book.addEventListener('touchend', e=>{
+  if(x0===null) return;
+  const dx = e.changedTouches[0].clientX - x0;
+  if(Math.abs(dx)>45){ dx<0 ? go(i+1) : go(i-1); }
+  x0=null;
+});
+go(0);
+</script>
+</body>
+</html>
+'''
+
+
+GORUS_ADRES = 'bilgi@oguzergin.net'
+
+
+def _gorus_href(konu):
+    """Kitaba ozel konu satiri tasiyan e-posta baglantisi."""
+    return 'mailto:%s?subject=%s' % (
+        GORUS_ADRES, quote('Bilge ve Yonga · %s hakkında görüşüm' % konu))
+
+
+def _booknav_html(prev, nxt):
+    """prev/nxt: None ya da (folder, no, title)."""
+    if prev:
+        pf, pno, pt = prev
+        left = (f'<a class="bn prev" href="{pf}.html" title="Kitap {pno}">'
+                f'<span>‹ Önceki kitap</span><b>{escape(pt)}</b></a>')
+    else:
+        left = '<span class="bn disabled"></span>'
+    home = '<a class="bn home" href="../index.html"><b>Tüm seri</b></a>'
+    if nxt:
+        nf, nno, nt = nxt
+        right = (f'<a class="bn next" href="{nf}.html" title="Kitap {nno}">'
+                 f'<span>Sonraki kitap ›</span><b>{escape(nt)}</b></a>')
+    else:
+        right = '<span class="bn disabled"></span>'
+    return left + home + right
+
+
+def build_reader(folder, no, title, subtitle, glow, prev=None, nxt=None):
+    d = REPO / folder
+    pdf = find_pdf(d)
+    pages = parse_book(folder, no, title, subtitle)
+    data = json.dumps(pages, ensure_ascii=False)
+    pdf_href = f'../{folder}/{quote(pdf)}' if pdf else '#'
+    epub_href = f'../{folder}/{quote(Path(pdf).stem + ".epub")}' if pdf else '#'
+    html = (READER_TPL
+            .replace('__BRAND__', title)
+            .replace('__NO__', no)
+            .replace('__ACCENT__', glow)
+            .replace('__BACK__', '../index.html')
+            .replace('__PDF__', pdf_href)
+            .replace('__EPUB__', epub_href)
+            .replace('__GORUS__', _gorus_href('Kitap %s · %s' % (no, title)))
+            .replace('__BOOKNAV__', _booknav_html(prev, nxt))
+            .replace('__DATA__', data))
+
+    # Sartname B.1 + D.5: telif meta blogu ve kitap yapisal verisi.
+    # D.3 tutarlilik kurali: ayni telif blogu her sayfada bulunur.
+    medya = f'{folder}/{quote(Path(pdf).stem)}' if pdf else folder
+    ld = (BVY_KITAP_LD
+          .replace('__NO__', no)
+          .replace('__SLUG__', folder)
+          .replace('__MEDYA__', medya)
+          .replace('__AD__', json.dumps(title, ensure_ascii=False)[1:-1])
+          .replace('__ACIKLAMA__', json.dumps(subtitle, ensure_ascii=False)[1:-1])
+          .replace('__SAYFA__', str(sum(1 for p in pages if p.get('type') == 'page'))))
+    html = html.replace('</head>', BVY_TELIF_META + ld + '\n</head>', 1)
+
+    out = OKU / f'{folder}.html'
+    out.write_text(html, encoding='utf-8')
+    return len(pages), out.name
+
+
+def _card_html(folder, no, title, sub, glow):
+    d = REPO / folder
+    pdf = find_pdf(d)
+    pdf_href = f'{folder}/{quote(pdf)}' if pdf else '#'
+    epub_href = f'{folder}/{quote(Path(pdf).stem + ".epub")}' if pdf else '#'
+    read_href = f'okuyucu/{folder}.html'
+    kapak = folder.split('-')[0]  # kitap1.07
+    return (
+        '      <article class="book" style="--bg:' + glow + '">\n'
+        '        <div class="book-cover">\n'
+        f'          <a href="{read_href}"><img src="kapaklar/{kapak}.jpg" alt="{title} kapağı" loading="lazy"></a>\n'
+        '        </div>\n'
+        '        <div class="book-meta">\n'
+        f'          <span class="book-no">Kitap {no}</span>\n'
+        f'          <h3>{title}</h3>\n'
+        f'          <p>{sub}</p>\n'
+        '          <div class="book-actions">\n'
+        f'            <a class="btn-read" href="{read_href}">Oku</a>\n'
+        '            <div class="book-dl">\n'
+        f'              <a href="{epub_href}" download>E-kitap</a>\n'
+        f'              <a href="{pdf_href}" target="_blank" rel="noopener">PDF</a>\n'
+        '            </div>\n'
+        '          </div>\n'
+        '        </div>\n'
+        '      </article>')
+
+
+def _deste_anahtar(folder):
+    return folder.split('-')[0]
+
+
+def build_deste():
+    """Deste kapaklarini 900 piksele olceklenmis olarak deste/ altina yazar.
+    Doner: (varsayilan kartlarin HTML'i, havuz verisi JSON)."""
+    out = REPO / 'deste'
+    out.mkdir(exist_ok=True)
+    adlar = {}
+    for folder, no, title, sub, glow in BOOKS:
+        a = _deste_anahtar(folder)
+        if a != DESTE_ON and a not in DESTE_HAVUZ:
+            continue
+        kaynak = REPO / folder / 'resimler' / 'GPT_Kapak.jpg'
+        if not kaynak.exists():
+            raise SystemExit('deste kapagi bulunamadi: %s' % kaynak)
+        (out / (a + '.jpg')).write_bytes(
+            _jpeg_bytes(kaynak, DESTE_GENISLIK, 86))
+        adlar[a] = title
+
+    def kart(a, slot, on=False):
+        alt = ('Bilge ve Yonga kumsalda yan yana' if on else '')
+        return ('      <img class="card s%d" src="deste/%s.jpg" alt="%s" '
+                'data-cap="%s">' % (slot, a, escape(alt), escape(adlar[a])))
+
+    # varsayilan deste: betik calismazsa da anlamli bir sira gorunur
+    varsayilan = [DESTE_ON] + ['kitap2.02', 'kitap3.07', 'kitap2.06', 'kitap3.01']
+    kartlar = '\n'.join(kart(a, i, on=(i == 0))
+                        for i, a in enumerate(varsayilan))
+    havuz = json.dumps([{'src': 'deste/%s.jpg' % a, 'cap': adlar[a]}
+                        for a in DESTE_HAVUZ], ensure_ascii=False)
+    return kartlar, havuz
+
+
+def uyar_bayat_klasor():
+    """BOOKS listesinde olmayan kitap klasorlerini bildirir.
+
+    1.01 -> 1.01a numaralandirmasindan kalan klasor Drive esitlemesi yuzunden
+    uc kez geri geldi ve yerel olcumleri yanaltti (alfabetik ilk klasor o
+    oldugu icin denetimler eski PDF/EPUB'i okudu). Siteye giremiyor, ama
+    sessiz kalmasi da dogru degil.
+    """
+    kayitli = {k[0] for k in BOOKS}
+    for d in sorted(REPO.glob('kitap*')):
+        if d.is_dir() and d.name not in kayitli:
+            print(f'  [UYARI] BOOKS listesinde olmayan klasor: {d.name}')
+            print( '          Siteye girmiyor. Bayat kopya olabilir, denetle.')
+
+
+def temizle_bayat_okuyucular():
+    """BOOKS listesinde olmayan okuyucu dosyalarini siler.
+
+    Kitap yeniden adlandirildiginda (or. 1.01 -> 1.01a) eski okuyucu diskte
+    kaliyor, sonraki `git add -A` ile yeniden izlenmeye basliyor ve sitede
+    olu bir adres olarak duruyordu. Iki kez yasandi, artik kurulumda
+    kendiliginden temizleniyor.
+    """
+    gecerli = {folder + '.html' for folder, *_ in BOOKS}
+    silinen = []
+    for f in OKU.glob('kitap*.html'):
+        if f.name not in gecerli:
+            f.unlink()
+            silinen.append(f.name)
+    if silinen:
+        print('  bayat okuyucu silindi: ' + ', '.join(silinen))
+    return silinen
+
+
+def build_index():
+    """Kitaplari alt serilere gore bolumleyip index.html'i kurar."""
+    tpl = (REPO / '_template_site.html').read_text(encoding='utf-8')
+    blocks = []
+    for key, (s_title, s_desc, s_color) in SERIES.items():
+        books = [b for b in BOOKS if b[1].split('.')[0] == key]
+        if not books:
+            continue
+        cards = '\n'.join(_card_html(*b) for b in books)
+        blocks.append(
+            f'  <div class="series-head" style="--accent:{s_color}">\n'
+            f'    <span class="series-no">{key}. Seri</span>\n'
+            f'    <h3>{s_title}</h3>\n'
+            f'    <p>{s_desc}</p>\n'
+            '  </div>\n'
+            '  <div class="books-grid">\n' + cards + '\n  </div>')
+    tpl = tpl.replace('__SERIES__', '\n\n'.join(blocks))
+    kartlar, havuz = build_deste()
+    tpl = tpl.replace('__DESTE__', kartlar)
+    tpl = tpl.replace('__DESTE_HAVUZ__', havuz)
+    tpl = tpl.replace('__COUNT__', str(len(BOOKS)))
+    (REPO / 'index.html').write_text(tpl, encoding='utf-8')
+    temizle_bayat_okuyucular()
+    uyar_bayat_klasor()
+
+
+if __name__ == '__main__':
+    total = 0
+    for i, (folder, no, title, sub, glow) in enumerate(BOOKS):
+        prev = (BOOKS[i-1][0], BOOKS[i-1][1], BOOKS[i-1][2]) if i > 0 else None
+        nxt = (BOOKS[i+1][0], BOOKS[i+1][1], BOOKS[i+1][2]) if i < len(BOOKS)-1 else None
+        n, name = build_reader(folder, no, title, sub, glow, prev, nxt)
+        ename, ecount = build_epub(folder, no, title, sub)
+        total += n
+        print(f'  okuyucu/{name}  ({n} sayfa)  +  {folder}/{ename}  ({ecount} görsel)')
+    build_index()
+    print(f'index.html + {len(BOOKS)} okuyucu + {len(BOOKS)} EPUB, {total} sayfa toplam')
+    for u in UYARILAR:
+        print('  UYARI  ' + u)

@@ -1,0 +1,222 @@
+# ============================================================================
+# robots.txt — Bilge ve Yonga
+# https://bilgeveyonga.oguzergin.net/
+#
+# Eser sahibi: Prof. Dr. Oğuz Ergin
+# İletişim: bilgi@oguzergin.net
+# Lisans: CC BY-NC-ND 4.0 — https://creativecommons.org/licenses/by-nc-nd/4.0/deed.tr
+# Son güncelleme: 2026-07-26
+# ============================================================================
+#
+# HAK SAKLI TUTMA BEYANI (metin ve veri madenciliği rezervasyonu)
+#
+# Bu sitede yayımlanan tüm metinler, görseller, PDF ve EPUB dosyaları
+# Prof. Dr. Oğuz Ergin'e aittir ve CC BY-NC-ND 4.0 lisansı ile açık erişime
+# sunulmuştur. Lisans, ad belirtilerek, değiştirilmeden ve TİCARİ OLMAYAN
+# amaçla paylaşıma izin verir.
+#
+# Eser sahibi, bu içeriğin metin ve veri madenciliği (text and data mining)
+# ile yapay zekâ modeli eğitimi, ince ayar (fine-tuning), damıtma
+# (distillation), gömme (embedding) üretimi ve benzeri amaçlarla
+# çoğaltılması ve işlenmesi haklarını AÇIKÇA VE TÜMÜYLE SAKLI TUTAR.
+#
+# Bu beyan, 2019/790 sayılı Avrupa Birliği Direktifi'nin 4(3) maddesi
+# anlamında makine okunabilir bir hak saklı tutma (rights reservation)
+# niteliğindedir ve aynı Direktif'in 3. maddesindeki bilimsel araştırma
+# istisnası saklıdır. Türkiye bakımından ayrıca 5846 sayılı Fikir ve Sanat
+# Eserleri Kanunu'nun 21, 22 ve 25. maddelerindeki mali haklar saklıdır;
+# Türk hukukunda metin ve veri madenciliğine ilişkin bir istisna yoktur.
+#
+# Ticari kullanım ve yapay zekâ eğitimi izni yalnızca eser sahibinin
+# ayrı ve yazılı onayı ile verilir: bilgi@oguzergin.net
+#
+# ---------------------------------------------------------------------------
+#
+# RIGHTS RESERVATION NOTICE (text and data mining)
+#
+# All content on this site is (c) Prof. Dr. Oguz Ergin and is published under
+# CC BY-NC-ND 4.0. The rightholder EXPRESSLY RESERVES all rights to
+# reproductions and extractions for the purposes of text and data mining,
+# including but not limited to training, fine-tuning, distillation and
+# embedding generation for artificial intelligence models.
+#
+# This reservation is made in a machine-readable manner pursuant to
+# Article 4(3) of Directive (EU) 2019/790. The exception in Article 3 of that
+# Directive for scientific research by research organisations and cultural
+# heritage institutions is not affected.
+#
+# Commercial licences and AI training permissions: bilgi@oguzergin.net
+#
+# Full copyright and licence policy:
+#   https://bilgeveyonga.oguzergin.net/telif-ve-lisans.html
+# Terms of use:
+#   https://bilgeveyonga.oguzergin.net/kullanim-kosullari.html
+# AI and TDM notice (canonical page):
+#   https://bilgeveyonga.oguzergin.net/yapay-zeka-bildirimi.html
+# Machine-readable licence:
+#   https://bilgeveyonga.oguzergin.net/LICENSE.txt
+# TDM reservation locator (W3C TDMRep):
+#   https://bilgeveyonga.oguzergin.net/.well-known/tdmrep.json
+# TDM policy document:
+#   https://bilgeveyonga.oguzergin.net/tdm-policy.json
+#
+# ============================================================================
+
+
+# ---------------------------------------------------------------------------
+# 1) VARSAYILAN — Genel tarayıcılar serbesttir.
+#    Sitenin arama motorlarında bulunabilir kalması bilinçli bir tercihtir.
+# ---------------------------------------------------------------------------
+
+User-agent: *
+Disallow:
+
+
+# ---------------------------------------------------------------------------
+# 2) KLASİK ARAMA MOTORLARI — açıkça serbest bırakılmıştır.
+# ---------------------------------------------------------------------------
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Qwantbot
+Allow: /
+
+User-agent: SeznamBot
+Allow: /
+
+
+# ---------------------------------------------------------------------------
+# 3) BAĞLANTI ÖNİZLEME BOTLARI — paylaşımı kolaylaştırmak için serbesttir.
+# ---------------------------------------------------------------------------
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+User-agent: Discordbot
+Allow: /
+
+
+# ---------------------------------------------------------------------------
+# 4) YAPAY ZEKÂ EĞİTİMİ VE VERİ KÜMESİ TARAYICILARI — TÜMÜYLE YASAKTIR.
+#    Bu grup, model eğitimi ve veri kümesi derlemesi amacıyla çalışan
+#    tarayıcıları kapsar. Kullanıcı isteğiyle tek sayfa getiren yardımcı
+#    ajanlar (bkz. 5. bölüm) bu gruba dahil değildir.
+# ---------------------------------------------------------------------------
+
+# OpenAI
+User-agent: GPTBot
+# Anthropic
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+User-agent: Claude-Web
+# Google (Gemini / Vertex AI eğitim rezervasyonu)
+User-agent: Google-Extended
+# Apple (Apple Intelligence eğitim rezervasyonu)
+User-agent: Applebot-Extended
+# Common Crawl (kamuya açık eğitim veri kümesi)
+User-agent: CCBot
+# ByteDance
+User-agent: Bytespider
+User-agent: TikTokSpider
+# Meta
+User-agent: Meta-ExternalAgent
+User-agent: Meta-ExternalFetcher
+User-agent: FacebookBot
+# Amazon
+User-agent: Amazonbot
+# Perplexity
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+# Cohere
+User-agent: cohere-ai
+User-agent: cohere-training-data-crawler
+# Allen Institute for AI
+User-agent: AI2Bot
+User-agent: Ai2Bot-Dolma
+# Diğer veri kümesi ve toplayıcı tarayıcılar
+User-agent: Diffbot
+User-agent: ImagesiftBot
+User-agent: Omgilibot
+User-agent: Omgili
+User-agent: Timpibot
+User-agent: YouBot
+User-agent: PanguBot
+User-agent: Webzio-Extended
+User-agent: Kangaroo Bot
+User-agent: ISSCyberRiskCrawler
+User-agent: Sidetrade indexer bot
+User-agent: iaskspider/2.0
+User-agent: DuckAssistBot
+User-agent: img2dataset
+User-agent: Scrapy
+User-agent: magpie-crawler
+User-agent: peer39_crawler
+User-agent: VelenPublicWebCrawler
+User-agent: NovaAct
+User-agent: Operator
+Disallow: /
+
+
+# ---------------------------------------------------------------------------
+# 5) KULLANICI İSTEĞİYLE ÇALIŞAN GETİRME AJANLARI VE YZ ARAMA
+#    İNDEKSLEYİCİLERİ — okurun siteye ulaşmasına hizmet ettikleri için
+#    serbesttir. Bu izin, getirilen içeriğin model eğitiminde kullanılmasına
+#    izin anlamına GELMEZ; 4. bölümdeki rezervasyon bu ajanlar bakımından da
+#    geçerlidir.
+# ---------------------------------------------------------------------------
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+
+# ---------------------------------------------------------------------------
+# 6) SİTE HARİTASI
+#    Uyarı: Aşağıdaki satır ancak sitemap.xml yayımlandıktan SONRA geçerlidir.
+#    Dosya yoksa satırı yorum satırına çevirin (başına # koyun).
+#    sitemap.xml üretimi: uygulama/scripts/sitemap-uret.py
+# ---------------------------------------------------------------------------
+
+Sitemap: https://bilgeveyonga.oguzergin.net/sitemap.xml

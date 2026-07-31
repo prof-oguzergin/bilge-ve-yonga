@@ -1,0 +1,24 @@
+README_onizleme.html
+
+# kitap gorselleri repoda JPEG tutulur (Pages 1 GB siniri)
+kitap*/resimler/*.png
+
+taslak_*.html
+
+TASLAK_*.md
+
+# 1.01 -> 1.01a numaralandirmasindan kalan eski klasor. Drive esitlemesi
+# yerel silmeyi geri getirdigi icin burada da engelleniyor, yoksa
+# 'git add -A' onu sessizce depoya geri sokuyor (iki kez oldu).
+kitap1.01-kumdan-bilgisayar/
+TASLAK_hukuk_kararlari.md
+
+# uretim dosyalari: siteye girmez, asillari Drive'da
+# gorsel uretim istemleri ve bitmemis ceviri taslaklari: 2026-07-31'de
+# depodan cikarildi, 32 promptlar_3d.md ile EN taslagi Drive'da duruyor.
+promptlar_*.md
+EN_*.md
+karakter_referans*.png
+f86b5a4f-97a7-4bcd-aa16-042c5f3007c8.png
+__pycache__/
+*.pyc

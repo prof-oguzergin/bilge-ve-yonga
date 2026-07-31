@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bilge ve Yonga — Dar Geçit</title>
+<link rel="icon" href="../amblem.ico?v=2" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="../amblem-32.png?v=2">
+<link rel="apple-touch-icon" href="../amblem-180.png?v=2">
+<!-- BVY-TELIF-BASLANGIC -->
+<script src="../kunye.js" defer></script>
+<!-- Olcum: izne bagli, varsayilan KAPALI. Sartname bolum J. -->
+<script src="../olcum-tercihi.js" defer></script>
+<!-- BVY-TELIF-BITIS -->
+<meta name="theme-color" content="#0C1226">
+<script>try{var _t=localStorage.getItem('theme');if(_t)document.documentElement.setAttribute('data-theme',_t);}catch(e){}</script>
+<style>
+:root{
+  /* Varsayılan: karanlık (ana sayfadaki seçim localStorage ile devralınır) */
+  --paper:#FBF2E1; --paper-ink:#33294A;
+  --glow:#159FCB; --amber:#F3AC2E; --coral:#F16A50;
+  --ground:#0C1226; --stage:#121b38; --chrome:#EAF0F6; --chrome-soft:#9AA6C6;
+  --edge:rgba(180,200,240,.16); --shadow:rgba(0,0,0,.5);
+  --ff-disp:"Segoe UI",Verdana,system-ui,sans-serif;
+  --ff-body:"Georgia","Iowan Old Style",serif;
+}
+:root[data-theme="light"]{ --ground:#E7EEF3; --stage:#F3ECDD; --chrome:#182253; --chrome-soft:#5A6382;
+  --edge:rgba(24,34,83,.14); --shadow:rgba(24,34,83,.20); }
+:root[data-theme="dark"]{ --ground:#0C1226; --stage:#121b38; --chrome:#EAF0F6; --chrome-soft:#9AA6C6;
+  --edge:rgba(180,200,240,.16); --shadow:rgba(0,0,0,.5); }
+
+*{box-sizing:border-box}
+body{margin:0}
+.reader{
+  min-height:100vh; color:var(--chrome);
+  font-family:var(--ff-disp);
+  display:flex; flex-direction:column;
+  -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(1200px 720px at 16% 10%, rgba(21,159,203,.11), transparent 62%),
+    radial-gradient(1100px 820px at 86% 92%, rgba(241,106,80,.10), transparent 62%),
+    var(--ground);
+}
+.progress{height:4px; background:transparent}
+.progress i{display:block; height:100%; background:linear-gradient(90deg,var(--glow),var(--amber));
+  width:0; transition:width .35s ease}
+
+.bar{display:flex; align-items:center; gap:clamp(12px,1.2vw,20px);
+  padding:clamp(14px,1.2vw,22px) clamp(20px,2vw,40px)}
+.back{display:inline-flex; align-items:center; text-decoration:none; font-weight:700;
+  font-size:clamp(.82rem,.9vw,1.08rem); color:var(--chrome-soft);
+  border:1.5px solid var(--edge); border-radius:999px; padding:.5em .9em; transition:.16s}
+.back:hover{border-color:var(--glow); color:var(--glow)}
+.brand{display:flex; align-items:baseline; gap:9px; font-weight:700; letter-spacing:.02em;
+  font-size:clamp(1rem,1.05vw,1.4rem)}
+.brand b{color:var(--glow)} .brand span{color:var(--chrome-soft);
+  font-size:clamp(.82rem,.85vw,1.08rem); font-weight:600}
+.count{margin-left:auto; font-variant-numeric:tabular-nums; font-weight:700;
+  color:var(--chrome-soft); font-size:clamp(.9rem,.95vw,1.2rem)}
+.dl{display:inline-flex; align-items:center; gap:.5em; text-decoration:none;
+  font-weight:700; font-size:clamp(.86rem,.92vw,1.14rem); color:var(--chrome);
+  border:1.5px solid var(--edge); padding:.55em 1em; border-radius:999px; background:transparent;
+  cursor:pointer; transition:.18s}
+.dl:hover{border-color:var(--glow); color:var(--glow)}
+.dl svg{width:1.15em;height:1.15em}
+
+/* Ust cubuk dar ekranda sigmiyordu ve sayfayi yatay olarak 167 piksel
+   tasiriyordu. Uzun kitap adi artik kirpiliyor, indirme dugmeleri
+   kuculuyor, gerekirse cubuk saran duzene geciyor. */
+.bar{flex-wrap:wrap; min-width:0}
+.brand{min-width:0; flex:1 1 auto}
+.brand span:not(.kno){min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.count{flex:none}
+@media (max-width:640px){
+  .bar{gap:8px; padding:10px 12px}
+  .brand span:not(.kno){display:none}   /* kitap adi zaten kapakta yaziyor; rozet kalir */
+  .back{padding:.4em .7em; font-size:.78rem}
+  .count{font-size:.82rem}
+  .dl{padding:.45em .7em; font-size:.82rem}
+  .dl svg{width:1em; height:1em}
+}
+
+.stage{flex:1; display:flex; align-items:center; justify-content:center;
+  padding:8px clamp(64px,6vw,110px) 14px; position:relative}
+.stage::before{content:""; position:absolute; inset:0; pointer-events:none; z-index:0;
+  background:radial-gradient(760px 560px at 50% 45%, rgba(255,241,214,.07), transparent 72%)}
+.arrow{position:absolute; top:50%; transform:translateY(-50%); z-index:6;
+  width:60px; height:60px; border-radius:50%; border:none; cursor:pointer;
+  background:var(--stage); color:var(--chrome); box-shadow:0 6px 22px var(--shadow);
+  font-size:1.9rem; line-height:1; display:grid; place-items:center; transition:.16s}
+.arrow.prev{left:clamp(10px,2vw,28px)} .arrow.next{right:clamp(10px,2vw,28px)}
+.arrow:hover:not(:disabled){background:var(--glow); color:#fff; transform:translateY(-50%) scale(1.08)}
+.arrow:disabled{opacity:.3; cursor:default}
+.arrow:focus-visible{outline:3px solid var(--amber); outline-offset:3px}
+
+.book{width:min(1760px,97vw); margin-inline:auto; position:relative; z-index:1}
+.slide{display:none}
+.slide.on{display:block; animation:fade .38s ease}
+@keyframes fade{from{opacity:0; transform:translateY(8px)} to{opacity:1; transform:none}}
+@media (prefers-reduced-motion:reduce){ .slide.on{animation:none} .progress i{transition:none} }
+
+.spread{display:grid; grid-template-columns:minmax(0,1fr) clamp(300px,28vw,500px);
+  gap:clamp(20px,3vw,52px); align-items:center; justify-items:center}
+.spread .art{width:auto; height:auto; max-width:100%; max-height:72vh; aspect-ratio:16/9; margin:0}
+.spread .card{width:100%; margin:0}
+
+.art{width:100%; aspect-ratio:16/9; border-radius:18px; overflow:hidden;
+  box-shadow:0 16px 46px var(--shadow); background:#0002}
+.art img{width:100%; height:100%; object-fit:cover; display:block}
+
+.card{background:var(--paper); color:var(--paper-ink); position:relative;
+  border-radius:16px; padding:clamp(24px,2.4vw,40px) clamp(26px,2.6vw,46px);
+  box-shadow:0 10px 30px var(--shadow)}
+.spread .card{padding-bottom:clamp(46px,4vw,62px)}
+.eyebrow{font-family:var(--ff-disp); font-weight:800; font-size:.76rem; letter-spacing:.18em;
+  text-transform:uppercase; color:var(--coral); margin:0 0 6px}
+.pageno{position:absolute; right:clamp(20px,2vw,32px); bottom:clamp(16px,1.6vw,24px);
+  font-family:var(--ff-disp); font-weight:800; font-size:.72rem; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--coral); background:rgba(241,106,80,.12);
+  padding:4px 12px; border-radius:999px}
+.card h2{font-family:var(--ff-disp); font-weight:800; font-size:clamp(1.35rem,1.8vw,1.85rem);
+  margin:0 0 16px; color:var(--paper-ink); text-wrap:balance; line-height:1.15}
+.card p,.card .metin{font-family:var(--ff-body); font-size:clamp(1.12rem,1.25vw,1.4rem); line-height:1.74;
+  margin:0; max-width:42ch}
+.card .term{font-style:normal; font-weight:600; color:#C24A18; font-family:var(--ff-disp)}
+/* Konusani ayirt etme: kaynak metinde {B} ve {Y} isaretleriyle belirtilir.
+   Turuncu terimlere, yesil buyruklara ayrildigi icin konusanlara gul ve
+   mavi verildi; ikisi de krem zeminde rahat okunuyor. */
+.card .say{font-style:normal}
+.card .say.b{color:#A03356}
+.card .say.y{color:#1D5C86}
+.card .say .who{display:inline-block; width:1.25em; height:1.25em; border-radius:50%;
+  vertical-align:-.28em; margin-right:.28em; object-fit:contain}
+/* Sira degisiminde replik yeni satirda baslar; simge cizgi gibi sola oturur. */
+.card .say.turn{display:inline}
+.card .ara{display:block; height:.5em}
+.card .say.b .who{background:#F7C9C0}
+.card .say.y .who{background:#CFE6F2}
+/* Ucuncu karakterler (Ayse Teyze, Murat Bey, Risko, Sisko, Islemci...) tek tek
+   portre tasimadigi icin tarafsiz bir konusma balonu simgesi ve mor murekkep
+   kullaniyor. Ad zaten metinde geciyor; simge "baskasi konusuyor" diyor. */
+.card .say.d{color:#6B3FA0}
+.card .say.d .who{background:none; padding:.06em}
+/* Replik icindeki terim, konusanin renginde ve koyu olur. Turuncu terim rengi
+   mavi/gul repligin icinde yabanci duruyordu (konusan renkleri sonradan
+   eklendi). Anlatim icindeki terim turuncu kalir. */
+.card .say .term{color:inherit; font-weight:800}
+.card .cmd{font-family:ui-monospace,"Cascadia Mono",Consolas,monospace; font-size:.9em;
+  background:rgba(24,34,83,.07); color:#1F6F4A; padding:.08em .34em; border-radius:5px}
+.card .code{display:block; font-family:ui-monospace,"Cascadia Mono",Consolas,monospace; font-size:.84em;
+  background:rgba(24,34,83,.06); color:#22405F; padding:.6em .85em; border-radius:10px;
+  margin:.5em 0 0; white-space:pre; overflow-x:auto; line-height:1.5}
+
+.cover .art{aspect-ratio:16/9; max-height:84vh; width:auto; margin-inline:auto; position:relative}
+/* Katman sirasi onemli: perde ::after ile uretildigi icin agac sirasinda en
+   sondadir ve z-index verilmezse yazinin ustune biner, baslik solgun gorunur.
+   Bu yuzden resim 0, perde 1, yazi 2 katmaninda duruyor. */
+.cover .art img{position:relative; z-index:0}
+.cover .art::after{content:""; position:absolute; inset:0; z-index:1; pointer-events:none;
+  background:linear-gradient(180deg,transparent 34%,rgba(10,14,32,.55) 62%,rgba(8,11,26,.92) 100%);
+  border-radius:18px}
+.cover-tag{position:absolute; left:24px; bottom:22px; right:24px; z-index:2}
+.cover-tag .eyebrow{color:var(--amber); text-shadow:0 1px 3px #000, 0 2px 10px #000c}
+.cover-tag h1{font-family:var(--ff-disp); font-weight:800; color:#fff; margin:2px 0 0;
+  font-size:clamp(1.5rem,4vw,2.3rem); line-height:1.08;
+  text-shadow:0 1px 3px #000, 0 3px 18px #000e; text-wrap:balance}
+.cover-tag .csub{color:#fdf3df; font-family:var(--ff-body); font-style:italic;
+  margin:8px 0 0; font-size:1.02rem; text-shadow:0 1px 3px #000, 0 2px 12px #000d; max-width:44ch}
+
+.summary .card{margin:0 auto; max-width:940px}
+/* Telif satiri: md kuyrugunda tutarsizdi (26 kitapta vardi, 8'inde ayirici
+   yoktu ve ozet listesine madde olarak siziyordu, yildizlari da duz metin
+   goruunuyordu). Artik uretici yaziyor, listenin disinda ve sade. */
+.summary .telif{margin:22px 0 0; text-align:center; color:var(--paper-ink);
+  opacity:.55; font-size:.82rem; font-family:var(--ff-body)}
+.summary h2{color:var(--paper-ink); font-size:clamp(1.4rem,1.9vw,1.75rem);
+  display:flex; align-items:center; gap:10px; margin:0}
+.slist{list-style:none; margin:18px 0 0; padding:0; display:grid; gap:14px}
+.slist li{font-family:var(--ff-body); font-size:clamp(1.06rem,1.2vw,1.22rem); line-height:1.55;
+  padding-left:14px; border-left:3px solid var(--amber)}
+.slist li b{font-family:var(--ff-disp)}
+
+/* min-width:0 sart: esnek kutu icindeki oge bunsuz icerigin altina kuculemez,
+   serit de sayfayi yatay olarak genisletir (telefonda 190 piksel tasma). */
+.strip{display:flex; gap:10px; overflow-x:auto; padding:14px 20px 20px;
+  scroll-behavior:smooth; min-width:0}
+.strip::-webkit-scrollbar{height:8px}
+.strip::-webkit-scrollbar-thumb{background:var(--edge); border-radius:8px}
+.thumb{flex:none; width:104px; aspect-ratio:16/9; border-radius:9px; overflow:hidden;
+  border:2.5px solid transparent; cursor:pointer; background:var(--stage); padding:0;
+  position:relative; transition:.16s; opacity:.6}
+.thumb img{width:100%; height:100%; object-fit:cover; display:block}
+.thumb.sum{display:grid; place-items:center; color:var(--chrome-soft); font-size:1.5rem}
+.thumb:hover{opacity:1}
+.thumb.on{opacity:1; border-color:var(--amber); transform:translateY(-3px)}
+.thumb .n{position:absolute; left:5px; top:4px; font-size:.62rem; font-weight:800;
+  color:#fff; background:#0009; border-radius:5px; padding:1px 5px; font-variant-numeric:tabular-nums}
+
+.hint{text-align:center; color:var(--chrome-soft); font-size:clamp(.8rem,.85vw,1.02rem);
+  padding:0 0 clamp(16px,1.4vw,24px)}
+.hint kbd{font-family:var(--ff-disp); border:1px solid var(--edge); border-bottom-width:2px;
+  border-radius:5px; padding:1px .5em; font-size:.86em}
+
+/* kitap numarasi rozeti (ust bar) */
+.brand .kno{background:var(--accent); color:#fff; font-family:var(--ff-disp); font-weight:800;
+  font-size:clamp(.72rem,.8vw,.98rem); padding:3px 11px; border-radius:999px; letter-spacing:.02em}
+
+/* onceki/sonraki kitap gezinmesi */
+.booknav{display:flex; align-items:stretch; justify-content:center; gap:12px;
+  padding:2px clamp(20px,2vw,40px) 12px; flex-wrap:wrap}
+.bn{flex:1 1 0; max-width:360px; display:flex; flex-direction:column; gap:2px; text-decoration:none;
+  border:1.5px solid var(--edge); border-radius:14px; padding:11px 18px; background:transparent;
+  color:var(--chrome); transition:transform .16s, border-color .16s, box-shadow .16s}
+.bn span{font-size:.7rem; font-weight:800; letter-spacing:.12em; text-transform:uppercase; color:var(--chrome-soft)}
+.bn b{font-family:var(--ff-disp); font-weight:800; font-size:clamp(.9rem,1vw,1.08rem); line-height:1.15}
+.bn.next{text-align:right}
+.bn:hover{border-color:var(--accent); transform:translateY(-2px); box-shadow:0 10px 24px -14px var(--accent)}
+.bn:focus-visible{outline:3px solid var(--accent); outline-offset:2px}
+.bn.home{flex:0 0 auto; align-self:center; max-width:none; justify-content:center;
+  border-radius:999px; color:var(--chrome-soft); font-weight:700; padding:11px 20px}
+.bn.home b{font-size:.92rem}
+.bn.disabled{flex:1 1 0; max-width:360px; border:1.5px dashed var(--edge); opacity:.3; pointer-events:none}
+@media (max-width:640px){ .bn{flex-basis:44%} .bn.home{order:-1; flex-basis:100%} }
+
+/* gorus bildirme */
+.gorus{text-align:center; padding:4px clamp(20px,2vw,40px) 22px}
+.gorus a{display:inline-flex; align-items:center; gap:8px; text-decoration:none;
+  border:1.5px solid var(--edge); border-radius:999px; padding:9px 20px;
+  color:var(--chrome-soft); font-weight:700; font-size:.9rem;
+  transition:border-color .16s, color .16s, transform .16s}
+.gorus a:hover{border-color:var(--accent); color:var(--chrome); transform:translateY(-1px)}
+.gorus a:focus-visible{outline:3px solid var(--accent); outline-offset:2px}
+.gorus p{margin:8px 0 0; color:var(--chrome-soft); font-size:.78rem; opacity:.8}
+
+@media (max-width:880px){
+  .stage{padding:8px 16px 12px}
+  .spread{grid-template-columns:1fr; gap:0}
+  .spread .art{width:100%; height:auto; max-width:none; max-height:none; aspect-ratio:16/9}
+  .spread .card{width:92%; max-width:none; margin:-26px auto 0}
+}
+@media (max-width:640px){
+  .arrow{position:fixed; top:auto; bottom:86px; transform:none; width:52px; height:52px; font-size:1.6rem}
+  .arrow.prev{left:12px} .arrow.next{right:12px}
+  .arrow:hover:not(:disabled){transform:scale(1.06)}
+  .stage{padding:4px 10px 10px}
+  .spread .card{width:100%; padding:20px 22px 22px}
+  .card p,.card .metin{max-width:none}
+  .cover .art{max-height:68vh}
+}
+</style>
+<!-- BVY-TELIF-BASLANGIC -->
+<meta name="author" content="Prof. Dr. Oğuz Ergin">
+<meta name="copyright" content="© 2026 Prof. Dr. Oğuz Ergin. Tüm eserler CC BY-NC-ND 4.0 lisansı ile açık erişime sunulmuştur. Lisansın kapsamadığı tüm haklar saklıdır.">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+<meta name="license" content="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+<meta name="dcterms.rightsHolder" content="Prof. Dr. Oğuz Ergin">
+<meta name="tdm-reservation" content="1">
+<meta name="tdm-policy" content="https://bilgeveyonga.oguzergin.net/tdm-policy.json">
+<meta name="robots" content="index, follow, noai, noimageai">
+<meta name="ai-content-declaration" content="no-training, no-mining">
+<!-- BVY-TELIF-BITIS -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "@id": "https://bilgeveyonga.oguzergin.net/okuyucu/kitap2.09-dar-gecit.html#kitap",
+  "name": "Dar Geçit",
+  "alternateName": "Bilge ve Yonga · Kitap 2.9",
+  "description": "Bellek duvarı ve önbellek: hızlı işlemci, yavaş bellek",
+  "url": "https://bilgeveyonga.oguzergin.net/okuyucu/kitap2.09-dar-gecit.html",
+  "inLanguage": "tr",
+  "bookFormat": "https://schema.org/EBook",
+  "numberOfPages": 14,
+  "datePublished": "2026",
+  "author": {
+    "@type": "Person",
+    "@id": "https://oguzergin.net/#kisi",
+    "name": "Prof. Dr. Oğuz Ergin",
+    "url": "https://oguzergin.net"
+  },
+  "copyrightHolder": { "@id": "https://oguzergin.net/#kisi" },
+  "copyrightYear": 2026,
+  "copyrightNotice": "© 2026 Prof. Dr. Oğuz Ergin. Lisansın kapsamadığı tüm haklar saklıdır.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bilge ve Yonga — Bilgisayar Mimarisi Çocuk Kitapları",
+    "url": "https://bilgeveyonga.oguzergin.net/"
+  },
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "usageInfo": "https://bilgeveyonga.oguzergin.net/telif-ve-lisans.html",
+  "isAccessibleForFree": true,
+  "creditText": "Ergin, O. (2026). Bilge ve Yonga: Bilgisayar Mimarisi Çocuk Kitapları Serisi. https://bilgeveyonga.oguzergin.net",
+  "isPartOf": {
+    "@type": "CreativeWorkSeries",
+    "@id": "https://bilgeveyonga.oguzergin.net/#seri",
+    "name": "Bilge ve Yonga",
+    "url": "https://bilgeveyonga.oguzergin.net/"
+  },
+  "audience": {
+    "@type": "PeopleAudience",
+    "suggestedMinAge": 7,
+    "suggestedMaxAge": 12
+  },
+  "learningResourceType": "Hikâye kitabı",
+  "educationalUse": "Ders dışı okuma, sınıf içi okuma",
+  "associatedMedia": [
+    {
+      "@type": "MediaObject",
+      "encodingFormat": "application/pdf",
+      "contentUrl": "https://bilgeveyonga.oguzergin.net/kitap2.09-dar-gecit/Dar%20Ge%C3%A7it.pdf",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "copyrightHolder": { "@id": "https://oguzergin.net/#kisi" },
+      "isAccessibleForFree": true
+    },
+    {
+      "@type": "MediaObject",
+      "encodingFormat": "application/epub+zip",
+      "contentUrl": "https://bilgeveyonga.oguzergin.net/kitap2.09-dar-gecit/Dar%20Ge%C3%A7it.epub",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "copyrightHolder": { "@id": "https://oguzergin.net/#kisi" },
+      "isAccessibleForFree": true
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<div class="reader" style="--accent:#982A0B">
+  <div class="progress"><i id="bar"></i></div>
+  <div class="bar">
+    <a class="back" href="../index.html">‹ Seri</a>
+    <div class="brand"><b>Bilge</b> ve <b>Yonga</b> <span class="kno">Kitap 2.9</span> <span>Dar Geçit</span></div>
+    <div class="count"><span id="cur">1</span> / <span id="tot">1</span></div>
+    <a class="dl" href="../kitap2.09-dar-gecit/Dar%20Ge%C3%A7it.epub" download title="E-kitap (EPUB) indir">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+        stroke-linecap="round" stroke-linejoin="round"><path d="M4 5a2 2 0 0 1 2-2h9l5 5v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/><path d="M14 3v6h6"/></svg>E-kitap</a>
+    <a class="dl" href="../kitap2.09-dar-gecit/Dar%20Ge%C3%A7it.pdf" target="_blank" rel="noopener" title="Kitabı PDF olarak aç">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+        stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="M7 11l5 4 5-4"/>
+        <path d="M4 20h16"/></svg>PDF</a>
+  </div>
+
+  <div class="stage">
+    <button class="arrow prev" id="prev" aria-label="Önceki sayfa">‹</button>
+    <div class="book" id="book"></div>
+    <button class="arrow next" id="next" aria-label="Sonraki sayfa">›</button>
+  </div>
+
+  <div class="strip" id="strip"></div>
+  <div class="booknav"><a class="bn prev" href="kitap2.08-gustafsonun-bahcesi.html" title="Kitap 2.8"><span>‹ Önceki kitap</span><b>Gustafson'un Bahçesi</b></a><a class="bn home" href="../index.html"><b>Tüm seri</b></a><a class="bn next" href="kitap2.10-kim-daha-hizli.html" title="Kitap 2.10"><span>Sonraki kitap ›</span><b>Kim Daha Hızlı?</b></a></div>
+  <div class="hint">Oklarla veya <kbd>←</kbd> <kbd>→</kbd> tuşlarıyla gezin · alttaki küçük resimlere dokun</div>
+  <div class="gorus">
+    <a href="mailto:bilgi@oguzergin.net?subject=Bilge%20ve%20Yonga%20%C2%B7%20Kitap%202.9%20%C2%B7%20Dar%20Ge%C3%A7it%20hakk%C4%B1nda%20g%C3%B6r%C3%BC%C5%9F%C3%BCm">✉ Bu kitap hakkında görüş bildir</a>
+    <p>Beğendiğiniz, karışık bulduğunuz ya da yanlış olduğunu düşündüğünüz her şeyi yazabilirsiniz.</p>
+  </div>
+</div>
+
+<script>
+const PAGES = [{"type": "cover", "eyebrow": "Bilge ve Yonga · Kitap 2.9", "title": "Dar Geçit", "sub": "Bellek duvarı ve önbellek: hızlı işlemci, yavaş bellek", "img": "../kitap2.09-dar-gecit/resimler/GPT_Kapak.jpg", "thumb": "thumbs/k29_K.jpg"}, {"type": "page", "no": 1, "title": "Kek Telaşı", "text": "Bilge ve Yonga, mahalle şenliği için mutfakta kek yapmaya yardım ediyorlardı. Şef Amca çok hızlıydı, elleri uçuyordu, her hareketi kusursuzdu. Ama kek malzemeleri mutfak deposunda saklıydı ve deponun kapısı dar, koridoru uzundu. {B}\"Şef Amca bekliyor,\" dedi Bilge endişeyle. Yonga gözlerini kırptı: {Y}\"İşte burada bir sorun var.\"", "img": "../kitap2.09-dar-gecit/resimler/GPT_Sayfa_1.jpg", "thumb": "thumbs/k29_1.jpg"}, {"type": "page", "no": 2, "title": "Hızlı Şef, Yavaş Depo", "text": "{Y}\"Şef Amca dakikada yüz hareket yapabiliyor,\" dedi Yonga. {Y}\"Ama depodan malzeme getirmek dakikalar sürüyor. Bu süre boyunca Şef Amca ne yapıyor?\" Bilge cevapladı: {B}\"Bekliyor!\" {Y}\"Evet,\" dedi Yonga. {Y}\"Şef Amca bir işlemci gibi: çok hızlı. Depo ise bellek gibi: çok yavaş.\"", "img": "../kitap2.09-dar-gecit/resimler/GPT_Sayfa_2.jpg", "thumb": "thumbs/k29_2.jpg"}, {"type": "page", "no": 3, "title": "Bellek Duvarı", "text": "{B}\"Bu soruna bilgisayarlarda ne diyoruz?\" diye sordu Bilge. {Y}\"Bellek duvarı,\" dedi Yonga. {Y}\"İşlemci saniyede milyarlarca işlem yapabilir. Ama hesaplamak için verilere ihtiyacı var ve bu veriler bellekte saklanıyor.\" Bilge anladı: {B}\"Ama veriler işlemciye yavaş ulaşıyor.\"", "img": "../kitap2.09-dar-gecit/resimler/GPT_Sayfa_3.jpg", "thumb": "thumbs/k29_3.jpg"}, {"type": "page", "no": 4, "title": "Kırk Dakika Bekleme", "text": "Yonga örnek verdi: {Y}\"Düşün: Şef Amca bir keki yapmak için 20 malzemeye ihtiyaç duyuyor. Her malzeme için koridoru geçip depoya gitmek gerekiyor. Her seferinde 2 dakika.\" Bilge hızla hesapladı: {B}\"20 malzeme × 2 dakika = 40 dakika beklemek!\" Yonga başını salladı: {Y}\"Ve Şef Amca bu süre boyunca sadece bekliyor.\"", "img": "../kitap2.09-dar-gecit/resimler/GPT_Sayfa_4.jpg", "thumb": "thumbs/k29_4.jpg"}, {"type": "page", "no": 5, "title": "Önbellek Fikri", "text": "{B}\"Peki buna çözüm ne?\" diye sordu Bilge. Yonga güldü: {Y}\"Şef Amca ne yapabilir?\" Bilge düşündü, gözlerini kırptı: {B}\"Sık kullandığı malzemeleri tezgahın yakınına koysaydı, her seferinde depoya gitmek zorunda kalmazdı!\" Yonga sevinçle zıpladı: {Y}\"İşte buldun! Buna bilgisayarlarda önbellek diyoruz!\"", "img": "../kitap2.09-dar-gecit/resimler/GPT_Sayfa_5.jpg", "thumb": "thumbs/k29_5.jpg"}, {"type": "page", "no": 6, "title": "Önbellek Nasıl Çalışır", "text": "{B}\"Önbellek nasıl çalışıyor?\" diye sordu Bilge. Yonga anlattı: {Y}\"İşlemcinin yanında, ona çok yakın küçük ama hızlı bir depo vardır. En sık kullanılan veriler oraya konur.\" Bilge düşündü: {B}\"Ama tezgah küçük, her şeyi sığdıramazsın.\" {Y}\"Evet,\" dedi Yonga. {Y}\"Önbellek küçüktür ama işlemci gibi hızlıdır.\"", "img": "../kitap2.09-dar-gecit/resimler/GPT_Sayfa_6.jpg", "thumb": "thumbs/k29_6.jpg"}, {"type": "page", "no": 7, "title": "Değişen Raf", "text": "Bilge merak etti: {B}\"Peki hangi malzemeleri tezgahın yanına koymalısın?\" Yonga güldü: {Y}\"En çok kullanılanları! Şef Amca sabah kahvaltısı yaparken yumurta ve tereyağı yanında olsun; öğleden sonra kek yaparken un ve şeker yanında olsun.\" Bilge anladı: {B}\"Önbellek kendini güncelliyor, değil mi?\" {Y}\"Aynen öyle!\" dedi Yonga. {Y}\"Neyi çok kullanırsan önbellek onu yanında tutar, kullanmadığını da yerinden çıkarır.\"", "img": "../kitap2.09-dar-gecit/resimler/GPT_Sayfa_7.jpg", "thumb": "thumbs/k29_7.jpg"}, {"type": "page", "no": 8, "title": "Bulamama Anı", "text": "{B}\"Peki önbellekte aradığın şeyi bulamazsan ne olur?\" diye sordu Bilge. {Y}\"O zaman depoya gitmen gerekir,\" dedi Yonga. {Y}\"Bilgisayarlarda buna **bulamama** diyoruz. İşlemci ihtiyacı olan veriyi önbellekte bulamaz ve bellekten getirmek zorunda kalır. Bu zaman alır.\" Bilge içini çekti: {B}\"O zaman işlemci yine bekler.\"", "img": "../kitap2.09-dar-gecit/resimler/GPT_Sayfa_8.jpg", "thumb": "thumbs/k29_8.jpg"}, {"type": "page", "no": 9, "title": "Boyut Dengesi", "text": "{B}\"Önbellek ne kadar büyük olmalı?\" diye sordu Bilge. {Y}\"Büyük olursa daha çok şey sığar ama içinde aramak uzun sürer,\" dedi Yonga. {Y}\"Küçük olursa hızlıdır ama az şey sığar.\" Bilge düşündü: {B}\"Demek ki tam doğru boyutu bulmak önemli.\" Yonga başını salladı: {Y}\"Bu, bilgisayar mimarlarının her zaman çözdüğü bir denge sorusudur.\"", "img": "../kitap2.09-dar-gecit/resimler/GPT_Sayfa_9.jpg", "thumb": "thumbs/k29_9.jpg"}, {"type": "page", "no": 10, "title": "Katlı Önbellek", "text": "{B}\"Önbellek tek katlı mı?\" diye sordu Bilge. Yonga güldü: {Y}\"Hayır! Genellikle birkaç katlıdır. Birinci kat (L1): işlemcinin hemen yanında, çok küçük ama çok hızlı. İkinci kat (L2): biraz daha büyük, biraz daha yavaş. Üçüncü kat (L3): daha da büyük…\" Bilge tamamladı: {B}\"Tıpkı tezgah, tezgah altı ve büyük raf gibi!\"", "img": "../kitap2.09-dar-gecit/resimler/GPT_Sayfa_10.jpg", "thumb": "thumbs/k29_10.jpg"}, {"type": "page", "no": 11, "title": "Hızlanan Şef Amca", "text": "Şef Amca artık çok daha hızlı çalışıyordu, en çok kullandığı malzemeleri yanına almıştı. Keki neredeyse bitirmişti. {D}\"Fark ettiniz mi?\" dedi Şef Amca gülerek. {D}\"Önce depodan her şeyi getiriyordum. Şimdi el uzatıyorum, malzeme orada.\" Bilge sevinçle bağırdı: {B}\"Bu önbellek sayesinde!\"", "img": "../kitap2.09-dar-gecit/resimler/GPT_Sayfa_11.jpg", "thumb": "thumbs/k29_11.jpg"}, {"type": "page", "no": 12, "title": "Duvar Hâlâ Duruyor", "text": "{B}\"Bellek duvarı tamamen çözüldü mü?\" diye sordu Bilge. Yonga ciddi bir yüzle başını iki yana salladı: {Y}\"Hayır. Önbellek çok yardımcı olur ama tam çözüm değildir. İşlemciler her yıl daha hızlanıyor; bellek ise daha yavaş hızlanıyor. Bu yüzden mühendisler hâlâ yeni çözümler arıyor.\" Bilge derin bir nefes aldı: {B}\"Demek ki hâlâ iş var.\"", "img": "../kitap2.09-dar-gecit/resimler/GPT_Sayfa_12.jpg", "thumb": "thumbs/k29_12.jpg"}, {"type": "page", "no": 13, "title": "Lezzetli Önbellek", "text": "Festival günü kek harika olmuştu. Bilge bir parça yerken Yonga'ya döndü: {B}\"Bu kek bana önbelleği hatırlatıyor. En önemli malzemeler, şeker ve yumurta, en yakın raflardaydı.\" Yonga güldü: {Y}\"Her lezzetli hesaplamanın arkasında iyi bir önbellek stratejisi vardır.\" Bilge gülerek başını salladı.", "img": "../kitap2.09-dar-gecit/resimler/GPT_Sayfa_13.jpg", "thumb": "thumbs/k29_13.jpg"}, {"type": "page", "no": 14, "title": "Yeni Bir Soru", "text": "Eve dönerken Bilge'nin kafasında yeni bir soru belirdi: {B}\"Peki ya önbellekte yanlış şeyler saklanırsa?\" Yonga güldü: {Y}\"İşte o ayrı bir konu: önbellek yönetimi denen büyüleyici bir alan! Ama o hikayeyi başka bir gün anlatırım.\" Bilge sabırsızlıkla güldü: {B}\"Söz mü?\" Yonga ekranında küçük bir parmak sallama canlandırması gösterdi: {Y}\"Söz!\"", "img": "../kitap2.09-dar-gecit/resimler/GPT_Sayfa_14.jpg", "thumb": "thumbs/k29_14.jpg"}, {"type": "summary", "title": "Bugün Ne Öğrendik?", "lines": ["⚡ İşlemci çok hızlı hesaplama yapar; ancak hesaplama için gereken veriler **bellekte** saklanır ve bellek işlemciden çok daha yavaştır. Buna **bellek duvarı** diyoruz.", "🧰 **Önbellek**, işlemcinin yakınında bulunan küçük ama hızlı bir geçici depodur; en sık kullanılan veriler orada tutulur.", "🔍 İşlemci veriyi önbellekte bulursa buna **bulma**, bulamazsa **bulamama** denir. Bulamama durumunda veriyi yavaş bellekten getirmek gerekir.", "📦 Önbellek genellikle birden fazla katlıdır (L1, L2, L3); işlemciye yaklaştıkça küçülür ve hızlanır.", "⚖️ Önbelleğin boyutu ile hızı arasında bir denge vardır. Mühendisler bu dengeyi dikkatle kurar.", "🔧 Bellek duvarı tamamen çözülmüş değildir. İşlemciler her yıl daha hızlanırken bellek daha yavaş hızlanıyor, mühendisler yeni çözümler aramayı sürdürüyor."]}];
+let i = 0;
+const book = document.getElementById('book');
+const strip = document.getElementById('strip');
+const tot = PAGES.length;
+document.getElementById('tot').textContent = tot;
+function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function fmt(s){var t=esc(s);
+  // Kod parcalari once saklanir: konusan kalibi tirnak arar ve HTML
+  // ozniteliklerindeki tirnaklara takilirsa repligi ortasindan keser.
+  var KOD=[];
+  function sakla(h){KOD.push(h);return '\u0001'+(KOD.length-1)+'\u0001';}
+  t=t.replace(/```\n?([\s\S]*?)```/g,function(m,c){
+    return sakla('<span class="code">'+c.replace(/\n+$/,'')+'</span>');});
+  t=t.replace(/`([^`\n]+)`/g,function(m,c){
+    return sakla('<code class="cmd">'+c+'</code>');});
+  // {B}"..." / {Y}"..." -> konusan kabugu (simge + renk). Isaretsiz alintilar
+  // (ekran icerigi, terim) oldugu gibi kalir; asla tahmin yurutulmez.
+  // Konusan degistiginde replik yeni satirda basliyor ve basina karakter
+  // simgesi geliyor: simge, Turkce konusma cizgisinin yapisal isini yapar.
+  // Ayni kisinin suren repligi ayni satirda kalir, rengini korur, simge
+  // yinelenmez. Boylece sira degisimi bosluktan, kimlik simgeden okunur.
+  var oncekiKonusan = '';
+  var BALON = '<svg class="who" viewBox="0 0 24 24" role="img" aria-label="Başka biri konuşuyor">'
+    + '<path fill="currentColor" d="M12 3C6.9 3 3 6.3 3 10.3c0 2.3 1.3 4.4 3.4 5.7L5.6 20l3.9-2.1'
+    + 'c.8.2 1.6.3 2.5.3 5.1 0 9-3.3 9-7.3S17.1 3 12 3z"/></svg>';
+  t=t.replace(/\{([BYD])\}("[^"]*")/g,function(m,k,q,konum){
+    var kim = k==='B' ? {s:'b', ad:'Bilge', im:'../bilge.png?v=10'}
+            : k==='Y' ? {s:'y', ad:'Yonga', im:'../yonga.png?v=10'}
+                      : {s:'d', ad:'', im:null};
+    var degisti = (k!==oncekiKonusan);
+    oncekiKonusan = k;
+    if(!degisti) return '<span class="say '+kim.s+'">'+q+'</span>';
+    var simge = kim.im
+      ? '<img class="who" src="'+kim.im+'" alt="'+kim.ad+' konuşuyor">'
+      : BALON;
+    var basta = (t.slice(0, konum).trim() === '');
+    return (basta ? '' : '<span class="ara"></span>')
+      + '<span class="say turn '+kim.s+'">' + simge + q + '</span>';
+  });
+  t=t.replace(/\*\*(.+?)\*\*/g,'<em class="term">$1</em>');
+  return t.replace(/\u0001(\d+)\u0001/g,function(m,i){return KOD[+i];});}
+
+PAGES.forEach((p, idx)=>{
+  const s = document.createElement('div');
+  s.className = 'slide' + (p.type==='cover'?' cover':p.type==='summary'?' summary':'');
+  const lz = idx===0 ? '' : ' loading="lazy" decoding="async"';
+  if(p.type==='cover'){
+    s.innerHTML = '<div class="art"><img src="'+p.img+'" alt="Kapak"'+lz+'>'
+      +'<div class="cover-tag"><p class="eyebrow">'+esc(p.eyebrow)+'</p>'
+      +'<h1>'+esc(p.title)+'</h1><p class="csub">'+esc(p.sub)+'</p></div></div>';
+  } else if(p.type==='summary'){
+    const lis = p.lines.map(l=>'<li>'+l.replace(/\*\*(.+?)\*\*/g,'<b>$1</b>')+'</li>').join('');
+    s.innerHTML = '<div class="card"><h2>🎓 '+esc(p.title)+'</h2><ul class="slist">'+lis+'</ul>'
+      + '<p class="telif">© Oğuz Ergin · Bilge ve Yonga · CC BY-NC-ND 4.0</p></div>';
+  } else {
+    s.innerHTML = '<div class="spread"><div class="art"><img src="'+p.img+'" alt="Sayfa '+p.no+'"'+lz+'></div>'
+      +'<div class="card">'+(p.title?'<h2>'+esc(p.title)+'</h2>':'')
+      +'<div class="metin">'+fmt(p.text)+'</div><span class="pageno">Sayfa '+p.no+'</span></div></div>';
+  }
+  book.appendChild(s);
+
+  const t = document.createElement('button');
+  t.className = 'thumb' + (p.type==='summary'?' sum':'');
+  if(p.type==='summary'){ t.innerHTML = '🎓'; }
+  else { t.innerHTML = '<img src="'+p.thumb+'" alt="" loading="lazy" decoding="async"><span class="n">'
+      +(p.type==='cover'?'K':p.no)+'</span>'; }
+  t.addEventListener('click', ()=>go(idx));
+  strip.appendChild(t);
+});
+
+const slides = [...book.children];
+const thumbs = [...strip.children];
+const prev = document.getElementById('prev');
+const next = document.getElementById('next');
+function go(n){
+  i = Math.max(0, Math.min(tot-1, n));
+  slides.forEach((s,k)=>s.classList.toggle('on', k===i));
+  thumbs.forEach((t,k)=>t.classList.toggle('on', k===i));
+  document.getElementById('cur').textContent = i+1;
+  document.getElementById('bar').style.width = ((i+1)/tot*100)+'%';
+  prev.disabled = i===0; next.disabled = i===tot-1;
+  thumbs[i].scrollIntoView({inline:'center', block:'nearest'});
+}
+prev.addEventListener('click', ()=>go(i-1));
+next.addEventListener('click', ()=>go(i+1));
+document.addEventListener('keydown', e=>{
+  if(e.key==='ArrowRight') go(i+1);
+  else if(e.key==='ArrowLeft') go(i-1);
+  else if(e.key==='Home') go(0);
+  else if(e.key==='End') go(tot-1);
+});
+let x0=null;
+book.addEventListener('touchstart', e=>x0=e.touches[0].clientX, {passive:true});
+book.addEventListener('touchend', e=>{
+  if(x0===null) return;
+  const dx = e.changedTouches[0].clientX - x0;
+  if(Math.abs(dx)>45){ dx<0 ? go(i+1) : go(i-1); }
+  x0=null;
+});
+go(0);
+</script>
+</body>
+</html>

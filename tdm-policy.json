@@ -1,0 +1,64 @@
+{
+  "@context": "http://www.w3.org/ns/tdmrep.jsonld",
+  "policy-id": "bilgeveyonga-tdm-1.0",
+  "policy-version": "1.0",
+  "policy-date": "2026-07-26",
+  "policy-language": "tr",
+  "rightsholder": {
+    "name": "Prof. Dr. Oğuz Ergin",
+    "type": "Person",
+    "country": "TR",
+    "contact": "bilgi@oguzergin.net",
+    "url": "https://oguzergin.net"
+  },
+  "work": {
+    "title": "Bilge ve Yonga: Bilgisayar Mimarisi Çocuk Kitapları Serisi",
+    "url": "https://bilgeveyonga.oguzergin.net",
+    "language": "tr",
+    "volumes": 32,
+    "audience": "7-12",
+    "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "isAccessibleForFree": true
+  },
+  "tdm-reservation": 1,
+  "reservation-scope": [
+    "text-and-data-mining",
+    "generative-ai-training",
+    "non-generative-ai-training",
+    "fine-tuning",
+    "distillation",
+    "continued-pre-training",
+    "embedding-generation",
+    "vector-database-generation",
+    "retrieval-augmented-generation-corpus",
+    "commercial-dataset-compilation",
+    "character-reproduction-training"
+  ],
+  "reservation-exception": [
+    "Bilimsel araştırma amacıyla, araştırma kuruluşları ve kültürel miras kurumlarınca yürütülen metin ve veri madenciliği (2019/790 sayılı Direktif m. 3) bu rezervasyonun dışındadır.",
+    "Scientific research carried out by research organisations and cultural heritage institutions under Article 3 of Directive (EU) 2019/790 is not affected by this reservation."
+  ],
+  "legal-basis": [
+    "2019/790 sayılı Avrupa Birliği Direktifi m. 4(3) — makine okunabilir hak saklı tutma",
+    "5846 sayılı Fikir ve Sanat Eserleri Kanunu m. 21, 22 ve 25 — işleme, çoğaltma ve umuma iletim hakları"
+  ],
+  "statement": {
+    "tr": "Bu içeriğin metin ve veri madenciliği ile yapay zekâ modeli eğitiminde kullanılması eser sahibince açıkça yasaklanmış ve bu haklar saklı tutulmuştur. İzin yalnızca ayrı, yazılı ve devredilen hakları tek tek gösteren bir sözleşmeyle verilir.",
+    "en": "The rightholder expressly reserves all rights of reproduction and extraction for text and data mining and for AI model training. Permission is granted only by a separate written agreement enumerating each right transferred."
+  },
+  "licensing": {
+    "contact": "bilgi@oguzergin.net",
+    "subject-line": "YZ EĞİTİM İZNİ / AI TRAINING REQUEST",
+    "procedure": "https://bilgeveyonga.oguzergin.net/ticari-kullanim.html",
+    "policy": "https://bilgeveyonga.oguzergin.net/yapay-zeka-bildirimi.html"
+  },
+  "governing-law": "Türk hukuku / Turkish law",
+  "jurisdiction": "Ankara, Türkiye",
+  "related": [
+    "https://bilgeveyonga.oguzergin.net/robots.txt",
+    "https://bilgeveyonga.oguzergin.net/ai.txt",
+    "https://bilgeveyonga.oguzergin.net/llms.txt",
+    "https://bilgeveyonga.oguzergin.net/LICENSE.txt",
+    "https://bilgeveyonga.oguzergin.net/telif-ve-lisans.html"
+  ]
+}
