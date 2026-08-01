@@ -40,7 +40,10 @@ PAGE_H = 595.28  # A4 kisa kenari (pt)
 PAGE_W = PAGE_H * 1.792  # = ~1066.7 pt (Gemini oranina uygun)
 TEXT_BAND_RATIO = 0.25            # sayfanın alt %25'i metin bandı için başlangıç
 BAND_ALPHA   = 0.65
-TEXT_SIZE    = 16
+TEXT_SIZE    = 16                 # yalnizca metin-only sayfalar ve kunye icin
+# Metin bandinin uyarlamali boylari (buyukten kucuge) ve bant butcesi.
+BANT_BOYLAR  = (22, 20, 19, 18, 16)
+BANT_BUTCE   = 0.22               # sayfa yuksekliginin en cok bu kadari
 LINE_SPACING = 22
 BACK_COLOR   = (0.1, 0.137, 0.494)   # #1a237e koyu mavi
 IMG_MAX_PX   = 1600               # resim en uzun kenarı (piksel)
@@ -209,10 +212,19 @@ def draw_text_band(c: canvas.Canvas, text: str):
     usable_w = PAGE_W - 2 * margin_x
     pad_y    = 12   # alt-üst iç boşluk
 
-    # Metin satırlarını hesapla (basit kelime sarma)
-    wrapped = wrap_text(c, text, FONT_N, TEXT_SIZE, usable_w)
+    # Yazı boyu uyarlamalı: banda bir bütçe konur, o bütçeye sığan EN BÜYÜK boy
+    # seçilir. Eskiden her sayfada sabit 16 pt idi ve satıra ~121 karakter
+    # düşüyordu; kısa metinli sayfalarda bandın boş yeri değerlendirilmiyordu.
+    # En kötü durum değişmez: sabit 16 pt de uzun sayfalarda bandı %23'e
+    # çıkarıyordu. (Okur geri bildirimi, 1 Ağustos 2026: EPUB'ın puntosu
+    # PDF'ten daha okunaklı geliyor.)
+    for boy in BANT_BOYLAR:
+        satir_ara = boy * 1.38
+        wrapped = wrap_text(c, text, FONT_N, boy, usable_w)
+        band_h = len(wrapped) * satir_ara + 2 * pad_y
+        if band_h <= PAGE_H * BANT_BUTCE:
+            break
     n_lines  = len(wrapped)
-    band_h   = n_lines * LINE_SPACING + 2 * pad_y
     band_h   = max(band_h, 50)
 
     # Saydam dikdörtgen (ReportLab'da alpha için setFillAlpha)
@@ -224,11 +236,11 @@ def draw_text_band(c: canvas.Canvas, text: str):
     # Metni yaz
     c.saveState()
     c.setFillColorRGB(1, 1, 1)
-    c.setFont(FONT_N, TEXT_SIZE)
-    y_cur = pad_y + (n_lines - 1) * LINE_SPACING
+    c.setFont(FONT_N, boy)
+    y_cur = pad_y + (n_lines - 1) * satir_ara
     for line in wrapped:
         c.drawString(margin_x, y_cur, line)
-        y_cur -= LINE_SPACING
+        y_cur -= satir_ara
     c.restoreState()
 
 # ─── Kelime sarma ───────────────────────────────────────────────────────────
