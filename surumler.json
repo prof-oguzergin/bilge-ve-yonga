@@ -1,0 +1,147 @@
+{
+  "aciklama": "Kitap ve cilt surumleri. Bir kitabin metni degisince o kitabin ikinci hanesi artar; icinde degisiklik olan cildin de ikinci hanesi artar. Yeni alt seri eklenince birinci hane artar. Seri 4 kitaplari henuz yayimlanmadi; yayina cikinca 1.0 ve o gunun tarihiyle eklenecek, o zamana kadar kunyede surum satiri yok.",
+  "kitaplar": {
+    "kitap1.01a-kumdan-bilgisayar": {
+      "surum": "1.1",
+      "tarih": "3 Ağustos 2026"
+    },
+    "kitap1.01b-bazen-gecer-bazen-gecmez": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap1.02-milyarlarca-kucuk-anahtar": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap1.03-bilgisayarin-bes-arkadasi": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap1.04-al-anla-yap": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap1.05-soganin-katmanlari": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap1.06-moorenun-sihirli-takvimi": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap1.07-iki-kardes-risc-ve-cisc": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap1.08-acik-kapi": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap1.09-bilgisayarin-atesi": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap1.10-bilgisayar-dusunmeyi-ogreniyor": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap2.01-uzaydaki-bilgisayar": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap2.02-davulcu-ve-kurekciler": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap2.03-dunyanin-en-hizli-mutfagi": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap2.04-corumlu-orhan-ile-edirneli-orhan": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap2.05-ayakkabi-bagini-hizli-baglasan": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap2.06-yaris-pisti": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap2.07-altin-cag-ve-duvar": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap2.08-gustafsonun-bahcesi": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap2.09-dar-gecit": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap2.10-kim-daha-hizli": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap3.01-iki-dunyanin-koprusu": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap3.02-siranin-ustundeki-kalemler": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap3.03-zarfin-ustundeki-bolmeler": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap3.04-parkta-kavsak": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap3.05-mektup-fabrikasi": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap3.06-toplama-makinesi": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap3.07-sihirli-maskeler": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap3.08-sifirin-gucu": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap3.09-kulelerin-oyunu": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap3.10-tasiyicilar": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "kitap3.11-dedektif-bilge-ve-kayip-sonuc": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    }
+  },
+  "ciltler": {
+    "1": {
+      "surum": "1.1",
+      "tarih": "3 Ağustos 2026"
+    },
+    "2": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    },
+    "3": {
+      "surum": "1.0",
+      "tarih": "31 Temmuz 2026"
+    }
+  }
+}

@@ -17,6 +17,7 @@ except Exception:
 import os
 import re
 import glob
+import json
 from pathlib import Path
 from reportlab.lib.pagesizes import A4, landscape
 from reportlab.pdfgen import canvas
@@ -375,6 +376,18 @@ def draw_back_cover(c: canvas.Canvas, meta: dict, kitap_no: str = ""):
 # ─── Künye sayfası ──────────────────────────────────────────────────────────
 # Metin Av. Mehmet Arın Gülüm'ün hazırladığı uygulama şartnamesinin G.2
 # bölümünden BİREBİR alınmıştır; sözcükleri değiştirilmez.
+# Surumler surumler.json'da tutulur: her kitabin ve her cildin kendi numarasi
+# vardir. Kitabin metni degisince o kitabin ikinci hanesi artar; icinde
+# degisiklik olan cildin de ikinci hanesi artar.
+def kitap_surumu(klasor_adi: str) -> str:
+    """Kunyeye basilacak surum satiri. Kayit yoksa satir bos doner."""
+    yol = Path(__file__).with_name("surumler.json")
+    if not yol.exists():
+        return ""
+    kayit = json.loads(yol.read_text(encoding="utf-8"))["kitaplar"].get(klasor_adi)
+    return "Sürüm %s, %s" % (kayit["surum"], kayit["tarih"]) if kayit else ""
+
+
 KUNYE_SATIRLARI = [
     ("b", 15, "KÜNYE"),
     ("", 0, ""),
@@ -408,7 +421,7 @@ KUNYE_SATIRLARI = [
 ]
 
 
-def draw_kunye_page(c: canvas.Canvas, kitap_adi: str):
+def draw_kunye_page(c: canvas.Canvas, kitap_adi: str, surum: str = ""):
     """Krem zeminli künye sayfası çizer (şartname G.3, üretim hattı çözümü)."""
     c.saveState()
     c.setFillColorRGB(1.0, 0.98, 0.93)
@@ -424,6 +437,9 @@ def draw_kunye_page(c: canvas.Canvas, kitap_adi: str):
             continue
         c.setFont(FONT_B if bicim == "b" else FONT_N, boy)
         c.drawString(52, y, metin.replace("{kitap}", kitap_adi))
+        if metin == "Ankara, 2026" and surum:
+            y -= boy + 5.0
+            c.drawString(52, y, surum)
         y -= boy + 5.5
     c.restoreState()
 
@@ -852,7 +868,7 @@ def build_pdf(kitap_dir: Path):
     c.showPage()
 
     # ── Künye (şartname G.3) ──
-    draw_kunye_page(c, kitap_adi)
+    draw_kunye_page(c, kitap_adi, kitap_surumu(kitap_dir.name))
     c.showPage()
 
     # ── Arka kapak ──

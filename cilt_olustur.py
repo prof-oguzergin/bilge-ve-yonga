@@ -145,13 +145,26 @@ def cilt_kapak(c, seri, ad, alt, renk, kitap_listesi):
 
 
 # ─── kunye ───────────────────────────────────────────────────────────────────
-def cilt_kunye(c, cilt_adi, doi, isbn):
+
+def cilt_surumu(seri: str) -> str:
+    """Cildin kunyesine basilacak surum satiri. Kayit yoksa bos doner."""
+    import json
+    yol = Path(__file__).with_name('surumler.json')
+    if not yol.exists():
+        return ''
+    k = json.loads(yol.read_text(encoding='utf-8'))['ciltler'].get(str(seri))
+    return 'Sürüm %s, %s' % (k['surum'], k['tarih']) if k else ''
+
+
+def cilt_kunye(c, cilt_adi, doi, isbn, surum=""):
     """Kitap kunyesinin cilt surumu: DOI/ISBN kunye blogunun icinde durur ve
     atif satiri seriyi degil bu cildi gosterir."""
     satirlar = []
     for bicim, boy, metin in po.KUNYE_SATIRLARI:
         satirlar.append((bicim, boy, metin))
         if metin == 'Ankara, 2026':
+            if surum:
+                satirlar.append(('n', 10, surum))
             satirlar.append(('', 0, ''))
             satirlar.append(('b', 10, 'DOI: %s' % (doi or '(atanacak)')))
             satirlar.append(('b', 10, 'ISBN: %s' % (isbn or '(atanacak)')))
@@ -247,7 +260,8 @@ def cilt_uret(seri, cilt_adi, doi='', isbn=''):
 
     cilt_kapak(c, seri, cilt_adi, alt, renk, kl)
     c.showPage()
-    cilt_kunye(c, 'Cilt %s: %s' % (seri, cilt_adi), doi, isbn)
+    cilt_kunye(c, 'Cilt %s: %s' % (seri, cilt_adi), doi, isbn,
+               cilt_surumu(seri))
     c.showPage()
     icindekiler(c, cilt_adi, renk, kl)
     c.showPage()
