@@ -70,7 +70,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 7 — İnce Silisyum Dilimler
 
 **Metin:**
-Sonra kristal çok ince dilimler halinde kesildi. Her dilim bir **silisyum plaka**. Silisyum plaka, yuvarlak ve pırıl pırıldı. Bir gözlük camından bile inceydi!
+Sonra kristal çok ince dilimler hâlinde kesildi. Her dilime **silisyum plaka** deniyordu. Plakalar yuvarlak ve pırıl pırıldı, bir gözlük camından bile inceydi!
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bir robot kol, ışık hüzmeleri eşliğinde gümüşi yuvarlak bir silisyum plakayı tutmuş; silisyum plaka üzerinde gökkuşağı renkleri yansıyor, tıpkı sabun köpüğü gibi. Bilge ellerini yanlarına açmış "bu kadar ince mi?" der gibi bakıyor, Yonga da küçük kollarıyla plaka büyüklüğünü göstermeye çalışıyor. Arka plan steril beyaz bir laboratuvar. Gökkuşağı yansımaları ve gümüş tonlar, silisyum plakanın ince ve narin yapısını görsel olarak çarpıcı kılıyor.
