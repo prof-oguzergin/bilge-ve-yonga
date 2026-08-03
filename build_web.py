@@ -1037,6 +1037,16 @@ def build_reader(folder, no, title, subtitle, glow, prev=None, nxt=None):
     return len(pages), out.name
 
 
+def _surum(anahtar, tur='kitaplar'):
+    """surumler.json'dan kitap ya da cilt surumu. Kayit yoksa bos doner
+    (henuz yayimlanmamis kitaplarda satir gorunmesin)."""
+    yol = REPO / 'surumler.json'
+    if not yol.exists():
+        return ''
+    k = json.loads(yol.read_text(encoding='utf-8'))[tur].get(str(anahtar))
+    return 'Sürüm %s, %s' % (k['surum'], k['tarih']) if k else ''
+
+
 def _card_html(folder, no, title, sub, glow):
     d = REPO / folder
     pdf = find_pdf(d)
@@ -1053,7 +1063,8 @@ def _card_html(folder, no, title, sub, glow):
         f'          <span class="book-no">Kitap {no}</span>\n'
         f'          <h3>{title}</h3>\n'
         f'          <p>{sub}</p>\n'
-        '          <div class="book-actions">\n'
+        + (f'          <p class="book-surum">{_surum(folder)}</p>\n' if _surum(folder) else '')
+        + '          <div class="book-actions">\n'
         f'            <a class="btn-read" href="{read_href}">Oku</a>\n'
         '            <div class="book-dl">\n'
         f'              <a href="{epub_href}" download>E-kitap</a>\n'
