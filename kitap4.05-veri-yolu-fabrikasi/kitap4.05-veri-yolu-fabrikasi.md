@@ -28,7 +28,7 @@ Yonga istasyonları tek tek işaret etti. {Y}"Fabrikamızda beş istasyon var. P
 
 {B}"Beş istasyon, tek fabrika," dedi Bilge. {B}"Peki hepsi birbirine nasıl bağlanıyor?"
 
-{Y}"İşte asıl sihir orada!" dedi Yonga.
+{Y}"İşte asıl iş orada!" dedi Yonga.
 
 **Resim:**
 Beş renkli istasyondan oluşan bir fabrika hattının kuş bakışı görünümü. Her istasyonun üzerinde büyük bir numara var: 1, 2, 3, 4, 5. İstasyonlar arasında henüz boş, bağlanmamış teller sarkıyor. Bilge fabrikanın üstündeki köprüden aşağı bakıyor, elinde beş istasyonu gösteren bir kroki. Yonga onun yanında havada duruyor, kanatlı bir ışıkla istasyonları tek tek işaret ediyor.

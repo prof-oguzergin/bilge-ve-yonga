@@ -27,7 +27,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 {B}"Maskelerin ne işi var?" diye sordu Bilge.
 
-{Y}"Maskeler bazı şeyleri gösterir, bazı şeyleri gizler," dedi Yonga. {Y}"Benim sihirli maskelerim de bitlerimi öyle seçer: bazılarını geçirir, bazılarını durdurur!"
+{Y}"Maskeler bazı şeyleri gösterir, bazı şeyleri gizler," dedi Yonga. {Y}"Benim içimdeki maskeler de bitlerimi öyle seçer: bazılarını geçirir, bazılarını durdurur!"
 
 **Resim:**
 
@@ -139,7 +139,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 Yonga anlattı: {Y}"Dışlayan VEYA ile bir sırrı saklayabilirsin! Sayını Dışlayan VEYA ile şifrele, sonra aynı maskeyle tekrar Dışlayan VEYA yap: sayın geri gelir!"
 
-{B}"Sihir gibi!" dedi Bilge.
+{B}"Aynı maske hem kilitliyor hem açıyor!" dedi Bilge.
 
 **Resim:**
 
@@ -181,7 +181,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 Bilge karnavaldan ayrılırken gerçek maskelere baktı ve gülümsedi. {B}"Artık maskelere bakınca VE, VEYA, DEĞİL ve Dışlayan VEYA düşüneceğim!"
 
-Yonga da güldü. {Y}"Ve en iyi maskeci şu anda seninle konuşuyor!"
+Yonga da güldü. {Y}"Ve en iyi maskeci şu anda seninle konuşuyor! Ama bir sırrım var: maskelerimde sihir yok. Hepsi tek tek kurallarla çalışıyor."
 
 **Resim:**
 
