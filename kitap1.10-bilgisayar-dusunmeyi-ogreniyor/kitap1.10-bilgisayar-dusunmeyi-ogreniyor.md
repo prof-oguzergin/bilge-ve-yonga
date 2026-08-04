@@ -40,7 +40,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 4 — Ama Bazı İşler Çok Zor
 
 **Metin:**
-{Y}"Ama bazı işler çok ağır!" dedi Yonga. {Y}"Mesela binlerce resim aynı anda işlemek, ya da bir yapay zeka ağını öğretmek... Normal işlemci için çok yorucu!"
+{Y}"Ama bazı işler çok ağır!" dedi Yonga. {Y}"Örneğin binlerce resim aynı anda işlemek, ya da bir yapay zeka ağını öğretmek... Normal işlemci için çok yorucu!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. CPU öğretmeni karakteri artık dersler altında ezilmiş görünüyor — başının üzerinde binlerce resim, notalar, sayılar yığılıyor, terlemiş ve bunalmış ifadesi var. Bilge "üzüldüm" der gibi baktıktan sonra Yonga'ya "ne yapalım?" diye soruyor. Turuncu ve kırmızı tonlar; yüklenme hissi.

@@ -132,7 +132,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 {B}"Bu bayraklar neye yarıyor?" diye sordu Bilge.
 
-{Y}"Denetim birimi onlara bakıp karar veriyor," dedi Yonga. {Y}"Mesela bir yazmacı sıfırla karşılaştırıp hangi yola dallanacağını seçiyor."
+{Y}"Denetim birimi onlara bakıp karar veriyor," dedi Yonga. {Y}"Örneğin bir yazmacı sıfırla karşılaştırıp hangi yola dallanacağını seçiyor."
 
 Bilge birden hatırladı. {B}"Parkta gördüğümüz kavşak gibi! Bayrak, hangi yola gideceğimizi gösteren tabela!"
 

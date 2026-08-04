@@ -48,7 +48,7 @@ Bilge gülümsedi. {B}"O zaman ben az önce bir elde taşıyıcısıydım."
 
 Bilge parmağıyla tek tek saydı. {B}"Sekiz tane minik işçi gibi!"
 
-**Resim:** Yonga'nın gövdesinde açılan küçük bir pencerede sekiz tane minicik, gülen yüzlü dişli-toplayıcı karakteri sırayla dizilmiş, her biri kendi önündeki iki kutucuğa bakıyor. Bilge merakla parmağını ekrana yaklaştırmış, sayıyor.
+**Resim:** Yonga'nın havaya yansıttığı geniş hologramda sekiz tane minicik, gülen yüzlü dişli-toplayıcı karakteri iki sıra hâlinde dizilmiş. Bilge merakla parmağıyla onları tek tek sayıyor.
 
 ---
 
@@ -108,7 +108,7 @@ Bilge kaşlarını çattı. {B}"Bir-sıfır mı? İkilik düzende iki, bir-sıf�
 
 Bilge kalemini kaptı. {B}"Ben de yazıyorum, sıra sende Yonga!"
 
-**Resim:** Yonga'nın göğüs ekranında alt alta iki sıra kutucuk: üstte 0-0-1-1, altta 0-1-0-1, aralarında artı işareti. Bilge küçük bir defterle yanında oturmuş, aynı kutucukları kendi defterine kopyalıyor, kalemi elinde.
+**Resim:** Yonga'nın havaya yansıttığı hologramda alt alta iki sıra kutucuk: üstte 0-0-1-1, altta 0-1-0-1, aralarında artı işareti. Bilge küçük bir defterle yanında oturmuş, aynı kutucukları kendi defterine kopyalıyor, kalemi elinde.
 
 ---
 
@@ -138,7 +138,7 @@ Bilge küçük bir yıldız çizdi elde biti için. {B}"Elde'yi yıldızla işar
 
 {B}"Dördüncü basamak: sıfır artı sıfır, ama gelen elde bir!" dedi Bilge. {B}"Demek buraya bir yazılıyor ve elde burada bitiyor."
 
-**Resim:** Dört basamaklı toplama zinciri baştan sona görünüyor, her kutunun üstünde küçük elde okları sırayla sağdan sola atlıyor, sonuçta dört kutuda soldan sağa 1, 0, 0, 0 rakamları duruyor. Bilge ve Yonga yan yana, ikisi de heyecanla ekranı işaret ediyor.
+**Resim:** Dört basamaklı toplama zinciri baştan sona görünüyor, her kutunun üstünde küçük elde okları sırayla sağdan sola atlıyor, sonuçta dört kutuda soldan sağa 1, 0, 0, 0 rakamları duruyor. Bilge ve Yonga yan yana, ikisi de heyecanla hologramı işaret ediyor.
 
 ---
 
@@ -183,7 +183,7 @@ Bilge defterine baktı. {B}"Bu da onluk düzende sekiz eder! Üç artı beş sek
 
 {Y}"Aynen öyle. Bu iki adımın bir de adı var: **ikiye tümleyen**. Sonra o eksi sayıyı normal toplama gibi ekler. Aynı toplayıcı zinciri, fazladan bir makineye gerek kalmadan çıkarmayı da yapmış olur."
 
-**Resim:** Yonga'nın ekranında bir sayı önce ters çevrilirken (bitler 0 ile 1 yer değiştirirken küçük dönme okları ile) gösteriliyor, sonra üzerine küçük bir "+1" damgası vuruluyor. Bilge şaşkın ve hayran bir ifadeyle izliyor, elleri yanaklarında.
+**Resim:** Yonga'nın havaya yansıttığı hologramda bir sayı önce ters çevrilirken (bitler 0 ile 1 yer değiştirirken küçük dönme okları ile) gösteriliyor, sonra üzerine küçük bir "+1" damgası vuruluyor. Bilge şaşkın ve hayran bir ifadeyle izliyor, elleri yanaklarında.
 
 ---
 
@@ -198,7 +198,7 @@ Bilge defterine baktı. {B}"Bu da onluk düzende sekiz eder! Üç artı beş sek
 
 Bilge alkışladı. {B}"Toplayıcımız aslında hem toplama hem çıkarma yapan gizli bir kahraman!"
 
-**Resim:** Yonga'nın ekranında "5 - 3 = 5 + (-3) = 2" yazısı büyük puntolarla beliriyor, etrafında küçük konfeti şeklinde ikilik basamaklar (0 ve 1) dans ediyor. Bilge ellerini kaldırmış alkışlıyor, gülümsemesi kulaklarına varmış.
+**Resim:** Yonga'nın havaya yansıttığı hologramda "5 - 3 = 2" büyük puntolarla beliriyor, etrafında küçük konfeti şeklinde ikilik basamaklar (0 ve 1) dans ediyor. Bilge ellerini kaldırmış alkışlıyor, gülümsemesi kulaklarına varmış.
 
 ---
 

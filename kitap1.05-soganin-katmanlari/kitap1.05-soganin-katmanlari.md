@@ -60,7 +60,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 6 — Sistem Yazılımı Katmanı
 
 **Metin:**
-Bir katman daha! {B}"Bu katman ne işe yarıyor?" diye sordu Bilge. {Y}"Sistem yazılımı," diye açıkladı Yonga. {Y}"Bunlar çevirmenler gibidir. Uygulamaların işletim sistemiyle anlaşmasına yardım ederler. Mesela bir oyunun ekrana güzel resimler çizmesine yardım eden hazır yardımcı programlar gibi." Tıpkı iki farklı dil konuşan insanlar arasındaki tercüman gibi!
+Bir katman daha! {B}"Bu katman ne işe yarıyor?" diye sordu Bilge. {Y}"Sistem yazılımı," diye açıkladı Yonga. {Y}"Bunlar çevirmenler gibidir. Uygulamaların işletim sistemiyle anlaşmasına yardım ederler. Örneğin bir oyunun ekrana güzel resimler çizmesine yardım eden hazır yardımcı programlar gibi." Tıpkı iki farklı dil konuşan insanlar arasındaki tercüman gibi!
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Soğan kesitinde üçüncü halka — yeşil tonlarında, içinde küçük köprüler, iki taraflı oklar ve küçük insan figürleri birbirine el sallıyor. "Sistem Yazılımı" yazısı halkada. Bilge ve Yonga bu halkayı işaret ediyor; Yonga'nın gözleri meraklı. Arka planda soğanın dışarısı güneşli mutfak. Yeşil, sarı ve krem tonları.

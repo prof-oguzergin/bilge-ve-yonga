@@ -14,7 +14,7 @@ Bilge defterindeki eski notlara bakıyordu.
 
 {B}"Yonga, toplamayı öğrenirken bir şey demiştin," dedi. {B}"Çarpma, aynı sayıyı tekrar tekrar toplamakmış. 3 kere 4, dört tane 3'ü toplamakmış."
 
-{Y}"Doğru hatırlıyorsun!" dedi Yonga. {Y}"Peki sence bilgisayar gerçekten böyle mi yapıyor, sayıyı tek tek, kere kere toplayarak?"
+{Y}"Doğru hatırlıyorsun!" dedi Yonga. {Y}"Peki sence bilgisayar gerçekten böyle mi yapıyor, aynı sayıyı defalarca toplayarak?"
 
 Bilge duraksadı. {B}"Sanırım... Ya da öyle sanıyordum."
 
@@ -54,9 +54,9 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 4 — Kaydırmak Aslında Çarpmaktır
 
 **Metin:**
-{Y}"Kaydırmak, bütün bitleri bir basamak yana taşımak demek," dedi Yonga. {Y}"Bak: 4 sayısı ikilik düzende 100'dür. Bitlerini bir basamak sola taşırsak 1000 olur."
+{Y}"Kaydırmak, bütün bitleri bir basamak yana taşımak demek," dedi Yonga. {Y}"Bak, 4 sayısı ikilik düzende bir-sıfır-sıfır diye yazılır. Bitlerini bir basamak sola taşırsak bir-sıfır-sıfır-sıfır olur."
 
-Bilge parmaklarını şıklattı. {B}"1000 sekiz demek! Demek bir basamak sola kaydırmak sayıyı ikiye katlıyor."
+Bilge parmaklarını şıklattı. {B}"Bir-sıfır-sıfır-sıfır sekiz demek! Demek bir basamak sola kaydırmak sayıyı ikiye katlıyor."
 
 {Y}"Tam üstüne bastın," dedi Yonga. {Y}"Bir basamak sola kaydırmak, sayıyı 2 ile çarpmakla aynı şeydir. Çarpma sırasında bunu defalarca kullanırım."
 

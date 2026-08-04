@@ -12,7 +12,7 @@
 **Metin:**
 Bilge ve Yonga gece bahçede battaniyeye sarılmış, gökyüzüne bakıyordu. Bilge parlak bir yıldızı gösterdi.
 
-{B}"Şuraya ne kadar uzak?" diye sordu.
+{B}"Şurası ne kadar uzakta?" diye sordu.
 
 Yonga hesapladı ve gözleri parladı. {Y}"Güneşten sonra bize en yakın yıldıza kabaca kırk trilyon kilometre var! Kırkın arkasına on iki tane sıfır!"
 
@@ -136,7 +136,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 11 — Yuvarlama Sırrı
 
 **Metin:**
-Yonga küçük bir sır fısıldadı. {Y}"Her sayı tam olarak gösterilemez. Mesela sıfır virgül bir gibi basit görünen bir sayıyı bile bilgisayar ikilik sistemde tam yazamaz, küçücük bir yuvarlama yapmak zorunda kalır."
+Yonga küçük bir sır fısıldadı. {Y}"Her sayı tam olarak gösterilemez. Örneğin sıfır virgül bir gibi basit görünen bir sayıyı bile bilgisayar ikilik sistemde tam yazamaz, küçücük bir yuvarlama yapmak zorunda kalır."
 
 Bilge şaşırdı. {B}"Bilgisayar bile bazen tam doğru olamıyor mu?"
 
