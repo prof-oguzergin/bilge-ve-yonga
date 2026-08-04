@@ -144,7 +144,7 @@ Bilge elindeki küçük deftere beş satırlık bir liste yazmış, her satırı
 
 {B}"Al, anla, yap döngüsü gibi!" dedi Bilge.
 
-{Y}"Tam olarak o döngü," dedi Yonga. {Y}"Büyükler buna getir, çöz, yürüt der. Şimdi hangi parçaların çalıştığını da görüyorsun."
+{Y}"Tam olarak o döngü," dedi Yonga. {Y}"Büyükler buna getir, çöz, yürüt der. Şimdi hangi parçaların çalıştığını da görüyorsun. Bir de şu var: parktaki kavşakta gördüğün gibi bir dallanma buyruğu çıkarsa Program Sayacı bir adım atmaz, uzaktaki başka bir adrese atlar. Bazen ileri, bazen geri."
 
 **Resim:**
 Program Sayacı'nın işaret levhası bir öndeki kutucuktan bir sonrakine kayıyor, küçük bir adım izi bırakıyor. Buyruk belleğinde yeni bir kutucuk aydınlanıyor. Bilge levhanın hareketini elleriyle taklit ediyor, bir adım öne yürüyor. Yonga levhanın yanında zıplayarak aynı adımı atıyor.
@@ -211,7 +211,7 @@ Gece sahnesi: Bilge yatağında uyuyor, oda karanlık ve sakin. Masasındaki bil
 
 ## Bugün Ne Öğrendik?
 
-🧭 **Program Sayacı**, sıradaki buyruğun adresini tutan özel yazmaçtır ve her buyruktan sonra bir adım ilerler.
+🧭 **Program Sayacı**, sıradaki buyruğun adresini tutan özel yazmaçtır; genellikle bir adım ilerler, dallanma varsa uzaktaki başka bir adrese atlar.
 📚 **Buyruk belleği**, programın bütün buyruklarının sırayla durduğu yerdir.
 🔢 **Yazmaç öbeği**, otuz iki yazmacın bir arada tutulduğu, sayıları anında veren hızlı bir alandır.
 ➕ **AMB (Aritmetik Mantık Birimi)**, yazmaç öbeğinden gelen sayıları toplar, çıkarır ya da karşılaştırır; çıkan sonuç mutlaka bir yere yazılır.
