@@ -96,7 +96,7 @@ Otuz iki küçük, ışıklı kutunun 4×8 düzeninde bir arada durduğu bir ist
 **Metin:**
 {B}"AMB'den sonra sayı nereye gidiyor?" diye sordu Bilge.
 
-{Y}"Bazen doğrudan yazmaç öbeğine geri döner," dedi Yonga. {Y}"Ama bazen **veri belleğine** uğrar. Orası büyük bir depodur, sayıları uzun süre saklamak için kullanılır. Dikkat et, bu buyruk belleğinden farklı! Buyruk belleğinde buyruklar durur, veri belleğinde sayılar durur."
+{Y}"Sonuç havada kalmaz, bir yere yazılması gerekir," dedi Yonga. {Y}"Bazen doğrudan yazmaç öbeğine geri döner, bazen **veri belleğine** uğrar. Orası büyük bir depodur, sayıları uzun süre saklamak için kullanılır. Dikkat et, bu buyruk belleğinden farklı! Buyruk belleğinde buyruklar durur, veri belleğinde sayılar durur."
 
 {B}"İki ayrı depo," dedi Bilge. {B}"Biri buyruklar için, biri sayılar için."
 
@@ -214,7 +214,7 @@ Gece sahnesi: Bilge yatağında uyuyor, oda karanlık ve sakin. Masasındaki bil
 🧭 **Program Sayacı**, sıradaki buyruğun adresini tutan özel yazmaçtır ve her buyruktan sonra bir adım ilerler.
 📚 **Buyruk belleği**, programın bütün buyruklarının sırayla durduğu yerdir.
 🔢 **Yazmaç öbeği**, otuz iki yazmacın bir arada tutulduğu, sayıları anında veren hızlı bir alandır.
-➕ **AMB (Aritmetik Mantık Birimi)**, yazmaç öbeğinden gelen sayıları toplar, çıkarır ya da karşılaştırır.
+➕ **AMB (Aritmetik Mantık Birimi)**, yazmaç öbeğinden gelen sayıları toplar, çıkarır ya da karşılaştırır; çıkan sonuç mutlaka bir yere yazılır.
 💾 **Veri belleği**, sayıların uzun süre saklandığı depodur; buyruk belleğinden farklıdır.
 🔌 İstasyonlar arasında sayılar **teller** üzerinden akar; buna **veri akışı** denir.
 🦴 Bütün bu parçalar ve teller birlikte **veri yolu**nu oluşturur: işlemcinin iskeleti.
