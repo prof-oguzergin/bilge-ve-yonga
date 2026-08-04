@@ -46,7 +46,7 @@ SERIES = {
     # Kart sirasi (10 kitap): #9B5FD0 #8F57C2 #834EB4 #7746A7 #6B3E99
     #                        #5E358B #522D7D #462570 #3A1C62 #2E1454
     '4': ('İşlemcinin İçi',
-          'Bir işlemci içeriden nasıl kurulur? Toplayıcılar, veri yolları ve denetim birimi.',
+          'İşlemcinin kapağını açıyoruz: toplayan, taşıyan ve herkese işaret veren parçalar.',
           '#8A4FC0'),
 }
 
@@ -145,9 +145,9 @@ BOOKS = [
     ('kitap4.07-orkestra-sefi-denetim-birimi', '4.7', 'Orkestra Şefi: Denetim Birimi',
      'Her parçaya doğru zamanda doğru işareti veren şef', '#522D7D'),
     ('kitap4.08-tek-vurusta', '4.8', 'Tek Vuruşta',
-     'En basit tasarım: her buyruk tek saat vuruşunda biter, ama beklenir', '#462570'),
+     'Tek vuruşluk işlemci: her buyruk tek saat vuruşunda biter, ama beklenir', '#462570'),
     ('kitap4.09-adim-adim', '4.9', 'Adım Adım',
-     'Buyruğu küçük adımlara bölmek: kısa buyruk çabuk biter', '#3A1C62'),
+     'Çok vuruşluk işlemci: buyruğu küçük adımlara bölmek, kısa buyruk çabuk biter', '#3A1C62'),
     ('kitap4.10-icindeki-minik-buyruklar', '4.10', 'İçindeki Minik Buyruklar',
      'Mikroprogram: şefin küçük bir bellekten okuduğu minik adımlar', '#2E1454'),
 ]

@@ -2,7 +2,7 @@
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 4: İşlemcinin İçi — Kitap 4.9
 **Yaş grubu:** 7–10 (okuma bilen)
-**Ana tema:** Bilgisayar bir buyruğu tek koca adımda değil, kısa saat vuruşlarına bölünmüş küçük adımlarda yapar; kısa buyruk az adım ister, uzun buyruk çok adım ister, böylece kısa buyruklar çabucak biter ve aynı parçalar farklı adımlarda yeniden kullanılabilir.
+**Ana tema:** Çok vuruşluk işlemci. Bilgisayar bir buyruğu tek koca adımda değil, kısa saat vuruşlarına bölünmüş küçük adımlarda yapar; kısa buyruk az adım ister, uzun buyruk çok adım ister, böylece kısa buyruklar çabucak biter ve aynı parçalar farklı adımlarda yeniden kullanılabilir.
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, yuvarlak gözlüklü meraklı kız) ve Yonga (küçük, yuvarlak, mavi-gümüş renkli sevimli robot)
 
 ---
@@ -89,7 +89,7 @@ Bilge sevinçle ellerini çırptı. {B}"Üç kaşıkla biten çorba, dört kaş�
 **Metin:**
 {B}"Dün demiştin ki, tek vuruşluk işlemcide herkes en yavaş buyruğu bekliyordu," dedi Bilge, birden gözleri parladı. {B}"Şimdi öyle değil, değil mi?"
 
-{Y}"Tam isabet!" dedi Yonga. {Y}"Atlama üç tıkta biter, yükleme beş tıkta. Kısa buyruk artık uzun buyruğu beklemek zorunda kalmıyor."
+{Y}"Tam isabet!" dedi Yonga. {Y}"Atlama üç tıkta biter, yükleme beş tıkta. Kısa buyruk artık uzun buyruğu beklemek zorunda kalmıyor. Bu tasarımın adı **çok vuruşluk** işlemci, çünkü bir buyruk birden çok vuruş kullanıyor."
 
 {B}"Demek her buyruk kendi tabağını kendi hızında bitiriyor!" dedi Bilge sevinçle.
 
@@ -223,7 +223,7 @@ Yonga gözlerini kıstı, gizemli bir gülümsemeyle. {Y}"İşte bu çok iyi bir
 
 ## Bugün Ne Öğrendik?
 
-🥄 Bilgisayar bir buyruğu tek koca adımda değil, kısa **saat vuruşlarına** bölünmüş küçük adımlarda yapar.
+🥄 **Çok vuruşluk** tasarımda bilgisayar bir buyruğu tek koca adımda değil, kısa **saat vuruşlarına** bölünmüş küçük adımlarda yapar.
 ⏱️ Her adım kısa ve sabit bir vuruş sürer, tıpkı bir kaşık yemek gibi. Bazı duraklar aynı tıkta birlikte yapılır, bu yüzden tık sayısı durak sayısından azdır.
 🐣 Kısa bir buyruk az tıkta biter, uzun bir buyruk daha çok tık ister: atlama üç, toplama dört, bellekten yükleme beş tık.
 🚀 Kısa buyruklar artık hızlıca biter, kimse en yavaş buyruğu beklemek zorunda kalmaz.
