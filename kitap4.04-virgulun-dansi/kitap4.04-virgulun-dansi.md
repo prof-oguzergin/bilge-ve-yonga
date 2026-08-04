@@ -62,7 +62,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 5 — Kayan Nokta Nedir
 
 **Metin:**
-{Y}"İşte buna kayan nokta denir," dedi Yonga. {Y}"Bizim virgül dediğimiz işarete başka dillerde nokta denir, adı oradan gelir. Böyle bir sayının üç parçası vardır: işaret, üs ve kesir."
+{Y}"İşte buna kayan nokta denir," dedi Yonga. {Y}"Biz sayı yazarken virgül koyduğumuz yere başka dillerde nokta konur; adı oradan geliyor. Böyle bir sayının üç parçası vardır: işaret, üs ve kesir."
 
 {B}"Demek virgül sabit bir yerde durmuyor," dedi Bilge yavaşça. {B}"Üs değiştikçe virgül sağa ya da sola kayıyor!"
 
