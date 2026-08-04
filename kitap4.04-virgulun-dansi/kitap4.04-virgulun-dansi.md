@@ -112,19 +112,19 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 9 — 32 Bit ve 64 Bit
 
 **Metin:**
-{Y}"Bilgisayarlarda bu üç parça, dünyadaki bütün bilgisayarların uyduğu ortak bir kurala göre paylaştırılır," dedi Yonga. {Y}"Kuralın adı IEEE 754. Tek kesinlikte otuz iki bit vardır: bir işaret, sekiz üs, yirmi üç kesir. Çift kesinlikte ise altmış dört bit vardır: bir işaret, on bir üs, elli iki kesir."
+{Y}"Bilgisayarlarda bu üç parça, dünyadaki bütün bilgisayarların uyduğu ortak bir kurala göre paylaştırılır," dedi Yonga. {Y}"Kuralın adı IEEE 754. Tek duyarlıkta otuz iki bit vardır: bir işaret, sekiz üs, yirmi üç kesir. Çift duyarlıkta ise altmış dört bit vardır: bir işaret, on bir üs, elli iki kesir."
 
-Bilge şaşkınlıkla sordu. {B}"Çift kesinlik daha mı çok yer kaplıyor?"
+Bilge şaşkınlıkla sordu. {B}"Çift duyarlık daha mı çok yer kaplıyor?"
 
 **Resim:**
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. İki yazmaç kutusu yan yana: küçük olanı "32 BİT, TEK KESİNLİK" etiketli, üç renkli bölmeye ayrılmış (1-8-23). Büyük olanı "64 BİT, ÇİFT KESİNLİK" etiketli, daha geniş üç bölmeye ayrılmış (1-11-52). Yonga iki kutuyu karşılaştırır gibi elleriyle gösteriyor. Mavi ve turuncu netlik.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. İki yazmaç kutusu yan yana: küçük olanı "32 BİT, TEK DUYARLIK" etiketli, üç renkli bölmeye ayrılmış (1-8-23). Büyük olanı "64 BİT, ÇİFT DUYARLIK" etiketli, daha geniş üç bölmeye ayrılmış (1-11-52). Yonga iki kutuyu karşılaştırır gibi elleriyle gösteriyor. Mavi ve turuncu netlik.
 
 ---
 
-## Sayfa 10 — Daha Çok Bit, Daha Çok Kesinlik
+## Sayfa 10 — Daha Çok Bit, Daha Çok Duyarlık
 
 **Metin:**
-{Y}"Çift kesinlik daha çok yer kaplar ama daha ince ayrıntı taşır," dedi Yonga. {Y}"Tıpkı bir cetvelde sadece santimetre çizgileri olması yerine, milimetre çizgileri de olması gibi. Daha çok çizgi, daha ince ölçüm!"
+{Y}"Çift duyarlık daha çok yer kaplar ama daha ince ayrıntı taşır," dedi Yonga. {Y}"Tıpkı bir cetvelde sadece santimetre çizgileri olması yerine, milimetre çizgileri de olması gibi. Daha çok çizgi, daha ince ölçüm!"
 
 {B}"Demek daha çok bit, daha çok basamak, daha keskin sayı," dedi Bilge.
 
@@ -150,24 +150,24 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 12 — Yapay Zeka Çağı
 
 **Metin:**
-{Y}"Yapay zeka hızlandırıcılarını hatırlıyor musun?" dedi Yonga. {Y}"Onlar öğrenirken her zaman otuz iki bit gerekmez. Bunun yerine bf16 ya da fp8 gibi daha az bitli biçimler yeter."
+{Y}"Yapay zeka hızlandırıcılarını hatırlıyor musun?" dedi Yonga. {Y}"Onlar öğrenirken her zaman otuz iki bit gerekmez. On altı bitlik bf16, sekiz bitlik fp8 gibi kısa biçimler de yeter. Adın sonundaki sayı kaç bit olduğunu söyler."
 
-{B}"Daha az bit demek daha az kesinlik," dedi Bilge, {B}"ama daha hızlı hesaplama!"
+{B}"Daha az bit demek daha az duyarlık," dedi Bilge, {B}"ama daha hızlı hesaplama!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Üç farklı boyutta yazmaç kutusu yan yana: büyük "32 bit" kutusu, orta "bf16" kutusu, küçük "fp8" kutusu. Küçük kutunun yanında hızlı koşan minik bir figür, büyük kutunun yanında daha yavaş yürüyen bir figür var. Yonga küçük kutuyu işaret ediyor, gülümsüyor. Canlı yeşil ve turuncu enerji çizgileri.
 
 ---
 
-## Sayfa 13 — Hız mı Kesinlik mi
+## Sayfa 13 — Hız mı Duyarlık mı
 
 **Metin:**
 {B}"Peki hep en küçük biçimi mi kullanmalıyız?" diye sordu Bilge.
 
-{Y}"Hayır," dedi Yonga. {Y}"Az bit hızlıdır ama daha kaba sonuç verir. Çok bit yavaştır ama daha ince sonuç verir. Mühendisler işe göre ikisi arasında bir denge kurar."
+{Y}"Hayır," dedi Yonga. {Y}"Az bit hızlıdır ama daha kaba sonuç verir. Çok bit yavaştır ama daha ince sonuç verir. Mühendisler yapılacak işe göre ikisi arasında bir denge kurar."
 
 **Resim:**
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bir terazi çizilmiş, bir kefesinde "HIZ" yazılı hafif bir tüy, diğer kefesinde "KESİNLİK" yazılı ağır bir kitap. Terazi dengede duruyor. Yonga terazinin ortasında duruyor, iki kefeye de bakıyor. Bilge terazinin dengesini merakla izliyor. Altın sarısı terazi, sakin mavi arka plan.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bir terazi çizilmiş, bir kefesinde "HIZ" yazılı hafif bir tüy, diğer kefesinde "DUYARLIK" yazılı ağır bir kitap. Terazi dengede duruyor. Yonga terazinin ortasında duruyor, iki kefeye de bakıyor. Bilge terazinin dengesini merakla izliyor. Altın sarısı terazi, sakin mavi arka plan.
 
 ---
 
@@ -191,13 +191,13 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 🧩 Bir kayan nokta sayısı üç parçadan oluşur: **işaret biti** (artı/eksi), **üs** (virgülün kaç adım kayacağı) ve **kesir** (rakamların kendisi).
 
-📏 **Tek kesinlik** otuz iki bit, **çift kesinlik** altmış dört bittir; IEEE'nin 754 standardı bu paylaşımı belirler. Daha çok bit, daha çok kesinlik demektir.
+📏 **Tek duyarlık** otuz iki bit, **çift duyarlık** altmış dört bittir; IEEE 754 standardı bu paylaşımı belirler. Daha çok bit, daha çok duyarlık demektir.
 
 🔍 Bilgisayar bile her sayıyı tam yazamaz, **yuvarlama** yapar; sıfır virgül bir gibi basit bir sayı bile ikilik sistemde küçük bir farkla saklanır.
 
-🤖 Yapay zeka çağında **bf16** ve **fp8** gibi az bitli kayan nokta biçimleri yeterli olur ve hesaplamayı hızlandırır.
+🤖 Yapay zeka çağında on altı bitlik **bf16**, sekiz bitlik **fp8** gibi kısa kayan nokta biçimleri yeterli olur ve hesaplamayı hızlandırır.
 
-⚖️ Hız ile kesinlik arasında bir **takas** vardır. Az bit hızlı ama kaba, çok bit yavaş ama ince sonuç verir.
+⚖️ Hız ile duyarlık arasında bir **takas** vardır. Az bit hızlı ama kaba, çok bit yavaş ama ince sonuç verir.
 
 ---
 
