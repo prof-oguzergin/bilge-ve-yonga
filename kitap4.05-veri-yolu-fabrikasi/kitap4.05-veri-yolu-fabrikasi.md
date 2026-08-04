@@ -114,7 +114,7 @@ Fabrikanın öbür ucunda, buyruk belleğine benzeyen ama farklı renkte (mavi y
 
 {B}"Demek sayılar hiç durmadan fabrikanın içinde dolaşıyor," dedi Bilge.
 
-{Y}"Aynen! Buna **veri akışı** denir."
+{Y}"Aynen!" dedi Yonga. {Y}"Bu teller olmasa hiçbir istasyon öbürüne sayı veremezdi."
 
 **Resim:**
 Bütün fabrika istasyonları artık ince, parlayan tellerle birbirine bağlanmış hâlde görünüyor. Tellerin üzerinde küçük ışık noktaları akıyor, birer sayı gibi bir istasyondan öbürüne süzülüyor. Bilge yukarıdan tüm fabrikayı izliyor, tellerin akışını parmağıyla takip ediyor. Yonga bir telin üstünde sörf yapar gibi duruyor, akan ışıkla birlikte kayıyor.
@@ -216,7 +216,7 @@ Gece sahnesi: Bilge yatağında uyuyor, oda karanlık ve sakin. Masasındaki bil
 🔢 **Yazmaç öbeği**, otuz iki yazmacın bir arada tutulduğu, sayıları anında veren hızlı bir alandır.
 ➕ **AMB (Aritmetik Mantık Birimi)**, yazmaç öbeğinden gelen sayıları toplar, çıkarır ya da karşılaştırır; çıkan sonuç mutlaka bir yere yazılır.
 💾 **Veri belleği**, sayıların uzun süre saklandığı depodur; buyruk belleğinden farklıdır.
-🔌 İstasyonlar arasında sayılar **teller** üzerinden akar; buna **veri akışı** denir.
+🔌 İstasyonlar arasında sayılar **teller** üzerinden akar; teller olmadan hiçbir istasyon öbürüne sayı veremez.
 🦴 Bütün bu parçalar ve teller birlikte **veri yolu**nu oluşturur: işlemcinin iskeleti.
 
 ---
