@@ -68,7 +68,7 @@ Uzun bir raf boyunca sıralanmış kutucuklardan oluşan bir bellek duvarı. Her
 **Metin:**
 {B}"Buyruk çıktı, peki sayılar nereden geliyor?" diye sordu Bilge.
 
-{Y}"**Yazmaç öbeğinden**!" dedi Yonga. {Y}"Hatırlarsın, RISC-V'te otuz iki yazmaç vardı, x0'dan x31'e kadar. Hepsi burada, bir arada, hazır bekliyorlar. Buyruk hangi yazmaçları istiyorsa, yazmaç öbeği o sayıları anında verir."
+{Y}"**Yazmaç öbeğinden**!" dedi Yonga. {Y}"Hatırlarsın, RISC-V'te otuz iki yazmaç vardı, x0'dan x31'e kadar. Hepsi burada, bir arada, hazır bekliyorlar. Buyruk hangi yazmaçların değerini okumak istiyorsa, yazmaç öbeği onları anında verir."
 
 {B}"Sınıftaki otuz iki sıra gibi," dedi Bilge gülümseyerek, {B}"hepsi bir arada, hepsi hazır."
 
