@@ -133,7 +133,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 ---
 
-## Sayfa 10 — Sihirli Şifre Çözme
+## Sayfa 10 — Şifre Çözme
 
 **Metin:**
 

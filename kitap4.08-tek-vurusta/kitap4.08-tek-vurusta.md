@@ -38,7 +38,7 @@ Yonga'nın göğüs ekranında parlak bir zaman çizgisi beliriyor; tek bir kutu
 ## Sayfa 3 — Yedi Durak, Tek Vuruşta
 
 **Metin:**
-Bilge hatırladı. {B}"Bir buyruğun yedi durağı vardı: getir, çöz, yazmaçları oku, yürüt, belleğe eriş, geri yaz ve Program Sayacı ilerler."
+Bilge hatırladı. {B}"Bir buyruğun yedi durağı vardı: getir, çöz, yazmaçları oku, yürüt, belleğe eriş, geri yaz ve Program Sayacını güncelle."
 
 {Y}"Doğru hatırladın!" dedi Yonga. {Y}"Bu basit tasarımda yedi durağın hepsi, aynı tek vuruşun içinde art arda koşarak biter."
 

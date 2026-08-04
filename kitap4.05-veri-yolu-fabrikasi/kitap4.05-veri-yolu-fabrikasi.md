@@ -135,7 +135,7 @@ Bilge elindeki küçük deftere beş satırlık bir liste yazmış, her satırı
 
 ---
 
-## Sayfa 10 — Program Sayacı Bir Adım İlerler
+## Sayfa 10 — Program Sayacı Güncellenir
 
 **Metin:**
 {B}"Bir buyruk bitince ne olur?" diye sordu Bilge.

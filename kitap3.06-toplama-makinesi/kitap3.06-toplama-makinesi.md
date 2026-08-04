@@ -55,7 +55,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 ---
 
-## Sayfa 5 — Çıkarmanın Sihirli Sırrı
+## Sayfa 5 — Çıkarmanın Sırrı
 
 **Metin:**
 {B}"Peki ya çıkarma?" diye sordu Bilge. {B}"8 eksi 3 nasıl yapılır?"

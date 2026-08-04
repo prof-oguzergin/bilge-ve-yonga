@@ -135,16 +135,16 @@ Altıncı istasyon tabelasında "GERİ YAZ" yazıyor. Vagondan çıkan parlak "8
 
 ---
 
-## Sayfa 9 — Son Durak: Program Sayacı İlerler
+## Sayfa 9 — Son Durak: Program Sayacını Güncelle
 
 **Metin:**
 {B}"Peki yolculuk burada mı bitiyor?" diye sordu Bilge.
 
-{Y}"Neredeyse!" dedi Yonga. {Y}"Son olarak Program Sayacı bir adım ilerler, sıradaki buyruğun adresini gösterir."
+{Y}"Neredeyse!" dedi Yonga. {Y}"Son olarak Program Sayacı güncellenir: bu buyrukta bir adım ilerliyor ve sıradaki buyruğun adresini gösteriyor."
 
 {B}"Tabela değişiyor, yeni bir yolcu bekleniyor," dedi Bilge.
 
-{Y}"Aynen öyle!" dedi Yonga. {Y}"Getir, Çöz, Yazmaçları Oku, Yürüt, Belleğe Eriş, Geri Yaz, sonra Program Sayacı ilerler ve döngü baştan başlar."
+{Y}"Aynen öyle!" dedi Yonga. {Y}"Getir, Çöz, Yazmaçları Oku, Yürüt, Belleğe Eriş, Geri Yaz, Program Sayacını Güncelle. Sonra döngü baştan başlar."
 
 **Resim:**
 İstasyonun en ucunda Program Sayacı tabelası bir sonraki adrese doğru kayıyor, üzerinde küçük bir ok ilerliyor. Arka planda önceki altı istasyon bir sırada görünüyor, uzakta yeni bir vagonun geldiği hayal meyal seçiliyor. Bilge ve Yonga tabelanın kaymasını izliyor.
@@ -202,7 +202,7 @@ Altıncı istasyonda dokuz sayısı x7 çekmecesine yerleşiyor, ardından Progr
 ## Sayfa 13 — Tüm Yolculuk Bir Bakışta
 
 **Metin:**
-Bilge büyük bir kâğıda yedi istasyonu sırayla çizdi: Getir, Çöz, Yazmaçları Oku, Yürüt, Belleğe Eriş, Geri Yaz, Program Sayacı İlerler.
+Bilge büyük bir kâğıda yedi istasyonu sırayla çizdi: Getir, Çöz, Yazmaçları Oku, Yürüt, Belleğe Eriş, Geri Yaz, Program Sayacını Güncelle.
 
 {B}"Her buyruk bu yoldan geçiyor, ama herkes her durakta inmiyor," dedi Bilge.
 
@@ -247,7 +247,7 @@ Bilge ve Yonga tren rayının sonunda duruyor, ufukta yeni bir istasyon tabelas�
 
 ✍️ **Geri Yaz**: sonuç hedef yazmaca (x7 gibi) yazılır.
 
-🔁 **Program Sayacı İlerler**: sıradaki buyruğun adresi gösterilir ve döngü yeniden başlar.
+🔁 **Program Sayacını Güncelle**: sıradaki buyruğun adresi belirlenir ve döngü yeniden başlar.
 
 ---
 
