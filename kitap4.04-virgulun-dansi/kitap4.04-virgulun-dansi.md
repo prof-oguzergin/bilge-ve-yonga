@@ -50,7 +50,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 4 — Bilimsel Gösterim Gibi
 
 **Metin:**
-{Y}"Bilim insanları da böyle büyük ve küçük sayılarla uğraşır," dedi Yonga. {Y}"Onlar sayıyı bir rakam grubu ile çarpı onun kuvveti şeklinde yazar. Bilgisayar da benzer bir yol kullanır, ama onda çarpı ikinin kuvveti vardır."
+{Y}"Bilim insanları da böyle büyük ve küçük sayılarla uğraşır," dedi Yonga. {Y}"Onlar sayıyı iki parça hâlinde yazar: küçük bir sayı, bir de o sayının kaç kere onla çarpılacağı. Bilgisayar da aynı yolu kullanır, ama o onla değil ikiyle çarpar."
 
 Bilge gözlerini kıstı. {B}"İkinin kuvveti mi? Sanki virgül bir yere doğru kayıyor gibi!"
 
@@ -62,7 +62,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 5 — Kayan Nokta Nedir
 
 **Metin:**
-{Y}"İşte buna kayan nokta denir," dedi Yonga. {Y}"Bizim virgül dediğimiz işarete başka dillerde nokta denir, adı oradan gelir. Sayı üç parçadan oluşur: işaret, üs ve kesir. Formül şöyle: sayı, işaret çarpı kesir çarpı iki üzeri üs."
+{Y}"İşte buna kayan nokta denir," dedi Yonga. {Y}"Bizim virgül dediğimiz işarete başka dillerde nokta denir, adı oradan gelir. Böyle bir sayının üç parçası vardır: işaret, üs ve kesir."
 
 {B}"Demek virgül sabit bir yerde durmuyor," dedi Bilge yavaşça. {B}"Üs değiştikçe virgül sağa ya da sola kayıyor!"
 
