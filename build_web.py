@@ -1178,6 +1178,11 @@ CILTLER = {
     '3': {'doi': '10.5281/zenodo.21725978', 'kayit': 21725979,
           'dosya': 'Bilge ve Yonga - Cilt 3 - Buyrukların Dünyası.pdf',
           'sayfa': 174, 'mb': 32},
+    # 4. cilt hazir ama DOI alma sureci suruyor. doi/kayit bos oldugu surece
+    # kart DOI baglantisi ve indirme dugmesi yerine bir not gosterir.
+    '4': {'doi': '', 'kayit': None,
+          'dosya': 'Bilge ve Yonga - Cilt 4 - İşlemcinin İçi.pdf',
+          'sayfa': 164, 'mb': 33},
 }
 
 
@@ -1189,16 +1194,21 @@ def build_ciltler():
         n = len([b for b in BOOKS if b[1].split('.')[0] == key])
         if not n:
             continue
-        indir = ('https://zenodo.org/api/records/{}/files/{}/content'
-                 .format(c['kayit'], quote(c['dosya'])))
         p.append('    <article class="cilt" style="--accent:{}">'.format(renk))
         p.append('      <span class="cilt-no">{}. Cilt</span>'.format(key))
         p.append('      <h3>{}</h3>'.format(ad))
         p.append('      <p class="cilt-bilgi">{} kitap · {} sayfa · '
                  'PDF, {} MB</p>'.format(n, c['sayfa'], c['mb']))
-        p.append('      <p class="cilt-doi"><a href="https://doi.org/{0}" '
-                 'target="_blank" rel="noopener">doi.org/{0}</a></p>'.format(c['doi']))
-        p.append('      <a class="cilt-btn" href="{}">Cildi indir</a>'.format(indir))
+        if c['doi']:
+            indir = ('https://zenodo.org/api/records/{}/files/{}/content'
+                     .format(c['kayit'], quote(c['dosya'])))
+            p.append('      <p class="cilt-doi"><a href="https://doi.org/{0}" '
+                     'target="_blank" rel="noopener">doi.org/{0}</a></p>'
+                     .format(c['doi']))
+            p.append('      <a class="cilt-btn" href="{}">Cildi indir</a>'.format(indir))
+        else:
+            p.append('      <p class="cilt-doi cilt-bekliyor">DOI alma süreci '
+                     'sürüyor; numara gelince buraya eklenecek.</p>')
         p.append('    </article>')
     p.append('  </div>')
     return '\n'.join(p)
