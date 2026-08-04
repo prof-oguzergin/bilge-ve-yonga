@@ -96,7 +96,7 @@ Bilge gülümsedi. {B}"Şimdi vagonda üç ile beş var!"
 
 {Y}"Doğru!" dedi Yonga. {Y}"AMB bu hesabı öyle hızlı yapar ki, biz göz kırpana kadar bitirir."
 
-Bilge vagonun içine büyük bir sekiz yazdı. {B}"Yolcumuz artık sonucunu da taşıyor."
+Makineden ışıklı, kocaman bir sekiz çıktı. {B}"Yolcumuz artık sonucunu da taşıyor," dedi Bilge.
 
 **Resim:**
 Dördüncü istasyon tabelasında "YÜRÜT" yazıyor. İstasyonun ortasında parlak bir AMB makinesi duruyor, içine üç ve beş sayıları giriyor, makineden büyük bir "8" ışıltıyla çıkıyor. Bilge heyecanla makineyi izliyor, Yonga kollarını açmış "işte böyle!" der gibi duruyor.
@@ -222,9 +222,9 @@ Bilge'nin odasının duvarına astığı büyük bir çizelge, üzerinde yedi is
 
 Yonga gülümsedi. {Y}"Hiç de değil. İçimde bunu söyleyen biri var."
 
-{B}"Kim?" diye sordu Bilge, gözleri parlayarak.
+{B}"Kim?" diye sordu Bilge merakla.
 
-Yonga göz kırptı. {Y}"Onu da başka bir gün tanıştıracağım sana."
+Yonga'nın ışıkları neşeyle yanıp söndü. {Y}"Onu da başka bir gün konuşuruz."
 
 **Resim:**
 Bilge ve Yonga tren rayının sonunda duruyor, ufukta yeni bir istasyon tabelası belli belirsiz görünüyor, üzerinde gizemli bir soru işareti var. Akşam güneşi rayları altın rengine boyuyor, Bilge meraklı gözlerle uzaklara bakıyor, Yonga yanında hafifçe parlıyor.

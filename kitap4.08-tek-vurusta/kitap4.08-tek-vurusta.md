@@ -168,7 +168,7 @@ Yonga bir grafik gösteriyor: yatay eksende saat vuruş sıklığı, dikey eksen
 **Metin:**
 {B}"Bunu düzeltmenin bir yolu yok mu?" diye sordu Bilge umutla.
 
-Yonga gizemli bir şekilde gülümsedi. {Y}"Var! İşi küçük adımlara bölüp her adımı ayrı ayrı hızlandırabiliriz. Ama onu başka bir gün, adım adım anlatacağım."
+Yonga gizemli bir şekilde gülümsedi. {Y}"Var! İşi küçük adımlara bölüp her adımı ayrı ayrı hızlandırabiliriz. Ama o başka bir günün konusu."
 
 **Resim:**
 Yonga'nın gözlerinde parlak bir ipucu ışığı yanıyor, arka planda kapalı bir kapı ve üzerinde soru işaretiyle süslenmiş bir tabela beliriyor. Bilge meraklı gözlerle kapıya bakıyor, ellerini heyecanla kavuşturmuş.

@@ -176,7 +176,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 Yonga güldü ve ona iki kâğıt kart verdi. {Y}"Haydi dene: önce topla, sonra hangisi büyük diye karşılaştır."
 
-Bilge sayıları topladı, sonra kartlara bakıp büyük olanı buldu ve gülümsedi. {B}"Ben de küçük bir AMB oldum!"
+Bilge sayıları topladı, sonra kartlara bakıp büyük olanı buldu. {B}"Ben de küçük bir AMB oldum!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bilge elinde iki renkli kağıt kart tutuyor, üzerlerinde sayılar yazılı; bir yandan parmaklarıyla toplama yapıyor. Yonga onu alkışlıyor, Bilge'nin göğsüne şaka yollu küçük bir "AMB" rozeti iliştirilmiş. Arka planda mutfak masası ve akşam güneşinin sıcak ışığı var.

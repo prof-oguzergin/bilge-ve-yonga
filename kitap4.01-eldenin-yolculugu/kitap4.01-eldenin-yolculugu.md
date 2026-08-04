@@ -46,7 +46,7 @@ Bilge gülümsedi. {B}"O zaman ben az önce bir elde taşıyıcısıydım."
 
 {Y}"Aynen öyle düşün. Sekiz basamaklı iki sayıyı toplarken sekiz tane minik toplayıcı sırayla çalışır."
 
-Bilge parmaklarını saydı. {B}"Sekiz tane minik işçi gibi!"
+Bilge parmağıyla tek tek saydı. {B}"Sekiz tane minik işçi gibi!"
 
 **Resim:** Yonga'nın gövdesinde açılan küçük bir pencerede sekiz tane minicik, gülen yüzlü dişli-toplayıcı karakteri sırayla dizilmiş, her biri kendi önündeki iki kutucuğa bakıyor. Bilge merakla parmağını ekrana yaklaştırmış, sayıyor.
 
@@ -100,7 +100,7 @@ Bilge kaşlarını çattı. {B}"Bir-sıfır mı? İkilik düzende iki, bir-sıf�
 ## Sayfa 7 — 0011 ile 0101'i Toplayalım
 
 **Metin:**
-{Y}"Hadi gerçek bir örnek yapalım," dedi Yonga. Göğsündeki ekranda iki sayı belirdi: 0011 ve 0101.
+{Y}"Hadi gerçek bir örnek yapalım," dedi Yonga ve havaya bir hologram yansıttı. Hologramda iki sayı belirdi: 0011 ve 0101.
 
 {B}"Bunlar ikilik düzende mi?" diye sordu Bilge.
 
@@ -166,7 +166,7 @@ Bilge defterine baktı. {B}"Bu da onluk düzende sekiz eder! Üç artı beş sek
 
 {B}"Demek en soldaki toplayıcı, en sağdakinin işini bitirmesini beklemek zorunda kalabilir."
 
-{Y}"Doğru gözlem! İşlemciyi tasarlayanlar bu bekleyişi kısaltmanın yollarını arar. Onu da ileride birlikte göreceğiz."
+{Y}"Doğru gözlem! İşlemciyi tasarlayanlar bu bekleyişi kısaltmanın yollarını arar. Onu da başka bir gün konuşuruz."
 
 **Resim:** Sekiz toplayıcı kutusu bir sıra halinde, her birinin arasında küçük bir kum saati ikonu duruyor. Bilge saatine bakıyor, Yonga omuz silker gibi bir hareketle kollarını açmış, "biraz sabır" der gibi bir ifadeyle gülümsüyor.
 
@@ -211,7 +211,7 @@ Bilge alkışladı. {B}"Toplayıcımız aslında hem toplama hem çıkarma yapan
 
 {B}"Peki bu toplayıcı zinciri işlemcinin neresinde duruyor?"
 
-Yonga gülümsedi. {Y}"Bu küçük toplayıcı, işlemcinin hesap aletinin tam kalbinde çalışır. Onu da yakında birlikte gezeceğiz."
+Yonga gülümsedi. {Y}"Bu küçük toplayıcı, işlemcinin hesap aletinin tam kalbinde çalışır. Orası da başka bir günün konusu."
 
 **Resim:** Bilge ile Yonga bir kapının önünde duruyor, kapının üzerinde parlak harflerle "AMB: Aritmetik Mantık Birimi" yazıyor, kapı aralığından içeride minik ışıklı toplayıcı zincirleri görünüyor. Bilge kapıyı meraklı gözlerle aralıyor, Yonga ışıklarını heyecanla yakıp söndürüyor.
 

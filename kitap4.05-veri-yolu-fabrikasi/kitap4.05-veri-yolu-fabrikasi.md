@@ -14,7 +14,7 @@
 
 Yonga gözlerini parlattı. {Y}"Harika soru! Bugün küçük parçaları alıp gerçek bir makine kuracağız, tıpkı bir fabrika gibi. Hazır mısın?"
 
-{B}"Hazırım!" dedi Bilge, kollarını sıvayarak.
+{B}"Hazırım!" dedi Bilge heyecanla.
 
 **Resim:**
 Bilge, elinde daha önceki kitaplardan tanıdığımız küçük kartlarla (bir buyruk kartı, bir yazmaç kutusu çizimi, bir AMB dişlisi) masasının üstünde oturuyor. Kartları önünde sıralamış, meraklı bir ifadeyle bakıyor. Yonga yanında havada süzülüyor ve havaya yansıttığı hologramda bu üç kartın birleşerek büyük bir makineye dönüştüğü görünüyor.
@@ -24,7 +24,7 @@ Bilge, elinde daha önceki kitaplardan tanıdığımız küçük kartlarla (bir 
 ## Sayfa 2 — Fabrikanın Beş İstasyonu
 
 **Metin:**
-Yonga beş parmağını açtı. {Y}"Fabrikamızda beş istasyon var. Program Sayacı sıradaki buyruğun adresini tutar. Buyruk belleği buyrukların durduğu yerdir. Yazmaç öbeği sayıları bir arada tutar. AMB hesaplayan alettir. Veri belleği ise sonuçları ve sayıları saklar."
+Yonga istasyonları tek tek işaret etti. {Y}"Fabrikamızda beş istasyon var. Program Sayacı sıradaki buyruğun adresini tutar. Buyruk belleği buyrukların durduğu yerdir. Yazmaç öbeği sayıları bir arada tutar. AMB hesaplayan alettir. Veri belleği ise sonuçları ve sayıları saklar."
 
 {B}"Beş istasyon, tek fabrika," dedi Bilge. {B}"Peki hepsi birbirine nasıl bağlanıyor?"
 
@@ -186,7 +186,7 @@ Bütün fabrika aynı anda çalışırken görünüyor, her istasyon parlak ış
 **Metin:**
 {B}"Yonga, bir buyruk bu fabrikada baştan sona nasıl yolculuk yapıyor?" diye sordu Bilge.
 
-{Y}"Harika bir soru," dedi Yonga, gözlerini kısarak. {Y}"O kadar önemli bir soru ki, bunu başka bir gün, adım adım, tek bir buyruğu izleyerek gezeceğiz."
+{Y}"Harika bir soru," dedi Yonga, gözlerini kısarak. {Y}"O kadar önemli bir soru ki, onu başka bir gün, tek bir buyruğu adım adım izleyerek konuşuruz."
 
 {B}"Sabırsızlanıyorum!" dedi Bilge.
 

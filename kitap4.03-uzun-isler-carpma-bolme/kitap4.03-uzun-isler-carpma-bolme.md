@@ -70,7 +70,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 {Y}"Hadi küçük bir örnekle görelim," dedi Yonga. {Y}"3 çarpı 5'i yapalım. İkilik düzende 3 sayısı 011, 5 sayısı ise 101 olur."
 
-Bilge deftere yazdı. {B}"011 çarpı 101. Peki şimdi ne yapacağız?"
+Bilge tahtaya yazdı. {B}"011 çarpı 101. Peki şimdi ne yapacağız?"
 
 {Y}"Şimdi çarpanın bitlerine sağdan sola bakacağız, 101'in bitlerine," dedi Yonga. {Y}"Üç adımda bitirelim!"
 
@@ -154,7 +154,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 {Y}"Küçük bir örnek yapalım," dedi Yonga. {Y}"14'ü 3'e bölelim. 14'ten 3'ü kaç kere çıkarabiliriz, sayalım: 14 eksi 3, 11 kalır. 11 eksi 3, 8 kalır. 8 eksi 3, 5 kalır. 5 eksi 3, 2 kalır."
 
-Bilge parmaklarını sayıyordu. {B}"Bir, iki, üç, dört kere çıkardık!"
+Bilge zıplayarak saydı. {B}"Bir, iki, üç, dört kere çıkardık!"
 
 {Y}"Doğru," dedi Yonga. {Y}"Ama 2'den bir daha 3 çıkaramayız, çünkü 2, 3'ten küçük. Orada duruyoruz."
 
