@@ -70,7 +70,7 @@ Uzun bir raf boyunca sıralanmış kutucuklardan oluşan bir bellek duvarı. Her
 
 {Y}"**Yazmaç öbeğinden**!" dedi Yonga. {Y}"Hatırlarsın, RISC-V'te otuz iki yazmaç vardı, x0'dan x31'e kadar. Hepsi burada, bir arada, hazır bekliyorlar. Buyruk hangi yazmaçların değerini okumak istiyorsa, yazmaç öbeği onları anında verir."
 
-{B}"Sınıftaki otuz iki sıra gibi," dedi Bilge gülümseyerek, {B}"hepsi bir arada, hepsi hazır."
+{B}"Sınıftaki otuz iki öğrenci gibi," dedi Bilge gülümseyerek, {B}"hepsi bir arada oturuyor, adını duyan sayısını hemen söylüyor."
 
 **Resim:**
 Otuz iki küçük, ışıklı kutunun 4×8 düzeninde bir arada durduğu bir istasyon. İki kutu parlak yeşille yanıyor, içlerindeki sayılar dışarı doğru akan ince ışık çizgileriyle istasyondan çıkıyor. Bilge kutuların önünde eğilmiş, hangi ikisinin parladığını sayıyor. Yonga kutuların üstünde bir gözetleme kulesinde duruyor, hangi yazmaçların seçildiğini bir düğmeyle gösteriyor.
