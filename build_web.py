@@ -1074,6 +1074,25 @@ AYLAR = {'Ocak': 'Oca', 'Şubat': 'Şub', 'Mart': 'Mar', 'Nisan': 'Nis',
          'Eylül': 'Eyl', 'Ekim': 'Eki', 'Kasım': 'Kas', 'Aralık': 'Ara'}
 
 
+def _surum_no(anahtar, tur='kitaplar'):
+    """Yalnizca numara: 1.1. Kayit yoksa bos doner."""
+    k = _surum_kayit(anahtar, tur)
+    return k['surum'] if k else ''
+
+
+def _surum_tarih(anahtar, tur='kitaplar'):
+    """Yalnizca kisa tarih: 5 Agu 2026."""
+    k = _surum_kayit(anahtar, tur)
+    return _kisa_tarih(k['tarih']) if k else ''
+
+
+def _surum_kayit(anahtar, tur='kitaplar'):
+    yol = REPO / 'surumler.json'
+    if not yol.exists():
+        return None
+    return json.loads(yol.read_text(encoding='utf-8'))[tur].get(anahtar)
+
+
 def _kisa_tarih(tarih):
     """'5 Ağustos 2026' -> '5 Ağu 2026'. Kart dar, ay adi kisalir."""
     for uzun, kisa in AYLAR.items():
@@ -1097,8 +1116,9 @@ def _card_html(folder, no, title, sub, glow):
         '        <div class="book-meta">\n'
         '          <div class="book-ust">\n'
         f'            <span class="book-no">Kitap {no}</span>\n'
-        + (f'            <span class="book-surum">{_surum(folder)}</span>\n'
-           if _surum(folder) else '')
+        + (f'            <span class="book-surum" title="{_surum(folder)} tarihinde güncellendi">'
+           f'Sürüm {_surum_no(folder)}</span>\n'
+           if _surum_no(folder) else '')
         + '          </div>\n'
         f'          <h3>{title}</h3>\n'
         f'          <p>{sub}</p>\n'
