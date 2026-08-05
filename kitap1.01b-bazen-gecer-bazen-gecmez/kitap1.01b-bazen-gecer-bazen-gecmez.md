@@ -20,7 +20,7 @@ Akşamüstü kumsalda Bilge, elinde küçük parlak bir silisyum plaka tutuyor, 
 ## Sayfa 2 — Elektriğin Sevdiği Yollar
 
 **Metin:**
-Yonga küçük bir pil, bir ampul ve bir parça bakır tel çıkardı. Teli iki uca bağladı ve ampul pırıl pırıl yandı. {Y}"Bakır telin içinden elektrik rahatça geçer," dedi Yonga. {Y}"Böyle maddelere **iletken** denir. Kaşık, çivi, madeni para, hepsi iletkendir." {B}"Elektrik onların içinde koşuyor gibi!" dedi Bilge.
+Yonga küçük bir pil, bir ampul ve bir parça bakır tel çıkardı. Teli iki uca bağladı ve ampul pırıl pırıl yandı. {Y}"Bakır telin içinden elektrik rahatça geçer," dedi Yonga. {Y}"Böyle maddelere **iletken** denir. Bakır, demir, gümüş, çelik, hepsi iletkendir." {B}"Elektrik onların içinde koşuyor gibi!" dedi Bilge.
 
 **Resim:**
 Ahşap bir masanın üstünde küçük bir pil, bir ampul ve bunları birleştiren bakır tel. Ampul sıcak sarı bir ışıkla yanıyor. Telin içinde minik mavi ışık damlacıkları soldan sağa akıyor, akış yönü belli. Bilge masaya eğilmiş, gözleri kocaman, hayranlıkla bakıyor. Yonga masanın öbür ucunda duruyor.
@@ -129,7 +129,7 @@ Bilge elindeki tablete bakıyor; tabletin yüzeyi saydamlaşmış ve içinde uç
 
 ## Bugün Ne Öğrendik?
 
-🔌 **İletken:** İçinden elektriğin rahatça geçtiği madde. Bakır tel, kaşık, çivi.
+🔌 **İletken:** İçinden elektriğin rahatça geçtiği madde. Bakır, demir, gümüş, çelik.
 
 🪵 **Yalıtkan:** İçinden elektriğin hiç geçmediği madde. Tahta, plastik, cam, kauçuk.
 
