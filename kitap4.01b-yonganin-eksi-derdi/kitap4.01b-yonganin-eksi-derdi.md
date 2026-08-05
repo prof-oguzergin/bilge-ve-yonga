@@ -162,7 +162,7 @@ Bilge birden anladı ve elini alnına vurdu. {B}"Ama bir-bir-bir-bir eksi birdi!
 
 {B}"Demek en soldaki basamak en değerlisi." dedi Bilge.
 
-{Y}"Eksi sayılarda en soldaki basamağın değeri eksi sekizdir." dedi Yonga. {Y}"Ötekiler aynı kalır. Bu yüzden en soldaki basamağa bakman yeter: bir ise sayı eksi, sıfır ise artıdır. Ama o basamak ayrı bir işaret değil, kendisi de bir değer taşıyor."
+{Y}"Dört kutucuklu bir sayıda en soldaki basamağın değeri eksi sekizdir." dedi Yonga. {Y}"Ötekiler aynı kalır. Kutu daha geniş olsaydı o değer de büyürdü. Bu yüzden en soldaki basamağa bakman yeter: bir ise sayı eksi, sıfır ise artıdır. Ama o basamak ayrı bir işaret değil, kendisi de bir değer taşıyor."
 
 Bilge bir-bir-sıfır-biri hesapladı. {B}"Eksi sekiz, artı dört, artı bir. Eder eksi üç!" Sonra gözleri parladı. {B}"Demek bu bir hile değil, gerçek bir sayı!"
 
