@@ -48,7 +48,7 @@ Bilge gülümsedi. {B}"O zaman ben az önce bir elde taşıyıcısıydım."
 
 Bilge parmağıyla tek tek saydı. {B}"Sekiz tane minik işçi gibi!"
 
-**Resim:** Yonga'nın havaya yansıttığı geniş hologramda sekiz tane minicik, gülen yüzlü dişli-toplayıcı karakteri iki sıra hâlinde dizilmiş. Bilge merakla parmağıyla onları tek tek sayıyor.
+**Resim:** Havada tek bir sıra hâlinde duran sekiz tombul toplayıcı makinesi; her birinin göbeğinde artı işareti var, üstündeki iki delikten birer ışık damlası düşüyor, altındaki delikten tek bir damla çıkıyor. Bilge parmağıyla sağdan sola tek tek sayıyor.
 
 ---
 
