@@ -949,11 +949,20 @@ function go(n){
   prev.disabled = i===0; next.disabled = i===tot-1;
   thumbs[i].scrollIntoView({inline:'center', block:'nearest'});
 }
-prev.addEventListener('click', ()=>go(i-1));
-next.addEventListener('click', ()=>go(i+1));
+// Fare ile tiklandiktan sonra odak dugmede kalirsa bosluk tusu sayfa
+// cevirmek yerine dugmeyi calistirir. Klavyeyle gelen tiklama (detail 0)
+// odagi korur, fare tiklamasi birakir.
+function odakBirak(e){ if(e.detail) e.currentTarget.blur(); }
+prev.addEventListener('click', e=>{ odakBirak(e); go(i-1); });
+next.addEventListener('click', e=>{ odakBirak(e); go(i+1); });
 document.addEventListener('keydown', e=>{
-  if(e.key==='ArrowRight') go(i+1);
-  else if(e.key==='ArrowLeft') go(i-1);
+  // Bosluk ve PageDown ileri, Shift+Bosluk ve PageUp geri. Dugme ya da
+  // baglanti odaktayken bosluk onu calistirsin diye karisilmaz.
+  const od = document.activeElement;
+  const tus = od && (od.tagName==='BUTTON' || od.tagName==='A' || od.tagName==='INPUT' || od.tagName==='SELECT');
+  if(e.key==='ArrowRight' || e.key==='PageDown') go(i+1);
+  else if(e.key==='ArrowLeft' || e.key==='PageUp') go(i-1);
+  else if(e.key===' ' && !tus){ e.preventDefault(); e.shiftKey ? go(i-1) : go(i+1); }
   else if(e.key==='Home') go(0);
   else if(e.key==='End') go(tot-1);
 });
