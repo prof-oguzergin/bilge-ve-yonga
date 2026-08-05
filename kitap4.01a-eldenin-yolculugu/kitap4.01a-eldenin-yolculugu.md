@@ -166,7 +166,7 @@ Bilge defterine baktı. {B}"Bu da onluk düzende sekiz eder! Üç artı beş sek
 
 {B}"Demek en soldaki toplayıcı, en sağdakinin işini bitirmesini beklemek zorunda kalabilir."
 
-{Y}"Doğru gözlem! İşlemciyi tasarlayanlar bu bekleyişi kısaltmanın yollarını arar. Onu da başka bir gün konuşuruz."
+{Y}"Doğru gözlem!" dedi Yonga. {Y}"Bu yüzden mühendisler eldeyi beklemek yerine önceden hesaplayan toplayıcılar tasarlamış. Benim içimde de öyle hızlı bir zincir var."
 
 **Resim:** Sekiz toplayıcı kutusu bir sıra halinde, her birinin arasında küçük bir kum saati ikonu duruyor. Bilge saatine bakıyor, Yonga omuz silker gibi bir hareketle kollarını açmış, "biraz sabır" der gibi bir ifadeyle gülümsüyor.
 
@@ -196,9 +196,11 @@ Yonga göz kırptı. {Y}"Onu da başka bir gün konuşuruz."
 
 {B}"Peki bu toplayıcı zinciri işlemcinin neresinde duruyor?"
 
-Yonga gülümsedi. {Y}"Bu küçük toplayıcı, işlemcinin hesap aletinin tam kalbinde çalışır. Orası da başka bir günün konusu."
+Yonga gülümsedi. {Y}"Bu küçük toplayıcı, işlemcinin hesap aletinin tam kalbinde çalışır."
 
-**Resim:** Bilge ile Yonga bir kapının önünde duruyor, kapının üzerinde parlak harflerle "AMB: Aritmetik Mantık Birimi" yazıyor, kapı aralığından içeride minik ışıklı toplayıcı zincirleri görünüyor. Bilge kapıyı meraklı gözlerle aralıyor, Yonga ışıklarını heyecanla yakıp söndürüyor.
+Bilge kapıyı araladı ve içeriye baktı. {B}"Demek bir kalbin içinde koca bir zincir varmış."
+
+**Resim:** Bilge ile Yonga ağır bir demir kapının önünde duruyor; kapının üzerinde büyük bir dişli kabartması ve dişlinin içinde artı, eksi ve çarpı simgeleri var. Kapı aralığından içeride zincirle birbirine bağlı, ışıklı minik toplayıcı kutuları görünüyor. Bilge kapıyı meraklı gözlerle aralıyor, Yonga ışıklarını heyecanla yakıp söndürüyor.
 
 ---
 
