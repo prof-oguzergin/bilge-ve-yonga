@@ -108,7 +108,7 @@ Yonga'nın ekranında iki karşılaştırmalı simge: hızlı koşan minik bir a
 **Metin:**
 {B}"Peki vuruşun uzunluğuna kim karar veriyor?" diye sordu Bilge.
 
-{Y}"Tasarımcılar, vuruşu en yavaş buyruğun süresine göre ayarlar," dedi Yonga. {Y}"Çünkü hiçbir buyruk, vuruş bitmeden yarım kalamaz. Herkes en yavaşı bekler, tıpkı orman gezisindeki gibi."
+{Y}"Tasarımcılar, vuruşu en yavaş buyruğun süresine göre ayarlar," dedi Yonga. {Y}"Çünkü vuruş bittiğinde yarım kalmış bir buyruk olamaz. Herkes en yavaşı bekler, tıpkı orman gezisindeki gibi."
 
 **Resim:**
 Bir denetim panosu görseli; büyük bir kadranın üzerinde "VURUŞ SÜRESİ" yazıyor, ibre en uzun süreye denk gelen kırmızı bir dilime sabitlenmiş. Yonga kadranı işaret ediyor, Bilge dikkatle bakıyor.
