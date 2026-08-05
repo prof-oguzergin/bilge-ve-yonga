@@ -1064,7 +1064,22 @@ def _surum(anahtar, tur='kitaplar'):
     if not yol.exists():
         return ''
     k = json.loads(yol.read_text(encoding='utf-8'))[tur].get(str(anahtar))
-    return 'Sürüm %s, %s' % (k['surum'], k['tarih']) if k else ''
+    if not k:
+        return ''
+    return 'Sürüm %s, %s' % (k['surum'], _kisa_tarih(k['tarih']))
+
+
+AYLAR = {'Ocak': 'Oca', 'Şubat': 'Şub', 'Mart': 'Mar', 'Nisan': 'Nis',
+         'Mayıs': 'May', 'Haziran': 'Haz', 'Temmuz': 'Tem', 'Ağustos': 'Ağu',
+         'Eylül': 'Eyl', 'Ekim': 'Eki', 'Kasım': 'Kas', 'Aralık': 'Ara'}
+
+
+def _kisa_tarih(tarih):
+    """'5 Ağustos 2026' -> '5 Ağu 2026'. Kart dar, ay adi kisalir."""
+    for uzun, kisa in AYLAR.items():
+        if uzun in tarih:
+            return tarih.replace(uzun, kisa)
+    return tarih
 
 
 def _card_html(folder, no, title, sub, glow):
@@ -1080,10 +1095,13 @@ def _card_html(folder, no, title, sub, glow):
         f'          <a href="{read_href}"><img src="kapaklar/{kapak}.jpg" alt="{title} kapağı" loading="lazy"></a>\n'
         '        </div>\n'
         '        <div class="book-meta">\n'
-        f'          <span class="book-no">Kitap {no}</span>\n'
+        '          <div class="book-ust">\n'
+        f'            <span class="book-no">Kitap {no}</span>\n'
+        + (f'            <span class="book-surum">{_surum(folder)}</span>\n'
+           if _surum(folder) else '')
+        + '          </div>\n'
         f'          <h3>{title}</h3>\n'
         f'          <p>{sub}</p>\n'
-        + (f'          <p class="book-surum">{_surum(folder)}</p>\n' if _surum(folder) else '')
         + '          <div class="book-actions">\n'
         f'            <a class="btn-read" href="{read_href}">Oku</a>\n'
         '            <div class="book-dl">\n'
