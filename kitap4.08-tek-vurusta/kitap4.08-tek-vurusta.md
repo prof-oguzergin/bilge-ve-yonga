@@ -24,7 +24,7 @@ Eski ahşap bir atölye içinde büyük, antika bir duvar saati; pirinç sarkac�
 ## Sayfa 2 — Bir Vuruş, Bir Buyruk
 
 **Metin:**
-{Y}"En basit işlemci tasarımında kural çok yalındır," dedi Yonga. {Y}"Her buyruk, tam bir saat vuruşunda başlar ve aynı vuruşta biter."
+{Y}"En basit işlemci tasarımında kural çok yalındır." dedi Yonga. {Y}"Her buyruk, tam bir saat vuruşunda başlar ve aynı vuruşta biter."
 
 Bilge şaşırdı. {B}"Demek hiçbir buyruk yarım kalmıyor, öyle mi?"
 
@@ -68,7 +68,7 @@ Yonga bir anı hatırlattı. {Y}"Geçen hafta okul gezisinde ormanda yürüdün�
 
 {B}"Evet!" dedi Bilge. {B}"Öğretmenimiz hep aynı yerde durup bizi bekledi."
 
-{Y}"İşte tam o bekleyiş, tek vuruşluk tasarımı anlamana yardım edecek," dedi Yonga.
+{Y}"İşte tam o bekleyiş, tek vuruşluk tasarımı anlamana yardım edecek." dedi Yonga.
 
 **Resim:**
 Güneşli bir orman patikası, önlüklü bir grup çocuk sırayla yürüyor, önde öğretmen elinde bir bayrakla duruyor. Bilge ve Yonga grubun kenarında, geçmişi hatırlar gibi gülümsüyorlar; küçük, soluk ve şeffaf bir "hatıra" bulutu sahnenin üstünde beliriyor.
@@ -78,9 +78,9 @@ Güneşli bir orman patikası, önlüklü bir grup çocuk sırayla yürüyor, ö
 ## Sayfa 6 — En Yavaş Adım Neyse
 
 **Metin:**
-{Y}"Bazı arkadaşların adımı hızlıydı, hemen bir sonraki durağa varıyorlardı," dedi Yonga.
+{Y}"Bazı arkadaşların adımı hızlıydı, hemen bir sonraki durağa varıyorlardı." dedi Yonga.
 
-{B}"Ama biri yorgun düşüp yavaş yürüyünce, öğretmenimiz herkesi durdurup onu bekledi," dedi Bilge.
+{B}"Ama biri yorgun düşüp yavaş yürüyünce, öğretmenimiz herkesi durdurup onu bekledi." dedi Bilge.
 
 {Y}"Aynen öyle!" dedi Yonga. {Y}"Grup, en yavaş arkadaşın hızında ilerledi. Herkes ona göre bekledi."
 
@@ -94,7 +94,7 @@ Aynı orman patikasında yakın çekim; önde hızlı yürüyen birkaç çocuk d
 **Metin:**
 {B}"İşlemcide de böyle mi oluyor?" diye sordu Bilge.
 
-{Y}"Aynen öyle," dedi Yonga. {Y}"İki sayıyı toplamak çok çabuk biter. Ama bellekten bir değer okumak daha uzun sürer, çünkü sayı uzak bir yerden gelir."
+{Y}"Aynen öyle." dedi Yonga. {Y}"İki sayıyı toplamak çok çabuk biter. Ama bellekten bir değer okumak daha uzun sürer, çünkü sayı uzak bir yerden gelir."
 
 {B}"Demek toplama hızlı yürüyen arkadaş, bellek okuma da yorgun arkadaş!" dedi Bilge gülerek.
 
@@ -108,7 +108,7 @@ Yonga'nın ekranında iki karşılaştırmalı simge: hızlı koşan minik bir a
 **Metin:**
 {B}"Peki vuruşun uzunluğuna kim karar veriyor?" diye sordu Bilge.
 
-{Y}"Tasarımcılar, vuruşu en yavaş buyruğun süresine göre ayarlar," dedi Yonga. {Y}"Çünkü vuruş bittiğinde yarım kalmış bir buyruk olamaz. Herkes en yavaşı bekler, tıpkı orman gezisindeki gibi."
+{Y}"Tasarımcılar, vuruşu en yavaş buyruğun süresine göre ayarlar." dedi Yonga. {Y}"Çünkü vuruş bittiğinde yarım kalmış bir buyruk olamaz. Herkes en yavaşı bekler, tıpkı orman gezisindeki gibi."
 
 **Resim:**
 Bir denetim panosu görseli; büyük bir kadranın üzerinde "VURUŞ SÜRESİ" yazıyor, ibre en uzun süreye denk gelen kırmızı bir dilime sabitlenmiş. Yonga kadranı işaret ediyor, Bilge dikkatle bakıyor.
@@ -120,7 +120,7 @@ Bir denetim panosu görseli; büyük bir kadranın üzerinde "VURUŞ SÜRESİ" y
 **Metin:**
 Bilge birden içini çekti. {B}"O zaman toplama gibi hızlı bir buyruk, işini çoktan bitirse bile vuruşun sonunu bekliyor, öyle mi?"
 
-{Y}"Doğru fark ettin," dedi Yonga. {Y}"O bekleme süresi boşa gider. Hızlı buyruk, en yavaş buyruğun süresine razı olur."
+{Y}"Doğru fark ettin." dedi Yonga. {Y}"O bekleme süresi boşa gider. Hızlı buyruk, en yavaş buyruğun süresine razı olur."
 
 **Resim:**
 Yonga'nın ekranında bir zaman çubuğu; solda küçük bir artı işareti işini erkenden bitirmiş, sağ tarafta ise çubuğun geri kalanı gri, soluk bir renkte taranarak boş bekleme olarak gösteriliyor. Bilge üzgün bir ifadeyle o gri kısmı gösteriyor.
@@ -144,7 +144,7 @@ Yonga bir çizim tahtasında basit, tek katlı bir ev gibi sade bir işlemci şe
 **Metin:**
 {B}"Peki kötü yanı ne?" diye sordu Bilge.
 
-{Y}"Verimsizdir," dedi Yonga. {Y}"Hızlı buyruklar sürekli boşuna bekler. Bütün sınıf, en yavaş yürüyenin hızıyla varır."
+{Y}"Verimsizdir." dedi Yonga. {Y}"Hızlı buyruklar sürekli boşuna bekler. Bütün sınıf, en yavaş yürüyenin hızıyla varır."
 
 **Resim:**
 Aynı basit ev şeması, ama bu sefer üstünde küçük bir kum saati ve yavaşlığı simgeleyen bir salyangoz ikonu var. Bilge omuzlarını silkip düşünceli bir "hımm" ifadesi takınmış.
@@ -156,7 +156,7 @@ Aynı basit ev şeması, ama bu sefer üstünde küçük bir kum saati ve yavaş
 **Metin:**
 Bilge hatırladı. {B}"Davulcuyu hatırlıyor musun? Davul hızlı çalınca kürekçiler de hızlanıyordu. Demek saat vuruşu sıklaşınca işlemci de hızlanır."
 
-{Y}"Doğru, ama burada bir sınır var," dedi Yonga. {Y}"Vuruşu, en yavaş buyruktan daha kısa yapamayız. Yoksa o buyruk yarım kalır."
+{Y}"Doğru, ama burada bir sınır var." dedi Yonga. {Y}"Vuruşu, en yavaş buyruktan daha kısa yapamayız. Yoksa o buyruk yarım kalır."
 
 **Resim:**
 Yonga bir grafik gösteriyor: yatay eksende saat vuruş sıklığı, dikey eksende kırmızı bir çizgi "en yavaş buyruk sınırı" olarak işaretlenmiş, çizginin ötesine geçilemediğini gösteren bir dur işareti var. Bilge grafiği dikkatle inceliyor.
@@ -180,9 +180,9 @@ Yonga'nın gözlerinde parlak bir ipucu ışığı yanıyor, arka planda kapalı
 **Metin:**
 Atölyede duvar saati hâlâ sabırla tik tak diye sallanıyordu.
 
-{B}"Şimdi bu tik takı hiç aynı duymuyorum," dedi Bilge gülümseyerek.
+{B}"Şimdi bu tik takı hiç aynı duymuyorum." dedi Bilge gülümseyerek.
 
-{Y}"Her tık, sabırlı ama basit bir işlemcinin kalp atışı," dedi Yonga, ışıklarını neşeyle yakıp söndürerek.
+{Y}"Her tık, sabırlı ama basit bir işlemcinin kalp atışı." dedi Yonga, ışıklarını neşeyle yakıp söndürerek.
 
 **Resim:**
 Atölye ilk sayfadaki gibi ama artık akşam ışığı sızıyor; Bilge saatin önünde gülümseyerek duruyor, elini sarkacın yanına götürmüş. Yonga yanında mutlu bir şekilde parlıyor, sıcak turuncu akşam ışığı ikisini de sarmış.

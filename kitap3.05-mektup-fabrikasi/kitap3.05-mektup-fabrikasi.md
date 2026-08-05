@@ -10,7 +10,7 @@
 ## Sayfa 1 — Türkçeden Makineye
 
 **Metin:**
-{B}"Yonga," dedi Bilge, {B}"ben Python ya da C yazıyorum.
+{B}"Yonga." dedi Bilge, {B}"ben Python ya da C yazıyorum.
 İşlemci ise yalnızca sıfır ve birleri anlıyor.
 Bu ikisi arasında büyük bir uçurum var.
 Kim köprü kuruyor?"
@@ -34,7 +34,7 @@ Yonga dört parmak kaldırdı:
 **3. Bağlayıcı**: Parça parça dosyaları birleştir
 **4. Yükleyici**: Programı belleğe yerleştir ve çalıştır"
 
-{B}"Dört istasyon, tek ürün," dedi Bilge. {B}"Çalışan program!"
+{B}"Dört istasyon, tek ürün." dedi Bilge. {B}"Çalışan program!"
 
 **Resim:**
 Horizontal children's book illustration, watercolor style, edge-to-edge, NO white border, NO frame. A factory floor cross-section with four numbered workstations in a row, connected by a conveyor belt. Station 1 (Compiler) has a translator at a desk with dictionaries. Station 2 (Assembler) has a machine converting text to binary blocks. Station 3 (Linker) has a worker stitching puzzle pieces together. Station 4 (Loader) has a crane placing the final product onto a memory shelf. Bilge walks along the top watching. Yonga, a small chubby rounded robot, light blue-silver metallic body, spiral/swirl on belly, big round blue eyes, dome head, short stubby arms, NO TEXT on body, NO antenna, oversees from a supervisor platform. ONLY ONE ROBOT IN THE SCENE. Colorful factory illustration.
@@ -44,7 +44,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 3 — Büyük Çevirmen
 
 **Metin:**
-{Y}"Derleyici devasa bir çevirmendir," dedi Yonga.
+{Y}"Derleyici devasa bir çevirmendir." dedi Yonga.
 
 {Y}"Sen şunu yazarsın:"
 
@@ -58,7 +58,7 @@ addi x6, x0, 5   # x6'ya 5 koy
 add  x7, x5, x6  # x5+x6 → x7
 ```
 
-{Y}"# işaretinden sonrası bilgisayara değil bize yazılır," dedi Yonga.
+{Y}"# işaretinden sonrası bilgisayara değil bize yazılır." dedi Yonga.
 
 {B}"Anlıyorum!" dedi Bilge. {B}"Derleyici cümleyi sözcük sözcük değil,
 anlam anlam çeviriyor!"
@@ -73,13 +73,13 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 **Metin:**
 {B}"Çevirici dili nedir?" diye sordu Bilge.
 
-{Y}"İnsanın okuyabildiği en alt düzey dildir," dedi Yonga.
+{Y}"İnsanın okuyabildiği en alt düzey dildir." dedi Yonga.
 {Y}"`add x7, x5, x6` gibi kısa sözcükler kullanır.
 İnsan yine de anlayabilir ama artık çok makineye yakın.
 
 Her çevirici dili satırı tam olarak **bir makine buyruğuna** karşılık gelir."
 
-{B}"Derleyici ile makine arasındaki köprü," dedi Bilge.
+{B}"Derleyici ile makine arasındaki köprü." dedi Bilge.
 
 **Resim:**
 Horizontal children's book illustration, watercolor style, edge-to-edge, NO white border, NO frame. A bridge illustration. On the left bank: a human programmer with colorful code in a high-level language. On the right bank: a glowing chip with binary 0s and 1s. In the middle of the bridge: çevirici dili (assembly) cards, short, readable but technical. The bridge is labeled "Çevirici Dili." Bilge stands on the left bank, peering toward the right. Yonga, a small chubby rounded robot, light blue-silver metallic body, spiral/swirl on belly, big round blue eyes, dome head, short stubby arms, NO TEXT on body, NO antenna, stands in the middle of the bridge. ONLY ONE ROBOT IN THE SCENE. River and bridge watercolor.
@@ -89,7 +89,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 5 — Sözcükleri Bitlere Dönüştürmek
 
 **Metin:**
-{Y}"Çevirici, çevirici dilindeki satırları alır ve," dedi Yonga,
+{Y}"Çevirici, çevirici dilindeki satırları alır ve." dedi Yonga,
 {Y}"her birini 32 bitlik bir makine koduna dönüştürür.
 
 `add x7, x5, x6` → `00000000011000101000001110110011`
@@ -98,7 +98,7 @@ Bu 32 bit bilgisayarın anlayacağı tek dildir."
 
 Bilge gözlerini açtı: {B}"Bu kadar sıfır ve biri nasıl okuyorlar?"
 
-{Y}"Okumuyorlar," güldü Yonga. {Y}"İşlemci doğrudan elektrik sinyali olarak yorumluyor!"
+{Y}"Okumuyorlar." güldü Yonga. {Y}"İşlemci doğrudan elektrik sinyali olarak yorumluyor!"
 
 **Resim:**
 Horizontal children's book illustration, watercolor style, edge-to-edge, NO white border, NO frame. An assembler machine (looks like a printing press). On the left: çevirici dili instruction cards go in ("add x7, x5, x6"). On the right: a long strip of 0s and 1s comes out, glowing blue-white. The machine stamps each instruction into its binary form. Bilge examines the binary strip with a magnifying glass, looking puzzled but fascinated. Yonga, a small chubby rounded robot, light blue-silver metallic body, spiral/swirl on belly, big round blue eyes, dome head, short stubby arms, NO TEXT on body, NO antenna, operates the press lever. ONLY ONE ROBOT IN THE SCENE. Print shop industrial colors.
@@ -108,11 +108,11 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 6 — Nesne Dosyası
 
 **Metin:**
-{Y}"Çevirici çalışınca elimizde **nesne dosyası** kalır," dedi Yonga.
+{Y}"Çevirici çalışınca elimizde **nesne dosyası** kalır." dedi Yonga.
 {Y}"İçinde makine kodu var ama henüz tam değil.
 Bazı yerler boş: başka dosyalardaki fonksiyonlara atıf var."
 
-{B}"Sanki bir kitabın bölümleri ayrı ayrı basılmış," dedi Bilge,
+{B}"Sanki bir kitabın bölümleri ayrı ayrı basılmış." dedi Bilge,
 {B}"ama henüz ciltsiz."
 
 {Y}"Aynen öyle! Bağlayıcı onları ciltleyecek."
@@ -125,7 +125,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 7 — Her Şeyi Birleştirmek
 
 **Metin:**
-{Y}"**Bağlayıcı** tüm nesne dosyalarını alır," dedi Yonga,
+{Y}"**Bağlayıcı** tüm nesne dosyalarını alır." dedi Yonga,
 {Y}"artı gerekli **kütüphane** dosyalarını,
 (kütüphane = hazır yazılmış, tekrar kullanılabilen kod paketi)
 ve hepsini birleştirerek bir **çalıştırılabilir dosya** üretir.
@@ -143,14 +143,14 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 8 — Kütüphaneler
 
 **Metin:**
-{Y}"Kütüphaneler çok önemli," dedi Yonga.
+{Y}"Kütüphaneler çok önemli." dedi Yonga.
 {Y}"Her programcı her şeyi sıfırdan yazmak zorunda değildir.
 'Ekrana yaz', 'dosya aç', 'internet bağlantısı kur' gibi
 binlerce hazır işlev kütüphanelerde bekler.
 
 Bağlayıcı bunlardan yalnızca ihtiyaç duyduklarını senin programına ekler."
 
-{B}"Her seferinde tekerleği yeniden icat etmemek gibi," dedi Bilge.
+{B}"Her seferinde tekerleği yeniden icat etmemek gibi." dedi Bilge.
 
 **Resim:**
 Horizontal children's book illustration, watercolor style, edge-to-edge, NO white border, NO frame. A giant library with tall shelves full of small labeled jars/bottles. Each jar contains a ready-made function: "print to screen," "open file," "connect internet," etc. A programmer character reaches out and takes only the jars needed for their program. Unused jars stay on the shelf. Bilge browses the shelves. Yonga, a small chubby rounded robot, light blue-silver metallic body, spiral/swirl on belly, big round blue eyes, dome head, short stubby arms, NO TEXT on body, NO antenna, hands jars down from a high shelf. ONLY ONE ROBOT IN THE SCENE. Apothecary/library colors, warm browns and golds.
@@ -160,7 +160,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 9 — Programa Hayat Vermek
 
 **Metin:**
-{Y}"Son adım: **yükleyici**," dedi Yonga.
+{Y}"Son adım: **yükleyici**." dedi Yonga.
 
 {Y}"Çalıştırılabilir dosya hâlâ disk üzerindedir.
 Çalışması için belleğe taşınması gerekir.
@@ -182,12 +182,12 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 **Metin:**
 {B}"Bütün bu derleme zinciri ne kadar sürer?" diye sordu Bilge.
 
-{Y}"Küçük bir program için saniyenin binde biri bile sürmez," dedi Yonga.
+{Y}"Küçük bir program için saniyenin binde biri bile sürmez." dedi Yonga.
 {Y}"Büyük bir işletim sistemi için saatler gerekebilir!
 Ama sen 'Çalıştır' düğmesine bastığında tüm bu süreç
 ya önceden tamamlanmıştır ya da anında gerçekleşir."
 
-{B}"Python bunu anında yapıyor," dedi Bilge.
+{B}"Python bunu anında yapıyor." dedi Bilge.
 {B}"C önceden yapıyor."
 
 {Y}"Harika! Buna **derlenen** ve **yorumlanan** dil farkı denir."
@@ -200,7 +200,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 11 — Hata İletileri
 
 **Metin:**
-{Y}"Derleyici bazen hata iletisi verir," dedi Yonga.
+{Y}"Derleyici bazen hata iletisi verir." dedi Yonga.
 
 {Y}"Bu aslında çok iyi bir şey!
 Demek ki derleyici bir hata olduğunu anladı
@@ -209,7 +209,7 @@ Makine koduna çevirmeden önce yakaladı.
 
 İletiyi okursan hatayı bulabilirsin."
 
-{B}"Demek derleyici bir tür öğretmen," dedi Bilge.
+{B}"Demek derleyici bir tür öğretmen." dedi Bilge.
 {B}"'Burada yanlış yaptın' diyor."
 
 {Y}"Sabırlı ve yorulmaz bir öğretmen!" dedi Yonga.
@@ -244,7 +244,7 @@ Bağlayıcı + Kütüphaneler
       Çalışıyor! 🎉
 ```
 
-{B}"Şimdi anladım neden program yazmak bu kadar güçlü," dedi Bilge.
+{B}"Şimdi anladım neden program yazmak bu kadar güçlü." dedi Bilge.
 {B}"Arkasında devasa bir fabrika var."
 
 **Resim:**

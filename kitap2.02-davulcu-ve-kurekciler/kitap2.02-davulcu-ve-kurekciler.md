@@ -40,7 +40,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 4 — Ritim ve Hız
 
 **Metin:**
-Yonga göğsündeki ekranda küçük bir canlandırma gösterdi. Davul çaldıkça kürekler ritmik biçimde suya iniyordu. {Y}"Her davul vuruşu bir **çevrim**," dedi Yonga. {Y}"Saniyede ne kadar çok vuruş olursa gemi o kadar hızlı gider. Buna **saat vuruş sıklığı** diyoruz!"
+Yonga göğsündeki ekranda küçük bir canlandırma gösterdi. Davul çaldıkça kürekler ritmik biçimde suya iniyordu. {Y}"Her davul vuruşu bir **çevrim**." dedi Yonga. {Y}"Saniyede ne kadar çok vuruş olursa gemi o kadar hızlı gider. Buna **saat vuruş sıklığı** diyoruz!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga'nın göğsündeki ekranda hareketli bir kadırga sahnesi: küreklerin her davul vuruşuyla eşzamanlı hareket ettiği görülüyor. Her davul vuruşunun üstünde küçük "♩" notası ve "1 çevrim" etiketi var. Alt köşede küçük bir metre göstergesi "Saat Sıklığı" yazıyor ve ibresi artıyor. Sahne dinamik ve bilgilendirici. Mavi, kırmızı ve altın tonları.
@@ -60,7 +60,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 6 — Kolay ve Zor Buyruklar (BBÇ)
 
 **Metin:**
-{Y}"Bazı kürek darbeleri kolaydır, bir vuruşta biter," dedi Yonga. {Y}"Ama bazıları zorludur, iki ya da üç vuruş gerekir!" Bilge anladı. {B}"Demek ki bir kürek çekişi her zaman bir davul vuruşu değil!" Yonga başını salladı. {Y}"Kimi buyruk bir vuruş, kimi üç vuruş ister. Hepsinin ortalaması kaç vuruş ediyorsa, ona buyruk başına çevrim deriz, kısaca **BBÇ**."
+{Y}"Bazı kürek darbeleri kolaydır, bir vuruşta biter." dedi Yonga. {Y}"Ama bazıları zorludur, iki ya da üç vuruş gerekir!" Bilge anladı. {B}"Demek ki bir kürek çekişi her zaman bir davul vuruşu değil!" Yonga başını salladı. {Y}"Kimi buyruk bir vuruş, kimi üç vuruş ister. Hepsinin ortalaması kaç vuruş ediyorsa, ona buyruk başına çevrim deriz, kısaca **BBÇ**."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. İki yan yana panel: Sol panel: kürekçi kolayca kürekte bir hafif vuruş yapıyor, üzerinde "1 vuruş ✓" etiketi; sahne yeşil tonlarında. Sağ panel: kürekçi büyük, ağır bir kürekle uğraşıyor, üç davul vuruşu işaretlenmiş; sahne turuncu tonlarında. Altında "Kolay Buyruk = 1 Çevrim" ve "Zor Buyruk = 3 Çevrim" yazıyor; ikisinin ortalaması BBÇ'dir. Sahne karşılaştırmalı ve net. Yeşil, turuncu ve kırmızı tonları.
@@ -130,7 +130,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 13 — Müzeden Çıkarken
 
 **Metin:**
-Müzeden çıkarken Bilge son bir kez kadırgaya baktı. {B}"Artık bu gemiyi farklı görüyorum," dedi. {B}"İçinde buyruklar, saat vuruş sıklığı ve BBÇ var!" Yonga güldü. {Y}"Mühendisler de böyle düşünür, her şeyde bir ritim arar."
+Müzeden çıkarken Bilge son bir kez kadırgaya baktı. {B}"Artık bu gemiyi farklı görüyorum." dedi. {B}"İçinde buyruklar, saat vuruş sıklığı ve BBÇ var!" Yonga güldü. {Y}"Mühendisler de böyle düşünür, her şeyde bir ritim arar."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Müze çıkışında Bilge kapıdan çıkarken son kez geriye dönmüş kadırgaya bakıyor; gözlüklerinde kadırganın yansıması var. Gözlüğünün yansımasında minik bir kadırga içinde "1 GHz", "BBÇ=2", "1 milyon buyruk" gibi küçük etiketler görünüyor (komik ve çocuksu tarzda). Yonga omzunda sevinçle. Sahne nostaljik ve sıcak. Altın, kahverengi ve mavi tonları.

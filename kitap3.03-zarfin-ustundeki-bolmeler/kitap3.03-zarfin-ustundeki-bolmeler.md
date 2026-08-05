@@ -25,7 +25,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 2 — İlk Bölme
 
 **Metin:**
-{Y}"Her buyruğun en önemli bölümü **işlem kodu**dur," dedi Yonga.
+{Y}"Her buyruğun en önemli bölümü **işlem kodu**dur." dedi Yonga.
 (İngilizcesi opcode: ne tür işlem yapılacağını söyler)
 
 {Y}"İşlem kodu, zarfın ilk satırı gibi: 'Bu ne tür bir mektup?
@@ -44,7 +44,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 **Metin:**
 {B}"Neden tek bir biçim yetmiyor?" diye sordu Bilge.
 
-{Y}"Gönderdiğin şey değişince zarf da değişir," dedi Yonga. {Y}"Bir kartpostalda yalnız adres vardır. Bir kargoda ağırlık, boy, gönderen de yazar. Buyruklar da öyle: kimi üç yazmaç ister, kimi bir sayı taşır, kimi gidilecek yeri söyler. Bu yüzden altı zarf biçimi var. Her biri başka şey taşır ama hepsi 32 bit boyundadır."
+{Y}"Gönderdiğin şey değişince zarf da değişir." dedi Yonga. {Y}"Bir kartpostalda yalnız adres vardır. Bir kargoda ağırlık, boy, gönderen de yazar. Buyruklar da öyle: kimi üç yazmaç ister, kimi bir sayı taşır, kimi gidilecek yeri söyler. Bu yüzden altı zarf biçimi var. Her biri başka şey taşır ama hepsi 32 bit boyundadır."
 
 {B}"Zarflar farklı ama hepsi aynı posta kutusuna sığıyor!" dedi Bilge.
 
@@ -56,7 +56,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 4 — R Biçimi ve Yazmaç İşlemleri
 
 **Metin:**
-{Y}"RISC-V'te altı farklı buyruk biçimi var," dedi Yonga.
+{Y}"RISC-V'te altı farklı buyruk biçimi var." dedi Yonga.
 {Y}"İlki **R biçimi**: 'Register' sözcüğü yazmaç anlamına gelir.
 
 R biçiminde üç yazmaç alanı var:
@@ -77,7 +77,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 5 — I Biçimi ve Anlık Sayı
 
 **Metin:**
-{Y}"**I biçimi** biraz farklı," dedi Yonga.
+{Y}"**I biçimi** biraz farklı." dedi Yonga.
 {Y}"'I' harfi İngilizce 'immediate' sözcüğünden gelir, anlık demektir. Sayı buyruğun içinde gömülüdür.
 
 Örneğin 'x5 + 5 → x6' buyruğunda
@@ -97,7 +97,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 6 — Yükle ve Sakla
 
 **Metin:**
-{Y}"Veri aktarma buyrukları iki yönlü çalışır," dedi Yonga.
+{Y}"Veri aktarma buyrukları iki yönlü çalışır." dedi Yonga.
 
 {Y}"**YÜKLE** (İngilizcesi load): Bellekten oku, yazmaca koy.
 Örnek: 'Adres 100'deki sayıyı x5'e yükle.'"
@@ -105,7 +105,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 {Y}"**SAKLA** (İngilizcesi store): Yazmaçtaki değeri belleğe yaz.
 Örnek: 'x5'teki sayıyı adres 200'e sakla.'"
 
-{B}"İkisi birbirinin tersi," dedi Bilge.
+{B}"İkisi birbirinin tersi." dedi Bilge.
 {B}"Bir kütüphaneden kitap almak ve kitap iade etmek gibi!"
 
 **Resim:**
@@ -116,7 +116,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 7 — S ve B Biçimleri
 
 **Metin:**
-{Y}"**S biçimi** saklama buyrukları içindir," dedi Yonga.
+{Y}"**S biçimi** saklama buyrukları içindir." dedi Yonga.
 {Y}"Adresi bulmak için kullanılan kayma değeri buyruğun içinde iki parçaya bölünmüş halde saklanır."
 
 {B}"Neden bölünmüş?" diye sordu Bilge.
@@ -124,7 +124,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 {Y}"Çünkü RISC-V'te her şey 32 bite sıkıştırılmıştır.
 Yer az, akıllıca kullanmak gerekir!"
 
-{Y}"**B biçimi** ise **dallanma** buyrukları içindir," dedi Yonga.
+{Y}"**B biçimi** ise **dallanma** buyrukları içindir." dedi Yonga.
 {Y}"'Koşul doğruysa şu adrese zıpla' demek için kullanılır."
 
 **Resim:**
@@ -135,7 +135,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 8 — U ve J Biçimleri
 
 **Metin:**
-{Y}"Sırada son iki biçim var," dedi Yonga.
+{Y}"Sırada son iki biçim var." dedi Yonga.
 
 {Y}"**U biçimi** büyük anlık sayılar içindir.
 Bazen adres ya da büyük değer oluşturmak için gerekir."
@@ -143,7 +143,7 @@ Bazen adres ya da büyük değer oluşturmak için gerekir."
 {Y}"**J biçimi** ise **atlama** içindir, fonksiyon çağırmak gibi.
 'Şu adrese git, işini bitir, geri dön' demek için."
 
-{B}"Altı biçim, altı farklı zarf," dedi Bilge.
+{B}"Altı biçim, altı farklı zarf." dedi Bilge.
 {B}"R, I, S, B, U, J, bunları ezberliyorum!"
 
 **Resim:**
@@ -156,9 +156,9 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 **Metin:**
 {B}"İşlemci hangi zarfın geldiğini nereden biliyor?" diye sordu Bilge.
 
-{Y}"En akıllı kısmı burada," dedi Yonga. {Y}"Altı biçim farklı, ama bazı bölmeler hepsinde aynı yerde durur. Hedef yazmaç hep aynı bitlerde, birinci kaynak hep aynı bitlerde. Böylece işlemci zarfın türünü daha anlamadan o bölmeleri okumaya başlar. Zaman kazanır."
+{Y}"En akıllı kısmı burada." dedi Yonga. {Y}"Altı biçim farklı, ama bazı bölmeler hepsinde aynı yerde durur. Hedef yazmaç hep aynı bitlerde, birinci kaynak hep aynı bitlerde. Böylece işlemci zarfın türünü daha anlamadan o bölmeleri okumaya başlar. Zaman kazanır."
 
-{B}"Bakmadan uzanıp alıyor," dedi Bilge. {B}"Kalemin hep aynı gözde durduğunu bildiğin gibi!"
+{B}"Bakmadan uzanıp alıyor." dedi Bilge. {B}"Kalemin hep aynı gözde durduğunu bildiğin gibi!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Altı zarf üst üste hizalanmış duruyor, hepsi aynı ende. Zarfların üzerinde aynı dikey sütunda duran iki bölme parlak turuncu ve parlak yeşille vurgulanmış; öteki bölmeler soluk. Vurgulu bölmeler bütün zarflarda tam olarak aynı hizada olduğu için dikey iki ışık şeridi oluşuyor. Bilge şeritleri parmağıyla yukarıdan aşağı izliyor, Yonga yanında gülümsüyor.
@@ -185,7 +185,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 11 — Bir Buyruğu Bit Bit Çözelim
 
 **Metin:**
-{Y}"Hadi bir buyruğu birlikte çözelim," dedi Yonga ve havaya otuz iki kutuluk bir şerit çizdi.
+{Y}"Hadi bir buyruğu birlikte çözelim." dedi Yonga ve havaya otuz iki kutuluk bir şerit çizdi.
 
 {Y}"Şu buyruk geldi: `ADD x7, x5, x6`. En sağdaki bölme işlem kodu, 'bu bir yazmaç işlemi' diyor. Öteki bölmelerde hedef x7 ile kaynaklar x5 ve x6 duruyor."
 
@@ -206,9 +206,9 @@ Bilge ellerini birbirine vurdu:
 Bu bitlerin biçimi (R, I, S, B, U, J) ne tür buyruk olduğunu söylüyor.
 İçinde işlem kodu, kaynak yazmaçlar, hedef yazmaç ve bazen anlık sayı var."
 
-{Y}"Ve işlemci bu şifreyi saniyede milyarlarca kez çözüyor," dedi Yonga.
+{Y}"Ve işlemci bu şifreyi saniyede milyarlarca kez çözüyor." dedi Yonga.
 
-{B}"Müthiş," dedi Bilge. {B}"Her bit bir anlam taşıyor."
+{B}"Müthiş." dedi Bilge. {B}"Her bit bir anlam taşıyor."
 
 **Resim:**
 Horizontal children's book illustration, watercolor style, edge-to-edge, NO white border, NO frame. A large glowing 32-bit instruction bar at the top, with each section (opcode, rd, rs1, rs2, and the instruction's other small sub-fields) highlighted in different colors with tiny labels. Below it, the instruction "decodes" into a beautiful illustrated action: two register boxes combining into a result box. Bilge holds the decoded instruction like a puzzle piece clicking into place. Yonga — a small chubby rounded robot, light blue-silver metallic body, spiral/swirl on belly, big round blue eyes, dome head, short stubby arms, NO TEXT on body, NO antenna — beams proudly. ONLY ONE ROBOT IN THE SCENE. Puzzle-reveal colors, satisfying warm tones.
@@ -231,7 +231,7 @@ Bir buyruk: 32 bit
     Anlık sayı
 ```
 
-{B}"Zarfın üstündeki her bölme bir soruya yanıt veriyor," dedi Bilge,
+{B}"Zarfın üstündeki her bölme bir soruya yanıt veriyor." dedi Bilge,
 {B}"ve işlemci hepsini bir bakışta okuyor."
 
 **Resim:**

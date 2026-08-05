@@ -30,7 +30,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 3 — Dört Kat Büyük Bahçe
 
 **Metin:**
-Önce Bilge tek başına çalışmaya başladı. Bir saat sonra bahçenin dörtte birini ekebilmişti. {B}"Bu hızda dört saat sürer," dedi Bilge yorgunlukla. Ayşe Teyze gülümsedi: {D}"Bir de şunu düşün: Üç arkadaşın gelse, dört saatte sadece aynı bahçeyi mi ekerdiniz?" Bilge gözlerini kırptı: {B}"Hayır! Dört kat büyük bir bahçe ekerdik!"
+Önce Bilge tek başına çalışmaya başladı. Bir saat sonra bahçenin dörtte birini ekebilmişti. {B}"Bu hızda dört saat sürer." dedi Bilge yorgunlukla. Ayşe Teyze gülümsedi: {D}"Bir de şunu düşün: Üç arkadaşın gelse, dört saatte sadece aynı bahçeyi mi ekerdiniz?" Bilge gözlerini kırptı: {B}"Hayır! Dört kat büyük bir bahçe ekerdik!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Solda: Bilge tek başına küçük bir alanda çalışıyor, yorgun görünüyor, başının üstünde "4 saat" yazan bir balon. Sağda: Hayal balonunda dört çocuk yan yana koşarak geniş bir alanda çalışıyor ve çok daha büyük bir bahçeyi dört saatte bitirebileceklerini gösteriyor. Ayşe Teyze ortada gülümserek her iki sahneye bakıyor.
@@ -40,7 +40,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 4 — Amdahl'la Karşılaştırma
 
 **Metin:**
-{Y}"Ama bekle," dedi Yonga, {Y}"bunu daha önce öğrendiğimiz Amdahl Yasası ile karşılaştıralım." Bilge hatırladı: {B}"Amdahl Yasası diyordu ki, ne kadar çok çalışan eklersen ekle, sırayla yapılması gereken iş hızlanmayı sınırlar." Yonga onayladı: {Y}"Evet! Peki Gustafson ne dedi? Aynı mı düşündü?"
+{Y}"Ama bekle." dedi Yonga, {Y}"bunu daha önce öğrendiğimiz Amdahl Yasası ile karşılaştıralım." Bilge hatırladı: {B}"Amdahl Yasası diyordu ki, ne kadar çok çalışan eklersen ekle, sırayla yapılması gereken iş hızlanmayı sınırlar." Yonga onayladı: {Y}"Evet! Peki Gustafson ne dedi? Aynı mı düşündü?"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bir kara tahta; sol tarafında "Amdahl" yazıyor ve sabit büyüklükte küçük bir bahçe çizimi var: üstünde "Hız sınırlı!" notu. Sağ tarafında "Gustafson" yazıyor ve giderek büyüyen bahçe serileri çizilmiş. Bilge ve Yonga tahtanın önünde tartışıyor gibi duruyor.
@@ -50,7 +50,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 5 — Soruyu Değiştirmek
 
 **Metin:**
-{Y}"Amdahl şunu dedi," diye anlattı Yonga. {Y}"Aynı küçük bahçeyi dört kişiyle ekersen, sıralı işler yüzünden çok hızlanamayabilirsin." Ellerini kavuşturdu: {Y}"Ama Gustafson şöyle baktı: Neden aynı küçük bahçede kalalım ki? Dört kişimiz varsa dört kat büyük bahçe ekelim!" Bilge aydınlandı: {B}"Soruyu değiştiriyor!"
+{Y}"Amdahl şunu dedi." diye anlattı Yonga. {Y}"Aynı küçük bahçeyi dört kişiyle ekersen, sıralı işler yüzünden çok hızlanamayabilirsin." Ellerini kavuşturdu: {Y}"Ama Gustafson şöyle baktı: Neden aynı küçük bahçede kalalım ki? Dört kişimiz varsa dört kat büyük bahçe ekelim!" Bilge aydınlandı: {B}"Soruyu değiştiriyor!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. İki karikatür sahne yan yana: solda dört kişi küçük bir bahçede sıkışmış çalışıyor, yüzleri mutsuz. Sağda aynı dört kişi geniş bir bahçede mutlu ve hızlıca çalışıyor. Okun yönü soldan sağa, altında "Aynı iş → Daha büyük iş" yazıyor. Bilge sağdaki sahneyi sevinçle işaret ediyor.
@@ -80,7 +80,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 8 — Beş Kişi Bahçede
 
 **Metin:**
-Beş kişiyle çalışmaya başladılar. Bilge kuzey köşeye, Ayşe Teyze'nin arkadaşları farklı bölümlere dağıldı. Yonga eşgüdümcü oldu: {Y}"Sen fideler dikerken ben toprak hazırlıyorum!" Üç saat sonra koskoca bahçe ekilmişti. {D}"Tek başıma bu bahçeyi bir günde asla bitiremezdim," dedi Ayşe Teyze.
+Beş kişiyle çalışmaya başladılar. Bilge kuzey köşeye, Ayşe Teyze'nin arkadaşları farklı bölümlere dağıldı. Yonga eşgüdümcü oldu: {Y}"Sen fideler dikerken ben toprak hazırlıyorum!" Üç saat sonra koskoca bahçe ekilmişti. {D}"Tek başıma bu bahçeyi bir günde asla bitiremezdim." dedi Ayşe Teyze.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bahçe beş bölgeye ayrılmış, her bölgede bir kişi çalışıyor; renkli sınır çizgileriyle ayrılmış. Yonga bahçenin ortasında küçük eşgüdümcü şapkasıyla (inşaat şapkası gibi) duruyor, ekranında bahçe haritası var. Güneş ufukta alçalıyor, bahçe neredeyse tamamlanmış, renkli fidelerin sıraları görünüyor.

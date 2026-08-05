@@ -1,4 +1,4 @@
-# Elde'nin Yolculuğu
+# Eldenin Yolculuğu
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 4: İşlemcinin İçi — Kitap 4.1a
 **Yaş grubu:** 9–12 (okuma bilen)
@@ -12,7 +12,7 @@
 **Metin:**
 Bilge, bahçede kum kovalarını sıraya dizmişti. Kovalara sırayla kum dolduruyor, biri taşınca fazlasını yanındaki kovaya aktarıyordu.
 
-{B}"Yonga, bak," dedi. {B}"Bu kova dolunca fazlası öbürüne geçiyor."
+{B}"Yonga, bak." dedi. {B}"Bu kova dolunca fazlası öbürüne geçiyor."
 
 Yonga başını salladı, gözleri parladı. {Y}"Bilgisayar da toplama yaparken tam bunu yapıyor Bilge. Sen elinle yaptın, o tellerle yapıyor."
 
@@ -25,7 +25,7 @@ Yonga başını salladı, gözleri parladı. {Y}"Bilgisayar da toplama yaparken 
 ## Sayfa 2 — Elde Dediğimiz Şey
 
 **Metin:**
-{Y}"Bu taşan kum parçasına bilgisayar dünyasında **elde** denir," dedi Yonga.
+{Y}"Bu taşan kum parçasına bilgisayar dünyasında **elde** denir." dedi Yonga.
 
 {B}"Elde mi? Bayrak gibi elden ele mi geçiyor?" diye sordu Bilge.
 
@@ -40,7 +40,7 @@ Bilge gülümsedi. {B}"O zaman ben az önce bir elde taşıyıcısıydım."
 ## Sayfa 3 — Her Basamağın Kendi Küçük Toplayıcısı
 
 **Metin:**
-{Y}"Bilgisayar iki sayıyı toplarken her ikili basamak için minik bir toplayıcı kullanır," diye açıkladı Yonga.
+{Y}"Bilgisayar iki sayıyı toplarken her ikili basamak için minik bir toplayıcı kullanır." diye açıkladı Yonga.
 
 {B}"Demek her basamağın kendi küçük hesap makinesi var, öyle mi?" diye sordu Bilge, gözlükleri burnunun ucuna kaymıştı.
 
@@ -57,7 +57,7 @@ Bilge parmağıyla tek tek saydı. {B}"Sekiz tane minik işçi gibi!"
 **Metin:**
 {B}"Peki bir basamakta toplama nasıl yapılır?" diye sordu Bilge.
 
-{Y}"Kurallar çok basit," dedi Yonga. {Y}"Sıfır artı sıfır sıfırdır. Bir artı sıfır birdir. Ama bir artı bir, iki basamaklı olur: bir-sıfır."
+{Y}"Kurallar çok basit." dedi Yonga. {Y}"Sıfır artı sıfır sıfırdır. Bir artı sıfır birdir. Ama bir artı bir, iki basamaklı olur: bir-sıfır."
 
 Bilge kaşlarını çattı. {B}"Bir-sıfır mı? İkilik düzende iki, bir-sıfır yazılır, değil mi?"
 
@@ -89,7 +89,7 @@ Bilge kaşlarını çattı. {B}"Bir-sıfır mı? İkilik düzende iki, bir-sıf�
 
 {Y}"Hep en sağdaki basamaktan başlar, sola doğru ilerler. Tıpkı senin kovaların gibi."
 
-{B}"Çünkü elde ancak bir önceki basamak bitince ortaya çıkar," dedi Bilge, birden anlamış gibi gözleri büyüdü.
+{B}"Çünkü elde ancak bir önceki basamak bitince ortaya çıkar." dedi Bilge, birden anlamış gibi gözleri büyüdü.
 
 {Y}"Aynen öyle! Elde, bir sonraki komşusuna gitmeden önce kendi basamağının işinin bitmesini bekler."
 
@@ -100,7 +100,7 @@ Bilge kaşlarını çattı. {B}"Bir-sıfır mı? İkilik düzende iki, bir-sıf�
 ## Sayfa 7 — 0011 ile 0101'i Toplayalım
 
 **Metin:**
-{Y}"Hadi gerçek bir örnek yapalım," dedi Yonga ve havaya bir hologram yansıttı. Hologramda iki sayı belirdi: 0011 ve 0101.
+{Y}"Hadi gerçek bir örnek yapalım." dedi Yonga ve havaya bir hologram yansıttı. Hologramda iki sayı belirdi: 0011 ve 0101.
 
 {B}"Bunlar ikilik düzende mi?" diye sordu Bilge.
 
@@ -115,9 +115,9 @@ Bilge kalemini kaptı. {B}"Ben de yazıyorum, sıra sende Yonga!"
 ## Sayfa 8 — En Sağdaki Basamak
 
 **Metin:**
-{Y}"En sağdaki basamağa bak: bir artı bir," dedi Yonga.
+{Y}"En sağdaki basamağa bak: bir artı bir." dedi Yonga.
 
-{B}"Bir artı bir eşittir bir-sıfır! Buraya sıfır yazılır, elde bir olur ve sola gider," dedi Bilge heyecanla.
+{B}"Bir artı bir eşittir bir-sıfır! Buraya sıfır yazılır, elde bir olur ve sola gider." dedi Bilge heyecanla.
 
 {Y}"Tam isabet! İlk basamağımız hazır: sonuç sıfır, elde bir."
 
@@ -130,9 +130,9 @@ Bilge küçük bir yıldız çizdi elde biti için. {B}"Elde'yi yıldızla işar
 ## Sayfa 9 — Zincir Devam Ediyor
 
 **Metin:**
-{Y}"İkinci basamak: bir artı sıfır, üstüne de gelen elde bir," dedi Yonga.
+{Y}"İkinci basamak: bir artı sıfır, üstüne de gelen elde bir." dedi Yonga.
 
-{B}"Bir artı sıfır artı bir... o da bir-sıfır eder! Yine sıfır yaz, elde ver," dedi Bilge parmaklarını sayarak.
+{B}"Bir artı sıfır artı bir... o da bir-sıfır eder! Yine sıfır yaz, elde ver." dedi Bilge parmaklarını sayarak.
 
 {Y}"Üçüncü basamak: sıfır artı bir, gelen elde de bir. Yine bir-sıfır. Sıfır yaz, elde yine sola gitsin."
 
@@ -145,13 +145,13 @@ Bilge küçük bir yıldız çizdi elde biti için. {B}"Elde'yi yıldızla işar
 ## Sayfa 10 — Sonuç 1000
 
 **Metin:**
-{Y}"Sonuç ortaya çıktı: bir-sıfır-sıfır-sıfır," dedi Yonga.
+{Y}"Sonuç ortaya çıktı: bir-sıfır-sıfır-sıfır." dedi Yonga.
 
 Bilge defterine baktı. {B}"Bu da onluk düzende sekiz eder! Üç artı beş sekiz, doğru!"
 
 {Y}"En soldaki basamak iki sayıda da sıfırdı, gördün mü? Oradaki bir, zincirin taşıdığı eldeden geldi."
 
-{B}"Elde uzun bir yolculuk yaptı, sağdan başladı, en sola kadar gitti," dedi Bilge gülümseyerek.
+{B}"Elde uzun bir yolculuk yaptı, sağdan başladı, en sola kadar gitti." dedi Bilge gülümseyerek.
 
 **Resim:** Defter sayfasında büyük harflerle "0011 + 0101 = 1000" yazılı, altında küçük bir not: "= 8". Bilge defterini gururla Yonga'ya gösteriyor, Yonga'nın gözlerinde kalp şeklinde küçük ışıklar var.
 
@@ -190,7 +190,7 @@ Yonga göz kırptı. {Y}"Onu da başka bir gün konuşuruz."
 ## Sayfa 13 — Kilometre Sayacı ve Bir Sonraki Durak
 
 **Metin:**
-{B}"Bir dakika, daha önce bir kilometre sayacının başa dönmesinden bahsetmiştik, taşma demiştik," dedi Bilge birden hatırlayarak.
+{B}"Bir dakika, daha önce bir kilometre sayacının başa dönmesinden bahsetmiştik, taşma demiştik." dedi Bilge birden hatırlayarak.
 
 {Y}"Hafızan çok iyi! Aynı taşma burada da olabilir, sonuç sığmayacak kadar büyürse basamaklar başa döner."
 

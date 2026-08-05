@@ -50,7 +50,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 5 — Kapalı İşlemciler
 
 **Metin:**
-{Y}"Intel kendi işlemci tasarımını kimseyle paylaşmaz," dedi Yonga. {Y}"ARM ise tasarımını başka şirketlere parayla kiralar, tıpkı bir evi kiraya vermek gibi." Bilge düşündü: {B}"Kilitli evin tarifi gibi..."
+{Y}"Intel kendi işlemci tasarımını kimseyle paylaşmaz." dedi Yonga. {Y}"ARM ise tasarımını başka şirketlere parayla kiralar, tıpkı bir evi kiraya vermek gibi." Bilge düşündü: {B}"Kilitli evin tarifi gibi..."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga hologramda iki farklı sembol gösteriyor: "Intel" yazan tamamen kapalı bir kilit ve "ARM" yazan, üzerinde küçük bir "kiralık" etiketi olan yarı aralık kapı; ikisinin arkasında da parlak devreler gizlenmiş. Bilge kapalı evi yeniden hayal ediyor — düşünce balonunda Kilitli Bey ve kapalı kapı görünüyor. Yüzünde "anladım!" ifadesi var. Gri, mavi ve kırmızı tonlar; güçlü ama kapalı şirket hissi.
@@ -100,7 +100,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 10 — Dünyanın Her Yerinden
 
 **Metin:**
-{Y}"Hindistan'dan, Brezilya'dan, Türkiye'den mühendisler RISC-V geliştiriyor," dedi Yonga. {Y}"Bir tasarım, dünyanın her yerine yayılıyor!" Bilge hayretle gözlerini kırptı.
+{Y}"Hindistan'dan, Brezilya'dan, Türkiye'den mühendisler RISC-V geliştiriyor." dedi Yonga. {Y}"Bir tasarım, dünyanın her yerine yayılıyor!" Bilge hayretle gözlerini kırptı.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Dünya haritası hologramı ön planda; farklı ülkelerden parlayan noktalara bağlı ışık çizgileri merkezdeki RISC-V logosuna uzanıyor — Hindistan, Brezilya, Türkiye, ABD, Japonya vb. Her noktadan küçük, mutlu mühendis figürleri görünüyor. Bilge dünya haritasına uzanarak Türkiye'yi işaret ediyor, Yonga "evet, oradan da!" diye başını sallıyor. Canlı mavi, yeşil ve altın tonlar; küresel bağlantı ve heyecan hissi.
@@ -110,7 +110,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 11 — Okullarda RISC-V
 
 **Metin:**
-{Y}"Üniversitelerde öğrenciler RISC-V üzerinde çalışabiliyor," dedi Yonga. {Y}"İzin almak ya da ücret ödemek zorunda değiller, sadece öğrenip geliştiriyorlar!"
+{Y}"Üniversitelerde öğrenciler RISC-V üzerinde çalışabiliyor." dedi Yonga. {Y}"İzin almak ya da ücret ödemek zorunda değiller, sadece öğrenip geliştiriyorlar!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Parlak bir üniversite laboratuvarı; genç öğrenciler bilgisayarlarında RISC-V tasarımları yapıyor, duvarda "RISC-V Açık İşlemci Dersi" yazıyor. Bir öğrenci tahtaya devre çiziyor, bir diğeri not alıyor, biri heyecanla "oldu!" diyerek ellerini kaldırmış. Bilge bu sahneyi izlerken "ben de okuyunca böyle yapacağım" der gibi bakıyor. Canlı mavi, yeşil ve sarı tonlar; eğitim ve gelecek hissi.

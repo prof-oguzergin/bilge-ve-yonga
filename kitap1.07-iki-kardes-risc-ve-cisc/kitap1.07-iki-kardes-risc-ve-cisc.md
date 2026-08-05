@@ -80,7 +80,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 8 — ARM ve RISC-V
 
 **Metin:**
-{Y}"Telefonlardaki ARM işlemciler Risko ailesinden," dedi Yonga. {Y}"Onlar az buyrukla çok iş çıkarırlar!" Bilge meraklandı: {B}"Peki RISC-V?" Yonga'nın gözleri parladı: {Y}"O da aynı aileden! Ama bir farkı var: RISC-V'in kuralları herkese açık, isteyen ücretsiz kullanabilir."
+{Y}"Telefonlardaki ARM işlemciler Risko ailesinden." dedi Yonga. {Y}"Onlar az buyrukla çok iş çıkarırlar!" Bilge meraklandı: {B}"Peki RISC-V?" Yonga'nın gözleri parladı: {Y}"O da aynı aileden! Ama bir farkı var: RISC-V'in kuralları herkese açık, isteyen ücretsiz kullanabilir."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga hologramda Risko'nun yanına iki küçük rozet takıyor — biri "ARM" yazan mavi rozet, diğeri "RISC-V" yazan yeşil rozet. Risko rozetlere bakarak gururla göğsünü kabartıyor. Bilge de "ben de bir tane istiyorum" der gibi eğlenceli bir ifadeyle elini kaldırıyor. Neşeli, çocuksu bir rozet töreni atmosferi; canlı mavi ve yeşil tonlar.
@@ -90,7 +90,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 9 — Sisko'nun Ailesi x86
 
 **Metin:**
-{Y}"Masaüstü bilgisayarlarda ve dizüstü bilgisayarlarda çoğunlukla x86 işlemciler var," dedi Yonga. {Y}"Bunlar Sisko'nun ailesi, çok şey yapabilirler!"
+{Y}"Masaüstü bilgisayarlarda ve dizüstü bilgisayarlarda çoğunlukla x86 işlemciler var." dedi Yonga. {Y}"Bunlar Sisko'nun ailesi, çok şey yapabilirler!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Sisko'nun yanına "x86" yazan büyük bir rozet takılıyor. Sisko masaüstü bilgisayarın içinde çalışıyor — etrafında çok sayıda araç, kablo ve renkli ışık var. Bilge dizüstü bilgisayarına bakarak içinde Sisko'yu hayal ediyor; gülümsüyor. Kırmızı, altın ve gümüş tonlar; güçlü ve kapsamlı işlemci hissi.
@@ -120,7 +120,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 12 — Her Biri Kendi Yerinde
 
 **Metin:**
-{Y}"Telefonlar için Risko, masaüstü bilgisayarlar için Sisko daha uygun olabilir," dedi Yonga. {Y}"İkisi de çok önemli, çünkü farklı işler var!"
+{Y}"Telefonlar için Risko, masaüstü bilgisayarlar için Sisko daha uygun olabilir." dedi Yonga. {Y}"İkisi de çok önemli, çünkü farklı işler var!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. İki ayrı sahne yan yana: soldaki sahnede Risko bir telefon içinde neşeyle koşuyor, telefon batarya dolu gösteriyor; sağdaki sahnede Sisko bir masaüstü bilgisayarın içinde güçlü ışıklarla çalışıyor. Her iki robotun yüzünde mutlu ifade var. Bilge ve Yonga orta planda, her iki sahneyi işaret ediyor. Dengeli, renkli ve neşeli bir karşılaştırma.

@@ -85,9 +85,9 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 7 — Yonga'nın Açıklaması
 
 **Metin:**
-{Y}"Bilge," dedi Yonga, {Y}"küçük bir parçayı ne kadar hızlandırırsan hızlandır, o parça toplamın küçük bir kısmı olduğu için kazanç da küçük kalır."
+{Y}"Bilge." dedi Yonga, {Y}"küçük bir parçayı ne kadar hızlandırırsan hızlandır, o parça toplamın küçük bir kısmı olduğu için kazanç da küçük kalır."
 {Y}"Ama büyük parçayı hızlandırırsan, toplam süre gerçekten kısalır!"
-{Y}"Buna Amdahl Yasası deniyor," dedi ve küçük gözleri parladı.
+{Y}"Buna Amdahl Yasası deniyor." dedi ve küçük gözleri parladı.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga küçük ama profesyonel bir öğretmen edasıyla duruyor; elinde holografik bir tahta tutmuş. Tahtada iki senaryo yan yana: sol tarafta küçük kırmızı parça (ayakkabı) üzerinde ok ve "× 6 hızlı!" yazısı, ama toplam süre az değişiyor; sağ tarafta büyük mavi parça (yürüyüş) üzerinde ok ve toplam süre çok azalıyor. Altında "AMDAHL YASASI" yazısı büyük ve vurgulu. Bilge not alıyor, yüzü "anlıyorum!" ifadesinde. Öğretici, net ve görsel bir sahne.
@@ -97,7 +97,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 8 — Bisiklet Fikri!
 
 **Metin:**
-{B}"Peki," dedi Bilge, {B}"yürüyüşü hızlandırsam ne olur?"
+{B}"Peki." dedi Bilge, {B}"yürüyüşü hızlandırsam ne olur?"
 {B}"Örneğin bisikletle gitsem, yirmi dakika üç dakikaya düşer!"
 Yonga zıpladı: {Y}"İşte bunu arıyorduk! Büyük parçayı hızlandır!"
 
@@ -121,7 +121,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 10 — Bilgisayarda da Aynı Kural
 
 **Metin:**
-{Y}"Bilgisayarda da böyle," dedi Yonga, {Y}"hangi parçayı hızlandıracağını iyi seçmek lazım."
+{Y}"Bilgisayarda da böyle." dedi Yonga, {Y}"hangi parçayı hızlandıracağını iyi seçmek lazım."
 {Y}"Bir program, zamanının yüzde doksanını bellekten veri bekleyerek geçiriyorsa..."
 {Y}"...işlemciyi iki kat hızlandırsan bile neredeyse hiç fark olmaz!"
 
@@ -145,7 +145,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 12 — Her Zaman En Büyük Parçayı Bul
 
 **Metin:**
-{B}"Öyleyse kural şu," dedi Bilge. {B}"Her zaman en büyük parçayı bul ve onu hızlandır!"
+{B}"Öyleyse kural şu." dedi Bilge. {B}"Her zaman en büyük parçayı bul ve onu hızlandır!"
 {Y}"Kesinlikle!" dedi Yonga sevinçle. {Y}"İşte Amdahl'ın bize öğrettiği bu."
 {Y}"Darboğazı bul, onu çöz, sonra bir sonrakini ara!"
 
@@ -157,7 +157,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 13 — Gene Amdahl
 
 **Metin:**
-{Y}"Bu yasayı bulan kişinin adı Gene Amdahl'dı," dedi Yonga saygıyla.
+{Y}"Bu yasayı bulan kişinin adı Gene Amdahl'dı." dedi Yonga saygıyla.
 {Y}"O çok büyük bir bilgisayar mühendisiydi ve bunu 1967'de yazdı."
 Bilge gözlerini kocaman açtı: {B}"Demek bunu ilk o yazmış!"
 

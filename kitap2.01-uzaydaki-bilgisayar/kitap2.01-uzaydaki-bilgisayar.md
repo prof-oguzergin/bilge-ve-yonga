@@ -50,7 +50,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 5 — Kozmik Işın Saldırısı!
 
 **Metin:**
-{Y}"Uzayda küçük ama çok güçlü tanecikler uçuşuyor," dedi Yonga. {Y}"Bunlara kozmik ışınlar diyoruz." Bilge gözlerini kırpıştırdı. {B}"Ne yapıyorlar?" {Y}"Bir bilgisayarın içine girip bir 0'ı 1'e, ya da bir 1'i 0'a çevirebiliyorlar!"
+{Y}"Uzayda küçük ama çok güçlü tanecikler uçuşuyor." dedi Yonga. {Y}"Bunlara kozmik ışınlar diyoruz." Bilge gözlerini kırpıştırdı. {B}"Ne yapıyorlar?" {Y}"Bir bilgisayarın içine girip bir 0'ı 1'e, ya da bir 1'i 0'a çevirebiliyorlar!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Dramatik uzay sahnesi: uzaydan gelen parlak, çarpıcı ışık okları her yönden geliyor (kozmik ışınlar). Bu okların biri küçük bir bilgisayar yongasına çarpıyor ve yongadan "0→1!" yazısı çıkıyor; küçük bir patlama efekti. Curiosity rover endişeli bir yüz ifadesi taşıyor (çocuksu tarzda). Sahne dramatik ama korku verici değil, çizgi roman tarzı. Mor, sarı ve kırmızı tonları.
@@ -80,7 +80,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 8 — Üç Arkadaş Oylama Yapıyor
 
 **Metin:**
-{Y}"Bazı uzay araçlarında ise farklı bir yöntem kullanılır," dedi Yonga. {Y}"Aynı işi üç bilgisayar birden yapar ve oylama yapar, tıpkı üç arkadaşın oy vermesi gibi! İki kişi 'evet' derse evet, iki kişi 'hayır' derse hayır!" Bilge güldü. {B}"Demek ki bilgisayarlar da demokratik!" Yonga kıkırdadı. {Y}"Aynen öyle!"
+{Y}"Bazı uzay araçlarında ise farklı bir yöntem kullanılır." dedi Yonga. {Y}"Aynı işi üç bilgisayar birden yapar ve oylama yapar, tıpkı üç arkadaşın oy vermesi gibi! İki kişi 'evet' derse evet, iki kişi 'hayır' derse hayır!" Bilge güldü. {B}"Demek ki bilgisayarlar da demokratik!" Yonga kıkırdadı. {Y}"Aynen öyle!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Komik bir sınıf oylaması sahnesi: üç küçük robot öğrenci sandalyede oturuyor, biri "Evet" levhası kaldırmış, biri "Hayır" levhası kaldırmış, üçüncüsü kafası karışmış (kırmızı) yine de "Evet" diyor. Öğretmen robotu tahtada "2 > 1 = Çoğunluk!" yazıyor. Bilge ve Yonga altta oturmuş gülümsüyor. Sahne neşeli ve eğitici. Sarı, kırmızı ve yeşil tonları.
@@ -90,7 +90,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 9 — Hata Düzeltme Kodları
 
 **Metin:**
-{Y}"Üçlü sistemden başka yollar da var," dedi Yonga. {Y}"Bazı bilgisayarlar özel kodlar kullanır: eğer bir hata olursa bu kodlar hatayı hem bulur hem düzeltir!" Bilge şaşırdı. {B}"Kendi kendine mi?" {Y}"Evet! Tıpkı sihir gibi, ama aslında matematik!"
+{Y}"Üçlü sistemden başka yollar da var." dedi Yonga. {Y}"Bazı bilgisayarlar özel kodlar kullanır: eğer bir hata olursa bu kodlar hatayı hem bulur hem düzeltir!" Bilge şaşırdı. {B}"Kendi kendine mi?" {Y}"Evet! Tıpkı sihir gibi, ama aslında matematik!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Büyülü matematik sahnesi: bir bilgisayar ekranı üzerinde 0 ve 1'lerden oluşan bir satır var; bir hata (kırmızı bit) küçük bir büyüteçle tespit ediliyor ve yanında bir sihirli değnek onu düzeltip yeşile dönüştürüyor. Etrafta matematiksel semboller ve yıldız parıltıları. Bilge hayretle bakıyor, Yonga gurur dolu bir ifadeyle açıklıyor. Sahne büyülü ve eğlenceli. Mor, altın ve krem tonları.
@@ -110,7 +110,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 11 — Arabalar ve Uçaklar da!
 
 **Metin:**
-{Y}"Güvenilirlik sadece uzay için değil," dedi Yonga. {Y}"Uçaklar, arabalar, hastane makineleri, hepsi hata yapmaması gereken bilgisayarlar kullanıyor." Bilge düşündü. {B}"Demek ki iyi bir bilgisayar sadece hızlı değil, güvenilir de olmak zorunda!"
+{Y}"Güvenilirlik sadece uzay için değil." dedi Yonga. {Y}"Uçaklar, arabalar, hastane makineleri, hepsi hata yapmaması gereken bilgisayarlar kullanıyor." Bilge düşündü. {B}"Demek ki iyi bir bilgisayar sadece hızlı değil, güvenilir de olmak zorunda!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Dört bölümlü bir panel: sol üst, bir uçak bulutların üzerinde uçuyor; sağ üst, bir araba yolda ilerliyor; sol alt, hastanede bir doktor ekranlı cihaz kullanıyor; sağ alt, Mars'ta Curiosity. Her birinin üzerinde küçük kalkan simgesi var. Ortada "Güvenilirlik Her Yerde!" yazısı. Sahne bilgilendirici ve ilham verici. Her panel farklı renk tonlarında: mavi, yeşil, turuncu, kırmızı.
@@ -120,7 +120,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 12 — Curiosity Hâlâ Çalışıyor!
 
 **Metin:**
-{Y}"Curiosity şu an da Mars'ta," dedi Yonga saygıyla. {Y}"Yıllar geçti. Kozmik ışınlar geldi geçti, ama o hâlâ çalışıyor." Bilge gökyüzüne baktı. {B}"Süper kahraman gibi!" Yonga güldü. {Y}"Evet, ama süper kahramanı mühendisler yaptı."
+{Y}"Curiosity şu an da Mars'ta." dedi Yonga saygıyla. {Y}"Yıllar geçti. Kozmik ışınlar geldi geçti, ama o hâlâ çalışıyor." Bilge gökyüzüne baktı. {B}"Süper kahraman gibi!" Yonga güldü. {Y}"Evet, ama süper kahramanı mühendisler yaptı."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Mars'ta alacakaranlık: pembe-turuncu gökyüzü, güneş ufukta batıyor. Curiosity rover ön planda durgun ve kahraman gibi duruyor; arkasında uzun gölgesi uzanıyor. Kozmik ışın okları etrafında görünüyor ama Curiosity'ye değemiyor (küçük kalkan alanı). Sahne epik, onurlu ve duygusal. Kırmızı, turuncu ve altın tonları.

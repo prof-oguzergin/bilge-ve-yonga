@@ -12,7 +12,7 @@
 **Metin:**
 Yonga'nın arkadaşları çok çeşitliydi: bazıları büyük sayılar tutardı, bazıları küçük. Ama bir arkadaşı her zaman aynıydı.
 
-{Y}"Sana x0'ı tanıtayım," dedi Yonga. {Y}"O hiç değişmez. Her zaman sıfır!"
+{Y}"Sana x0'ı tanıtayım." dedi Yonga. {Y}"O hiç değişmez. Her zaman sıfır!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga'nın yanında küçük, gülümseyen bir yazmaç figürü duruyor: üzerinde "x0" yazıyor ve göğsündeki ekranda her zaman büyük, parlak bir "0" görünüyor. Etrafındaki diğer yazmaçlar (x1, x2, x3...) farklı sayılar gösteriyor: 5, 42, 1000 gibi. x0 ise sakin ve mutlu, "Ben hep sıfırım!" der gibi. Renkler mavi ve beyaz ağırlıklı, x0 diğerlerinden biraz daha parlak çizilmiş.
@@ -102,7 +102,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 Bilge bir sıfır topu yakaladı. {B}"Hem de süpürge gibi! Her şeyi temizliyor."
 
-{Y}"Bir hile daha var," dedi Yonga. {Y}"x0 ile sıfırı herhangi bir yere kopyalayabilirsin, yeni bir sıfıra her zaman ihtiyacın olabilir!"
+{Y}"Bir hile daha var." dedi Yonga. {Y}"x0 ile sıfırı herhangi bir yere kopyalayabilirsin, yeni bir sıfıra her zaman ihtiyacın olabilir!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. x0 figürü şakacı bir gülümsemeyle küçük "0" topları dağıtıyor, farklı yazmaclar bunları alıyor ve ekranlarında "0" görünüyor. Bilge bir "0" topu yakalamış, sevinerek bakıyor. Yonga kollarını açmış, "Sıfır fabrikası!" diyor. Canlı sarı ve mavi renkler.
@@ -130,7 +130,7 @@ Yonga devam etti: {Y}"x0 sayesinde tasarımcılar çok az buyrukla çok fazla i�
 
 {B}"Ama sen demin taşıdın!" dedi Bilge.
 
-{Y}"Toplayarak taşıdım," dedi Yonga. {Y}"Çevirici diline 'taşı' diye yazabilirsin, o kadarı serbest. Ama çevirici bunu işlemciye 'x0 ile topla' diye anlatır. İşlemci taşıma diye bir buyruğu hiç görmez!"
+{Y}"Toplayarak taşıdım." dedi Yonga. {Y}"Çevirici diline 'taşı' diye yazabilirsin, o kadarı serbest. Ama çevirici bunu işlemciye 'x0 ile topla' diye anlatır. İşlemci taşıma diye bir buyruğu hiç görmez!"
 
 Bilge başını salladı. {B}"Az ile çok yapmak, bu bilgelik!"
 
@@ -144,7 +144,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 {B}"Peki x0'a birisi hata yapıp yanlışlıkla büyük sayı yazarsa ne olur?" diye sordu Bilge.
 
-{Y}"Hiçbir şey olmaz," dedi Yonga sakin sakin. {Y}"x0 ne olursa olsun hep 0'dır. Yazmayı kabul etmez!"
+{Y}"Hiçbir şey olmaz." dedi Yonga sakin sakin. {Y}"x0 ne olursa olsun hep 0'dır. Yazmayı kabul etmez!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Birisi (küçük şakacı bir karakter) x0'a "12345" yazmaya çalışıyor, büyük bir yazı. Ama x0 figürü kollarını çapraz yapıyor, "Hayır!" der gibi. Ekranı yine "0" gösteriyor. Yazılan sayı geri sekiyor, küçük figür şaşkın. Komik ama sevimli bir sahne. Kırmızı ve mavi kontrast renkler.
@@ -154,7 +154,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 12 — Değişmeyen Güven
 
 **Metin:**
-{Y}"x0 özel bir yazmaç," dedi Yonga. {Y}"Onu mühendisler böyle tasarlamış. Devresi hep 0 verecek biçimde bağlanmış, değişmez ve güvenilirdir."
+{Y}"x0 özel bir yazmaç." dedi Yonga. {Y}"Onu mühendisler böyle tasarlamış. Devresi hep 0 verecek biçimde bağlanmış, değişmez ve güvenilirdir."
 
 Bilge düşündü. {B}"Hayatta da böyle insanlar var. Ne olursa olsun değişmeyen, güvenilir!"
 

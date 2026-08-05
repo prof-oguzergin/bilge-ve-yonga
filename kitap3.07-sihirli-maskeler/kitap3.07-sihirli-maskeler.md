@@ -13,7 +13,7 @@
 
 Bilge ve Yonga, karnavalın maske tezgâhının önünde duruyordu. Renk renk maskeler sıra sıra asılıydı.
 
-{Y}"Bu maskeler bana bir şeyi hatırlattı," dedi Yonga gizemli bir sesle. {Y}"İçimdeki sihirli maskeleri!"
+{Y}"Bu maskeler bana bir şeyi hatırlattı." dedi Yonga gizemli bir sesle. {Y}"İçimdeki sihirli maskeleri!"
 
 **Resim:**
 
@@ -27,7 +27,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 {B}"Maskelerin ne işi var?" diye sordu Bilge.
 
-{Y}"Maskeler bazı şeyleri gösterir, bazı şeyleri gizler," dedi Yonga. {Y}"Benim içimdeki maskeler de bitlerimi öyle seçer: bazılarını geçirir, bazılarını durdurur!"
+{Y}"Maskeler bazı şeyleri gösterir, bazı şeyleri gizler." dedi Yonga. {Y}"Benim içimdeki maskeler de bitlerimi öyle seçer: bazılarını geçirir, bazılarını durdurur!"
 
 **Resim:**
 
@@ -41,7 +41,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 {B}"Birinci maskeyi tanıt bana!" dedi Bilge heyecanla.
 
-{Y}"Bu VE maskesi," dedi Yonga. {Y}"İki bit de 1 olursa 1 verir. Biri 0 olursa sonuç hep 0! RISC-V'te bu buyruğun adı **AND**."
+{Y}"Bu VE maskesi." dedi Yonga. {Y}"İki bit de 1 olursa 1 verir. Biri 0 olursa sonuç hep 0! RISC-V'te bu buyruğun adı **AND**."
 
 **Resim:**
 
@@ -97,7 +97,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 {B}"Üçüncü maske var mı?" diye sordu Bilge.
 
-{Y}"Var! DEĞİL maskesi," dedi Yonga. {Y}"Bu en basiti: her şeyi tersine çevirir. 1'i 0, 0'ı 1 yapar! RISC-V'te DEĞİL için ayrı bir buyruk yoktur, onu Dışlayan VEYA maskesiyle yaparız."
+{Y}"Var! DEĞİL maskesi." dedi Yonga. {Y}"Bu en basiti: her şeyi tersine çevirir. 1'i 0, 0'ı 1 yapar! RISC-V'te DEĞİL için ayrı bir buyruk yoktur, onu Dışlayan VEYA maskesiyle yaparız."
 
 **Resim:**
 

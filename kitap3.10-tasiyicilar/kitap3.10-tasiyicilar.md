@@ -34,7 +34,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 3 — Bellek ve Yazmaçlar
 
 **Metin:**
-{Y}"Bilgisayarda da tam aynı şey var," dedi Yonga. {Y}"Bellek kütüphane gibidir: büyük, çok şey tutar ama uzak. Yazmaçlar ise masa gibidir: küçük ama tam önünde!"
+{Y}"Bilgisayarda da tam aynı şey var." dedi Yonga. {Y}"Bellek kütüphane gibidir: büyük, çok şey tutar ama uzak. Yazmaçlar ise masa gibidir: küçük ama tam önünde!"
 
 Bilge gözlerini kıstı. {B}"Yazmaçlar mı? Onları biliyorum!"
 
@@ -46,9 +46,9 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 4 — Hızlı ama Az
 
 **Metin:**
-{Y}"Yazmaçlar çok hızlı çalışır," dedi Yonga. {Y}"Ama sayıları az! RISC-V'te 32 yazmaç var."
+{Y}"Yazmaçlar çok hızlı çalışır." dedi Yonga. {Y}"Ama sayıları az! RISC-V'te 32 yazmaç var."
 
-{Y}"Bellek ise milyonlarca, hatta milyarlarca sayı tutar," dedi Yonga. {Y}"Ama biraz daha yavaş."
+{Y}"Bellek ise milyonlarca, hatta milyarlarca sayı tutar." dedi Yonga. {Y}"Ama biraz daha yavaş."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. İki yarışçı atlet çizilmiş: biri küçük, çevik, hızlı (yazmaç, "32 slot"), diğeri büyük ve güçlü ama daha yavaş (bellek, "milyarlarca bayt"). Aralarında bir yarış pisti var, küçük atlet ileride. Yonga "Küçük ama hızlı!" diye küçük atletin yanında duruyor. Bilge tribünden izliyor. Canlı atletizm renkleri.
@@ -60,7 +60,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 {B}"Peki bellekteki sayıyı nasıl kullanırız?" diye sordu Bilge.
 
-{Y}"Önce onu yazmaçlara getirmen gerekiyor," dedi Yonga. {Y}"Bu işe **YÜKLE** (İngilizcesi load) diyoruz!"
+{Y}"Önce onu yazmaçlara getirmen gerekiyor." dedi Yonga. {Y}"Bu işe **YÜKLE** (İngilizcesi load) diyoruz!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Kütüphane rafından bir kitap alınıyor, hamal figürü omzuna alıyor, okuma masasına taşıyor. Kitabın üzerinde "42" yazıyor. Masada Bilge bekliyor. Yonga "lw x5, 100(x0): bellekteki 42'yi x5 yazmacına yükle!" diyor, küçük bir açıklama balonu içinde. Pastel sarı ve kahverengi tonlar.
@@ -94,7 +94,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 8 — İki Yönlü Yol
 
 **Metin:**
-{B}"İki yönlü bir yol var," dedi Bilge. {B}"Bellekten yazmaçlara ve yazmaçlardan belleğe!"
+{B}"İki yönlü bir yol var." dedi Bilge. {B}"Bellekten yazmaçlara ve yazmaçlardan belleğe!"
 
 {Y}"Aynen öyle!" dedi Yonga. {Y}"**YÜKLE** ve **SAKLA**: taşıyıcıların iki yönlü yolculuğu."
 
@@ -118,7 +118,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 10 — RISC Döngüsü
 
 **Metin:**
-{Y}"RISC felsefesi şunu der: 'Hesaplamayı hep yazmaçlarda yap!'," dedi Yonga.
+{Y}"RISC felsefesi şunu der: 'Hesaplamayı hep yazmaçlarda yap!'." dedi Yonga.
 
 {Y}"Bellekten al, işle, geri koy. Bu döngü her şeyin temelidir."
 
@@ -156,7 +156,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 Bilge kütüphaneden çıkarken raflara son bir kez baktı. Artık sadece kitap görmüyordu, veri adresleri, YÜKLE ve SAKLA görüyordu.
 
-{Y}"Taşıyıcılar sayesinde," dedi Yonga, {Y}"her şey olması gereken yerde, tam zamanında hazır olur!"
+{Y}"Taşıyıcılar sayesinde." dedi Yonga, {Y}"her şey olması gereken yerde, tam zamanında hazır olur!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Kütüphane kapısından çıkarken Bilge ve Yonga el ele, gün ışığına doğru yürüyorlar. Bilge'nin gözlüklerinde kütüphane raflarının yansıması var, ama artık her kitabın sırtında sayısal adresler görünüyor. Yonga'nın ekranında "YÜKLE ↔ SAKLA" yazıyor. Dışarıda güneşli, açık hava. Altın sarısı ve açık mavi tonlar.

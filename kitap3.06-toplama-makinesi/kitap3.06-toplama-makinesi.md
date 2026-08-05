@@ -22,7 +22,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 2 — Dört Büyük Düğme
 
 **Metin:**
-Yonga, {Y}"İçimde dört büyük düğme var," diye anlattı. {Y}"Toplama, çıkarma, çarpma ve bölme. Her birinin kısa bir adı var: **ADD** topla, **SUB** çıkar, **MUL** çarp, **DIV** böl. Bunlara **aritmetik buyruk** deriz!" Sonra ekledi: {Y}"Toplama ile çıkarma her işlemcide bulunur; çarpma ile bölme ise her işlemcide bulunmayan ek buyruklardır."
+Yonga, {Y}"İçimde dört büyük düğme var." diye anlattı. {Y}"Toplama, çıkarma, çarpma ve bölme. Her birinin kısa bir adı var: **ADD** topla, **SUB** çıkar, **MUL** çarp, **DIV** böl. Bunlara **aritmetik buyruk** deriz!" Sonra ekledi: {Y}"Toplama ile çıkarma her işlemcide bulunur; çarpma ile bölme ise her işlemcide bulunmayan ek buyruklardır."
 
 Bilge gözlerini kıstı. {B}"Tıpkı annemin mutfak aletleri gibi mi? Her biri farklı bir yemek için!"
 
@@ -34,7 +34,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 3 — İkili Toplama Sırrı
 
 **Metin:**
-{Y}"Önce toplamayı anlatalım," dedi Yonga. {Y}"Toplama buyruğu **ADD**'i çalıştırdığımda, 3 ile 5'i toplarken aslında 0011 ile 0101'i bir araya getiriyorum."
+{Y}"Önce toplamayı anlatalım." dedi Yonga. {Y}"Toplama buyruğu **ADD**'i çalıştırdığımda, 3 ile 5'i toplarken aslında 0011 ile 0101'i bir araya getiriyorum."
 
 Bilge şaşırdı. {B}"Bu da ne demek? Neden hep 0 ve 1?"
 
@@ -48,7 +48,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 Yonga güldü. {Y}"Bilgisayarlar sadece 0 ve 1 bilir, hatırladın mı? Ama bu sayılarla da her şeyi yapabiliriz!"
 
-{Y}"0011 artı 0101 yapalım," dedi Yonga. {Y}"Sağdan başlıyoruz: 1+1=10 eder, 0 yazıp 1 taşırız. Tıpkı bir elin parmakları dolunca öteki ele geçmek gibi!"
+{Y}"0011 artı 0101 yapalım." dedi Yonga. {Y}"Sağdan başlıyoruz: 1+1=10 eder, 0 yazıp 1 taşırız. Tıpkı bir elin parmakları dolunca öteki ele geçmek gibi!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Geniş bir kara tahta üzerinde Yonga tebeşirle ikili toplama gösteriyor. 0011 ve 0101 sayıları üst üste yazılmış, oklar ve küçük "taşıma" sembolleri ile her basamak ayrı ayrı renklendirilerek gösterilmiş. Bilge tahtanın önünde ayakta, ellerini birbirine kenetlemiş, heyecanla bakıyor. Tahtanın köşesinde parmakları saydıran bir el çizimi var.
@@ -60,7 +60,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 {B}"Peki ya çıkarma?" diye sordu Bilge. {B}"8 eksi 3 nasıl yapılır?"
 
-{Y}"Çıkarma buyruğu **SUB** da aslında toplama yapar," dedi Yonga gizemli bir ses tonuyla. {Y}"Ben 3'ü çıkarmam, eksi 3'ü eklerim! 8'e eksi 3 eklenince 5 olur. Sırrı bu: bilgisayar eksi sayıları da tutabildiği için çıkarmaya hiç gerek duymaz, hep toplar."
+{Y}"Çıkarma buyruğu **SUB** da aslında toplama yapar." dedi Yonga gizemli bir ses tonuyla. {Y}"Ben 3'ü çıkarmam, eksi 3'ü eklerim! 8'e eksi 3 eklenince 5 olur. Sırrı bu: bilgisayar eksi sayıları da tutabildiği için çıkarmaya hiç gerek duymaz, hep toplar."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga bir sihirbaz şapkası takıyor ve elinde "−3" yazan bir kart tutuyor; kartın arkasından negatif sayıların özel bir düzenle yazılışını gösteren renkli kartlar çıkıyor. Bilge ağzı açık, hayret içinde bakıyor. Arka planda sihirbazlık temalı yıldızlar ve konfetiler uçuşuyor. Renkler mor ve altın sarısı ağırlıklı.
@@ -94,7 +94,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 8 — Elmaları Paylaştırma
 
 **Metin:**
-{Y}"Bölme buyruğu **DIV** de benzer," dedi Yonga. {Y}"12'yi 4'e bölmek, 12'den 4'ü kaç kere çıkarabilirim diye sormak demek."
+{Y}"Bölme buyruğu **DIV** de benzer." dedi Yonga. {Y}"12'yi 4'e bölmek, 12'den 4'ü kaç kere çıkarabilirim diye sormak demek."
 
 Bilge kafasını kaşıdı. {B}"Demek çıkarma çıkarma çıkarma... tükenene kadar mı?"
 
@@ -110,7 +110,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 {B}"Peki ya fazla büyük sayılar?" diye sordu Bilge. {B}"Milyonlar milyarlar?"
 
-{Y}"İşte orada bazen **taşma** olur," dedi Yonga. {Y}"Sayı o kadar büyür ki, kutucuğa sığmaz!"
+{Y}"İşte orada bazen **taşma** olur." dedi Yonga. {Y}"Sayı o kadar büyür ki, kutucuğa sığmaz!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga'nın ekranında bir sayı kutusu var: içi dolup taşıyor, kenarlarından sayılar taşıyor ve yere dökülüyor. Taşan sayılar küçük balonlar gibi uçuşuyor. Bilge endişeli ama meraklı bir yüzle bakıyor. Renkler mavi-beyaz ağırlıklı, taşan sayılar kırmızı renkte belirgin.
@@ -132,7 +132,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 11 — Daha Büyük Kutular
 
 **Metin:**
-{Y}"Tasarımcılar bu yüzden dikkatli olmalı," dedi Yonga. {Y}"Çok büyük sayılar için 32 bit ya da 64 bitlik kutucuklar kullanırlar."
+{Y}"Tasarımcılar bu yüzden dikkatli olmalı." dedi Yonga. {Y}"Çok büyük sayılar için 32 bit ya da 64 bitlik kutucuklar kullanırlar."
 
 Bilge düşündü. {B}"Daha büyük kutu, daha büyük sayı. Mantıklı!"
 

@@ -24,7 +24,7 @@ Güneşli bir okul spor sahası; renkli bayraklar, çizgili koşu pisti ve kalab
 ## Sayfa 2 — Çorumlu Orhan'ın Adımı
 
 **Metin:**
-Çorumlu Orhan'ın bacakları upuzundu. Attığı her adım kocamandı, tam 1,6 metre! Ama acele etmezdi, sakin sakin koşardı. Dakikada 60 adım atıyordu. {D}"Benim adımım büyük," dedi gururla.
+Çorumlu Orhan'ın bacakları upuzundu. Attığı her adım kocamandı, tam 1,6 metre! Ama acele etmezdi, sakin sakin koşardı. Dakikada 60 adım atıyordu. {D}"Benim adımım büyük." dedi gururla.
 
 **Resim:**
 Çorumlu Orhan yavaşça ama kocaman bir adım atarken yandan görünüyor; bir adımı yerdeki iki işaret arasında upuzun bir yay çiziyor, yanında "1,6 m" ölçüsü ve sakin bir tempo simgesi. Yüzü kararlı ve rahat. Bilge hayranlıkla adımın uzunluğuna bakıyor. Sıcak, dingin renkler; büyüklük ve sakinlik hissi.
@@ -34,7 +34,7 @@ Güneşli bir okul spor sahası; renkli bayraklar, çizgili koşu pisti ve kalab
 ## Sayfa 3 — Edirneli Orhan'ın Adımı
 
 **Metin:**
-Edirneli Orhan ise küçük adımlar atıyordu, her adımı 1 metre. Ama ayakları pıtır pıtır, adımları inanılmaz sıktı! Dakikada 120 adım atıyordu. {D}"Benim adımlarım küçük ama çok sık," dedi gülerek.
+Edirneli Orhan ise küçük adımlar atıyordu, her adımı 1 metre. Ama ayakları pıtır pıtır, adımları inanılmaz sıktı! Dakikada 120 adım atıyordu. {D}"Benim adımlarım küçük ama çok sık." dedi gülerek.
 
 **Resim:**
 Edirneli Orhan çok küçük ama çok hızlı adımlarla koşuyor; ayakları bulanık görünecek kadar hızlı, çevresinde neşeli hız çizgileri, yanında "1 m" ölçüsü ve yüksek tempo simgesi. Yüzü neşeli ve enerjik. Yonga şaşkınlıkla tempoyu sayıyor. Canlı, hareketli renkler; hız ve enerji hissi.
@@ -94,7 +94,7 @@ Yonga hologramda "120 ÷ 96 ≈ 1,25 kat" gösteriyor; yanında bir terazi: bir 
 ## Sayfa 9 — İşlemciler de Böyle
 
 **Metin:**
-{Y}"Bilgisayarın işlemcisi de bir koşucu gibidir," dedi Yonga. {Y}"Onun da adımları var, her saat vuruşunda bir adım atar. Bir işlemcinin hızı da, bir adımda yaptığı iş ile saat vuruş sıklığının çarpımıdır."
+{Y}"Bilgisayarın işlemcisi de bir koşucu gibidir." dedi Yonga. {Y}"Onun da adımları var, her saat vuruşunda bir adım atar. Bir işlemcinin hızı da, bir adımda yaptığı iş ile saat vuruş sıklığının çarpımıdır."
 
 **Resim:**
 Hologramda sevimli bir işlemci karakteri, tıpkı bir koşucu gibi pistte adım atıyor; her adımında küçük bir "tık" saat simgesi beliriyor. Üstünde "bir adımda iş × saat vuruş sıklığı" çarpımı yumuşakça yazılı. Bilge ve Yonga izliyor. Mavi ve altın tonlar; benzetme net.
@@ -124,7 +124,7 @@ Hologramda "75 × 1,6 = 120 metre" ve yanında iki Orhan bitiş çizgisine tam y
 ## Sayfa 12 — İki Tür İşlemci
 
 **Metin:**
-{Y}"İşlemciler de Orhanlar gibidir," dedi Yonga. {Y}"Kimi Çorumlu gibidir, her adımda çok iş yapar ama tempo düşüktür. Kimi Edirneli gibidir, tempo yüksektir ama her adımda az iş yapar. Hangisi daha hızlı? Çarpıma, yapılan işe bakmak gerekir!"
+{Y}"İşlemciler de Orhanlar gibidir." dedi Yonga. {Y}"Kimi Çorumlu gibidir, her adımda çok iş yapar ama tempo düşüktür. Kimi Edirneli gibidir, tempo yüksektir ama her adımda az iş yapar. Hangisi daha hızlı? Çarpıma, yapılan işe bakmak gerekir!"
 
 **Resim:**
 Yan yana iki işlemci karakteri: solda Çorumlu tipli, kocaman ama seyrek adımlı, üstünde "çok iş / düşük saat"; sağda Edirneli tipli, küçük ama sık adımlı, üstünde "az iş / yüksek saat". Ortada bir soru işareti ve bir çarpım simgesi. Bilge ikisine de hayran. Dengeli, dostça karşılaştırma.

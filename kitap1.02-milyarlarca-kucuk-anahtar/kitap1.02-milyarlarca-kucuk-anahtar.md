@@ -10,7 +10,7 @@
 ## Sayfa 1 — Işık Anahtarı Oyunu
 
 **Metin:**
-Bilge, odasındaki ışık anahtarını aç-kapa yapıyordu. {B}"Açık... kapalı... açık... kapalı!" Yonga'nın anlattığı bekçili geçit aklından çıkmıyordu. {B}"Bu anahtar da tıpkı onun gibi," dedi. {B}"Parmağımla işaret veriyorum, elektrik geçiyor."
+Bilge, odasındaki ışık anahtarını aç-kapa yapıyordu. {B}"Açık... kapalı... açık... kapalı!" Yonga'nın anlattığı bekçili geçit aklından çıkmıyordu. {B}"Bu anahtar da tıpkı onun gibi." dedi. {B}"Parmağımla işaret veriyorum, elektrik geçiyor."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bilge odasının duvarındaki ışık anahtarına basmış; bir eliyle anahtarı tutuyor, diğer eliyle gülümseyerek yukarı işaret ediyor. Lamba açıkken oda sıcak sarı ışıkla doluyor, kapalıyken mavi-mor alacakaranlık. İki yarım sayfa gibi tasarlanmış: solda aydınlık oda, sağda karanlık oda. Bilge'in yüzünde neşeli ve meraklı bir gülümseme. Sıcak sarı ve sakin mavi tonlar; oyunbaz, sevimli bir ev atmosferi.
@@ -30,7 +30,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 3 — İki Anahtar, Aynı İş
 
 **Metin:**
-{B}"Ben anlatayım!" dedi Bilge. {B}"Bekçiye işaret gidince geçit açılıyor, elektrik geçiyor. İşaret kesilince kapanıyor. Adı da transistör." Yonga iki hologram açtı: bir yanda duvardaki kocaman ışık anahtarı, öbür yanda minicik bir transistör. Arada bir eşittir işareti duruyordu. {Y}"Aynı iş, başka boy," dedi Yonga.
+{B}"Ben anlatayım!" dedi Bilge. {B}"Bekçiye işaret gidince geçit açılıyor, elektrik geçiyor. İşaret kesilince kapanıyor. Adı da transistör." Yonga iki hologram açtı: bir yanda duvardaki kocaman ışık anahtarı, öbür yanda minicik bir transistör. Arada bir eşittir işareti duruyordu. {Y}"Aynı iş, başka boy." dedi Yonga.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga, havada iki hologram gösteriyor: biri duvardaki büyük ışık anahtarı, diğeri küçücük bir transistör sembolü. İki görüntü arasında büyük bir eşittir işareti var. Bilge ikisine bakıp gülümsüyor, "aa, aynı şey!" der gibi bir ifade taşıyor. Hologramlar mavi ve altın tonlarda parlıyor. Sade, anlaşılır ve renkli bir "büyük=küçük" karşılaştırması hissi veriyor.
@@ -40,7 +40,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 4 — Milyarlarca Tane!
 
 **Metin:**
-{B}"Milyarlarca demiştin," dedi Bilge, tırnağına bakarak. {B}"Ama milyar ne kadar çok, onu bilmiyorum." {Y}"Saniyede bir anahtar saysan," dedi Yonga, {Y}"bir milyara varman otuz yıldan uzun sürerdi. Bir yongaya ise milyarlarcası sığıyor." Bilge tırnağını gözüne yaklaştırdı. Hepsi o kadarcık yere girmişti.
+{B}"Milyarlarca demiştin." dedi Bilge, tırnağına bakarak. {B}"Ama milyar ne kadar çok, onu bilmiyorum." {Y}"Saniyede bir anahtar saysan." dedi Yonga, {Y}"bir milyara varman otuz yıldan uzun sürerdi. Bir yongaya ise milyarlarcası sığıyor." Bilge tırnağını gözüne yaklaştırdı. Hepsi o kadarcık yere girmişti.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bilge bir tırnağına bakıyor; tırnağının üzerinde büyütülmüş görüntüde milyonlarca minik anahtar sembolü sıra sıra dizilmiş, hepsi parlak ve canlı. Yonga yanında sayıları gösteren bir sayaç tutuyor: "1.000.000.000+" yazıyor. Bilge'in ağzı "O" şeklinde açılmış, tam hayret ifadesi. Arka plan beyaz ve temiz, ön plan renkli ve kalabalık. Nokta gibi küçük renkli anahtarlar; şaşkınlık ve merak hissi veriyor.

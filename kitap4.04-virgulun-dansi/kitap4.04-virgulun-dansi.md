@@ -28,7 +28,7 @@ Tam o sırada bir karınca Bilge'nin çıplak ayağının üzerinden geçti.
 
 {B}"Peki bu karınca ne kadar ağır?" diye sordu Bilge gülerek.
 
-{Y}"Yaklaşık üç miligram," dedi Yonga. {Y}"Gram cinsinden yazınca virgülden sonra sıfırlarla dolu küçücük bir sayı olur: 0,003 gram."
+{Y}"Yaklaşık üç miligram." dedi Yonga. {Y}"Gram cinsinden yazınca virgülden sonra sıfırlarla dolu küçücük bir sayı olur: 0,003 gram."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bilge'nin çıplak ayağının üzerinde minik bir karınca yürüyor, büyüteçle yakınlaştırılmış gibi ayrıntılı görünüyor. Yonga eğilmiş karıncaya bakıyor, önündeki küçük hologramda bir sayı yanıp sönüyor: 0,003. Bahçe çimenleri ve gece ışıkları arka planda. Yeşil ve lacivert tonlar.
@@ -50,7 +50,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 4 — Bilimsel Gösterim Gibi
 
 **Metin:**
-{Y}"Bilim insanları da böyle büyük ve küçük sayılarla uğraşır," dedi Yonga. {Y}"Onlar sayıyı iki parça hâlinde yazar: küçük bir sayı, bir de o sayının kaç kere onla çarpılacağı. Bilgisayar da aynı yolu kullanır, ama o onla değil ikiyle çarpar."
+{Y}"Bilim insanları da böyle büyük ve küçük sayılarla uğraşır." dedi Yonga. {Y}"Onlar sayıyı iki parça hâlinde yazar: küçük bir sayı, bir de o sayının kaç kere onla çarpılacağı. Bilgisayar da aynı yolu kullanır, ama o onla değil ikiyle çarpar."
 
 Bilge gözlerini kıstı. {B}"İkinin kuvveti mi? Sanki virgül bir yere doğru kayıyor gibi!"
 
@@ -62,9 +62,9 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 5 — Kayan Nokta Nedir
 
 **Metin:**
-{Y}"İşte buna kayan nokta denir," dedi Yonga. {Y}"Biz sayı yazarken virgül koyduğumuz yere başka dillerde nokta konur; adı oradan geliyor. Böyle bir sayının üç parçası vardır: işaret, üs ve kesir."
+{Y}"İşte buna kayan nokta denir." dedi Yonga. {Y}"Biz sayı yazarken virgül koyduğumuz yere başka dillerde nokta konur; adı oradan geliyor. Böyle bir sayının üç parçası vardır: işaret, üs ve kesir."
 
-{B}"Demek virgül sabit bir yerde durmuyor," dedi Bilge yavaşça. {B}"Üs değiştikçe virgül sağa ya da sola kayıyor!"
+{B}"Demek virgül sabit bir yerde durmuyor." dedi Bilge yavaşça. {B}"Üs değiştikçe virgül sağa ya da sola kayıyor!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Havada asılı duran büyük bir virgül işareti, etrafında küçük oklarla sağa ve sola kayabileceği gösteriliyor. Yonga virgülün yanında duruyor, elini uzatıp onu itiyormuş gibi bir pozda. Bilge şaşkın ve meraklı bakıyor. Formül havada parlak harflerle yazılı: işaret x kesir x iki üzeri üs. Mor ve gümüş parıltılı tonlar.
@@ -88,7 +88,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 7 — Üç Parça
 
 **Metin:**
-{Y}"Şimdi üç parçayı tek tek anlatayım," dedi Yonga. {Y}"İşaret biti sayının artı mı eksi mi olduğunu söyler, tek bir bit yeter. Üs, virgülün kaç adım kayacağını belirler. Kesir ise sayının kendi rakamlarını taşır."
+{Y}"Şimdi üç parçayı tek tek anlatayım." dedi Yonga. {Y}"İşaret biti sayının artı mı eksi mi olduğunu söyler, tek bir bit yeter. Üs, virgülün kaç adım kayacağını belirler. Kesir ise sayının kendi rakamlarını taşır."
 
 {B}"Demek işaret artı mı eksi mi diyor, üs kaç adım kayacağını, kesir de rakamların kendisini!" dedi Bilge.
 
@@ -102,7 +102,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 Yonga bir örnek gösterdi. {Y}"Bin iki yüz otuz dört buçuk sayısını düşün. Onu bir virgül iki üç dört beş çarpı bin olarak da yazabilirsin. Kesir bir virgül iki üç dört beş, üs ise virgülü üç basamak sağa kaydırıyor."
 
-{B}"Bilgisayar aynısını yapıyor, sadece onluk yerine ikilik sistemle," dedi Bilge. {B}"İkinin kuvvetleriyle!"
+{B}"Bilgisayar aynısını yapıyor, sadece onluk yerine ikilik sistemle." dedi Bilge. {B}"İkinin kuvvetleriyle!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Büyük bir tahta, üzerinde iki gösterim yan yana: "1234,5" ve "1,2345 x 10 üzeri 3" birbirine ok ile bağlanmış. Yonga tahtanın önünde duruyor, işaret çubuğuyla üs kısmını gösteriyor. Bilge tahtaya bakarak kafasını sallıyor, anladığını gösteriyor. Yeşil tahta, beyaz ve sarı tebeşir çizgileri.
@@ -112,7 +112,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 9 — 32 Bit ve 64 Bit
 
 **Metin:**
-{Y}"Bilgisayarlarda bu üç parça, dünyadaki bütün bilgisayarların uyduğu ortak bir kurala göre paylaştırılır," dedi Yonga. {Y}"Kuralın adı IEEE 754. Tek duyarlıkta otuz iki bit vardır: bir işaret, sekiz üs, yirmi üç kesir. Çift duyarlıkta ise altmış dört bit vardır: bir işaret, on bir üs, elli iki kesir."
+{Y}"Bilgisayarlarda bu üç parça, dünyadaki bütün bilgisayarların uyduğu ortak bir kurala göre paylaştırılır." dedi Yonga. {Y}"Kuralın adı IEEE 754. Tek duyarlıkta otuz iki bit vardır: bir işaret, sekiz üs, yirmi üç kesir. Çift duyarlıkta ise altmış dört bit vardır: bir işaret, on bir üs, elli iki kesir."
 
 Bilge şaşkınlıkla sordu. {B}"Çift duyarlık daha mı çok yer kaplıyor?"
 
@@ -124,9 +124,9 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 10 — Daha Çok Bit, Daha Çok Duyarlık
 
 **Metin:**
-{Y}"Çift duyarlık daha çok yer kaplar ama daha ince ayrıntı taşır," dedi Yonga. {Y}"Tıpkı bir cetvelde sadece santimetre çizgileri olması yerine, milimetre çizgileri de olması gibi. Daha çok çizgi, daha ince ölçüm!"
+{Y}"Çift duyarlık daha çok yer kaplar ama daha ince ayrıntı taşır." dedi Yonga. {Y}"Tıpkı bir cetvelde sadece santimetre çizgileri olması yerine, milimetre çizgileri de olması gibi. Daha çok çizgi, daha ince ölçüm!"
 
-{B}"Demek daha çok bit, daha çok basamak, daha keskin sayı," dedi Bilge.
+{B}"Demek daha çok bit, daha çok basamak, daha keskin sayı." dedi Bilge.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. İki cetvel yan yana çizilmiş: biri sadece santimetre çizgili (kalın, seyrek), diğeri hem santimetre hem milimetre çizgili (ince, sık). Yonga milimetreli cetveli tutuyor, gururla gösteriyor. Bilge ikisini karşılaştırıyor, küçük bir kalemle ölçüm yapıyor. Sarı ve gri cetvel tonları.
@@ -140,7 +140,7 @@ Yonga küçük bir sır fısıldadı. {Y}"Her sayı tam olarak gösterilemez. Ö
 
 Bilge şaşırdı. {B}"Bilgisayar bile bazen tam doğru olamıyor mu?"
 
-{Y}"Çok küçük bir farkla," dedi Yonga, {Y}"ama evet, öyle."
+{Y}"Çok küçük bir farkla." dedi Yonga, {Y}"ama evet, öyle."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga elinde küçük bir büyüteçle bir sayının yanına bakıyor: "0,1" yazısının hemen altında çok minik, soluk bir yazıyla "0,100000001" gibi ufak bir fazlalık görünüyor. Yonga şakacı bir şekilde omuz silkiyor. Bilge gülümseyerek başını sallıyor. Açık mavi ve gümüş tonlar, büyüteç parlaklığı.
@@ -152,19 +152,19 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 {Y}"Yapay zeka hızlandırıcılarını hatırlıyor musun?" dedi Yonga. {Y}"Onlar öğrenirken her zaman otuz iki bit gerekmez. On altı bitlik bf16, sekiz bitlik fp8 gibi kısa biçimler de yeter. Adın sonundaki sayı kaç bit olduğunu söyler."
 
-{B}"Daha az bit demek daha az duyarlık," dedi Bilge, {B}"ama daha hızlı hesaplama!"
+{B}"Daha az bit demek daha az duyarlık." dedi Bilge, {B}"ama daha hızlı hesaplama!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Üç farklı boyutta yazmaç kutusu yan yana: büyük "32 bit" kutusu, orta "bf16" kutusu, küçük "fp8" kutusu. Küçük kutunun yanında hızlı koşan minik bir figür, büyük kutunun yanında daha yavaş yürüyen bir figür var. Yonga küçük kutuyu işaret ediyor, gülümsüyor. Canlı yeşil ve turuncu enerji çizgileri.
 
 ---
 
-## Sayfa 13 — Hız mı Duyarlık mı
+## Sayfa 13 — Hız mı Duyarlık mı?
 
 **Metin:**
 {B}"Peki hep en küçük biçimi mi kullanmalıyız?" diye sordu Bilge.
 
-{Y}"Hayır," dedi Yonga. {Y}"Az bit hızlıdır ama daha kaba sonuç verir. Çok bit yavaştır ama daha ince sonuç verir. Mühendisler yapılacak işe göre ikisi arasında bir denge kurar."
+{Y}"Hayır." dedi Yonga. {Y}"Az bit hızlıdır ama daha kaba sonuç verir. Çok bit yavaştır ama daha ince sonuç verir. Mühendisler yapılacak işe göre ikisi arasında bir denge kurar."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bir terazi çizilmiş, bir kefesinde "HIZ" yazılı hafif bir tüy, diğer kefesinde "DUYARLIK" yazılı ağır bir kitap. Terazi dengede duruyor. Yonga terazinin ortasında duruyor, iki kefeye de bakıyor. Bilge terazinin dengesini merakla izliyor. Altın sarısı terazi, sakin mavi arka plan.
@@ -176,7 +176,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 Bilge ve Yonga tekrar gökyüzüne baktı. Bilge artık yıldızın uzaklığını da, karıncanın ağırlığını da aynı gözle, işaret, üs ve kesir olarak görüyordu.
 
-{B}"Virgül dans etmeseydi," dedi Bilge, {B}"hem dev yıldızları hem minik karıncaları aynı anda hiç anlatamazdık!"
+{B}"Virgül dans etmeseydi." dedi Bilge, {B}"hem dev yıldızları hem minik karıncaları aynı anda hiç anlatamazdık!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bilge ve Yonga battaniyenin üzerinde sırt üstü yatmış, gökyüzüne bakıyorlar. Yıldızlı gökyüzünde hem dev bir yıldızın uzaklık sayısı hem minik bir karıncanın ağırlık sayısı yumuşak ışıklı yazılarla süzülüyor, ikisi de aynı üç renkli kayan nokta kutusuna dönüşüyor. Huzurlu, sıcak gece mavisi ve yıldız sarısı tonlar.

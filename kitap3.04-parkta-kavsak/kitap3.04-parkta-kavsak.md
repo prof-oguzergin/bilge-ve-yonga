@@ -12,7 +12,7 @@
 **Metin:**
 Bilge ve Yonga parkta yürürken bir kavşağa geldiler.
 
-{B}"Sola dönersek göl, sağa dönersek kafe," dedi Bilge.
+{B}"Sola dönersek göl, sağa dönersek kafe." dedi Bilge.
 {B}"Hangisine gitsek?"
 
 Yonga güldü: {Y}"Bu tam bir **dallanma** işlemi!
@@ -27,7 +27,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 2 — Eğer… O Zaman…
 
 **Metin:**
-{Y}"Programlarda bu seçime **if-else** denir," dedi Yonga.
+{Y}"Programlarda bu seçime **if-else** denir." dedi Yonga.
 
 {Y}"'Eğer hava yağmurluysa, şemsiye al.
 Değilse, güneş gözlüğü tak.'"
@@ -46,13 +46,13 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 3 — Dallanma Buyruğu Nasıl Çalışır?
 
 **Metin:**
-{Y}"BEQ x5, x6, 20," dedi Yonga.
+{Y}"BEQ x5, x6, 20." dedi Yonga.
 
 {Y}"Bu şu anlama gelir:
 Eğer x5 ve x6 **eşitse**, Program Sayacını 20 adres ileri götür.
 Eşit **değilse**, bir sonraki buyruğa geç, hiç atlamadan devam et."
 
-{B}"Demek atlama olmadığında özel bir şey yapılmıyor," dedi Bilge.
+{B}"Demek atlama olmadığında özel bir şey yapılmıyor." dedi Bilge.
 
 {Y}"Evet! Zaten bir sonraki buyruğa devam etmek varsayılandır."
 
@@ -66,7 +66,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 **Metin:**
 {B}"Döngüler ne?" diye sordu Bilge.
 
-{Y}"Döngü, bir şeyi belirli kez ya da bir koşul bozulana kadar tekrarlamak demek," dedi Yonga.
+{Y}"Döngü, bir şeyi belirli kez ya da bir koşul bozulana kadar tekrarlamak demek." dedi Yonga.
 
 {Y}"'10 kez zıpla' demek gibi.
 Nasıl mı? Dallanma buyruğuyla!
@@ -82,14 +82,14 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 5 — JAL ile Atlamak
 
 **Metin:**
-{Y}"Koşulsuz atlama da var," dedi Yonga.
+{Y}"Koşulsuz atlama da var." dedi Yonga.
 {Y}"**JAL**: 'Jump And Link', atla ve bağlantıyı kaydet.
 
 'Şu adrese git' der, koşul yok, doğrudan gider.
 Ama 'bağlantı kaydet' kısmı çok önemli:
 Geri dönmek için nereden geldiğini hatırlıyor!"
 
-{B}"Hansel ile Gretel gibi," dedi Bilge. {B}"Orman yoluna taşlar bıraktılar!"
+{B}"Hansel ile Gretel gibi." dedi Bilge. {B}"Orman yoluna taşlar bıraktılar!"
 
 {Y}"Aynen öyle! JAL de dönüş adresini ra (x1) yazmacına bırakır."
 
@@ -101,7 +101,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 6 — Altyordam Çağırmak
 
 **Metin:**
-{Y}"Programlarda aynı işi tekrar tekrar yazmak yerine," dedi Yonga,
+{Y}"Programlarda aynı işi tekrar tekrar yazmak yerine." dedi Yonga,
 {Y}"o işi bir kez yazarsın ve defalarca çağırırsın.
 Buna **altyordam** ya da **fonksiyon** denir."
 
@@ -119,7 +119,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 7 — Gitmek Kolay, Dönmek Zor
 
 **Metin:**
-{B}"Bir fonksiyon çağırıyorum," dedi Bilge.
+{B}"Bir fonksiyon çağırıyorum." dedi Bilge.
 {B}"Fonksiyon başka bir fonksiyon çağırıyor.
 O da başka bir fonksiyon çağırıyor.
 Sonunda nasıl geri döneceğimi bilebilir miyim?"
@@ -137,7 +137,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 8 — Yığıta Koy, Yığıttan Al
 
 **Metin:**
-{Y}"Fonksiyon çağrılırken şunlar yığıta konur," dedi Yonga:
+{Y}"Fonksiyon çağrılırken şunlar yığıta konur." dedi Yonga:
 
 {Y}"1. Dönüş adresi (nereden gelindi)
 2. Kullanılan yazmaçların değerleri (ezilmesin diye)
@@ -156,14 +156,14 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 9 — Çerçeve İşaretçisi
 
 **Metin:**
-{Y}"Her fonksiyon çağrısı için yığıtta bir **çerçeve** oluşur," dedi Yonga.
+{Y}"Her fonksiyon çağrısı için yığıtta bir **çerçeve** oluşur." dedi Yonga.
 {Y}"Çerçeve o fonksiyonun kendi odası gibidir:
 dönüş adresi, kayıtlı yazmaçlar, yerel değişkenler hepsi orada."
 
-{Y}"**fp** (çerçeve işaretçisi) o odanın kapısını gösterir," dedi Yonga.
+{Y}"**fp** (çerçeve işaretçisi) o odanın kapısını gösterir." dedi Yonga.
 {Y}"**sp** ise kulenin en üstünü gösterir: en son konulan şey neredeyse orası."
 
-{B}"Bir apartman gibi," dedi Bilge. {B}"Her fonksiyon kendi dairesinde."
+{B}"Bir apartman gibi." dedi Bilge. {B}"Her fonksiyon kendi dairesinde."
 
 **Resim:**
 Horizontal children's book illustration, watercolor style, edge-to-edge, NO white border, NO frame. A cartoon apartment building cross-section. Each floor is a stack frame belonging to a different function call. The top floor (most recent function) is labeled "current frame." An fp arrow points to the bottom of the current floor (frame base), an sp arrow points to the very top where new items are being added. Bilge stands outside the building looking at the floors. Yonga — a small chubby rounded robot, light blue-silver metallic body, spiral/swirl on belly, big round blue eyes, dome head, short stubby arms, NO TEXT on body, NO antenna — stands on the roof (sp position). ONLY ONE ROBOT IN THE SCENE. Apartment building cross-section, warm brick tones.
@@ -173,7 +173,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 10 — JALR ile Yazmaçtan Atlamak
 
 **Metin:**
-{Y}"JAL'ın bir kardeşi var: **JALR**," dedi Yonga.
+{Y}"JAL'ın bir kardeşi var: **JALR**." dedi Yonga.
 {Y}"JAL doğrudan bir adrese atlar.
 JALR ise bir yazmaçtaki adrese atlar.
 
@@ -181,7 +181,7 @@ Bu çok güçlüdür!
 Çünkü hangi fonksiyonu çağıracağını önceden bilmesen de olur:
 sadece adresi yazmaca koyarsın, JALR oraya gider."
 
-{B}"Telefon rehberi gibi," dedi Bilge.
+{B}"Telefon rehberi gibi." dedi Bilge.
 {B}"Numarayı önceden bilmiyorsun, rehbere bakıyorsun, arıyorsun."
 
 **Resim:**
@@ -195,7 +195,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 Bilge bir şey düşündü: {B}"Bir if-else cümlesi yazdığımda
 aslında ne kadar çok şey oluyor arkada!"
 
-{Y}"Yazdığımız programı işlemcinin diline çeviren bir araç var: **derleyici**," dedi Yonga. {Y}"Derleyici senin if-else'ini karşılaştırma buyruğuna ve dallanma buyruğuna çevirir. Koşul tutmuyorsa BEQ ya da BNE ile öteki dala atlar. Tüm mantık sıfır ve birlerle!"
+{Y}"Yazdığımız programı işlemcinin diline çeviren bir araç var: **derleyici**." dedi Yonga. {Y}"Derleyici senin if-else'ini karşılaştırma buyruğuna ve dallanma buyruğuna çevirir. Koşul tutmuyorsa BEQ ya da BNE ile öteki dala atlar. Tüm mantık sıfır ve birlerle!"
 
 **Resim:**
 Horizontal children's book illustration, watercolor style, edge-to-edge, NO white border, NO frame. Left side: a simple if-else written in colorful block code style ("if score > 10: celebrate, else: try again"). Right side: the same logic translated into assembly instructions with BLT/JAL instructions shown as colorful boxes. A translation arrow connects left to right. Bilge writes on the left, Yonga — a small chubby rounded robot, light blue-silver metallic body, spiral/swirl on belly, big round blue eyes, dome head, short stubby arms, NO TEXT on body, NO antenna — writes the translation on the right. ONLY ONE ROBOT IN THE SCENE. Code translation visual, clean bright colors.
@@ -214,7 +214,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 4. Sayacı artır: x5 = x5 + 1
 5. Döngü başına geri atla (JAL ya da geriye dallanma)."
 
-{B}"Vay be! Her döngü aslında bir geri atlama," dedi Bilge.
+{B}"Vay be! Her döngü aslında bir geri atlama." dedi Bilge.
 
 **Resim:**
 Horizontal children's book illustration, watercolor style, edge-to-edge, NO white border, NO frame. A circular racetrack with 10 segments. A cartoon runner starts at segment 0, runs each segment, and a scoreboard shows "lap count: x5." At segment 10, a finish line and exit gate appear. A backward curved arrow shows the loop — the runner returns to segment start each lap until x5 reaches 10. Bilge stands at the finish line timer. Yonga — a small chubby rounded robot, light blue-silver metallic body, spiral/swirl on belly, big round blue eyes, dome head, short stubby arms, NO TEXT on body, NO antenna — holds a lap counter. ONLY ONE ROBOT IN THE SCENE. Racing track illustration, dynamic colors.
@@ -226,7 +226,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 **Metin:**
 O akşam Bilge'nin annesi ona "Odanı topla" dediğinde gülümsedi.
 
-{B}"Bu bir fonksiyon çağrısı," diye düşündü.
+{B}"Bu bir fonksiyon çağrısı." diye düşündü.
 {B}"Ana program (annem) alt programa (ben) çağrı yaptı.
 Ben işimi bitirince geri dönüp rapor vereceğim."
 

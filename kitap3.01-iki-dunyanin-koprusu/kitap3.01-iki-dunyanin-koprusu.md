@@ -24,7 +24,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 2 — İki Farklı Dünya
 
 **Metin:**
-{Y}"Düşün," dedi Yonga, {Y}"sen kitap okursun, müzik dinlersin, resim yaparsın.
+{Y}"Düşün." dedi Yonga, {Y}"sen kitap okursun, müzik dinlersin, resim yaparsın.
 Bilgisayarın içindeki işlemci ise yalnızca açık ya da kapalı elektrik sinyallerini anlar."
 
 {B}"Peki aralarında kim çeviri yapıyor?" diye sordu Bilge.
@@ -44,7 +44,7 @@ Yonga küçük bir kağıt çıkardı. Üzerinde şunlar yazıyordu:
 **BKM: Buyruk Kümesi Mimarisi**
 (buyruk = emir, kümesi = topluluğu, mimarisi = yapısı)
 
-{Y}"Bu, yazılım ile donanım arasındaki büyük sözleşmedir," dedi Yonga.
+{Y}"Bu, yazılım ile donanım arasındaki büyük sözleşmedir." dedi Yonga.
 {Y}"Yazılımcılar hangi buyrukların var olduğunu bilir.
 İşlemci de o buyrukları yerine getireceğine söz verir.
 İkisi de sözleşmenin kurallarını bildiği sürece birlikte çalışır!"
@@ -57,7 +57,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 4 — Tarif Defteri Gibi
 
 **Metin:**
-{B}"Anlıyorum," dedi Bilge. {B}"BKM bir tarif defteri gibi!
+{B}"Anlıyorum." dedi Bilge. {B}"BKM bir tarif defteri gibi!
 Her tarif bir buyruk. Yazılımcı tarifleri seçer, işlemci pişirir."
 
 {Y}"Aynen öyle!" dedi Yonga. {Y}"Üstelik tarif defteri değişmediği sürece
@@ -90,11 +90,11 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 6 — Getir!
 
 **Metin:**
-{Y}"Getir adımında," dedi Yonga, {Y}"işlemci bellekteki bir adrese gider
+{Y}"Getir adımında." dedi Yonga, {Y}"işlemci bellekteki bir adrese gider
 ve oradaki buyruğu getirir. Bunu hangi adresten getireceğini
 **Program Sayacı** adlı özel bir kutu tutar."
 
-{B}"Program Sayacı bir işaret levhası gibi," dedi Bilge.
+{B}"Program Sayacı bir işaret levhası gibi." dedi Bilge.
 {B}"'Şu an buradayız, sıradaki buyruk şurada!' der."
 
 {Y}"Harika benzetme!" dedi Yonga.
@@ -107,11 +107,11 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 7 — Çöz!
 
 **Metin:**
-{Y}"Çöz adımında işlemci zarfı açar," dedi Yonga.
+{Y}"Çöz adımında işlemci zarfı açar." dedi Yonga.
 {Y}"İçindeki buyruğu okur: 'Bu bir toplama buyruğu mu?
 Çıkarma mı? Bellekten yükleme mi?'"
 
-{B}"Zarfı açmak gibi," dedi Bilge gülerek.
+{B}"Zarfı açmak gibi." dedi Bilge gülerek.
 {B}"Önce adrese bakarsın, sonra mektubu okursun!"
 
 {Y}"Aynen! İşlemci bunu saniyede milyarlarca kez yapar!"
@@ -124,7 +124,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 8 — Yürüt!
 
 **Metin:**
-{Y}"Yürüt adımında işlemci harekete geçer," dedi Yonga.
+{Y}"Yürüt adımında işlemci harekete geçer." dedi Yonga.
 {Y}"'İki sayıyı topla' dediyse toplar.
 'Bellekten bir şey al' dediyse alır.
 'Şu adrese zıpla' dediyse zıplar!"
@@ -144,7 +144,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 **Metin:**
 {B}"Bu döngü ne kadar hızlı?" diye sordu Bilge.
 
-{Y}"Çağdaş bir işlemci," dedi Yonga, {Y}"bu döngüyü saniyede
+{Y}"Çağdaş bir işlemci." dedi Yonga, {Y}"bu döngüyü saniyede
 **milyarlarca kez** tekrarlar! Döngünün saniyede kaç kez
 yinelendiğine **saat vuruş sıklığı** denir.
 Üzerinde 3 gigahertz yazan bir işlemci,
@@ -153,7 +153,7 @@ saniyede 3 milyar kez döner!"
 Bilge başı dönerek oturdu.
 {B}"3… milyar… kez…"
 
-{Y}"Evet! Bu yüzden bilgisayarlar çok hızlı görünür," dedi Yonga.
+{Y}"Evet! Bu yüzden bilgisayarlar çok hızlı görünür." dedi Yonga.
 
 **Resim:**
 Horizontal children's book illustration, watercolor style, edge-to-edge, NO white border, NO frame. A giant clock with a swirling face showing billions of ticks per second. Numbers spiral outward dramatically. Bilge sits with dizzy stars around her head, looking amazed. Yonga, a small chubby rounded robot, light blue-silver metallic body, spiral/swirl on belly, big round blue eyes, dome head, short stubby arms, NO TEXT on body, NO antenna, stands proudly next to the clock. ONLY ONE ROBOT IN THE SCENE. Electric blue and gold, dynamic energy lines.
@@ -181,7 +181,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 11 — Sade ve Güçlü
 
 **Metin:**
-{Y}"Sana en sevdiğim tarif defterini göstereyim," dedi Yonga.
+{Y}"Sana en sevdiğim tarif defterini göstereyim." dedi Yonga.
 {Y}"Adı RISC-V, 'risk beş' diye okunur.
 Hem çok sade hem çok güçlü bir BKM'dir.
 Üniversiteler ve araştırmacılar onu çok sever
@@ -204,10 +204,10 @@ Bilge not defterine yazdı:
 **BKM = Yazılım ile donanım arasındaki sözleşme.**
 **Getir → Çöz → Yürüt → tekrar!**
 
-{B}"Yonga, şunu sormalıyım," dedi Bilge.
+{B}"Yonga, şunu sormalıyım." dedi Bilge.
 {B}"Sözleşme değişirse ne olur?"
 
-{Y}"Eski yazılımlar çalışmaz," dedi Yonga üzgün bir sesle.
+{Y}"Eski yazılımlar çalışmaz." dedi Yonga üzgün bir sesle.
 {Y}"Bu yüzden BKM tasarımcıları çok dikkatli davranır.
 Bir kez kabul edilen sözleşme, uzun yıllar değişmez."
 

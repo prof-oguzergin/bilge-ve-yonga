@@ -30,7 +30,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 3 — Adil Karşılaştırma
 
 **Metin:**
-{B}"Ama Yonga," dedi Bilge, {B}"arabaları karşılaştırmak için önce ne yapmak gerekiyor?" Yonga parmağını kaldırdı: {Y}"Hepsine aynı yolu koşturmak! Eğer biri düz yolda, diğeri dağda giderse karşılaştırma adil olmaz." Bilge başını salladı, bu çok mantıklıydı.
+{B}"Ama Yonga." dedi Bilge, {B}"arabaları karşılaştırmak için önce ne yapmak gerekiyor?" Yonga parmağını kaldırdı: {Y}"Hepsine aynı yolu koşturmak! Eğer biri düz yolda, diğeri dağda giderse karşılaştırma adil olmaz." Bilge başını salladı, bu çok mantıklıydı.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Pistın önünde Yonga küçük bir kara tahta tutmuş, üzerinde iki karikatür çizilmiş: biri düz yolda giden araba, diğeri dağ yolunda giden araba; dağ yolundaki arabanın üstünde kırmızı bir çarpı işareti var. Bilge elini çenesine götürmüş, düşünür gibi bakıyor.
@@ -50,7 +50,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 5 — Hızlı Hesaplama Yarışı
 
 **Metin:**
-{Y}"İlk yarış: Hızlı hesaplama!" diye duyurdu Yonga. Pist boyunca sayılar ve işlem simgeleri belirdi. Kırmızı araba fırlayıp öne geçti, mavi araba biraz geride kaldı, sarı araba en arkada gidiyordu. {Y}"Bazı bilgisayarlar matematik işlemlerinde çok hızlıdır," diye açıkladı Yonga. {Y}"Buna hesaplama sınaması diyoruz."
+{Y}"İlk yarış: Hızlı hesaplama!" diye duyurdu Yonga. Pist boyunca sayılar ve işlem simgeleri belirdi. Kırmızı araba fırlayıp öne geçti, mavi araba biraz geride kaldı, sarı araba en arkada gidiyordu. {Y}"Bazı bilgisayarlar matematik işlemlerinde çok hızlıdır." diye açıkladı Yonga. {Y}"Buna hesaplama sınaması diyoruz."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yarış pisti boyunca toplama, çarpma sembolleri ve rakamlar süsleme gibi asılmış. Kırmızı araba önde koşuyor, mavi araba ortada, sarı araba arkada. Arabaların yanında çıkan küçük balonlarda işlem sembolleri var. Bilge ve Yonga kenarda zıplayarak coşkuyla izliyor.
@@ -60,7 +60,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 6 — Grafik Sınaması
 
 **Metin:**
-{Y}"İkinci yarış: Güzel resimler çizme!" diye bağırdı Yonga. Bu sefer pist boyunca renkli gökkuşakları ve 3 boyutlu şekiller belirdi. Mavi araba bu kez fırlayıp öne geçti! {Y}"Bazı bilgisayarlar resim ve video işlemede çok iyidir," dedi Yonga. {Y}"Bunlara grafik sınaması diyoruz." Bilge şaşırmıştı, aynı araba her seferinde birinci olmuyordu!
+{Y}"İkinci yarış: Güzel resimler çizme!" diye bağırdı Yonga. Bu sefer pist boyunca renkli gökkuşakları ve 3 boyutlu şekiller belirdi. Mavi araba bu kez fırlayıp öne geçti! {Y}"Bazı bilgisayarlar resim ve video işlemede çok iyidir." dedi Yonga. {Y}"Bunlara grafik sınaması diyoruz." Bilge şaşırmıştı, aynı araba her seferinde birinci olmuyordu!
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Pist kenarlarında gökkuşağı ve parlak üç boyutlu küpler asılı. Bu sefer mavi büyük araba öndeyken kırmızı ortada, sarı arkada. Yonga ellerini iki yana açmış, "işte bu!" der gibi bakıyor. Bilge gözlüklerinin üstünden şaşkın bakışlar atıyor.
@@ -80,7 +80,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 8 — Her Araba Farklı Güçlü
 
 **Metin:**
-Üç yarış bitti. Bilge ellerini birbirine vurdu: {B}"Demek ki hiçbir araba her yarışı kazanamıyor!" {Y}"Aynen öyle," dedi Yonga. {Y}"Bu yüzden bilgisayar uzmanları birden fazla sınama yaparlar. Her sınamada farklı bir iş vardır: hesaplama, grafik, yapay zeka…" {B}"Ve hepsini birlikte değerlendirirler," diye tamamladı Bilge.
+Üç yarış bitti. Bilge ellerini birbirine vurdu: {B}"Demek ki hiçbir araba her yarışı kazanamıyor!" {Y}"Aynen öyle." dedi Yonga. {Y}"Bu yüzden bilgisayar uzmanları birden fazla sınama yaparlar. Her sınamada farklı bir iş vardır: hesaplama, grafik, yapay zeka…" {B}"Ve hepsini birlikte değerlendirirler." diye tamamladı Bilge.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Üç arabanın yanında üç küçük kupa görünüyor: her biri farklı bir arabaya ait, her birinin altında farklı bir simge (sayı, gökkuşağı, robot). Bilge ve Yonga pistin ortasında yan yana oturmuş düşünüyor. Üç arabanın sürücüleri (küçük robot figürler) gülümseyen yüzlerle el sallıyor.
@@ -90,7 +90,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 9 — SPEC Kuruluşu
 
 **Metin:**
-{B}"Bu sınamalara gerçek dünyada ne diyorlar?" diye sordu Bilge. Yonga küçük bir kart çıkardı: {Y}"SPEC!" Bilge kartı inceledi. {Y}"SPEC adında bir kuruluş, bilgisayarları adil karşılaştırmak için sınama programları hazırlar," dedi Yonga. {Y}"Dünya genelindeki bilgisayar uzmanları bu sınamaları kullanarak farklı bilgisayarları karşılaştırır."
+{B}"Bu sınamalara gerçek dünyada ne diyorlar?" diye sordu Bilge. Yonga küçük bir kart çıkardı: {Y}"SPEC!" Bilge kartı inceledi. {Y}"SPEC adında bir kuruluş, bilgisayarları adil karşılaştırmak için sınama programları hazırlar." dedi Yonga. {Y}"Dünya genelindeki bilgisayar uzmanları bu sınamaları kullanarak farklı bilgisayarları karşılaştırır."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga küçük bir kart tutmuş; kartta büyük harflerle "SPEC" yazıyor ve etrafında küçük dünya simgesi, bilgisayar, hesap makinesi ikonları dizili. Bilge kartı merakla okuyor. Arka planda dünya haritası üzerinde farklı ülkelerden bağlanan renkli çizgiler: bilgisayar uzmanlarının birbirine bağlı olduğunu gösteriyor.
@@ -120,7 +120,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 12 — SPEC Puanlarıyla Seçim
 
 **Metin:**
-Mağazaya döndüler. Bilge artık farklı gözlerle bakıyordu bilgisayarlara. Her birinin yanındaki etiketlerde puan yazan listeler gördü. {B}"SPEC puanları!" dedi heyecanla. {Y}"Evet," dedi Yonga. {Y}"Artık hangi bilgisayarın hangi işte iyi olduğunu anlayabilirsin." Bilge babasına döndü: {B}"Baba, ne için kullanacağımıza göre seçelim!"
+Mağazaya döndüler. Bilge artık farklı gözlerle bakıyordu bilgisayarlara. Her birinin yanındaki etiketlerde puan yazan listeler gördü. {B}"SPEC puanları!" dedi heyecanla. {Y}"Evet." dedi Yonga. {Y}"Artık hangi bilgisayarın hangi işte iyi olduğunu anlayabilirsin." Bilge babasına döndü: {B}"Baba, ne için kullanacağımıza göre seçelim!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Mağaza rafının önünde Bilge bir bilgisayarın yanındaki etikete bakıyor: etiketin üzerinde küçük bir tablo ve çeşitli puanlar görünüyor. Yonga Bilge'nin omzuna konmuş, ekranında küçük onay simgesi yanıyor. Arka planda gülümseyen baba figürü cüzdanını tutuyor.
@@ -130,7 +130,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 13 — Günlükteki Ders
 
 **Metin:**
-Akşam eve döndüklerinde Bilge günlüğüne yazdı: {B}"Bugün öğrendim: bir bilgisayarı gerçekten tanımak için, ona farklı işler yaptırman ve sonuçları karşılaştırman gerekiyor. Tıpkı bir arabayı farklı yollarda sınamak gibi." Yonga ekranında küçük bir yarış bayrağı canlandırması gösterdi. {B}"Biz de iyi bir ekibiz," dedi Bilge gülerek.
+Akşam eve döndüklerinde Bilge günlüğüne yazdı: {B}"Bugün öğrendim: bir bilgisayarı gerçekten tanımak için, ona farklı işler yaptırman ve sonuçları karşılaştırman gerekiyor. Tıpkı bir arabayı farklı yollarda sınamak gibi." Yonga ekranında küçük bir yarış bayrağı canlandırması gösterdi. {B}"Biz de iyi bir ekibiz." dedi Bilge gülerek.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Sıcak sarı ışıklı bir çocuk odası; Bilge masasında günlüğüne yazıyor. Açık günlüğün sayfasında küçük bir araba ve pist çizimi görünüyor. Yonga masanın kenarında oturmuş, ekranında sallanan renkli bir yarış bayrağı gösteriyor. Pencereden yıldızlı gece gökyüzü görünüyor.

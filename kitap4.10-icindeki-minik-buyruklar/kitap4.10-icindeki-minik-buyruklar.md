@@ -26,7 +26,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 2 — Mikro Buyruk
 
 **Metin:**
-{Y}"İşte bu minicik parçalara **mikro buyruk** deniyor," dedi Yonga. {Y}"Mikro, çok küçük demek. Bir adım, aslında birlikte çalışan birkaç mikro buyrukla gerçekleşiyor."
+{Y}"İşte bu minicik parçalara **mikro buyruk** deniyor." dedi Yonga. {Y}"Mikro, çok küçük demek. Bir adım, aslında birlikte çalışan birkaç mikro buyrukla gerçekleşiyor."
 
 Bilge güldü. {B}"Demek her adım, birkaç mikro buyrukla yapılıyor!"
 
@@ -54,7 +54,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 Yonga anlattı. {Y}"Aynı anda dört küçük iş olur. İlk sayı AMB'nin bir girişine bağlanır, ikinci sayı öteki girişine bağlanır, AMB toplama kipine alınır ve çıkan sonuç bir sonraki adıma kadar tutulur. Dört mikro buyruk, hepsi el ele!"
 
-{B}"Demek tek bir tıkın içinde bile dört küçük iş varmış," dedi Bilge.
+{B}"Demek tek bir tıkın içinde bile dört küçük iş varmış." dedi Bilge.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Dört küçük panel yan yana: birinci panelde bir yazmaçtan sayı çekiliyor, ikincide başka bir yazmaçtan ikinci sayı çekiliyor, üçüncüde ikisi AMB kutusuna giriyor, dördüncüde sonuç bir yazmaca yazılıyor. Bilge panelleri parmağıyla takip ediyor, Yonga gururla anlatıyor. Canlı mavi-yeşil tonlar.
@@ -78,7 +78,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 {B}"Şef bu defteri nereden buluyor?" diye sordu Bilge.
 
-{Y}"İşlemcinin içinde çok küçük, çok hızlı bir bellek var," dedi Yonga. {Y}"Mikroprogram orada saklı. Şef her buyruk geldiğinde o bellekten doğru sayfayı okuyup satır satır uyguluyor."
+{Y}"İşlemcinin içinde çok küçük, çok hızlı bir bellek var." dedi Yonga. {Y}"Mikroprogram orada saklı. Şef her buyruk geldiğinde o bellekten doğru sayfayı okuyup satır satır uyguluyor."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Küçük, parlayan bir kutu bellek içinde birçok minik tarif sayfası raflarda duruyor. Şef denetim birimi karakteri raftan bir sayfa çekip okuyor, sayfadaki satırları parmağıyla takip ediyor. Bilge rafları hayranlıkla süzüyor, Yonga yanında açıklıyor. Serin mavi ışıklı, düzenli bir kütüphane hissi.
@@ -90,7 +90,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 {B}"Peki şef bu sayfayı okuyunca ne yapıyor?" diye sordu Bilge.
 
-{Y}"Her mikro buyrukta şef, veri yolundaki kapılara ve yazmaçlara küçücük bir talimat veriyor," dedi Yonga. {Y}"Şu kapıyı aç, bu yazmacı oku, AMB'yi toplama kipine çevir. Bunlara **denetim sinyali** deniyor."
+{Y}"Her mikro buyrukta şef, veri yolundaki kapılara ve yazmaçlara küçücük bir talimat veriyor." dedi Yonga. {Y}"Şu kapıyı aç, bu yazmacı oku, AMB'yi toplama kipine çevir. Bunlara **denetim sinyali** deniyor."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Şef karakteri elindeki tarif sayfasına bakarak, ince ışık telleriyle veri yolundaki farklı parçalara (bir kapı, yeşil bir yazmaç çekmecesi, mor AMB kutusu) küçük ok işaretli talimatlar gönderiyor. Her talimat okunca ilgili parça hafifçe parlıyor. Bilge telleri takip ediyor, Yonga gülümseyerek izliyor. Canlı, bağlantı dolu bir sahne.
@@ -104,7 +104,7 @@ Yonga devam etti. {Y}"Bazı buyruklar basittir, defterdeki sayfaları kısadır.
 
 {B}"Hangi buyruklar uzun sürer?" diye sordu Bilge.
 
-{Y}"Ne kadar çok iş bir buyruğun içine sıkıştırılmışsa, mikroprogramı da o kadar uzar," dedi Yonga.
+{Y}"Ne kadar çok iş bir buyruğun içine sıkıştırılmışsa, mikroprogramı da o kadar uzar." dedi Yonga.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. İki tarif sayfası yan yana tutuluyor: soldaki kısacık, yalnızca birkaç satırlık bir tarif; sağdaki uzun, sayfanın altına kadar uzanan bir tarif. Şef karakteri iki sayfayı tartar gibi elinde tutuyor. Bilge uzun sayfaya şaşkınlıkla bakıyor, Yonga kısa sayfayı gösteriyor. Dengeli sarı-mor tonlar.
@@ -184,7 +184,7 @@ Yonga gözlerini kısarak parladı. {Y}"Küçücük bir kum tanesinden koca bir 
 
 Bilge, Yonga'ya sıkıca sarıldı. {B}"Teşekkürler Yonga!" Sonra başını kaldırdı. {B}"Peki bir işlemci bundan daha da hızlı çalışabilir mi?"
 
-{Y}"Çalışabilir," dedi Yonga gülümseyerek. {Y}"Onu da başka bir gün konuşuruz."
+{Y}"Çalışabilir." dedi Yonga gülümseyerek. {Y}"Onu da başka bir gün konuşuruz."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Gün batımında Bilge ve Yonga bir tepede el ele oturuyorlar; önlerinde küçük bir kum tanesinden başlayıp büyüyerek bir işlemci yongasına dönüşen parlak bir zaman çizgisi süzülüyor havada: kum taneleri, anahtarlar, kapılar, yarış pisti, sayı sembolleri ve en sonunda parlayan bir yonga. Gökyüzü sıcak turuncu-mor tonlarda, huzurlu ve sıcak bir kapanış atmosferi.

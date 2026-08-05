@@ -40,7 +40,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 4 — Dizüstünün Dengesi
 
 **Metin:**
-Sıra dizüstü bilgisayara geldi. {B}"Bu ortada bir şey," dedi Bilge. Yonga açıkladı: {Y}"Dizüstü bilgisayar dengededir: ne çok güçlü ne çok zayıf. Taşınabilir, pilli, ama masaüstüne göre biraz daha az güçlü. Okul ödevi, video izleme, hafif oyunlar için mükemmel." Bilge güldü: {B}"Her işi biraz yapabilen biri."
+Sıra dizüstü bilgisayara geldi. {B}"Bu ortada bir şey." dedi Bilge. Yonga açıkladı: {Y}"Dizüstü bilgisayar dengededir: ne çok güçlü ne çok zayıf. Taşınabilir, pilli, ama masaüstüne göre biraz daha az güçlü. Okul ödevi, video izleme, hafif oyunlar için mükemmel." Bilge güldü: {B}"Her işi biraz yapabilen biri."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Dizüstü bilgisayar çizimi; etrafında denge terazisi var: bir tarafta "Güç", diğer tarafta "Taşınabilirlik" yazan kefeler denge durumunda. Altında üç küçük ikon: kitap (okul), film şeridi (video), hafif oyun denetleyicisi. Bilge dizüstüne bakıyor, yüzünde anlayış ifadesi.
@@ -50,7 +50,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 5 — Masaüstünün Gücü
 
 **Metin:**
-{B}"Masaüstü bilgisayar neden daha güçlü?" diye sordu Bilge. {Y}"Çünkü prize bağlı, pil kısıtı yok," dedi Yonga. {Y}"Daha büyük ve daha hızlı işlemci koyabilirsin. Daha fazla bellek. Daha iyi soğutma." Bilge anladı: {B}"Duvardan aldığı güç onu özgür kılıyor." Yonga güldü: {Y}"Aynen öyle!"
+{B}"Masaüstü bilgisayar neden daha güçlü?" diye sordu Bilge. {Y}"Çünkü prize bağlı, pil kısıtı yok." dedi Yonga. {Y}"Daha büyük ve daha hızlı işlemci koyabilirsin. Daha fazla bellek. Daha iyi soğutma." Bilge anladı: {B}"Duvardan aldığı güç onu özgür kılıyor." Yonga güldü: {Y}"Aynen öyle!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Masaüstü bilgisayar kasasının kesit görünümü: büyük fan/soğutucu, geniş işlemci, çok sayıda bellek çubuğu. Elektrik kablosu prize uzanıyor ve kasa etrafında güç sembolleri parlıyor. Bilge büyülenmiş gibi bakıyor, Yonga bir bölümü büyüteçle işaret ediyor.
@@ -60,7 +60,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 6 — Süper Bilgisayar Devi
 
 **Metin:**
-{B}"Süper bilgisayar ne?" diye sordu Bilge. Yonga gözlerini parıldattı: {Y}"Yüzlerce, binlerce işlemcinin birlikte çalıştığı devasa sistemler. Hava tahmini, deprem canlandırması, ilaç tasarımı, evrenin modellenmesi için kullanılır." Bilge ağzı açık kaldı: {B}"Bunları tek bir bilgisayar yapamaz mı?" {Y}"Yapamaz," dedi Yonga. {Y}"O kadar büyük işler ancak çok büyük güçle yapılır."
+{B}"Süper bilgisayar ne?" diye sordu Bilge. Yonga gözlerini parıldattı: {Y}"Yüzlerce, binlerce işlemcinin birlikte çalıştığı devasa sistemler. Hava tahmini, deprem canlandırması, ilaç tasarımı, evrenin modellenmesi için kullanılır." Bilge ağzı açık kaldı: {B}"Bunları tek bir bilgisayar yapamaz mı?" {Y}"Yapamaz." dedi Yonga. {Y}"O kadar büyük işler ancak çok büyük güçle yapılır."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Devasa bir sunucu odası: sonsuz uzanan sıra sıra mavi ışıklı sunucu rafları. Bilge küçük kalıyor bu devasa odada, ağzı açık hayretle bakıyor. Yonga omzunda, ekranında "1000+ İşlemci!" yazıyor. Tavan yüksek, koridorlar geniş: ihtişamlı bir manzara.
@@ -87,7 +87,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 ---
 
-## Sayfa 9 — Neden Tek Cihaz Olmaz
+## Sayfa 9 — Neden Tek Cihaz Olmaz?
 
 **Metin:**
 Bilge bir soru daha sordu: {B}"Neden tek bir 'her şey için iyi' bilgisayar yapmıyoruz?" Yonga başını salladı: {Y}"Çünkü farklı işler farklı şeyler gerektirir. Telefon küçük ve az enerji harcar, bunun için özel yapılmış. Süper bilgisayar hız ve güç ister, onun için özel yapılmış. Hepsini tek cihaza sıkıştırmak imkansız."

@@ -10,7 +10,7 @@
 ## Sayfa 1 — Sınıftaki Sıra Çantası
 
 **Metin:**
-{B}"Yonga," dedi Bilge, {B}"bilgisayar sayıları nerede tutuyor?
+{B}"Yonga." dedi Bilge, {B}"bilgisayar sayıları nerede tutuyor?
 Toplama yaparken rakamları nereye koyuyor?"
 
 Yonga güldü: {Y}"Çantanı düşün! Derste her şeyi çantadan çıkarıp çantaya koyamazsın.
@@ -25,7 +25,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 2 — Yazmaç Nedir?
 
 **Metin:**
-{Y}"Bu hızlı kutulara **yazmaç** (register) denir," dedi Yonga.
+{Y}"Bu hızlı kutulara **yazmaç** (register) denir." dedi Yonga.
 
 {Y}"Yazmaçlar işlemcinin tam içindedir.
 Bellekten yüzlerce kat daha hızlıdırlar.
@@ -33,7 +33,7 @@ Ama çok küçüktürler: sadece bir sayı sığar her birine."
 
 {B}"Kaç tane var?" diye sordu Bilge.
 
-{Y}"Her işlemcide sayı değişir," dedi Yonga. {Y}"RISC-V'te tam olarak **32 tane!**"
+{Y}"Her işlemcide sayı değişir." dedi Yonga. {Y}"RISC-V'te tam olarak **32 tane!**"
 
 **Resim:**
 Horizontal children's book illustration, watercolor style, edge-to-edge, NO white border, NO frame. Inside a stylized cartoon processor chip, 32 small glowing colored boxes are arranged in a neat 4×8 grid, each labeled with a small number (x0 through x31). Each box has a tiny number inside it. Yonga — a small chubby rounded robot, light blue-silver metallic body, spiral/swirl on belly, big round blue eyes, dome head, short stubby arms, NO TEXT on body, NO antenna — stands in front of the grid with arms spread wide proudly. Bilge peers in through a magnifying glass from outside. ONLY ONE ROBOT IN THE SCENE. Electric blues and greens.
@@ -51,7 +51,7 @@ Yonga yazmaçların görevlerini saydı:
 - **x5–x7**, adları **t0–t2**: geçici değerler için.
 - **x10–x17**, adları **a0–a7**: fonksiyona verilen girdiler için.
 
-{Y}"Hepsinin bir adı ve görevi var," dedi Yonga.
+{Y}"Hepsinin bir adı ve görevi var." dedi Yonga.
 {Y}"Bir sınıf gibi: her öğrencinin sırası ve görevi!"
 
 **Resim:**
@@ -101,11 +101,11 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 6 — Büyük Sayıları Saklamak
 
 **Metin:**
-{Y}"Ama bir bayt sadece 0'dan 255'e kadar sayıyı saklar," dedi Yonga.
+{Y}"Ama bir bayt sadece 0'dan 255'e kadar sayıyı saklar." dedi Yonga.
 {Y}"Daha büyük sayılar için birden fazla bayt kullanırsın.
 RISC-V'te sayılar genellikle **4 bayt** (32 bit) ya da **8 bayt** (64 bit) kaplar."
 
-{B}"Demek 4 komşu raf gözü birleşip büyük bir sayıyı saklıyor," dedi Bilge.
+{B}"Demek 4 komşu raf gözü birleşip büyük bir sayıyı saklıyor." dedi Bilge.
 
 {Y}"Harika düşündün! Peki hangisi öne, hangisi arkaya gider?
 İşte sürpriz burada başlıyor…"
@@ -118,7 +118,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 7 — Büyüğü Başta, Küçüğü Başta
 
 **Metin:**
-{Y}"Dört gözün hepsi aynı büyüklükte, ama parçaların **değeri** farklı," dedi Yonga. {Y}"385'teki 3 üç yüz demek, 5 ise sadece beş."
+{Y}"Dört gözün hepsi aynı büyüklükte, ama parçaların **değeri** farklı." dedi Yonga. {Y}"385'teki 3 üç yüz demek, 5 ise sadece beş."
 
 {B}"İkisi de tek basamak ama biri daha değerli!" dedi Bilge.
 
@@ -136,7 +136,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 8 — RISC-V'te Küçüğü Başta
 
 **Metin:**
-{Y}"RISC-V küçüğü başta düzenini kullanır," dedi Yonga.
+{Y}"RISC-V küçüğü başta düzenini kullanır." dedi Yonga.
 {Y}"Demek ki değeri en küçük olan bayt, en düşük adrese gidiyor."
 
 {B}"Bunu aklımda nasıl tutayım?" diye sordu Bilge.
@@ -145,7 +145,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 {Y}"Telefonlar, bilgisayarlar, oyun konsolları gibi çoğu günümüz cihazı
 küçüğü başta düzenini kullanır."
 
-{B}"Demek yumurta kavgasını küçük-ucular kazandı," dedi Bilge gülerek.
+{B}"Demek yumurta kavgasını küçük-ucular kazandı." dedi Bilge gülerek.
 
 **Resim:**
 Horizontal children's book illustration, watercolor style, edge-to-edge, NO white border, NO frame. A podium scene: a small egg stands proudly on the first-place podium, a large egg stands on the second-place podium. Below the first-place podium, four memory compartments show bytes in little-endian order (LSB first). A trophy engraved with a small computer chip sits on the first-place stand. Bilge cheers. Yonga — a small chubby rounded robot, light blue-silver metallic body, spiral/swirl on belly, big round blue eyes, dome head, short stubby arms, NO TEXT on body, NO antenna — hands over the trophy. ONLY ONE ROBOT IN THE SCENE. Playful competition colors, gold and blue.
@@ -155,14 +155,14 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 9 — Yazmaç mı, Bellek mi?
 
 **Metin:**
-{B}"Şimdi anlıyorum," dedi Bilge. {B}"Yazmaçlar çok hızlı ama az.
+{B}"Şimdi anlıyorum." dedi Bilge. {B}"Yazmaçlar çok hızlı ama az.
 Bellek çok büyük ama daha yavaş."
 
 {Y}"Tam doğru!" dedi Yonga. {Y}"İşlemci önce yazmaçlara bakar.
 Orada yoksa bellekten alır.
 Bellekten almak yazmaçtan almaktan yüzlerce kat daha uzun sürer."
 
-{B}"Bu yüzden yazmaçları akıllıca kullanmak önemli," dedi Bilge.
+{B}"Bu yüzden yazmaçları akıllıca kullanmak önemli." dedi Bilge.
 
 {Y}"Doğru bildin! Buna **yazmaç ataması** denir. Programı hazırlayan araçların yaptığı zor bir iştir."
 
@@ -208,11 +208,11 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 O akşam Bilge annesiyle yemek masasındayken tuzluğu tutmak istedi.
 Uzandı, aldı, koydu. Saniyeler içinde.
 
-{B}"Tuzluk yazmaç gibi," diye düşündü. {B}"Tam yanımda, çok hızlı."
+{B}"Tuzluk yazmaç gibi." diye düşündü. {B}"Tam yanımda, çok hızlı."
 
 Depo ise çok büyük ama uzakta. Oraya gidip gelmek zaman alırdı.
 
-{B}"Bilgisayar da benim gibi düşünüyor," dedi fısıltıyla gülümseyerek.
+{B}"Bilgisayar da benim gibi düşünüyor." dedi fısıltıyla gülümseyerek.
 
 **Resim:**
 Horizontal children's book illustration, watercolor style, edge-to-edge, NO white border, NO frame. A family dinner table scene. Bilge sits at the table and easily reaches the salt shaker right in front of her (labeled in a thought bubble as "Register — fast & close"). In her imagination bubble, a faraway storage room down a long hallway is labeled "RAM — far & slow." Warm dinner lighting, cozy family scene. Yonga — a small chubby rounded robot, light blue-silver metallic body, spiral/swirl on belly, big round blue eyes, dome head, short stubby arms, NO TEXT on body, NO antenna — peeks around the corner from the hallway smiling. ONLY ONE ROBOT IN THE SCENE. Warm golden dinner colors.
@@ -229,9 +229,9 @@ Bilge yatmadan önce defterine yazdı:
 - **Küçüğü başta:** değeri en küçük bayt önce.
 - **Yığıt:** plastik tabak kulesi; sp hep en üstte.
 
-{B}"Yonga," dedi Bilge, {B}"yavaş yavaş anlıyor gibiyim."
+{B}"Yonga." dedi Bilge, {B}"yavaş yavaş anlıyor gibiyim."
 
-{Y}"Anlıyor gibi değilsin," dedi Yonga sakin bir sesle. {Y}"Gerçekten anlıyorsun."
+{Y}"Anlıyor gibi değilsin." dedi Yonga sakin bir sesle. {Y}"Gerçekten anlıyorsun."
 
 **Resim:**
 Horizontal children's book illustration, watercolor style, edge-to-edge, NO white border, NO frame. Bilge sits in bed with a notebook on her lap, writing by the warm light of a bedside lamp. The notebook shows her hand-drawn diagrams of register boxes and a memory shelf. Yonga — a small chubby rounded robot, light blue-silver metallic body, spiral/swirl on belly, big round blue eyes, dome head, short stubby arms, NO TEXT on body, NO antenna — sits on the pillow beside her, reading along gently. ONLY ONE ROBOT IN THE SCENE. Cozy night scene, soft warm lamplight.

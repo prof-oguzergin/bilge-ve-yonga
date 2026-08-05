@@ -130,7 +130,7 @@ BOOKS = [
      'Yükle ve sakla: bellek ile yazmaç arasındaki yolculuk', '#175229'),
     ('kitap3.11-dedektif-bilge-ve-kayip-sonuc', '3.11', 'Dedektif Bilge ve Kayıp Sonuç',
      'Hata ayıklama: ara nokta, adım adım yürütme, yazmaçlara bakmak', '#144822'),
-    ('kitap4.01a-eldenin-yolculugu', '4.1a', "Elde'nin Yolculuğu",
+    ('kitap4.01a-eldenin-yolculugu', '4.1a', 'Eldenin Yolculuğu',
      'Toplayıcılar ve eldenin basamaktan basamağa yolculuğu', '#9B5FD0'),
     ('kitap4.02-cok-yonlu-alet-amb', '4.2', 'Çok Yönlü Alet: AMB',
      'Aritmetik Mantık Birimi: tek alette toplama, çıkarma, karşılaştırma', '#8F57C2'),

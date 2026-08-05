@@ -97,7 +97,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 8 — Ama Her Pizza Hâlâ 30 Dakika!
 
 **Metin:**
-{B}"Peki," dedi Bilge, {B}"şimdi bir pizza daha çabuk mı çıkıyor?"
+{B}"Peki." dedi Bilge, {B}"şimdi bir pizza daha çabuk mı çıkıyor?"
 Murat Bey güldü: {D}"Hayır! Her pizza hâlâ tam 30 dakika sürüyor."
 {D}"Ama bir saatte çok daha fazla pizza çıkıyor!" diye ekledi.
 
@@ -109,7 +109,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 9 — Bilge'nin Kafası Karıştı
 
 **Metin:**
-{B}"Anlamadım," dedi Bilge. {B}"Aşçı sayısını artırdık ama yemek hâlâ geç mi çıkıyor?"
+{B}"Anlamadım." dedi Bilge. {B}"Aşçı sayısını artırdık ama yemek hâlâ geç mi çıkıyor?"
 Yonga güldü ve küçük ekranında iki farklı soru yazdı.
 {Y}"Sorularım şu: Bir şey ne kadar sürede biter? Bir saatte kaç şey biter?"
 
@@ -138,7 +138,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 11 — Bilgisayar Çekirdekleri de Aynı!
 
 **Metin:**
-{Y}"Bilgisayarlarda da aynı şey var," dedi Yonga. {Y}"Aşçılar gibi çekirdekler!"
+{Y}"Bilgisayarlarda da aynı şey var." dedi Yonga. {Y}"Aşçılar gibi çekirdekler!"
 {Y}"Her çekirdek bir işi yapar, ama aynı anda birçok çekirdeği çalıştırabilirsin."
 Bilge heyecanla ayağa kalktı: {B}"O yüzden bilgisayarlar çok çekirdekli oluyor!"
 
@@ -164,7 +164,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 {B}"Peki daha fazla çekirdek her zaman daha iyi mi?" diye sordu Bilge.
 Yonga güldü: {Y}"Bazen, ama her zaman değil! Küçük bir mutfakta çok aşçı birbirine çarpar."
-{D}"Denge önemli," dedi Murat Bey ve bir dilim pizza uzattı.
+{D}"Denge önemli." dedi Murat Bey ve bir dilim pizza uzattı.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Küçük bir mutfakta çok fazla aşçı sıkışmış; ikisi tepsiye çarpıyor, biri malzemeyi döküyor, diğeri yere bakıyor, komik ve abartılı, çocuksu bir kaos sahnesi. Sayfanın kenarında ise geniş bir mutfakta tam sayıda aşçı mutlu mutlu çalışıyor. İki sahne arasında Yonga küçük bir terazi hologramı tutmuş: bir tarafta "az çekirdek", öte tarafta "çok çekirdek", tam ortada "denge!" yazıyor. Bilge ve Murat Bey pizza yiyor. Neşeli, renkli, hafif mizahi bir sahne.
@@ -175,7 +175,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 **Metin:**
 Bilge ve Yonga restoranın önüne çıktılar, mideleri doymuş, kafaları yeni bilgilerle dolmuştu.
-{B}"Gecikme... işlem hacmi... koşutluk," saydı Bilge parmaklarında.
+{B}"Gecikme... işlem hacmi... koşutluk." saydı Bilge parmaklarında.
 Yonga mutlu bip sesleri çıkararak atladı: {Y}"Ve bunların hepsi mutfakta öğrenilir!"
 
 **Resim:**

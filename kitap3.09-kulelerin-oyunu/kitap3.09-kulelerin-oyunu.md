@@ -24,7 +24,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 {Y}"Tabak kulesi nasıl çalışır?" diye sordu Yonga merakla.
 
-{B}"Üstten koyarsın, üstten alırsın," dedi Bilge. {B}"En son konan, en önce alınır!"
+{B}"Üstten koyarsın, üstten alırsın." dedi Bilge. {B}"En son konan, en önce alınır!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Tabak kulesi çizilmiş, yanında iki büyük ok: biri yukarı (KOY, İngilizcesi push), biri aşağı (AL, İngilizcesi pop). En üstteki tabakta parlak bir yıldız işareti var: "en son eklenen." Bilge okları işaret ediyor, "Üstten in, üstten çık!" diyor. Yonga not alıyor. Renkler mavi-beyaz, tabaklar seramik dokusuyla çizilmiş.
@@ -46,7 +46,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 4 — Dönüş Adresini Unutma
 
 **Metin:**
-{Y}"Hayal et: annen sana 'odanı topla' dedi," dedi Yonga. {Y}"Sen de kitapları toplarken arkadaşının yardımını istiyorsun."
+{Y}"Hayal et: annen sana 'odanı topla' dedi." dedi Yonga. {Y}"Sen de kitapları toplarken arkadaşının yardımını istiyorsun."
 
 {Y}"Ama önce 'neredeyim' bilgisini saklamam gerekiyor. Aksi hâlde geri dönemem!"
 
@@ -58,7 +58,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 5 — Altyordam Nedir?
 
 **Metin:**
-{Y}"Altyordam, ayrı bir iş yapmak anlamına gelir," diye anlattı Yonga. {Y}"Ana program bir yerde durur, o ayrı işi yaptırır, sonra durduğu yere geri döner."
+{Y}"Altyordam, ayrı bir iş yapmak anlamına gelir." diye anlattı Yonga. {Y}"Ana program bir yerde durur, o ayrı işi yaptırır, sonra durduğu yere geri döner."
 
 {B}"Odayı toplamak ana iş, kitapları dizmek de ayrı bir iş!" dedi Bilge.
 
@@ -70,7 +70,7 @@ Yumuşak 3D render tarzında çocuk kitabı illüstrasyonu. Bilge'nin odasının
 ## Sayfa 6 — Dönüş Adresi ra'da
 
 **Metin:**
-{Y}"Bilgisayar bir altyordamı **JAL** buyruğuyla çağırır," dedi Yonga. {Y}"Çağırırken durduğu yerin adresini **ra** adlı özel bir yazmaca yazar. **ra**, dönüş adresini tutan yazmacın adıdır."
+{Y}"Bilgisayar bir altyordamı **JAL** buyruğuyla çağırır." dedi Yonga. {Y}"Çağırırken durduğu yerin adresini **ra** adlı özel bir yazmaca yazar. **ra**, dönüş adresini tutan yazmacın adıdır."
 
 Bilge parlayan gözlerle tamamladı: {B}"Ve iş bitince o adrese geri döner!"
 
@@ -132,7 +132,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 {B}"Peki yığıt dolup taşabilir mi?" diye sordu Bilge.
 
-{Y}"Evet! Çok fazla iç içe çağrı olursa yığıt taşar," dedi Yonga. {Y}"Buna **yığıt taşması** diyoruz. Tıpkı çok yükselen tabak kulesinin devrilmesi gibi!"
+{Y}"Evet! Çok fazla iç içe çağrı olursa yığıt taşar." dedi Yonga. {Y}"Buna **yığıt taşması** diyoruz. Tıpkı çok yükselen tabak kulesinin devrilmesi gibi!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Çok yüksek bir tabak kulesi sarsılıyor, en üstteki tabaklar düşmeye başlıyor. Kule dibinde çaresiz küçük figürler kaçışıyor. Yanında Yonga "yığıt taşması!" diyor. Bilge gülümsüyor ama "Dikkat!" der gibi. Komik ama ders veren bir sahne. Kırmızı-turuncu alarm tonları.
@@ -144,7 +144,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 {B}"Yığıt çerçevesi ne demek?" diye sordu Bilge.
 
-{Y}"Her altyordam kendi bölümünü yığıta ayırır," dedi Yonga. {Y}"Kendi değişkenleri, kendi bilgileri. Buna **çerçeve** diyoruz, kendi özel rafı!"
+{Y}"Her altyordam kendi bölümünü yığıta ayırır." dedi Yonga. {Y}"Kendi değişkenleri, kendi bilgileri. Buna **çerçeve** diyoruz, kendi özel rafı!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Tabak kulesi yerine bu sefer ayrı bölmelere sahip bir raf sistemi çizilmiş. Her bölmede farklı bir altyordamın adı ve içinde küçük nesneler (değişkenler). En üstteki bölme en aktif altyordam. Bilge rafı inceliyor. Yonga her bölmeyi işaret ederek anlatıyor. Kütüphane tarzı, sıcak ahşap renkleri.
@@ -168,7 +168,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 Bilge mutfağa döndü ve annesinin tabak kulesine baktı. Artık sadece tabak görmüyordu: yığıt, çerçeveler, dönüş adresleri görüyordu!
 
-{B}"Teşekkürler Yonga," dedi. {B}"Artık biliyorum: bilgisayar da tabak kulesinden ilham almış!"
+{B}"Teşekkürler Yonga." dedi. {B}"Artık biliyorum: bilgisayar da tabak kulesinden ilham almış!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bilge mutfakta tabak kulesinin önünde durmuş, gözleri mutlu ve parlak. Gözlüklerinde küçük yığıt şemaları yansıyor. Yonga omzunun üzerinde duruyor, kollarını açmış, ekranında tabak kulesi ve yığıt iç içe görünüyor. Annenin sesi "Sofrayı kur!" diye geliyor, balonla gösterilmiş. Sıcak sarı-turuncu mutfak ışığı.

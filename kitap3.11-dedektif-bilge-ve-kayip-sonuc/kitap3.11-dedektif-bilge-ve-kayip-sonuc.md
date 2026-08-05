@@ -30,7 +30,7 @@ Bilge başına küçük kareli bir dedektif şapkası takıyor, elinde büyüte�
 ## Sayfa 3 — Olay Yeri
 
 **Metin:**
-İkili programın buyruklarına baktı. Program bir sayaç tutuyordu, sayacı her turda bir artırıyor ve toplama ekliyordu. {Y}"Buyruklar burada duruyor," dedi Yonga, {Y}"ama hangisi suçlu, henüz bilmiyoruz."
+İkili programın buyruklarına baktı. Program bir sayaç tutuyordu, sayacı her turda bir artırıyor ve toplama ekliyordu. {Y}"Buyruklar burada duruyor." dedi Yonga, {Y}"ama hangisi suçlu, henüz bilmiyoruz."
 
 **Resim:**
 Ekranda renkli kutular hâlinde basit buyruk satırları görünüyor. Bilge ve Yonga satırları büyüteçle dikkatle inceliyor.
@@ -40,7 +40,7 @@ Ekranda renkli kutular hâlinde basit buyruk satırları görünüyor. Bilge ve 
 ## Sayfa 4 — İlk Araç: Ara Nokta
 
 **Metin:**
-{B}"Bir dedektif olay yerini adım adım incelemeli," dedi Bilge. {B}"İlk aracımız ara nokta. Programı istediğimiz bir buyrukta durdurup içine bakabiliriz, tıpkı bir filmi duraklatmak gibi." Yonga küçük bir bayrak koydu: {Y}"İşte, tam burada duracağız."
+{B}"Bir dedektif olay yerini adım adım incelemeli." dedi Bilge. {B}"İlk aracımız ara nokta. Programı istediğimiz bir buyrukta durdurup içine bakabiliriz, tıpkı bir filmi duraklatmak gibi." Yonga küçük bir bayrak koydu: {Y}"İşte, tam burada duracağız."
 
 **Resim:**
 Yonga, ekrandaki buyruk listesinde bir satırın yanına küçük kırmızı bir bayrak simgesi koyuyor. Bilge büyüteçle o satıra bakıyor.
@@ -50,7 +50,7 @@ Yonga, ekrandaki buyruk listesinde bir satırın yanına küçük kırmızı bir
 ## Sayfa 5 — Büyüteçle Bakmak
 
 **Metin:**
-Programı çalıştırdılar. Tam ara noktaya gelince program durdu! {B}"Şimdi büyütecimizle içeri bakabiliriz," dedi Bilge. İçeride sayaç ve toplam yazmaçlarının o anki değerlerini görebiliyorlardı. {B}"Her şey burada donmuş gibi, rahatça inceleyebiliriz."
+Programı çalıştırdılar. Tam ara noktaya gelince program durdu! {B}"Şimdi büyütecimizle içeri bakabiliriz." dedi Bilge. İçeride sayaç ve toplam yazmaçlarının o anki değerlerini görebiliyorlardı. {B}"Her şey burada donmuş gibi, rahatça inceleyebiliriz."
 
 **Resim:**
 Program ekranı bir film karesi gibi donmuş durumda. Bilge dev bir büyüteçle ekrana bakıyor, içeride küçük sayılar görünüyor.
@@ -60,7 +60,7 @@ Program ekranı bir film karesi gibi donmuş durumda. Bilge dev bir büyüteçle
 ## Sayfa 6 — İkinci Araç: Adım Adım Yürütme
 
 **Metin:**
-{Y}"Ama tek bir yerde durmak yetmez," dedi Yonga. {Y}"İkinci aracımız adım adım yürütme. Buyrukları tek tek çalıştırıp, her birinden sonra ne değiştiğine bakacağız." Bilge küçük bir düğmeye bastı: {B}"Bir adım," dedi, {B}"sonra bir adım daha."
+{Y}"Ama tek bir yerde durmak yetmez." dedi Yonga. {Y}"İkinci aracımız adım adım yürütme. Buyrukları tek tek çalıştırıp, her birinden sonra ne değiştiğine bakacağız." Bilge küçük bir düğmeye bastı: {B}"Bir adım." dedi. {B}"Sonra bir adım daha."
 
 **Resim:**
 Bilge küçük bir "sonraki adım" düğmesine basıyor. Ekranda buyruklar bir bir aydınlanarak ilerliyor, Yonga yanında not tutuyor.
@@ -70,7 +70,7 @@ Bilge küçük bir "sonraki adım" düğmesine basıyor. Ekranda buyruklar bir b
 ## Sayfa 7 — Adım Adım İzleme
 
 **Metin:**
-Adım adım ilerlediler: sayaç 1 oldu, toplam 1 oldu. Bir adım daha: sayaç 2, toplam 3. Bir adım daha: sayaç 3, toplam 6. {B}"Şimdiye kadar her şey doğru görünüyor," dedi Bilge, gözlerini kısarak ekrana bakarken.
+Adım adım ilerlediler: sayaç 1 oldu, toplam 1 oldu. Bir adım daha: sayaç 2, toplam 3. Bir adım daha: sayaç 3, toplam 6. {B}"Şimdiye kadar her şey doğru görünüyor." dedi Bilge, gözlerini kısarak ekrana bakarken.
 
 **Resim:**
 Küçük bir not defterinde sayaç ve toplam sütunları var. Bilge kalemle sayıları sırayla yazıyor: 1-1, 2-3, 3-6.
@@ -80,7 +80,7 @@ Küçük bir not defterinde sayaç ve toplam sütunları var. Bilge kalemle say�
 ## Sayfa 8 — Üçüncü Araç: Yazmaçlara Bakmak
 
 **Metin:**
-{Y}"Üçüncü aracımız da hazır," dedi Yonga, göğsündeki küçük ekranı açarak. {Y}"Yazmaçlara bakmak. Her adımda sayaç yazmacının ve toplam yazmacının içindeki değerleri tek tek izleyeceğiz, hiçbirini kaçırmayacağız." İkili devam etti: sayaç 4, toplam 10... sayaç 5, toplam 15.
+{Y}"Üçüncü aracımız da hazır." dedi Yonga, göğsündeki küçük ekranı açarak. {Y}"Yazmaçlara bakmak. Her adımda sayaç yazmacının ve toplam yazmacının içindeki değerleri tek tek izleyeceğiz, hiçbirini kaçırmayacağız." İkili devam etti: sayaç 4, toplam 10... sayaç 5, toplam 15.
 
 **Resim:**
 Yonga'nın göğsünde küçük bir ekran açılıyor. Üzerinde "Sayaç Yazmacı" ve "Toplam Yazmacı" etiketli iki kutu ve içlerindeki değişen sayılar görünüyor.
@@ -90,7 +90,7 @@ Yonga'nın göğsünde küçük bir ekran açılıyor. Üzerinde "Sayaç Yazmac�
 ## Sayfa 9 — Beklenmedik Değer
 
 **Metin:**
-Toplam 15 olmuştu, tam istedikleri sayı! {B}"Şimdi durmalı," diye fısıldadı Bilge. Ama program bir adım daha attı. Sayaç yazmacında beklenmedik bir değer belirdi: 6! {B}"Dur, dur, dur," dedi Bilge heyecanla, {B}"sayaç 6 olmamalıydı, program 5'te durmalıydı!"
+Toplam 15 olmuştu, tam istedikleri sayı! {B}"Şimdi durmalı." diye fısıldadı Bilge. Ama program bir adım daha attı. Sayaç yazmacında beklenmedik bir değer belirdi: 6! {B}"Dur, dur, dur." dedi Bilge heyecanla, {B}"sayaç 6 olmamalıydı, program 5'te durmalıydı!"
 
 **Resim:**
 Yazmaç ekranında kırmızı ve parlak bir "6" rakamı büyüyor. Bilge'nin gözleri şaşkınlıkla büyüyor, Yonga'nın ışıkları kırmızıya dönüyor.
@@ -120,7 +120,7 @@ Bilge küçük bir kara tahtaya "15 + 6 = 21" yazıyor. Yanında büyük bir sor
 ## Sayfa 12 — Onarım
 
 **Metin:**
-Bilge döngünün durma koşulunu düzeltti. Döngü artık 6'ya kadar değil, yalnızca 5'e kadar dönecekti. Buyruğu tek bir işaretle değiştirdi. {B}"Bir dedektifin son işi," dedi Bilge, {B}"hatayı düzeltmektir."
+Bilge döngünün durma koşulunu düzeltti. Döngü artık 6'ya kadar değil, yalnızca 5'e kadar dönecekti. Buyruğu tek bir işaretle değiştirdi. {B}"Bir dedektifin son işi." dedi Bilge, {B}"hatayı düzeltmektir."
 
 **Resim:**
 Bilge ekrandaki bir sembolü siliyor ve yerine doğrusunu yazıyor. Yonga yanında minik bir alet çantasıyla yardım ediyor.

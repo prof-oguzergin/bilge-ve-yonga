@@ -30,7 +30,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 3 — İki Türlü Güç
 
 **Metin:**
-{Y}"Bilgisayar iki şekilde enerji harcar," dedi Yonga. {Y}"Birincisi çalışırken olur. Transistörler açılıp kapanırken enerji harcar, buna **devingen güç** denir. İkincisi beklerken olur. Bilgisayar hiçbir şey yapmasa bile içinden azıcık enerji sızar, buna da **durağan güç** denir!"
+{Y}"Bilgisayar iki şekilde enerji harcar." dedi Yonga. {Y}"Birincisi çalışırken olur. Transistörler açılıp kapanırken enerji harcar, buna **devingen güç** denir. İkincisi beklerken olur. Bilgisayar hiçbir şey yapmasa bile içinden azıcık enerji sızar, buna da **durağan güç** denir!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga iki hologram sahnesi gösteriyor: soldaki "Çalışırken" sahnesi — transistörler hızla açılıp kapanıyor, ateş rengi ışıklar parlıyor; sağdaki "Beklerken" sahnesi — transistörler hareketsiz ama altlarında küçük, hafif bir ateş duruyor. Bilge iki sahneyi karşılaştırıyor. Turuncu karşısında soluk sarı tonlar; aktif ve pasif enerji harcaması arasındaki fark görsel olarak net.
@@ -40,7 +40,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 4 — Daha Hızlı, Daha Sıcak
 
 **Metin:**
-{Y}"Transistörler ne kadar hızlı çalışırsa, o kadar çok enerji harcarlar," dedi Yonga. {Y}"Ve daha çok ısı çıkar!" Bilge anladı: {B}"Koşarken daha fazla terleriz, yürürken az!"
+{Y}"Transistörler ne kadar hızlı çalışırsa, o kadar çok enerji harcarlar." dedi Yonga. {Y}"Ve daha çok ısı çıkar!" Bilge anladı: {B}"Koşarken daha fazla terleriz, yürürken az!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bilge'nin düşünce balonunda iki sahne: soldaki yavaş yürüyen çocuk — az ter, serin yüz; sağdaki koşan çocuk — çok ter, kızarmış yüz. Bu benzetme altında küçük transistörler de yavaş ve hızlı olmak üzere karşılaştırılıyor. Yonga "evet, aynen öyle!" der gibi başını sallıyor. Sıcak renkler ve hareket çizgileri; enerji ile hız bağlantısını sezgisel olarak gösteriyor.
@@ -60,7 +60,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 6 — Güç Duvarına Çarpmak
 
 **Metin:**
-{Y}"Mühendisler bir süre çok zorlandı," dedi Yonga ciddi bir ifadeyle. {Y}"Transistörler hız kazandıkça o kadar ısındılar ki bir duvara çarptılar. Daha fazla hızlanamaz oldular!" Bilge sordu: {B}"Duvar mı?"
+{Y}"Mühendisler bir süre çok zorlandı." dedi Yonga ciddi bir ifadeyle. {Y}"Transistörler hız kazandıkça o kadar ısındılar ki bir duvara çarptılar. Daha fazla hızlanamaz oldular!" Bilge sordu: {B}"Duvar mı?"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga hologramda dramatik bir sahne gösteriyor: hız kazanan bir işlemci ateş topuna dönmüş, ilerlerken büyük kırmızı bir duvara çarpıyor — duvarın üzerinde "GÜÇ DUVARI" yazıyor. Çarpma anında kıvılcımlar ve ısı dalgaları her yana saçılıyor. Bilge "dur, ne oluyor?" der gibi ellerini kaldırmış. Dramatik kırmızı ve turuncu tonlar; engel hissi.
@@ -80,7 +80,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 8 — Daha Az Gerilim
 
 **Metin:**
-{Y}"Mühendisler zekice bir yol buldu," dedi Yonga. {Y}"Transistörlere daha az elektrik verdiler!" Bilge anladı: {B}"Ateşi küçülttüler!"
+{Y}"Mühendisler zekice bir yol buldu." dedi Yonga. {Y}"Transistörlere daha az elektrik verdiler!" Bilge anladı: {B}"Ateşi küçülttüler!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga hologramda iki ışık ampulü gösteriyor: soldaki yüksek gerilimli ampul alev gibi parlıyor; sağdaki düşük gerilimli ampul sakin ve yeşilimsi ışık veriyor. Transistörler de benzer şekilde karşılaştırılıyor. Bilge sol ampulle sağ ampul arasında elini gezdiriyor — birinden sıcak, diğerinden serin hava hissediyor. Yeşil ve sarı tonlar karşısında kırmızı; çözümün sakinliği.
@@ -90,7 +90,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 9 — Çok Çekirdek Çözümü
 
 **Metin:**
-{Y}"Başka bir çözüm daha buldular," dedi Yonga. {Y}"Tek hızlı işlemci yerine birkaç sakin işlemci yan yana koydular! Buna **çok çekirdek** denir." Bilge güldü: {B}"Bir koşucu yerine birkaç yürüyüşçü!"
+{Y}"Başka bir çözüm daha buldular." dedi Yonga. {Y}"Tek hızlı işlemci yerine birkaç sakin işlemci yan yana koydular! Buna **çok çekirdek** denir." Bilge güldü: {B}"Bir koşucu yerine birkaç yürüyüşçü!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga hologramda iki sahne gösteriyor: soldaki tek dev işlemci dumanlar tüttürerek neredeyse erimek üzere; sağdaki dört küçük işlemci yan yana sakin sakin çalışıyor, yüzlerinde gülümser ifadeler var. Bilge dört küçük işlemciyi görünce "ah, akıllı!" der gibi parmağını şakağına götürüyor. Mavi ve yeşil renkler; takım çalışması ve verimlilik hissi.
@@ -100,7 +100,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 10 — Enerji Tasarrufu
 
 **Metin:**
-{Y}"Akıllı bilgisayarlar boş zamanlarında 'uyku'ya geçerler," dedi Yonga. {Y}"Uykudayken çok az enerji harcarlar!" Bilge düşündü: {B}"Ben de geceleri uyurken az enerji harcıyorum!"
+{Y}"Akıllı bilgisayarlar boş zamanlarında 'uyku'ya geçerler." dedi Yonga. {Y}"Uykudayken çok az enerji harcarlar!" Bilge düşündü: {B}"Ben de geceleri uyurken az enerji harcıyorum!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Hologramda bir bilgisayar işlemcisi uykuda gösteriliyor — gözleri kapalı, yüzünde huzurlu bir uyuyan ifadesi var, etrafında zz'ler ve ay-yıldız sembolü. Altında enerji göstergesi çok düşük seviyede titreşiyor. Bilge yanında buna bakarak "ben de!" der gibi gülümsüyor. Yonga da başını sallıyor. Koyu mavi, mor ve yumuşak sarı tonlar; huzurlu uyku ve tasarruf hissi.
@@ -120,7 +120,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 12 — Gelecekte Daha Serinleyecek mi?
 
 **Metin:**
-{Y}"Mühendisler yeni malzemeler deniyorlar," dedi Yonga. {Y}"Belki ileride bilgisayarlar hem çok güçlü olacak hem de çok az enerji harcayacak!" Bilge gözlerini parlattı: {B}"Hem güçlü hem serin bir bilgisayar!"
+{Y}"Mühendisler yeni malzemeler deniyorlar." dedi Yonga. {Y}"Belki ileride bilgisayarlar hem çok güçlü olacak hem de çok az enerji harcayacak!" Bilge gözlerini parlattı: {B}"Hem güçlü hem serin bir bilgisayar!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga gelecek tasarımlarını hologramda gösteriyor: şık, ince ve soğuk mavi ışıklı yeni nesil bir işlemci, üzerinde buz kristalleri gibi parlıyor ama verimli ve güçlü. Bilge hayran bakışlarla izliyor — "ben bunu görmek istiyorum" der gibi. Arka planda gelecek teknolojisi atmosferi; soğuk mavi ve yeşil tonlar umut ve hayal gücünü çağrıştırıyor.
@@ -130,7 +130,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 13 — Bilgisayar Serinler
 
 **Metin:**
-Bilge bilgisayarına baktı. {B}"Artık seni anlıyorum," dedi sevgiyle. {B}"İçinde milyarlarca küçük ateş var, ama sen onları yönetiyorsun!" Yonga gülümsedi: {Y}"Aynen öyle, Bilge!"
+Bilge bilgisayarına baktı. {B}"Artık seni anlıyorum." dedi sevgiyle. {B}"İçinde milyarlarca küçük ateş var, ama sen onları yönetiyorsun!" Yonga gülümsedi: {Y}"Aynen öyle, Bilge!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bilge bilgisayarının ekranını sever gibi hafifçe dokunuyor; ekrandan sevimli küçük transistörler onu selamlıyor. Bilgisayarın içinde minik ateşler ve pervaneler uyum içinde çalışıyor — ama her şey dengede ve sakin. Yonga yanında, mavi ışığıyla ısınıyor gibi. Arka planda sıcak ve sevecen bir ev atmosferi. Altın, mavi ve turuncu tonlar; anlayış ve sevgi hissiyle dolu kapanış.

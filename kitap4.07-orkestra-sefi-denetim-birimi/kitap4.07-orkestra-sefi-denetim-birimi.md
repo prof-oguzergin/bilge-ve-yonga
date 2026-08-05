@@ -142,7 +142,7 @@ Yonga'nın ışığı bir an titredi. {Y}"O zaman AMB yanlış işi yapar ya da 
 
 {B}"Ne kötü!" dedi Bilge.
 
-{Y}"İşte bu yüzden mühendisler denetim birimini uzun uzun sınar," dedi Yonga. {Y}"Her buyruk için hangi işaretin gitmesi gerektiğini tek tek denerler, yanlış giden bir işaret kalmasın diye."
+{Y}"İşte bu yüzden mühendisler denetim birimini uzun uzun sınar." dedi Yonga. {Y}"Her buyruk için hangi işaretin gitmesi gerektiğini tek tek denerler, yanlış giden bir işaret kalmasın diye."
 
 **Resim:**
 Şef figürü yanlışlıkla ters yöne bir ok gönderiyor, bir yazmaç kutusu şaşkın bir yüz ifadesiyle soru işareti gösteriyor, arka planda hafif kırmızımsı bir uyarı tonu.
@@ -166,7 +166,7 @@ Küçük bir harita: bağlantı telleri ve buyruğun yolculuk okları önceki ki
 **Metin:**
 Bilge pencereden dışarı baktı, uzaktan hâlâ konser salonunun ışıkları görünüyordu.
 
-{B}"Artık konsere gidince hem şefi hem çalgıcıları izleyeceğim," dedi.
+{B}"Artık konsere gidince hem şefi hem çalgıcıları izleyeceğim." dedi.
 
 Yonga ışığını sıcak bir tonda yaktı. {Y}"Ben de içimdeki küçük şefimi hiç unutmayacağım Bilge."
 

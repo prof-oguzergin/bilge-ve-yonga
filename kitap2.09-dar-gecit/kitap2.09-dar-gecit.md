@@ -11,7 +11,7 @@
 
 **Metin:**
 
-Bilge ve Yonga, mahalle şenliği için mutfakta kek yapmaya yardım ediyorlardı. Şef Amca çok hızlıydı, elleri uçuyordu, her hareketi kusursuzdu. Ama kek malzemeleri mutfak deposunda saklıydı ve deponun kapısı dar, koridoru uzundu. {B}"Şef Amca bekliyor," dedi Bilge endişeyle. Yonga gözlerini kırptı: {Y}"İşte burada bir sorun var."
+Bilge ve Yonga, mahalle şenliği için mutfakta kek yapmaya yardım ediyorlardı. Şef Amca çok hızlıydı, elleri uçuyordu, her hareketi kusursuzdu. Ama kek malzemeleri mutfak deposunda saklıydı ve deponun kapısı dar, koridoru uzundu. {B}"Şef Amca bekliyor." dedi Bilge endişeyle. Yonga gözlerini kırptı: {Y}"İşte burada bir sorun var."
 
 **Resim:**
 
@@ -23,7 +23,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 **Metin:**
 
-{Y}"Şef Amca dakikada yüz hareket yapabiliyor," dedi Yonga. {Y}"Ama depodan malzeme getirmek dakikalar sürüyor. Bu süre boyunca Şef Amca ne yapıyor?" Bilge cevapladı: {B}"Bekliyor!" {Y}"Evet," dedi Yonga. {Y}"Şef Amca bir işlemci gibi: çok hızlı. Depo ise bellek gibi: çok yavaş."
+{Y}"Şef Amca dakikada yüz hareket yapabiliyor." dedi Yonga. {Y}"Ama depodan malzeme getirmek dakikalar sürüyor. Bu süre boyunca Şef Amca ne yapıyor?" Bilge cevapladı: {B}"Bekliyor!" {Y}"Evet." dedi Yonga. {Y}"Şef Amca bir işlemci gibi: çok hızlı. Depo ise bellek gibi: çok yavaş."
 
 **Resim:**
 
@@ -35,7 +35,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 **Metin:**
 
-{B}"Bu soruna bilgisayarlarda ne diyoruz?" diye sordu Bilge. {Y}"Bellek duvarı," dedi Yonga. {Y}"İşlemci saniyede milyarlarca işlem yapabilir. Ama hesaplamak için verilere ihtiyacı var ve bu veriler bellekte saklanıyor." Bilge anladı: {B}"Ama veriler işlemciye yavaş ulaşıyor."
+{B}"Bu soruna bilgisayarlarda ne diyoruz?" diye sordu Bilge. {Y}"Bellek duvarı." dedi Yonga. {Y}"İşlemci saniyede milyarlarca işlem yapabilir. Ama hesaplamak için verilere ihtiyacı var ve bu veriler bellekte saklanıyor." Bilge anladı: {B}"Ama veriler işlemciye yavaş ulaşıyor."
 
 **Resim:**
 
@@ -67,11 +67,11 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 ---
 
-## Sayfa 6 — Önbellek Nasıl Çalışır
+## Sayfa 6 — Önbellek Nasıl Çalışır?
 
 **Metin:**
 
-{B}"Önbellek nasıl çalışıyor?" diye sordu Bilge. Yonga anlattı: {Y}"İşlemcinin yanında, ona çok yakın küçük ama hızlı bir depo vardır. En sık kullanılan veriler oraya konur." Bilge düşündü: {B}"Ama tezgah küçük, her şeyi sığdıramazsın." {Y}"Evet," dedi Yonga. {Y}"Önbellek küçüktür ama işlemci gibi hızlıdır."
+{B}"Önbellek nasıl çalışıyor?" diye sordu Bilge. Yonga anlattı: {Y}"İşlemcinin yanında, ona çok yakın küçük ama hızlı bir depo vardır. En sık kullanılan veriler oraya konur." Bilge düşündü: {B}"Ama tezgah küçük, her şeyi sığdıramazsın." {Y}"Evet." dedi Yonga. {Y}"Önbellek küçüktür ama işlemci gibi hızlıdır."
 
 **Resim:**
 
@@ -95,7 +95,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 **Metin:**
 
-{B}"Peki önbellekte aradığın şeyi bulamazsan ne olur?" diye sordu Bilge. {Y}"O zaman depoya gitmen gerekir," dedi Yonga. {Y}"Bilgisayarlarda buna **bulamama** diyoruz. İşlemci ihtiyacı olan veriyi önbellekte bulamaz ve bellekten getirmek zorunda kalır. Bu zaman alır." Bilge içini çekti: {B}"O zaman işlemci yine bekler."
+{B}"Peki önbellekte aradığın şeyi bulamazsan ne olur?" diye sordu Bilge. {Y}"O zaman depoya gitmen gerekir." dedi Yonga. {Y}"Bilgisayarlarda buna **bulamama** diyoruz. İşlemci ihtiyacı olan veriyi önbellekte bulamaz ve bellekten getirmek zorunda kalır. Bu zaman alır." Bilge içini çekti: {B}"O zaman işlemci yine bekler."
 
 **Resim:**
 
@@ -107,7 +107,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 **Metin:**
 
-{B}"Önbellek ne kadar büyük olmalı?" diye sordu Bilge. {Y}"Büyük olursa daha çok şey sığar ama içinde aramak uzun sürer," dedi Yonga. {Y}"Küçük olursa hızlıdır ama az şey sığar." Bilge düşündü: {B}"Demek ki tam doğru boyutu bulmak önemli." Yonga başını salladı: {Y}"Bu, bilgisayar mimarlarının her zaman çözdüğü bir denge sorusudur."
+{B}"Önbellek ne kadar büyük olmalı?" diye sordu Bilge. {Y}"Büyük olursa daha çok şey sığar ama içinde aramak uzun sürer." dedi Yonga. {Y}"Küçük olursa hızlıdır ama az şey sığar." Bilge düşündü: {B}"Demek ki tam doğru boyutu bulmak önemli." Yonga başını salladı: {Y}"Bu, bilgisayar mimarlarının her zaman çözdüğü bir denge sorusudur."
 
 **Resim:**
 

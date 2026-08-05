@@ -24,11 +24,11 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 2 — Tek Kutu, Bir Sürü İş
 
 **Metin:**
-{Y}"AMB toplar, çıkarır, karşılaştırır, üstelik mantık işlemleri de yapar: VE, VEYA, Dışlayan VEYA, DEĞİL," diye anlattı Yonga.
+{Y}"AMB toplar, çıkarır, karşılaştırır, üstelik mantık işlemleri de yapar: VE, VEYA, Dışlayan VEYA, DEĞİL." diye anlattı Yonga.
 
 {B}"Hepsi aynı kutunun içinde mi?" diye sordu Bilge şaşkınlıkla.
 
-{Y}"Evet," dedi Yonga gülümseyerek. {Y}"Tek kutu, bir sürü iş!"
+{Y}"Evet." dedi Yonga gülümseyerek. {Y}"Tek kutu, bir sürü iş!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Ortada mavi metalik bir kutu duruyor; üzerinde küçük renkli simgeler sıralanmış: bir artı işareti, bir eksi işareti, küçük bir terazi, ve kesişen iki çember ile ayrık iki çember simgesi. Bilge kutunun etrafında dönerek simgeleri tek tek parmağıyla sayıyor, Yonga gururla kutuyu işaret ediyor.
@@ -40,7 +40,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 {B}"Peki bu alete sayıları nasıl veriyorsun?" diye merak etti Bilge.
 
-{Y}"AMB'nin iki **girişi** var," diye açıkladı Yonga. {Y}"Her birine bir yazmaçtan sayı girer. AMB onları işler ve tek **çıkıştan** sonucu dışarı verir."
+{Y}"AMB'nin iki **girişi** var." diye açıkladı Yonga. {Y}"Her birine bir yazmaçtan sayı girer. AMB onları işler ve tek **çıkıştan** sonucu dışarı verir."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Kutu biçimli AMB'nin sol tarafında iki ayrı giriş kapısından renkli sayı kutucukları (biri sarı 7, biri yeşil 3) içeri süzülüyor; sağ tarafındaki tek çıkış kapısından parlak bir sonuç ışını çıkıyor. Bilge iki eliyle iki girişi aynı anda işaret ediyor, Yonga çıkışın önünde bekliyor.
@@ -52,7 +52,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 {B}"Peki AMB toplayacağını mı çıkaracağını mı nereden biliyor?" diye sordu Bilge.
 
-{Y}"Bir **işlem seçici** var, tıpkı çok işlevli aletin düğmesi gibi," dedi Yonga. {Y}"Denetim birimi, okuduğu buyruğa bakıp bu düğmeyi doğru yere çeviriyor."
+{Y}"Bir **işlem seçici** var, tıpkı çok işlevli aletin düğmesi gibi." dedi Yonga. {Y}"Denetim birimi, okuduğu buyruğa bakıp bu düğmeyi doğru yere çeviriyor."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. AMB kutusunun üstünde küçük bir kadran (dial) var; kadranın üzerinde toplama, çıkarma, VE, VEYA sembolleri sırayla dizilmiş. Küçük bir el şeklindeki ışık huzmesi (denetim birimini simgeliyor) kadranı toplama sembolüne doğru çeviriyor. Bilge kadranın dönüşünü hayranlıkla izliyor.
@@ -76,9 +76,9 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 6 — VE mi VEYA mı?
 
 **Metin:**
-{B}"Mantık işleri de var demiştin," dedi Bilge.
+{B}"Mantık işleri de var demiştin." dedi Bilge.
 
-{Y}"Onları zaten biliyorsun," dedi Yonga. {Y}"**VE**, ikisi de 1 ise 1 verir. **VEYA** ise biri bile 1 ise 1 verir."
+{Y}"Onları zaten biliyorsun." dedi Yonga. {Y}"**VE**, ikisi de 1 ise 1 verir. **VEYA** ise biri bile 1 ise 1 verir."
 
 Bilge hemen hatırladı. {B}"Katı öğretmen ile cömert arkadaş! Maskeleri öğrenirken tanışmıştık."
 
@@ -92,7 +92,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 {B}"Peki Dışlayan VEYA?" diye sordu Bilge.
 
-{Y}"O da tanıdık," dedi Yonga. {Y}"İkisi farklıysa 1, ikisi aynıysa 0 verir. **DEĞİL** ise tek girişi tersine çevirir: 1'i 0, 0'ı 1 yapar."
+{Y}"O da tanıdık." dedi Yonga. {Y}"İkisi farklıysa 1, ikisi aynıysa 0 verir. **DEĞİL** ise tek girişi tersine çevirir: 1'i 0, 0'ı 1 yapar."
 
 Bilge güldü. {B}"DEĞİL küçük bir yaramaz, her şeyi ters çeviriyor!"
 
@@ -106,7 +106,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 {B}"Peki AMB karşılaştırma da yapabiliyor mu?" diye sordu Bilge.
 
-{Y}"Evet, ama gizlice çıkarma yaparak," dedi Yonga. {Y}"İki sayıyı birbirinden çıkarır, sonuca bakınca hangisinin büyük olduğu anlaşılır."
+{Y}"Evet, ama gizlice çıkarma yaparak." dedi Yonga. {Y}"İki sayıyı birbirinden çıkarır, sonuca bakınca hangisinin büyük olduğu anlaşılır."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Ortada altın rengi bir terazi duruyor; bir kefesinde "9" yazan kart, diğer kefesinde "4" yazan kart var. Terazi büyük sayıya doğru eğilmiş. Yonga terazinin ipini nazikçe tutuyor, Bilge hangi tarafın ağır bastığını heyecanla izliyor.
@@ -116,11 +116,11 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 9 — Bayrak Zamanı
 
 **Metin:**
-{Y}"AMB her işlemden sonra küçük **bayraklar** kaldırır," diye devam etti Yonga. {Y}"Sonuç sıfırsa sıfır bayrağı, sonuç eksiyse eksi bayrağı yükselir."
+{Y}"AMB her işlemden sonra küçük **bayraklar** kaldırır." diye devam etti Yonga. {Y}"Sonuç sıfırsa sıfır bayrağı, sonuç eksiyse eksi bayrağı yükselir."
 
 {B}"Bayrak mı?" dedi Bilge. {B}"Hani elde de bir bayrak gibiydi."
 
-{Y}"İyi yakaladın, ama bunlar başka," dedi Yonga. {Y}"Elde komşu basamağa geçerdi. Bunlar geçmez; yerinde durup sonucun nasıl çıktığını haber verir."
+{Y}"İyi yakaladın, ama bunlar başka." dedi Yonga. {Y}"Elde komşu basamağa geçerdi. Bunlar geçmez; yerinde durup sonucun nasıl çıktığını haber verir."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. AMB kutusunun üstünde iki küçük bayrak direği var; birinin bayrağında büyük "0" yazıyor ve rüzgârda dalgalanıyor, diğerinde küçük bir eksi işareti var ve şu an aşağıda duruyor. Yonga bir bayrağı yukarı çekerken Bilge alkışlıyor, arka planda küçük bir yarış pisti şeridi görünüyor.
@@ -132,7 +132,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 {B}"Bu bayraklar neye yarıyor?" diye sordu Bilge.
 
-{Y}"Denetim birimi onlara bakıp karar veriyor," dedi Yonga. {Y}"Örneğin bir yazmacı sıfırla karşılaştırıp hangi yola dallanacağını seçiyor."
+{Y}"Denetim birimi onlara bakıp karar veriyor." dedi Yonga. {Y}"Örneğin bir yazmacı sıfırla karşılaştırıp hangi yola dallanacağını seçiyor."
 
 Bilge birden hatırladı. {B}"Parkta gördüğümüz kavşak gibi! Bayrak, hangi yola gideceğimizi gösteren tabela!"
 
@@ -146,7 +146,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 {B}"Peki AMB her turda aynı işi mi yapıyor?" diye sordu Bilge merakla.
 
-{Y}"Hayır! Bir turda toplama yapar, bir sonraki turda karşılaştırma," dedi Yonga. {Y}"Hep aynı alet, ama buyruk değişince yaptığı iş de değişir."
+{Y}"Hayır! Bir turda toplama yapar, bir sonraki turda karşılaştırma." dedi Yonga. {Y}"Hep aynı alet, ama buyruk değişince yaptığı iş de değişir."
 
 Bilge güldü. {B}"Tıpkı o çok işlevli mutfak aleti gibi, bir gün çırpıyor bir gün doğruyor!"
 

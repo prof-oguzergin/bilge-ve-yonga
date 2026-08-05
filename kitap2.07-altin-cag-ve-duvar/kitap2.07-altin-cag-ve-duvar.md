@@ -30,7 +30,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 3 — Hayali Yarış Arabaları
 
 **Metin:**
-Yonga hayal dünyasına davet etti: {Y}"Düşün, yarış arabaları birkaç yılda bir iki kat hızlanıyor." Bilge gözlerini kapattı. Önce arabaların saatte 100 kilometre gittiğini, birkaç yıl sonra 200, ardından 400 kilometreye çıktığını hayal etti. {B}"Bu inanılmaz!" dedi Bilge. {Y}"Yıllar boyu böyle devam etti," dedi Yonga.
+Yonga hayal dünyasına davet etti: {Y}"Düşün, yarış arabaları birkaç yılda bir iki kat hızlanıyor." Bilge gözlerini kapattı. Önce arabaların saatte 100 kilometre gittiğini, birkaç yıl sonra 200, ardından 400 kilometreye çıktığını hayal etti. {B}"Bu inanılmaz!" dedi Bilge. {Y}"Yıllar boyu böyle devam etti." dedi Yonga.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bilge'nin hayal baloncuğu içinde bir zaman çizelgesi: 1980'de küçük yavaş araba, 1990'da biraz daha hızlı, 2000'de çok hızlı araba, 2005'te ışık hızında giden süper araba. Her aracın altında hız rakamları giderek büyüyor. Yonga yanında küçük kollarını yanlara açmış, heyecanlı.
@@ -40,7 +40,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 4 — Isınan Motorlar
 
 **Metin:**
-{B}"Peki bu altın çağ neden bitti?" diye sordu Bilge. Yonga yavaşça başını salladı: {Y}"Çünkü arabaları daha hızlı yapınca, motorları çok ısınmaya başladı." Bilge duraksadı: {B}"Demek araba ne kadar hızlı giderse o kadar çok ısınıyor, öyle mi?" {Y}"Evet," dedi Yonga. {Y}"Çok ısınan motor bozulur. Buna **güç duvarı** deriz."
+{B}"Peki bu altın çağ neden bitti?" diye sordu Bilge. Yonga yavaşça başını salladı: {Y}"Çünkü arabaları daha hızlı yapınca, motorları çok ısınmaya başladı." Bilge duraksadı: {B}"Demek araba ne kadar hızlı giderse o kadar çok ısınıyor, öyle mi?" {Y}"Evet." dedi Yonga. {Y}"Çok ısınan motor bozulur. Buna **güç duvarı** deriz."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yarış pistinde süper hızlı bir araba aniden duruyor; motorundan alev dilleri çıkıyor ve kırmızı bir "DUVAR!" tabelası önüne düşüyor. Arabanın sahibi şapkasını düşürüp elleriyle kafasını tutuyor. Bilge ve Yonga kenardan endişeyle izliyor.
@@ -50,7 +50,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 5 — Güç Duvarı Ortaya Çıkıyor
 
 **Metin:**
-{B}"Bu duvar ne zaman belirdi?" diye sordu Bilge. {Y}"2004 ve 2005 yıllarında," dedi Yonga. {Y}"Mühendisler saat vuruş sıklığını daha fazla artıramayacaklarını fark etti. Yongalar o kadar ısınıyordu ki eriyip bozulabilirdi." Bilge içini çekti: {B}"O zaman yıllar boyu sürüp giden hız artışı durdu mu?" {Y}"Durdu," dedi Yonga.
+{B}"Bu duvar ne zaman belirdi?" diye sordu Bilge. {Y}"2004 ve 2005 yıllarında." dedi Yonga. {Y}"Mühendisler saat vuruş sıklığını daha fazla artıramayacaklarını fark etti. Yongalar o kadar ısınıyordu ki eriyip bozulabilirdi." Bilge içini çekti: {B}"O zaman yıllar boyu sürüp giden hız artışı durdu mu?" {Y}"Durdu." dedi Yonga.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Büyük bir duvar çizimi; duvarın sol tarafında yıllara göre yükselen bir çubuk grafiği var: 1980'den 2004'e kadar tırmanıyor, sonra 2004'te düz bir çizgiyle duruyor. Duvarın üstünde "GÜÇ DUVARI" yazıyor. Bir mühendis figürü duvarın önünde başını eğmiş durmuş.
@@ -80,7 +80,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 8 — Çekirdekler Arası Konuşma
 
 **Metin:**
-{B}"Ama Yonga," dedi Bilge düşünerek, {B}"iki araba aynı anda hem kendi işini yapmalı hem de birbirleriyle konuşmalı, değil mi?" {Y}"Çok güzel buldun!" dedi Yonga. {Y}"Bu zor bir iştir. Arabaların düzgün çalışması için aralarında eşgüdüm olmalı. Bunun için yazılımların da değişmesi gerekti."
+{B}"Ama Yonga." dedi Bilge düşünerek, {B}"iki araba aynı anda hem kendi işini yapmalı hem de birbirleriyle konuşmalı, değil mi?" {Y}"Çok güzel buldun!" dedi Yonga. {Y}"Bu zor bir iştir. Arabaların düzgün çalışması için aralarında eşgüdüm olmalı. Bunun için yazılımların da değişmesi gerekti."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. İki araba yan yana koşuyor ama aralarında renkli bir iletişim kablosu bağlı; kablodan konuşma balonları çıkıyor: "Sen bu işi yap", "Ben şunu yapıyorum". Yonga bu sahneyi küçük bir levhada gösteriyor. Bilge hayranlıkla bakıyor.
@@ -90,7 +90,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 9 — Uzmanlaşma Çağı
 
 **Metin:**
-{B}"Peki çok çekirdekten sonra ne oldu? Duvar bitti mi?" diye sordu Bilge. Yonga yavaşça başını salladı: {Y}"Çok çekirdek çok yardımcı oldu. Ama yeni bir dönem de başladı: uzmanlaşma çağı." Bilge kaşlarını kaldırdı: {B}"Uzmanlaşma?" {Y}"Her araba artık tek bir yolda çok iyi olmaya başladı," dedi Yonga.
+{B}"Peki çok çekirdekten sonra ne oldu? Duvar bitti mi?" diye sordu Bilge. Yonga yavaşça başını salladı: {Y}"Çok çekirdek çok yardımcı oldu. Ama yeni bir dönem de başladı: uzmanlaşma çağı." Bilge kaşlarını kaldırdı: {B}"Uzmanlaşma?" {Y}"Her araba artık tek bir yolda çok iyi olmaya başladı." dedi Yonga.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Pist bölünmüş üç ayrı kulvara: birinde "Yapay Zeka" yazan özel araba, ikincisinde "Grafik" yazan farklı araba, üçüncüsünde "Genel İşlem" yazan araba. Her araba kendi yolunda hızla gidiyor. Yonga bu pistin minyatür modelini elinde tutuyor.
@@ -100,7 +100,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 10 — Her İş İçin Özel Araç
 
 **Metin:**
-{Y}"Uzmanlaşma şu anlama gelir," dedi Yonga. {Y}"Artık her şeyi yapan tek bir araba yerine, her iş için özel araçlar yapılıyor." Bilge heyecanlandı: {B}"Telefon için özel, oyun için özel, yapay zeka için özel?" {Y}"Kesinlikle!" dedi Yonga. {Y}"Bugün kullandığın telefonun içinde bile birden fazla özel çekirdek var."
+{Y}"Uzmanlaşma şu anlama gelir." dedi Yonga. {Y}"Artık her şeyi yapan tek bir araba yerine, her iş için özel araçlar yapılıyor." Bilge heyecanlandı: {B}"Telefon için özel, oyun için özel, yapay zeka için özel?" {Y}"Kesinlikle!" dedi Yonga. {Y}"Bugün kullandığın telefonun içinde bile birden fazla özel çekirdek var."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Büyük bir masa üzerinde üç farklı cihaz yan yana: akıllı telefon, oyun konsolu, yapay zeka sunucusu. Her birinin altında küçük bir yonga kesit görünümü var: farklı renklerde özel çekirdekler işaretlenmiş. Bilge bunları dikkatle inceliyor, Yonga her birine işaret ediyor.
@@ -120,7 +120,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 12 — Eski Ders Kitabı
 
 **Metin:**
-Dedesi eski bir ders kitabı çıkardı: {D}"Ben mühendislik okurken tek çekirdekli işlemciler yeni çıkıyordu," dedi. Bilge kitabın sararmış sayfalarındaki eski yongalara baktı. {B}"Ne kadar değişmiş!" dedi. Yonga güldü: {Y}"Değişmeye de devam edecek. Belki sen de bu değişimi yapacaksın, Bilge."
+Dedesi eski bir ders kitabı çıkardı: {D}"Ben mühendislik okurken tek çekirdekli işlemciler yeni çıkıyordu." dedi. Bilge kitabın sararmış sayfalarındaki eski yongalara baktı. {B}"Ne kadar değişmiş!" dedi. Yonga güldü: {Y}"Değişmeye de devam edecek. Belki sen de bu değişimi yapacaksın, Bilge."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Dede sararmış bir kitap tutmuş; içindeki sayfada çok basit bir yonga diyagramı görünüyor. Bilge kitaba bakıyor, sağ tarafında ise Yonga'nın ekranında günümüz çok çekirdekli yonga görüntüsü var. İki resim yan yana: eskisi sade, yenisi renkli ve karmaşık. Pencereden sıcak öğleden sonra güneşi vuruyor.
@@ -130,7 +130,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 13 — Tarihi Çizmek
 
 **Metin:**
-Bilge o gün yatmadan önce bir çizim yaptı: solda tek bir araba (1980), ortada duvarla çarpışan araba (2004), sağda ise dört araba yan yana koşuyor (günümüz). {B}"Tarih böyle yazılmış," dedi Bilge memnuniyetle. Yonga ekranında küçük bir kalp çizdi: {Y}"Ve sen bu tarihi biliyorsun artık."
+Bilge o gün yatmadan önce bir çizim yaptı: solda tek bir araba (1980), ortada duvarla çarpışan araba (2004), sağda ise dört araba yan yana koşuyor (günümüz). {B}"Tarih böyle yazılmış." dedi Bilge memnuniyetle. Yonga ekranında küçük bir kalp çizdi: {Y}"Ve sen bu tarihi biliyorsun artık."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Sıcak ışıklı çocuk odası; Bilge masada büyük bir kağıda çizim yapıyor. Çizimde soldan sağa: tek araba, duvar, dört araba. Altına tarih yazıları ekliyor. Yonga omzunda oturmuş, ekranında kırmızı bir kalp animasyonu yanıyor. Dışarıda yıldızlı gece.
