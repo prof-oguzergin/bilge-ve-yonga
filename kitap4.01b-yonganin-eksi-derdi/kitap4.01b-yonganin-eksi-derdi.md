@@ -1,4 +1,4 @@
-# Sıfırdan Bir Geri
+# Yonga'nın Eksi Derdi
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 4: İşlemcinin İçi — Kitap 4.1b
 **Yaş grubu:** 9–12 (okuma bilen)
@@ -29,7 +29,7 @@ Yonga'nın ışıkları düşünceli bir ritimle yanıp söndü. {Y}"Benim küç
 **Metin:**
 {B}"Kolay!" dedi Bilge. {B}"Bir kutucuğu işaret için ayır. Sıfırsa artı, birse eksi olsun."
 
-{Y}"Bu yol denendi." dedi Yonga. {Y}"Ama bir tuhaflığı var. O zaman iki tane sıfır çıkıyor, artı sıfır ve eksi sıfır."
+{Y}"Bu yol denendi." dedi Yonga. {Y}"Ama bu yolun tuhaf bir yanı var. O zaman iki tane sıfır çıkıyor, artı sıfır ve eksi sıfır."
 
 Bilge duraksadı. {B}"İki sıfır mı? Hangisi gerçek sıfır?"
 

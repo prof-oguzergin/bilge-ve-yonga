@@ -132,7 +132,7 @@ BOOKS = [
      'Hata ayıklama: ara nokta, adım adım yürütme, yazmaçlara bakmak', '#144822'),
     ('kitap4.01a-eldenin-yolculugu', '4.1a', 'Eldenin Yolculuğu',
      'Toplayıcılar ve eldenin basamaktan basamağa yolculuğu', '#9B5FD0'),
-    ('kitap4.01b-sifirdan-bir-geri', '4.1b', 'Sıfırdan Bir Geri',
+    ('kitap4.01b-yonganin-eksi-derdi', '4.1b', "Yonga'nın Eksi Derdi",
      'Eksi sayılar bitlerle nasıl yazılır: sıfırdan bir geri ve ikiye tümleyen',
      '#9559C9'),
     ('kitap4.02-cok-yonlu-alet-amb', '4.2', 'Çok Yönlü Alet: AMB',
