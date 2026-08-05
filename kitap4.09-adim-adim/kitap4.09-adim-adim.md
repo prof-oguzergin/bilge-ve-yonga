@@ -14,7 +14,7 @@ Bilge kahvaltı masasında oturmuş, dünkü konuyu düşünüyordu.
 
 {B}"Yonga, dün tek vuruşluk işlemciyi konuşmuştuk," dedi. {B}"Herkes en yavaş buyruğun bitmesini bekliyordu, değil mi?"
 
-{Y}"Doğru hatırlıyorsun," dedi Yonga. {Y}"Kısa bir buyruk bile, en uzun buyruk kadar beklemek zorundaydı. Çok israf oluyordu."
+{Y}"Doğru hatırlıyorsun," dedi Yonga. {Y}"Kısa bir buyruk bile, en uzun buyruk kadar beklemek zorundaydı. Çok zaman boşa gidiyordu."
 
 {B}"Bunu düzeltmenin bir yolu var mı?" diye sordu Bilge, kaşığını kaldırıp sallayarak.
 
@@ -57,7 +57,7 @@ Bilge parmağını masaya vurarak ritim tuttu. {B}"Tık, tık, tık, ben de saat
 ## Sayfa 4 — Kısa Buyruk, Az Tık
 
 **Metin:**
-{Y}"Şimdi örnek yapalım," dedi Yonga. {Y}"Bir atlama buyruğu düşün. Getirilir, çözülür, sonra AMB karşılaştırmayı yapar. Bitti! Üç tık."
+{Y}"Şimdi örnek yapalım," dedi Yonga. {Y}"Bir dallanma buyruğu düşün. Getirilir, çözülür, sonra AMB karşılaştırmayı yapar. Bitti! Üç tık."
 
 {B}"Yazmaca hiçbir şey yazmıyor mu?" diye sordu Bilge.
 
@@ -89,7 +89,7 @@ Bilge sevinçle ellerini çırptı. {B}"Üç kaşıkla biten çorba, dört kaş�
 **Metin:**
 {B}"Dün demiştin ki, tek vuruşluk işlemcide herkes en yavaş buyruğu bekliyordu," dedi Bilge, birden gözleri parladı. {B}"Şimdi öyle değil, değil mi?"
 
-{Y}"Tam isabet!" dedi Yonga. {Y}"Atlama üç tıkta biter, yükleme beş tıkta. Kısa buyruk artık uzun buyruğu beklemek zorunda kalmıyor. Bu tasarımın adı **çok vuruşluk** işlemci, çünkü bir buyruk birden çok vuruş kullanıyor."
+{Y}"Tam isabet!" dedi Yonga. {Y}"Dallanma üç tıkta biter, yükleme beş tıkta. Kısa buyruk artık uzun buyruğu beklemek zorunda kalmıyor. Bu tasarımın adı **çok vuruşluk** işlemci, çünkü bir buyruk birden çok vuruş kullanıyor."
 
 {B}"Demek her buyruk kendi tabağını kendi hızında bitiriyor!" dedi Bilge sevinçle.
 
@@ -225,7 +225,7 @@ Yonga gözlerini kıstı, gizemli bir gülümsemeyle. {Y}"İşte bu çok iyi bir
 
 🥄 **Çok vuruşluk** tasarımda bilgisayar bir buyruğu tek koca adımda değil, kısa **saat vuruşlarına** bölünmüş küçük adımlarda yapar.
 ⏱️ Her adım kısa ve sabit bir vuruş sürer, tıpkı bir kaşık yemek gibi. Bazı duraklar aynı tıkta birlikte yapılır, bu yüzden tık sayısı durak sayısından azdır.
-🐣 Kısa bir buyruk az tıkta biter, uzun bir buyruk daha çok tık ister: atlama üç, toplama dört, bellekten yükleme beş tık.
+🐣 Kısa bir buyruk az tıkta biter, uzun bir buyruk daha çok tık ister: dallanma üç, toplama dört, bellekten yükleme beş tık.
 🚀 Kısa buyruklar artık hızlıca biter, kimse en yavaş buyruğu beklemek zorunda kalmaz.
 ♻️ **AMB** ve bellek gibi parçalar, aynı buyruk içinde farklı adımlarda yeniden kullanılabilir.
 🔧 Parçaları yeniden kullanmak, daha az donanımla daha çok iş yapmak demektir.
