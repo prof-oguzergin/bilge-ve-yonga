@@ -1,6 +1,6 @@
 # Elde'nin Yolculuğu
 
-**Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 4: İşlemcinin İçi — Kitap 4.1
+**Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 4: İşlemcinin İçi — Kitap 4.1a
 **Yaş grubu:** 9–12 (okuma bilen)
 **Ana tema:** Bilgisayar, iki sayıyı toplarken sağdan sola giden küçük bir "elde" zinciri kurar; her basamak kendi payına düşen toplamı yapar ve fazlasını komşusuna aktarır.
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, yuvarlak gözlüklü meraklı kız) ve Yonga (küçük, yuvarlak, mavi-gümüş renkli sevimli robot)
@@ -177,32 +177,17 @@ Bilge defterine baktı. {B}"Bu da onluk düzende sekiz eder! Üç artı beş sek
 **Metin:**
 {B}"Peki bilgisayar çıkarma işlemini nasıl yapıyor? Ayrı bir makinesi mi var?" diye sordu Bilge.
 
-{Y}"Hayır, ayrı bir makinesi yok! Bir sayının **eksisini** bulmanın kısa bir yolu var: bütün bitlerini ters çevir, sonra bir ekle."
+{Y}"Hayır, ayrı bir makinesi yok!" dedi Yonga. {Y}"Beş eksi üç yerine beş artı eksi üç yapar. Eksi üçü zincire verir, zincir yine sağdan sola yürür ve sonunda ikiyi bulur."
 
-{B}"Bu kadar mı? Demek eksi sayıyı böyle elde ediyor!"
+Bilge alkışladı. {B}"Toplayıcımız hem toplama hem çıkarma yapan gizli bir kahraman! Peki eksi üçü sıfırlarla ve birlerle nasıl yazıyorsun?"
 
-{Y}"Aynen öyle. Bu iki adımın bir de adı var: **ikiye tümleyen**. Sonra o eksi sayıyı normal toplama gibi ekler. Aynı toplayıcı zinciri, fazladan bir makineye gerek kalmadan çıkarmayı da yapmış olur."
-
-**Resim:** Yonga'nın havaya yansıttığı hologramda bir sayı önce ters çevrilirken (bitler 0 ile 1 yer değiştirirken küçük dönme okları ile) gösteriliyor, sonra üzerine küçük bir "+1" damgası vuruluyor. Bilge şaşkın ve hayran bir ifadeyle izliyor, elleri yanaklarında.
-
----
-
-## Sayfa 13 — Beş Eksi Üç, Aslında Beş Artı Eksi Üç
-
-**Metin:**
-{Y}"Hadi deneyelim," dedi Yonga. {Y}"Beş eksi üç, aslında beş artı eksi üç olarak hesaplanır."
-
-{B}"Önce eksi üçü ikiye tümleyenle buluyoruz, sonra beşe ekliyoruz," dedi Bilge.
-
-{Y}"Aynen öyle. Toplayıcı zincirimiz sağdan sola işini yapar, sonunda ikiyi bulur."
-
-Bilge alkışladı. {B}"Toplayıcımız aslında hem toplama hem çıkarma yapan gizli bir kahraman!"
+Yonga göz kırptı. {Y}"Onu da başka bir gün konuşuruz."
 
 **Resim:** Yonga'nın havaya yansıttığı hologramda "5 - 3 = 2" büyük puntolarla beliriyor, etrafında küçük konfeti şeklinde ikilik basamaklar (0 ve 1) dans ediyor. Bilge ellerini kaldırmış alkışlıyor, gülümsemesi kulaklarına varmış.
 
 ---
 
-## Sayfa 14 — Kilometre Sayacı ve Bir Sonraki Durak
+## Sayfa 13 — Kilometre Sayacı ve Bir Sonraki Durak
 
 **Metin:**
 {B}"Bir dakika, daha önce bir kilometre sayacının başa dönmesinden bahsetmiştik, taşma demiştik," dedi Bilge birden hatırlayarak.
@@ -230,7 +215,7 @@ Yonga gülümsedi. {Y}"Bu küçük toplayıcı, işlemcinin hesap aletinin tam k
 
 ➡️ Elde zinciri hep sağdan sola yürür, her toplayıcı komşusundan gelen eldeyi bekler.
 
-♻️ Çıkarma ayrı bir makine gerektirmez. Sayının bitleri ters çevrilip bir eklenir (**ikiye tümleyen**), sonra toplanır.
+♻️ Çıkarma için ayrı bir makine yoktur. Bilgisayar beş eksi üç yerine beş artı eksi üç yapar; aynı elde zinciri işi görür.
 
 ❤️ Bu toplayıcı zinciri, işlemcinin **AMB**'sinin (Aritmetik Mantık Birimi) kalbinde çalışır.
 
