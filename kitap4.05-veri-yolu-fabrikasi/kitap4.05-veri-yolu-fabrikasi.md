@@ -68,7 +68,7 @@ Uzun bir raf boyunca sıralanmış kutucuklardan oluşan bir bellek duvarı. Her
 **Metin:**
 {B}"Buyruk çıktı, peki sayılar nereden geliyor?" diye sordu Bilge.
 
-{Y}"**Yazmaç öbeğinden**!" dedi Yonga. {Y}"Hatırlarsın, RISC-V'te otuz iki yazmaç vardı, x0'dan x31'e kadar. Hepsi burada, bir arada, hazır bekliyorlar. Buyruk hangi yazmaçların değerini okumak istiyorsa, yazmaç öbeği onları anında verir."
+{Y}"**Yazmaç öbeğinden**!" dedi Yonga. {Y}"Hatırlarsın, RISC-V'te 32 yazmaç vardı, x0'dan x31'e kadar. Hepsi burada, bir arada, hazır bekliyorlar. Buyruk hangi yazmaçların değerini okumak istiyorsa, yazmaç öbeği onları anında verir."
 
 {B}"Sınıftaki otuz iki öğrenci gibi." dedi Bilge gülümseyerek, {B}"hepsi bir arada oturuyor, adını duyan sayısını hemen söylüyor."
 
@@ -213,7 +213,7 @@ Gece sahnesi: Bilge yatağında uyuyor, oda karanlık ve sakin. Masasındaki bil
 
 🧭 **Program Sayacı**, sıradaki buyruğun adresini tutan özel yazmaçtır; genellikle bir adım ilerler, dallanma varsa uzaktaki başka bir adrese atlar.
 📚 **Buyruk belleği**, programın bütün buyruklarının sırayla durduğu yerdir.
-🔢 **Yazmaç öbeği**, otuz iki yazmacın bir arada tutulduğu, sayıları anında veren hızlı bir alandır.
+🔢 **Yazmaç öbeği**, 32 yazmacın bir arada tutulduğu, sayıları anında veren hızlı bir alandır.
 ➕ **AMB (Aritmetik Mantık Birimi)**, yazmaç öbeğinden gelen sayıları toplar, çıkarır ya da karşılaştırır; çıkan sonuç mutlaka bir yere yazılır.
 💾 **Veri belleği**, sayıların uzun süre saklandığı depodur; buyruk belleğinden farklıdır.
 🔌 İstasyonlar arasında sayılar **teller** üzerinden akar; teller olmadan hiçbir istasyon öbürüne sayı veremez.

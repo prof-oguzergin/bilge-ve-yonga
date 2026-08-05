@@ -112,7 +112,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 9 — 32 Bit ve 64 Bit
 
 **Metin:**
-{Y}"Bilgisayarlarda bu üç parça, dünyadaki bütün bilgisayarların uyduğu ortak bir kurala göre paylaştırılır." dedi Yonga. {Y}"Kuralın adı IEEE 754. Tek duyarlıkta otuz iki bit vardır: bir işaret, sekiz üs, yirmi üç kesir. Çift duyarlıkta ise altmış dört bit vardır: bir işaret, on bir üs, elli iki kesir."
+{Y}"Bilgisayarlarda bu üç parça, dünyadaki bütün bilgisayarların uyduğu ortak bir kurala göre paylaştırılır." dedi Yonga. {Y}"Kuralın adı IEEE 754. Tek duyarlıkta 32 bit vardır: 1 işaret, 8 üs, 23 kesir. Çift duyarlıkta ise 64 bit vardır: 1 işaret, 11 üs, 52 kesir."
 
 Bilge şaşkınlıkla sordu. {B}"Çift duyarlık daha mı çok yer kaplıyor?"
 
@@ -150,7 +150,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 12 — Yapay Zeka Çağı
 
 **Metin:**
-{Y}"Yapay zeka hızlandırıcılarını hatırlıyor musun?" dedi Yonga. {Y}"Onlar öğrenirken her zaman otuz iki bit gerekmez. On altı bitlik bf16, sekiz bitlik fp8 gibi kısa biçimler de yeter. Adın sonundaki sayı kaç bit olduğunu söyler."
+{Y}"Yapay zeka hızlandırıcılarını hatırlıyor musun?" dedi Yonga. {Y}"Onlar öğrenirken her zaman 32 bit gerekmez. 16 bitlik bf16, 8 bitlik fp8 gibi kısa biçimler de yeter. Adın sonundaki sayı kaç bit olduğunu söyler."
 
 {B}"Daha az bit demek daha az duyarlık." dedi Bilge, {B}"ama daha hızlı hesaplama!"
 
@@ -191,11 +191,11 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 🧩 Bir kayan nokta sayısı üç parçadan oluşur: **işaret biti** (artı/eksi), **üs** (virgülün kaç adım kayacağı) ve **kesir** (rakamların kendisi).
 
-📏 **Tek duyarlık** otuz iki bit, **çift duyarlık** altmış dört bittir; IEEE 754 standardı bu paylaşımı belirler. Daha çok bit, daha çok duyarlık demektir.
+📏 **Tek duyarlık** 32 bit, **çift duyarlık** 64 bittir; IEEE 754 standardı bu paylaşımı belirler. Daha çok bit, daha çok duyarlık demektir.
 
 🔍 Bilgisayar bile her sayıyı tam yazamaz, **yuvarlama** yapar; sıfır virgül bir gibi basit bir sayı bile ikilik sistemde küçük bir farkla saklanır.
 
-🤖 Yapay zeka çağında on altı bitlik **bf16**, sekiz bitlik **fp8** gibi kısa kayan nokta biçimleri yeterli olur ve hesaplamayı hızlandırır.
+🤖 Yapay zeka çağında 16 bitlik **bf16**, 8 bitlik **fp8** gibi kısa kayan nokta biçimleri yeterli olur ve hesaplamayı hızlandırır.
 
 ⚖️ Hız ile duyarlık arasında bir **takas** vardır. Az bit hızlı ama kaba, çok bit yavaş ama ince sonuç verir.
 

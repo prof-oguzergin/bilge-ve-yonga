@@ -90,7 +90,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 9 — Harfler de 0 ve 1'den!
 
 **Metin:**
-{Y}"Harfler de 0 ve 1'den yapılır!" dedi Yonga. Her harf için sekiz haneli bir 0-1 dizisi kullanılır; sekiz bitlik böyle bir öbeğe **bayt** denir. Büyük 'A' harfi 01000001'dir. Hangi harfin hangi sayıyla yazıldığını söyleyen listenin adı **ASCII**'dir. Bilgisayar harfleri görmez, sadece 0 ve 1 görür!
+{Y}"Harfler de 0 ve 1'den yapılır!" dedi Yonga. Her harf için 8 haneli bir 0-1 dizisi kullanılır; 8 bitlik böyle bir öbeğe **bayt** denir. Büyük 'A' harfi 01000001'dir. Hangi harfin hangi sayıyla yazıldığını söyleyen listenin adı **ASCII**'dir. Bilgisayar harfleri görmez, sadece 0 ve 1 görür!
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Büyük harfli "A" parçalanarak havada 0 ve 1'lere dönüşüyor; harf altın renkli, 0'lar kırmızı ve 1'ler mavi küçük parçacıklara ayrılıyor. Bilge buna bakarken ağzı açık kalmış, sanki bir sihirbazlık gösterisi izliyor. Yonga kenarında "= 01000001" yazısını gösteriyor. Arka planda büyük harfler ve sayılar dans eder gibi uçuşuyor. Renkli, hareketli ve büyülü bir alfabe-ikili dönüşüm sahnesi.
@@ -135,7 +135,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 1️⃣ Bir tek 0 ya da bir tek 1'e **bit** denir; bilgisayarın en küçük bilgi parçasıdır.
 
-8️⃣ Sekiz bit bir arada durursa ona **bayt** denir; bir harf tam bir bayta sığar.
+8️⃣ 8 bit bir arada durursa ona **bayt** denir; bir harf tam bir bayta sığar.
 
 🔤 Harfler, sayılar, resimler, müzik, hepsi **0 ve 1**'lere dönüştürülür.
 
