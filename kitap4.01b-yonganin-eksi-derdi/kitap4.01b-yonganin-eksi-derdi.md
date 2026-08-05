@@ -162,7 +162,7 @@ Bilge birden anladı ve elini alnına vurdu. {B}"Ama bir-bir-bir-bir eksi birdi!
 
 {B}"Demek en soldaki basamak en değerlisi." dedi Bilge.
 
-{Y}"Eksi sayılarda en soldaki basamağın değeri eksi sekizdir." dedi Yonga. {Y}"Ötekiler aynı kalır."
+{Y}"Eksi sayılarda en soldaki basamağın değeri eksi sekizdir." dedi Yonga. {Y}"Ötekiler aynı kalır. Bu yüzden en soldaki basamağa bakman yeter: bir ise sayı eksi, sıfır ise artıdır. Ama o basamak ayrı bir işaret değil, kendisi de bir değer taşıyor."
 
 Bilge bir-bir-sıfır-biri hesapladı. {B}"Eksi sekiz, artı dört, artı bir. Eder eksi üç!" Sonra gözleri parladı. {B}"Demek bu bir hile değil, gerçek bir sayı!"
 
@@ -228,6 +228,8 @@ Bilge asansörün eksi kat düğmesine son bir kez baktı. {B}"Sıfırın altın
 ⚖️ Kısa yol işe yarar çünkü bir sayı ile ters çevrilmiş hâli toplanınca bir-bir-bir-bir, eksi bir çıkar.
 
 🔢 En soldaki basamağın değeri eksidir; dört kutucukta değerler eksi sekiz, dört, iki ve birdir.
+
+🚦 En soldaki basamak **bir** ise sayı eksi, **sıfır** ise artıdır. Ama o basamak ayrı bir işaret değil, kendisi de bir değer taşır.
 
 🎯 Dört kutucukla eksi sekizden artı yediye kadar sayılır; sıfır artı tarafta durduğu için eksi tarafta bir sayı fazladır.
 
