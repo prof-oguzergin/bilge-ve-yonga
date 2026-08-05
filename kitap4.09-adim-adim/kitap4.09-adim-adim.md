@@ -159,7 +159,7 @@ Bilge başını salladı. {B}"Her şeyin bir bedeli varmış demek."
 
 ---
 
-## Sayfa 11 — Sıra Hâlâ Sırayla
+## Sayfa 11 — Buyruklar Hâlâ Sırayla
 
 **Metin:**
 {B}"Yonga, bir buyruk adımlara bölününce, bir sonraki buyruk hemen başlayabiliyor mu?" diye sordu Bilge.
