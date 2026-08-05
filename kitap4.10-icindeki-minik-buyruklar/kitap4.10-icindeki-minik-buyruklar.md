@@ -180,9 +180,11 @@ Yonga, Bilge'nin eline dokundu. {Y}"Hatırlıyor musun, en başta bir avuç kumd
 
 Bilge gülümsedi. {B}"Evet! Sonra anahtarlar, kapılar, hız yarışları, sayılar ve şimdi de işlemcinin içindeki bu minik buyruklar."
 
-Yonga gözlerini kısarak parladı. {Y}"Küçücük bir kum tanesinden koca bir düşünme makinesine kadar uzanan uzun bir yolculuktu. Ve sen bu yolculuğun her adımını öğrendin!"
+Yonga gözlerini kısarak parladı. {Y}"Küçücük bir kum tanesinden koca bir düşünme makinesine kadar uzun bir yol yürüdük. Ve sen bu yolun her adımını öğrendin!"
 
-Bilge, Yonga'ya sıkıca sarıldı. {B}"Teşekkürler Yonga, birlikte harika bir yolculuktu!"
+Bilge, Yonga'ya sıkıca sarıldı. {B}"Teşekkürler Yonga!" Sonra başını kaldırdı. {B}"Peki bir işlemci bundan daha da hızlı çalışabilir mi?"
+
+{Y}"Çalışabilir," dedi Yonga gülümseyerek. {Y}"Onu da başka bir gün konuşuruz."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Gün batımında Bilge ve Yonga bir tepede el ele oturuyorlar; önlerinde küçük bir kum tanesinden başlayıp büyüyerek bir işlemci yongasına dönüşen parlak bir zaman çizgisi süzülüyor havada: kum taneleri, anahtarlar, kapılar, yarış pisti, sayı sembolleri ve en sonunda parlayan bir yonga. Gökyüzü sıcak turuncu-mor tonlarda, huzurlu ve sıcak bir kapanış atmosferi.

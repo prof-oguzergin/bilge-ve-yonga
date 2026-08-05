@@ -170,7 +170,7 @@ Bütün fabrika artık tek, bütünleşmiş bir makine gibi görünüyor, beş i
 ## Sayfa 12 — Fabrika Çalışırken
 
 **Metin:**
-Yonga fabrikanın büyük düğmesine bastı. Bütün istasyonlar aynı anda ışıklarla doldu. Program Sayacı adresi gösterdi, buyruk belleği bir buyruk verdi, yazmaç öbeği sayıları gönderdi, AMB hesapladı, veri belleği sonucu sakladı, sonra Program Sayacı bir adım ilerledi.
+Yonga fabrikanın büyük düğmesine bastı. Bütün istasyonlar aynı anda ışıklarla doldu. Program Sayacı adresi gösterdi, buyruk belleği bir buyruk verdi, yazmaç öbeği sayıları gönderdi, AMB hesapladı, sonuç yazmaç öbeğine döndü, sonra Program Sayacı bir adım ilerledi.
 
 {B}"Bu kadar hızlı mı?" diye sordu Bilge, gözleri fal taşı gibi açılmış.
 
