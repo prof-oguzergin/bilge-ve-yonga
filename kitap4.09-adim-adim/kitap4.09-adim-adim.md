@@ -183,7 +183,7 @@ Bilge kâsesini bitirdi, kaşığını masaya bıraktı. {B}"Tamam, ben bitirdim
 
 Bilge gülümsedi. {B}"Demek hâlâ sırayla yiyoruz, ama her tabak eskisinden daha akıllıca bölünmüş."
 
-{Y}"Aynen öyle özetledin," dedi Yonga.
+{Y}"Tam üstüne bastın," dedi Yonga.
 
 **Resim:** Boş ilk kâse kenara itilmiş, ikinci dolu kâse Bilge'nin önüne yeni konmuş. Bilge kaşığını yeniden eline almış, gülümseyerek başlamaya hazırlanıyor. Yonga memnun bir ifadeyle onu izliyor, gövdesinin alt bölümündeki küçük ekranda tek bir sağa ok simgesi beliriyor.
 
