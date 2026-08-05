@@ -140,7 +140,7 @@ Altıncı istasyon tabelasında "GERİ YAZ" yazıyor. Vagondan çıkan parlak "8
 **Metin:**
 {B}"Peki yolculuk burada mı bitiyor?" diye sordu Bilge.
 
-{Y}"Neredeyse!" dedi Yonga. {Y}"Son olarak Program Sayacı güncellenir: bu buyrukta bir adım ilerliyor ve sıradaki buyruğun adresini gösteriyor."
+{Y}"Neredeyse!" dedi Yonga. {Y}"Son olarak Program Sayacı güncellenir. Bu buyrukta bir adım ilerliyor ve sıradaki buyruğun adresini gösteriyor."
 
 {B}"Tabela değişiyor, yeni bir yolcu bekleniyor," dedi Bilge.
 

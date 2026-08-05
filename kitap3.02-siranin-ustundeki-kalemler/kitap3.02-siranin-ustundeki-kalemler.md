@@ -137,7 +137,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 
 **Metin:**
 {Y}"RISC-V küçüğü başta düzenini kullanır," dedi Yonga.
-{Y}"Bunun anlamı: değeri en küçük olan bayt, en düşük adrese gider."
+{Y}"Demek ki değeri en küçük olan bayt, en düşük adrese gidiyor."
 
 {B}"Bunu aklımda nasıl tutayım?" diye sordu Bilge.
 

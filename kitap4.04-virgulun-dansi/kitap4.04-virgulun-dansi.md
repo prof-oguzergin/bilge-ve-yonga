@@ -174,7 +174,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 14 — Yıldızlara Yeniden Bakış
 
 **Metin:**
-Bilge ve Yonga tekrar gökyüzüne baktı. Bilge artık yıldızın uzaklığını da, karıncanın ağırlığını da aynı gözle görüyordu: işaret, üs ve kesir olarak.
+Bilge ve Yonga tekrar gökyüzüne baktı. Bilge artık yıldızın uzaklığını da, karıncanın ağırlığını da aynı gözle, işaret, üs ve kesir olarak görüyordu.
 
 {B}"Virgül dans etmeseydi," dedi Bilge, {B}"hem dev yıldızları hem minik karıncaları aynı anda hiç anlatamazdık!"
 

@@ -217,7 +217,7 @@ Gece sahnesi: Bilge yatağında uyuyor, oda karanlık ve sakin. Masasındaki bil
 ➕ **AMB (Aritmetik Mantık Birimi)**, yazmaç öbeğinden gelen sayıları toplar, çıkarır ya da karşılaştırır; çıkan sonuç mutlaka bir yere yazılır.
 💾 **Veri belleği**, sayıların uzun süre saklandığı depodur; buyruk belleğinden farklıdır.
 🔌 İstasyonlar arasında sayılar **teller** üzerinden akar; teller olmadan hiçbir istasyon öbürüne sayı veremez.
-🦴 Bütün bu parçalar ve teller birlikte **veri yolu**nu oluşturur: işlemcinin iskeleti.
+🦴 Bütün bu parçalar ve teller birlikte işlemcinin iskeletini, **veri yolu**nu oluşturur.
 
 ---
 

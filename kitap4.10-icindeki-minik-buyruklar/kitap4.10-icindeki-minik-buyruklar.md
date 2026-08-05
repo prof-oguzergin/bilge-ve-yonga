@@ -66,7 +66,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 Bilge hatırladı. {B}"Hani şu orkestra şefi vardı, herkese ne zaman ne yapacağını söylüyordu?"
 
-Yonga gülümsedi. {Y}"O şef, **denetim birimi**! Şimdi öğreneceğin şey şu: şefin elinde küçük bir defter var, tıpkı bir nota defteri gibi. Bu deftere **mikroprogram** deniyor."
+Yonga gülümsedi. {Y}"O şef, **denetim birimi**! Şimdi bir de şunu öğreneceksin. Şefin elinde küçük bir defter var, tıpkı bir nota defteri gibi. Bu deftere **mikroprogram** deniyor."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Orkestra şefi görünümündeki denetim birimi karakteri (ince uzun gövdeli, koyu lacivert kuyruklu ceketli, küçük yuvarlak başlı gümüş otomat) elinde parlayan ince bir defter tutuyor; defterin kapağında yazı yok, yalnızca küçük bir dişli amblemi var. Bilge defterin sayfalarını meraklı gözlerle inceliyor, Yonga şefin yanında duruyor. Sıcak altın ve mavi tonlar.
@@ -199,11 +199,11 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 🎛️ Her mikro buyruk, **veri yolundaki** kapılara ve parçalara küçük **denetim sinyalleri** göndererek onlara ne yapacaklarını söyler.
 
-📏 Karmaşık bir buyruğun mikroprogramı uzundur: çarpmanınki kaydır ve topla adımlarını bit sayısı kadar tekrarlar. Toplamanınki kısacıktır.
+📏 Karmaşık bir buyruğun mikroprogramı uzundur. Çarpmanınki kaydır ve topla adımlarını bit sayısı kadar tekrarlar, toplamanınki kısacıktır.
 
 ⚖️ **CISC** yongalar (Sisko ailesi) mikroprogramı sıkça kullanır; **RISC** yongalar (Risko ailesi) daha yalındır.
 
-🛠️ Mikroprogramın en güzel yanı: donanımı hiç değiştirmeden bir buyruğu düzeltmek ya da yeni bir buyruk eklemek mümkün olabilir.
+🛠️ Mikroprogramın en güzel yanı, donanımı hiç değiştirmeden bir buyruğu düzeltmenin ya da yeni bir buyruk eklemenin mümkün olabilmesidir.
 
 ---
 

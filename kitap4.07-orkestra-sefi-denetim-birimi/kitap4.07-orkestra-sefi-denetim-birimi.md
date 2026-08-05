@@ -102,10 +102,10 @@ Basit akış şeması: birinci adımda yazmaç A ve B'den oklar tellere, ikinci 
 **Metin:**
 {B}"Peki bellekten bir şey almak istersem?" diye sordu Bilge.
 
-Yonga başka bir buyruk gösterdi. {Y}"O zaman şef farklı işaretler gönderir. Bu kez AMB'ye toplama demez, bellek okuma yolunu açar, gelen sayıyı bir yazmaca yazdırır. Aynı şef ama her buyrukta başka bir desen çalıyor."
+Yonga başka bir buyruk gösterdi. {Y}"O zaman şef farklı işaretler gönderir. Önce AMB'ye yine topla der ama bu kez iki sayıyı toplamak için değil. Yazmaçtaki adrese buyruğun içindeki küçük sayıyı ekletip bellekte bakılacak raf gözünü buldurur. Sonra bellek okuma yolunu açar, gelen sayıyı bir yazmaca yazdırır. Aynı şef ama her buyrukta başka bir desen çalıyor."
 
 **Resim:**
-İkinci bir akış şeması: bellek kutusundan bir okla veri çıkıyor, doğrudan bir yazmaca giriyor; AMB kutusu bu kez sönük ve pasif gösteriliyor.
+İkinci bir akış şeması. Yeşil bir çekmeceden ve buyruk zarfından çıkan iki ok AMB kutusuna giriyor, AMB çalışıyor. AMB'den çıkan ok turuncu rafın tek bir gözünü işaret ediyor, o göz aydınlanıyor. Aydınlanan gözden çıkan ışıklı top ikinci bir yeşil çekmeceye giriyor.
 
 ---
 
@@ -152,7 +152,7 @@ Yonga'nın ışığı bir an titredi. {Y}"O zaman AMB yanlış işi yapar ya da 
 ## Sayfa 12 — Asıl Patron
 
 **Metin:**
-Yonga özetledi. {Y}"Hatırlarsan teller parçaları birbirine bağlıyordu ve hepsi birlikte veri yolunu oluşturuyordu. Buyruk da o yolun üstünde bir yolculuk yapıyordu. Şimdi de öğrendin: bu yolculuğun her adımında kararı denetim birimi veriyor."
+Yonga özetledi. {Y}"Hatırlarsan teller parçaları birbirine bağlıyordu ve hepsi birlikte veri yolunu oluşturuyordu. Buyruk da o yolun üstünde bir yolculuk yapıyordu. Şimdi de bu yolculuğun her adımında kararı denetim biriminin verdiğini öğrendin."
 
 Bilge elini çenesine götürdü. {B}"Demek asıl patron oymuş."
 
@@ -187,7 +187,7 @@ Bilge pencere kenarında, uzakta konser salonu ışıkları görünüyor; Yonga 
 
 ➕ Toplama buyruğunda üç işaret gönderir: yazmaçları oku, AMB'ye topla de, sonucu yaz.
 
-📥 Yükleme buyruğunda ise bellek yolu açılır ve AMB'ye toplama denmez.
+📥 Yükleme buyruğunda AMB adresi hesaplar, sonra bellek yolu açılır ve gelen sayı bir yazmaca yazılır.
 
 👀 Parçalar kendi başına karar vermez, hep denetim birimine bakar.
 
