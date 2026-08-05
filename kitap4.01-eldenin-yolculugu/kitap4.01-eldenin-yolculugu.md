@@ -14,7 +14,7 @@ Bilge, bahçede kum kovalarını sıraya dizmişti. Kovalara sırayla kum doldur
 
 {B}"Yonga, bak," dedi. {B}"Bu kova dolunca fazlası öbürüne geçiyor."
 
-Yonga başını salladı, gözleri parladı. {Y}"Sen az önce bilgisayar toplama yaparken ne yapıyorsa onu elinle yaptın, Bilge."
+Yonga başını salladı, gözleri parladı. {Y}"Bilgisayar da toplama yaparken tam bunu yapıyor Bilge. Sen elinle yaptın, o tellerle yapıyor."
 
 {B}"Gerçekten mi?" diye sordu Bilge, kumlu ellerini silkeleyerek.
 
