@@ -11,6 +11,12 @@ const SURUM = '__SURUM__';
 const KABUK = 'bvy-kabuk-' + SURUM;   // sayfalar ve simgeler
 const ICERIK = 'bvy-icerik-' + SURUM; // okunan kitapların görselleri
 
+/* Sayfalar önbellekten açılır; sunucuya ancak bu süre geçtiyse sorulur.
+ * Her açılışta sunucuya bağlanmamak hem hızlı hem de okurun izini
+ * azaltıyor. Bir gün, düzeltmelerin okura geç kalmaması için üst sınır. */
+const TAZELEME_ARALIGI = 24 * 60 * 60 * 1000;
+const DAMGA_ANAHTARI = '__son-tazeleme';
+
 /* Kurulumda yalnızca kabuk saklanır. Kitap görselleri okundukça birikir;
  * 3,6 GB'lık siteyi baştan indirmek olmaz. */
 const KABUK_DOSYALARI = [
@@ -24,9 +30,14 @@ const KABUK_DOSYALARI = [
 ];
 
 self.addEventListener('install', (e) => {
+  /* Tek tek saklanir: addAll butun listeyi atomik ister ve tek bir dosya
+   * takilirsa kurulum tumden duser. Kabuk eksik kalsa bile site calisir. */
   e.waitUntil(
     caches.open(KABUK)
-      .then((c) => c.addAll(KABUK_DOSYALARI))
+      .then((c) => Promise.allSettled(
+        KABUK_DOSYALARI.map((u) => fetch(u, { cache: 'reload' })
+          .then((y) => (y && y.status === 200) ? c.put(u, y) : null))
+      ))
       .then(() => self.skipWaiting())
   );
 });
@@ -41,6 +52,47 @@ self.addEventListener('activate', (e) => {
   );
 });
 
+/* Son tazeleme damgası önbellekte küçük bir yanıt olarak durur;
+ * hizmet çalışanının localStorage'ı yoktur. */
+async function tazelemeVaktiGeldiMi() {
+  const c = await caches.open(KABUK);
+  const d = await c.match(DAMGA_ANAHTARI);
+  if (!d) return true;
+  const son = Number(await d.text());
+  return !son || (Date.now() - son) > TAZELEME_ARALIGI;
+}
+
+async function damgaVur() {
+  const c = await caches.open(KABUK);
+  await c.put(DAMGA_ANAHTARI, new Response(String(Date.now())));
+}
+
+async function sayfaVer(istek) {
+  const c = await caches.open(KABUK);
+  const saklanan = await c.match(istek);
+
+  if (saklanan) {
+    /* Süresi dolduysa arka planda tazele; okur beklemez. */
+    if (await tazelemeVaktiGeldiMi()) {
+      damgaVur();
+      fetch(istek).then((y) => {
+        if (y && y.status === 200) c.put(istek, y.clone());
+      }).catch(() => {});
+    }
+    return saklanan;
+  }
+
+  /* Önbellekte yoksa ağdan al, sakla. Çevrimdışıysa ana sayfaya düş. */
+  try {
+    const y = await fetch(istek);
+    if (y && y.status === 200) c.put(istek, y.clone());
+    damgaVur();
+    return y;
+  } catch (hata) {
+    return (await c.match('./index.html')) || Response.error();
+  }
+}
+
 self.addEventListener('fetch', (e) => {
   const istek = e.request;
   if (istek.method !== 'GET') return;
@@ -51,18 +103,8 @@ self.addEventListener('fetch', (e) => {
   /* PDF ve EPUB indirilen dosyalardır, önbelleğe alınmaz. */
   if (/\.(pdf|epub)$/i.test(url.pathname)) return;
 
-  /* Sayfalar: önce ağ, olmazsa önbellek. Böylece güncelleme hemen görünür,
-   * çevrimdışıyken de sayfa açılır. */
   if (istek.mode === 'navigate') {
-    e.respondWith(
-      fetch(istek)
-        .then((y) => {
-          const kopya = y.clone();
-          caches.open(KABUK).then((c) => c.put(istek, kopya));
-          return y;
-        })
-        .catch(() => caches.match(istek).then((y) => y || caches.match('./index.html')))
-    );
+    e.respondWith(sayfaVer(istek));
     return;
   }
 
