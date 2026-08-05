@@ -63,7 +63,7 @@ Yonga sayacı sıfıra getirdi, sonra kolu bir tık geriye çevirdi. Bütün kut
 
 {B}"Hepsi bir oldu!" dedi Bilge şaşkınlıkla.
 
-{Y}"Kilometre sayacını hatırlıyor musun?" dedi Yonga. {Y}"Sıfır sıfır sıfırdayken bir geri gidersen dokuz dokuz dokuza düşer. Bende de öyle oluyor."
+{Y}"Kilometre sayacını hatırlıyor musun?" dedi Yonga. {Y}"Sıfır-sıfır-sıfırdayken bir geri gidersen dokuz-dokuz-dokuza düşer. Bende de öyle oluyor."
 
 Bilge bir an durdu, sonra gülümsedi. {B}"Demek bir-bir-bir-bir aslında eksi bir!"
 
