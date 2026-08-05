@@ -1,7 +1,7 @@
 # Elde'nin Yolculuğu
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 4: İşlemcinin İçi — Kitap 4.1
-**Yaş grubu:** 7–10 (okuma bilen)
+**Yaş grubu:** 9–12 (okuma bilen)
 **Ana tema:** Bilgisayar, iki sayıyı toplarken sağdan sola giden küçük bir "elde" zinciri kurar; her basamak kendi payına düşen toplamı yapar ve fazlasını komşusuna aktarır.
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, yuvarlak gözlüklü meraklı kız) ve Yonga (küçük, yuvarlak, mavi-gümüş renkli sevimli robot)
 

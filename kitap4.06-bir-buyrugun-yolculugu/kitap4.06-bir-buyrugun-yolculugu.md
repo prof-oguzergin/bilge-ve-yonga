@@ -1,7 +1,7 @@
 # Bir Buyruğun Yolculuğu
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 4: İşlemcinin İçi — Kitap 4.6
-**Yaş grubu:** 7–10 (okuma bilen)
+**Yaş grubu:** 9–12 (okuma bilen)
 **Ana tema:** Tek bir buyruk, işlemcinin içinde yedi durak geçen bir yolculuğa çıkar: getirilir, çözülür, yazmaçları okur, yürütülür, gerekirse belleğe uğrar, sonucu yazmaca geri yazar ve bir sonraki buyruğa yer açar.
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, yuvarlak gözlüklü meraklı kız) ve Yonga (küçük, yuvarlak, mavi-gümüş renkli sevimli robot)
 

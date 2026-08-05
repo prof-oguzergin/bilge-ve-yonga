@@ -1,7 +1,7 @@
 # Adım Adım
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 4: İşlemcinin İçi — Kitap 4.9
-**Yaş grubu:** 7–10 (okuma bilen)
+**Yaş grubu:** 9–12 (okuma bilen)
 **Ana tema:** Çok vuruşluk işlemci. Bilgisayar bir buyruğu tek koca adımda değil, kısa saat vuruşlarına bölünmüş küçük adımlarda yapar; kısa buyruk az adım ister, uzun buyruk çok adım ister, böylece kısa buyruklar çabucak biter ve aynı parçalar farklı adımlarda yeniden kullanılabilir.
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, yuvarlak gözlüklü meraklı kız) ve Yonga (küçük, yuvarlak, mavi-gümüş renkli sevimli robot)
 

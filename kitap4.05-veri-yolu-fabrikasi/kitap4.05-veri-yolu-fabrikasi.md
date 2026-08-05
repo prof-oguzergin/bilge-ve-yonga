@@ -1,7 +1,7 @@
 # Veri Yolu Fabrikası
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 4: İşlemcinin İçi — Kitap 4.5
-**Yaş grubu:** 7–10 (okuma bilen)
+**Yaş grubu:** 9–12 (okuma bilen)
 **Ana tema:** İşlemcinin ana parçaları (Program Sayacı, buyruk belleği, yazmaç öbeği, AMB, veri belleği) tellerle birbirine bağlanır ve birlikte "veri yolu" denen tek bir makineyi oluşturur.
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, yuvarlak gözlüklü kız), Yonga (küçük yuvarlak mavi-gümüş robot)
 

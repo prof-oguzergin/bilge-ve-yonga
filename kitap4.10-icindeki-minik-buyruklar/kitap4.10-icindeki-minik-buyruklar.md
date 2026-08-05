@@ -1,7 +1,7 @@
 # İçindeki Minik Buyruklar
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 4: İşlemcinin İçi — Kitap 4.10
-**Yaş grubu:** 7–10 (okuma bilen)
+**Yaş grubu:** 9–12 (okuma bilen)
 **Ana tema:** Bir buyruk, denetim biriminin küçük bir bellekten okuduğu, mikroprogram denen minik adımlar listesiyle yürütülür.
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, yuvarlak gözlüklü meraklı kız) ve Yonga (küçük, yuvarlak, mavi-gümüş robot)
 
@@ -26,9 +26,9 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 2 — Mikro Buyruk
 
 **Metin:**
-{Y}"İşte bu minicik parçalara **mikro buyruk** deniyor," dedi Yonga. {Y}"Mikro, çok küçük demek. Bir adım, aslında birbiri ardına gelen birkaç mikro buyrukla gerçekleşiyor."
+{Y}"İşte bu minicik parçalara **mikro buyruk** deniyor," dedi Yonga. {Y}"Mikro, çok küçük demek. Bir adım, aslında birlikte çalışan birkaç mikro buyrukla gerçekleşiyor."
 
-Bilge güldü. {B}"Demek büyük bir buyruk, küçük buyrukların ekibi!"
+Bilge güldü. {B}"Demek her adım, birkaç mikro buyrukla yapılıyor!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Büyük, parlak bir "TOPLA" buyruk bloğu ortada duruyor; içinden minik, aynı renkte ama küçük robot işçiler gibi görünen mikro buyruklar sırayla dışarı çıkıp bir sıraya diziliyor. Yonga bu sıraya işaret ediyor, Bilge minik işçileri parmağıyla sayıyor. Neşeli, canlı sarı-mavi tonlar.
@@ -52,7 +52,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 {B}"Peki toplama buyruğunun yürüt adımının içinde ne var?" diye sordu Bilge.
 
-Yonga anlattı. {Y}"Önce ilk sayı AMB'nin bir girişine bağlanır, sonra ikinci sayı öteki girişine bağlanır, sonra AMB toplama kipine alınır, en sonunda çıkan sonuç bir sonraki adıma kadar tutulur. Dört mikro buyruk, tıpkı omlet gibi!"
+Yonga anlattı. {Y}"Aynı anda dört küçük iş olur. İlk sayı AMB'nin bir girişine bağlanır, ikinci sayı öteki girişine bağlanır, AMB toplama kipine alınır ve çıkan sonuç bir sonraki adıma kadar tutulur. Dört mikro buyruk, hepsi el ele!"
 
 {B}"Demek tek bir tıkın içinde bile dört küçük iş varmış," dedi Bilge.
 
@@ -73,7 +73,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 ---
 
-## Sayfa 6 — Küçük Hafızadan Okumak
+## Sayfa 6 — Küçük Bellekten Okumak
 
 **Metin:**
 {B}"Şef bu defteri nereden buluyor?" diye sordu Bilge.
@@ -191,7 +191,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 ## Bugün Ne Öğrendik?
 
-🔬 Bir buyruğun her adımı, denetim biriminin sırayla uyguladığı daha da küçük parçalardan, **mikro buyruklardan** oluşur.
+🔬 Bir buyruğun her adımı, denetim biriminin aynı anda buyurduğu daha da küçük parçalardan, **mikro buyruklardan** oluşur.
 
 📖 Bu mikro buyrukların listesine **mikroprogram** denir; denetim birimi (şefimiz) bu tarifi küçük bir bellekten okur.
 

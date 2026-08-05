@@ -1,7 +1,7 @@
 # Uzun İşler: Çarpma ve Bölme
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 4: İşlemcinin İçi — Kitap 4.3
-**Yaş grubu:** 7–10 (okuma bilen)
+**Yaş grubu:** 9–12 (okuma bilen)
 **Ana tema:** Çarpma ve bölme, toplama gibi tek adımda bitmez; işlemci bunları kaydırma ve toplama adımlarını art arda tekrarlayarak yapar, bu yüzden daha çok saat vuruşu ister.
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, yuvarlak gözlüklü kız) ve Yonga (küçük, yuvarlak, mavi-gümüş renkli sevimli robot)
 

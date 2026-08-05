@@ -1,7 +1,7 @@
 # Çok Yönlü Alet: AMB
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 4: İşlemcinin İçi — Kitap 4.2
-**Yaş grubu:** 7–10 (okuma bilen)
+**Yaş grubu:** 9–12 (okuma bilen)
 **Ana tema:** AMB (Aritmetik Mantık Birimi), işlemcinin toplama, çıkarma, mantık ve karşılaştırma yapabilen çok yönlü hesap aletidir.
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, yuvarlak gözlüklü meraklı kız) ve Yonga (küçük, yuvarlak, mavi-gümüş robot)
 

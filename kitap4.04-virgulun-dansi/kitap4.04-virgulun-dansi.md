@@ -1,7 +1,7 @@
 # Virgülün Dansı
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 4: İşlemcinin İçi — Kitap 4.4
-**Yaş grubu:** 7–10 (okuma bilen)
+**Yaş grubu:** 9–12 (okuma bilen)
 **Ana tema:** Kayan nokta sayı biçimi, virgülü sağa sola kaydırarak hem dev hem minik sayıları işaret, üs ve kesir parçalarıyla aynı yazmaçta taşır; IEEE 754 standardı bunun kurallarını belirler.
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, gözlüklü kız) ve Yonga (küçük, yuvarlak, mavi-gümüş renkli sevimli robot)
 

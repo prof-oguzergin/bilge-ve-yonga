@@ -1,7 +1,7 @@
 # Orkestra Şefi: Denetim Birimi
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 4: İşlemcinin İçi — Kitap 4.7
-**Yaş grubu:** 7–10 (okuma bilen)
+**Yaş grubu:** 9–12 (okuma bilen)
 **Ana tema:** Denetim birimi, işlemcinin içindeki her parçaya tıpkı bir orkestra şefi gibi doğru zamanda doğru işareti vererek buyrukların uyum içinde çalışmasını sağlar.
 **Karakterler:** Bilge (8, kıvırcık kahverengi saçlı, yuvarlak gözlüklü kız) ve Yonga (küçük yuvarlak mavi-gümüş robot)
 

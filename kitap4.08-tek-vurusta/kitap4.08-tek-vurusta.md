@@ -1,7 +1,7 @@
 # Tek Vuruşta
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 4: İşlemcinin İçi — Kitap 4.8
-**Yaş grubu:** 7–10 (okuma bilen)
+**Yaş grubu:** 9–12 (okuma bilen)
 **Ana tema:** En basit işlemci tasarımında her buyruk tam bir saat vuruşunda başlar ve biter, ama vuruşun uzunluğu en yavaş buyruğa göre ayarlanır ve hızlı buyruklar boşuna bekler.
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, yuvarlak gözlüklü meraklı kız) ve Yonga (küçük, yuvarlak, mavi-gümüş renkli sevimli robot)
 
