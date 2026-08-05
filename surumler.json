@@ -23,7 +23,7 @@
     },
     "kitap1.05-soganin-katmanlari": {
       "surum": "1.0",
-      "tarih": "31 Temmuz 2026"
+      "tarih": "5 Ağustos 2026"
     },
     "kitap1.06-moorenun-sihirli-takvimi": {
       "surum": "1.0",
@@ -43,7 +43,7 @@
     },
     "kitap1.10-bilgisayar-dusunmeyi-ogreniyor": {
       "surum": "1.0",
-      "tarih": "31 Temmuz 2026"
+      "tarih": "5 Ağustos 2026"
     },
     "kitap2.01-uzaydaki-bilgisayar": {
       "surum": "1.0",
@@ -91,7 +91,7 @@
     },
     "kitap3.02-siranin-ustundeki-kalemler": {
       "surum": "1.0",
-      "tarih": "31 Temmuz 2026"
+      "tarih": "5 Ağustos 2026"
     },
     "kitap3.03-zarfin-ustundeki-bolmeler": {
       "surum": "1.0",
@@ -107,11 +107,11 @@
     },
     "kitap3.06-toplama-makinesi": {
       "surum": "1.0",
-      "tarih": "31 Temmuz 2026"
+      "tarih": "5 Ağustos 2026"
     },
     "kitap3.07-sihirli-maskeler": {
-      "surum": "1.0",
-      "tarih": "31 Temmuz 2026"
+      "surum": "1.1",
+      "tarih": "5 Ağustos 2026"
     },
     "kitap3.08-sifirin-gucu": {
       "surum": "1.0",
@@ -140,8 +140,8 @@
       "tarih": "31 Temmuz 2026"
     },
     "3": {
-      "surum": "1.0",
-      "tarih": "31 Temmuz 2026"
+      "surum": "1.1",
+      "tarih": "5 Ağustos 2026"
     }
   }
 }
