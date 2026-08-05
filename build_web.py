@@ -588,6 +588,8 @@ READER_TPL = r'''<!doctype html>
 <link rel="icon" href="../amblem.ico?v=2" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="../amblem-32.png?v=2">
 <link rel="apple-touch-icon" href="../amblem-180.png?v=2">
+<link rel="manifest" href="../manifest.json">
+<script>if("serviceWorker" in navigator){addEventListener("load",function(){navigator.serviceWorker.register("../sw.js").catch(function(){});});}</script>
 <!-- BVY-TELIF-BASLANGIC -->
 <script src="../kunye.js" defer></script>
 <!-- Olcum: izne bagli, varsayilan KAPALI. Sartname bolum J. -->
@@ -1282,6 +1284,23 @@ def build_index():
     uyar_bayat_klasor()
 
 
+def build_sw():
+    """sw-sablon.js dosyasini surum damgasiyla sw.js olarak yazar.
+
+    Surum, index.html'in ozetinden turetilir; site her degistiginde
+    hizmet calisani yenilenir ve eski onbellekler silinir.
+    """
+    import hashlib
+    sablon = REPO / 'sw-sablon.js'
+    if not sablon.exists():
+        return
+    ozet = hashlib.sha1((REPO / 'index.html').read_bytes()).hexdigest()[:10]
+    (REPO / 'sw.js').write_text(
+        sablon.read_text(encoding='utf-8').replace('__SURUM__', ozet),
+        encoding='utf-8')
+    print('sw.js yazildi (surum %s)' % ozet)
+
+
 if __name__ == '__main__':
     total = 0
     for i, (folder, no, title, sub, glow) in enumerate(BOOKS):
@@ -1292,6 +1311,7 @@ if __name__ == '__main__':
         total += n
         print(f'  okuyucu/{name}  ({n} sayfa)  +  {folder}/{ename}  ({ecount} görsel)')
     build_index()
+    build_sw()
     print(f'index.html + {len(BOOKS)} okuyucu + {len(BOOKS)} EPUB, {total} sayfa toplam')
     for u in UYARILAR:
         print('  UYARI  ' + u)
