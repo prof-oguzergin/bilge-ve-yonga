@@ -310,15 +310,18 @@ section.band{padding:76px 0}
 .book-dl a:hover{transform:translateY(-2px);border-color:var(--bg);color:var(--text)}
 .btn-read:focus-visible,.book-dl a:focus-visible{outline:3px solid var(--glow);outline-offset:2px}
 
-.learn-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}
-.tile{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:26px 24px;
-  display:flex;flex-direction:column;gap:12px}
-.tile .ic{width:52px;height:52px;color:var(--glow)}
-.tile.b .ic{color:var(--coral)} .tile.c .ic{color:var(--amber)} .tile.d .ic{color:#3FB984}
-.tile.e .ic{color:#E08A2E} .tile.f .ic{color:#D97326} .tile.g .ic{color:#C04F18} .tile.h .ic{color:#A8380A}
-.tile.i .ic{color:#34A853} .tile.j .ic{color:#2E9E5B} .tile.k .ic{color:#2A8C4E} .tile.l .ic{color:#277A44}
-.tile h3{font-size:1.12rem}
-.tile p{color:var(--muted);font-size:.96rem}
+.learn-grid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:1fr;gap:18px}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:20px 20px 22px;
+  display:flex;flex-direction:column;gap:10px}
+/* Satir basina dort kutu = satir basina bir seri; renk o serinin kimligi. */
+.tile-head{display:flex;align-items:center;gap:12px}
+.tile .ic{width:36px;height:36px;flex:none;color:var(--glow)}
+.tile.s1 .ic{color:#2E8CC7} .tile.s2 .ic{color:#D97326}
+.tile.s3 .ic{color:#2E9E5B} .tile.s4 .ic{color:#8A4FC0}
+.tile h3{font-size:1.04rem;line-height:1.25;margin:0}
+.tile p{color:var(--muted);font-size:.94rem;margin:0}
+@media (max-width:1080px){ .learn-grid{grid-template-columns:repeat(2,1fr)} }
+@media (max-width:620px){ .learn-grid{grid-template-columns:1fr;grid-auto-rows:auto} }
 
 .about{display:grid;grid-template-columns:1.1fr .9fr;gap:36px}
 .panel{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:28px 30px}
@@ -450,38 +453,54 @@ __CILTLER__
     <p>Aşağıdaki on altı başlık serinin bütün konularını kapsıyor. Bunlar üniversitede bilgisayar mimarisi dersinde anlatılan gerçek konular: kumdan yongaya, sıfır ile bire, işlemcinin diline. Her kitap tek bir başlığı alıp baştan sona bir hikayeyle anlatıyor; kum, mutfak, karnaval, zarf ve yarış pisti benzetmeleriyle bir çocuğun anlayacağı biçimde. İlk iki seri 7-10 yaşa; buyrukları anlatan üçüncü seri ile işlemcinin içini anlatan dördüncü seri 9-12 yaşa uygun.</p>
   </div>
   <div class="learn-grid">
-    <div class="tile a"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><rect x="14" y="14" width="20" height="20" rx="4"/><path d="M20 14V8M28 14V8M20 40v-6M28 40v-6M14 20H8M14 28H8M40 20h-6M40 28h-6"/></svg>
-      <h3>Kumdan yongaya</h3><p>Bir avuç kum, saf bir plakaya ve içine milyarlarca parça sığan minik bir yongaya nasıl dönüşür?</p></div>
-    <div class="tile b"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><rect x="7" y="17" width="34" height="14" rx="7"/><circle cx="16" cy="24" r="4.5" fill="currentColor" stroke="none"/><path d="M30 20v8M34 20v8"/></svg>
-      <h3>Sıfır ve bir</h3><p>Açık ve kapalı sayısız minik anahtar bir araya gelince nasıl sayılara, harflere ve resimlere dönüşür?</p></div>
-    <div class="tile c"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><rect x="8" y="12" width="14" height="10" rx="2"/><rect x="26" y="12" width="14" height="10" rx="2"/><rect x="8" y="28" width="14" height="10" rx="2"/><rect x="26" y="28" width="14" height="10" rx="2"/></svg>
-      <h3>Bir bilgisayarın içi</h3><p>İşlemci, bellek, depo, giriş ve çıkış. Beş arkadaş el ele verince bilgisayar çalışmaya başlar.</p></div>
-    <div class="tile d"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 20a12 12 0 0 1 22-4"/><path d="M36 28a12 12 0 0 1-22 4"/><path d="M34 8v8h-8M14 40v-8h8"/></svg>
-      <h3>Adım adım düşünmek</h3><p>Al, anla, yap. Bir bilgisayar her işi bu üç adımı saniyede milyarlarca kez tekrar ederek başarır.</p></div>
-    <div class="tile e"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 34a15 15 0 0 1 30 0"/><path d="M24 34l9-7"/><circle cx="24" cy="34" r="2.6" fill="currentColor" stroke="none"/></svg>
-      <h3>Neyin hızlı olduğu</h3><p>Saat hızı, buyruk sayısı ve bir adımda yapılan iş: bir bilgisayarı gerçekten hızlı yapan nedir?</p></div>
-    <div class="tile f"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M8 15h20M8 24h20M8 33h20"/><path d="M30 11l7 4-7 4M30 20l7 4-7 4M30 29l7 4-7 4"/></svg>
-      <h3>Birlikte daha hızlı</h3><p>Tek aşçı yerine çok aşçı. Çekirdekler işi bölüşünce koca bir iş nasıl birlikte daha hızlı biter?</p></div>
-    <div class="tile g"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 35l9-9 6 6 15-17"/><path d="M33 15h7v7"/></svg>
-      <h3>Hızlanmanın sırrı</h3><p>En yavaş kısmı hızlandır ya da işi büyüt: daha hızlı olmanın iki ayrı yolu vardır.</p></div>
-    <div class="tile h"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M8 16h32M8 24h32M8 32h32M18 16v8M30 16v8M12 24v8M24 24v8M36 24v8"/></svg>
-      <h3>Hızlı işlemci, yavaş bellek</h3><p>En çok kullanılanı hemen yanına koy: önbellek, o dar geçidi nasıl açar?</p></div>
-    <div class="tile i"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M19 15l-9 9 9 9"/><path d="M29 15l9 9-9 9"/></svg>
-      <h3>Bilgisayarın dili</h3><p>Yazılım ne ister, donanım ne yapar? İkisinin ortak sözleşmesi ve Getir-Çöz-Yürüt döngüsü.</p></div>
-    <div class="tile j"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><rect x="6" y="17" width="10" height="14" rx="2"/><rect x="19" y="17" width="10" height="14" rx="2"/><rect x="32" y="17" width="10" height="14" rx="2"/></svg>
-      <h3>Yazmaç kutuları</h3><p>İşlemcinin içindeki minik, süper hızlı kutular. Sayılar burada tutulur, buradan alınır.</p></div>
-    <div class="tile k"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="13" width="32" height="22" rx="3"/><path d="M9 15l15 11 15-11"/></svg>
-      <h3>Zarfın içindeki emir</h3><p>Her buyruk bölmeli bir zarf gibidir; işlemci hangi bölmede ne yazdığını bilir, adresi öyle bulur.</p></div>
-    <div class="tile l"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="15" r="2.6"/><circle cx="11" cy="24" r="2.6"/><circle cx="11" cy="33" r="2.6"/><path d="M20 15h20M20 24h20M20 33h14"/></svg>
-      <h3>Buyruk aileleri</h3><p>Topla ve çıkar, karşılaştır ve dallan, yükle ve sakla: işlemcinin bildiği emir çeşitleri.</p></div>
-    <div class="tile a"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M10 30h28"/><path d="M14 30V19M22 30v-7M30 30V15M38 30v-4"/><path d="M12 38h24"/></svg>
-      <h3>Toplayan devre</h3><p>Elde bir basamaktan komşusuna nasıl geçer? İşlemcinin içindeki minik toplayıcılar zinciri.</p></div>
-    <div class="tile b"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="24" r="8"/><path d="M24 6v6M24 36v6M6 24h6M36 24h6M11 11l4 4M33 33l4 4M37 11l-4 4M15 33l-4 4"/></svg>
-      <h3>Her işi yapan alet</h3><p>Toplayan, çıkaran, karşılaştıran tek bir kutu: Aritmetik Mantık Birimi ve içindeki mantık işlemleri.</p></div>
-    <div class="tile c"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 24h8M32 24h8"/><rect x="16" y="16" width="16" height="16" rx="3"/><path d="M24 8v8M24 32v8"/></svg>
-      <h3>Virgülün dansı</h3><p>Dev yıldız uzaklıkları ile minik karınca ağırlıkları aynı kutuya nasıl sığar? Kayan nokta.</p></div>
-    <div class="tile d"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="10" width="9" height="9" rx="2"/><rect x="20" y="10" width="9" height="9" rx="2"/><rect x="33" y="10" width="8" height="9" rx="2"/><path d="M11 19v10h26V19"/><path d="M24 29v9"/><circle cx="24" cy="40" r="3"/></svg>
-      <h3>İşlemcinin içi</h3><p>Bir buyruk hangi duraklardan geçer, kim işaret verir, tek vuruşta mı çok vuruşta mı biter?</p></div>
+    <div class="tile s1">
+      <div class="tile-head"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><rect x="14" y="14" width="20" height="20" rx="4"/><path d="M20 14V8M28 14V8M20 40v-6M28 40v-6M14 20H8M14 28H8M40 20h-6M40 28h-6"/></svg><h3>Kumdan yongaya</h3></div>
+      <p>Bir avuç kum, saf bir plakaya ve içine milyarlarca parça sığan minik bir yongaya nasıl dönüşür?</p></div>
+    <div class="tile s1">
+      <div class="tile-head"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><rect x="7" y="17" width="34" height="14" rx="7"/><circle cx="16" cy="24" r="4.5" fill="currentColor" stroke="none"/><path d="M30 20v8M34 20v8"/></svg><h3>Sıfır ve bir</h3></div>
+      <p>Açık ve kapalı sayısız minik anahtar bir araya gelince nasıl sayılara, harflere ve resimlere dönüşür?</p></div>
+    <div class="tile s1">
+      <div class="tile-head"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><rect x="8" y="12" width="14" height="10" rx="2"/><rect x="26" y="12" width="14" height="10" rx="2"/><rect x="8" y="28" width="14" height="10" rx="2"/><rect x="26" y="28" width="14" height="10" rx="2"/></svg><h3>Bir bilgisayarın içi</h3></div>
+      <p>İşlemci, bellek, depo, giriş ve çıkış. Beş arkadaş el ele verince bilgisayar çalışmaya başlar.</p></div>
+    <div class="tile s1">
+      <div class="tile-head"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 20a12 12 0 0 1 22-4"/><path d="M36 28a12 12 0 0 1-22 4"/><path d="M34 8v8h-8M14 40v-8h8"/></svg><h3>Adım adım düşünmek</h3></div>
+      <p>Al, anla, yap. Bir bilgisayar her işi bu üç adımı saniyede milyarlarca kez tekrar ederek başarır.</p></div>
+    <div class="tile s2">
+      <div class="tile-head"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 34a15 15 0 0 1 30 0"/><path d="M24 34l9-7"/><circle cx="24" cy="34" r="2.6" fill="currentColor" stroke="none"/></svg><h3>Neyin hızlı olduğu</h3></div>
+      <p>Saat hızı, buyruk sayısı ve bir adımda yapılan iş: bir bilgisayarı gerçekten hızlı yapan nedir?</p></div>
+    <div class="tile s2">
+      <div class="tile-head"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M8 15h20M8 24h20M8 33h20"/><path d="M30 11l7 4-7 4M30 20l7 4-7 4M30 29l7 4-7 4"/></svg><h3>Birlikte daha hızlı</h3></div>
+      <p>Tek aşçı yerine çok aşçı. Çekirdekler işi bölüşünce koca bir iş nasıl birlikte daha hızlı biter?</p></div>
+    <div class="tile s2">
+      <div class="tile-head"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 35l9-9 6 6 15-17"/><path d="M33 15h7v7"/></svg><h3>Hızlanmanın sırrı</h3></div>
+      <p>En yavaş kısmı hızlandır ya da işi büyüt: daha hızlı olmanın iki ayrı yolu vardır.</p></div>
+    <div class="tile s2">
+      <div class="tile-head"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M8 16h32M8 24h32M8 32h32M18 16v8M30 16v8M12 24v8M24 24v8M36 24v8"/></svg><h3>Hızlı işlemci, yavaş bellek</h3></div>
+      <p>En çok kullanılanı hemen yanına koy: önbellek, o dar geçidi nasıl açar?</p></div>
+    <div class="tile s3">
+      <div class="tile-head"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M19 15l-9 9 9 9"/><path d="M29 15l9 9-9 9"/></svg><h3>Bilgisayarın dili</h3></div>
+      <p>Yazılım ne ister, donanım ne yapar? İkisinin ortak sözleşmesi ve Getir-Çöz-Yürüt döngüsü.</p></div>
+    <div class="tile s3">
+      <div class="tile-head"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><rect x="6" y="17" width="10" height="14" rx="2"/><rect x="19" y="17" width="10" height="14" rx="2"/><rect x="32" y="17" width="10" height="14" rx="2"/></svg><h3>Yazmaç kutuları</h3></div>
+      <p>İşlemcinin içindeki minik, süper hızlı kutular. Sayılar burada tutulur, buradan alınır.</p></div>
+    <div class="tile s3">
+      <div class="tile-head"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="13" width="32" height="22" rx="3"/><path d="M9 15l15 11 15-11"/></svg><h3>Zarfın içindeki emir</h3></div>
+      <p>Her buyruk bölmeli bir zarf gibidir; işlemci hangi bölmede ne yazdığını bilir, adresi öyle bulur.</p></div>
+    <div class="tile s3">
+      <div class="tile-head"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="15" r="2.6"/><circle cx="11" cy="24" r="2.6"/><circle cx="11" cy="33" r="2.6"/><path d="M20 15h20M20 24h20M20 33h14"/></svg><h3>Buyruk aileleri</h3></div>
+      <p>Topla ve çıkar, karşılaştır ve dallan, yükle ve sakla: işlemcinin bildiği emir çeşitleri.</p></div>
+    <div class="tile s4">
+      <div class="tile-head"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M10 30h28"/><path d="M14 30V19M22 30v-7M30 30V15M38 30v-4"/><path d="M12 38h24"/></svg><h3>Toplayan devre</h3></div>
+      <p>Elde bir basamaktan komşusuna nasıl geçer? İşlemcinin içindeki minik toplayıcılar zinciri.</p></div>
+    <div class="tile s4">
+      <div class="tile-head"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="24" r="8"/><path d="M24 6v6M24 36v6M6 24h6M36 24h6M11 11l4 4M33 33l4 4M37 11l-4 4M15 33l-4 4"/></svg><h3>Her işi yapan alet</h3></div>
+      <p>Toplayan, çıkaran, karşılaştıran tek bir kutu: Aritmetik Mantık Birimi ve içindeki mantık işlemleri.</p></div>
+    <div class="tile s4">
+      <div class="tile-head"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 24h8M32 24h8"/><rect x="16" y="16" width="16" height="16" rx="3"/><path d="M24 8v8M24 32v8"/></svg><h3>Virgülün dansı</h3></div>
+      <p>Dev yıldız uzaklıkları ile minik karınca ağırlıkları aynı kutuya nasıl sığar? Kayan nokta.</p></div>
+    <div class="tile s4">
+      <div class="tile-head"><svg class="ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="10" width="9" height="9" rx="2"/><rect x="20" y="10" width="9" height="9" rx="2"/><rect x="33" y="10" width="8" height="9" rx="2"/><path d="M11 19v10h26V19"/><path d="M24 29v9"/><circle cx="24" cy="40" r="3"/></svg><h3>İşlemcinin içi</h3></div>
+      <p>Bir buyruk hangi duraklardan geçer, kim işaret verir, tek vuruşta mı çok vuruşta mı biter?</p></div>
   </div>
 </div></section>
 
