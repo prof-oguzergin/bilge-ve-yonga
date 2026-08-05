@@ -10,7 +10,7 @@
 ## Sayfa 1 — Duvar Saatinin Tık Tak Sesi
 
 **Metin:**
-Bilge ile Yonga, atölyede eski bir duvar saatinin önünde durdu. Sarkaç her saniye aynı ritimle tık tak diye sallanıyordu.
+Bilge ile Yonga, atölyede eski bir duvar saatinin önünde durdu. Sarkaç her saniye aynı ritimle tik tak diye sallanıyordu.
 
 {B}"Yonga, bu saat neden hiç şaşırmıyor?" diye sordu Bilge.
 
@@ -120,7 +120,7 @@ Bir denetim panosu görseli; büyük bir kadranın üzerinde "VURUŞ SÜRESİ" y
 **Metin:**
 Bilge birden içini çekti. {B}"O zaman toplama gibi hızlı bir buyruk, işini çoktan bitirse bile vuruşun sonunu bekliyor, öyle mi?"
 
-{Y}"Doğru fark ettin," dedi Yonga. {Y}"O bekleme süresi boşa gider. Buna zaman israfı denir."
+{Y}"Doğru fark ettin," dedi Yonga. {Y}"O bekleme süresi boşa gider. Hızlı buyruk, en yavaş buyruğun süresine razı olur."
 
 **Resim:**
 Yonga'nın ekranında bir zaman çubuğu; solda küçük bir artı işareti işini erkenden bitirmiş, sağ tarafta ise çubuğun geri kalanı gri, soluk bir renkte taranarak boş bekleme olarak gösteriliyor. Bilge üzgün bir ifadeyle o gri kısmı gösteriyor.
@@ -178,9 +178,9 @@ Yonga'nın gözlerinde parlak bir ipucu ışığı yanıyor, arka planda kapalı
 ## Sayfa 14 — Saatin Tık Takı Devam Ediyor
 
 **Metin:**
-Atölyede duvar saati hâlâ sabırla tık tak diye sallanıyordu.
+Atölyede duvar saati hâlâ sabırla tik tak diye sallanıyordu.
 
-{B}"Şimdi bu tık takı hiç aynı duymuyorum," dedi Bilge gülümseyerek.
+{B}"Şimdi bu tik takı hiç aynı duymuyorum," dedi Bilge gülümseyerek.
 
 {Y}"Her tık, sabırlı ama basit bir işlemcinin kalp atışı," dedi Yonga, ışıklarını neşeyle yakıp söndürerek.
 
@@ -197,7 +197,7 @@ Atölye ilk sayfadaki gibi ama artık akşam ışığı sızıyor; Bilge saatin 
 
 🐢 Kısa ve kolay bir buyruk bile işini erken bitirse, vuruşun sonunu beklemek zorunda kalır.
 
-💤 Bu bekleme, boşa giden zamandır; buna **zaman israfı** denir.
+💤 Bu bekleme boşa giden zamandır; hızlı buyruk, en yavaş buyruğun süresine razı olur.
 
 🧩 Avantajı: tasarım basit ve anlaşılırdır, öğrenmesi ve kurması kolaydır.
 
