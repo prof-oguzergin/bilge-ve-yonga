@@ -52,7 +52,7 @@ Yonga'nın havaya yansıttığı hologramda minik bir şef figürü elinde küç
 **Metin:**
 {Y}"Bir orkestrada şef notaya bakar, değil mi?" dedi Yonga.
 
-Bilge başını salladı. {B}"Nota söyler kime ne zaman çalacağını."
+Bilge başını salladı. {B}"Notada hangi çalgının ne çalacağı yazar. Şef de notaya bakıp herkese işaret verir."
 
 Yonga ışığını parlattı. {Y}"Benim şefim de notaya bakar, ama benim notam buyruk denen şey. Çalgıcılarım da AMB, yazmaçlar, bellek ve onları bağlayan teller."
 
