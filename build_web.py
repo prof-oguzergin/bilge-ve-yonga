@@ -153,6 +153,9 @@ BOOKS = [
      'Çok vuruşluk işlemci: buyruğu küçük adımlara bölmek, kısa buyruk çabuk biter', '#3A1C62'),
     ('kitap4.10-icindeki-minik-buyruklar', '4.10', 'İçindeki Minik Buyruklar',
      'Mikroprogram: şefin küçük bir bellekten okuduğu minik adımlar', '#2E1454'),
+    ('kitap4.11-bir-seferde-kac-bit', '4.11', 'Bir Seferde Kaç Bit?',
+     'Sözcük boyu ve adres yolu: bir seferde ne kadarı taşınır, kaç göze ulaşılır',
+     '#241046'),
 ]
 
 
