@@ -1237,7 +1237,7 @@ CILTLER = {
     # kart DOI baglantisi ve indirme dugmesi yerine bir not gosterir.
     '4': {'doi': '', 'kayit': None,
           'dosya': 'Bilge ve Yonga - Cilt 4 - İşlemcinin İçi.pdf',
-          'sayfa': 164, 'mb': 33},
+          'sayfa': 196, 'mb': 40},
 }
 
 
