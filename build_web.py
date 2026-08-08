@@ -1230,7 +1230,7 @@ CILTLER = {
     '2': {'doi': '10.5281/zenodo.21725924', 'kayit': 21725925,
           'dosya': 'Bilge ve Yonga - Cilt 2 - Hız ve Güç.pdf',
           'sayfa': 160, 'mb': 34},
-    '3': {'doi': '10.5281/zenodo.21725978', 'kayit': 21725979,
+    '3': {'doi': '10.5281/zenodo.21725978', 'kayit': 21854938,
           'dosya': 'Bilge ve Yonga - Cilt 3 - Buyrukların Dünyası.pdf',
           'sayfa': 174, 'mb': 32},
     '4': {'doi': '10.5281/zenodo.21854810', 'kayit': 21854811,
