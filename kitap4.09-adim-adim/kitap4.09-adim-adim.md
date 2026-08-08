@@ -89,11 +89,11 @@ Bilge sevinçle ellerini çırptı. {B}"Üç kaşıkla biten çorba, dört kaş�
 **Metin:**
 {B}"Dün demiştin ki, tek vuruşluk işlemcide herkes en yavaş buyruğu bekliyordu." dedi Bilge, birden gözleri parladı. {B}"Şimdi öyle değil, değil mi?"
 
-{Y}"Tam isabet!" dedi Yonga. {Y}"Dallanma üç tıkta biter, yükleme beş tıkta. Kısa buyruk artık uzun buyruğu beklemek zorunda kalmıyor. Bu tasarımın adı **çok vuruşluk** işlemci, çünkü bir buyruk birden çok vuruş kullanıyor."
+{Y}"Tam isabet!" dedi Yonga. {Y}"Dallanma üç tıkta biter, yükleme beş tıkta. Kısa buyruk artık en uzun buyruğa göre ayarlanmış koca bir vuruşu beklemiyor. Bu tasarımın adı **çok vuruşluk** işlemci, çünkü bir buyruk birden çok vuruş kullanıyor."
 
 {B}"Demek her buyruk kendi tabağını kendi hızında bitiriyor!" dedi Bilge sevinçle.
 
-{Y}"Aynen öyle düşün." dedi Yonga. {Y}"Artık kimse gereksiz yere beklemiyor."
+{Y}"Tam öyle düşün." dedi Yonga. {Y}"Kısa buyruk artık uzun bir vuruşun sonunu beklemiyor."
 
 **Resim:** Yan yana iki küçük masa: birinde kısa bir çorba kâsesi hızla bitmiş, boş duruyor; öbüründe uzun bir çorba kâsesi hâlâ kaşıklanıyor. Bilge iki masaya da bakıp gülümsüyor, elleriyle "eşit değil ama adil" der gibi bir hareket yapıyor. Yonga ışıklarını mutlulukla yakıp söndürüyor.
 
@@ -164,7 +164,7 @@ Bilge başını salladı. {B}"Her şeyin bir bedeli varmış demek."
 **Metin:**
 {B}"Yonga, bir buyruk adımlara bölününce, bir sonraki buyruk hemen başlayabiliyor mu?" diye sordu Bilge.
 
-{Y}"Hayır, henüz değil." dedi Yonga. {Y}"Bir buyruk bütün adımlarını bitirmeden, bir sonraki buyruk başlamıyor. Aynen, sen tabağını tamamen bitirmeden bir sonraki tabak gelmiyor."
+{Y}"Hayır, henüz değil." dedi Yonga. {Y}"Bir buyruk bütün adımlarını bitirmeden, bir sonraki buyruk başlamıyor. Tıpkı sen tabağını bitirmeden bir sonraki tabağın gelmemesi gibi."
 
 {B}"Sadece her tabağın kendi içindeki kaşıklar küçüldü." dedi Bilge, anlamış gibi gözleri parladı.
 
