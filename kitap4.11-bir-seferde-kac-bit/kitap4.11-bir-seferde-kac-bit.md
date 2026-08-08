@@ -89,7 +89,7 @@ Bilge güldü. {B}"Tıpkı benim kitapları iki seferde taşımam gibi!"
 
 {Y}"Evet. Ve her katlanmada bir seferde daha çok iş yaptım." dedi Yonga. {Y}"Artık koca sayıları tek turda taşıyorum."
 
-**Resim:** Hologramda dört kucak yan yana duruyor, her biri bir öncekinin iki katı genişlikte; birincisinin üstünde 8, ikincisinde 16, üçüncüsünde 32, dördüncüsünde 64 yazıyor. Bilge en geniş olanın önünde durmuş, kollarını açarak boyunu ölçüyor.
+**Resim:** Hologramda dört ışıklı şerit alt alta duruyor, bir merdiven gibi; hepsinin sol ucu aynı hizada başlıyor ve her şerit bir öncekinin tam iki katı uzunlukta. Şeritlerin solunda üstten alta doğru 8, 16, 32, 64 yazıyor. Bilge en uzun şeridin sağında durmuş, kollarını iki yana açarak onun uzunluğuna hayretle bakıyor. Yonga da yanında süzülüyor.
 
 ---
 
@@ -201,7 +201,7 @@ Bilge gözlerini kocaman açtı. {B}"4 milyar mı?"
 
 Bilge tabletine baktı, sonra Yonga'ya. {B}"Demek bu küçük şeyin kucağı, en baştaki işlemciden on altı kat geniş."
 
-**Resim:** Bilge sınıfta sıranın başında oturuyor, elinde bir tablet var. Tabletin üstünde küçük bir hologramda dört ışıklı kutucuk ile altmış dört ışıklı kutucuk yan yana duruyor; dörtlü öbek minicik, altmış dörtlü öbek geniş. Yonga onun omzunun yanında süzülüyor.
+**Resim:** Bilge sınıfta sıranın üstünde oturuyor, kucağında bir tablet var. Tabletten yayılan hologramda solda dört ışıklı kare tek sıra hâlinde duruyor, sağda ise sekiz sıra sekiz sütun ışıklı kare geniş bir öbek oluşturuyor. Yonga onun omzunun yanında süzülüyor.
 
 ---
 
