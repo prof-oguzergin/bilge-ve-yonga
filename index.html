@@ -382,7 +382,13 @@ footer p{color:var(--muted);font-size:.9rem}
   .meet,.about{grid-template-columns:1fr}
   .meet .frame{order:-1;transform:none}
 }
-@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto}}
+/* Hareket azaltması "hiç kıpırdamasın" değil, "büyük ve ani hareket olmasın"
+   demektir. Deste bu kuralın dışında tutulur: kartlar kaymaz ama yerlerine
+   yumuşakça belirir. Öteki animasyonlar ve kaydırma yine kapalı. */
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important;scroll-behavior:auto}
+  .deck .card{transition:opacity .6s ease!important}
+}
 .book-surum{font-size:.68rem;font-weight:700;letter-spacing:.03em;white-space:nowrap;color:var(--bg);border:1px solid var(--bg);padding:2px 8px;border-radius:999px;opacity:.85}
 .book-tarih{font-size:.72rem;color:var(--muted);white-space:nowrap;margin-left:-4px}
 </style>
@@ -1531,7 +1537,12 @@ footer p{color:var(--muted);font-size:.9rem}
   var deck=document.getElementById('deck'); if(!deck) return;
   var cards=[].slice.call(deck.querySelectorAll('.card'));
   var cap=document.getElementById('deckCap');
-  var n=cards.length, ofs=0, timer=null, ARA=5000;
+  // Hareket azaltmasi isteyen ziyaretcide deste yine doner, ama daha
+  // seyrek ve kartlar kaymadan, yerlerine yumusakca belirerek. Windows'ta
+  // animasyon efektlerini kapatmis cok sayida kullanici var; onlara bos
+  // duran bir deste gostermek istemiyoruz.
+  var azalt = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var n=cards.length, ofs=0, timer=null, ARA=azalt?9000:5000;
 
   // Arkadaki kartlar her sayfa yuklenisinde havuzdan rastgele cekilir.
   // Ondeki kart (s0) hep ayni kalir: ilk izlenim denetimde olsun.
@@ -1570,21 +1581,17 @@ footer p{color:var(--muted);font-size:.9rem}
   function basla(){ dur(); timer=setInterval(ilerle,ARA); }
   ciz();
   // el ile gecis her durumda calisir, fare ve klavye ile
-  function elle(){ ilerle(); if(otomatik) basla(); }
+  function elle(){ ilerle(); basla(); }
   deck.addEventListener('click',elle);
   deck.addEventListener('keydown',function(e){
     if(e.key==='Enter'||e.key===' '){ e.preventDefault(); elle(); }
   });
-  // otomatik donus yalnizca hareket azaltmasi istenmiyorsa
-  var otomatik = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if(otomatik){
-    basla();
-    deck.addEventListener('mouseenter',dur);
-    deck.addEventListener('mouseleave',basla);
-    deck.addEventListener('focus',dur);
-    deck.addEventListener('blur',basla);
-    document.addEventListener('visibilitychange',function(){ document.hidden?dur():basla(); });
-  }
+  basla();
+  deck.addEventListener('mouseenter',dur);
+  deck.addEventListener('mouseleave',basla);
+  deck.addEventListener('focus',dur);
+  deck.addEventListener('blur',basla);
+  document.addEventListener('visibilitychange',function(){ document.hidden?dur():basla(); });
 })();
 </script>
 </body>
