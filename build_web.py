@@ -60,7 +60,7 @@ SERIES = {
 # eden kapaklar. Kapaklar 900 piksele olceklenir; 480 piksellik kapaklar
 # yogun ekranlarda bulanik kaliyordu.
 DESTE_ON = 'kitap1.01a'
-DESTE_HAVUZ = ['kitap1.02', 'kitap1.09', 'kitap2.02', 'kitap2.04', 'kitap2.06',
+DESTE_HAVUZ = ['kitap1.02a', 'kitap1.09', 'kitap2.02', 'kitap2.04', 'kitap2.06',
                'kitap2.10', 'kitap3.01', 'kitap3.07', 'kitap3.08', 'kitap3.11']
 DESTE_ARKA = 4            # ondeki kartin arkasinda kac kart durur
 DESTE_GENISLIK = 900      # piksel
@@ -70,8 +70,11 @@ BOOKS = [
      'Bir avuç kumdan yongaya uzanan üretim yolculuğu', '#2B93D1'),
     ('kitap1.01b-bazen-gecer-bazen-gecmez', '1.1b', 'Bazen Geçer, Bazen Geçmez',
      'Silisyum neden seçildi: yarı iletken ve transistörün doğuşu', '#2889C6'),
-    ('kitap1.02-milyarlarca-kucuk-anahtar', '1.2', 'Milyarlarca Küçük Anahtar',
+    ('kitap1.02a-milyarlarca-kucuk-anahtar', '1.2a', 'Milyarlarca Küçük Anahtar',
      'Transistörler, açık-kapalı anahtarlar ve ikili sayılar', '#267FBA'),
+    ('kitap1.02b-ayni-rakam-baska-deger', '1.2b', 'Aynı Rakam, Başka Değer',
+     'Basamak değeri: aynı rakam nerede durduğuna göre başka değer taşır',
+     '#257AB5'),
     ('kitap1.03-bilgisayarin-bes-arkadasi', '1.3', 'Bilgisayarın Beş Arkadaşı',
      'İşlemci, bellek, depo, giriş ve çıkış', '#2375AF'),
     ('kitap1.04-al-anla-yap', '1.4', 'Al, Anla, Yap!',

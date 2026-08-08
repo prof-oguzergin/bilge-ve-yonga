@@ -9,9 +9,13 @@
       "surum": "1.1",
       "tarih": "5 Ağustos 2026"
     },
-    "kitap1.02-milyarlarca-kucuk-anahtar": {
+    "kitap1.02a-milyarlarca-kucuk-anahtar": {
       "surum": "1.0",
       "tarih": "5 Ağustos 2026"
+    },
+    "kitap1.02b-ayni-rakam-baska-deger": {
+      "surum": "1.0",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap1.03-bilgisayarin-bes-arkadasi": {
       "surum": "1.0",
@@ -180,8 +184,8 @@
   },
   "ciltler": {
     "1": {
-      "surum": "1.2",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.3",
+      "tarih": "9 Ağustos 2026"
     },
     "2": {
       "surum": "1.0",
