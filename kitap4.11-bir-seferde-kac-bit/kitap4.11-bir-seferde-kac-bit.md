@@ -137,9 +137,9 @@ Bilge hesapladı ve gülümsedi. {B}"Demek eksi kalıyor, değer de aynı."
 ## Sayfa 10 — Kaç Bitlik Adres, Kaç Göz?
 
 **Metin:**
-{B}"Adres kaç bit olursa ne olur?" diye sordu Bilge.
+{B}"Kaç bitlik adresle kaç göze ulaşabiliyorsun?" diye sordu Bilge.
 
-{Y}"Aynı sayma." dedi Yonga. {Y}"16 bitlik adresle 65 bin gözü işaret edebilirim. 32 bitlik adresle 4 milyardan çok gözü."
+{Y}"Yine o ikiye katlama hesabı." dedi Yonga. {Y}"16 bitlik adresle 65 bin gözü işaret edebilirim. 32 bitlik adresle 4 milyardan çok gözü."
 
 Bilge gözlerini kocaman açtı. {B}"4 milyar mı?"
 
