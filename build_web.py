@@ -1224,7 +1224,7 @@ def temizle_bayat_okuyucular():
 # yere yazilmaz; mimari kitabinda aylarca surum DOI'si kullanilip atif verenler
 # ilk taslaga yonlendirilmisti.
 CILTLER = {
-    '1': {'doi': '10.5281/zenodo.21725876', 'kayit': 21725877,
+    '1': {'doi': '10.5281/zenodo.21725876', 'kayit': 21854870,
           'dosya': 'Bilge ve Yonga - Cilt 1 - Kumdan Bilgisayara.pdf',
           'sayfa': 171, 'mb': 34},
     '2': {'doi': '10.5281/zenodo.21725924', 'kayit': 21725925,
@@ -1233,9 +1233,7 @@ CILTLER = {
     '3': {'doi': '10.5281/zenodo.21725978', 'kayit': 21725979,
           'dosya': 'Bilge ve Yonga - Cilt 3 - Buyrukların Dünyası.pdf',
           'sayfa': 174, 'mb': 32},
-    # 4. cilt hazir ama DOI alma sureci suruyor. doi/kayit bos oldugu surece
-    # kart DOI baglantisi ve indirme dugmesi yerine bir not gosterir.
-    '4': {'doi': '', 'kayit': None,
+    '4': {'doi': '10.5281/zenodo.21854810', 'kayit': 21854811,
           'dosya': 'Bilge ve Yonga - Cilt 4 - İşlemcinin İçi.pdf',
           'sayfa': 196, 'mb': 40},
 }

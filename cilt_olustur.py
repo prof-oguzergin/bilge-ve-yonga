@@ -240,8 +240,7 @@ CILTLER = [
     ('1', 'Kumdan Bilgisayara', '10.5281/zenodo.21725876'),
     ('2', 'Hız ve Güç', '10.5281/zenodo.21725924'),
     ('3', 'Buyrukların Dünyası', '10.5281/zenodo.21725978'),
-    # 4. cilt: DOI alma sureci suruyor, bos birakilinca kunyeye '(atanacak)' basilir
-    ('4', 'İşlemcinin İçi', ''),
+    ('4', 'İşlemcinin İçi', '10.5281/zenodo.21854810'),
 ]
 
 
