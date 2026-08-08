@@ -310,8 +310,11 @@ section.band{padding:76px 0}
 .book-ust{display:flex;align-items:center;gap:10px;flex-wrap:wrap;min-height:24px}
 .book-no{font-family:var(--font-display);font-weight:800;font-size:.76rem;letter-spacing:.06em;
   color:#fff;background:var(--bg);padding:3px 12px;border-radius:999px;flex:none}
-.book h3{font-size:1.18rem}
-.book p{color:var(--muted);font-size:.95rem}
+/* Kart içinde başlık satırları birbirine yapışıyor, açıklama satırları ise
+   fazla açılıyordu; genel 1,05 ve 1,65 değerleri kart ölçeğinde birbirine
+   yaklaştırıldı. */
+.book h3{font-size:1.18rem;line-height:1.22}
+.book p{color:var(--muted);font-size:.95rem;line-height:1.42}
 .book-actions{display:flex;flex-direction:column;gap:8px;margin-top:auto;padding-top:12px}
 .btn-read{text-align:center;font-family:var(--font-display);font-weight:800;
   font-size:.95rem;border-radius:999px;padding:11px 12px;text-decoration:none;
