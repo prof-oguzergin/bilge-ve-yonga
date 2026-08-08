@@ -1203,6 +1203,28 @@ def uyar_bayat_klasor():
             print( '          Siteye girmiyor. Bayat kopya olabilir, denetle.')
 
 
+# Yeniden adlandirilan kitaplarin eski adresleri. Bayat okuyucu temizligi
+# elle birakilan yonlendirmeyi de siliyordu; bu yuzden yonlendirmeler de
+# kurulumda uretilir ve temizlikten SONRA yazilir.
+YONLENDIRMELER = {
+    'kitap1.02-milyarlarca-kucuk-anahtar': 'kitap1.02a-milyarlarca-kucuk-anahtar',
+}
+
+
+def yaz_yonlendirmeler():
+    """Eski okuyucu adreslerine yeni sayfaya goturen sayfa birakir."""
+    for eski, yeni in YONLENDIRMELER.items():
+        (OKU / (eski + '.html')).write_text(
+            '<!doctype html>\n<html lang="tr">\n<head>\n<meta charset="utf-8">\n'
+            '<title>Bilge ve Yonga</title>\n'
+            '<link rel="canonical" href="{0}.html">\n'
+            '<meta http-equiv="refresh" content="0; url={0}.html">\n'
+            '</head>\n<body>\n<p>Bu kitabın adresi değişti. Yeni adres: '
+            '<a href="{0}.html">{0}.html</a></p>\n</body>\n</html>\n'.format(yeni),
+            encoding='utf-8')
+    return list(YONLENDIRMELER)
+
+
 def temizle_bayat_okuyucular():
     """BOOKS listesinde olmayan okuyucu dosyalarini siler.
 
@@ -1300,6 +1322,7 @@ def build_index():
     tpl = tpl.replace('__COUNT__', str(len(BOOKS)))
     (REPO / 'index.html').write_text(tpl, encoding='utf-8')
     temizle_bayat_okuyucular()
+    yaz_yonlendirmeler()
     uyar_bayat_klasor()
 
 
