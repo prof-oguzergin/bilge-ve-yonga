@@ -204,13 +204,26 @@ a.brand:hover{opacity:.82}
 .deck:focus-visible{outline:3px solid var(--coral);outline-offset:8px}
 .deck .card{position:absolute;top:0;left:0;width:74%;display:block;border-radius:16px;
   box-shadow:var(--shadow);border:6px solid var(--surface);background:var(--surface);
-  transition:transform .9s cubic-bezier(.34,.08,.2,1), opacity .9s ease;
+  transition:transform .9s cubic-bezier(.34,.08,.2,1), opacity .9s ease,
+             translate .35s ease, rotate .35s ease, scale .35s ease;
   will-change:transform;transform-origin:50% 50%}
 .deck .card.s0{transform:translate(18%,120%) rotate(-2deg) scale(1);z-index:5;opacity:1}
 .deck .card.s1{transform:translate(8%,90%) rotate(4deg) scale(.965);z-index:4;opacity:.98}
 .deck .card.s2{transform:translate(33%,60%) rotate(-7deg) scale(.935);z-index:3;opacity:.94}
 .deck .card.s3{transform:translate(5%,30%) rotate(3deg) scale(.91);z-index:2;opacity:.88}
 .deck .card.s4{transform:translate(26%,0) rotate(-4deg) scale(.885);z-index:1;opacity:.8}
+/* Fare desteye gelince deste hafifçe açılır: dönüş durur, kartlar biraz
+   yelpazelenip öndeki öne çıkar. Ziyaretçiye "buraya dokunulabilir"
+   demenin sessiz yolu.
+   Yelpaze, kartların yığın konumunu veren transform'a DOKUNMADAN ayrı
+   translate/rotate/scale özellikleriyle yazılır. Böylece hareket
+   azaltması isteyende de çalışır: kendiliğinden dönüşte kaydırma yok,
+   ama kullanıcının kendi istediği bu küçük tepki var. */
+.deck:hover .card.s0{scale:1.03;translate:0 -8px}
+.deck:hover .card.s1{scale:1.01;translate:-3% -7px;rotate:2deg}
+.deck:hover .card.s2{scale:1.01;translate:4% -5px;rotate:-3deg}
+.deck:hover .card.s3{scale:1.01;translate:-5% -5px;rotate:2deg;opacity:.94}
+.deck:hover .card.s4{scale:1.01;translate:4% -8px;rotate:-3deg;opacity:.9}
 .hero-art figcaption{margin:18px 4px 0;text-align:center;color:var(--muted);
   font-family:var(--font-display);font-size:1.02rem;font-weight:700;min-height:1.5em;
   transition:opacity .35s ease}
@@ -387,7 +400,8 @@ footer p{color:var(--muted);font-size:.9rem}
    yumuşakça belirir. Öteki animasyonlar ve kaydırma yine kapalı. */
 @media (prefers-reduced-motion:reduce){
   *{animation:none!important;transition:none!important;scroll-behavior:auto}
-  .deck .card{transition:opacity .6s ease!important}
+  .deck .card{transition:opacity .6s ease, translate .35s ease, rotate .35s ease,
+              scale .35s ease!important}
 }
 .book-surum{font-size:.68rem;font-weight:700;letter-spacing:.03em;white-space:nowrap;color:var(--bg);border:1px solid var(--bg);padding:2px 8px;border-radius:999px;opacity:.85}
 .book-tarih{font-size:.72rem;color:var(--muted);white-space:nowrap;margin-left:-4px}
