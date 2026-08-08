@@ -138,7 +138,7 @@ Bilge küçük bir yıldız çizdi elde biti için. {B}"Eldeyi yıldızla işare
 
 {B}"Dördüncü basamak: sıfır artı sıfır, ama gelen elde bir!" dedi Bilge. {B}"Demek buraya bir yazılıyor ve elde burada bitiyor."
 
-**Resim:** Dört basamaklı toplama zinciri baştan sona görünüyor, her kutunun üstünde küçük elde okları sırayla sağdan sola atlıyor, sonuçta dört kutuda soldan sağa 1, 0, 0, 0 rakamları duruyor. Bilge ve Yonga yan yana, ikisi de heyecanla hologramı işaret ediyor.
+**Resim:** Havada dört ışıklı kutucuk yan yana duruyor, içlerinde soldan sağa 1, 0, 0, 0 rakamları var. Kutucukların üstünde elde yıldızları sırayla sağdan sola sıçrıyor, bıraktıkları ışık izi sağ tarafta kalıyor. Bilge heyecanla en soldaki kutucuğu işaret ediyor, Yonga onun yanında süzülüp aynı yere bakıyor.
 
 ---
 
