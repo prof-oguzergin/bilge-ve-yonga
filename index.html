@@ -291,8 +291,9 @@ section.band{padding:76px 0}
 .cilt-no{font-size:.76rem;letter-spacing:.14em;text-transform:uppercase;
   font-weight:800;color:var(--accent)}
 .cilt-surum{font-size:.68rem;font-weight:700;letter-spacing:.03em;
-  white-space:nowrap;color:var(--accent);border:1px solid var(--accent);
-  padding:2px 8px;border-radius:999px;opacity:.85}
+  white-space:nowrap;color:color-mix(in srgb,var(--accent) 45%,var(--text));
+  border:1px solid color-mix(in srgb,var(--accent) 45%,var(--text));
+  padding:2px 8px;border-radius:999px}
 .cilt h3{font-family:var(--font-display);font-size:1.3rem;margin:0}
 .cilt-bilgi{color:var(--muted);font-size:.92rem;margin:0}
 .cilt-doi{margin:2px 0 0;font-size:.84rem;word-break:break-all}
@@ -412,7 +413,16 @@ footer p{color:var(--muted);font-size:.9rem}
   .deck .card{transition:opacity .6s ease, translate .35s ease, rotate .35s ease,
               scale .35s ease!important}
 }
-.book-surum{font-size:.68rem;font-weight:700;letter-spacing:.03em;white-space:nowrap;color:var(--bg);border:1px solid var(--bg);padding:2px 8px;border-radius:999px;opacity:.85}
+/* Rozet, kartın kendi rengini HAM kullanmaz. Seri renkleri kitap sırasınca
+   koyulaştığı için son kitapların rengi karanlık temada zemine gömülüyordu
+   (karşıtlık 1,1'e kadar iniyordu; okunabilirlik sınırı 4,5). Renk temanın
+   metin rengine doğru karıştırılınca karanlıkta açılıyor, aydınlıkta
+   koyulaşıyor; kartın kimliğinden de %45 kalıyor. Ölçüldü: iki temada da
+   en düşük karşıtlık 4,55. */
+.book-surum{font-size:.68rem;font-weight:700;letter-spacing:.03em;white-space:nowrap;
+  color:color-mix(in srgb,var(--bg) 45%,var(--text));
+  border:1px solid color-mix(in srgb,var(--bg) 45%,var(--text));
+  padding:2px 8px;border-radius:999px}
 .book-tarih{font-size:.72rem;color:var(--muted);white-space:nowrap;margin-left:-4px}
 </style>
 </head>
