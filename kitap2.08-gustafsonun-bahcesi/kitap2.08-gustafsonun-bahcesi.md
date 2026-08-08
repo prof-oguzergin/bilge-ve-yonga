@@ -40,7 +40,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 4 — Amdahl'la Karşılaştırma
 
 **Metin:**
-{Y}"Ama bekle." dedi Yonga, {Y}"bunu daha önce öğrendiğimiz Amdahl Yasası ile karşılaştıralım." Bilge hatırladı: {B}"Amdahl Yasası diyordu ki, ne kadar çok çalışan eklersen ekle, sırayla yapılması gereken iş hızlanmayı sınırlar." Yonga onayladı: {Y}"Evet! Peki Gustafson ne dedi? Aynı mı düşündü?"
+{Y}"Ama bekle, bunu daha önce öğrendiğimiz Amdahl Yasası ile karşılaştıralım." dedi Yonga. Bilge hatırladı: {B}"Amdahl Yasası diyordu ki, ne kadar çok çalışan eklersen ekle, sırayla yapılması gereken iş hızlanmayı sınırlar." Yonga onayladı: {Y}"Evet! Peki Gustafson ne dedi? Aynı mı düşündü?"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bir kara tahta; sol tarafında "Amdahl" yazıyor ve sabit büyüklükte küçük bir bahçe çizimi var: üstünde "Hız sınırlı!" notu. Sağ tarafında "Gustafson" yazıyor ve giderek büyüyen bahçe serileri çizilmiş. Bilge ve Yonga tahtanın önünde tartışıyor gibi duruyor.

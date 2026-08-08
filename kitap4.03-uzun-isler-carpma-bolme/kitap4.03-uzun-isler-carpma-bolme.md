@@ -30,7 +30,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 Bilge gözlerini faltaşı gibi açtı. {B}"Seksen üç kere mi? O kadar beklemek istemem!"
 
-{Y}"İşte tam da bu yüzden." dedi Yonga gururla, {Y}"işlemciler çok daha akıllı bir yol bulmuş."
+{Y}"İşte tam da bu yüzden, işlemciler çok daha akıllı bir yol bulmuş." dedi Yonga gururla.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga'nın ekranında uzun, sonu görünmeyen bir kuyruk halinde "47" sayıları art arda diziliyor, en sonunda küçük bir saat simgesi esneyerek yorgunluk gösteriyor. Bilge elleriyle kulaklarını kapatmış, abartılı şaşkın bir yüz ifadesiyle geriye doğru yaslanmış. Zemin turuncu-sarı, sayı kuyruğu mor tonlarda parlıyor.
@@ -126,7 +126,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 {B}"Peki neden çarpma toplamadan uzun sürüyor?" diye sordu Bilge.
 
-{Y}"Çünkü her bit için bir adım gerekiyor." dedi Yonga. {Y}"Elde zincirini izlerken tanıdığın toplayıcıyı hatırlıyor musun? Onu her adımda yeniden kullanıyorum. Otuz iki bitlik bir sayı otuz iki adım demek, otuz iki saat vuruşu demek!"
+{Y}"Çünkü her bit için bir adım gerekiyor." dedi Yonga. {Y}"Elde zincirini izlerken tanıdığın toplayıcıyı hatırlıyor musun? Onu her adımda yeniden kullanıyorum. 32 bitlik bir sayı 32 adım demek, 32 saat vuruşu demek!"
 
 Bilge içini çekti. {B}"Demek toplama tek vuruşta biterken, çarpma bir sürü küçük vuruş istiyor."
 
@@ -186,7 +186,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 {B}"Peki o birim olmazsa ne olur?" diye sordu Bilge merakla.
 
-{Y}"O zaman işlemci çarpmayı yine yapar." dedi Yonga, {Y}"ama daha yavaş, adım adım toplayarak."
+{Y}"O zaman işlemci çarpmayı yine yapar, ama daha yavaş, adım adım toplayarak." dedi Yonga.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bir işlemcinin iç şeması gibi çizilmiş büyük bir kutu içinde küçük odacıklar var: "toplayıcı" odası her zaman aydınlık, "çarpma/bölme birimi" odası ise ayrı bir kapıyla gösterilmiş, üzerinde "ek parça" yazan küçük bir etiket asılı. Bilge bu odaya meraklı gözlerle bakıyor, Yonga kapının önünde anahtarla gösteriyor.

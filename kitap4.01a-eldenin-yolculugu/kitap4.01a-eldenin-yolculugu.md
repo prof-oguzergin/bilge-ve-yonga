@@ -121,7 +121,7 @@ Bilge kalemini kaptı. {B}"Ben de yazıyorum, sıra sende Yonga!"
 
 {Y}"Tam isabet! İlk basamağımız hazır: sonuç sıfır, elde bir."
 
-Bilge küçük bir yıldız çizdi elde biti için. {B}"Elde'yi yıldızla işaretliyorum, kaybolmasın."
+Bilge küçük bir yıldız çizdi elde biti için. {B}"Eldeyi yıldızla işaretliyorum, kaybolmasın."
 
 **Resim:** Yakın plan bir çerçevede en sağdaki iki kutucuk (1 ve 1) parlıyor, altlarında büyük bir sonuç kutusu "0" yazıyor, üstünde küçük bir yıldız işaretiyle sola doğru fırlayan minik bir elde topu var. Bilge elindeki kalemle o yıldızı defterine çiziyor.
 

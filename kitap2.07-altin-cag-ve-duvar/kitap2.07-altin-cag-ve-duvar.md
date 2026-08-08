@@ -80,7 +80,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 8 — Çekirdekler Arası Konuşma
 
 **Metin:**
-{B}"Ama Yonga." dedi Bilge düşünerek, {B}"iki araba aynı anda hem kendi işini yapmalı hem de birbirleriyle konuşmalı, değil mi?" {Y}"Çok güzel buldun!" dedi Yonga. {Y}"Bu zor bir iştir. Arabaların düzgün çalışması için aralarında eşgüdüm olmalı. Bunun için yazılımların da değişmesi gerekti."
+{B}"Ama Yonga, iki araba aynı anda hem kendi işini yapmalı hem de birbirleriyle konuşmalı, değil mi?" dedi Bilge düşünerek. {Y}"Çok güzel buldun!" dedi Yonga. {Y}"Bu zor bir iştir. Arabaların düzgün çalışması için aralarında eşgüdüm olmalı. Bunun için yazılımların da değişmesi gerekti."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. İki araba yan yana koşuyor ama aralarında renkli bir iletişim kablosu bağlı; kablodan konuşma balonları çıkıyor: "Sen bu işi yap", "Ben şunu yapıyorum". Yonga bu sahneyi küçük bir levhada gösteriyor. Bilge hayranlıkla bakıyor.

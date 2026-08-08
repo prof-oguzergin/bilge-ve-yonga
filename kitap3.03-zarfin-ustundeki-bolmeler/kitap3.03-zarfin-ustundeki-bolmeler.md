@@ -231,8 +231,7 @@ Bir buyruk: 32 bit
     Anlık sayı
 ```
 
-{B}"Zarfın üstündeki her bölme bir soruya yanıt veriyor." dedi Bilge,
-{B}"ve işlemci hepsini bir bakışta okuyor."
+{B}"Zarfın üstündeki her bölme bir soruya yanıt veriyor, ve işlemci hepsini bir bakışta okuyor." dedi Bilge.
 
 **Resim:**
 Horizontal children's book illustration, watercolor style, edge-to-edge, NO white border, NO frame. Bilge stands in front of a large colorful wall chart about ONE 32-bit instruction: at the top a long strip of 32 small boxes, below it six differently shaped envelopes in a row (all the same width), and below that four labelled fields branching out (opcode, destination register, source registers, immediate number). Each branch uses a different color. No text or letters anywhere on the chart; only the strip, the envelopes, colored boxes and arrows. Each branch uses a different color. The chart looks hand-drawn and warm, like a school project. Yonga — a small chubby rounded robot, light blue-silver metallic body, spiral/swirl on belly, big round blue eyes, dome head, short stubby arms, NO TEXT on body, NO antenna — admires the chart from the side. ONLY ONE ROBOT IN THE SCENE. Educational wall chart, warm lamplight.

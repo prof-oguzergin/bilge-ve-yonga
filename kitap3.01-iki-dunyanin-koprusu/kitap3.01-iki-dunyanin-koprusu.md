@@ -24,8 +24,8 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 2 — İki Farklı Dünya
 
 **Metin:**
-{Y}"Düşün." dedi Yonga, {Y}"sen kitap okursun, müzik dinlersin, resim yaparsın.
-Bilgisayarın içindeki işlemci ise yalnızca açık ya da kapalı elektrik sinyallerini anlar."
+{Y}"Düşün, sen kitap okursun, müzik dinlersin, resim yaparsın.
+Bilgisayarın içindeki işlemci ise yalnızca açık ya da kapalı elektrik sinyallerini anlar." dedi Yonga.
 
 {B}"Peki aralarında kim çeviri yapıyor?" diye sordu Bilge.
 
@@ -90,9 +90,9 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 6 — Getir!
 
 **Metin:**
-{Y}"Getir adımında." dedi Yonga, {Y}"işlemci bellekteki bir adrese gider
+{Y}"Getir adımında, işlemci bellekteki bir adrese gider
 ve oradaki buyruğu getirir. Bunu hangi adresten getireceğini
-**Program Sayacı** adlı özel bir kutu tutar."
+**Program Sayacı** adlı özel bir kutu tutar." dedi Yonga.
 
 {B}"Program Sayacı bir işaret levhası gibi." dedi Bilge.
 {B}"'Şu an buradayız, sıradaki buyruk şurada!' der."
@@ -144,11 +144,11 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 **Metin:**
 {B}"Bu döngü ne kadar hızlı?" diye sordu Bilge.
 
-{Y}"Çağdaş bir işlemci." dedi Yonga, {Y}"bu döngüyü saniyede
+{Y}"Çağdaş bir işlemci, bu döngüyü saniyede
 **milyarlarca kez** tekrarlar! Döngünün saniyede kaç kez
 yinelendiğine **saat vuruş sıklığı** denir.
 Üzerinde 3 gigahertz yazan bir işlemci,
-saniyede 3 milyar kez döner!"
+saniyede 3 milyar kez döner!" dedi Yonga.
 
 Bilge başı dönerek oturdu.
 {B}"3… milyar… kez…"

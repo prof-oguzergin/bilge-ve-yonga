@@ -97,7 +97,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 8 — Ama Her Pizza Hâlâ 30 Dakika!
 
 **Metin:**
-{B}"Peki." dedi Bilge, {B}"şimdi bir pizza daha çabuk mı çıkıyor?"
+{B}"Peki, şimdi bir pizza daha çabuk mı çıkıyor?" dedi Bilge.
 Murat Bey güldü: {D}"Hayır! Her pizza hâlâ tam 30 dakika sürüyor."
 {D}"Ama bir saatte çok daha fazla pizza çıkıyor!" diye ekledi.
 

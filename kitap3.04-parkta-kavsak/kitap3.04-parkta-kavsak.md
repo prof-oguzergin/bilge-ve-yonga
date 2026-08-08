@@ -101,9 +101,8 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 6 — Altyordam Çağırmak
 
 **Metin:**
-{Y}"Programlarda aynı işi tekrar tekrar yazmak yerine." dedi Yonga,
-{Y}"o işi bir kez yazarsın ve defalarca çağırırsın.
-Buna **altyordam** ya da **fonksiyon** denir."
+{Y}"Programlarda aynı işi tekrar tekrar yazmak yerine, o işi bir kez yazarsın ve defalarca çağırırsın.
+Buna **altyordam** ya da **fonksiyon** denir." dedi Yonga.
 
 {B}"Tarif defteri gibi!" dedi Bilge.
 {B}"'Pasta yap' tarifini bir kez yazarsın,

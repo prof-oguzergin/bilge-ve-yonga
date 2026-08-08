@@ -30,7 +30,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 3 — Adil Karşılaştırma
 
 **Metin:**
-{B}"Ama Yonga." dedi Bilge, {B}"arabaları karşılaştırmak için önce ne yapmak gerekiyor?" Yonga parmağını kaldırdı: {Y}"Hepsine aynı yolu koşturmak! Eğer biri düz yolda, diğeri dağda giderse karşılaştırma adil olmaz." Bilge başını salladı, bu çok mantıklıydı.
+{B}"Ama Yonga, arabaları karşılaştırmak için önce ne yapmak gerekiyor?" dedi Bilge. Yonga parmağını kaldırdı: {Y}"Hepsine aynı yolu koşturmak! Eğer biri düz yolda, diğeri dağda giderse karşılaştırma adil olmaz." Bilge başını salladı, bu çok mantıklıydı.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Pistın önünde Yonga küçük bir kara tahta tutmuş, üzerinde iki karikatür çizilmiş: biri düz yolda giden araba, diğeri dağ yolunda giden araba; dağ yolundaki arabanın üstünde kırmızı bir çarpı işareti var. Bilge elini çenesine götürmüş, düşünür gibi bakıyor.

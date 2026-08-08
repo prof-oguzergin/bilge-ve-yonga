@@ -30,7 +30,7 @@ Bilge başına küçük kareli bir dedektif şapkası takıyor, elinde büyüte�
 ## Sayfa 3 — Olay Yeri
 
 **Metin:**
-İkili programın buyruklarına baktı. Program bir sayaç tutuyordu, sayacı her turda bir artırıyor ve toplama ekliyordu. {Y}"Buyruklar burada duruyor." dedi Yonga, {Y}"ama hangisi suçlu, henüz bilmiyoruz."
+İkili programın buyruklarına baktı. Program bir sayaç tutuyordu, sayacı her turda bir artırıyor ve toplama ekliyordu. {Y}"Buyruklar burada duruyor, ama hangisi suçlu, henüz bilmiyoruz." dedi Yonga.
 
 **Resim:**
 Ekranda renkli kutular hâlinde basit buyruk satırları görünüyor. Bilge ve Yonga satırları büyüteçle dikkatle inceliyor.
@@ -90,7 +90,7 @@ Yonga'nın göğsünde küçük bir ekran açılıyor. Üzerinde "Sayaç Yazmac�
 ## Sayfa 9 — Beklenmedik Değer
 
 **Metin:**
-Toplam 15 olmuştu, tam istedikleri sayı! {B}"Şimdi durmalı." diye fısıldadı Bilge. Ama program bir adım daha attı. Sayaç yazmacında beklenmedik bir değer belirdi: 6! {B}"Dur, dur, dur." dedi Bilge heyecanla, {B}"sayaç 6 olmamalıydı, program 5'te durmalıydı!"
+Toplam 15 olmuştu, tam istedikleri sayı! {B}"Şimdi durmalı." diye fısıldadı Bilge. Ama program bir adım daha attı. Sayaç yazmacında beklenmedik bir değer belirdi: 6! {B}"Dur, dur, dur, sayaç 6 olmamalıydı, program 5'te durmalıydı!" dedi Bilge heyecanla.
 
 **Resim:**
 Yazmaç ekranında kırmızı ve parlak bir "6" rakamı büyüyor. Bilge'nin gözleri şaşkınlıkla büyüyor, Yonga'nın ışıkları kırmızıya dönüyor.
@@ -120,7 +120,7 @@ Bilge küçük bir kara tahtaya "15 + 6 = 21" yazıyor. Yanında büyük bir sor
 ## Sayfa 12 — Onarım
 
 **Metin:**
-Bilge döngünün durma koşulunu düzeltti. Döngü artık 6'ya kadar değil, yalnızca 5'e kadar dönecekti. Buyruğu tek bir işaretle değiştirdi. {B}"Bir dedektifin son işi." dedi Bilge, {B}"hatayı düzeltmektir."
+Bilge döngünün durma koşulunu düzeltti. Döngü artık 6'ya kadar değil, yalnızca 5'e kadar dönecekti. Buyruğu tek bir işaretle değiştirdi. {B}"Bir dedektifin son işi, hatayı düzeltmektir." dedi Bilge.
 
 **Resim:**
 Bilge ekrandaki bir sembolü siliyor ve yerine doğrusunu yazıyor. Yonga yanında minik bir alet çantasıyla yardım ediyor.

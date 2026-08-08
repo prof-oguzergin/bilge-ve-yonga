@@ -10,10 +10,10 @@
 ## Sayfa 1 — Türkçeden Makineye
 
 **Metin:**
-{B}"Yonga." dedi Bilge, {B}"ben Python ya da C yazıyorum.
+{B}"Yonga, ben Python ya da C yazıyorum.
 İşlemci ise yalnızca sıfır ve birleri anlıyor.
 Bu ikisi arasında büyük bir uçurum var.
-Kim köprü kuruyor?"
+Kim köprü kuruyor?" dedi Bilge.
 
 {Y}"Çok katmanlı bir fabrika!" dedi Yonga heyecanla.
 {Y}"Adına **derleme zinciri** diyoruz.
@@ -89,12 +89,11 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 5 — Sözcükleri Bitlere Dönüştürmek
 
 **Metin:**
-{Y}"Çevirici, çevirici dilindeki satırları alır ve." dedi Yonga,
-{Y}"her birini 32 bitlik bir makine koduna dönüştürür.
+{Y}"Çevirici, çevirici dilindeki satırları alır ve, her birini 32 bitlik bir makine koduna dönüştürür.
 
 `add x7, x5, x6` → `00000000011000101000001110110011`
 
-Bu 32 bit bilgisayarın anlayacağı tek dildir."
+Bu 32 bit bilgisayarın anlayacağı tek dildir." dedi Yonga.
 
 Bilge gözlerini açtı: {B}"Bu kadar sıfır ve biri nasıl okuyorlar?"
 
@@ -112,8 +111,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 {Y}"İçinde makine kodu var ama henüz tam değil.
 Bazı yerler boş: başka dosyalardaki fonksiyonlara atıf var."
 
-{B}"Sanki bir kitabın bölümleri ayrı ayrı basılmış." dedi Bilge,
-{B}"ama henüz ciltsiz."
+{B}"Sanki bir kitabın bölümleri ayrı ayrı basılmış, ama henüz ciltsiz." dedi Bilge.
 
 {Y}"Aynen öyle! Bağlayıcı onları ciltleyecek."
 
@@ -125,13 +123,12 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 7 — Her Şeyi Birleştirmek
 
 **Metin:**
-{Y}"**Bağlayıcı** tüm nesne dosyalarını alır." dedi Yonga,
-{Y}"artı gerekli **kütüphane** dosyalarını,
+{Y}"**Bağlayıcı** tüm nesne dosyalarını alır, artı gerekli **kütüphane** dosyalarını,
 (kütüphane = hazır yazılmış, tekrar kullanılabilen kod paketi)
 ve hepsini birleştirerek bir **çalıştırılabilir dosya** üretir.
 
 Boş yerler doldurulur. Adresler hesaplanır.
-Her şey birbirine bağlanır."
+Her şey birbirine bağlanır." dedi Yonga.
 
 {B}"Kitap ciltlendi!" dedi Bilge.
 

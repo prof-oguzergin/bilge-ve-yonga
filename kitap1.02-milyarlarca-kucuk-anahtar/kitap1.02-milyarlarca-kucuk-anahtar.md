@@ -40,7 +40,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 4 — Milyarlarca Tane!
 
 **Metin:**
-{B}"Milyarlarca demiştin." dedi Bilge, tırnağına bakarak. {B}"Ama milyar ne kadar çok, onu bilmiyorum." {Y}"Saniyede bir anahtar saysan." dedi Yonga, {Y}"bir milyara varman otuz yıldan uzun sürerdi. Bir yongaya ise milyarlarcası sığıyor." Bilge tırnağını gözüne yaklaştırdı. Hepsi o kadarcık yere girmişti.
+{B}"Milyarlarca demiştin." dedi Bilge, tırnağına bakarak. {B}"Ama milyar ne kadar çok, onu bilmiyorum." {Y}"Saniyede bir anahtar saysan, bir milyara varman otuz yıldan uzun sürerdi. Bir yongaya ise milyarlarcası sığıyor." dedi Yonga. Bilge tırnağını gözüne yaklaştırdı. Hepsi o kadarcık yere girmişti.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bilge bir tırnağına bakıyor; tırnağının üzerinde büyütülmüş görüntüde milyonlarca minik anahtar sembolü sıra sıra dizilmiş, hepsi parlak ve canlı. Yonga yanında sayıları gösteren bir sayaç tutuyor: "1.000.000.000+" yazıyor. Bilge'in ağzı "O" şeklinde açılmış, tam hayret ifadesi. Arka plan beyaz ve temiz, ön plan renkli ve kalabalık. Nokta gibi küçük renkli anahtarlar; şaşkınlık ve merak hissi veriyor.

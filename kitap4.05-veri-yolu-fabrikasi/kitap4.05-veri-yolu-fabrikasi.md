@@ -56,7 +56,7 @@ Fabrikanın en başında küçük, parlak bir işaret levhası duruyor, üzerind
 
 {Y}"**Buyruk belleği**!" dedi Yonga. {Y}"Programın bütün buyrukları burada, sırayla, kutucuklar hâlinde bekler. Program Sayacı hangi adresi gösterirse, o kutudaki buyruk dışarı çıkar."
 
-{B}"Demek buyruk belleği bir kütüphane rafı gibi." dedi Bilge, {B}"her rafta bir buyruk oturuyor."
+{B}"Demek buyruk belleği bir kütüphane rafı gibi, her rafta bir buyruk oturuyor." dedi Bilge.
 
 **Resim:**
 Uzun bir raf boyunca sıralanmış kutucuklardan oluşan bir bellek duvarı. Her kutucukta küçük bir buyruk kartı var (toplama, çıkarma, yükleme gibi ikonlarla). Program Sayacı'nın oku tam bir kutucuğun önünde duruyor ve o kutucuk parlak bir ışıkla aydınlanıyor, dışarı doğru kayarak çıkıyor. Bilge rafın önünde duruyor, parmağıyla aydınlanan kutuyu gösteriyor. Yonga rafın üstünde bir vagonun içinde, çıkan buyruğu karşılıyor.
@@ -70,7 +70,7 @@ Uzun bir raf boyunca sıralanmış kutucuklardan oluşan bir bellek duvarı. Her
 
 {Y}"**Yazmaç öbeğinden**!" dedi Yonga. {Y}"Hatırlarsın, RISC-V'te 32 yazmaç vardı, x0'dan x31'e kadar. Hepsi burada, bir arada, hazır bekliyorlar. Buyruk hangi yazmaçların değerini okumak istiyorsa, yazmaç öbeği onları anında verir."
 
-{B}"Sınıftaki otuz iki öğrenci gibi." dedi Bilge gülümseyerek, {B}"hepsi bir arada oturuyor, adını duyan sayısını hemen söylüyor."
+{B}"Sınıftaki otuz iki öğrenci gibi, hepsi bir arada oturuyor, adını duyan sayısını hemen söylüyor." dedi Bilge gülümseyerek.
 
 **Resim:**
 Otuz iki küçük, ışıklı kutunun 4×8 düzeninde bir arada durduğu bir istasyon. İki kutu parlak yeşille yanıyor, içlerindeki sayılar dışarı doğru akan ince ışık çizgileriyle istasyondan çıkıyor. Bilge kutuların önünde eğilmiş, hangi ikisinin parladığını sayıyor. Yonga kutuların üstünde bir gözetleme kulesinde duruyor, hangi yazmaçların seçildiğini bir düğmeyle gösteriyor.
@@ -128,7 +128,7 @@ Bilge deftere küçük bir liste yazdı: Program Sayacı yol gösterir, buyruk b
 
 {B}"Her istasyonun tek ve net bir görevi var." dedi Bilge.
 
-{Y}"Küçük ama net görevler." dedi Yonga, {Y}"büyük bir makineyi anlaşılır yapar!"
+{Y}"Küçük ama net görevler, büyük bir makineyi anlaşılır yapar!" dedi Yonga.
 
 **Resim:**
 Bilge elindeki küçük deftere beş satırlık bir liste yazmış, her satırın yanında ilgili istasyonun minik bir simgesi var (bir ok, bir raf, bir kutu grubu, bir dişli, bir depo). Fabrika arka planda hafif bulanık görünüyor. Yonga deftere bakıyor, her satırı okurken başıyla onaylıyor.
@@ -140,7 +140,7 @@ Bilge elindeki küçük deftere beş satırlık bir liste yazmış, her satırı
 **Metin:**
 {B}"Bir buyruk bitince ne olur?" diye sordu Bilge.
 
-{Y}"Program Sayacı bir adım ileri gider." dedi Yonga, {Y}"ve bir sonraki buyruğun adresini gösterir. Buyruk belleği yine o adresteki buyruğu verir, bütün fabrika baştan çalışır."
+{Y}"Program Sayacı bir adım ileri gider, ve bir sonraki buyruğun adresini gösterir. Buyruk belleği yine o adresteki buyruğu verir, bütün fabrika baştan çalışır." dedi Yonga.
 
 {B}"Al, anla, yap döngüsü gibi!" dedi Bilge.
 
@@ -172,7 +172,7 @@ Bütün fabrika artık tek, bütünleşmiş bir makine gibi görünüyor, beş i
 **Metin:**
 Yonga fabrikanın büyük düğmesine bastı. Bütün istasyonlar aynı anda ışıklarla doldu. Program Sayacı adresi gösterdi, buyruk belleği bir buyruk verdi, yazmaç öbeği sayıları gönderdi, AMB hesapladı, sonuç yazmaç öbeğine döndü, sonra Program Sayacı bir adım ilerledi.
 
-{B}"Bu kadar hızlı mı?" diye sordu Bilge, gözleri fal taşı gibi açılmış.
+{B}"Bu kadar hızlı mı?" diye sordu Bilge, gözleri faltaşı gibi açılmış.
 
 {Y}"Saniyede milyarlarca kez!" dedi Yonga gülümseyerek.
 

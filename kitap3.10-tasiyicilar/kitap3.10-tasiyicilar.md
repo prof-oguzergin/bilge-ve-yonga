@@ -156,7 +156,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 Bilge kütüphaneden çıkarken raflara son bir kez baktı. Artık sadece kitap görmüyordu, veri adresleri, YÜKLE ve SAKLA görüyordu.
 
-{Y}"Taşıyıcılar sayesinde." dedi Yonga, {Y}"her şey olması gereken yerde, tam zamanında hazır olur!"
+{Y}"Taşıyıcılar sayesinde, her şey olması gereken yerde, tam zamanında hazır olur!" dedi Yonga.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Kütüphane kapısından çıkarken Bilge ve Yonga el ele, gün ışığına doğru yürüyorlar. Bilge'nin gözlüklerinde kütüphane raflarının yansıması var, ama artık her kitabın sırtında sayısal adresler görünüyor. Yonga'nın ekranında "YÜKLE ↔ SAKLA" yazıyor. Dışarıda güneşli, açık hava. Altın sarısı ve açık mavi tonlar.

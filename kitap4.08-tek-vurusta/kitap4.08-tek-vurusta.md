@@ -7,7 +7,7 @@
 
 ---
 
-## Sayfa 1 — Duvar Saatinin Tık Tak Sesi
+## Sayfa 1 — Duvar Saatinin Tik Tak Sesi
 
 **Metin:**
 Bilge ile Yonga, atölyede eski bir duvar saatinin önünde durdu. Sarkaç her saniye aynı ritimle tik tak diye sallanıyordu.
@@ -132,7 +132,7 @@ Yonga'nın ekranında bir zaman çubuğu; solda küçük bir artı işareti işi
 **Metin:**
 {B}"Bu tasarım hiç iyi değil mi peki?" diye sordu Bilge.
 
-Yonga güldü. {Y}"Aslında büyük bir iyi yanı var. Tek vuruşluk veri yolu çok basit ve anlaşılırdır. İlk işlemciler böyle tasarlandı, çünkü kolay kurulur ve kolay öğrenilir."
+Yonga güldü. {Y}"Aslında büyük bir iyi yanı var. Tek vuruşluk veri yolu çok basit ve anlaşılırdır. Bir işlemciyi anlamanın en kolay yolu budur; tasarımı öğrenirken hep buradan başlanır."
 
 **Resim:**
 Yonga bir çizim tahtasında basit, tek katlı bir ev gibi sade bir işlemci şeması gösteriyor; şemanın üstünde büyük bir gülümseyen yüz ikonu var. Bilge memnun bir şekilde başını sallıyor.
@@ -175,7 +175,7 @@ Yonga'nın gözlerinde parlak bir ipucu ışığı yanıyor, arka planda kapalı
 
 ---
 
-## Sayfa 14 — Saatin Tık Takı Devam Ediyor
+## Sayfa 14 — Saatin Tik Takı Devam Ediyor
 
 **Metin:**
 Atölyede duvar saati hâlâ sabırla tik tak diye sallanıyordu.

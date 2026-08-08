@@ -85,7 +85,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 7 — Yonga'nın Açıklaması
 
 **Metin:**
-{Y}"Bilge." dedi Yonga, {Y}"küçük bir parçayı ne kadar hızlandırırsan hızlandır, o parça toplamın küçük bir kısmı olduğu için kazanç da küçük kalır."
+{Y}"Bilge, küçük bir parçayı ne kadar hızlandırırsan hızlandır, o parça toplamın küçük bir kısmı olduğu için kazanç da küçük kalır." dedi Yonga.
 {Y}"Ama büyük parçayı hızlandırırsan, toplam süre gerçekten kısalır!"
 {Y}"Buna Amdahl Yasası deniyor." dedi ve küçük gözleri parladı.
 
@@ -97,7 +97,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 8 — Bisiklet Fikri!
 
 **Metin:**
-{B}"Peki." dedi Bilge, {B}"yürüyüşü hızlandırsam ne olur?"
+{B}"Peki, yürüyüşü hızlandırsam ne olur?" dedi Bilge.
 {B}"Örneğin bisikletle gitsem, yirmi dakika üç dakikaya düşer!"
 Yonga zıpladı: {Y}"İşte bunu arıyorduk! Büyük parçayı hızlandır!"
 
@@ -121,7 +121,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 10 — Bilgisayarda da Aynı Kural
 
 **Metin:**
-{Y}"Bilgisayarda da böyle." dedi Yonga, {Y}"hangi parçayı hızlandıracağını iyi seçmek lazım."
+{Y}"Bilgisayarda da böyle, hangi parçayı hızlandıracağını iyi seçmek lazım." dedi Yonga.
 {Y}"Bir program, zamanının yüzde doksanını bellekten veri bekleyerek geçiriyorsa..."
 {Y}"...işlemciyi iki kat hızlandırsan bile neredeyse hiç fark olmaz!"
 

@@ -116,9 +116,9 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 9 — Bayrak Zamanı
 
 **Metin:**
-{Y}"AMB her işlemden sonra küçük **bayraklar** kaldırır." diye devam etti Yonga. {Y}"Sonuç sıfırsa sıfır bayrağı, sonuç eksiyse eksi bayrağı yükselir."
+{Y}"AMB her işlemden sonra sonucun nasıl çıktığını hemen haber verir." diye devam etti Yonga. {Y}"Sonuç sıfır mı, eksi mi? Bunu ince bir telle anında söyler."
 
-{B}"Bayrak mı?" dedi Bilge. {B}"Hani elde de bir bayrak gibiydi."
+{B}"Haber teli mi?" dedi Bilge. {B}"Hani elde de komşuya bayrak gibi geçiyordu."
 
 {Y}"İyi yakaladın, ama bunlar başka." dedi Yonga. {Y}"Elde komşu basamağa geçerdi. Bunlar geçmez; yerinde durup sonucun nasıl çıktığını haber verir."
 
@@ -130,7 +130,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 10 — Bayraklar Yol Gösterir
 
 **Metin:**
-{B}"Bu bayraklar neye yarıyor?" diye sordu Bilge.
+{B}"Bu haber neye yarıyor?" diye sordu Bilge.
 
 {Y}"Denetim birimi onlara bakıp karar veriyor." dedi Yonga. {Y}"Örneğin bir yazmacı sıfırla karşılaştırıp hangi yola dallanacağını seçiyor."
 
@@ -207,7 +207,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 ➕ AMB'nin içinde, elde zincirini kullanan tanıdık **toplayıcı** saklıdır.
 
-🚩 AMB, sonuç sıfır mı yoksa eksi mi diye küçük **bayraklar** kaldırır; bu bayraklar karşılaştırma ve dallanmada kullanılır.
+🚩 AMB, sonucun sıfır mı eksi mi olduğunu ince bir telle hemen haber verir; bu haber karşılaştırmada ve dallanmada kullanılır.
 
 ❤️ AMB olmadan işlemci hiçbir hesap yapamaz; o, işlemcinin kalbi gibidir.
 

@@ -29,7 +29,7 @@ Yonga yanında süzülüyordu. {Y}"Sen şu an benim en önemli özelliğimi keş
 
 Bilge merakla döndü. {B}"Senin kucağın kaç bit alıyor?"
 
-{Y}"Bu bit öbeğinin bir adı var, ona **sözcük** deniyor." dedi Yonga. {Y}"Benim sözcüğüm 64 bit. Ama hep böyle değildi."
+{Y}"Bir seferde işlediğim bit öbeğinin genişliğine **sözcük boyu** deniyor." dedi Yonga. {Y}"Taşıyıcıları hatırlıyor musun? 32 bitlik öbeğe tam sözcük, 64 bitliğe çift sözcük diyorduk. Benim sözcük boyum 64 bit. Ama hep böyle değildi."
 
 **Resim:** Yonga'nın havaya yansıttığı hologramda, Bilge'nin kucağındaki kitapların yanına aynı düzende bir bit öbeği çiziliyor: yan yana dizilmiş küçük kutucuklar tek bir kucak gibi kavis çizerek duruyor. Bilge kendi kucağıyla hologramdaki öbeği karşılaştırıyor.
 
@@ -143,7 +143,7 @@ Bilge hesapladı ve gülümsedi. {B}"Demek eksi kalıyor, değer de aynı."
 
 Bilge gözlerini kocaman açtı. {B}"4 milyar mı?"
 
-{Y}"Her yeni bit göz sayısını ikiye katlıyor." dedi Yonga. {Y}"Otuz iki adım sonra sayı böyle büyüyor."
+{Y}"Her yeni bit göz sayısını ikiye katlıyor." dedi Yonga. {Y}"32 adım sonra sayı böyle büyüyor."
 
 **Resim:** Hologramda iki raf yan yana duruyor: soldaki küçük ve gözleri sayılabilecek kadar az, sağdaki uzayıp giden ve ufukta kaybolan devasa bir raf. Küçük rafın üstünde 16, büyük rafın üstünde 32 yazıyor. Bilge büyük rafın ucunu görmeye çalışarak elini gözüne siper ediyor.
 
@@ -220,7 +220,7 @@ Yonga'nın ışıkları neşeyle yanıp söndü. {Y}"İşte bu yüzden bana baka
 
 ## Bugün Ne Öğrendik?
 
-📚 Bir işlemcinin bir seferde işlediği bit öbeğine **sözcük** denir; bu öbeğin bit sayısı onun genişliğidir.
+📚 Bir işlemcinin bir seferde işlediği bit öbeğinin genişliğine **sözcük boyu** denir.
 
 🕰️ En baştaki işlemci 4 bitlikti; sonra 8, 16, 32 ve 64 bit geldi.
 

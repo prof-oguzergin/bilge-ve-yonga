@@ -59,7 +59,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 ---
 
-## Sayfa 5 — Kayan Nokta Nedir
+## Sayfa 5 — Kayan Nokta Nedir?
 
 **Metin:**
 {Y}"İşte buna kayan nokta denir." dedi Yonga. {Y}"Biz sayı yazarken virgül koyduğumuz yere başka dillerde nokta konur; adı oradan geliyor. Böyle bir sayının üç parçası vardır: işaret, üs ve kesir."
@@ -100,7 +100,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 8 — Örnekle Görelim
 
 **Metin:**
-Yonga bir örnek gösterdi. {Y}"Bin iki yüz otuz dört buçuk sayısını düşün. Onu bir virgül iki üç dört beş çarpı bin olarak da yazabilirsin. Kesir bir virgül iki üç dört beş, üs ise virgülü üç basamak sağa kaydırıyor."
+Yonga bir örnek gösterdi. {Y}"Bin iki yüz otuz dört buçuk sayısını düşün. Onu bir virgül iki üç dört beş çarpı bin olarak da yazabilirsin. Kesir iki üç dört beş, yani virgülden sonrası; üs ise virgülü üç basamak sağa kaydırıyor."
 
 {B}"Bilgisayar aynısını yapıyor, sadece onluk yerine ikilik sistemle." dedi Bilge. {B}"İkinin kuvvetleriyle!"
 
@@ -112,7 +112,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 9 — 32 Bit ve 64 Bit
 
 **Metin:**
-{Y}"Bilgisayarlarda bu üç parça, dünyadaki bütün bilgisayarların uyduğu ortak bir kurala göre paylaştırılır." dedi Yonga. {Y}"Kuralın adı IEEE 754. Tek duyarlıkta 32 bit vardır: 1 işaret, 8 üs, 23 kesir. Çift duyarlıkta ise 64 bit vardır: 1 işaret, 11 üs, 52 kesir."
+{Y}"Bilgisayarlarda bu üç parça, bugün neredeyse bütün bilgisayarların uyduğu ortak bir kurala göre paylaştırılır." dedi Yonga. {Y}"Kuralın adı IEEE 754. Tek duyarlıkta 32 bit vardır: 1 işaret, 8 üs, 23 kesir. Çift duyarlıkta ise 64 bit vardır: 1 işaret, 11 üs, 52 kesir."
 
 Bilge şaşkınlıkla sordu. {B}"Çift duyarlık daha mı çok yer kaplıyor?"
 
@@ -140,7 +140,7 @@ Yonga küçük bir sır fısıldadı. {Y}"Her sayı tam olarak gösterilemez. Ö
 
 Bilge şaşırdı. {B}"Bilgisayar bile bazen tam doğru olamıyor mu?"
 
-{Y}"Çok küçük bir farkla." dedi Yonga, {Y}"ama evet, öyle."
+{Y}"Çok küçük bir farkla, ama evet, öyle." dedi Yonga.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga elinde küçük bir büyüteçle bir sayının yanına bakıyor: "0,1" yazısının hemen altında çok minik, soluk bir yazıyla "0,100000001" gibi ufak bir fazlalık görünüyor. Yonga şakacı bir şekilde omuz silkiyor. Bilge gülümseyerek başını sallıyor. Açık mavi ve gümüş tonlar, büyüteç parlaklığı.
@@ -152,7 +152,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 {Y}"Yapay zeka hızlandırıcılarını hatırlıyor musun?" dedi Yonga. {Y}"Onlar öğrenirken her zaman 32 bit gerekmez. 16 bitlik bf16, 8 bitlik fp8 gibi kısa biçimler de yeter. Adın sonundaki sayı kaç bit olduğunu söyler."
 
-{B}"Daha az bit demek daha az duyarlık." dedi Bilge, {B}"ama daha hızlı hesaplama!"
+{B}"Daha az bit demek daha az duyarlık, ama daha hızlı hesaplama!" dedi Bilge.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Üç farklı boyutta yazmaç kutusu yan yana: büyük "32 bit" kutusu, orta "bf16" kutusu, küçük "fp8" kutusu. Küçük kutunun yanında hızlı koşan minik bir figür, büyük kutunun yanında daha yavaş yürüyen bir figür var. Yonga küçük kutuyu işaret ediyor, gülümsüyor. Canlı yeşil ve turuncu enerji çizgileri.
@@ -176,7 +176,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 Bilge ve Yonga tekrar gökyüzüne baktı. Bilge artık yıldızın uzaklığını da, karıncanın ağırlığını da aynı gözle, işaret, üs ve kesir olarak görüyordu.
 
-{B}"Virgül dans etmeseydi." dedi Bilge, {B}"hem dev yıldızları hem minik karıncaları aynı anda hiç anlatamazdık!"
+{B}"Virgül dans etmeseydi, hem dev yıldızları hem minik karıncaları aynı anda hiç anlatamazdık!" dedi Bilge.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bilge ve Yonga battaniyenin üzerinde sırt üstü yatmış, gökyüzüne bakıyorlar. Yıldızlı gökyüzünde hem dev bir yıldızın uzaklık sayısı hem minik bir karıncanın ağırlık sayısı yumuşak ışıklı yazılarla süzülüyor, ikisi de aynı üç renkli kayan nokta kutusuna dönüşüyor. Huzurlu, sıcak gece mavisi ve yıldız sarısı tonlar.

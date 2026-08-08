@@ -10,8 +10,8 @@
 ## Sayfa 1 — Sınıftaki Sıra Çantası
 
 **Metin:**
-{B}"Yonga." dedi Bilge, {B}"bilgisayar sayıları nerede tutuyor?
-Toplama yaparken rakamları nereye koyuyor?"
+{B}"Yonga, bilgisayar sayıları nerede tutuyor?
+Toplama yaparken rakamları nereye koyuyor?" dedi Bilge.
 
 Yonga güldü: {Y}"Çantanı düşün! Derste her şeyi çantadan çıkarıp çantaya koyamazsın.
 Sık kullandığın kalemleri sıranın üstüne koyarsın.
@@ -229,7 +229,7 @@ Bilge yatmadan önce defterine yazdı:
 - **Küçüğü başta:** değeri en küçük bayt önce.
 - **Yığıt:** plastik tabak kulesi; sp hep en üstte.
 
-{B}"Yonga." dedi Bilge, {B}"yavaş yavaş anlıyor gibiyim."
+{B}"Yonga, yavaş yavaş anlıyor gibiyim." dedi Bilge.
 
 {Y}"Anlıyor gibi değilsin." dedi Yonga sakin bir sesle. {Y}"Gerçekten anlıyorsun."
 
