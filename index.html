@@ -285,8 +285,14 @@ section.band{padding:76px 0}
   padding:24px 24px 22px;border-top:4px solid var(--accent);
   display:flex;flex-direction:column;gap:8px;transition:transform .22s,box-shadow .22s}
 .cilt:hover{transform:translateY(-6px);box-shadow:0 26px 46px -26px var(--bg)}
+/* Cilt numarası ile sürüm rozeti aynı satırda; kitap kartındaki düzenin
+   cilt ölçeğindeki karşılığı. */
+.cilt-ust{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .cilt-no{font-size:.76rem;letter-spacing:.14em;text-transform:uppercase;
   font-weight:800;color:var(--accent)}
+.cilt-surum{font-size:.68rem;font-weight:700;letter-spacing:.03em;
+  white-space:nowrap;color:var(--accent);border:1px solid var(--accent);
+  padding:2px 8px;border-radius:999px;opacity:.85}
 .cilt h3{font-family:var(--font-display);font-size:1.3rem;margin:0}
 .cilt-bilgi{color:var(--muted);font-size:.92rem;margin:0}
 .cilt-doi{margin:2px 0 0;font-size:.84rem;word-break:break-all}
@@ -1384,28 +1390,40 @@ footer p{color:var(--muted);font-size:.9rem}
   </div>
   <div class="cilt-grid">
     <article class="cilt" style="--accent:#2E8CC7">
-      <span class="cilt-no">1. Cilt</span>
+      <div class="cilt-ust">
+        <span class="cilt-no">1. Cilt</span>
+        <span class="cilt-surum" title="Sürüm 1.2, 5 Ağu 2026 tarihinde güncellendi">Sürüm 1.2</span>
+      </div>
       <h3>Kumdan Bilgisayara</h3>
       <p class="cilt-bilgi">11 kitap · 171 sayfa · PDF, 34 MB</p>
       <p class="cilt-doi"><a href="https://doi.org/10.5281/zenodo.21725876" target="_blank" rel="noopener">doi.org/10.5281/zenodo.21725876</a></p>
       <a class="cilt-btn" href="https://zenodo.org/api/records/21854870/files/Bilge%20ve%20Yonga%20-%20Cilt%201%20-%20Kumdan%20Bilgisayara.pdf/content">Cildi indir</a>
     </article>
     <article class="cilt" style="--accent:#D97326">
-      <span class="cilt-no">2. Cilt</span>
+      <div class="cilt-ust">
+        <span class="cilt-no">2. Cilt</span>
+        <span class="cilt-surum" title="Sürüm 1.0, 31 Tem 2026 tarihinde güncellendi">Sürüm 1.0</span>
+      </div>
       <h3>Hız ve Güç</h3>
       <p class="cilt-bilgi">10 kitap · 160 sayfa · PDF, 34 MB</p>
       <p class="cilt-doi"><a href="https://doi.org/10.5281/zenodo.21725924" target="_blank" rel="noopener">doi.org/10.5281/zenodo.21725924</a></p>
       <a class="cilt-btn" href="https://zenodo.org/api/records/21725925/files/Bilge%20ve%20Yonga%20-%20Cilt%202%20-%20H%C4%B1z%20ve%20G%C3%BC%C3%A7.pdf/content">Cildi indir</a>
     </article>
     <article class="cilt" style="--accent:#2E9E5B">
-      <span class="cilt-no">3. Cilt</span>
+      <div class="cilt-ust">
+        <span class="cilt-no">3. Cilt</span>
+        <span class="cilt-surum" title="Sürüm 1.1, 5 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
+      </div>
       <h3>Buyrukların Dünyası</h3>
       <p class="cilt-bilgi">11 kitap · 174 sayfa · PDF, 32 MB</p>
       <p class="cilt-doi"><a href="https://doi.org/10.5281/zenodo.21725978" target="_blank" rel="noopener">doi.org/10.5281/zenodo.21725978</a></p>
       <a class="cilt-btn" href="https://zenodo.org/api/records/21725979/files/Bilge%20ve%20Yonga%20-%20Cilt%203%20-%20Buyruklar%C4%B1n%20D%C3%BCnyas%C4%B1.pdf/content">Cildi indir</a>
     </article>
     <article class="cilt" style="--accent:#8A4FC0">
-      <span class="cilt-no">4. Cilt</span>
+      <div class="cilt-ust">
+        <span class="cilt-no">4. Cilt</span>
+        <span class="cilt-surum" title="Sürüm 1.0, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.0</span>
+      </div>
       <h3>İşlemcinin İçi</h3>
       <p class="cilt-bilgi">12 kitap · 196 sayfa · PDF, 40 MB</p>
       <p class="cilt-doi"><a href="https://doi.org/10.5281/zenodo.21854810" target="_blank" rel="noopener">doi.org/10.5281/zenodo.21854810</a></p>

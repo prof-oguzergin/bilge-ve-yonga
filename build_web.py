@@ -1248,7 +1248,13 @@ def build_ciltler():
         if not n:
             continue
         p.append('    <article class="cilt" style="--accent:{}">'.format(renk))
-        p.append('      <span class="cilt-no">{}. Cilt</span>'.format(key))
+        p.append('      <div class="cilt-ust">')
+        p.append('        <span class="cilt-no">{}. Cilt</span>'.format(key))
+        if _surum_no(key, 'ciltler'):
+            p.append('        <span class="cilt-surum" title="{} tarihinde '
+                     'güncellendi">Sürüm {}</span>'
+                     .format(_surum(key, 'ciltler'), _surum_no(key, 'ciltler')))
+        p.append('      </div>')
         p.append('      <h3>{}</h3>'.format(ad))
         p.append('      <p class="cilt-bilgi">{} kitap · {} sayfa · '
                  'PDF, {} MB</p>'.format(n, c['sayfa'], c['mb']))

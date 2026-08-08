@@ -285,8 +285,14 @@ section.band{padding:76px 0}
   padding:24px 24px 22px;border-top:4px solid var(--accent);
   display:flex;flex-direction:column;gap:8px;transition:transform .22s,box-shadow .22s}
 .cilt:hover{transform:translateY(-6px);box-shadow:0 26px 46px -26px var(--bg)}
+/* Cilt numarası ile sürüm rozeti aynı satırda; kitap kartındaki düzenin
+   cilt ölçeğindeki karşılığı. */
+.cilt-ust{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .cilt-no{font-size:.76rem;letter-spacing:.14em;text-transform:uppercase;
   font-weight:800;color:var(--accent)}
+.cilt-surum{font-size:.68rem;font-weight:700;letter-spacing:.03em;
+  white-space:nowrap;color:var(--accent);border:1px solid var(--accent);
+  padding:2px 8px;border-radius:999px;opacity:.85}
 .cilt h3{font-family:var(--font-display);font-size:1.3rem;margin:0}
 .cilt-bilgi{color:var(--muted);font-size:.92rem;margin:0}
 .cilt-doi{margin:2px 0 0;font-size:.84rem;word-break:break-all}
