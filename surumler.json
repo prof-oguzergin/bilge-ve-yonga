@@ -128,6 +128,54 @@
     "kitap3.11-dedektif-bilge-ve-kayip-sonuc": {
       "surum": "1.0",
       "tarih": "5 Ağustos 2026"
+    },
+    "kitap4.01a-eldenin-yolculugu": {
+      "surum": "1.0",
+      "tarih": "9 Ağustos 2026"
+    },
+    "kitap4.01b-yonganin-eksi-derdi": {
+      "surum": "1.0",
+      "tarih": "9 Ağustos 2026"
+    },
+    "kitap4.02-cok-yonlu-alet-amb": {
+      "surum": "1.0",
+      "tarih": "9 Ağustos 2026"
+    },
+    "kitap4.03-uzun-isler-carpma-bolme": {
+      "surum": "1.0",
+      "tarih": "9 Ağustos 2026"
+    },
+    "kitap4.04-virgulun-dansi": {
+      "surum": "1.0",
+      "tarih": "9 Ağustos 2026"
+    },
+    "kitap4.05-veri-yolu-fabrikasi": {
+      "surum": "1.0",
+      "tarih": "9 Ağustos 2026"
+    },
+    "kitap4.06-bir-buyrugun-yolculugu": {
+      "surum": "1.0",
+      "tarih": "9 Ağustos 2026"
+    },
+    "kitap4.07-orkestra-sefi-denetim-birimi": {
+      "surum": "1.0",
+      "tarih": "9 Ağustos 2026"
+    },
+    "kitap4.08-tek-vurusta": {
+      "surum": "1.0",
+      "tarih": "9 Ağustos 2026"
+    },
+    "kitap4.09-adim-adim": {
+      "surum": "1.0",
+      "tarih": "9 Ağustos 2026"
+    },
+    "kitap4.10-icindeki-minik-buyruklar": {
+      "surum": "1.0",
+      "tarih": "9 Ağustos 2026"
+    },
+    "kitap4.11-bir-seferde-kac-bit": {
+      "surum": "1.0",
+      "tarih": "9 Ağustos 2026"
     }
   },
   "ciltler": {
@@ -142,6 +190,10 @@
     "3": {
       "surum": "1.1",
       "tarih": "5 Ağustos 2026"
+    },
+    "4": {
+      "surum": "1.0",
+      "tarih": "9 Ağustos 2026"
     }
   }
 }

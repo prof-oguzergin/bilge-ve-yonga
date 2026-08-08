@@ -92,6 +92,10 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 {B}"Demek işaret artı mı eksi mi diyor, üs kaç adım kayacağını, kesir de rakamların kendisini!" dedi Bilge.
 
+Sonra duraksadı. {B}"Ama sen ayrı işaret kutucuğu olmaz demiştin."
+
+{Y}"Tam sayılar için öyle." dedi Yonga. {Y}"Onlarda ikiye tümleyen var, ayrı işaret yok. Kayan noktada ise başka bir yol seçilmiş: işaret ayrı bir bitte duruyor."
+
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Üç ayrı bölmeli bir kutu çizilmiş, her bölme etiketli: "İŞARET" (küçük bir artı ve eksi işareti), "ÜS" (adım işaretleriyle bir merdiven), "KESİR" (rakamlar dizisi). Yonga her bölmeyi sırayla işaret ediyor. Bilge elindeki defterde not alıyor. Üç bölme farklı pastel renklerde: sarı, yeşil, mavi.
 
