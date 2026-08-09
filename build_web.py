@@ -61,7 +61,7 @@ SERIES = {
 # yogun ekranlarda bulanik kaliyordu.
 DESTE_ON = 'kitap1.01a'
 DESTE_HAVUZ = ['kitap1.02a', 'kitap1.09', 'kitap2.02', 'kitap2.04', 'kitap2.06',
-               'kitap2.10', 'kitap3.01', 'kitap3.07', 'kitap3.08', 'kitap3.11']
+               'kitap2.10', 'kitap3.01b', 'kitap3.07', 'kitap3.08', 'kitap3.11']
 DESTE_ARKA = 4            # ondeki kartin arkasinda kac kart durur
 DESTE_GENISLIK = 900      # piksel
 
@@ -111,7 +111,10 @@ BOOKS = [
      'Bellek duvarı ve önbellek: hızlı işlemci, yavaş bellek', '#982A0B'),
     ('kitap2.10-kim-daha-hizli', '2.10', 'Kim Daha Hızlı?',
      'Her iş için doğru araç: telefondan süper bilgisayara', '#90240B'),
-    ('kitap3.01-iki-dunyanin-koprusu', '3.1', 'İki Dünyanın Köprüsü',
+    ('kitap3.01a-dedigimi-yap', '3.1a', 'Dediğimi Yap',
+     'Program nedir: bilgisayara iş adım adım ve kesin anlatılır',
+     '#33A866'),
+    ('kitap3.01b-iki-dunyanin-koprusu', '3.1b', 'İki Dünyanın Köprüsü',
      'Buyruk kümesi mimarisi: yazılım ile donanımın ortak dili', '#2E9E5B'),
     ('kitap3.02-siranin-ustundeki-kalemler', '3.2', 'Sıranın Üstündeki Kalemler',
      'Yazmaçlar, bellek düzeni ve bayt sırası', '#2C9553'),
@@ -1205,7 +1208,7 @@ def build_deste():
                 'data-cap="%s">' % (slot, a, escape(alt), escape(adlar[a])))
 
     # varsayilan deste: betik calismazsa da anlamli bir sira gorunur
-    varsayilan = [DESTE_ON] + ['kitap2.02', 'kitap3.07', 'kitap2.06', 'kitap3.01']
+    varsayilan = [DESTE_ON] + ['kitap2.02', 'kitap3.07', 'kitap2.06', 'kitap3.01b']
     kartlar = '\n'.join(kart(a, i, on=(i == 0))
                         for i, a in enumerate(varsayilan))
     havuz = json.dumps([{'src': 'deste/%s.jpg' % a, 'cap': adlar[a]}
@@ -1232,6 +1235,7 @@ def uyar_bayat_klasor():
 # elle birakilan yonlendirmeyi de siliyordu; bu yuzden yonlendirmeler de
 # kurulumda uretilir ve temizlikten SONRA yazilir.
 YONLENDIRMELER = {
+    'kitap3.01-iki-dunyanin-koprusu': 'kitap3.01b-iki-dunyanin-koprusu',
     'kitap1.02-milyarlarca-kucuk-anahtar': 'kitap1.02a-milyarlarca-kucuk-anahtar',
 }
 
