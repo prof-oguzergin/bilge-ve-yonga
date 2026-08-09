@@ -12,7 +12,7 @@
 **Metin:**
 Bilge ve annesi bulaşık yıkıyordu. Annesi temiz tabakları üst üste koyuyordu: bir, iki, üç, dört...
 
-{B}"Yonga, bu tabak kulesi bana tanıdık geldi!" dedi Bilge.
+{B}"Yonga, bu tabak kulesini bir yerden hatırlıyorum!" dedi Bilge.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Sıcak sarı tonlarda aydınlık bir mutfak. Bilge'nin annesi (uzun saçlı, önlüklü) temiz beyaz tabakları özenle üst üste koyuyor. Bilge yanında duruyor, gülümseyen Yonga da mutfak tezgâhında oturuyor. Tabak kulesi beş tabak yüksekliğinde, üst tabak en az karışmış. Pencereden güneş ışığı giriyor.
@@ -168,7 +168,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 Bilge mutfağa döndü ve annesinin tabak kulesine baktı. Artık sadece tabak görmüyordu: yığıt, çerçeveler, dönüş adresleri görüyordu!
 
-{B}"Teşekkürler Yonga." dedi. {B}"Artık biliyorum: bilgisayar da tabak kulesinden ilham almış!"
+{B}"Teşekkürler, Yonga." dedi. {B}"Artık biliyorum: bilgisayar da tabak kulesinden ilham almış!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bilge mutfakta tabak kulesinin önünde durmuş, gözleri mutlu ve parlak. Gözlüklerinde küçük yığıt şemaları yansıyor. Yonga omzunun üzerinde duruyor, kollarını açmış, ekranında tabak kulesi ve yığıt iç içe görünüyor. Annenin sesi "Sofrayı kur!" diye geliyor, balonla gösterilmiş. Sıcak sarı-turuncu mutfak ışığı.

@@ -130,7 +130,7 @@ Duvarları baştan başa kaplayan devasa bir makine; üst üste raflarda yüzler
 ## Sayfa 9 — Büyük Fikir
 
 **Metin:**
-{Y}"Sonra bir fikir geldi ve her şeyi değiştirdi." dedi Yonga. {Y}"EDVAC adlı makinede buyruklar ve veriler aynı bellekte durdu." dedi Yonga. {Y}"Yapılacak işi söyleyen buyruklar ve üzerinde çalışılan sayılar." dedi Yonga. {Y}"O sayılara **veri** diyoruz."
+{Y}"Sonra bir fikir geldi ve her şeyi değiştirdi." dedi Yonga. {Y}"EDVAC adlı makinede iki çeşit bilgi aynı bellekte durdu." dedi Yonga. {Y}"Yapılacak işi söyleyen buyruklar ve üzerinde çalışılan sayılar." dedi Yonga. {Y}"O sayılara **veri** diyoruz."
 
 {B}"Bunun nesi büyük fikir?" diye sordu Bilge.
 

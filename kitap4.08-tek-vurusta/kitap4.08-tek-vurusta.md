@@ -14,7 +14,7 @@ Bilge ile Yonga, atölyede eski bir duvar saatinin önünde durdu. Sarkaç her s
 
 {B}"Yonga, bu saat neden hiç şaşırmıyor?" diye sordu Bilge.
 
-Yonga gülümsedi. {Y}"İşlemcinin de tam böyle bir kalbi var Bilge. Her tık, bir buyruğu tamamlar."
+Yonga gülümsedi. {Y}"İşlemcinin de tam böyle bir kalbi var, Bilge. Her tık, bir buyruğu tamamlar."
 
 **Resim:**
 Eski ahşap bir atölye içinde büyük, antika bir duvar saati; pirinç sarkacı ışıkta parlıyor. Bilge saatin önünde durmuş, başını yana eğmiş merakla izliyor. Yonga yanında havada süzülüyor, gözlerindeki ışıklar sarkaçla aynı ritimde yanıp sönüyor. Sıcak, ahşap tonlarda nostaljik bir atölye atmosferi.

@@ -705,12 +705,21 @@ def draw_seri_page(c: canvas.Canvas, current_kitap_no: str):
     if not yayinda:
         return
 
-    # Kart düzeni: iki sütun, kapak solda, yazı sağda
-    COVER_W, COVER_H = 132.0, 73.7   # 16:9 kapak küçük boy
-    row_h = 92
+    # Kart düzeni: iki sütun, kapak solda, yazı sağda. Satır yüksekliği kitap
+    # sayısından hesaplanıyor; sabit olduğunda 12 kitaplık seri sayfaya
+    # sığmıyor, alttaki notun üstüne biniyordu.
+    y_top = PAGE_H - 118
+    y_bot = 58
     rows = (len(yayinda) + 1) // 2
-    col_x = [70, PAGE_W / 2 + 25]
-    y_top = PAGE_H - 128
+    row_h = (y_top - y_bot) / rows
+    COVER_H = min(73.7, row_h - 15)
+    COVER_W = COVER_H * 16 / 9
+    kenar = 62
+    col_w = (PAGE_W - 2 * kenar - 24) / 2
+    col_x = [kenar, kenar + col_w + 24]
+    yazi_w = col_w - COVER_W - 14
+    baslik_punto = 12.5 if row_h >= 66 else 11
+    aciklama_punto = 10 if row_h >= 66 else 8.6
 
     for i, (no, title, desc, kapak) in enumerate(yayinda):
         col = i // rows
@@ -730,17 +739,28 @@ def draw_seri_page(c: canvas.Canvas, current_kitap_no: str):
         tx = x + COVER_W + 14
         if is_current:
             c.setFillColorRGB(*seri_renk)
-            c.setFont(FONT_B, 12.5)
+            font_b = FONT_B
             marker = ">> "
         else:
             c.setFillColorRGB(0.2, 0.2, 0.2)
-            c.setFont(FONT_N, 12.5)
+            font_b = FONT_N
             marker = ""
-        c.drawString(tx, img_y + COVER_H - 22, f"{marker}Kitap {no}: {title}")
+        c.setFont(font_b, baslik_punto)
+        baslik = f"{marker}Kitap {no}: {title}"
+        while (c.stringWidth(baslik, font_b, baslik_punto) > yazi_w
+               and len(baslik) > 12):
+            baslik = baslik[:-2] + "…"
+        c.drawString(tx, img_y + COVER_H - baslik_punto - 4, baslik)
 
-        c.setFont(FONT_N, 10.5)
+        c.setFont(FONT_N, aciklama_punto)
         c.setFillColorRGB(0.4, 0.4, 0.4)
-        c.drawString(tx, img_y + COVER_H - 42, desc)
+        satirlar = wrap_text(c, desc, FONT_N, aciklama_punto, yazi_w)[:2]
+        if len(satirlar) == 2 and c.stringWidth(desc, FONT_N, aciklama_punto) > 2 * yazi_w:
+            satirlar[1] = satirlar[1].rstrip() + "…"
+        ay = img_y + COVER_H - baslik_punto - 20
+        for satir in satirlar:
+            c.drawString(tx, ay, satir)
+            ay -= aciklama_punto + 3
         c.restoreState()
 
     # Altta yeni kitap muştusu. Liste artık diskten türetildiği için "eksik kitap"

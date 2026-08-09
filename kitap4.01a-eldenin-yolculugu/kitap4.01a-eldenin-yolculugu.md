@@ -14,7 +14,7 @@ Bilge, bahçede kum kovalarını sıraya dizmişti. Kovalara sırayla kum doldur
 
 {B}"Yonga, bak." dedi. {B}"Bu kova dolunca fazlası öbürüne geçiyor."
 
-Yonga başını salladı, gözleri parladı. {Y}"Bilgisayar da toplama yaparken tam bunu yapıyor Bilge. Sen elinle yaptın, o tellerle yapıyor."
+Yonga başını salladı, gözleri parladı. {Y}"Bilgisayar da toplama yaparken tam bunu yapıyor, Bilge. Sen elinle yaptın, o tellerle yapıyor."
 
 {B}"Gerçekten mi?" diye sordu Bilge, kumlu ellerini silkeleyerek.
 
@@ -106,7 +106,7 @@ Bilge kaşlarını çattı. {B}"Bir-sıfır mı? İkilik düzende iki, bir-sıf�
 
 {Y}"Evet. Onluk düzende üç artı beş. Sağdan başlayalım."
 
-Bilge kalemini kaptı. {B}"Ben de yazıyorum, sıra sende Yonga!"
+Bilge kalemini kaptı. {B}"Ben de yazıyorum, sıra sende, Yonga!"
 
 **Resim:** Yonga'nın havaya yansıttığı hologramda alt alta iki sıra kutucuk: üstte 0-0-1-1, altta 0-1-0-1, aralarında artı işareti. Bilge küçük bir defterle yanında oturmuş, aynı kutucukları kendi defterine kopyalıyor, kalemi elinde.
 

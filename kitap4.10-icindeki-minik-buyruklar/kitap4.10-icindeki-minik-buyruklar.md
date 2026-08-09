@@ -182,7 +182,7 @@ Bilge gülümsedi. {B}"Evet! Sonra anahtarlar, kapılar, hız yarışları, say�
 
 Yonga gözlerini kısarak parladı. {Y}"Küçücük bir kum tanesinden koca bir düşünme makinesine kadar uzun bir yol yürüdük. Ve sen bu yolun her adımını öğrendin!"
 
-Bilge, Yonga'ya sıkıca sarıldı. {B}"Teşekkürler Yonga!" Sonra başını kaldırdı. {B}"Peki bir işlemci bundan daha da hızlı çalışabilir mi?"
+Bilge, Yonga'ya sıkıca sarıldı. {B}"Teşekkürler, Yonga!" Sonra başını kaldırdı. {B}"Peki bir işlemci bundan daha da hızlı çalışabilir mi?"
 
 {Y}"Çalışabilir." dedi Yonga gülümseyerek. {Y}"Onu da başka bir gün konuşuruz."
 

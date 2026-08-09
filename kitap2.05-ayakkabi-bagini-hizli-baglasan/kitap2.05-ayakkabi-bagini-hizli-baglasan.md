@@ -186,7 +186,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 🚲 Bilge yürüyüşü bisikletle üç dakikaya indirince toplam süre yirmi bir dakikadan üç dakika on saniyeye düştü. İşte gerçek fark böyle ortaya çıktı.
 
-📐 Buna **Amdahl Yasası** denir: bir bölümü ne kadar hızlandırırsan hızlandır, faydası hızlandırdığın bölümün büyüklüğüyle sınırlıdır.
+📐 Buna **Amdahl Yasası** denir: bir parçayı ne kadar hızlandırırsan hızlandır, kazancın o parçanın işin içindeki payıyla sınırlıdır.
 
 🔍 Küçük bir parçayı çok hızlandırmak yerine, her zaman **en büyük parçayı** bulup onu hızlandırmak gerekir.
 

@@ -66,7 +66,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 **Metin:**
 {B}"Döngüler ne?" diye sordu Bilge.
 
-{Y}"Döngü, bir işlem dizisini belirli sayıda ya da bir koşul bozulana kadar tekrarlamak demek." dedi Yonga.
+{Y}"Döngü, birkaç adımı belirli sayıda ya da bir koşul bozulana kadar tekrarlamak demek." dedi Yonga.
 
 {Y}"'10 kez zıpla' demek gibi.
 Nasıl mı? Dallanma buyruğuyla!
@@ -160,7 +160,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 dönüş adresi, kayıtlı yazmaçlar, yerel değişkenler hepsi orada."
 
 {Y}"**fp** (çerçeve işaretçisi) o odanın kapısını gösterir." dedi Yonga.
-{Y}"**sp** ise kulenin en üstünü gösterir: en son konulan öğe neredeyse orası."
+{Y}"**sp** ise kulenin en üstünü gösterir: en son konulan neredeyse orası."
 
 {B}"Bir apartman gibi." dedi Bilge. {B}"Her fonksiyon kendi dairesinde."
 

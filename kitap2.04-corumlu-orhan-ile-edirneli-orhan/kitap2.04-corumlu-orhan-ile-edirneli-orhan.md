@@ -134,7 +134,7 @@ Yan yana iki işlemci karakteri: solda Çorumlu tipli, kocaman ama seyrek adıml
 ## Sayfa 13 — İki Orhan, İki Sır
 
 **Metin:**
-İki Orhan yarıştan sonra el sıkıştı, birbirini kutladı. Bilge gülümsedi: {B}"Demek hız yalnızca adım temposuna bağlı değilmiş. Adımın büyüklüğü de önemli, temposu da." Yonga parladı: {Y}"Aynen öyle, Bilge! Başarımın sırrı, ikisinin çarpımında."
+İki Orhan yarıştan sonra el sıkıştı, birbirini kutladı. Bilge gülümsedi: {B}"Demek hız yalnızca tempoya bağlı değilmiş. Adımın büyüklüğü de önemliymiş." Yonga parladı: {Y}"Aynen öyle, Bilge! Başarımın sırrı, ikisinin çarpımında."
 
 **Resim:**
 Akşam ışığında iki Orhan el sıkışıp gülümsüyor; arkalarında boş koşu pisti ve sönmekte olan bayraklar. Bilge ve Yonga yanlarında, mutlu. Sıcak turuncu ve mavi tonlar; dostça, huzurlu bir kapanış.

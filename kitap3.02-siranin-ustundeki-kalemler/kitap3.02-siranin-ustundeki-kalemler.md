@@ -178,7 +178,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 
 {B}"Plastik tabak kuleleri gibi!" dedi Bilge. {B}"Alttakini almak için üstündekileri kaldırman gerekir."
 
-{Y}"Aynen! Kuleye bir öğe koysan da alsan da **sp** hep en üstü gösterir."
+{Y}"Aynen! Kuleye bir tabak koysan da alsan da **sp** hep en üstü gösterir."
 
 **Resim:**
 Horizontal children's book illustration, watercolor style, edge-to-edge, NO white border, NO frame. A colorful stack of plastic plates (like in a cafeteria). Each plate is labeled with a piece of data. An arrow labeled "sp" points to the very top plate. In a sequence on the side: (1) a new plate being placed on top (sp moves down), (2) the top plate being removed (sp moves up). Bilge acts out the scenario with plates. Yonga — a small chubby rounded robot, light blue-silver metallic body, spiral/swirl on belly, big round blue eyes, dome head, short stubby arms, NO TEXT on body, NO antenna — demonstrates the sp arrow moving. ONLY ONE ROBOT IN THE SCENE. Cafeteria scene, warm food-service colors.

@@ -80,7 +80,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 8 — Bilgisayarlar da Böyle Yapar!
 
 **Metin:**
-Yonga güldü: {Y}"Biliyor musun Bilge? Bilgisayarlar da tam böyle yapıyor! Oyun oynamak, müzik çalmak, resim yapmak, hepsi Al-Anla-Yap döngüsüyle oluyor! Bunu yapan da senin tanıdığın İşlemci arkadaşımız."
+Yonga güldü: {Y}"Biliyor musun, Bilge? Bilgisayarlar da tam böyle yapıyor! Oyun oynamak, müzik çalmak, resim yapmak, hepsi Al-Anla-Yap döngüsüyle oluyor! Bunu yapan da senin tanıdığın İşlemci arkadaşımız."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga havada büyük bir hologram pano açmış; üzerinde bilgisayar simgesi ortada, çevresinde ok şeklinde dönen "AL → ANLA → YAP" döngüsü var. Döngünün etrafında küçük ikonlar: oyun kumandası, nota, boya fırçası, hesap makinesi. Bilge şaşkınlıkla ağzını açmış, "Hepsi mi?" der gibi bakıyor. Mavi hologram tonları ve renkli ikonlar; büyük bir keşif anı.

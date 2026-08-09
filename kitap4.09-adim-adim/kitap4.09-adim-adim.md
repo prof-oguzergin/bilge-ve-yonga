@@ -196,9 +196,9 @@ Bilge gülümsedi. {B}"Demek hâlâ sırayla yiyoruz, ama her tabak eskisinden d
 
 {Y}"Doğru. Ama unutma, denetim tarafı daha karmaşık." dedi Yonga. {Y}"Şef artık her adımda ayrı bir işaret vermek zorunda."
 
-{B}"Demek her tasarım seçiminin bir takası var." dedi Bilge, kaşığını kâseye koyarak.
+{B}"Demek her seçimin bir takası var." dedi Bilge, kaşığını kâseye koyarak.
 
-{Y}"Mühendislik zaten böyledir Bilge." dedi Yonga. {Y}"Bir yerden kazanırsın, başka bir yerden biraz emek harcarsın."
+{Y}"Mühendislik zaten böyledir, Bilge." dedi Yonga. {Y}"Bir yerden kazanırsın, başka bir yerden biraz emek harcarsın."
 
 **Resim:** Bilge ve Yonga masada karşılıklı oturmuş, aralarında bir terazi çiziliyor havada, bir kefesinde küçük bir tavşan ile bozuk para, öbür kefesinde birbirine dolanmış ipliklerden bir yumak duruyor, terazi dengeli duruyor. İkisi de gülümseyerek terazinin dengesine bakıyor.
 
@@ -209,13 +209,13 @@ Bilge gülümsedi. {B}"Demek hâlâ sırayla yiyoruz, ama her tabak eskisinden d
 **Metin:**
 Bilge sandalyesinden kalktı, tabaklarını topladı.
 
-{B}"Bugün öğrendiğim en güzel ders, büyük işleri küçük adımlara bölmenin ne kadar akıllıca olduğuydu." dedi.
+{B}"Bugün şunu öğrendim: büyük işleri küçük adımlara bölmek çok akıllıcaymış." dedi.
 
 {Y}"Bu fikir sadece işlemcilerde değil, hayatın her yerinde işe yarar." dedi Yonga gülümseyerek.
 
 Bilge birden durdu. {B}"Bir dakika. Şef her adımda ayrı işaret veriyor dedin. Peki hangi buyrukta hangi işareti vereceğini nereden biliyor? Hepsini ezbere mi biliyor?"
 
-Yonga gözlerini kıstı, gizemli bir gülümsemeyle. {Y}"İşte bu çok iyi bir soru Bilge. Onu başka bir gün konuşalım."
+Yonga gözlerini kıstı, gizemli bir gülümsemeyle. {Y}"İşte bu çok iyi bir soru, Bilge. Onu başka bir gün konuşalım."
 
 **Resim:** Bilge elinde tabaklarla mutfak lavabosuna doğru yürüyor, arkasını dönüp Yonga'ya gülümseyerek bakıyor. Yonga havada süzülüyor, gövdesinin alt bölümündeki küçük ekranda tek bir soru işareti parlıyor. Sıcak öğleden sonra ışığı pencereden içeri vuruyor.
 

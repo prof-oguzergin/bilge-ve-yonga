@@ -20,7 +20,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 2 — Yonga'nın Sürprizi
 
 **Metin:**
-Yonga, Bilge'nin omzuna kondu ve fısıldadı: {Y}"Sen bir tek anahtar öğrendin. Bugün seni milyarlarcasının arasına götüreceğim. Hem de ne dediklerini öğreneceksin." Bilge durdu. {B}"Anahtarlar bir bilgi mi veriyor?"
+Yonga, Bilge'nin omzuna kondu ve fısıldadı: {Y}"Sen bir tek anahtar öğrendin. Bugün seni milyarlarcasının arasına götüreceğim. Hem de ne dediklerini öğreneceksin." Bilge durdu. {B}"Anahtarlar konuşuyor mu?"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga, Bilge'nin omzuna konmuş; küçük elleriyle Bilge'nin kulağına fısıldarcasına yaklaşmış. Bilge şaşkınlıkla dönerek Yonga'ya bakıyor, soru işaretleri ufak ufak kafasının etrafında uçuşuyor (çizgi roman tarzında). Arka planda Bilge'in sevimli odası; rafta oyuncaklar ve kitaplar var. Sıcak oranj ve altın renkleri; samimi, arkadaşça bir an.

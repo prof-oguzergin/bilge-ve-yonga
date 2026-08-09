@@ -30,7 +30,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 3 — Sisko'nun Yolu
 
 **Metin:**
-Sıra Sisko'daydı. Sisko hiç acele etmedi: tek bir büyük hamleyle ekmeği kesip peyniri koyup domatesi ekleyip sandviçi kapattı. {D}"Ben tek seferde birçok adımı yaparım!" dedi Sisko gururla. Ama o tek hamle epey uzun sürdü.
+Sıra Sisko'daydı. Sisko hiç acele etmedi: tek bir büyük hamleyle ekmeği kesip peyniri koyup domatesi ekleyip sandviçi kapattı. {D}"Ben tek hamlede birçok işi bitiririm!" dedi Sisko gururla. Ama o tek hamle epey uzun sürdü.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. İri yapılı, üzerinde onlarca araç asılı Sisko robotu, aynı mutfakta ekmek kesip tereyağı sürüp üstüne domates dilimleyip sofrayı düzenliyor — hepsini aynı anda yapıyor ama biraz gürültülü ve yoğun görünüyor. Bilge ve Yonga izliyor; Bilge etkilenmiş ama biraz bunalmış ifadesiyle. Kırmızı, kahverengi ve altın tonlar; yoğunluk ve çok yönlülük hissi.

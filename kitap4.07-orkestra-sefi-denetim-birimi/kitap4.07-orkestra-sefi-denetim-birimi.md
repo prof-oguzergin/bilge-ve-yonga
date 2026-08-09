@@ -14,7 +14,7 @@ Bilge, elinde konser programıyla evin kapısından içeri girdi, gözleri hâl�
 
 {B}"Yonga, orkestra şefini gördün mü?" dedi. {B}"Kimse çalgı çalmıyordu ama o sopayı sallayınca herkes aynı anda başladı!"
 
-Yonga ışıklarını hızla yakıp söndürdü. {Y}"Bu bana çok tanıdık geldi Bilge. İşlemcimin içinde de tam öyle bir şef var."
+Yonga ışıklarını hızla yakıp söndürdü. {Y}"Bu bana çok tanıdık geldi, Bilge. İşlemcimin içinde de tam öyle bir şef var."
 
 **Resim:**
 Bilge elinde konser programıyla eve giriyor, gözlükleri parlıyor, arkasında uzaktan orkestra sahnesi hayal balonu gibi görünüyor; Yonga kapıda onu karşılıyor, ışıkları heyecanla yanıp sönüyor.
@@ -38,7 +38,7 @@ Oturma odasında Bilge koltukta, Yonga havaya basit bir devre şeması yansıtı
 ## Sayfa 3 — Küçük Şef
 
 **Metin:**
-Yonga hologramına ince uzun, elinde ince bir sopa tutan küçük bir figür çizdi. {Y}"Benim içimde de bir şef var Bilge. Adı denetim birimi. Tıpkı o orkestra şefi gibi kendisi hiçbir çalgı çalmaz, ama herkese ne zaman ne yapacağını söyler."
+Yonga hologramına ince uzun, elinde ince bir sopa tutan küçük bir figür çizdi. {Y}"Benim içimde de bir şef var, Bilge. Adı denetim birimi. Tıpkı o orkestra şefi gibi kendisi hiçbir çalgı çalmaz, ama herkese ne zaman ne yapacağını söyler."
 
 Bilge gözlüklerini düzeltti. {B}"Demek o senin küçük şefin!"
 
@@ -88,7 +88,7 @@ Merkezde minik şef figürü, ondan dört farklı yöne ince ışıklı oklar ç
 ## Sayfa 7 — Toplama Buyruğu
 
 **Metin:**
-Bilge merakla öne eğildi. {B}"Bir örnek göster Yonga!"
+Bilge merakla öne eğildi. {B}"Bir örnek göster, Yonga!"
 
 Yonga bir toplama buyruğu seçti. {Y}"Şef önce iki yazmacın sayılarını tellere çıkarır, sonra AMB'ye topla der, sonra sonucu üçüncü yazmaca yaz der. Üç işaret, sırayla."
 
@@ -126,7 +126,7 @@ Tüm parçalar, AMB, yazmaçlar ve bellek, minik gözlerle şefe bakıyor; şef 
 **Metin:**
 {B}"Bu şef ne kadar sık işaret veriyor?" diye sordu Bilge şaşkınlıkla.
 
-Yonga içindeki saati dinledi. {Y}"Saniyede milyarlarca kez Bilge. Her saat vuruşunda yeni bir buyruk gelir, şef hemen yeni işaretlerini hazırlar. Hiç durmadan, hiç yorulmadan."
+Yonga içindeki saati dinledi. {Y}"Saniyede milyarlarca kez, Bilge. Her saat vuruşunda yeni bir buyruk gelir, şef hemen yeni işaretlerini hazırlar. Hiç durmadan, hiç yorulmadan."
 
 **Resim:**
 Yonga'nın içinde minik şef figürü hızlı hızlı hareket ediyor, etrafında hız çizgileri ve küçük saat sembolleri, arka planda hızla artan sayılar görünüyor.
@@ -168,7 +168,7 @@ Bilge pencereden dışarı baktı, uzaktan hâlâ konser salonunun ışıkları 
 
 {B}"Artık konsere gidince hem şefi hem çalgıcıları izleyeceğim." dedi.
 
-Yonga ışığını sıcak bir tonda yaktı. {Y}"Ben de içimdeki küçük şefimi hiç unutmayacağım Bilge."
+Yonga ışığını sıcak bir tonda yaktı. {Y}"Ben de içimdeki küçük şefimi hiç unutmayacağım, Bilge."
 
 **Resim:**
 Bilge pencere kenarında, uzakta konser salonu ışıkları görünüyor; Yonga yanında, göğüs ekranında minik şef figürü sıcak ışıkla parlıyor, huzurlu bir akşam atmosferi.

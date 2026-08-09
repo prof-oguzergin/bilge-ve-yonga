@@ -14,7 +14,7 @@ Bilge ile Yonga alışveriş merkezinin asansöründeydi. Bilge düğmelere bakt
 
 {B}"Sıfırın altına inince eksi başlıyor." dedi Bilge. {B}"Otopark eksi ikinci katta."
 
-Yonga'nın ışıkları düşünceli bir ritimle yanıp söndü. {Y}"Benim küçük bir derdim var Bilge."
+Yonga'nın ışıkları düşünceli bir ritimle yanıp söndü. {Y}"Benim küçük bir derdim var, Bilge."
 
 {B}"Ne derdi?" diye sordu Bilge.
 

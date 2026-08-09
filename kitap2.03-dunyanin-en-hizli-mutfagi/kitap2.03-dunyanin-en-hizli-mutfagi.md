@@ -128,7 +128,7 @@ Bilge kaşlarını çattı: {B}"Gecikme mi? Pizza geç mi kalıyor?"
 {Y}"Hayır!" dedi Yonga. {Y}"Bu ad yabancı dilden çevrilirken böyle kalmış. Buradaki gecikme 'geç kalmak' demek değil, bir işin başlamasıyla bitmesi arasında geçen süre demek. Pizza hiç gecikmese de o süre 30 dakikadır."
 
 {Y}"İşlem hacmi ise bir saatte kaç işin bittiğini anlatır."
-{Y}"İkisi ayrı ölçüler!" diye vurguladı Yonga, ellerini açarak.
+{Y}"Bunlar iki ayrı ölçü!" diye vurguladı Yonga, ellerini açarak.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Sayfa ikiye bölünmüş: sol yarıda "GECİKME" başlığı altında tek bir pizza ve yanında büyük bir saat (30 dk); sağ yarıda "İŞLEM HACMİ" başlığı altında saatte çıkan 10 pizza ve bir saat ikonu. Her iki taraf da farklı renk tonlarıyla (sol: mavi-mor, sağ: turuncu-sarı) vurgulanmış. Ortada Yonga iki tarafa elleri açık durmuş, açıklıyor. Bilge "aaa!" diye anlayan bir ifadeyle sayfanın altında oturuyor. Eğitici ama görsel olarak çekici ve renkli bir kompozisyon.

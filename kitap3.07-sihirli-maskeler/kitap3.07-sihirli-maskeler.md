@@ -13,7 +13,7 @@
 
 Bilge ve Yonga, karnavalın maske tezgâhının önünde duruyordu. Renk renk maskeler sıra sıra asılıydı.
 
-{Y}"Bu maskeler bana tanıdık geldi." dedi Yonga gizemli bir sesle. {Y}"İçimdeki sihirli maskeleri!"
+{Y}"Bu maskeler bana tanıdık geldi." dedi Yonga gizemli bir sesle. {Y}"İçimdeki sihirli maskeler gibi!"
 
 **Resim:**
 
@@ -27,7 +27,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 {B}"Maskelerin ne işi var?" diye sordu Bilge.
 
-{Y}"Maskeler bazı bölümleri gösterir, bazı bölümleri gizler." dedi Yonga. {Y}"Benim içimdeki maskeler de bitlerimi öyle seçer: bazılarını geçirir, bazılarını durdurur!"
+{Y}"Maskeler yüzün bazı yerlerini gösterir, bazı yerlerini gizler." dedi Yonga. {Y}"Benim içimdeki maskeler de bitlerimi öyle seçer: bazılarını geçirir, bazılarını durdurur!"
 
 **Resim:**
 

@@ -167,7 +167,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 **Metin:**
 
-Eve dönerken Bilge'nin kafasında yeni bir soru belirdi: {B}"Peki ya önbellekte yanlış veriler saklanırsa?" Yonga güldü: {Y}"İşte o ayrı bir konu: önbellek yönetimi denen büyüleyici bir alan! Ama o hikayeyi başka bir gün anlatırım." Bilge sabırsızlıkla güldü: {B}"Söz mü?" Yonga ekranında küçük bir parmak sallama canlandırması gösterdi: {Y}"Söz!"
+Eve dönerken Bilge'nin kafasında yeni bir soru belirdi: {B}"Peki ya önbellek yanlış verileri saklarsa?" Yonga güldü: {Y}"İşte o ayrı bir konu: önbellek yönetimi denen büyüleyici bir alan! Ama o hikayeyi başka bir gün anlatırım." Bilge sabırsızlıkla güldü: {B}"Söz mü?" Yonga ekranında küçük bir parmak sallama canlandırması gösterdi: {Y}"Söz!"
 
 **Resim:**
 
