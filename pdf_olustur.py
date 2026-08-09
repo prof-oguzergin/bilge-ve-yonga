@@ -31,9 +31,13 @@ from PIL import Image as PILImage
 
 # ─── Sabitler ───────────────────────────────────────────────────────────────
 BASE_DIR = Path("G:/My Drive/Yazdığımız Kitaplar/Çocuk Kitapları/Bilgisayar Mimarisi Serisi")
-FONT_DIR = Path("C:/Windows/Fonts")
-FONT_NORMAL = FONT_DIR / "segoepr.ttf"
-FONT_BOLD   = FONT_DIR / "segoeprb.ttf"
+# Gövde fontu Andika (SIL, OFL): okuma öğrenenler için tasarlandı, harfleri
+# bilerek ayrılmış. Segoe Print el yazısı havası veriyordu ama büyük I ile
+# küçük l aynı çizgiydi; Türkçede I, İ, ı, i ayrımı kritik olduğu için
+# değiştirildi. Font depoda taşınıyor, sistemden bağımsız.
+FONT_DIR = Path(__file__).resolve().parent / "fontlar"
+FONT_NORMAL = FONT_DIR / "Andika-Regular.ttf"
+FONT_BOLD   = FONT_DIR / "Andika-Bold.ttf"
 
 # Gemini resimleri 2752x1536 (oran 1.792) -- sayfayi buna gore ayarla
 # A4 yuksekligini koruyup eni orana gore hesapla

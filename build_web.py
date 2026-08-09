@@ -366,7 +366,7 @@ EP_W, EP_H = 1400, 788
 EPUB_CSS = """@charset "utf-8";
 html,body{margin:0;padding:0;width:1400px;height:788px;overflow:hidden}
 body{background:#0a0e20;color:#2b2440;-webkit-text-size-adjust:none;
-  font-family:Georgia,"Iowan Old Style","Times New Roman",serif}
+  font-family:"Andika",Georgia,"Times New Roman",serif}
 .pg{position:absolute;top:0;left:0;width:1400px;height:788px;overflow:hidden}
 .pg img{position:absolute;top:0;left:0;width:1400px;height:788px;margin:0;padding:0}
 .band{position:absolute;left:0;bottom:0;width:1400px;box-sizing:border-box;
@@ -619,6 +619,10 @@ READER_TPL = r'''<!doctype html>
 <meta name="theme-color" content="#0C1226">
 <script>try{var _t=localStorage.getItem('theme');if(_t)document.documentElement.setAttribute('data-theme',_t);}catch(e){}</script>
 <style>
+@font-face{font-family:"Andika";src:url("../fontlar/Andika-Regular.woff2") format("woff2");
+  font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Andika";src:url("../fontlar/Andika-Bold.woff2") format("woff2");
+  font-weight:700;font-style:normal;font-display:swap}
 :root{
   /* Varsayılan: karanlık (ana sayfadaki seçim localStorage ile devralınır) */
   --paper:#FBF2E1; --paper-ink:#33294A;
@@ -626,7 +630,11 @@ READER_TPL = r'''<!doctype html>
   --ground:#0C1226; --stage:#121b38; --chrome:#EAF0F6; --chrome-soft:#9AA6C6;
   --edge:rgba(180,200,240,.16); --shadow:rgba(0,0,0,.5);
   --ff-disp:"Segoe UI",Verdana,system-ui,sans-serif;
-  --ff-body:"Georgia","Iowan Old Style",serif;
+  /* Gövde fontu Andika: SIL'in okuma öğrenenler için tasarladığı, harfleri
+     bilerek ayrılmış (I/İ/ı/l/1, G/C/Ç), tek katlı a ve g'li font. Georgia
+     okunaklıydı ama yetişkin kitabı harfleriydi; bir okur çocuğunun harfleri
+     karıştırdığını yazınca değiştirildi. OFL, siteye gömülebiliyor. */
+  --ff-body:"Andika","Georgia",serif;
 }
 :root[data-theme="light"]{ --ground:#E7EEF3; --stage:#F3ECDD; --chrome:#182253; --chrome-soft:#5A6382;
   --edge:rgba(24,34,83,.14); --shadow:rgba(24,34,83,.20); }
