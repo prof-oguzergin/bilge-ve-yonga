@@ -58,12 +58,12 @@ Defterde alt alta iki sayı: üstte 375, altta 537. Aynı üç rakam iki sırada
 **Metin:**
 {B}"Bir, on, yüz." dedi Bilge. {B}"Her seferinde on katına çıkıyor!"
 
-{Y}"Sola doğru her basamağın değeri bir öncekinin on katıdır." dedi Yonga. {Y}"Buna onluk taban denir. Yüzden sonra bin gelir, binden sonra on bin."
+{Y}"Her basamağın değeri, sağındaki basamağın on katıdır." dedi Yonga. {Y}"Buna onluk taban denir. Yüzden sonra bin gelir, binden sonra on bin."
 
-Bilge güldü. {B}"Merdiven gibi. Her basamak bir öncekinden çok daha yüksek."
+Bilge güldü. {B}"Merdiven gibi. Her basamak sağındakinden çok daha yüksek."
 
 **Resim:**
-Sağdan sola yükselen dört basamaklı bir merdiven; basamakların üstünde sırayla 1, 10, 100, 1000 yazıyor ve her basamak bir öncekinden belirgin biçimde yüksek. Bilge merdivenin en alt basamağında duruyor, yukarı bakıyor. Yonga merdivenin üstünde süzülüyor.
+Sağdan sola yükselen dört basamaklı bir merdiven; basamakların üstünde sırayla 1, 10, 100, 1000 yazıyor ve her basamak sağındakinden belirgin biçimde yüksek. Bilge merdivenin en alt basamağında duruyor, yukarı bakıyor. Yonga merdivenin üstünde süzülüyor.
 
 ---
 
@@ -102,7 +102,7 @@ Solda Bilge'nin on parmağı, sağda Yonga'nın havaya yansıttığı iki ışı
 **Metin:**
 Yonga havaya yeni bir merdiven çizdi. Basamakların üstünde 1, 2, 4, 8 yazıyordu.
 
-{B}"Bir, iki, dört, sekiz." dedi Bilge. {B}"Her basamak bir öncekinin iki katı!"
+{B}"Bir, iki, dört, sekiz." dedi Bilge. {B}"Her basamak sağındakinin iki katı!"
 
 {Y}"Sonra on altı gelir, sonra otuz iki." dedi Yonga. {Y}"Benim merdivenim böyle tırmanır."
 
@@ -195,11 +195,11 @@ Defterin sayfasında yan yana iki sayı: solda 10, sağda 1010, aralarında iki 
 
 🏠 Sağdan sola basamakların adı vardır: birler, onlar, yüzler, binler.
 
-🔟 Onluk tabanda her basamak bir öncekinin **on katıdır**; bunun nedeni on parmağımız olmasıdır.
+🔟 Onluk tabanda her basamağın değeri, sağındakinin **on katıdır**; bunun nedeni on parmağımız olmasıdır.
 
 ✌️ Bilgisayarda yalnızca 0 ile 1 vardır; buna **ikilik taban** denir.
 
-🪜 İkilik tabanda her basamak bir öncekinin **iki katıdır**: 1, 2, 4, 8, 16, 32.
+🪜 İkilik tabanda her basamağın değeri, sağındakinin **iki katıdır**: 1, 2, 4, 8, 16, 32.
 
 ➕ Bir ikili sayıyı okumak için, içinde 1 olan basamakların değerleri toplanır.
 
