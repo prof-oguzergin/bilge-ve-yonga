@@ -515,12 +515,13 @@ SERI_BILGI = [
     ("Kumdan Bilgisayara",    "1", (0.18, 0.55, 0.78)),
     ("Hız ve Güç",            "2", (0.85, 0.45, 0.15)),
     ("Buyrukların Dünyası",   "3", (0.30, 0.65, 0.30)),
+    ("İşlemcinin İçi",        "4", (0.54, 0.31, 0.75)),
 ]
 
 ACIKLAMALAR = {
     '1.1a': 'Silisyumdan yonga nasıl yapılır?',
     '1.1b': 'Yarı iletken ve transistörün doğuşu',
-    '1.2': 'Transistörler ve ikili sayı sistemi',
+    '1.2a': 'Transistörler ve ikili sayı sistemi',
     '1.3': 'Bilgisayarın temel bileşenleri',
     '1.4': 'Buyruk yürütüm döngüsü',
     '1.5': 'Donanım ve yazılım katmanları',
@@ -539,7 +540,7 @@ ACIKLAMALAR = {
     '2.8': 'Gustafson Yasası ve işi büyüterek hızlanma',
     '2.9': 'Bellek duvarı ve önbellek çözümü',
     '2.10': 'Gerçek dünya işlemci karşılaştırmaları',
-    '3.1': 'Buyruk kümesi mimarisi ve Getir-Çöz-Yürüt',
+    '3.1b': 'Buyruk kümesi mimarisi ve Getir-Çöz-Yürüt',
     '3.2': 'Yazmaçlar, bellek düzeni ve bayt sırası',
     '3.3': 'Buyruk biçimleri ve adresleme kipleri',
     '3.4': 'Dallanma, döngüler ve altyordamlar',
@@ -571,6 +572,19 @@ def _kitap_basligi(dizin):
     return dizin.name
 
 
+def _ana_tema(dizin):
+    """Kitabın md dosyasındaki '**Ana tema:**' satırı; liste sayfasında
+    açıklama olarak kullanılır. Sözlüğü elle güncellemek unutuluyordu."""
+    try:
+        for satir in (dizin / (dizin.name + ".md")).read_text(
+                encoding="utf-8").splitlines():
+            if satir.startswith("**Ana tema:**"):
+                return satir.split("**", 2)[2].lstrip(": ").strip()
+    except Exception:
+        pass
+    return ""
+
+
 def _alt_serileri_kur():
     seriler = []
     for ad, anahtar, renk in SERI_BILGI:
@@ -581,7 +595,8 @@ def _alt_serileri_kur():
             seri_no, no = _klasor_no(d.name)
             if seri_no != anahtar:
                 continue
-            kitaplar.append((no, _kitap_basligi(d), ACIKLAMALAR.get(no, "")))
+            kitaplar.append((no, _kitap_basligi(d),
+                             ACIKLAMALAR.get(no) or _ana_tema(d)))
         if kitaplar:
             seriler.append({"ad": ad, "renk": renk, "kitaplar": kitaplar})
     return seriler

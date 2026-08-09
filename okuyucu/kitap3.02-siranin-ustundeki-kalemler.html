@@ -191,9 +191,13 @@ body{margin:0}
 .dlist{font-family:var(--ff-body); font-size:clamp(1.04rem,1.15vw,1.2rem); line-height:1.6;
   color:var(--chrome); padding-left:1.3em; margin:.4em 0 .8em}
 .dlist li{margin:.45em 0}
-.yanit{margin-top:10px; border-top:1px solid var(--edge); padding-top:8px}
+.yanit{margin-top:26px; border-top:2px solid var(--edge); padding-top:16px}
 .yanit summary{cursor:pointer; font-family:var(--ff-disp); font-weight:800;
-  color:var(--glow); font-size:.95rem; list-style:none}
+  color:var(--amber); font-size:1rem; list-style:none; display:inline-flex;
+  align-items:center; gap:6px; padding:6px 14px; border-radius:999px;
+  border:1.5px solid color-mix(in srgb,var(--amber) 55%,transparent)}
+.yanit summary:hover{background:color-mix(in srgb,var(--amber) 12%,transparent)}
+.yanit .dlist{margin-top:12px}
 .yanit summary::-webkit-details-marker{display:none}
 .yanit summary::before{content:"\25B8  "}
 .yanit[open] summary::before{content:"\25BE  "}
