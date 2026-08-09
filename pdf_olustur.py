@@ -367,15 +367,27 @@ def draw_cover(c: canvas.Canvas, meta: dict, cover_img: Path | None, kitap_no: s
     c.restoreState()
 
 # ─── Arka kapak ─────────────────────────────────────────────────────────────
-def draw_back_cover(c: canvas.Canvas, meta: dict, kitap_no: str = ""):
-    c.saveState()
-    c.setFillColorRGB(*BACK_COLOR)
-    c.rect(0, 0, PAGE_W, PAGE_H, fill=1, stroke=0)
-    c.restoreState()
+def _koyu_seri_rengi(alt_seri):
+    """Cilt renginin koyu tonu; arka kapak zemini olarak kullanilir.
 
+    Seri renkleri parlak oldugu icin uzerlerindeki beyaz yazi zayif
+    kaliyor. Kanallar yariya indirilince ton taninir kaliyor ama
+    karsitlik lacivert zemindekine yaklasiyor.
+    """
+    if not alt_seri:
+        return BACK_COLOR
+    return tuple(k * 0.5 for k in alt_seri["renk"])
+
+
+def draw_back_cover(c: canvas.Canvas, meta: dict, kitap_no: str = ""):
     # Seri logosu / metni
     alt_seri, _ = find_alt_seri(kitap_no)
     alt_seri_ad = alt_seri["ad"] if alt_seri else "Çocuk Kitapları"
+
+    c.saveState()
+    c.setFillColorRGB(*_koyu_seri_rengi(alt_seri))
+    c.rect(0, 0, PAGE_W, PAGE_H, fill=1, stroke=0)
+    c.restoreState()
 
     c.saveState()
     c.setFillColorRGB(1, 1, 1)
