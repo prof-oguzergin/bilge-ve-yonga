@@ -179,6 +179,16 @@ def find_pdf(folder_dir):
     return pdfs[0].name if pdfs else None
 
 
+# Okuyucuda beliren kucuk deneme alanlari. Kitap klasoru -> HTML.
+# Dis kitaplik yok, ag istegi yok; cevrimdisi da calisir.
+DENEME_WIDGET = {
+    # Kitap klasoru -> okuyucuda beliren deneme alaninin turu.
+    # Kap bos gelir, icini okuyucunun kendi betigi kurar; HTML'e
+    # <script> gomulmez (gomulen betik calismaz ve sayfayi kirar).
+    'kitap1.02b-ayni-rakam-baska-deger':
+        '<div class="dene" data-dene="basamak"></div>',
+}
+
 def _damga(yol):
     """Görsel adresine dosyanın içeriğinden türeyen bir sürüm damgası ekler.
 
@@ -242,6 +252,24 @@ def parse_book(folder, no, title, subtitle):
         lines = [re.sub(r'^[-*+\u2022]\s+', '', ln.strip())
                  for ln in sm.group(1).strip().split('\n') if ln.strip()]
         pages.append({'type': 'summary', 'title': 'Bugün Ne Öğrendik?', 'lines': lines})
+
+    # deneme zamani (bolum sonu sorulari)
+    dm = re.search(r'## Deneme Zamanı\s*\n(.+?)(?:\n\s*---|\Z)', md, re.S)
+    if dm:
+        ham = dm.group(1).strip()
+        sorular, yanitlar = [], []
+        hedef = sorular
+        for ln in ham.split('\n'):
+            ln = ln.strip()
+            if not ln:
+                continue
+            if ln.startswith('**Yanıtlar**'):
+                hedef = yanitlar
+                continue
+            hedef.append(re.sub(r'^\d+\.\s*', '', ln))
+        pages.append({'type': 'deneme', 'title': 'Deneme Zamanı',
+                      'sorular': sorular, 'yanitlar': yanitlar,
+                      'widget': DENEME_WIDGET.get(folder, '')})
     return pages
 
 
@@ -794,6 +822,31 @@ body{margin:0}
 .summary h2{color:var(--paper-ink); font-size:clamp(1.4rem,1.9vw,1.75rem);
   display:flex; align-items:center; gap:10px; margin:0}
 .slist{list-style:none; margin:18px 0 0; padding:0; display:grid; gap:14px}
+/* Deneme Zamanı: bölüm sonu soruları ve küçük etkileşimli alan.
+   Puan, süre ve hesap yok; yanıtlar tek dokunuşla açılıyor. */
+.dlist{font-family:var(--ff-body); font-size:clamp(1.04rem,1.15vw,1.2rem); line-height:1.6;
+  color:var(--chrome); padding-left:1.3em; margin:.4em 0 .8em}
+.dlist li{margin:.45em 0}
+.yanit{margin-top:10px; border-top:1px solid var(--edge); padding-top:8px}
+.yanit summary{cursor:pointer; font-family:var(--ff-disp); font-weight:800;
+  color:var(--glow); font-size:.95rem; list-style:none}
+.yanit summary::-webkit-details-marker{display:none}
+.yanit summary::before{content:"\25B8  "}
+.yanit[open] summary::before{content:"\25BE  "}
+.dene{margin:14px 0 6px; padding:12px; border:1px solid var(--edge); border-radius:16px;
+  background:color-mix(in srgb,var(--stage) 70%,transparent)}
+.dene-yonerge{margin:0 0 10px; font-size:.92rem; color:var(--chrome-soft)}
+.dene-kutular{display:flex; gap:10px; justify-content:center; flex-wrap:wrap}
+.dene-kutu{width:62px; height:74px; border-radius:12px; cursor:pointer;
+  border:2px solid var(--edge); background:transparent; color:var(--chrome-soft);
+  display:flex; flex-direction:column; align-items:center; justify-content:center; gap:2px;
+  font-family:var(--ff-disp); transition:transform .15s, border-color .15s, color .15s}
+.dene-kutu .bit{font-size:1.5rem; font-weight:800; line-height:1}
+.dene-kutu .agirlik{font-size:.72rem; opacity:.7}
+.dene-kutu.acik{border-color:var(--glow); color:var(--glow); transform:translateY(-3px)}
+.dene-sonuc{text-align:center; margin:12px 0 0; font-family:var(--ff-disp);
+  font-size:1.35rem; color:var(--chrome)}
+.dene-esit{color:var(--chrome-soft)}
 .slist li{font-family:var(--ff-body); font-size:clamp(1.06rem,1.2vw,1.22rem); line-height:1.55;
   padding-left:14px; border-left:3px solid var(--amber)}
 .slist li b{font-family:var(--ff-disp)}
@@ -943,14 +996,48 @@ function fmt(s){var t=esc(s);
   t=t.replace(/\*\*(.+?)\*\*/g,'<em class="term">$1</em>');
   return t.replace(/\u0001(\d+)\u0001/g,function(m,i){return KOD[+i];});}
 
+function deneKur(kap){
+  if(!kap || kap.dataset.kuruldu) return;
+  kap.dataset.kuruldu = '1';
+  if(kap.dataset.dene !== 'basamak') return;
+  const degerler = [8,4,2,1], durum = [0,0,0,0];
+  kap.innerHTML = '<p class="dene-yonerge">Kutucuklara dokun, sayının ne olduğunu gör.</p>'
+    + '<div class="dene-kutular"></div>'
+    + '<p class="dene-sonuc"><span class="dene-esit">=</span> <b>0</b></p>';
+  const sira = kap.querySelector('.dene-kutular');
+  const sonuc = kap.querySelector('.dene-sonuc b');
+  degerler.forEach((d,i)=>{
+    const b = document.createElement('button');
+    b.type = 'button'; b.className = 'dene-kutu';
+    b.setAttribute('aria-label', d + ' basamağı');
+    b.innerHTML = '<span class="bit">0</span><span class="agirlik">'+d+'</span>';
+    b.addEventListener('click', (e)=>{
+      durum[i] = durum[i] ? 0 : 1;
+      b.classList.toggle('acik', !!durum[i]);
+      b.querySelector('.bit').textContent = durum[i];
+      sonuc.textContent = durum.reduce((a,v,j)=>a+v*degerler[j], 0);
+      if(e.detail) b.blur();
+    });
+    sira.appendChild(b);
+  });
+}
+
 PAGES.forEach((p, idx)=>{
   const s = document.createElement('div');
-  s.className = 'slide' + (p.type==='cover'?' cover':p.type==='summary'?' summary':'');
+  s.className = 'slide' + (p.type==='cover'?' cover':(p.type==='summary'||p.type==='deneme')?' summary':'');
   const lz = idx===0 ? '' : ' loading="lazy" decoding="async"';
   if(p.type==='cover'){
     s.innerHTML = '<div class="art"><img src="'+p.img+'" alt="Kapak"'+lz+'>'
       +'<div class="cover-tag"><p class="eyebrow">'+esc(p.eyebrow)+'</p>'
       +'<h1>'+esc(p.title)+'</h1><p class="csub">'+esc(p.sub)+'</p></div></div>';
+  } else if(p.type==='deneme'){
+    const sor = p.sorular.map(s=>'<li>'+s.replace(/\*\*(.+?)\*\*/g,'<b>$1</b>')+'</li>').join('');
+    const yan = p.yanitlar.map(s=>'<li>'+s.replace(/\*\*(.+?)\*\*/g,'<b>$1</b>')+'</li>').join('');
+    s.innerHTML = '<div class="card"><h2>✏️ '+esc(p.title)+'</h2>'
+      + '<ol class="dlist">'+sor+'</ol>'
+      + (p.widget||'')
+      + '<details class="yanit"><summary>Yanıtlar</summary><ol class="dlist">'+yan+'</ol></details>'
+      + '<p class="telif">© Oğuz Ergin · Bilge ve Yonga · CC BY-NC-ND 4.0</p></div>';
   } else if(p.type==='summary'){
     const lis = p.lines.map(l=>'<li>'+l.replace(/\*\*(.+?)\*\*/g,'<b>$1</b>')+'</li>').join('');
     s.innerHTML = '<div class="card"><h2>🎓 '+esc(p.title)+'</h2><ul class="slist">'+lis+'</ul>'
@@ -961,10 +1048,12 @@ PAGES.forEach((p, idx)=>{
       +'<div class="metin">'+fmt(p.text)+'</div><span class="pageno">Sayfa '+p.no+'</span></div></div>';
   }
   book.appendChild(s);
+  if(p.type==='deneme'){ deneKur(s.querySelector('[data-dene]')); }
 
   const t = document.createElement('button');
-  t.className = 'thumb' + (p.type==='summary'?' sum':'');
+  t.className = 'thumb' + ((p.type==='summary'||p.type==='deneme')?' sum':'');
   if(p.type==='summary'){ t.innerHTML = '🎓'; }
+  else if(p.type==='deneme'){ t.innerHTML = '✏️'; }
   else { t.innerHTML = '<img src="'+p.thumb+'" alt="" loading="lazy" decoding="async"><span class="n">'
       +(p.type==='cover'?'K':p.no)+'</span>'; }
   t.addEventListener('click', ()=>go(idx));

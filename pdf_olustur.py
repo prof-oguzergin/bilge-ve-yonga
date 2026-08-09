@@ -115,6 +115,18 @@ def parse_md(md_path: Path):
 
         pages.append({"title": page_title, "text": metin})
 
+    # "Deneme Zamanı" bölümünü ara (bölüm sonu soruları)
+    deneme_match = re.search(r"## Deneme Zamanı\n(.*?)(?=^---|\Z)",
+                             text, re.DOTALL | re.MULTILINE)
+    deneme_lines = []
+    if deneme_match:
+        for line in deneme_match.group(1).strip().splitlines():
+            line = line.strip()
+            if not line:
+                continue
+            line = re.sub(r"\*\*(.+?)\*\*", r"\1", line)
+            deneme_lines.append(line)
+
     # "Bugün Ne Öğrendik?" bölümünü ara
     ogrendik_match = re.search(r"## Bugün Ne Öğrendik\?\n(.*?)(?=^---|\Z)",
                                 text, re.DOTALL | re.MULTILINE)
@@ -132,6 +144,7 @@ def parse_md(md_path: Path):
                 line = re.sub(r'^[^\x20-\x7E\u00C0-\u024F\u011E\u011F\u0130\u0131\u015E\u015F\u00D6\u00F6\u00DC\u00FC\u00C7\u00E7]+\s*', '\u2022 ', line)
                 ogrendik_lines.append(line)
         meta["ogrendik"] = ogrendik_lines
+        meta["deneme"] = deneme_lines
 
     return meta, pages
 
@@ -448,8 +461,9 @@ def draw_kunye_page(c: canvas.Canvas, kitap_adi: str, surum: str = ""):
     c.restoreState()
 
 # ─── "Bugün Ne Öğrendik?" sayfası ─────────────────────────────────────────────
-def draw_ogrendik_page(c: canvas.Canvas, ogrendik_lines: list):
-    """Kitabın sonuna 'Bugün Ne Öğrendik?' sayfası çizer."""
+def draw_ogrendik_page(c: canvas.Canvas, ogrendik_lines: list,
+                       baslik: str = "Bugün Ne Öğrendik?"):
+    """Kitabın sonuna özet ya da deneme sayfası çizer."""
     # Arka plan: yumuşak krem rengi
     c.saveState()
     c.setFillColorRGB(1.0, 0.98, 0.93)
@@ -460,7 +474,7 @@ def draw_ogrendik_page(c: canvas.Canvas, ogrendik_lines: list):
     c.saveState()
     c.setFillColorRGB(0.1, 0.137, 0.494)
     c.setFont(FONT_B, 30)
-    c.drawCentredString(PAGE_W / 2, PAGE_H - 70, "Bugün Ne Öğrendik?")
+    c.drawCentredString(PAGE_W / 2, PAGE_H - 70, baslik)
     c.restoreState()
 
     # Dekoratif çizgi
@@ -861,6 +875,12 @@ def build_pdf(kitap_dir: Path):
     ogrendik = meta.get("ogrendik")
     if ogrendik:
         draw_ogrendik_page(c, ogrendik)
+        c.showPage()
+
+    # ── "Deneme Zamanı" sayfası ──
+    deneme = meta.get("deneme")
+    if deneme:
+        draw_ogrendik_page(c, deneme, "Deneme Zamanı")
         c.showPage()
 
     # ── Seri kitaplar sayfası (mevcut alt seri) ──

@@ -30,7 +30,7 @@ Akşam odası, yatağında doğrulmuş Bilge meraklı bir yüzle Yonga'ya bakıy
 
 {B}"Ne yaptılar?"
 
-{Y}"Boncuklu bir çerçeve kullandılar. Abaküs. Hesap gereksinimi işte oradan başladı."
+{Y}"Boncuklu bir çerçeve kullandılar, adı abaküstü." dedi Yonga. {Y}"Hesap yapma gereksinimi işte oradan başladı."
 
 **Resim:**
 Ahşap çerçeveli, sıra sıra renkli boncukları olan bir abaküs, sıcak ışıkta yakından görünüyor. Bilge boncuklardan birini parmağıyla kaydırıyor, yüzünde keşif ifadesi. Yonga abaküsün üstünde süzülüyor. Arka plan sade.
@@ -72,17 +72,25 @@ Yan yana dizilmiş üç eski makine; her birinin üstünde yaptığı tek işi a
 
 {B}"Delikli kart mı?"
 
-{Y}"Sert bir kartın üstüne delikler açıyorsun." dedi Yonga. {Y}"Delik varsa bir şey, yoksa başka bir şey. Bu kartlarla Amerika'da bütün ülkenin nüfusu sayıldı."
+{Y}"Her insan için sert bir kart hazırlanıyordu." dedi Yonga. {Y}"Kartın her yeri bir soruya ayrılmıştı: burası yaş, şurası meslek. Doğru yere bir delik açılıyordu."
+
+{B}"Peki makine bunu nasıl okuyor?" diye sordu Bilge.
+
+{Y}"Kartın üstüne minik iğneler iniyor." dedi Yonga. {Y}"Delik olan yerde iğne kartı geçip aşağıdaki sıvı metale değiyor ve elektrik devresi tamamlanıyor. O soruya ait sayaç bir ilerliyor."
+
+{B}"Delik yoksa iğne geçemiyor, sayaç da ilerlemiyor!" dedi Bilge.
+
+{Y}"İşte bütün ülkenin nüfusu böyle sayıldı."
 
 **Resim:**
-Elde tutulan sert bir kartın üstünde düzenli sıralar hâlinde küçük dikdörtgen delikler var; bazı yerler delik, bazıları dolu. Kartın arkasında aynı kartlardan oluşan kalın bir deste duruyor. Bilge kartı ışığa tutmuş, deliklerden ışık geçiyor. Yonga yanında.
+Bir makinenin üstünde duran sert kartın üstüne yukarıdan minik iğneler iniyor; delik olan yerlerde iğneler kartı geçip aşağıdaki küçük çanaklara değiyor, o iğnelerin çevresinde küçük ışık kıvılcımları var. Delik olmayan yerlerde iğneler kartın üstünde duruyor. Makinenin ön yüzünde bir sıra yuvarlak sayaç kadranı var ve birkaçının ibresi ilerlemiş. Bilge eğilmiş iğneleri izliyor, Yonga yanında süzülüyor.
 
 ---
 
 ## Sayfa 6 — Kâğıt Üstünde Bir Makine
 
 **Metin:**
-{Y}"1936 yılında Alan Turing bambaşka bir şey yaptı." dedi Yonga. {Y}"Makineyi kurmadı, önce düşündü."
+{Y}"1936 yılında Alan Turing bambaşka bir yol denedi." dedi Yonga. {Y}"Makineyi kurmadı, önce düşündü."
 
 {B}"Nasıl olur?"
 

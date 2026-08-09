@@ -210,3 +210,22 @@ Defterin sayfası ince bir çizgiyle ikiye ayrılmış: solda 10, sağda 1010 ya
 🎽 Onluk tabandaki 10 ile ikilik tabandaki 1010 aynı sayıyı, onu gösterir.
 
 🏷️ Karışmasın diye bir sayının hangi tabanda yazıldığı, yanına konan küçük bir sayıyla belirtilir.
+
+---
+
+## Deneme Zamanı
+
+1. Dört kutucukta 0110 yazıyor. Hangi basamaklar dolu, sayı kaç eder?
+
+2. Yediyi Yonga gibi yaz. Hangi basamakları alırsın?
+
+3. Tek elinde yalnızca başparmağın ile serçe parmağın açık. Sayı kaç eder?
+
+4. Defterine 508 yazdın. Buradaki 5 kaç eder, 8 kaç eder?
+
+**Yanıtlar**
+
+1. Dörtler ve ikiler dolu. 4 + 2 = 6.
+2. Dört, iki ve bir dolu: 0111.
+3. Başparmak 1, serçe 16. 16 + 1 = 17.
+4. 5 rakamı beş yüz eder, 8 rakamı sekiz eder.
