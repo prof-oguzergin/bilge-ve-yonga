@@ -10,11 +10,11 @@
 ## Sayfa 1 — Defterdeki Sayı
 
 **Metin:**
-Bilge defterine kocaman bir sayı yazdı: 375.
+Bilge defterine kocaman bir 375 yazdı.
 
 {B}"Bak Yonga, üç yüz yetmiş beş." dedi gururla.
 
-Yonga sayının üstünde süzüldü. {Y}"Peki en baştaki üç neden üç yüz ediyor?" diye sordu. {Y}"Şurada duran beş sadece beş ediyor ama."
+Yonga sayının üstünde süzüldü. {Y}"Peki en baştaki üç neden üç yüz ediyor?" diye sordu. {Y}"Şuradaki beş ise yalnızca beş değerinde."
 
 Bilge kalemi durdurdu. Bunu hiç düşünmemişti.
 
@@ -28,11 +28,11 @@ Bilge masasında, açık defterine iri iri 375 yazmış, kalemi elinde. Yonga de
 **Metin:**
 {Y}"Şimdi rakamların yerini değiştir." dedi Yonga.
 
-Bilge yazdı: 537.
+Bilge bu kez 537 yazdı.
 
 {B}"Yine aynı üç rakam!" dedi. {B}"Ama sayı bambaşka oldu."
 
-{Y}"İşte sır burada." dedi Yonga. {Y}"Bir rakamın değerini yalnızca kendisi belirlemez. Nerede durduğu da belirler."
+{Y}"İşin sırrı burada." dedi Yonga. {Y}"Bir rakamın değerini yalnızca kendisi belirlemez. Nerede durduğu da belirler."
 
 **Resim:**
 Defterde alt alta iki sayı: üstte 375, altta 537. Aynı üç rakam iki sırada farklı yerlerde duruyor, aralarında ince oklar yer değiştirmeyi gösteriyor. Bilge kaşlarını kaldırmış, ağzı hayretle açık. Yonga yanında, iki sayının arasını işaret ediyor.
@@ -42,11 +42,11 @@ Defterde alt alta iki sayı: üstte 375, altta 537. Aynı üç rakam iki sırada
 ## Sayfa 3 — Basamakların Adı Var
 
 **Metin:**
-{Y}"Sağdan başlayalım." dedi Yonga. {Y}"En sağdaki basamak birler basamağıdır. Yanındaki onlar, onun yanındaki yüzler."
+{Y}"Sağdan başlayalım." dedi Yonga. {Y}"En sağdaki basamak birler basamağıdır. Onun solundaki onlar, onun solundaki de yüzler."
 
-{B}"Demek 375'teki üç, üç yüzler demek." dedi Bilge yavaşça.
+{B}"Demek 375'teki üç, üç yüz demek." dedi Bilge yavaşça.
 
-{Y}"Tam öyle. Yedi, yedi onlar. Beş de beş birler."
+{Y}"Tam öyle. Yedi rakamı yedi tane on, beş de beş tane bir demek."
 
 **Resim:**
 375 sayısının her rakamı ayrı bir renkli kutucukta duruyor. Kutucukların altında sırayla küçük etiketler var: en sağda 1, ortada 10, solda 100. Bilge parmağıyla sağdaki kutucuktan başlayıp sola doğru sayıyor. Yonga kutucukların üstünde süzülüyor.
@@ -58,7 +58,7 @@ Defterde alt alta iki sayı: üstte 375, altta 537. Aynı üç rakam iki sırada
 **Metin:**
 {B}"Bir, on, yüz." dedi Bilge. {B}"Her seferinde on katına çıkıyor!"
 
-{Y}"Sola doğru gittikçe basamağın değeri on katı olur." dedi Yonga. {Y}"Yüzden sonra bin gelir, binden sonra on bin."
+{Y}"Sola doğru her basamağın değeri bir öncekinin on katıdır." dedi Yonga. {Y}"Buna onluk taban denir. Yüzden sonra bin gelir, binden sonra on bin."
 
 Bilge güldü. {B}"Merdiven gibi. Her basamak bir öncekinden çok daha yüksek."
 
@@ -76,21 +76,21 @@ Sağdan sola yükselen dört basamaklı bir merdiven; basamakların üstünde s�
 
 Bilge parmaklarına baktı ve güldü. {B}"On parmağım var!"
 
-{Y}"İnsanlar parmaklarıyla saymaya başladı." dedi Yonga. {Y}"O yüzden onda bir basamak dolar."
+{Y}"İnsanlar parmaklarıyla saymaya başladı." dedi Yonga. {Y}"O yüzden on tane olunca basamak dolar ve soldaki basamağa geçilir."
 
 **Resim:**
 Bilge iki elini de açmış, on parmağı da görünüyor, mutlu bir kahkaha atıyor. Parmaklarının ucunda küçük ışıklı sayılar var. Yonga yanında süzülüyor, kendi iki elini merakla kaldırmış.
 
 ---
 
-## Sayfa 6 — Yonga'nın Yalnızca İkisi Var
+## Sayfa 6 — Yonga'nın İki Rakamı Var
 
 **Metin:**
 {Y}"Bende ise on parmak yok." dedi Yonga. {Y}"İçimdeki anahtarlar ya açık ya kapalı. Elimde yalnızca 0 ile 1 var."
 
 {B}"O zaman sen nasıl sayıyorsun?" diye sordu Bilge.
 
-{Y}"Aynı hile ile." dedi Yonga. {Y}"Bende de her basamağın bir değeri var. Ama benim basamaklarım on katı değil, iki katı büyür."
+{Y}"Aynı hile ile." dedi Yonga. {Y}"Bende de her basamağın bir değeri var. Ama benim basamaklarım sola doğru iki katı büyür, on katı değil. Buna ikilik taban denir."
 
 **Resim:**
 Solda Bilge'nin on parmağı, sağda Yonga'nın havaya yansıttığı iki ışıklı kutucuk: birinde 0, ötekinde 1. İkisinin arasında ince bir karşılaştırma çizgisi var. Yonga omuz silker gibi duruyor, Bilge merakla eğilmiş bakıyor.
@@ -104,7 +104,7 @@ Yonga havaya yeni bir merdiven çizdi. Basamakların üstünde 1, 2, 4, 8 yazıy
 
 {B}"Bir, iki, dört, sekiz." dedi Bilge. {B}"Her basamak bir öncekinin iki katı!"
 
-{Y}"Sonra 16 gelir, sonra 32." dedi Yonga. {Y}"Benim merdivenim böyle tırmanır."
+{Y}"Sonra on altı gelir, sonra otuz iki." dedi Yonga. {Y}"Benim merdivenim böyle tırmanır."
 
 **Resim:**
 Sağdan sola yükselen bir merdiven; basamakların üstünde sırayla 1, 2, 4, 8, 16, 32 yazıyor. Basamaklar sola gittikçe yükseliyor. Bilge en alt basamağa parmağını koymuş, Yonga en üst basamağın yanında süzülüyor. Işıklı, mavi ağırlıklı bir hologram.
@@ -116,7 +116,7 @@ Sağdan sola yükselen bir merdiven; basamakların üstünde sırayla 1, 2, 4, 8
 **Metin:**
 {Y}"Şimdi bir sayı okuyalım." dedi Yonga ve havaya 1010 yazdı.
 
-{B}"Sağdan başlıyorum." dedi Bilge. {B}"Birler basamağında sıfır var, yok. İkiler basamağında bir var, iki. Dörtlerde yok. Sekizlerde bir var, sekiz."
+{B}"Sağdan başlıyorum." dedi Bilge. {B}"Birler basamağı boş. İkiler basamağı dolu, iki eder. Dörtler boş. Sekizler dolu, sekiz eder."
 
 Yonga alkışladı. {Y}"Sekiz artı iki?"
 
@@ -130,13 +130,13 @@ Havada dört ışıklı kutucuk yan yana, içlerinde soldan sağa 1, 0, 1, 0 rak
 ## Sayfa 9 — Bir Sayıyı Yazmak
 
 **Metin:**
-{Y}"Şimdi tersini yapalım." dedi Yonga. {Y}"Dokuzu benim gibi yaz."
+{Y}"Şimdi tersini yapalım." dedi Yonga. {Y}"Dokuzu benim gibi yaz. En büyük basamaktan başla."
 
 Bilge merdivene baktı. {B}"Sekiz dokuza sığar, onu alıyorum. Geriye bir kaldı."
 
 {B}"Dört sığmaz, iki de sığmaz." dedi. {B}"Ama bir tam sığar."
 
-Yonga ışıkları yaktı: 1001.
+Yonga ışıkları yaktı. Kutucuklarda 1001 belirdi.
 
 **Resim:**
 Dört ışıklı kutucuk yan yana, içlerinde soldan sağa 1, 0, 0, 1 rakamları; altlarında 8, 4, 2, 1 değerleri duruyor. Sekiz ve bir kutucukları parlak, ötekiler sönük. Bilge elinde küçük bir tebeşirle kutucukları işaretliyor, Yonga onaylayarak yanında süzülüyor.
@@ -164,7 +164,7 @@ Sekiz ışıklı kutucuk yan yana, hepsinin içinde 1 var ve hepsi parlıyor. Al
 **Metin:**
 {Y}"Şimdi bir oyun." dedi Yonga. {Y}"Parmaklarını birer basamak say. Açık parmak bir, kapalı parmak sıfır."
 
-Bilge tek elini kaldırdı. Başparmağı bir, işaret parmağı iki, ortası dört, yüzüğü sekiz, serçesi on altı.
+Bilge tek elini kaldırdı. Başparmağı bir, işaret parmağı iki, orta parmağı dört, yüzük parmağı sekiz, serçe parmağı on altı.
 
 {B}"Hepsi açıkken otuz bir ediyor!" dedi şaşkınlıkla. {B}"Bir elle beşe kadar sayıyordum, meğer otuz bire kadar sayabilirmişim."
 
@@ -176,13 +176,13 @@ Bilge tek elini havaya kaldırmış, parmakları açık; her parmağın ucunda k
 ## Sayfa 12 — Aynı Sayı, İki Elbise
 
 **Metin:**
-Bilge defterine iki şey yazdı: 10 ve 1010.
+Bilge defterine yan yana iki sayı yazdı. Önce 10, sonra 1010.
 
-{B}"İkisi de aynı sayı." dedi. {B}"Biri benim yazışım, öbürü seninki."
+{B}"İkisi de on ediyor." dedi. {B}"Ben onluk tabanda yazdım, sen ikilik tabanda."
 
-{Y}"Sayı hep aynı sayı." dedi Yonga. {Y}"Değişen yalnızca elbisesi. Ben içimde hep ikili elbiseyi taşırım, çünkü elimde yalnızca açık ile kapalı var."
+{Y}"Sayı değişmiyor." dedi Yonga. {Y}"Değişen yalnızca yazılış biçimi, elbisesi gibi. Ben hep ikilik elbiseyi taşırım, çünkü elimde yalnızca açık ile kapalı var."
 
-Bilge deftere son bir not düştü: her basamağın bir değeri vardır.
+Bilge deftere son bir not düştü. Her basamağın bir değeri vardır.
 
 **Resim:**
 Defterin sayfasında yan yana iki sayı: solda 10, sağda 1010, aralarında iki yönlü bir eşittir işareti. Bilge kalemini kaldırmış gülümsüyor, Yonga defterin üstünde memnun süzülüyor. Pencereden akşam ışığı giriyor, sıcak ve huzurlu bir kapanış.
@@ -205,4 +205,4 @@ Defterin sayfasında yan yana iki sayı: solda 10, sağda 1010, aralarında iki 
 
 🖐️ Tek elde parmaklar basamak sayılırsa 31'e kadar sayılabilir.
 
-🎽 10 ile 1010 aynı sayıdır; değişen yalnızca yazılış biçimidir.
+🎽 Onluk tabandaki 10 ile ikilik tabandaki 1010 aynı sayıyı, onu gösterir.
