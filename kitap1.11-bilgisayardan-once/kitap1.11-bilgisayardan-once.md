@@ -16,7 +16,7 @@ Bilge yatağına uzanmış tavana bakıyordu.
 
 Yonga bir an durdu. {Y}"Hayır." dedi. {Y}"Benden önce çok uzun bir yol var. O yolu anlatayım mı?"
 
-Bilge doğruldu. Uyku birden kaçmıştı.
+Bilge doğruldu. Uykusu birden kaçmıştı.
 
 **Resim:**
 Akşam odası, yatağında doğrulmuş Bilge meraklı bir yüzle Yonga'ya bakıyor. Yonga yatağın yanında süzülüyor ve gövdesinden yukarı doğru sisli, altın rengi bir ışık huzmesi çıkıyor; huzmenin içinde eski makinelerin belli belirsiz gölgeleri var. Sıcak, masalsı bir hava.
