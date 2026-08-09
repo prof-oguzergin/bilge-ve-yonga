@@ -216,7 +216,13 @@ body{margin:0}
 /* Oran baştan bildiriliyor: geç yüklenirken sayfa zıplamasın. */
 .dene-afis{display:block; width:100%; max-width:520px; margin:6px auto 12px;
   aspect-ratio:16/9; border-radius:16px}
-.dene-yonerge{margin:0 0 12px; font-size:.94rem; color:var(--kagit-solgun); text-align:center}
+.card .dene-yonerge{margin:0 0 12px; max-width:none; font-size:.94rem; color:var(--kagit-solgun); text-align:center}
+.dene-tahta{display:flex; align-items:stretch; justify-content:center; gap:16px; flex-wrap:wrap}
+.dene-sol,.dene-sag{display:flex; flex-direction:column; align-items:center; justify-content:center}
+.dene-sag{min-width:150px; padding:10px 18px; border-radius:16px;
+  border:2px solid var(--kagit-cizgi); background:color-mix(in srgb,var(--paper-ink) 5%,transparent)}
+.card .dene-etiket{margin:0 0 8px; max-width:none; font-family:var(--ff-disp); font-size:.76rem;
+  letter-spacing:.05em; text-transform:uppercase; color:var(--kagit-solgun)}
 .dene-kutular{display:flex; gap:12px; justify-content:center; flex-wrap:wrap}
 .dene-kutu{width:66px; height:78px; border-radius:14px; cursor:pointer;
   border:2px solid var(--kagit-cizgi); background:transparent; color:var(--kagit-solgun);
@@ -224,10 +230,11 @@ body{margin:0}
   font-family:var(--ff-disp); transition:transform .15s, border-color .15s, color .15s}
 .dene-kutu .bit{font-size:1.8rem; font-weight:800; line-height:1}
 .dene-kutu .agirlik{font-size:.72rem; opacity:.7}
+/* Dar ekranda dört kutucuk tek satırda kalsın; sarınca üçe bir bölünüyordu. */
+@media (max-width:520px){ .dene-kutular{gap:8px} .dene-kutu{width:58px; height:70px} }
 .dene-kutu.acik{border-color:var(--parlak-koyu); color:var(--parlak-koyu); transform:translateY(-3px)}
-.dene-sonuc{text-align:center; margin:12px 0 0; font-family:var(--ff-disp);
-  font-size:1.35rem; color:var(--kagit-koyu)}
-.dene-esit{color:var(--kagit-solgun)}
+.card .dene-sonuc{margin:0; max-width:none; font-family:var(--ff-disp); font-weight:800; line-height:1;
+  font-size:clamp(2.4rem,4.6vw,3.2rem); color:var(--parlak-koyu)}
 .slist li{font-family:var(--ff-body); font-size:clamp(1.06rem,1.2vw,1.22rem); line-height:1.55;
   padding-left:14px; border-left:3px solid var(--amber)}
 .slist li b{font-family:var(--ff-disp)}
@@ -458,10 +465,18 @@ function deneKur(kap){
   if(kap.dataset.dene !== 'basamak') return;
   const degerler = [8,4,2,1], durum = [0,0,0,0];
   kap.innerHTML = '<p class="dene-yonerge">Kutucuklara dokun, sayının ne olduğunu gör.</p>'
-    + '<div class="dene-kutular"></div>'
-    + '<p class="dene-sonuc"><span class="dene-esit">=</span> <b>0</b></p>';
+    + '<div class="dene-tahta">'
+    +   '<div class="dene-sol">'
+    +     '<p class="dene-etiket">İkilik taban</p>'
+    +     '<div class="dene-kutular"></div>'
+    +   '</div>'
+    +   '<div class="dene-sag">'
+    +     '<p class="dene-etiket">Onluk taban</p>'
+    +     '<p class="dene-sonuc">0</p>'
+    +   '</div>'
+    + '</div>';
   const sira = kap.querySelector('.dene-kutular');
-  const sonuc = kap.querySelector('.dene-sonuc b');
+  const sonuc = kap.querySelector('.dene-sonuc');
   degerler.forEach((d,i)=>{
     const b = document.createElement('button');
     b.type = 'button'; b.className = 'dene-kutu';
