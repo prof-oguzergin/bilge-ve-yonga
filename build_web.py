@@ -1422,11 +1422,11 @@ CILTLER = {
 # Yol haritasindaki ciltler (`_notlar/seri-yol-haritasi.md`). Renkler
 # yayimlanmis dort cildin renk cemberinde bos biraktigi yerlerden secildi.
 GELECEK_CILTLER = [
-    ('5', 'Boru Hattı', 'İşi istasyonlara bölüp art arda akıtmak', '#199e99'),
-    ('6', 'Bellek', 'Bellek duvarının ardındaki dünya: hiyerarşi ve yerellik', '#cc3d42'),
-    ('7', 'Giriş ve Çıkış', 'Bilgisayarın dış dünyayla konuşması', '#d64594'),
-    ('8', 'Birlikte Çalışmak', 'Çok çekirdek: işi paylaşmanın kuralları', '#4c57bd'),
-    ('9', 'Yapay Zekânın Makinesi', 'Öğrenen makinelerin donanımı', '#d1a31f'),
+    ('5', 'Durmayan Tezgâh', 'Sıra sıra dizilen işler hiç beklemeden akar', '#199e99'),
+    ('6', 'Yakın Raf, Uzak Depo', 'Bilgisayar en çok kullandığını nerede saklar?', '#cc3d42'),
+    ('7', 'Bilgisayarın Kapıları', 'Dış dünyayı görmek, duymak ve ona dokunmak', '#d64594'),
+    ('8', 'Hep Birlikte', 'Bir işi bölüşmenin kuralları ve karışıklıkları', '#4c57bd'),
+    ('9', 'Öğrenen Makineler', 'Yapay zekâ hangi donanımın üstünde çalışır?', '#d1a31f'),
 ]
 
 
