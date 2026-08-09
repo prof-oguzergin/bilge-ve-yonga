@@ -180,3 +180,22 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 📏 Veri farklı boyutlarda taşınır: küçücük bir **bayt**, ondan büyük bir **yarım sözcük**, daha büyük bir **tam sözcük**, en büyük de bir **çift sözcük**; tıpkı küçük, orta ve büyük kutular gibi!
 
 🔄 **RISC felsefesi:** Bellekten al → Yazmaçta işle → Belleğe geri koy. Bu döngü her şeyin temelidir!
+
+---
+
+## Deneme Zamanı
+
+1. YÜKLE buyruğu ne yapar?
+
+2. SAKLA buyruğu ne yapar?
+
+3. Hesaplama nerede yapılır?
+
+4. Dört taşıma boyunu küçükten büyüğe sırala.
+
+**Yanıtlar**
+
+1. Bellekten bir adresteki veriyi alıp yazmaca taşır.
+2. Yazmaçtaki veriyi belleğin bir adresine geri koyar.
+3. Hep yazmaçlarda; belleğe yalnızca al ve koy için gidilir.
+4. Bayt, yarım sözcük, sözcük, çift sözcük.

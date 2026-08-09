@@ -144,3 +144,22 @@ Bilge elindeki tablete bakıyor; tabletin yüzeyi saydamlaşmış ve içinde uç
 💡 İşaretle açılıp kapanan bu geçidin adı **transistör**dür.
 
 🏖️ Kum seçildi çünkü silisyum, dünyanın en kolay bulunan ve en uysal yarı iletkeniydi.
+
+---
+
+## Deneme Zamanı
+
+1. Bakır, tahta ve silisyum. Hangisi iletken, hangisi yalıtkan, hangisi yarı iletken?
+
+2. Yarı iletkenin asıl gücü nedir?
+
+3. Saf silisyuma bir tutam başka madde karıştırmanın adı nedir?
+
+4. İşaretle açılıp kapanan geçidin adı nedir?
+
+**Yanıtlar**
+
+1. Bakır iletken, tahta yalıtkan, silisyum yarı iletken.
+2. Kararsızlığı değil, ne zaman geçireceğine karar verilebilmesi.
+3. Katkılama.
+4. Transistör.

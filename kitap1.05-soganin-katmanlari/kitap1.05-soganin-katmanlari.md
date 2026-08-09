@@ -162,3 +162,22 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 🎮 En dışta **uygulamalar** vardır: oyunlar, müzik, fotoğraf gibi kullandığımız programlar.
 
 👆 Bir tıklama en üstten en içe iner, cevap da en içten en üste çıkar; her katman kendi görevini yapar!
+
+---
+
+## Deneme Zamanı
+
+1. En içteki katman hangisidir?
+
+2. Donanımı yöneten katmanın adı nedir?
+
+3. Oyunlar hangi katmanda durur?
+
+4. Bir tıklama hangi yönde ilerler?
+
+**Yanıtlar**
+
+1. Donanım.
+2. İşletim sistemi.
+3. En dıştaki uygulamalar katmanında.
+4. En dıştan en içe iner, cevap en içten en dışa çıkar.

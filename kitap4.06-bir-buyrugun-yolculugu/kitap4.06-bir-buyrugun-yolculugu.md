@@ -252,3 +252,22 @@ Bilge ve Yonga tren rayının sonunda duruyor, ufukta yeni bir istasyon tabelas�
 ---
 
 *© Bilgisayar Mimarisi Serisi, Çocuk Kitapları*
+
+---
+
+## Deneme Zamanı
+
+1. Bir buyruğun yolculuğu kaç duraktan geçer?
+
+2. İlk durakta ne olur?
+
+3. Hangi buyruklar bellek durağını atlar?
+
+4. Son durakta ne yapılır?
+
+**Yanıtlar**
+
+1. Yedi duraktan.
+2. Program Sayacının gösterdiği adresten buyruk bellekten alınır.
+3. Yükleme ve saklama dışındakiler; toplama gibi buyruklar o durağa uğramaz.
+4. Program Sayacı güncellenir ve döngü yeniden başlar.

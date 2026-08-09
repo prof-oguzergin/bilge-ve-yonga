@@ -226,3 +226,22 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ---
 
 *© Bilgisayar Mimarisi Serisi, Çocuk Kitapları*
+
+---
+
+## Deneme Zamanı
+
+1. Çarpma hangi iki adımın tekrarıyla yapılır?
+
+2. Bir sayıyı bir basamak sola kaydırmak ne demektir?
+
+3. Bölme hangi adımlarla yapılır?
+
+4. 14 ÷ 3 işleminin sonucu ve kalanı kaçtır?
+
+**Yanıtlar**
+
+1. Kaydır ve topla.
+2. O sayıyı 2 ile çarpmakla aynı sonucu verir.
+3. Tekrar çıkar ve kaydır.
+4. Sonuç 4, kalan 2.

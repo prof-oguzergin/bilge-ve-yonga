@@ -249,3 +249,22 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ⏱️ **Saat vuruş sıklığı:** Döngünün saniyede kaç kez yinelendiğini gösterir. Gigahertz, saniyede milyar kez demektir.
 
 🔓 **RISC-V:** Açık ve ücretsiz bir BKM. Herkesin bakıp kullanabildiği tarif defteri!
+
+---
+
+## Deneme Zamanı
+
+1. Yazılım ile donanım arasındaki sözleşmenin adı nedir?
+
+2. Döngünün üç adımını sırasıyla say.
+
+3. Sıradaki buyruğun nerede olduğunu hangi kutu gösterir?
+
+4. Gigahertz ne demektir?
+
+**Yanıtlar**
+
+1. BKM, Buyruk Kümesi Mimarisi.
+2. Getir, Çöz, Yürüt.
+3. Program Sayacı.
+4. Döngünün saniyede milyar kez yinelenmesi.

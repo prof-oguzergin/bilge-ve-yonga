@@ -180,3 +180,22 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 🧱 Daha büyük sayılar için daha büyük kutucuklar (32 bit, 64 bit) kullanılır.
 
 🏆 Her işlemin altında **toplama** yatar. Toplama her şeyin temelidir!
+
+---
+
+## Deneme Zamanı
+
+1. Bilgisayar çıkarma yaparken aslında ne yapar?
+
+2. Çarpma neden toplamadan uzun sürer?
+
+3. Kutucuğa sığmayan sayıya ne olur?
+
+4. Bütün işlemlerin altında hangi işlem yatar?
+
+**Yanıtlar**
+
+1. Eksisini toplar; hiç çıkarmaz.
+2. Aynı sayıyı tekrar tekrar toplamak gerekir.
+3. Taşar ve en başa döner; buna taşma denir.
+4. Toplama.

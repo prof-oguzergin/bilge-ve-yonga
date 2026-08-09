@@ -236,3 +236,22 @@ Bilge asansörün eksi kat düğmesine son bir kez baktı. {B}"Sıfırın altın
 ---
 
 *© Bilgisayar Mimarisi Serisi, Çocuk Kitapları*
+
+---
+
+## Deneme Zamanı
+
+1. Bir sayının eksisi nasıl tanımlanır?
+
+2. Dört kutucukta eksi bir nasıl yazılır?
+
+3. Bir sayının eksisini bulmanın kısa yolu nedir?
+
+4. Dört kutucukla en küçük ve en büyük sayı kaçtır?
+
+**Yanıtlar**
+
+1. O sayıya eklendiğinde sıfır veren bit örüntüsüdür.
+2. Bir-bir-bir-bir.
+3. Bütün bitleri ters çevir, sonra bir ekle. Adı ikiye tümleyendir.
+4. Eksi sekiz ile artı yedi. Sıfır artı tarafta durduğu için eksi tarafta bir sayı fazladır.

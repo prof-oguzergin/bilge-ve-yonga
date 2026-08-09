@@ -275,3 +275,22 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 📌 **sp (yığıt işaretçisi):** Yığıtın en üstünü gösterir.
 
 🔙 **ra (dönüş adresi yazmacı):** Fonksiyonun geri döneceği adresi saklar.
+
+---
+
+## Deneme Zamanı
+
+1. Bir koşul doğruysa başka bir buyruğa atlamaya ne denir?
+
+2. Döngü hangi yöne dallanmayla olur?
+
+3. JAL dönüş adresini nereye yazar?
+
+4. Her fonksiyon çağrısı için yığıtta ayrılan alanın adı nedir?
+
+**Yanıtlar**
+
+1. Dallanma.
+2. Geriye doğru.
+3. ra yazmacına.
+4. Yığıt çerçevesi.

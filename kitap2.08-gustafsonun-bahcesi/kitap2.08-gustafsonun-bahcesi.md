@@ -150,3 +150,22 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 📈 Bilgisayar gücü arttıkça insanlar daha önce imkansız görünen sorunları çözebiliyor.
 
 🤝 Birlikte çalışmak, hem bahçede hem de bilgisayarlarda daha büyük işler başarmanın yoludur.
+
+---
+
+## Deneme Zamanı
+
+1. Gustafson Yasası ne söyler?
+
+2. Amdahl Yasası neyi gösterir?
+
+3. Gustafson Yasasına gerçek hayattan iki örnek ver.
+
+4. Hangi yasayı kullanacağını ne belirler?
+
+**Yanıtlar**
+
+1. Daha fazla çalışan gelince aynı işi hızlandırmak yerine daha büyük bir iş yapılabilir.
+2. Aynı büyüklükteki bir işin ne kadar hızlandırılabileceğinin sınırını.
+3. Hava tahminleri ve film canlandırmaları.
+4. Sorduğun soru; ikisi birbirini tamamlar.

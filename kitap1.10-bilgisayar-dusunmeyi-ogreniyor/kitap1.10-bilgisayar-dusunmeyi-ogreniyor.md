@@ -162,3 +162,22 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 🌍 Yapay zeka hızlandırıcıları artık telefonda, arabada, hastanede, her yerde. **Akıllı dünya** bunlar sayesinde büyüyor!
 
 💡 Bilgisayarlar işlem yapıyor ama bizim gibi **hissetmiyor**. Onların öğrenmesi de düşünmesi de bizimkinden farklı!
+
+---
+
+## Deneme Zamanı
+
+1. Her türlü işi yapan genel amaçlı işlemci hangisidir?
+
+2. Aynı anda binlerce işlem yapabilen görüntü uzmanı hangisidir?
+
+3. Telefonun içinde az enerjiyle yüz tanıyan hangisidir?
+
+4. Bilgisayarlar bizim gibi hisseder mi?
+
+**Yanıtlar**
+
+1. CPU.
+2. GPU.
+3. NPU.
+4. Hayır. İşlem yaparlar ama hissetmezler; öğrenmeleri de bizimkinden farklıdır.

@@ -198,3 +198,22 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 💻 Bilgisayarların içindeki **çekirdekler** de tıpkı mutfaktaki aşçılar gibi çalışır. Birçok çekirdek birlikte çalışınca iş çok daha hızlı biter.
 
 ⚖️ Ama dikkat: küçük bir mutfağa çok fazla aşçı sığdırırsan birbirlerine çarparlar! Çekirdek sayısını artırmak da her zaman en iyi çözüm değildir, **denge** önemlidir.
+
+---
+
+## Deneme Zamanı
+
+1. Bir pizzanın pişme süresi hangi ölçüdür?
+
+2. Aşçı sayısı artınca hangi ölçü değişti, hangisi hiç değişmedi?
+
+3. Beş aşçının aynı anda çalışmasına ne denir?
+
+4. Mutfağa sınırsız aşçı koymak neden işe yaramaz?
+
+**Yanıtlar**
+
+1. Gecikme.
+2. İşlem hacmi arttı, gecikme hiç değişmedi.
+3. Koşutluk.
+4. Küçük mutfakta birbirlerine çarparlar; çekirdek sayısı da her zaman artırılamaz.

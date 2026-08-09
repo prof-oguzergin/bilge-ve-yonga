@@ -150,3 +150,22 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 🤝 **Paylaşmak** tasarımları daha güçlü yapar, herkes katkı ekleyince hepsi büyür.
 
 💡 Açık kaynak donanım, herkesin **kendi işlemcisini** hayal edip yapmasına olanak tanır!
+
+---
+
+## Deneme Zamanı
+
+1. Kapalı bir işlemci tasarımını kim kullanabilir?
+
+2. RISC-V'i kimler kullanabilir?
+
+3. Paylaşmak bir tasarıma ne kazandırır?
+
+4. RISC-V ile bir öğrenci ne yapabilir?
+
+**Yanıtlar**
+
+1. Yalnızca onu tasarlayan şirket.
+2. Herkes; açık kaynaklıdır, ücretsiz görülür, kullanılır ve geliştirilir.
+3. Katkı çoğaldıkça tasarım güçlenir.
+4. Kendi işlemcisini tasarlayabilir.

@@ -210,3 +210,22 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ---
 
 *© Bilgisayar Mimarisi Serisi, Çocuk Kitapları*
+
+---
+
+## Deneme Zamanı
+
+1. Bir buyruğun içindeki minik adımların listesine ne denir?
+
+2. Denetim birimi bu tarifi nereden okur?
+
+3. Hangi aile mikroprogramı daha sık kullanır?
+
+4. Mikroprogramın en güzel yanı nedir?
+
+**Yanıtlar**
+
+1. Mikroprogram.
+2. Küçük bir bellekten.
+3. CISC yongalar; Sisko ailesi.
+4. Donanımı hiç değiştirmeden bir buyruğu düzeltmek ya da yeni buyruk eklemek mümkün olabilir.

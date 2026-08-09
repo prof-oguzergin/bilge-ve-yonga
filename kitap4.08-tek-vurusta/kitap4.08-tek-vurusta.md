@@ -208,3 +208,22 @@ Atölye ilk sayfadaki gibi ama artık akşam ışığı sızıyor; Bilge saatin 
 ---
 
 *© Bilgisayar Mimarisi Serisi, Çocuk Kitapları*
+
+---
+
+## Deneme Zamanı
+
+1. Tek vuruşluk tasarımda bir buyruk ne kadar sürer?
+
+2. Vuruşun uzunluğu neye göre ayarlanır?
+
+3. Kısa bir buyruk işini erken bitirirse ne yapar?
+
+4. Bu tasarımın iyi ve kötü yanı nedir?
+
+**Yanıtlar**
+
+1. Tam bir saat vuruşu.
+2. En yavaş buyruğun süresine göre.
+3. Vuruşun sonunu beklemek zorunda kalır.
+4. İyi yanı basit ve anlaşılır olması, kötü yanı hızlı buyrukları boşuna bekletmesi.

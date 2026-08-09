@@ -162,3 +162,22 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 🔋 Telefon yongaları **pil ömrü** için enerjiyi çok dikkatli yönetirler.
 
 🌱 Gelecekte bilgisayarlar hem **çok güçlü** hem de **çok az enerji** harcayan yongalarla çalışacak!
+
+---
+
+## Deneme Zamanı
+
+1. Transistörlerin harcadığı enerji neye dönüşür?
+
+2. Bilgisayar boşta beklerken harcadığı güce ne denir?
+
+3. Transistörler çok hızlanınca çıkılan sınırın adı nedir?
+
+4. Mühendisler bu duvarı aşmak için hangi iki yolu kullandı?
+
+**Yanıtlar**
+
+1. Isıya.
+2. Durağan güç.
+3. Güç duvarı.
+4. Daha az gerilim ve çok çekirdekli tasarım.

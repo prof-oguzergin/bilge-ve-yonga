@@ -232,3 +232,22 @@ Karanlık oda, yatağında uyuyan Bilge. Yonga usulca yanında süzülüyor, ı�
 🧩 **Tümleşik devrede** transistörler ve bağlantılar aynı malzemenin üstünde birlikte üretilir.
 
 🔎 1971 yılında **Intel 4004** çıktı; işlemcinin bütün parçalarını tek yongada toplayan ilk mikroişlemciydi ve 2.300 transistörü vardı.
+
+---
+
+## Deneme Zamanı
+
+1. Pascal hesap makinesini niçin yaptı?
+
+2. Bütün bir ülkenin nüfusu hangi yöntemle sayıldı?
+
+3. ENIAC neyle çalışıyordu, ne kadar ağırdı?
+
+4. Bütün tarihin en büyük değişikliği neydi?
+
+**Yanıtlar**
+
+1. Babasına hesaplarda yardım etmek istiyordu.
+2. Hollerith'in delikli kartlarıyla.
+3. Yaklaşık 18.000 vakum tüpüyle; 30 ton ağırlığındaydı.
+4. Buyrukların da veriler gibi bellekte saklanması. Bellekteki buyruk değişince aynı makine başka bir iş yapar.

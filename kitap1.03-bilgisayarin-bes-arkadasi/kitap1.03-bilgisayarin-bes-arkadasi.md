@@ -147,3 +147,22 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 🖥️ **Çıkış**, bilgisayarın sesi ve elleridir; ekranda gösterir, sesle söyler, kağıda yazar.
 
 🤝 Bu beş arkadaş birlikte çalışınca bilgisayar her işi başarır!
+
+---
+
+## Deneme Zamanı
+
+1. Elektrik kesilince hangi arkadaş bildiklerini unutur?
+
+2. Klavye ve kamera hangi arkadaşın parçasıdır?
+
+3. Ekran ve yazıcı hangi arkadaştır?
+
+4. Düşünen ve sorunları çözen arkadaş kimdir?
+
+**Yanıtlar**
+
+1. Bellek.
+2. Giriş.
+3. Çıkış.
+4. İşlemci.

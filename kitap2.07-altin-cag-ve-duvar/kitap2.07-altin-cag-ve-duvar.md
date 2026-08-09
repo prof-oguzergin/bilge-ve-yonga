@@ -160,3 +160,22 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 🎯 Günümüzde **uzmanlaşma çağı** yaşıyoruz. Her iş için özel tasarlanmış çekirdekler ve işlemciler kullanılıyor.
 
 📱 Kullandığımız telefonların içinde bile birden fazla özel çekirdek bulunuyor.
+
+---
+
+## Deneme Zamanı
+
+1. Altın çağ hangi yıllar arasındadır?
+
+2. 2004-2005 yıllarında ortaya çıkan sınırın adı nedir?
+
+3. Bu sınıra çözüm olarak ne geliştirildi?
+
+4. Çok çekirdekten yararlanmak için başka ne gerekti?
+
+**Yanıtlar**
+
+1. 1980 ile 2004 arası.
+2. Güç duvarı.
+3. Çok çekirdekli işlemciler.
+4. Yazılımların da değişmesi ve çekirdekler arasında eşgüdüm.

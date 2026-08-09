@@ -150,3 +150,22 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 🎯 Hiçbir bilgisayar her işte "en iyi" değildir. **Her iş için doğru araç** seçmek önemlidir.
 
 🔍 "En hızlı bilgisayar hangisi?" sorusu yerine, **"Hangi iş için en hızlı?"** diye sormak daha doğrudur.
+
+---
+
+## Deneme Zamanı
+
+1. Masaüstü bilgisayar neden daha güçlü işlemci kullanabilir?
+
+2. Binlerce işlemcinin birlikte çalıştığı devasa sistemin adı nedir?
+
+3. "En hızlı bilgisayar hangisi?" yerine hangi soruyu sormak gerekir?
+
+4. Telefon işlemcileri hangi işlerde çok iyidir?
+
+**Yanıtlar**
+
+1. Prize bağlıdır; güçlü bir soğutma da kullanabilir.
+2. Süper bilgisayar.
+3. "Hangi iş için en hızlı?"
+4. Az enerji harcayarak fotoğraf ve yapay zeka işlemede.

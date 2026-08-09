@@ -164,3 +164,22 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ⚖️ Gerçekten hızlı bir bilgisayar için hem **hızlı davul**, hem **kolay kürekler**, hem **az kürek çekiş** gerekir: üçü birden!
 
 🛶 Bilge artık kadırgaya baktığında içinde saat vuruş sıklığını, buyrukları ve BBÇ'yi görüyor. Mühendisler de her şeyde bir ritim arar.
+
+---
+
+## Deneme Zamanı
+
+1. Davulun her vuruşuna ne denir?
+
+2. Bir buyruğun ortalama kaç vuruş istediğini gösteren ölçünün adı nedir?
+
+3. Başarım denklemini yaz.
+
+4. Kırmızı gemi daha hızlı davul çaldığı hâlde neden yenildi?
+
+**Yanıtlar**
+
+1. Çevrim.
+2. BBÇ, buyruk başına çevrim.
+3. Süre = Buyruk Sayısı × BBÇ × Çevrim Süresi.
+4. Mavi gemi daha az ve daha kolay kürek çekti; toplam süresi kısa oldu.

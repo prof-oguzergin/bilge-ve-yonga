@@ -150,3 +150,22 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 🏆 Hiçbir bilgisayar her sınamada birinci olmaz. **Her bilgisayar farklı işlerde farklı güçlüdür.**
 
 🚗 Bir bilgisayar seçerken, onu **ne için kullanacağımızı** düşünmek en akıllıca yoldur.
+
+---
+
+## Deneme Zamanı
+
+1. Bir bilgisayara gerçek işler yaptırıp hızını ölçmeye ne denir?
+
+2. İki bilgisayarı adil karşılaştırmak için ne gerekir?
+
+3. Sınama programları hazırlayan kuruluşun adı nedir?
+
+4. Her sınamada birinci olan bir bilgisayar var mıdır?
+
+**Yanıtlar**
+
+1. Sınama programı.
+2. İkisine de aynı sınamayı uygulamak.
+3. SPEC.
+4. Yoktur; her bilgisayar farklı işlerde güçlüdür.

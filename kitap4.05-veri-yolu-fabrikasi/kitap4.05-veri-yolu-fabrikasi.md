@@ -222,3 +222,22 @@ Gece sahnesi: Bilge yatağında uyuyor, oda karanlık ve sakin. Masasındaki bil
 ---
 
 *© Bilgisayar Mimarisi Serisi, Çocuk Kitapları*
+
+---
+
+## Deneme Zamanı
+
+1. Sıradaki buyruğun adresini hangi parça tutar?
+
+2. Buyruk belleği ile veri belleği aynı yer midir?
+
+3. Yazmaç öbeğinde kaç yazmaç bulunur?
+
+4. Parçalar arasında sayılar neyin üstünden akar?
+
+**Yanıtlar**
+
+1. Program Sayacı.
+2. Değildir; ikisi ayrı bellektir.
+3. 32 tane.
+4. Teller üstünden.

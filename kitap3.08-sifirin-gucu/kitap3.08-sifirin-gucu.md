@@ -192,3 +192,22 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 🗿 x0 değişmez ve güvenilirdir: ne olursa olsun **0** döndürür.
 
 🌟 Sıfır güçsüz değil, tam tersine her şeyin **başlangıç noktasıdır**!
+
+---
+
+## Deneme Zamanı
+
+1. x0 yazmacının özelliği nedir?
+
+2. Bir yazmacı en hızlı nasıl sıfırlarsın?
+
+3. İki sayının eşit olduğunu nasıl anlarsın?
+
+4. RISC-V'te ayrı bir taşıma buyruğu var mıdır?
+
+**Yanıtlar**
+
+1. İçine ne yazılırsa yazılsın her zaman 0 kalır.
+2. x0'ı oraya kopyalayarak.
+3. Birbirinden çıkarırsın; sonuç sıfırsa eşittirler.
+4. Yoktur. Çevirici, yazdığın taşı sözünü işlemciye "x0 ile topla" diye anlatır.

@@ -154,3 +154,22 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 🌍 Dünya'da atmosfer bizi kozmik ışınlardan korur, ama telefonlar da kendi hata düzeltme yöntemleriyle her gün sessizce çalışır.
 
 ✈️ Güvenilirlik yalnız uzay için değildir. Uçaklar, arabalar ve hastane makineleri de hata yapmaması gereken bilgisayarlar kullanır.
+
+---
+
+## Deneme Zamanı
+
+1. Kozmik ışın bir bilgisayarın içinde ne yapabilir?
+
+2. Curiosity'nin içinde kaç bilgisayar var, ikincisi ne yapar?
+
+3. Üç bilgisayar aynı işi yapınca doğru sonuç nasıl seçilir?
+
+4. Yanlış bir biti kendiliğinden bulup düzelten yönteme ne denir?
+
+**Yanıtlar**
+
+1. İçine girip bir 0'ı 1'e çevirebilir.
+2. İki bilgisayar var; biri çalışırken öbürü yedek bekler ve gerekirse görevi devralır.
+3. Oylamayla; çoğunluğun sonucu doğru kabul edilir.
+4. Hata düzeltme kodları.

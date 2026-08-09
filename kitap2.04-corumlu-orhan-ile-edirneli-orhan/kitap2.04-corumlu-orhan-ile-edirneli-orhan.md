@@ -154,3 +154,22 @@ Akşam ışığında iki Orhan el sıkışıp gülümsüyor; arkalarında boş k
 ✨ Küçük bir tempo artışı sonucu değiştirebilir. Çorumlu dakikada 75 adım atsa berabere kalırdı!
 
 🎯 Hangi işlemcinin daha hızlı olduğu tek bir sayıya değil, **çarpıma ve yapılan işe** bağlıdır.
+
+---
+
+## Deneme Zamanı
+
+1. Koşu hızı hangi iki ölçünün çarpımıdır?
+
+2. Çorumlu 60 × 1,6, Edirneli 120 × 1. Kim kazandı?
+
+3. İşlemcide adım boyunun karşılığı nedir?
+
+4. Temponun karşılığı nedir?
+
+**Yanıtlar**
+
+1. Adım boyu ile tempo.
+2. Edirneli kazandı: dakikada 120 metreye karşı 96 metre.
+3. Bir adımda yapılan iş.
+4. Saat vuruş sıklığı.

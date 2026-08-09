@@ -193,3 +193,22 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 🧑‍🔬 Bu kuralı 1967'de **Gene Amdahl** adlı bilgisayar mühendisi bulmuştur.
 
 💡 Önemli olan hızlı bağlamak değil, **neyi hızlandıracağını bilmek**!
+
+---
+
+## Deneme Zamanı
+
+1. Bağlama bir dakikadan on saniyeye inince kazanç ne kadar oldu?
+
+2. Okula gitme süresinin asıl darboğazı neydi?
+
+3. Yürüyüş bisiklete dönünce toplam süre neye düştü?
+
+4. Amdahl Yasası neyi söyler?
+
+**Yanıtlar**
+
+1. Yalnızca elli saniye.
+2. Yirmi dakikalık yürüyüş.
+3. Yirmi bir dakikadan üç dakika on saniyeye.
+4. Bir parçayı ne kadar hızlandırırsan hızlandır, kazanç o parçanın işin içindeki payıyla sınırlıdır.

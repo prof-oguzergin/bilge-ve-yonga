@@ -150,3 +150,22 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 🤝 Bazen her iki felsefeden fikirler **birlikte kullanılır**: iş birliği yaparlar!
 
 🎯 Hangi tasarımın daha iyi olduğu, **ne için kullanıldığına** bağlıdır.
+
+---
+
+## Deneme Zamanı
+
+1. Risko hangi tasarımı temsil eder?
+
+2. Telefonundaki işlemci hangi aileden gelir?
+
+3. Masaüstü bilgisayarların x86 işlemcileri hangi aileden gelir?
+
+4. Hangisi daha iyidir?
+
+**Yanıtlar**
+
+1. RISC: az sayıda basit buyruk, her biri çok hızlı.
+2. RISC ailesinden; ARM ya da RISC-V.
+3. CISC ailesinden.
+4. Ne için kullanıldığına bağlıdır; birinin her zaman üstün olduğu söylenemez.

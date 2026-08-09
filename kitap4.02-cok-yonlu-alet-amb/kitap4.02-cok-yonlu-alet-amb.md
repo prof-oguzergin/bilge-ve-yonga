@@ -214,3 +214,22 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ---
 
 *© Bilgisayar Mimarisi Serisi, Çocuk Kitapları*
+
+---
+
+## Deneme Zamanı
+
+1. AMB'nin açılımı nedir, hangi işleri yapar?
+
+2. AMB'nin kaç girişi, kaç çıkışı vardır?
+
+3. AMB'ye hangi işi yapacağını kim söyler?
+
+4. AMB sonucun sıfır olduğunu haber verince bu haber nerede kullanılır?
+
+**Yanıtlar**
+
+1. Aritmetik Mantık Birimi. Toplar, çıkarır, mantık işlemleri ve karşılaştırma yapar.
+2. İki giriş, bir çıkış.
+3. Denetim biriminden gelen buyruğa göre işlem seçici.
+4. Karşılaştırmada ve dallanmada.

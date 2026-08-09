@@ -202,3 +202,22 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ↩️ Altyordam döndüğünde çerçevesi yığıttan kaldırılır, yer serbest kalır.
 
 🏗️ Yığıt sayesinde bilgisayar hangi işi yaptığını ve nereye döneceğini **hiç unutmaz**!
+
+---
+
+## Deneme Zamanı
+
+1. Yığıttan hangi tabak önce alınır?
+
+2. Bir altyordam başka bir altyordamı çağırmadan önce ra yazmacına ne yapar?
+
+3. Çok fazla iç içe çağrı olursa ne olur?
+
+4. Altyordam dönünce çerçevesine ne olur?
+
+**Yanıtlar**
+
+1. En son konulan; buna son giren ilk çıkar denir.
+2. Yığıta iter, dönünce geri alır.
+3. Yığıt dolar; buna yığıt taşması denir.
+4. Yığıttan kaldırılır, yer serbest kalır.

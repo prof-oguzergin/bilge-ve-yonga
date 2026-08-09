@@ -188,3 +188,22 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ⚖️ Önbelleğin boyutu ile hızı arasında bir denge vardır. Mühendisler bu dengeyi dikkatle kurar.
 
 🔧 Bellek duvarı tamamen çözülmüş değildir. İşlemciler her yıl daha hızlanırken bellek daha yavaş hızlanıyor, mühendisler yeni çözümler aramayı sürdürüyor.
+
+---
+
+## Deneme Zamanı
+
+1. İşlemci hızlı, bellek yavaş. Bu soruna ne denir?
+
+2. İşlemcinin yakınındaki küçük ve hızlı geçici depo hangisidir?
+
+3. Aranan veri önbellekte yoksa buna ne denir?
+
+4. Önbellek katları işlemciye yaklaştıkça nasıl olur?
+
+**Yanıtlar**
+
+1. Bellek duvarı.
+2. Önbellek.
+3. Bulamama.
+4. Küçülür ve hızlanır.

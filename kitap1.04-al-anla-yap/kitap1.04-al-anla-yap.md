@@ -150,3 +150,22 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ⚡ Bu döngü saniyede milyarlarca kez döner; oyun, müzik, resim hep böyle çalışır.
 
 🧠 Biz de kitap okurken aynısını yaparız: oku (al), anla, sonra yaz ya da uygula (yap)!
+
+---
+
+## Deneme Zamanı
+
+1. Üç adımı sırasıyla say.
+
+2. Anla adımında ne olur?
+
+3. Bu üç adım bir kez mi yapılır?
+
+4. Kitap okurken gözünle okumak hangi adıma benzer?
+
+**Yanıtlar**
+
+1. Al, Anla, Yap.
+2. Alınan buyruğun ne demek olduğu anlaşılır.
+3. Hayır, durmadan baştan tekrarlanır.
+4. Al adımına.

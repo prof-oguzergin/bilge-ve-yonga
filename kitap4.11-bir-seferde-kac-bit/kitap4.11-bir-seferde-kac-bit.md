@@ -239,3 +239,22 @@ Yonga'nın ışıkları neşeyle yanıp söndü. {Y}"İşte bu yüzden bana baka
 ---
 
 *© Bilgisayar Mimarisi Serisi, Çocuk Kitapları*
+
+---
+
+## Deneme Zamanı
+
+1. Bir işlemcinin bir seferde işlediği bit öbeğinin genişliğine ne denir?
+
+2. 8 bitle kaç farklı desen olur, en büyük sayı kaçtır?
+
+3. Dar kutudaki bir eksi sayı geniş kutuya nasıl taşınır?
+
+4. Adres yolunun genişliği neyi belirler?
+
+**Yanıtlar**
+
+1. Sözcük boyu.
+2. 256 desen olur, en büyük sayı 255'tir.
+3. En soldaki basamak kopyalanır; buna işaretle genişletme denir.
+4. Kaç bellek gözüne ulaşılabileceğini.

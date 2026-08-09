@@ -254,3 +254,22 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 🍽️ **Yığıt (stack):** Tabak kulesi gibi çalışan bellek bölgesi. sp yazmacı en üstü gösterir.
 
 🧩 **Yazmaç ataması:** Programı hazırlayan araçların yazmaçları akıllıca kullanmasına denir.
+
+---
+
+## Deneme Zamanı
+
+1. RISC-V'te kaç yazmaç vardır?
+
+2. x0 yazmacına bir sayı yazarsan ne olur?
+
+3. Bellekte bir gözde kaç bit durur?
+
+4. Yığıtın en üstünü hangi yazmaç gösterir?
+
+**Yanıtlar**
+
+1. 32 tane; x0'dan x31'e.
+2. Değişmez, her zaman sıfır kalır.
+3. 8 bit; buna bir bayt denir.
+4. sp.

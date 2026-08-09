@@ -146,3 +146,22 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ⏱️ Bu transistörler saniyede **milyarlarca kez** açılıp kapanabilir.
 
 🎮 Oyunlar, şarkılar, videolar, hepsi bu küçük anahtarların dansıdır!
+
+---
+
+## Deneme Zamanı
+
+1. Bir tek 0 ya da bir tek 1'e ne denir? Sekiz tanesi bir arada durursa?
+
+2. Bir harf kaç bayta sığar?
+
+3. Transistör açıkken hangi sayıyı, kapalıyken hangi sayıyı gösterir?
+
+4. Fotoğraflar ve şarkılar bilgisayarda neye dönüştürülerek saklanır?
+
+**Yanıtlar**
+
+1. Bit denir; sekiz bit bir arada durursa bayt olur.
+2. Bir bayta.
+3. Açıkken 1, kapalıyken 0.
+4. 0 ve 1'lere.

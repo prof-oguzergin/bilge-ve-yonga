@@ -234,3 +234,22 @@ Yonga gözlerini kıstı, gizemli bir gülümsemeyle. {Y}"İşte bu çok iyi bir
 ---
 
 *© Bilgisayar Mimarisi Serisi, Çocuk Kitapları*
+
+---
+
+## Deneme Zamanı
+
+1. Çok vuruşluk tasarımda bir buyruk nasıl yapılır?
+
+2. Dallanma, toplama ve bellekten yükleme kaçar tık ister?
+
+3. Aynı buyruk içinde AMB birden çok kez kullanılabilir mi?
+
+4. Bu yöntemin bedeli nedir?
+
+**Yanıtlar**
+
+1. Kısa saat vuruşlarına bölünmüş küçük adımlarla.
+2. Dallanma üç, toplama dört, yükleme beş tık.
+3. Kullanılabilir; parçalar farklı adımlarda yeniden kullanılır.
+4. Denetim karmaşıklaşır; şefin her adımda ayrı işaret vermesi gerekir.

@@ -264,3 +264,22 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 📐 **Alanlar hep aynı yerde:** Hedef ve birinci kaynak her biçimde aynı bitlerde durur; işlemci buyruğun türünü anlamadan onları okumaya başlar.
 
 🗺️ **Adresleme kipleri:** Bir bellek adresini farklı şekillerde belirtme yolları.
+
+---
+
+## Deneme Zamanı
+
+1. Buyruğun ne tür işlem yapacağını belirten bit grubunun adı nedir?
+
+2. `ADD x7, x5, x6` ne demektir?
+
+3. Altı zarf biçiminin ortak yanı nedir?
+
+4. Hedef ve birinci kaynak neden her biçimde aynı bitlerde durur?
+
+**Yanıtlar**
+
+1. İşlem kodu.
+2. x5 ile x6'yı topla, sonucu x7'ye yaz.
+3. Hepsi 32 bit boyundadır.
+4. İşlemci buyruğun türünü daha anlamadan onları okumaya başlayabilsin diye.

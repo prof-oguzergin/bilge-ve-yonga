@@ -162,3 +162,22 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ✅ Yongalar test edilir, kılıflanır ve bilgisayarların içine yerleştirilir.
 
 💻 Her bilgisayarın içinde **kumdan gelen bir kalp** atıyor!
+
+---
+
+## Deneme Zamanı
+
+1. Yonga yapımı hangi maddeyle başlar, o madde nereden çıkar?
+
+2. Eritilen kumdan büyütülen kocaman kristale ne denir?
+
+3. Kristal ince ince kesilince ortaya ne çıkar?
+
+4. Plakanın üstüne devreler hangi yöntemle çizilir?
+
+**Yanıtlar**
+
+1. Silisyumla başlar; silisyum kumun içinden çıkar.
+2. Külçe denir.
+3. Silisyum plaka çıkar.
+4. Litografi, ışıkla minicik desen çizme yöntemiyle.

@@ -206,3 +206,22 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 🔐 **Dışlayan VEYA şifreleme:** Aynı maskeyle iki kez Dışlayan VEYA yaparsan sayı geri gelir: basit şifrelemenin temeli!
 
 💡 Mantık buyrukları bilgisayarın karar vermesini, karşılaştırma yapmasını ve verileri düzenlemesini sağlar.
+
+---
+
+## Deneme Zamanı
+
+1. VE işleminde sonuç ne zaman 1 olur?
+
+2. VEYA işleminde sonuç ne zaman 1 olur?
+
+3. Dışlayan VEYA ne zaman 1 verir?
+
+4. Aynı maskeyle iki kez Dışlayan VEYA yaparsan ne olur?
+
+**Yanıtlar**
+
+1. İki bit de 1 ise.
+2. İkisinden biri 1 ise yeter.
+3. İki bit birbirinden farklıysa.
+4. Sayı geri gelir; basit şifrelemenin temeli budur.

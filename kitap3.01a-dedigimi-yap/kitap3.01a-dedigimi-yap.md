@@ -204,3 +204,22 @@ Akşam odası. Bilge yatağında, başını yastığa koymuş ama gözleri açı
 💾 Bir kez yazılan program bin kez çalıştırılabilir.
 
 🌉 İnsanın yazdığı adımların, makinenin bildiği işlere çevrilmesi gerekir.
+
+---
+
+## Deneme Zamanı
+
+1. Bir işi adım adım anlatan listeye ne denir?
+
+2. "Biraz ileri git" neden işe yaramaz?
+
+3. Aynı adımların sırası değişirse ne olur?
+
+4. Yanlış bir adım yazarsan makine ne yapar?
+
+**Yanıtlar**
+
+1. Program.
+2. Adım kesin değildir; makine tahmin etmez, ne dediğini yapar.
+3. Sonuç değişir.
+4. Yanlış adımı da aynen yapar; yanlışı bulmak insana düşer.

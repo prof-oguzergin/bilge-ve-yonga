@@ -150,3 +150,22 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 🎂 Mühendisler yeni çözümler buluyor. Transistörleri **üst üste yığarak** katmanlı yongalar yapıyorlar.
 
 🚀 Moore'un takvimi bitmedi. **Yeni yollarla** bilgisayarlar daha güçlü olmaya devam ediyor!
+
+---
+
+## Deneme Zamanı
+
+1. Moore Yasası ne söyler?
+
+2. 1970'te bir yongada binlerce transistör vardı. Bugün kaç tane var?
+
+3. Transistörler küçülünce ne kazanılır?
+
+4. Küçültmek zorlaşınca mühendisler hangi yolu buldu?
+
+**Yanıtlar**
+
+1. Bir yonganın içindeki transistör sayısı her iki yılda bir ikiye katlanır.
+2. Milyarlarca.
+3. Daha fazlası bir araya sığar ve daha az enerji harcarlar.
+4. Transistörleri üst üste yığıp katmanlı yongalar yapıyorlar.

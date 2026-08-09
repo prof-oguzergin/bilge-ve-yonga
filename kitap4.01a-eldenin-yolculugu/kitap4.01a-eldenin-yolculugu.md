@@ -225,3 +225,22 @@ Bilge kapıyı araladı ve içeriye baktı. {B}"Demek bir kalbin içinde koca bi
 ---
 
 *© Bilgisayar Mimarisi Serisi, Çocuk Kitapları*
+
+---
+
+## Deneme Zamanı
+
+1. Bir basamağa sığmayan fazlalığın adı nedir?
+
+2. İkilik düzende 1 + 1 kaç eder, nasıl yazılır?
+
+3. Tam toplayıcı kaç girdi alır, kaç sonuç verir?
+
+4. Elde zinciri hangi yöne yürür?
+
+**Yanıtlar**
+
+1. Elde.
+2. İki eder; 10 diye yazılır.
+3. Üç girdi alır: iki bit ile gelen elde. İki sonuç verir: toplam biti ve giden elde.
+4. Sağdan sola.

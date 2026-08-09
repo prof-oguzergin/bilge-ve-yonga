@@ -195,3 +195,22 @@ Bilge pencere kenarında, uzakta konser salonu ışıkları görünüyor; Yonga 
 
 ---
 *© Bilgisayar Mimarisi Serisi, Çocuk Kitapları*
+
+---
+
+## Deneme Zamanı
+
+1. Şefin okuduğu nota nedir?
+
+2. Çalgıcılar kimlerdir?
+
+3. Denetim birimi önce neye bakar?
+
+4. Toplama buyruğunda kaç işaret gönderir, bunlar nelerdir?
+
+**Yanıtlar**
+
+1. Buyruk.
+2. AMB, yazmaçlar, bellek ve onları bağlayan teller.
+3. Buyruğun işlem koduna.
+4. Üç işaret: yazmaçları oku, AMB'ye topla de, sonucu yaz.

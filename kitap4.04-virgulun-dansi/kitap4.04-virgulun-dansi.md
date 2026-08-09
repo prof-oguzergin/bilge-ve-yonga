@@ -206,3 +206,22 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ---
 
 *© Bilgisayar Mimarisi Serisi, Çocuk Kitapları*
+
+---
+
+## Deneme Zamanı
+
+1. Bir kayan nokta sayısı hangi üç parçadan oluşur?
+
+2. Tek duyarlık ve çift duyarlık kaç bittir?
+
+3. Sıfır virgül bir sayısı bilgisayarda tam olarak saklanır mı?
+
+4. Az bit ile çok bit arasındaki takas nedir?
+
+**Yanıtlar**
+
+1. İşaret biti, üs ve kesir.
+2. 32 bit ve 64 bit.
+3. Saklanmaz; ikilik sistemde küçük bir farkla saklanır.
+4. Az bit hızlı ama kaba, çok bit yavaş ama ince sonuç verir.

@@ -163,3 +163,22 @@ Bilge ve Yonga gün batımında yan yana duruyor. Arkalarında "Vaka 1: Kayıp S
 ➕➖ **Bir eksik bir fazla hatası**: bir döngünün bir tur eksik ya da fazla dönmesinden kaynaklanan yaygın bir hatadır.
 
 💪 Hata yapmak utanılacak bir şey değildir; her programcı sabırla ipuçlarını izleyerek kendi hatasını bulur.
+
+---
+
+## Deneme Zamanı
+
+1. Bir programdaki yanlışı bulup düzeltme işine ne denir?
+
+2. Programı istediğin bir buyrukta durduran araç hangisidir?
+
+3. Bir döngünün bir tur eksik ya da fazla dönmesine ne denir?
+
+4. Hata yapmak utanılacak bir durum mudur?
+
+**Yanıtlar**
+
+1. Hata ayıklama.
+2. Ara nokta.
+3. Bir eksik bir fazla hatası.
+4. Değildir; her programcı hata yapar ve sabırla ipuçlarını izleyerek bulur.

@@ -288,3 +288,22 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 🚚 **Yükleyici:** Çalıştırılabilir dosyayı diskten belleğe taşır ve programı başlatır.
 
 ⚖️ **Derlenen dil ile yorumlanan dil:** C önceden derlenir (hızlı çalışır). Python çalışırken satır satır yorumlanır (daha esnek).
+
+---
+
+## Deneme Zamanı
+
+1. Derleme zincirinin dört durağını sırasıyla say.
+
+2. Çeviricinin çıktısına ne denir?
+
+3. Bağlayıcı ne yapar?
+
+4. C ile Python arasındaki fark nedir?
+
+**Yanıtlar**
+
+1. Derleyici, çevirici, bağlayıcı, yükleyici.
+2. Nesne dosyası.
+3. Nesne dosyalarını ve kütüphaneleri birleştirip çalıştırılabilir dosya üretir.
+4. C önceden derlenir ve hızlı çalışır; Python çalışırken satır satır yorumlanır.
