@@ -116,7 +116,7 @@ Sağdan sola yükselen bir merdiven; basamakların üstünde sırayla 1, 2, 4, 8
 **Metin:**
 {Y}"Şimdi bir sayı okuyalım." dedi Yonga ve havaya 1010 yazdı.
 
-{B}"Sağdan başlıyorum." dedi Bilge. {B}"Birler basamağı boş. İkiler basamağı dolu, iki eder. Dörtler boş. Sekizler dolu, sekiz eder."
+{B}"Sağdan başlıyorum." dedi Bilge. {B}"Birler basamağında sıfır var, değeri yok. İkilerde bir var, değeri iki. Dörtlerde sıfır var, değeri yok. Sekizlerde bir var, değeri sekiz."
 
 Yonga alkışladı. {Y}"Sekiz artı iki?"
 
