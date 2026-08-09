@@ -185,7 +185,7 @@ Bilge defterine yan yana iki sayı yazdı. Önce 10, sonra 1010.
 Bilge deftere son bir not düştü. Her basamağın bir değeri vardır.
 
 **Resim:**
-Defterin sayfasında yan yana iki sayı: solda 10, sağda 1010, aralarında iki yönlü bir eşittir işareti. Bilge kalemini kaldırmış gülümsüyor, Yonga defterin üstünde memnun süzülüyor. Pencereden akşam ışığı giriyor, sıcak ve huzurlu bir kapanış.
+Defterin sayfası ince bir çizgiyle ikiye ayrılmış: solda 10, sağda 1010 yazıyor ve her sayının altında beşerli iki sıra hâlinde onar nokta duruyor. Eşittir işareti yok; iki tarafın da on ettiği noktalar sayılarak görülüyor. Bilge kalemini kaldırmış gülümsüyor, Yonga defterin üstünde memnun süzülüyor. Pencereden akşam ışığı giriyor, sıcak ve huzurlu bir kapanış.
 
 ---
 
@@ -206,3 +206,5 @@ Defterin sayfasında yan yana iki sayı: solda 10, sağda 1010, aralarında iki 
 🖐️ Tek elde parmaklar basamak sayılırsa 31'e kadar sayılabilir.
 
 🎽 Onluk tabandaki 10 ile ikilik tabandaki 1010 aynı sayıyı, onu gösterir.
+
+🏷️ Karışmasın diye bir sayının hangi tabanda yazıldığı, yanına konan küçük bir sayıyla belirtilir.
