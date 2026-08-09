@@ -152,7 +152,7 @@ Merdiven uzadı: 1, 2, 4, 8, 16, 32, 64, 128.
 
 {B}"Hepsini birden yakarsak?" diye sordu Bilge.
 
-{Y}"Hepsini toplarsın." dedi Yonga. {Y}"En büyük sayı 255 olur. Sekiz basamakla ondan büyüğünü yazamam."
+{Y}"Hepsini toplarsın." dedi Yonga. {Y}"En büyük sayı 255 olur. Sekiz basamakla 255'ten büyüğünü yazamam."
 
 **Resim:**
 Sekiz ışıklı kutucuk yan yana, hepsinin içinde 1 var ve hepsi parlıyor. Altlarında soldan sağa 128, 64, 32, 16, 8, 4, 2, 1 değerleri yazıyor. Sağ altta büyük bir 255 rakamı duruyor. Bilge hayretle kutucukları sayıyor, Yonga gururla yanında.
