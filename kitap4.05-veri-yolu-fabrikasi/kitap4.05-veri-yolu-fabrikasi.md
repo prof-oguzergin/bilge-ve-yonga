@@ -100,6 +100,10 @@ Otuz iki küçük, ışıklı kutunun 4×8 düzeninde bir arada durduğu bir ist
 
 {B}"İki ayrı depo." dedi Bilge. {B}"Biri buyruklar için, biri sayılar için."
 
+{B}"Ama dur." dedi Bilge. {B}"Hani buyruklar da veriler de aynı bellekte duruyordu?"
+
+{Y}"Duruyor." dedi Yonga. {Y}"Dışarıdaki büyük bellekte hepsi bir arada. Fabrikanın içinde ise işlemci onları iki ayrı kapıdan alır, böylece buyruğu getirirken sayıya da uzanabilir. Tek bir bellek, iki ayrı kapı."
+
 **Resim:**
 Fabrikanın öbür ucunda, buyruk belleğine benzeyen ama farklı renkte (mavi yerine turuncu) dev bir depo rafı. Raflarda buyruk kartları yerine sayı içeren kutular duruyor. AMB'den çıkan ışık teli bu depoya giriyor, bazı sayılar depoya yerleşiyor, bazıları geri dönüp yazmaç öbeğine gidiyor. Bilge iki depoyu karşılaştırıyor, biri mavi biri turuncu, elinde iki renkli kart tutuyor. Yonga ortada durmuş ikisini de gösteriyor.
 

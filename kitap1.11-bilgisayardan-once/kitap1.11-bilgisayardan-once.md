@@ -150,6 +150,8 @@ Bilge bunu sindirmek için biraz düşündü.
 
 {Y}"İşte bu yüzden bugün aynı bilgisayarla hem resim yapıyor hem müzik dinliyorsun." dedi Yonga.
 
+{Y}"Bir gün işlemcinin içine girersek şunu göreceksin." dedi Yonga. {Y}"Orada buyruklar bir kapıdan, sayılar başka bir kapıdan girer. Ama ikisi de o büyük bellekten gelir; iki kapı, işlemci ikisine aynı anda uzanabilsin diyedir."
+
 **Resim:**
 Ortada tek bir makine duruyor. Çevresinde ondan çıkan üç ışık huzmesi var ve her huzmenin ucunda başka bir sonuç beliriyor: bir resim, bir nota ve bir hesap tablosu. Makinenin altındaki bellek rafı görünüyor. Bilge sevinçle huzmelerin ortasında duruyor.
 
