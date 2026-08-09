@@ -33,6 +33,11 @@
      okunaklıydı ama yetişkin kitabı harfleriydi; bir okur çocuğunun harfleri
      karıştırdığını yazınca değiştirildi. OFL, siteye gömülebiliyor. */
   --ff-body:"Andika","Georgia",serif;
+  /* Kağıt kartın içinde kullanılan renkler. Arayüz renkleri (--chrome)
+     karanlık temada neredeyse beyaz; krem kağıt üzerinde okunmuyordu. */
+  --kagit-koyu:#2A2340; --kagit-solgun:#6A6180;
+  --kagit-cizgi:rgba(51,41,74,.22);
+  --kehribar-koyu:#9C5A12; --parlak-koyu:#0C7699;
 }
 :root[data-theme="light"]{ --ground:#E7EEF3; --stage:#F3ECDD; --chrome:#182253; --chrome-soft:#5A6382;
   --edge:rgba(24,34,83,.14); --shadow:rgba(24,34,83,.20); }
@@ -192,40 +197,37 @@ body{margin:0}
 .slist{list-style:none; margin:18px 0 0; padding:0; display:grid; gap:14px}
 /* Deneme Zamanı: bölüm sonu soruları ve küçük etkileşimli alan.
    Puan, süre ve hesap yok; yanıtlar tek dokunuşla açılıyor. */
-.dene-alt{margin:.2em 0 .6em; color:var(--chrome-soft); font-size:.95rem}
+.dene-alt{margin:.2em 0 .6em; color:var(--kagit-solgun); font-size:.95rem}
 .dlist{font-family:var(--ff-body); font-size:clamp(1.04rem,1.15vw,1.2rem); line-height:1.6;
-  color:var(--chrome); padding-left:1.3em; margin:.4em 0 .8em}
+  color:var(--kagit-koyu); padding-left:1.3em; margin:.4em 0 .8em}
 .dlist li{margin:.45em 0}
-.yanit{margin-top:26px; border-top:2px solid var(--edge); padding-top:16px}
+.yanit{margin-top:26px; border-top:2px solid var(--kagit-cizgi); padding-top:16px}
 .yanit summary{cursor:pointer; font-family:var(--ff-disp); font-weight:800;
-  color:var(--amber); font-size:1rem; list-style:none; display:inline-flex;
+  color:var(--kehribar-koyu); font-size:1rem; list-style:none; display:inline-flex;
   align-items:center; gap:6px; padding:6px 14px; border-radius:999px;
-  border:1.5px solid color-mix(in srgb,var(--amber) 55%,transparent)}
-.yanit summary:hover{background:color-mix(in srgb,var(--amber) 12%,transparent)}
+  border:1.5px solid color-mix(in srgb,var(--kehribar-koyu) 45%,transparent)}
+.yanit summary:hover{background:color-mix(in srgb,var(--kehribar-koyu) 10%,transparent)}
 .yanit .dlist{margin-top:12px}
 .yanit summary::-webkit-details-marker{display:none}
 .yanit summary::before{content:"\25B8  "}
 .yanit[open] summary::before{content:"\25BE  "}
-.dene{margin:12px 0 4px; padding:12px 10px; border:1px solid var(--edge); border-radius:18px;
-  background:color-mix(in srgb,var(--stage) 70%,transparent);
-  display:grid; grid-template-columns:auto 1fr auto; align-items:end; gap:10px}
-.dene-orta{grid-column:2}
-.dene-kisi{width:auto; height:104px; align-self:end; opacity:.95;
-  filter:drop-shadow(0 6px 14px rgba(0,0,0,.35))}
-.dene-kisi.yonga{height:74px; align-self:center}
-@media (max-width:760px){ .dene{grid-template-columns:1fr} .dene-kisi{display:none} }
-.dene-yonerge{margin:0 0 12px; font-size:.94rem; color:var(--chrome-soft); text-align:center}
+.dene{margin:12px 0 4px; padding:12px 10px; border:1px solid var(--kagit-cizgi); border-radius:18px;
+  background:color-mix(in srgb,var(--paper-ink) 4%,transparent)}
+/* Oran baştan bildiriliyor: geç yüklenirken sayfa zıplamasın. */
+.dene-afis{display:block; width:100%; max-width:520px; margin:6px auto 12px;
+  aspect-ratio:16/9; border-radius:16px}
+.dene-yonerge{margin:0 0 12px; font-size:.94rem; color:var(--kagit-solgun); text-align:center}
 .dene-kutular{display:flex; gap:12px; justify-content:center; flex-wrap:wrap}
 .dene-kutu{width:66px; height:78px; border-radius:14px; cursor:pointer;
-  border:2px solid var(--edge); background:transparent; color:var(--chrome-soft);
+  border:2px solid var(--kagit-cizgi); background:transparent; color:var(--kagit-solgun);
   display:flex; flex-direction:column; align-items:center; justify-content:center; gap:2px;
   font-family:var(--ff-disp); transition:transform .15s, border-color .15s, color .15s}
 .dene-kutu .bit{font-size:1.8rem; font-weight:800; line-height:1}
 .dene-kutu .agirlik{font-size:.72rem; opacity:.7}
-.dene-kutu.acik{border-color:var(--glow); color:var(--glow); transform:translateY(-3px)}
+.dene-kutu.acik{border-color:var(--parlak-koyu); color:var(--parlak-koyu); transform:translateY(-3px)}
 .dene-sonuc{text-align:center; margin:12px 0 0; font-family:var(--ff-disp);
-  font-size:1.35rem; color:var(--chrome)}
-.dene-esit{color:var(--chrome-soft)}
+  font-size:1.35rem; color:var(--kagit-koyu)}
+.dene-esit{color:var(--kagit-solgun)}
 .slist li{font-family:var(--ff-body); font-size:clamp(1.06rem,1.2vw,1.22rem); line-height:1.55;
   padding-left:14px; border-left:3px solid var(--amber)}
 .slist li b{font-family:var(--ff-disp)}
@@ -455,13 +457,9 @@ function deneKur(kap){
   kap.dataset.kuruldu = '1';
   if(kap.dataset.dene !== 'basamak') return;
   const degerler = [8,4,2,1], durum = [0,0,0,0];
-  kap.innerHTML = '<img class="dene-kisi" src="../sus/bilge-mini.png" alt="" aria-hidden="true">'
-    + '<div class="dene-orta">'
-    +   '<p class="dene-yonerge">Kutucuklara dokun, sayının ne olduğunu gör.</p>'
-    +   '<div class="dene-kutular"></div>'
-    +   '<p class="dene-sonuc"><span class="dene-esit">=</span> <b>0</b></p>'
-    + '</div>'
-    + '<img class="dene-kisi yonga" src="../sus/yonga-mini.png" alt="" aria-hidden="true">';
+  kap.innerHTML = '<p class="dene-yonerge">Kutucuklara dokun, sayının ne olduğunu gör.</p>'
+    + '<div class="dene-kutular"></div>'
+    + '<p class="dene-sonuc"><span class="dene-esit">=</span> <b>0</b></p>';
   const sira = kap.querySelector('.dene-kutular');
   const sonuc = kap.querySelector('.dene-sonuc b');
   degerler.forEach((d,i)=>{
@@ -492,6 +490,7 @@ PAGES.forEach((p, idx)=>{
     const sor = p.sorular.map(s=>'<li>'+s.replace(/\*\*(.+?)\*\*/g,'<b>$1</b>')+'</li>').join('');
     const yan = p.yanitlar.map(s=>'<li>'+s.replace(/\*\*(.+?)\*\*/g,'<b>$1</b>')+'</li>').join('');
     s.innerHTML = '<div class="card"><h2>✏️ '+esc(p.title)+'</h2>'
+      + '<img class="dene-afis" src="../sus/deneme-afisi.jpg" alt="" aria-hidden="true"'+lz+'>'
       + '<p class="dene-alt">Şimdi sıra sende.</p>'
       + '<ol class="dlist">'+sor+'</ol>'
       + (p.widget||'')

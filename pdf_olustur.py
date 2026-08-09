@@ -613,7 +613,8 @@ def _alt_serileri_kur():
             kitaplar.append((no, _kitap_basligi(d),
                              ACIKLAMALAR.get(no) or _ana_tema(d)))
         if kitaplar:
-            seriler.append({"ad": ad, "renk": renk, "kitaplar": kitaplar})
+            seriler.append({"ad": ad, "no": anahtar, "renk": renk,
+                            "kitaplar": kitaplar})
     return seriler
 
 
@@ -788,26 +789,33 @@ def draw_seriler_ozet_page(c: canvas.Canvas, current_kitap_no: str):
     region_top = PAGE_H - 100      # başlığın altı
     region_bot = 70               # site şeridinin üstü
     block_h = (region_top - region_bot) / n
+    # Kapak ölçüsü en kalabalık seriye göre; bütün sıralar aynı ölçüde
+    # ve sayfa içinde kalıyor.
+    en_kalabalik = max(len(k) for _, k in yayin_seriler)
+    kapak_gap = 5.0
+    kapak_w = min(94.0, (PAGE_W - 72 - (en_kalabalik - 1) * kapak_gap) / en_kalabalik)
     for bi, (seri, kapaklar) in enumerate(yayin_seriler):
         by = region_top - bi * block_h - 18
         renk = seri["renk"]
-        # Seri adı + kitap sayısı
+        # Seri adı ortada; altında kaçıncı cilt olduğu ve kitap sayısı
         c.saveState()
         c.setFillColorRGB(*renk)
         c.setFont(FONT_B, 19)
-        c.drawString(58, by, seri["ad"])
-        c.setFont(FONT_N, 11)
+        c.drawCentredString(PAGE_W / 2, by, seri["ad"])
+        c.setFont(FONT_N, 10.5)
         c.setFillColorRGB(0.5, 0.5, 0.5)
-        c.drawString(58, by - 17, f"{len(kapaklar)} kitap")
+        c.drawCentredString(PAGE_W / 2, by - 15,
+                            f"{seri['no']}. Cilt  ·  {len(kapaklar)} kitap")
         c.restoreState()
         # Kapak satırı
         m = len(kapaklar)
-        cw = 94.0
+        cw = kapak_w
         ch = cw * 9 / 16
-        gap = 5.0
+        gap = kapak_gap
         row_w = m * cw + (m - 1) * gap
         x0 = (PAGE_W - row_w) / 2
-        cy = by - 32 - ch
+        # Kapaklar kendi başlığına yakın, bir sonraki başlığa uzak
+        cy = by - 24 - ch
         for i, (no, title, k) in enumerate(kapaklar):
             x = x0 + i * (cw + gap)
             try:
@@ -847,9 +855,11 @@ def build_pdf(kitap_dir: Path):
 
     meta, pages = parse_md(md_path)
     # Yeni format: kitap1.06-... → "1.6", eski format: kitap01-... → "1" (→ "1.1")
-    m = re.search(r"kitap(\d+)\.(\d+)", kitap_dir.name)
+    m = re.search(r"kitap(\d+)\.(\d+)([a-z]?)", kitap_dir.name)
     if m:
-        kitap_no_str = f"{m.group(1)}.{int(m.group(2))}"
+        # Sondaki harf de numaranın parçası: 1.02b → "1.2b". Atılırsa seri
+        # listesindeki kayıtla eşleşmiyor ve vurgu çerçevesi çizilmiyor.
+        kitap_no_str = f"{m.group(1)}.{int(m.group(2))}{m.group(3)}"
     else:
         m2 = re.search(r"kitap(\d+)", kitap_dir.name)
         if m2:
