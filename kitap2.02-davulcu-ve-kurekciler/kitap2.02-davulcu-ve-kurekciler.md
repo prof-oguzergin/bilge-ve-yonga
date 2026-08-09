@@ -90,7 +90,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 9 — Kim Kazandı?
 
 **Metin:**
-Mavi gemi önce vardı! Bilge şaşırdı. {B}"Ama kırmızı gemi daha hızlı davul çalıyordu!" Yonga açıkladı: {Y}"Evet, ama mavi gemi daha az ve daha kolay kürek çekti. Toplam süre daha kısa oldu!" Bilge başını sallayarak anladı: {B}"Önemli olan tek bir şey değil, her şeyin dengesiymiş!"
+Mavi gemi önce vardı! Bilge şaşırdı. {B}"Ama kırmızı gemi daha hızlı davul çalıyordu!" Yonga açıkladı: {Y}"Evet, ama mavi gemi daha az ve daha kolay kürek çekti. Toplam süre daha kısa oldu!" Bilge başını sallayarak anladı: {B}"Önemli olan yalnızca davulun hızı değil, her şeyin dengesiymiş!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bitiş çizgisinde mavi gemi birinci yerde duruyor: kürekçiler sevinçle kollarını kaldırıyor, flama sallanıyor. Kırmızı gemi arkadan geliyor, kürekçileri yorgun görünüyor. Bilge heyecanlı, ağzı açık; Yonga zafer işareti yapıyor. Altında küçük pankart: "Az + Kolay = Daha Hızlı!" Sahne neşeli ve tatmin edici. Altın, mavi ve kırmızı tonları.

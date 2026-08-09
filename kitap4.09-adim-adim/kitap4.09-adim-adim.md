@@ -59,7 +59,7 @@ Bilge parmağını masaya vurarak ritim tuttu. {B}"Tık, tık, tık, ben de saat
 **Metin:**
 {Y}"Şimdi örnek yapalım." dedi Yonga. {Y}"Bir dallanma buyruğu düşün. Getirilir, çözülür, sonra AMB karşılaştırmayı yapar. Bitti! Üç tık."
 
-{B}"Yazmaca hiçbir şey yazmıyor mu?" diye sordu Bilge.
+{B}"Yazmaca bir sonuç yazmıyor mu?" diye sordu Bilge.
 
 {Y}"Yazmıyor." dedi Yonga. {Y}"Ama iki sayıyı toplayan buyruk sonucu bir yazmaca yazar, o yüzden bir tık daha ister. Dört tık."
 
@@ -196,9 +196,9 @@ Bilge gülümsedi. {B}"Demek hâlâ sırayla yiyoruz, ama her tabak eskisinden d
 
 {Y}"Doğru. Ama unutma, denetim tarafı daha karmaşık." dedi Yonga. {Y}"Şef artık her adımda ayrı bir işaret vermek zorunda."
 
-{B}"Demek her güzel şeyin bir takası var." dedi Bilge, kaşığını kâseye koyarak.
+{B}"Demek her tasarım seçiminin bir takası var." dedi Bilge, kaşığını kâseye koyarak.
 
-{Y}"Mühendislik böyle bir şey zaten Bilge." dedi Yonga. {Y}"Bir yerden kazanırsın, başka bir yerden biraz emek harcarsın."
+{Y}"Mühendislik zaten böyledir Bilge." dedi Yonga. {Y}"Bir yerden kazanırsın, başka bir yerden biraz emek harcarsın."
 
 **Resim:** Bilge ve Yonga masada karşılıklı oturmuş, aralarında bir terazi çiziliyor havada, bir kefesinde küçük bir tavşan ile bozuk para, öbür kefesinde birbirine dolanmış ipliklerden bir yumak duruyor, terazi dengeli duruyor. İkisi de gülümseyerek terazinin dengesine bakıyor.
 
@@ -209,7 +209,7 @@ Bilge gülümsedi. {B}"Demek hâlâ sırayla yiyoruz, ama her tabak eskisinden d
 **Metin:**
 Bilge sandalyesinden kalktı, tabaklarını topladı.
 
-{B}"Bugün öğrendiğim en güzel şey, büyük işleri küçük adımlara bölmenin ne kadar akıllıca olduğu." dedi.
+{B}"Bugün öğrendiğim en güzel ders, büyük işleri küçük adımlara bölmenin ne kadar akıllıca olduğuydu." dedi.
 
 {Y}"Bu fikir sadece işlemcilerde değil, hayatın her yerinde işe yarar." dedi Yonga gülümseyerek.
 

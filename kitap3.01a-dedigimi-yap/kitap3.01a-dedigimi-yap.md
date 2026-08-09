@@ -115,7 +115,7 @@ Yerde üç ayak izi gibi üç ışıklı iz var, Yonga üçüncünün üstünde 
 
 ---
 
-## Sayfa 8 — Aynı Şeyi Dört Kez
+## Sayfa 8 — Aynı İki Adım Dört Kez
 
 **Metin:**
 {B}"Listede aynı iki satır dört kez tekrar ediyor." dedi Bilge.
@@ -180,7 +180,7 @@ Bilge merakla eğildi.
 
 Yonga gülümsedi. {Y}"Bunun bir listesi var ve o liste hiç değişmez. Yarın onu konuşalım."
 
-Bilge o gece uyurken hep aynı şeyi düşündü: bir makinenin bildiği işlerin listesi.
+Bilge o gece uyurken aklında hep bir makinenin bildiği işlerin listesi vardı.
 
 **Resim:**
 Akşam odası. Bilge yatağında, başını yastığa koymuş ama gözleri açık ve düşünceli. Tavanda küçük ışıklı bir liste hayali beliriyor, satırları okunmuyor, yalnızca ışıktan çizgiler. Yonga yatağın yanında usulca süzülüyor, ışığı kısılmış.
@@ -195,7 +195,7 @@ Akşam odası. Bilge yatağında, başını yastığa koymuş ama gözleri açı
 
 🔢 Adımlar kesin olmalıdır; "biraz ileri" işe yaramaz, "üç adım ileri" yarar.
 
-🔀 Adımların **sırası** sonucu değiştirir; aynı adımlar başka sırada başka şey yapar.
+🔀 Adımların **sırası** sonucu değiştirir; aynı adımlar başka sırada başka bir sonuç üretir.
 
 🔁 Aynı adımlar tekrar ediyorsa "şunu dört kez yap" demek yeter.
 

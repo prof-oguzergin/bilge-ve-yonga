@@ -69,7 +69,7 @@ Asla değişmez. Silinemez. Her zaman sıfırdır."
 
 {B}"Ne işe yarar ki?" dedi Bilge.
 
-{Y}"Çok işe yarar! Bazen 'bir şeyi sıfırla' ya da 'sıfırla karşılaştır' gibi
+{Y}"Çok işe yarar! Bazen 'bir yazmacı sıfırla' ya da 'sıfırla karşılaştır' gibi
 işlemlere ihtiyaç duyarsın. x0 her zaman orada, hazır bekler."
 
 {B}"Çok güçlü bir sıfır!" dedi Bilge.
@@ -178,7 +178,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 
 {B}"Plastik tabak kuleleri gibi!" dedi Bilge. {B}"Alttakini almak için üstündekileri kaldırman gerekir."
 
-{Y}"Aynen! Kuleye bir şey koysan da alsan da **sp** hep en üstü gösterir."
+{Y}"Aynen! Kuleye bir öğe koysan da alsan da **sp** hep en üstü gösterir."
 
 **Resim:**
 Horizontal children's book illustration, watercolor style, edge-to-edge, NO white border, NO frame. A colorful stack of plastic plates (like in a cafeteria). Each plate is labeled with a piece of data. An arrow labeled "sp" points to the very top plate. In a sequence on the side: (1) a new plate being placed on top (sp moves down), (2) the top plate being removed (sp moves up). Bilge acts out the scenario with plates. Yonga — a small chubby rounded robot, light blue-silver metallic body, spiral/swirl on belly, big round blue eyes, dome head, short stubby arms, NO TEXT on body, NO antenna — demonstrates the sp arrow moving. ONLY ONE ROBOT IN THE SCENE. Cafeteria scene, warm food-service colors.
@@ -195,7 +195,7 @@ Bunları toplamak için işlemci ikisini alır, toplar,
 sonucu x7 yazmacına yazar."
 
 {Y}"Aferin!" dedi Yonga. {Y}"Ve bu işlemin hiçbir adımında
-bellekten bir şey almak gerekmedi. Her şey hızlı yazmaçlarda oldu!"
+bellekten veri almak gerekmedi. Her şey hızlı yazmaçlarda oldu!"
 
 **Resim:**
 Horizontal children's book illustration, watercolor style, edge-to-edge, NO white border, NO frame. Three illuminated register boxes labeled x5 (showing "10"), x6 (showing "7"), and x7 (showing "?"). A cartoon addition machine in the center takes glowing balls from x5 and x6, combines them, and shoots the result into x7 which now shows "17". Bilge points at x7 with a big smile. Yonga — a small chubby rounded robot, light blue-silver metallic body, spiral/swirl on belly, big round blue eyes, dome head, short stubby arms, NO TEXT on body, NO antenna — operates the addition machine. ONLY ONE ROBOT IN THE SCENE. Bright, mathematic fun colors.

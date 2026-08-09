@@ -111,7 +111,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 {B}"Anlamadım." dedi Bilge. {B}"Aşçı sayısını artırdık ama yemek hâlâ geç mi çıkıyor?"
 Yonga güldü ve küçük ekranında iki farklı soru yazdı.
-{Y}"Sorularım şu: Bir şey ne kadar sürede biter? Bir saatte kaç şey biter?"
+{Y}"Sorularım şu: Tek bir iş ne kadar sürede biter? Bir saatte kaç iş biter?"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bilge masada oturmuş, iki eli şakaklarında, kafası karışmış ama sevimli bir ifadeyle bakıyor. Yonga'nın göğsündeki ekran ikiye bölünmüş: sol tarafta "Bir pizza: 30 dk?" yazıyor, sağ tarafta "Saatte kaç pizza?" yazıyor. Aralarında büyük, parlak bir soru işareti asılı duruyor. Arka planda mutfak bulanık görünüyor. Renk paleti mor ve mavi tonları; hafif gizemli ama çocuksu ve eğlenceli bir atmosfer.
@@ -121,14 +121,14 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 10 — İki Farklı Soru
 
 **Metin:**
-Yonga açıkladı: {Y}"Gecikme, tek bir şeyin ne kadar sürdüğünü söyler."
+Yonga açıkladı: {Y}"Gecikme, tek bir işin ne kadar sürdüğünü söyler."
 
 Bilge kaşlarını çattı: {B}"Gecikme mi? Pizza geç mi kalıyor?"
 
 {Y}"Hayır!" dedi Yonga. {Y}"Bu ad yabancı dilden çevrilirken böyle kalmış. Buradaki gecikme 'geç kalmak' demek değil, bir işin başlamasıyla bitmesi arasında geçen süre demek. Pizza hiç gecikmese de o süre 30 dakikadır."
 
-{Y}"İşlem hacmi ise bir saatte kaç şeyin bittiğini anlatır."
-{Y}"İkisi ayrı ayrı şeyler!" diye vurguladı Yonga, ellerini açarak.
+{Y}"İşlem hacmi ise bir saatte kaç işin bittiğini anlatır."
+{Y}"İkisi ayrı ölçüler!" diye vurguladı Yonga, ellerini açarak.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Sayfa ikiye bölünmüş: sol yarıda "GECİKME" başlığı altında tek bir pizza ve yanında büyük bir saat (30 dk); sağ yarıda "İŞLEM HACMİ" başlığı altında saatte çıkan 10 pizza ve bir saat ikonu. Her iki taraf da farklı renk tonlarıyla (sol: mavi-mor, sağ: turuncu-sarı) vurgulanmış. Ortada Yonga iki tarafa elleri açık durmuş, açıklıyor. Bilge "aaa!" diye anlayan bir ifadeyle sayfanın altında oturuyor. Eğitici ama görsel olarak çekici ve renkli bir kompozisyon.
@@ -138,7 +138,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 11 — Bilgisayar Çekirdekleri de Aynı!
 
 **Metin:**
-{Y}"Bilgisayarlarda da aynı şey var." dedi Yonga. {Y}"Aşçılar gibi çekirdekler!"
+{Y}"Bilgisayarlarda da aynı ayrım var." dedi Yonga. {Y}"Aşçılar gibi çekirdekler!"
 {Y}"Her çekirdek bir işi yapar, ama aynı anda birçok çekirdeği çalıştırabilirsin."
 Bilge heyecanla ayağa kalktı: {B}"O yüzden bilgisayarlar çok çekirdekli oluyor!"
 
@@ -191,7 +191,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 📦 Bir saatte kaç iş bitirilebildiğine **işlem hacmi** (throughput) denir. Dünyanın en hızlı mutfağı bunu artırmıştı.
 
-⏱️ Aşçı sayısı artınca her pizza yine 30 dakikada pişti, gecikme hiç değişmedi. Demek ki gecikme ve işlem hacmi iki ayrı şeydir!
+⏱️ Aşçı sayısı artınca her pizza yine 30 dakikada pişti, gecikme hiç değişmedi. Demek ki gecikme ve işlem hacmi iki ayrı ölçüdür!
 
 🤝 Beş aşçının aynı anda çalışmasına **koşutluk** (parallelism) denir. Birçok işi aynı anda yapmak demektir.
 

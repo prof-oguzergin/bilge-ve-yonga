@@ -10,7 +10,7 @@
 ## Sayfa 1 — Küçük Bir Tren İstasyonu
 
 **Metin:**
-Bilge, oyuncak tren rayını yere kurmuştu. Küçük vagon, istasyondan istasyona ilerliyor, her durakta bir şey alıp bırakıyordu.
+Bilge, oyuncak tren rayını yere kurmuştu. Küçük vagon, istasyondan istasyona ilerliyor, her durakta bir yük alıp bırakıyordu.
 
 {B}"Yonga, bak, vagonum tam yedi durakta duruyor!" dedi Bilge, rayın üstündeki minik istasyon tabelalarını sayarak.
 

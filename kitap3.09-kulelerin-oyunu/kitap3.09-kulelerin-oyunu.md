@@ -12,7 +12,7 @@
 **Metin:**
 Bilge ve annesi bulaşık yıkıyordu. Annesi temiz tabakları üst üste koyuyordu: bir, iki, üç, dört...
 
-{B}"Yonga, bu tabak kulesi bana bir şeyi hatırlattı!" dedi Bilge.
+{B}"Yonga, bu tabak kulesi bana tanıdık geldi!" dedi Bilge.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Sıcak sarı tonlarda aydınlık bir mutfak. Bilge'nin annesi (uzun saçlı, önlüklü) temiz beyaz tabakları özenle üst üste koyuyor. Bilge yanında duruyor, gülümseyen Yonga da mutfak tezgâhında oturuyor. Tabak kulesi beş tabak yüksekliğinde, üst tabak en az karışmış. Pencereden güneş ışığı giriyor.

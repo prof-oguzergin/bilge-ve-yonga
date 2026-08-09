@@ -30,7 +30,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 3 — Sisko'nun Yolu
 
 **Metin:**
-Sıra Sisko'daydı. Sisko hiç acele etmedi: tek bir büyük hamleyle ekmeği kesip peyniri koyup domatesi ekleyip sandviçi kapattı. {D}"Ben tek seferde çok şey yaparım!" dedi Sisko gururla. Ama o tek hamle epey uzun sürdü.
+Sıra Sisko'daydı. Sisko hiç acele etmedi: tek bir büyük hamleyle ekmeği kesip peyniri koyup domatesi ekleyip sandviçi kapattı. {D}"Ben tek seferde birçok adımı yaparım!" dedi Sisko gururla. Ama o tek hamle epey uzun sürdü.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. İri yapılı, üzerinde onlarca araç asılı Sisko robotu, aynı mutfakta ekmek kesip tereyağı sürüp üstüne domates dilimleyip sofrayı düzenliyor — hepsini aynı anda yapıyor ama biraz gürültülü ve yoğun görünüyor. Bilge ve Yonga izliyor; Bilge etkilenmiş ama biraz bunalmış ifadesiyle. Kırmızı, kahverengi ve altın tonlar; yoğunluk ve çok yönlülük hissi.
@@ -90,7 +90,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 9 — Sisko'nun Ailesi x86
 
 **Metin:**
-{Y}"Masaüstü bilgisayarlarda ve dizüstü bilgisayarlarda çoğunlukla x86 işlemciler var." dedi Yonga. {Y}"Bunlar Sisko'nun ailesi, çok şey yapabilirler!"
+{Y}"Masaüstü bilgisayarlarda ve dizüstü bilgisayarlarda çoğunlukla x86 işlemciler var." dedi Yonga. {Y}"Bunlar Sisko'nun ailesi, karmaşık buyrukları yürütebilirler!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Sisko'nun yanına "x86" yazan büyük bir rozet takılıyor. Sisko masaüstü bilgisayarın içinde çalışıyor — etrafında çok sayıda araç, kablo ve renkli ışık var. Bilge dizüstü bilgisayarına bakarak içinde Sisko'yu hayal ediyor; gülümsüyor. Kırmızı, altın ve gümüş tonlar; güçlü ve kapsamlı işlemci hissi.
@@ -141,7 +141,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 🏃 **RISC**: Az sayıda basit buyruk, her biri çok hızlı yapılır. ("Risko gibi!")
 
-🏋️ **CISC**: Çok sayıda karmaşık buyruk, tek seferde çok şey yapılır. ("Sisko gibi!")
+🏋️ **CISC**: Çok sayıda karmaşık buyruk vardır; tek buyrukla birden çok işlem yapılır. ("Sisko gibi!")
 
 📱 Telefon ve tablet işlemcileri (ARM, RISC-V) genellikle **RISC** ailesinden gelir: az enerji harcarlar.
 

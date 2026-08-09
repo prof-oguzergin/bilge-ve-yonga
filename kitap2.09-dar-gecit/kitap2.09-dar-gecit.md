@@ -95,7 +95,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 **Metin:**
 
-{B}"Peki önbellekte aradığın şeyi bulamazsan ne olur?" diye sordu Bilge. {Y}"O zaman depoya gitmen gerekir." dedi Yonga. {Y}"Bilgisayarlarda buna **bulamama** diyoruz. İşlemci ihtiyacı olan veriyi önbellekte bulamaz ve bellekten getirmek zorunda kalır. Bu zaman alır." Bilge içini çekti: {B}"O zaman işlemci yine bekler."
+{B}"Peki önbellekte aradığın veriyi bulamazsan ne olur?" diye sordu Bilge. {Y}"O zaman depoya gitmen gerekir." dedi Yonga. {Y}"Bilgisayarlarda buna **bulamama** diyoruz. İşlemci ihtiyacı olan veriyi önbellekte bulamaz ve bellekten getirmek zorunda kalır. Bu zaman alır." Bilge içini çekti: {B}"O zaman işlemci yine bekler."
 
 **Resim:**
 
@@ -107,7 +107,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 **Metin:**
 
-{B}"Önbellek ne kadar büyük olmalı?" diye sordu Bilge. {Y}"Büyük olursa daha çok şey sığar ama içinde aramak uzun sürer." dedi Yonga. {Y}"Küçük olursa hızlıdır ama az şey sığar." Bilge düşündü: {B}"Demek ki tam doğru boyutu bulmak önemli." Yonga başını salladı: {Y}"Bu, bilgisayar mimarlarının her zaman çözdüğü bir denge sorusudur."
+{B}"Önbellek ne kadar büyük olmalı?" diye sordu Bilge. {Y}"Büyük olursa daha çok veri sığar ama içinde aramak uzun sürer." dedi Yonga. {Y}"Küçük olursa hızlıdır ama az veri sığar." Bilge düşündü: {B}"Demek ki tam doğru boyutu bulmak önemli." Yonga başını salladı: {Y}"Bu, bilgisayar mimarlarının her zaman çözdüğü bir denge sorusudur."
 
 **Resim:**
 
@@ -167,7 +167,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 **Metin:**
 
-Eve dönerken Bilge'nin kafasında yeni bir soru belirdi: {B}"Peki ya önbellekte yanlış şeyler saklanırsa?" Yonga güldü: {Y}"İşte o ayrı bir konu: önbellek yönetimi denen büyüleyici bir alan! Ama o hikayeyi başka bir gün anlatırım." Bilge sabırsızlıkla güldü: {B}"Söz mü?" Yonga ekranında küçük bir parmak sallama canlandırması gösterdi: {Y}"Söz!"
+Eve dönerken Bilge'nin kafasında yeni bir soru belirdi: {B}"Peki ya önbellekte yanlış veriler saklanırsa?" Yonga güldü: {Y}"İşte o ayrı bir konu: önbellek yönetimi denen büyüleyici bir alan! Ama o hikayeyi başka bir gün anlatırım." Bilge sabırsızlıkla güldü: {B}"Söz mü?" Yonga ekranında küçük bir parmak sallama canlandırması gösterdi: {Y}"Söz!"
 
 **Resim:**
 

@@ -20,7 +20,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 2 — Yonga'nın Sürprizi
 
 **Metin:**
-Yonga, Bilge'nin omzuna kondu ve fısıldadı: {Y}"Sen bir tek anahtar öğrendin. Bugün seni milyarlarcasının arasına götüreceğim. Hem de ne dediklerini öğreneceksin." Bilge durdu. {B}"Anahtarlar bir şey mi diyor?"
+Yonga, Bilge'nin omzuna kondu ve fısıldadı: {Y}"Sen bir tek anahtar öğrendin. Bugün seni milyarlarcasının arasına götüreceğim. Hem de ne dediklerini öğreneceksin." Bilge durdu. {B}"Anahtarlar bir bilgi mi veriyor?"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga, Bilge'nin omzuna konmuş; küçük elleriyle Bilge'nin kulağına fısıldarcasına yaklaşmış. Bilge şaşkınlıkla dönerek Yonga'ya bakıyor, soru işaretleri ufak ufak kafasının etrafında uçuşuyor (çizgi roman tarzında). Arka planda Bilge'in sevimli odası; rafta oyuncaklar ve kitaplar var. Sıcak oranj ve altın renkleri; samimi, arkadaşça bir an.
@@ -70,7 +70,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 7 — Sıfır ve Bir
 
 **Metin:**
-Yonga anlattı: {Y}"Kapalı anahtar '0' demek. Açık anahtar '1' demek. Bilgisayarlar yalnızca 0 ile 1'i bilir!" {Y}"Bir tek 0 ya da bir tek 1'e **bit** denir; bilgisayarın en küçük bilgi parçası odur." Bilge düşündü: {B}"Sadece iki şey mi?"
+Yonga anlattı: {Y}"Kapalı anahtar '0' demek. Açık anahtar '1' demek. Bilgisayarlar yalnızca 0 ile 1'i bilir!" {Y}"Bir tek 0 ya da bir tek 1'e **bit** denir; bilgisayarın en küçük bilgi parçası odur." Bilge düşündü: {B}"Sadece 0 ve 1 mi?"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. İki büyük transistör kapısı yan yana: solda kapalı kapı üzerinde büyük kırmızı "0" yazıyor, sağda açık kapıdan mavi ışık fışkırıyor ve üzerinde büyük yeşil "1" yazıyor. Bilge ve Yonga ikisinin önünde durmuş, Bilge parmağıyla 0 ve 1'i sayıyor. Arka plan koyu, 0 ve 1 rakamları ise parlak ve belirgin. Kırmızı, yeşil ve mavi; sade, akılda kalıcı bir "0/1 = kapalı/açık" görselleştirmesi.

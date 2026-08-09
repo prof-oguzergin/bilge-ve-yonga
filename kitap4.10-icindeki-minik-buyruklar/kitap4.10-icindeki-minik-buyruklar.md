@@ -38,7 +38,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 3 — Omlet Tarifi
 
 **Metin:**
-Yonga bir benzetme yaptı. {Y}"Annen sana omlet yap dediğinde, aslında tek bir şey yapmıyorsun. Yumurtayı kır, çırp, tavaya dök, karıştır. Dört küçük hareket!"
+Yonga bir benzetme yaptı. {Y}"Annen sana omlet yap dediğinde, aslında tek bir hareket yapmıyorsun. Yumurtayı kır, çırp, tavaya dök, karıştır. Dört küçük hareket!"
 
 Bilge güldü. {B}"Doğru! Omlet yap kısa bir buyruk ama içinde küçük adımlar saklı."
 
@@ -126,7 +126,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 10 — Risko ile Sisko'nun Defterleri
 
 **Metin:**
-{Y}"Hani şu iki kardeşi hatırlıyor musun, Risko ile Sisko'yu?" dedi Yonga. {Y}"Sisko'nun buyrukları çok şey yaptığı için defteri kalındır ve mikroprogramı sık sık kullanır. Risko ise yalın buyruklar sever, sayfaları kısacıktır, bazen mikroprograma hiç gerek duymaz."
+{Y}"Hani şu iki kardeşi hatırlıyor musun, Risko ile Sisko'yu?" dedi Yonga. {Y}"Sisko'nun buyrukları tek seferde çok sayıda işlem yaptığı için defteri kalındır ve mikroprogramı sık sık kullanır. Risko ise yalın buyruklar sever, sayfaları kısacıktır, bazen mikroprograma hiç gerek duymaz."
 
 Bilge güldü. {B}"Sisko şişman bir tarif kitabı, Risko ince bir kartpostal gibi!"
 

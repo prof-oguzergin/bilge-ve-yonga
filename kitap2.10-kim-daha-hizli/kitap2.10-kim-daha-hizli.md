@@ -40,7 +40,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 4 — Dizüstünün Dengesi
 
 **Metin:**
-Sıra dizüstü bilgisayara geldi. {B}"Bu ortada bir şey." dedi Bilge. Yonga açıkladı: {Y}"Dizüstü bilgisayar dengededir: ne çok güçlü ne çok zayıf. Taşınabilir, pilli, ama masaüstüne göre biraz daha az güçlü. Okul ödevi, video izleme, hafif oyunlar için mükemmel." Bilge güldü: {B}"Her işi biraz yapabilen biri."
+Sıra dizüstü bilgisayara geldi. {B}"Bu ikisinin ortasında." dedi Bilge. Yonga açıkladı: {Y}"Dizüstü bilgisayar dengededir: ne çok güçlü ne çok zayıf. Taşınabilir, pilli, ama masaüstüne göre biraz daha az güçlü. Okul ödevi, video izleme, hafif oyunlar için mükemmel." Bilge güldü: {B}"Her işi biraz yapabilen biri."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Dizüstü bilgisayar çizimi; etrafında denge terazisi var: bir tarafta "Güç", diğer tarafta "Taşınabilirlik" yazan kefeler denge durumunda. Altında üç küçük ikon: kitap (okul), film şeridi (video), hafif oyun denetleyicisi. Bilge dizüstüne bakıyor, yüzünde anlayış ifadesi.
@@ -90,7 +90,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 9 — Neden Tek Cihaz Olmaz?
 
 **Metin:**
-Bilge bir soru daha sordu: {B}"Neden tek bir 'her şey için iyi' bilgisayar yapmıyoruz?" Yonga başını salladı: {Y}"Çünkü farklı işler farklı şeyler gerektirir. Telefon küçük ve az enerji harcar, bunun için özel yapılmış. Süper bilgisayar hız ve güç ister, onun için özel yapılmış. Hepsini tek cihaza sıkıştırmak imkansız."
+Bilge bir soru daha sordu: {B}"Neden tek bir 'her şey için iyi' bilgisayar yapmıyoruz?" Yonga başını salladı: {Y}"Çünkü farklı işler farklı özellikler gerektirir. Telefon küçük ve az enerji harcar, bunun için özel yapılmış. Süper bilgisayar hız ve güç ister, onun için özel yapılmış. Hepsini tek cihaza sıkıştırmak imkansız."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Karikatür bir bilgisayar denemesi: tek cihaz her şeyi yapmaya çalışıyor, çok büyük, çok ağır, her tarafından kablo çıkıyor, aşırı ısınmış buhar var. Üstünde büyük kırmızı çarpı. Yanında küçük doğru örnekler: telefon ve süper bilgisayar ayrı ayrı, her ikisinin de üstünde yeşil onay işareti.
@@ -130,7 +130,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 13 — Günlük Notu
 
 **Metin:**
-O gece Bilge günlüğüne yazdı: {B}"Bugün öğrendim ki, 'en iyi' diye tek bir cevap yok. Hangi işi yaptığına bağlı olarak doğru araç değişir. Tıpkı kalemle resim yapabileceğin gibi, fırçayla da. Ama ikisi farklı şeyler için." Yonga küçük bir yıldız canlandırması gösterdi: {Y}"Bu Bilge'nin kendi düşüncesi!"
+O gece Bilge günlüğüne yazdı: {B}"Bugün öğrendim ki, 'en iyi' diye tek bir cevap yok. Hangi işi yaptığına bağlı olarak doğru araç değişir. Tıpkı kalemle resim yapabileceğin gibi, fırçayla da. Ama ikisi farklı işler için uygun." Yonga küçük bir yıldız canlandırması gösterdi: {Y}"Bu Bilge'nin kendi düşüncesi!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Gece, sıcak masaüstü lambası ışığında Bilge günlüğüne yazıyor. Sayfada küçük çizimler: kalem ve fırça yan yana, altında "farklı araçlar, farklı işler" yazıyor. Yonga masanın kenarında oturmuş, ekranında altın rengi parlayan bir yıldız animasyonu. Pencereden ay ve yıldızlar görünüyor.

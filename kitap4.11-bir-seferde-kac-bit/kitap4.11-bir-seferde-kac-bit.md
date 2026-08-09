@@ -199,7 +199,7 @@ Bilge gözlerini kocaman açtı. {B}"4 milyar mı?"
 
 {Y}"64." dedi Yonga. {Y}"Cebindeki telefon da, sınıftaki bilgisayar da. Elli yılda 4 bitten 64 bite geldik."
 
-Bilge tabletine baktı, sonra Yonga'ya. {B}"Demek bu küçük şeyin kucağı, en baştaki işlemciden on altı kat geniş."
+Bilge tabletine baktı, sonra Yonga'ya. {B}"Demek bu küçük tabletin kucağı, en baştaki işlemciden on altı kat geniş."
 
 **Resim:** Bilge sınıfta sıranın üstünde oturuyor, kucağında bir tablet var. Tabletten yayılan hologramda solda dört ışıklı kare tek sıra hâlinde duruyor, sağda ise sekiz sıra sekiz sütun ışıklı kare geniş bir öbek oluşturuyor. Yonga onun omzunun yanında süzülüyor.
 
@@ -210,9 +210,9 @@ Bilge tabletine baktı, sonra Yonga'ya. {B}"Demek bu küçük şeyin kucağı, e
 **Metin:**
 Zil çaldı. Bilge son kitapları da dolaba yerleştirdi ve ellerini çırptı.
 
-{B}"Bugün bir şey anladım." dedi. {B}"Senin ne kadar hızlı olduğun yalnızca ne kadar çabuk çalıştığına bağlı değil. Bir seferde ne kadarını kucağına aldığına da bağlı."
+{B}"Bugün önemli bir ders çıkardım." dedi. {B}"Senin ne kadar hızlı olduğun yalnızca ne kadar çabuk çalıştığına bağlı değil. Bir seferde ne kadarını kucağına aldığına da bağlı."
 
-Yonga'nın ışıkları neşeyle yanıp söndü. {Y}"İşte bu yüzden bana bakarken iki şeyi birden sorman gerekir Bilge: ne kadar hızlı ve ne kadar geniş."
+Yonga'nın ışıkları neşeyle yanıp söndü. {Y}"İşte bu yüzden bana bakarken iki soruyu birden sorman gerekir Bilge: ne kadar hızlı ve ne kadar geniş."
 
 **Resim:** Sınıfın kapısında Bilge çantasını omzuna atmış, dolaba son bir kez bakıyor; raflar düzenli, kitaplar yerleşmiş. Yonga kapının yanında süzülüyor. Pencereden ikindi güneşi giriyor.
 

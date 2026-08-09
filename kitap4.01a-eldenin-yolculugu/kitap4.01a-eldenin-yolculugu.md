@@ -22,7 +22,7 @@ Yonga başını salladı, gözleri parladı. {Y}"Bilgisayar da toplama yaparken 
 
 ---
 
-## Sayfa 2 — Elde Dediğimiz Şey
+## Sayfa 2 — Elde Ne Demek?
 
 **Metin:**
 {Y}"Bu taşan kum parçasına bilgisayar dünyasında **elde** denir." dedi Yonga.
@@ -72,9 +72,9 @@ Bilge kaşlarını çattı. {B}"Bir-sıfır mı? İkilik düzende iki, bir-sıf�
 **Metin:**
 {B}"Ama Yonga, ya bir basamağa hem üstteki sayının biti, hem alttaki sayının biti, hem de komşudan gelen elde geliyorsa?"
 
-{Y}"Harika soru! O yüzden gerçek bir toplayıcıya **tam toplayıcı** denir. Üç şeyi birden toplar: üstteki biti, alttaki biti ve gelen eldeyi."
+{Y}"Harika soru! O yüzden gerçek bir toplayıcıya **tam toplayıcı** denir. Üç girdiyi birden toplar: üstteki biti, alttaki biti ve gelen eldeyi."
 
-{B}"Üç şey mi? Peki sonuçta ne çıkar?"
+{B}"Üç girdi mi? Peki sonuçta ne çıkar?"
 
 {Y}"İki sonuç verir: kendi toplam biti ve komşusuna göndereceği giden elde."
 

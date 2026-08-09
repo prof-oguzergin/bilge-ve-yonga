@@ -60,7 +60,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 6 — Bit Dönüşümü Nedir?
 
 **Metin:**
-Bilge kaşlarını çattı. {B}"Bir sıfır bire dönüşürse ne olur?" Yonga açıkladı: {Y}"Bilgisayarlar her şeyi 0 ve 1 ile yazar. Eğer yanlış bir bit olursa bilgisayar yanlış şey yapabilir, hatta durabilir!" Bu çok büyük bir sorun!
+Bilge kaşlarını çattı. {B}"Bir sıfır bire dönüşürse ne olur?" Yonga açıkladı: {Y}"Bilgisayarlar her şeyi 0 ve 1 ile yazar. Eğer yanlış bir bit olursa bilgisayar yanlış bir işlem yapabilir, hatta durabilir!" Bu çok büyük bir sorun!
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Büyük, basit bir infografik tarzı çizim: sol tarafta "0 1 0 1 1 0" yazılı bir satır (doğru veri), ortada kötü bir kozmik ışın oku, sağ tarafta "0 1 0 **1** 1 0" (yanlış bit kırmızı ve büyük, yıldız işaretli). Altında küçük Curiosity rover kafası karışık ifadeyle. Bilge ve Yonga altta oturmuş bu infografiğe bakıyor. Sahne öğretici ama eğlenceli. Kırmızı, mavi ve sarı tonları.

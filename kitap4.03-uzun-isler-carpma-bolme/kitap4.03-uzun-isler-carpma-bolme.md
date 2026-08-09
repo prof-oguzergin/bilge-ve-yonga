@@ -12,7 +12,7 @@
 **Metin:**
 Bilge defterindeki eski notlara bakıyordu.
 
-{B}"Yonga, toplamayı öğrenirken bir şey demiştin." dedi. {B}"Çarpma, aynı sayıyı tekrar tekrar toplamakmış. 3 kere 4, dört tane 3'ü toplamakmış."
+{B}"Yonga, toplamayı öğrenirken bir kural söylemiştin." dedi. {B}"Çarpma, aynı sayıyı tekrar tekrar toplamakmış. 3 kere 4, dört tane 3'ü toplamakmış."
 
 {Y}"Doğru hatırlıyorsun!" dedi Yonga. {Y}"Peki sence bilgisayar gerçekten böyle mi yapıyor, aynı sayıyı defalarca toplayarak?"
 
@@ -58,7 +58,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 Bilge parmaklarını şıklattı. {B}"Bir-sıfır-sıfır-sıfır sekiz demek! Demek bir basamak sola kaydırmak sayıyı ikiye katlıyor."
 
-{Y}"Tam üstüne bastın." dedi Yonga. {Y}"Bir basamak sola kaydırmak, sayıyı 2 ile çarpmakla aynı şeydir. Çarpma sırasında bunu defalarca kullanırım."
+{Y}"Tam üstüne bastın." dedi Yonga. {Y}"Bir basamak sola kaydırmak, sayıyı 2 ile çarpmakla aynı sonucu verir. Çarpma sırasında bunu defalarca kullanırım."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bir merdiven basamakları üzerinde, her basamakta bir sayı kutusu duruyor: en alt basamakta "4", bir üstünde "8", en üstünde "16". Küçük oklar her basamağa "×2" yazarak işaret ediyor. Bilge merdivenin yanında ayakta, elini basamaklara doğru uzatmış sayıyor. Yonga merdivenin tepesinde zıplar gibi duruyor, kollarını kaldırmış kutlama yapıyor.
@@ -211,7 +211,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 🔁 **Çarpma**, tek bir toplamayla değil, **kaydır ve topla** adımlarının tekrarıyla yapılır. Çarpanın her bitine bakılır, bit 1 ise çarpılan sonuca eklenir.
 
-⬅️ Bir sayıyı bir basamak sola **kaydırmak**, o sayıyı 2 ile çarpmakla aynı şeydir.
+⬅️ Bir sayıyı bir basamak sola **kaydırmak**, o sayıyı 2 ile çarpmakla aynı sonucu verir.
 
 🧮 3 × 5 gibi küçük bir örnekte bile üç ayrı adım gerekir: bak, ekle (ya da ekleme), kaydır.
 

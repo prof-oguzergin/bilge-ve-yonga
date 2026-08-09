@@ -40,7 +40,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 4 — ANLA: Ne Demek Oluyor?
 
 **Metin:**
-Yonga düşündü: {Y}"Ekmeği al... Bu ne demek?" Kafasındaki küçük dişliler döndü. {Y}"Anladım! Tezgahtaki o yuvarlak şey ekmek, onu almam gerekiyor!" Bu "ANLA" adımıydı.
+Yonga düşündü: {Y}"Ekmeği al... Bu ne demek?" Kafasındaki küçük dişliler döndü. {Y}"Anladım! Tezgahtaki o yuvarlak somun ekmek, onu almam gerekiyor!" Bu "ANLA" adımıydı.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga'nın kafasının içinde görünür düşünce baloncukları var: birinde "Ekmeği al?" yazıyor, diğerinde ekmek görseli beliriyor, üçüncüsünde ok işaretiyle "tezgahtaki!" yazıyor. Sayfanın üst köşesinde büyük sarı daire içinde "ANLA" yazıyor. Bilge gülerek Yonga'nın düşünmesini izliyor. Düşünce baloncukları sarı-altın tonlarında; şaşırtıcı ve eğlenceli bir "aha!" anı.

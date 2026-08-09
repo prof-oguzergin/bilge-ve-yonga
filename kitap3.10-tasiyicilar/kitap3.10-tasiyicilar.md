@@ -34,7 +34,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 3 — Bellek ve Yazmaçlar
 
 **Metin:**
-{Y}"Bilgisayarda da tam aynı şey var." dedi Yonga. {Y}"Bellek kütüphane gibidir: büyük, çok şey tutar ama uzak. Yazmaçlar ise masa gibidir: küçük ama tam önünde!"
+{Y}"Bilgisayarda da tam aynı düzen var." dedi Yonga. {Y}"Bellek kütüphane gibidir: büyük, çok veri tutar ama uzak. Yazmaçlar ise masa gibidir: küçük ama tam önünde!"
 
 Bilge gözlerini kıstı. {B}"Yazmaçlar mı? Onları biliyorum!"
 

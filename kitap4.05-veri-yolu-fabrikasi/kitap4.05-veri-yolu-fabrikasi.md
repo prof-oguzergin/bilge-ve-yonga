@@ -10,7 +10,7 @@
 ## Sayfa 1 — Bütün Parçalar Elimizde
 
 **Metin:**
-{B}"Yonga, buyrukları öğrendim, yazmaçları öğrendim, AMB'nin nasıl topladığını da öğrendim." dedi Bilge. {B}"Ama hâlâ bir şeyi bilmiyorum. Bütün bunlar bir araya gelince nasıl çalışıyor?"
+{B}"Yonga, buyrukları öğrendim, yazmaçları öğrendim, AMB'nin nasıl topladığını da öğrendim." dedi Bilge. {B}"Ama hâlâ veri yolunun görevini bilmiyorum. Bütün bunlar bir araya gelince nasıl çalışıyor?"
 
 Yonga gözlerini parlattı. {Y}"Harika soru! Bugün küçük parçaları alıp gerçek bir makine kuracağız, tıpkı bir fabrika gibi. Hazır mısın?"
 

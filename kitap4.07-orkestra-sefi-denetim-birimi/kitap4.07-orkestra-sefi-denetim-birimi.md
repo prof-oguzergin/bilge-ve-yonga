@@ -14,7 +14,7 @@ Bilge, elinde konser programıyla evin kapısından içeri girdi, gözleri hâl�
 
 {B}"Yonga, orkestra şefini gördün mü?" dedi. {B}"Kimse çalgı çalmıyordu ama o sopayı sallayınca herkes aynı anda başladı!"
 
-Yonga ışıklarını hızla yakıp söndürdü. {Y}"Bu bana çok tanıdık geldi Bilge. İşlemcimin içinde de tam öyle bir şey var."
+Yonga ışıklarını hızla yakıp söndürdü. {Y}"Bu bana çok tanıdık geldi Bilge. İşlemcimin içinde de tam öyle bir şef var."
 
 **Resim:**
 Bilge elinde konser programıyla eve giriyor, gözlükleri parlıyor, arkasında uzaktan orkestra sahnesi hayal balonu gibi görünüyor; Yonga kapıda onu karşılıyor, ışıkları heyecanla yanıp sönüyor.
@@ -54,7 +54,7 @@ Yonga'nın havaya yansıttığı hologramda minik bir şef figürü elinde küç
 
 Bilge başını salladı. {B}"Notada hangi çalgının ne çalacağı yazar. Şef de notaya bakıp herkese işaret verir."
 
-Yonga ışığını parlattı. {Y}"Benim şefim de notaya bakar, ama benim notam buyruk denen şey. Çalgıcılarım da AMB, yazmaçlar, bellek ve onları bağlayan teller."
+Yonga ışığını parlattı. {Y}"Benim şefim de notaya bakar, ama onun notası buyruktur. Çalgıcılarım da AMB, yazmaçlar, bellek ve onları bağlayan teller."
 
 **Resim:**
 Bölünmüş sahne: solda gerçek orkestra şefi nota standına bakıyor, sağda Yonga'nın minik şef figürü bir buyruk kartına bakıyor; iki taraf arasında oklarla eşleştirme çizgileri.
@@ -66,7 +66,7 @@ Bölünmüş sahne: solda gerçek orkestra şefi nota standına bakıyor, sağda
 **Metin:**
 {B}"Peki şefin notada ne okuyor?" diye sordu Bilge.
 
-Yonga bir buyruk kutusu gösterdi, en baştaki küçük bölüm parlıyordu. {Y}"Hatırlıyor musun, her buyruğun başında bir işlem kodu vardı? Denetim birimi önce oraya bakıyor. İşlem kodu ona hangi iş olduğunu söylüyor: toplama mı, yükleme mi, başka bir şey mi."
+Yonga bir buyruk kutusu gösterdi, en baştaki küçük bölüm parlıyordu. {Y}"Hatırlıyor musun, her buyruğun başında bir işlem kodu vardı? Denetim birimi önce oraya bakıyor. İşlem kodu ona hangi iş olduğunu söylüyor: toplama mı, yükleme mi, başka bir işlem mi."
 
 **Resim:**
 Bir buyruk kutusu, en soldaki bölümü işlem kodu olarak parlak renkte vurgulanmış; minik şef figürü büyüteçle o bölüme bakıyor.
@@ -100,7 +100,7 @@ Basit akış şeması: birinci adımda yazmaç A ve B'den oklar tellere, ikinci 
 ## Sayfa 8 — Yükleme Buyruğu
 
 **Metin:**
-{B}"Peki bellekten bir şey almak istersem?" diye sordu Bilge.
+{B}"Peki bellekten veri almak istersem?" diye sordu Bilge.
 
 Yonga başka bir buyruk gösterdi. {Y}"O zaman şef farklı işaretler gönderir. Önce AMB'ye yine topla der ama bu kez iki sayıyı toplamak için değil. Yazmaçtaki adrese buyruğun içindeki küçük sayıyı ekletip bellekte bakılacak raf gözünü buldurur. Sonra bellek okuma yolunu açar, gelen sayıyı bir yazmaca yazdırır. Aynı şef ama her buyrukta başka bir desen çalıyor."
 

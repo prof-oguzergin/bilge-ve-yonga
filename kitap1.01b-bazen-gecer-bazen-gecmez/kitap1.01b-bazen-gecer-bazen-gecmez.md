@@ -50,7 +50,7 @@ Masanın ortasında parlak gri, pürüzsüz bir silisyum parçası duruyor. Solu
 ## Sayfa 5 — Yarı İletken
 
 **Metin:**
-{Y}"Ne tam iletken ne tam yalıtkan olan maddelere **yarı iletken** denir." dedi Yonga. {Y}"Silisyum bunların en ünlüsü." {B}"Peki bu neden iyi bir şey?" diye sordu Bilge. {B}"Bakır her zaman geçiriyor; o daha kullanışlı değil mi?" {Y}"Hayır." dedi Yonga. {Y}"Çünkü bakıra 'şimdi geçirme' diyemezsin."
+{Y}"Ne tam iletken ne tam yalıtkan olan maddelere **yarı iletken** denir." dedi Yonga. {Y}"Silisyum bunların en ünlüsü." {B}"Peki yarı iletken olması neden işe yarıyor?" diye sordu Bilge. {B}"Bakır her zaman geçiriyor; o daha kullanışlı değil mi?" {Y}"Hayır." dedi Yonga. {Y}"Çünkü bakıra 'şimdi geçirme' diyemezsin."
 
 **Resim:**
 Yonga havada üç kutuluk bir hologram açmış. Soldaki kutunun içinden ışık damlacıkları durmadan akıyor. Sağdaki kutu tamamen karanlık, içinde hiç akış yok. Ortadaki kutu yarı aydınlık, içindeki akış duraksamış gibi. Bilge ortadaki kutuyu parmağıyla işaret ediyor, gözleri parlıyor.

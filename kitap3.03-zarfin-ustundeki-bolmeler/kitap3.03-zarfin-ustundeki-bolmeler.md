@@ -44,7 +44,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 **Metin:**
 {B}"Neden tek bir biçim yetmiyor?" diye sordu Bilge.
 
-{Y}"Gönderdiğin şey değişince zarf da değişir." dedi Yonga. {Y}"Bir kartpostalda yalnız adres vardır. Bir kargoda ağırlık, boy, gönderen de yazar. Buyruklar da öyle: kimi üç yazmaç ister, kimi bir sayı taşır, kimi gidilecek yeri söyler. Bu yüzden altı zarf biçimi var. Her biri başka şey taşır ama hepsi 32 bit boyundadır."
+{Y}"Gönderinin türü değişince zarf da değişir." dedi Yonga. {Y}"Bir kartpostalda yalnız adres vardır. Bir kargoda ağırlık, boy, gönderen de yazar. Buyruklar da öyle: kimi üç yazmaç ister, kimi bir sayı taşır, kimi gidilecek yeri söyler. Bu yüzden altı zarf biçimi var. Her biri farklı bilgiler taşır ama hepsi 32 bit boyundadır."
 
 {B}"Zarflar farklı ama hepsi aynı posta kutusuna sığıyor!" dedi Bilge.
 
@@ -259,7 +259,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 
 ⬇️ **YÜKLE / SAKLA:** Bellekten yazmaca al / yazmaçtan belleğe yaz.
 
-📏 **Altı biçim, tek boy:** Zarflar farklı şeyler taşır ama hepsi 32 bittir.
+📏 **Altı biçim, tek boy:** Zarflar farklı bilgiler taşır ama hepsi 32 bittir.
 
 📐 **Alanlar hep aynı yerde:** Hedef ve birinci kaynak her biçimde aynı bitlerde durur; işlemci buyruğun türünü anlamadan onları okumaya başlar.
 

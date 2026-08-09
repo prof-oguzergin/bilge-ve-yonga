@@ -199,7 +199,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 **Metin:**
 {Y}"Derleyici bazen hata iletisi verir." dedi Yonga.
 
-{Y}"Bu aslında çok iyi bir şey!
+{Y}"Bu aslında çok iyi bir haber!
 Demek ki derleyici bir hata olduğunu anladı
 ve sana söylüyor.
 Makine koduna çevirmeden önce yakaladı.

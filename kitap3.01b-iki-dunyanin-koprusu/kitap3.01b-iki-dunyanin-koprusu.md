@@ -126,7 +126,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 **Metin:**
 {Y}"Yürüt adımında işlemci harekete geçer." dedi Yonga.
 {Y}"'İki sayıyı topla' dediyse toplar.
-'Bellekten bir şey al' dediyse alır.
+'Bellekten veri al' dediyse alır.
 'Şu adrese zıpla' dediyse zıplar!"
 
 {B}"Ve sonra?" diye sordu Bilge.
@@ -222,7 +222,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 O gece Bilge uyumadan önce gözlerini kapattı ve düşündü:
 
 {B}"Şu an bu odada, bu bilgisayarda, saniyede milyarlarca kez
-bir şeyler getirilip çözülüp yürütülüyor.
+buyruklar getirilip çözülüp yürütülüyor.
 
 Görünmez ama gerçek.
 Küçük ama inanılmaz hızlı.

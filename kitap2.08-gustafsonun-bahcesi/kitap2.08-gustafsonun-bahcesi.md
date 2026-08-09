@@ -149,4 +149,4 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 📈 Bilgisayar gücü arttıkça insanlar daha önce imkansız görünen sorunları çözebiliyor.
 
-🤝 Birlikte çalışmak, hem bahçede hem de bilgisayarlarda daha büyük şeyler başarmanın yoludur.
+🤝 Birlikte çalışmak, hem bahçede hem de bilgisayarlarda daha büyük işler başarmanın yoludur.

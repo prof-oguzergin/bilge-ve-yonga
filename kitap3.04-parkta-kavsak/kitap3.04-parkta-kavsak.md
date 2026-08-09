@@ -52,7 +52,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 Eğer x5 ve x6 **eşitse**, Program Sayacını 20 adres ileri götür.
 Eşit **değilse**, bir sonraki buyruğa geç, hiç atlamadan devam et."
 
-{B}"Demek atlama olmadığında özel bir şey yapılmıyor." dedi Bilge.
+{B}"Demek atlama olmadığında ek bir işlem yapılmıyor." dedi Bilge.
 
 {Y}"Evet! Zaten bir sonraki buyruğa devam etmek varsayılandır."
 
@@ -66,7 +66,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 **Metin:**
 {B}"Döngüler ne?" diye sordu Bilge.
 
-{Y}"Döngü, bir şeyi belirli kez ya da bir koşul bozulana kadar tekrarlamak demek." dedi Yonga.
+{Y}"Döngü, bir işlem dizisini belirli sayıda ya da bir koşul bozulana kadar tekrarlamak demek." dedi Yonga.
 
 {Y}"'10 kez zıpla' demek gibi.
 Nasıl mı? Dallanma buyruğuyla!
@@ -160,7 +160,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 dönüş adresi, kayıtlı yazmaçlar, yerel değişkenler hepsi orada."
 
 {Y}"**fp** (çerçeve işaretçisi) o odanın kapısını gösterir." dedi Yonga.
-{Y}"**sp** ise kulenin en üstünü gösterir: en son konulan şey neredeyse orası."
+{Y}"**sp** ise kulenin en üstünü gösterir: en son konulan öğe neredeyse orası."
 
 {B}"Bir apartman gibi." dedi Bilge. {B}"Her fonksiyon kendi dairesinde."
 
@@ -191,8 +191,8 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 11 — Bütün Bunlar Bir if-else İçin
 
 **Metin:**
-Bilge bir şey düşündü: {B}"Bir if-else cümlesi yazdığımda
-aslında ne kadar çok şey oluyor arkada!"
+Bilge durup düşündü: {B}"Bir if-else cümlesi yazdığımda
+aslında arka planda ne kadar çok işlem yapılıyor!"
 
 {Y}"Yazdığımız programı işlemcinin diline çeviren bir araç var: **derleyici**." dedi Yonga. {Y}"Derleyici senin if-else'ini karşılaştırma buyruğuna ve dallanma buyruğuna çevirir. Koşul tutmuyorsa BEQ ya da BNE ile öteki dala atlar. Tüm mantık sıfır ve birlerle!"
 
