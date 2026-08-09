@@ -2,7 +2,7 @@
 """Bilge ve Yonga sitesini kurar: her kitap icin tarayici okuyucu (okuyucu/) +
 ana sayfa (index.html). Gorseller depodaki gercek dosyalara baglanir; serit icin
 kucuk jpg'ler uretilir. Yeni kitap eklerken BOOKS listesine bir satir ekleyip calistir."""
-import io, json, re, zipfile
+import hashlib, io, json, re, zipfile
 from pathlib import Path
 from urllib.parse import quote
 from xml.sax.saxutils import escape
@@ -173,6 +173,21 @@ def find_pdf(folder_dir):
     return pdfs[0].name if pdfs else None
 
 
+def _damga(yol):
+    """Görsel adresine dosyanın içeriğinden türeyen bir sürüm damgası ekler.
+
+    Hizmet çalışanı görselleri adrese göre kalıcı önbelleğe alıyor. Bir kare
+    düzeltilip aynı adla yayımlanınca okur eski kareyi görmeye devam
+    ediyordu (9 Ağu 2026'da 1.02b'nin altı parmaklı elleri böyle yaşandı).
+    İçerik değişince adres de değişsin ki önbellek kendiliğinden ıskalasın.
+    """
+    try:
+        h = hashlib.md5(Path(yol).read_bytes()).hexdigest()[:8]
+    except OSError:
+        return ''
+    return '?v=' + h
+
+
 def parse_book(folder, no, title, subtitle):
     d = REPO / folder
     md = (d / (folder + '.md')).read_text(encoding='utf-8')
@@ -187,7 +202,7 @@ def parse_book(folder, no, title, subtitle):
         'eyebrow': f'Bilge ve Yonga · Kitap {no}',
         'title': title,
         'sub': subtitle,
-        'img': f'../{folder}/resimler/GPT_Kapak.jpg',
+        'img': f'../{folder}/resimler/GPT_Kapak.jpg' + _damga(res / 'GPT_Kapak.jpg'),
         'thumb': f'thumbs/{key}_K.jpg',
     })
 
@@ -212,7 +227,7 @@ def parse_book(folder, no, title, subtitle):
             continue
         make_thumb(png, THUMBS / f'{key}_{n}.jpg')
         pages.append({'type': 'page', 'no': n, 'title': ttl, 'text': text,
-                      'img': f'../{folder}/resimler/GPT_Sayfa_{n}.jpg',
+                      'img': f'../{folder}/resimler/GPT_Sayfa_{n}.jpg' + _damga(png),
                       'thumb': f'thumbs/{key}_{n}.jpg'})
 
     # bugun ne ogrendik
@@ -1131,7 +1146,9 @@ def _card_html(folder, no, title, sub, glow):
     return (
         '      <article class="book" style="--bg:' + glow + '">\n'
         '        <div class="book-cover">\n'
-        f'          <a href="{read_href}"><img src="kapaklar/{kapak}.jpg" alt="{title} kapağı" loading="lazy"></a>\n'
+        f'          <a href="{read_href}"><img src="kapaklar/{kapak}.jpg'
+        f'{_damga(REPO / "kapaklar" / (kapak + ".jpg"))}" '
+        f'alt="{title} kapağı" loading="lazy"></a>\n'
         '        </div>\n'
         '        <div class="book-meta">\n'
         '          <div class="book-ust">\n'
