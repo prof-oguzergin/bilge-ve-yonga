@@ -1266,9 +1266,9 @@ def temizle_bayat_okuyucular():
 # yere yazilmaz; mimari kitabinda aylarca surum DOI'si kullanilip atif verenler
 # ilk taslaga yonlendirilmisti.
 CILTLER = {
-    '1': {'doi': '10.5281/zenodo.21725876', 'kayit': 21854870,
+    '1': {'doi': '10.5281/zenodo.21725876', 'kayit': 21859164,
           'dosya': 'Bilge ve Yonga - Cilt 1 - Kumdan Bilgisayara.pdf',
-          'sayfa': 171, 'mb': 34},
+          'sayfa': 185, 'mb': 36},
     '2': {'doi': '10.5281/zenodo.21725924', 'kayit': 21725925,
           'dosya': 'Bilge ve Yonga - Cilt 2 - Hız ve Güç.pdf',
           'sayfa': 160, 'mb': 34},
