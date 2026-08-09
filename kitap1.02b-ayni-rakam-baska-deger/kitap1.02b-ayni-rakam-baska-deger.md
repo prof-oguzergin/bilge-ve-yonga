@@ -132,9 +132,11 @@ Havada dört ışıklı kutucuk yan yana, içlerinde soldan sağa 1, 0, 1, 0 rak
 **Metin:**
 {Y}"Şimdi tersini yapalım." dedi Yonga. {Y}"Dokuzu benim gibi yaz. En büyük basamaktan başla."
 
-Bilge merdivene baktı. {B}"Sekiz dokuza sığar, onu alıyorum. Geriye bir kaldı."
+Bilge merdivene baktı. {B}"En büyük basamak sekiz ve dokuza sığıyor. Onu alıyorum."
 
-{B}"Dört sığmaz, iki de sığmaz." dedi. {B}"Ama bir tam sığar."
+{B}"Dokuzdan sekizi çıkarınca elimde bir kaldı." dedi Bilge. {B}"Şimdi bire bakıyorum. Dört bire sığmaz, iki de sığmaz. Ama bir tam sığar, onu da alıyorum."
+
+{Y}"Aldığın basamağa bir, almadığına sıfır yaz." dedi Yonga.
 
 Yonga ışıkları yaktı. Kutucuklarda 1001 belirdi.
 
