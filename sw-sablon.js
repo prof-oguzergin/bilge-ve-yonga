@@ -11,10 +11,8 @@ const SURUM = '__SURUM__';
 const KABUK = 'bvy-kabuk-' + SURUM;   // sayfalar ve simgeler
 const ICERIK = 'bvy-icerik-' + SURUM; // okunan kitapların görselleri
 
-/* Sayfalar önbellekten açılır; sunucuya ancak bu süre geçtiyse sorulur.
- * Her açılışta sunucuya bağlanmamak hem hızlı hem de okurun izini
- * azaltıyor. Bir gün, düzeltmelerin okura geç kalmaması için üst sınır. */
-const TAZELEME_ARALIGI = 24 * 60 * 60 * 1000;
+/* Son bağlanma damgası. Sayfa artık her açılışta ağdan isteniyor, bu
+ * damga yalnızca kaydı tutuyor. */
 const DAMGA_ANAHTARI = '__son-tazeleme';
 
 /* Kurulumda yalnızca kabuk saklanır. Kitap görselleri okundukça birikir;
@@ -54,42 +52,35 @@ self.addEventListener('activate', (e) => {
 
 /* Son tazeleme damgası önbellekte küçük bir yanıt olarak durur;
  * hizmet çalışanının localStorage'ı yoktur. */
-async function tazelemeVaktiGeldiMi() {
-  const c = await caches.open(KABUK);
-  const d = await c.match(DAMGA_ANAHTARI);
-  if (!d) return true;
-  const son = Number(await d.text());
-  return !son || (Date.now() - son) > TAZELEME_ARALIGI;
-}
-
 async function damgaVur() {
   const c = await caches.open(KABUK);
   await c.put(DAMGA_ANAHTARI, new Response(String(Date.now())));
 }
 
+/* Sayfa: önce ağ, kısa süre bekler, tutmazsa önbellek.
+ *
+ * Önce önbellek veriliyordu ve sunucuya günde bir kez soruluyordu; bir
+ * metin düzeltmesi okura bir gün gecikmeyle ulaşıyordu (9 Ağu 2026'da
+ * 1.02b'nin cümle düzeltmeleri böyle görünmedi). Sayfalar küçük, ağ
+ * açıkken beklemek göze batmıyor; çevrimdışı okuma da bozulmuyor,
+ * çünkü ağ yanıt vermezse önbellekteki kopya veriliyor.
+ * Görseller ve PDF'ler bu kuralın dışında; onlar hâlâ önbellekten. */
+const AG_BEKLEME = 2500;
+
 async function sayfaVer(istek) {
   const c = await caches.open(KABUK);
-  const saklanan = await c.match(istek);
 
-  if (saklanan) {
-    /* Süresi dolduysa arka planda tazele; okur beklemez. */
-    if (await tazelemeVaktiGeldiMi()) {
-      damgaVur();
-      fetch(istek).then((y) => {
-        if (y && y.status === 200) c.put(istek, y.clone());
-      }).catch(() => {});
-    }
-    return saklanan;
-  }
-
-  /* Önbellekte yoksa ağdan al, sakla. Çevrimdışıysa ana sayfaya düş. */
   try {
-    const y = await fetch(istek);
+    const y = await Promise.race([
+      fetch(istek),
+      new Promise((_, red) => setTimeout(() => red(new Error('yavaş')), AG_BEKLEME)),
+    ]);
     if (y && y.status === 200) c.put(istek, y.clone());
     damgaVur();
     return y;
   } catch (hata) {
-    return (await c.match('./index.html')) || Response.error();
+    const saklanan = await c.match(istek);
+    return saklanan || (await c.match('./index.html')) || Response.error();
   }
 }
 
