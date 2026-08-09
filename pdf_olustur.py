@@ -494,6 +494,21 @@ def draw_ogrendik_page(c: canvas.Canvas, ogrendik_lines: list,
     c.setFillColorRGB(0.15, 0.15, 0.15)
 
     for line in ogrendik_lines:
+        # "Yanıtlar" bir madde değil, alt başlıktır: üstünde boşluk bırakılır,
+        # ayrı renkte ve kalın basılır. Böylece sorulardan ayrılır.
+        if line.strip().rstrip(':') == "Yanıtlar":
+            y_cur -= 18
+            c.saveState()
+            c.setFillColorRGB(0.72, 0.42, 0.10)
+            c.setFont(FONT_B, TEXT_SIZE + 6)
+            c.drawString(margin_x, y_cur, "Yanıtlar")
+            c.setStrokeColorRGB(0.72, 0.42, 0.10)
+            c.setLineWidth(1)
+            c.line(margin_x, y_cur - 6, margin_x + 120, y_cur - 6)
+            c.restoreState()
+            y_cur -= (TEXT_SIZE + 16)
+            continue
+
         # Satırı sarma
         wrapped = wrap_text(c, line, FONT_N, TEXT_SIZE + 2, usable_w)
         for wl in wrapped:

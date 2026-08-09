@@ -726,7 +726,11 @@ body{margin:0}
   .dl svg{width:1em; height:1em}
 }
 
-.stage{flex:1; display:flex; align-items:center; justify-content:center;
+/* Uzun kart (Deneme Zamanı) ortalanınca ekranın üstüne taşıyor ve o
+   bölüm okunamıyordu. 'safe center' taşmayı üst kenardan kesmiyor,
+   overflow-y de gerekirse kaydırma veriyor. */
+.stage{flex:1; display:flex; align-items:center; align-items:safe center;
+  overflow-y:auto; justify-content:center;
   padding:8px clamp(64px,6vw,110px) 14px; position:relative}
 .stage::before{content:""; position:absolute; inset:0; pointer-events:none; z-index:0;
   background:radial-gradient(760px 560px at 50% 45%, rgba(255,241,214,.07), transparent 72%)}
@@ -824,6 +828,7 @@ body{margin:0}
 .slist{list-style:none; margin:18px 0 0; padding:0; display:grid; gap:14px}
 /* Deneme Zamanı: bölüm sonu soruları ve küçük etkileşimli alan.
    Puan, süre ve hesap yok; yanıtlar tek dokunuşla açılıyor. */
+.dene-alt{margin:.2em 0 .6em; color:var(--chrome-soft); font-size:.95rem}
 .dlist{font-family:var(--ff-body); font-size:clamp(1.04rem,1.15vw,1.2rem); line-height:1.6;
   color:var(--chrome); padding-left:1.3em; margin:.4em 0 .8em}
 .dlist li{margin:.45em 0}
@@ -837,15 +842,21 @@ body{margin:0}
 .yanit summary::-webkit-details-marker{display:none}
 .yanit summary::before{content:"\25B8  "}
 .yanit[open] summary::before{content:"\25BE  "}
-.dene{margin:14px 0 6px; padding:12px; border:1px solid var(--edge); border-radius:16px;
-  background:color-mix(in srgb,var(--stage) 70%,transparent)}
-.dene-yonerge{margin:0 0 10px; font-size:.92rem; color:var(--chrome-soft)}
-.dene-kutular{display:flex; gap:10px; justify-content:center; flex-wrap:wrap}
-.dene-kutu{width:62px; height:74px; border-radius:12px; cursor:pointer;
+.dene{margin:12px 0 4px; padding:12px 10px; border:1px solid var(--edge); border-radius:18px;
+  background:color-mix(in srgb,var(--stage) 70%,transparent);
+  display:grid; grid-template-columns:auto 1fr auto; align-items:end; gap:10px}
+.dene-orta{grid-column:2}
+.dene-kisi{width:auto; height:104px; align-self:end; opacity:.95;
+  filter:drop-shadow(0 6px 14px rgba(0,0,0,.35))}
+.dene-kisi.yonga{height:74px; align-self:center}
+@media (max-width:760px){ .dene{grid-template-columns:1fr} .dene-kisi{display:none} }
+.dene-yonerge{margin:0 0 12px; font-size:.94rem; color:var(--chrome-soft); text-align:center}
+.dene-kutular{display:flex; gap:12px; justify-content:center; flex-wrap:wrap}
+.dene-kutu{width:66px; height:78px; border-radius:14px; cursor:pointer;
   border:2px solid var(--edge); background:transparent; color:var(--chrome-soft);
   display:flex; flex-direction:column; align-items:center; justify-content:center; gap:2px;
   font-family:var(--ff-disp); transition:transform .15s, border-color .15s, color .15s}
-.dene-kutu .bit{font-size:1.5rem; font-weight:800; line-height:1}
+.dene-kutu .bit{font-size:1.8rem; font-weight:800; line-height:1}
 .dene-kutu .agirlik{font-size:.72rem; opacity:.7}
 .dene-kutu.acik{border-color:var(--glow); color:var(--glow); transform:translateY(-3px)}
 .dene-sonuc{text-align:center; margin:12px 0 0; font-family:var(--ff-disp);
@@ -1005,9 +1016,13 @@ function deneKur(kap){
   kap.dataset.kuruldu = '1';
   if(kap.dataset.dene !== 'basamak') return;
   const degerler = [8,4,2,1], durum = [0,0,0,0];
-  kap.innerHTML = '<p class="dene-yonerge">Kutucuklara dokun, sayının ne olduğunu gör.</p>'
-    + '<div class="dene-kutular"></div>'
-    + '<p class="dene-sonuc"><span class="dene-esit">=</span> <b>0</b></p>';
+  kap.innerHTML = '<img class="dene-kisi" src="../sus/bilge-mini.png" alt="" aria-hidden="true">'
+    + '<div class="dene-orta">'
+    +   '<p class="dene-yonerge">Kutucuklara dokun, sayının ne olduğunu gör.</p>'
+    +   '<div class="dene-kutular"></div>'
+    +   '<p class="dene-sonuc"><span class="dene-esit">=</span> <b>0</b></p>'
+    + '</div>'
+    + '<img class="dene-kisi yonga" src="../sus/yonga-mini.png" alt="" aria-hidden="true">';
   const sira = kap.querySelector('.dene-kutular');
   const sonuc = kap.querySelector('.dene-sonuc b');
   degerler.forEach((d,i)=>{
@@ -1038,9 +1053,10 @@ PAGES.forEach((p, idx)=>{
     const sor = p.sorular.map(s=>'<li>'+s.replace(/\*\*(.+?)\*\*/g,'<b>$1</b>')+'</li>').join('');
     const yan = p.yanitlar.map(s=>'<li>'+s.replace(/\*\*(.+?)\*\*/g,'<b>$1</b>')+'</li>').join('');
     s.innerHTML = '<div class="card"><h2>✏️ '+esc(p.title)+'</h2>'
+      + '<p class="dene-alt">Şimdi sıra sende.</p>'
       + '<ol class="dlist">'+sor+'</ol>'
       + (p.widget||'')
-      + '<details class="yanit"><summary>Yanıtlar</summary><ol class="dlist">'+yan+'</ol></details>'
+      + '<details class="yanit"><summary>Yanıtlar (dokun)</summary><ol class="dlist">'+yan+'</ol></details>'
       + '<p class="telif">© Oğuz Ergin · Bilge ve Yonga · CC BY-NC-ND 4.0</p></div>';
   } else if(p.type==='summary'){
     const lis = p.lines.map(l=>'<li>'+l.replace(/\*\*(.+?)\*\*/g,'<b>$1</b>')+'</li>').join('');
