@@ -30,7 +30,7 @@ Akşam odası, yatağında doğrulmuş Bilge meraklı bir yüzle Yonga'ya bakıy
 
 {B}"Ne yaptılar?"
 
-{Y}"Boncuklu bir çerçeve buldular. Abaküs. Hesap gereksinimi işte oradan başladı."
+{Y}"Boncuklu bir çerçeve kullandılar. Abaküs. Hesap gereksinimi işte oradan başladı."
 
 **Resim:**
 Ahşap çerçeveli, sıra sıra renkli boncukları olan bir abaküs, sıcak ışıkta yakından görünüyor. Bilge boncuklardan birini parmağıyla kaydırıyor, yüzünde keşif ifadesi. Yonga abaküsün üstünde süzülüyor. Arka plan sade.
@@ -44,7 +44,7 @@ Ahşap çerçeveli, sıra sıra renkli boncukları olan bir abaküs, sıcak ış
 
 {B}"Neden yaptı ki?"
 
-{Y}"Babası vergi toplayan bir memurdu ve akşamlara kadar sayı topluyordu." dedi Yonga. {Y}"Pascal babasına yardım etmek istedi. Makinesi toplama ve çıkarma yapabiliyordu."
+{Y}"Babası vergi toplayan bir memurdu, işi gün boyu sayılarlaydı." dedi Yonga. {Y}"Pascal babasına yardım etmek istedi. Makinesi toplama ve çıkarma yapabiliyordu."
 
 **Resim:**
 Eski bir masanın üstünde, üzerinde küçük pencereleri ve döner parçaları olan kutu biçiminde eski bir mekanik hesap makinesi duruyor. Yanında mum ışığı ve kâğıt yığınları var. Bilge makineye eğilmiş bakıyor, Yonga yanında süzülüyor. Sepya tonlarında, eski bir zamanı andıran ışık.
@@ -56,9 +56,9 @@ Eski bir masanın üstünde, üzerinde küçük pencereleri ve döner parçalar�
 **Metin:**
 {B}"Peki bu makine oyun oynayabiliyor muydu?" diye sordu Bilge.
 
-Yonga güldü. {Y}"Hayır. Yalnızca toplayıp çıkarabiliyordu. Başka bir iş isteseydin, yeni bir makine yapman gerekirdi."
+Yonga güldü. {Y}"Hayır. O makine yalnızca toplayıp çıkarabiliyordu. Başka bir iş için başka bir makine gerekiyordu."
 
-Bilge düşündü. {B}"Demek her iş için ayrı bir makine."
+Bilge düşündü. {B}"Demek bu makine tek bir iş için yapılmış."
 
 **Resim:**
 Yan yana dizilmiş üç eski makine; her birinin üstünde yaptığı tek işi anlatan küçük bir simge var: artı, eksi ve bir terazi. Her makinenin üstünde birer kilit simgesi duruyor. Bilge sıranın önünde durmuş bakıyor, Yonga yanında.
@@ -86,7 +86,7 @@ Elde tutulan sert bir kartın üstünde düzenli sıralar hâlinde küçük dikd
 
 {B}"Nasıl olur?"
 
-{Y}"Uzun bir şerit, şeridi okuyup yazan bir kafa ve birkaç kural." dedi Yonga. {Y}"Bu kadarıyla, çözülebilecek her işin çözülebileceğini gösterdi."
+{Y}"Uzun bir şerit, şeridi okuyup yazan bir kafa ve birkaç kural." dedi Yonga. {Y}"Adım adım bir yöntemle çözülen her işi, bu basit makinenin de çözebileceğini gösterdi."
 
 **Resim:**
 Uzun bir kâğıt şerit, üstünde kare kare bölmeler var ve bölmelerin bazılarında basit işaretler duruyor. Şeridin üstünde küçük bir okuma kafası bekliyor. Şerit hayal gibi, yarı saydam çizilmiş. Bilge şeridi gözleriyle takip ediyor, Yonga şeridin ucunda süzülüyor.
@@ -98,7 +98,7 @@ Uzun bir kâğıt şerit, üstünde kare kare bölmeler var ve bölmelerin bazı
 **Metin:**
 {Y}"Sonra savaş çıktı." dedi Yonga. {Y}"Turing, İngiltere'de Bletchley Park adlı bir yerde çalıştı. Düşmanın şifre makinesini çözmek için Bombe adlı bir makine tasarladı."
 
-Bilge fısıldadı. {B}"Makine, makineyi çözdü."
+Bilge fısıldadı. {B}"Bir makine, ötekinin sakladığı mesajları çözdü."
 
 **Resim:**
 Loş bir salonda, insan boyunda, önü sıra sıra döner tamburlarla kaplı büyük bir makine duruyor; tamburlar dönerken hafif ışık yansıtıyor. Bilge makinenin önünde küçücük kalmış, başını kaldırmış bakıyor. Yonga omzunun yanında. Serin, mavimsi ışık.
@@ -108,11 +108,11 @@ Loş bir salonda, insan boyunda, önü sıra sıra döner tamburlarla kaplı bü
 ## Sayfa 8 — Otuz Ton
 
 **Metin:**
-{Y}"1945'te ENIAC tamamlandı." dedi Yonga. {Y}"Yaklaşık 18.000 vakum tüpü vardı. 30 ton ağırlığındaydı."
+{Y}"1945'te ENIAC tamamlandı." dedi Yonga. {Y}"İçinde, anahtar gibi açılıp kapanan yaklaşık 18.000 vakum tüpü vardı." dedi Yonga. {Y}"30 ton ağırlığındaydı."
 
 Bilge'nin ağzı açık kaldı. {B}"Otuz ton mu? Bir sınıf dolusu fil gibi!"
 
-{Y}"Bütün bunlarla yaptığı iş dört işlem ve basit karşılaştırmaydı." dedi Yonga.
+{Y}"Bütün bunlarla yalnızca dört işlem yapabiliyor ve sayıları karşılaştırabiliyordu." dedi Yonga.
 
 **Resim:**
 Duvarları baştan başa kaplayan devasa bir makine; üst üste raflarda yüzlerce cam vakum tüpü sıcak turuncu parlıyor, aralarından kalın kablo demetleri geçiyor. Bilge odanın ortasında minicik duruyor, kollarını iki yana açmış. Yonga başının üstünde süzülüyor.
@@ -122,11 +122,11 @@ Duvarları baştan başa kaplayan devasa bir makine; üst üste raflarda yüzler
 ## Sayfa 9 — Büyük Fikir
 
 **Metin:**
-{Y}"Sonra bir fikir geldi ve her şeyi değiştirdi." dedi Yonga. {Y}"EDVAC adlı makinede, yapılacak işleri söyleyen buyruklar da veriler gibi bellekte saklandı."
+{Y}"Sonra bir fikir geldi ve her şeyi değiştirdi." dedi Yonga. {Y}"EDVAC adlı makinede iki şey aynı bellekte durdu." dedi Yonga. {Y}"Yapılacak işi söyleyen buyruklar ve üzerinde çalışılan sayılar." dedi Yonga. {Y}"O sayılara **veri** diyoruz."
 
 {B}"Bunun nesi büyük fikir?" diye sordu Bilge.
 
-{Y}"Çünkü belleği değiştirirsen makine başka bir iş yapar." dedi Yonga. {Y}"Yeni makine yapmana gerek kalmaz. Aynı makine, bambaşka bir iş."
+{Y}"Çünkü bellekteki buyrukları değiştirirsen makine başka bir iş yapar." dedi Yonga. {Y}"Yeni bir makine yapmana gerek kalmaz. Aynı makine, başka bir buyruk listesiyle bambaşka bir iş görür."
 
 **Resim:**
 Ortada büyük bir bellek rafı; raftaki kutuların bir bölümünde veri simgeleri, bir bölümünde buyruk simgeleri duruyor ve ikisi aynı rafta yan yana. Raftan makineye tek bir ışık yolu gidiyor. Bilge parmağıyla buyruk kutularını gösteriyor, gözleri iri iri açılmış.
@@ -138,7 +138,7 @@ Ortada büyük bir bellek rafı; raftaki kutuların bir bölümünde veri simgel
 **Metin:**
 Bilge bunu sindirmek için biraz düşündü.
 
-{B}"Yani şu eski makineler gibi değil." dedi. {B}"Onlar tek işlikti. Bu, belleğine ne koyarsan onu yapıyor."
+{B}"Demek şu eski makine gibi değil." dedi. {B}"O yalnızca bir iş yapıyordu. Bu ise belleğindeki program değişince başka bir iş yapıyor."
 
 {Y}"İşte bu yüzden bugün aynı bilgisayarla hem resim yapıyor hem müzik dinliyorsun." dedi Yonga.
 
@@ -150,7 +150,7 @@ Ortada tek bir makine duruyor. Çevresinde ondan çıkan üç ışık huzmesi va
 ## Sayfa 11 — Küçülme Başlıyor
 
 **Metin:**
-{Y}"1947 yılında transistör icat edildi." dedi Yonga. {Y}"Vakum tüplerinin yerini aldı. Çok daha küçüktü, daha güvenilirdi, daha ucuzdu ve az güç harcıyordu."
+{Y}"1947 yılında transistör icat edildi." dedi Yonga. {Y}"Vakum tüplerinin yerini aldı. Çok daha küçük ve ucuzdu." dedi Yonga. {Y}"Daha az bozuluyor, daha az elektrik harcıyordu."
 
 {B}"Benim öğrendiğim anahtarlar!" dedi Bilge.
 
@@ -164,9 +164,9 @@ Terazi gibi bir karşılaştırma: solda kocaman bir cam vakum tüpü, sağda on
 ## Sayfa 12 — Hepsi Aynı Parçanın Üstünde
 
 **Metin:**
-{Y}"Sonra tümleşik devre geldi." dedi Yonga. {Y}"Transistörler, öteki parçalar ve aralarındaki bağlantılar aynı malzemenin üstünde birlikte üretilmeye başlandı."
+{Y}"Sonra tümleşik devre geldi." dedi Yonga. {Y}"Birçok transistör ve onları birbirine bağlayan yollar, aynı tabanın üstüne birlikte yapılmaya başlandı."
 
-{B}"Demek hepsi tek parça oldu." dedi Bilge.
+{B}"Demek ayrı parçalar aynı tabanda buluştu." dedi Bilge.
 
 {Y}"Böylece devreler küçüldü ve ucuzladı."
 
@@ -182,7 +182,7 @@ Yakın plan bir yonga yüzeyi; ince çizgiler bir şehrin yollarına benziyor, a
 
 {B}"Kaç transistör vardı?"
 
-{Y}"2.300." dedi Yonga. {Y}"Benim içimde ise milyarlarca var."
+{Y}"2.300 tane." dedi Yonga. {Y}"Benim içimde ise milyarlarca var."
 
 **Resim:**
 Bir müze vitrini; içinde küçük, altın bacaklı eski bir yonga duruyor ve altında küçük bir tarih etiketi var. Vitrinin yanında Yonga süzülüyor ve gövdesinde yoğun bir ışık deseni parlıyor. Bilge vitrine eğilmiş, camda yüzünün yansıması görünüyor.
@@ -192,11 +192,11 @@ Bir müze vitrini; içinde küçük, altın bacaklı eski bir yonga duruyor ve a
 ## Sayfa 14 — Aynı Fikir Hâlâ İçeride
 
 **Metin:**
-Bilge yorganını çekti.
+Bilge yorganını üstüne çekti.
 
-{B}"Demek her şey, buyrukların da bellekte durabileceği fikriyle değişti."
+{B}"Demek aynı makineye başka işler yaptırabilmek, buyrukları da bellekte saklama fikriyle başladı."
 
-{Y}"Evet." dedi Yonga. {Y}"Makineler küçüldü, hızlandı, cebe sığdı. Ama o fikir hâlâ içimde duruyor."
+{Y}"Evet." dedi Yonga. {Y}"Sonra transistörler ve yongalar makineleri küçülttü, cebe sığdırdı. Ama o fikir hâlâ içimde duruyor."
 
 Bilge gülümseyerek uyudu. Rüyasında otuz tonluk bir makine, minicik bir yongaya el sallıyordu.
 
@@ -217,7 +217,7 @@ Karanlık oda, yatağında uyuyan Bilge. Yonga usulca yanında süzülüyor, ı�
 
 💡 1945 yılında tamamlanan **ENIAC** yaklaşık 18.000 vakum tüpü kullanıyordu ve 30 ton ağırlığındaydı.
 
-🧠 En büyük değişiklik şudur: **buyruklar da veriler gibi bellekte saklanır.** Böylece belleği değişen makine başka bir iş yapar.
+🧠 En büyük değişiklik şudur: **buyruklar da veriler gibi bellekte saklanır.** Böylece bellekteki buyruklar değişince aynı makine başka bir iş yapar.
 
 🔌 1947 yılında **transistör** icat edildi; vakum tüplerinden küçük, ucuz ve az güç harcayan bir parçaydı.
 
