@@ -291,6 +291,11 @@ def cilt_uret(seri, cilt_adi, doi='', isbn=''):
             po.draw_ogrendik_page(c, meta['ogrendik'])
             c.showPage()
             sayfa += 1
+        # Bolum sonu sorulari kitap PDF'inde var; ciltte de bulunmali.
+        if meta.get('deneme'):
+            po.draw_ogrendik_page(c, meta['deneme'], 'Deneme Zamanı')
+            c.showPage()
+            sayfa += 1
 
     po.draw_seriler_ozet_page(c, kl[0][1])
     c.showPage()

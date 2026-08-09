@@ -1404,18 +1404,18 @@ def temizle_bayat_okuyucular():
 # yere yazilmaz; mimari kitabinda aylarca surum DOI'si kullanilip atif verenler
 # ilk taslaga yonlendirilmisti.
 CILTLER = {
-    '1': {'doi': '10.5281/zenodo.21725876', 'kayit': 21859164,
+    '1': {'doi': '10.5281/zenodo.21725876', 'kayit': 21862929,
           'dosya': 'Bilge ve Yonga - Cilt 1 - Kumdan Bilgisayara.pdf',
-          'sayfa': 185, 'mb': 36},
-    '2': {'doi': '10.5281/zenodo.21725924', 'kayit': 21725925,
+          'sayfa': 214, 'mb': 39},
+    '2': {'doi': '10.5281/zenodo.21725924', 'kayit': 21862934,
           'dosya': 'Bilge ve Yonga - Cilt 2 - Hız ve Güç.pdf',
-          'sayfa': 160, 'mb': 34},
-    '3': {'doi': '10.5281/zenodo.21725978', 'kayit': 21854938,
+          'sayfa': 170, 'mb': 34},
+    '3': {'doi': '10.5281/zenodo.21725978', 'kayit': 21862936,
           'dosya': 'Bilge ve Yonga - Cilt 3 - Buyrukların Dünyası.pdf',
-          'sayfa': 174, 'mb': 32},
-    '4': {'doi': '10.5281/zenodo.21854810', 'kayit': 21854811,
+          'sayfa': 200, 'mb': 35},
+    '4': {'doi': '10.5281/zenodo.21854810', 'kayit': 21862938,
           'dosya': 'Bilge ve Yonga - Cilt 4 - İşlemcinin İçi.pdf',
-          'sayfa': 196, 'mb': 40},
+          'sayfa': 208, 'mb': 40},
 }
 
 

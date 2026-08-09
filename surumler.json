@@ -2,209 +2,209 @@
   "aciklama": "Kitap ve cilt surumleri. Bir kitabin metni degisince o kitabin ikinci hanesi artar; icinde degisiklik olan cildin de ikinci hanesi artar. Yeni alt seri eklenince birinci hane artar. Seri 4 kitaplari henuz yayimlanmadi; yayina cikinca 1.0 ve o gunun tarihiyle eklenecek, o zamana kadar kunyede surum satiri yok.",
   "kitaplar": {
     "kitap1.01a-kumdan-bilgisayar": {
-      "surum": "1.1",
-      "tarih": "3 Ağustos 2026"
+      "surum": "1.2",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap1.01b-bazen-gecer-bazen-gecmez": {
-      "surum": "1.1",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.2",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap1.02a-milyarlarca-kucuk-anahtar": {
-      "surum": "1.0",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap1.02b-ayni-rakam-baska-deger": {
-      "surum": "1.1",
+      "surum": "1.2",
       "tarih": "9 Ağustos 2026"
     },
     "kitap1.03-bilgisayarin-bes-arkadasi": {
-      "surum": "1.0",
-      "tarih": "31 Temmuz 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap1.04-al-anla-yap": {
-      "surum": "1.0",
-      "tarih": "31 Temmuz 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap1.05-soganin-katmanlari": {
-      "surum": "1.0",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap1.06-moorenun-sihirli-takvimi": {
-      "surum": "1.0",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap1.07-iki-kardes-risc-ve-cisc": {
-      "surum": "1.0",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap1.08-acik-kapi": {
-      "surum": "1.0",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap1.09-bilgisayarin-atesi": {
-      "surum": "1.0",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap1.10-bilgisayar-dusunmeyi-ogreniyor": {
-      "surum": "1.0",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap1.11-bilgisayardan-once": {
-      "surum": "1.0",
+      "surum": "1.1",
       "tarih": "9 Ağustos 2026"
     },
     "kitap2.01-uzaydaki-bilgisayar": {
-      "surum": "1.0",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap2.02-davulcu-ve-kurekciler": {
-      "surum": "1.0",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap2.03-dunyanin-en-hizli-mutfagi": {
-      "surum": "1.0",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap2.04-corumlu-orhan-ile-edirneli-orhan": {
-      "surum": "1.0",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap2.05-ayakkabi-bagini-hizli-baglasan": {
-      "surum": "1.0",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap2.06-yaris-pisti": {
-      "surum": "1.0",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap2.07-altin-cag-ve-duvar": {
-      "surum": "1.0",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap2.08-gustafsonun-bahcesi": {
-      "surum": "1.0",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap2.09-dar-gecit": {
-      "surum": "1.0",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap2.10-kim-daha-hizli": {
-      "surum": "1.0",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap3.01a-dedigimi-yap": {
-      "surum": "1.0",
+      "surum": "1.1",
       "tarih": "9 Ağustos 2026"
     },
     "kitap3.01b-iki-dunyanin-koprusu": {
-      "surum": "1.0",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap3.02-siranin-ustundeki-kalemler": {
-      "surum": "1.0",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap3.03-zarfin-ustundeki-bolmeler": {
-      "surum": "1.0",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap3.04-parkta-kavsak": {
-      "surum": "1.0",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap3.05-mektup-fabrikasi": {
-      "surum": "1.0",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap3.06-toplama-makinesi": {
-      "surum": "1.0",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap3.07-sihirli-maskeler": {
-      "surum": "1.1",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.2",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap3.08-sifirin-gucu": {
-      "surum": "1.0",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap3.09-kulelerin-oyunu": {
-      "surum": "1.0",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap3.10-tasiyicilar": {
-      "surum": "1.0",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap3.11-dedektif-bilge-ve-kayip-sonuc": {
-      "surum": "1.0",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "kitap4.01a-eldenin-yolculugu": {
-      "surum": "1.0",
+      "surum": "1.1",
       "tarih": "9 Ağustos 2026"
     },
     "kitap4.01b-yonganin-eksi-derdi": {
-      "surum": "1.0",
+      "surum": "1.1",
       "tarih": "9 Ağustos 2026"
     },
     "kitap4.02-cok-yonlu-alet-amb": {
-      "surum": "1.0",
+      "surum": "1.1",
       "tarih": "9 Ağustos 2026"
     },
     "kitap4.03-uzun-isler-carpma-bolme": {
-      "surum": "1.0",
+      "surum": "1.1",
       "tarih": "9 Ağustos 2026"
     },
     "kitap4.04-virgulun-dansi": {
-      "surum": "1.0",
+      "surum": "1.1",
       "tarih": "9 Ağustos 2026"
     },
     "kitap4.05-veri-yolu-fabrikasi": {
-      "surum": "1.0",
+      "surum": "1.1",
       "tarih": "9 Ağustos 2026"
     },
     "kitap4.06-bir-buyrugun-yolculugu": {
-      "surum": "1.0",
+      "surum": "1.1",
       "tarih": "9 Ağustos 2026"
     },
     "kitap4.07-orkestra-sefi-denetim-birimi": {
-      "surum": "1.0",
+      "surum": "1.1",
       "tarih": "9 Ağustos 2026"
     },
     "kitap4.08-tek-vurusta": {
-      "surum": "1.0",
+      "surum": "1.1",
       "tarih": "9 Ağustos 2026"
     },
     "kitap4.09-adim-adim": {
-      "surum": "1.0",
+      "surum": "1.1",
       "tarih": "9 Ağustos 2026"
     },
     "kitap4.10-icindeki-minik-buyruklar": {
-      "surum": "1.0",
+      "surum": "1.1",
       "tarih": "9 Ağustos 2026"
     },
     "kitap4.11-bir-seferde-kac-bit": {
-      "surum": "1.0",
+      "surum": "1.1",
       "tarih": "9 Ağustos 2026"
     }
   },
   "ciltler": {
     "1": {
-      "surum": "1.3",
+      "surum": "1.4",
       "tarih": "9 Ağustos 2026"
     },
     "2": {
-      "surum": "1.0",
-      "tarih": "31 Temmuz 2026"
+      "surum": "1.1",
+      "tarih": "9 Ağustos 2026"
     },
     "3": {
-      "surum": "1.1",
-      "tarih": "5 Ağustos 2026"
+      "surum": "1.2",
+      "tarih": "9 Ağustos 2026"
     },
     "4": {
-      "surum": "1.0",
+      "surum": "1.1",
       "tarih": "9 Ağustos 2026"
     }
   }
