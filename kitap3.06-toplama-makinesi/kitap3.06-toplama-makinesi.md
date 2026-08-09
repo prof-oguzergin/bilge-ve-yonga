@@ -46,7 +46,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 4 — Elde Var Bir
 
 **Metin:**
-Yonga güldü. {Y}"Bilgisayarlar sadece 0 ve 1 bilir, hatırladın mı? Ama bu sayılarla da her şeyi yapabiliriz!"
+Yonga güldü. {Y}"Bilgisayarlar yalnızca 0 ile 1'i bilir, hatırladın mı? Ama bu sayılarla da her şeyi yapabiliriz!"
 
 {Y}"0011 artı 0101 yapalım." dedi Yonga. {Y}"Sağdan başlıyoruz: 1+1=10 eder, 0 yazıp 1 taşırız. Tıpkı bir elin parmakları dolunca öteki ele geçmek gibi!"
 
