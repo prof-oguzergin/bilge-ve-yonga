@@ -281,6 +281,18 @@ section.band{padding:76px 0}
 .books-grid + .series-head{margin-top:54px}
 /* Zenodo ciltleri: alt seri basina toplu PDF, DOI ile arsivlenmis. */
 .cilt-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
+.gelecek{margin-top:34px;padding-top:24px;border-top:1px dashed var(--line)}
+.gelecek-not{margin:0 0 16px;color:var(--muted);font-size:.98rem}
+.gelecek-liste{list-style:none;margin:0;padding:0;display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.gelecek-liste li{position:relative;padding:12px 14px 12px 18px;border-radius:14px;
+  background:var(--surface);border:1px solid var(--line);overflow:hidden}
+.gelecek-liste li::before{content:"";position:absolute;left:0;top:0;bottom:0;
+  width:6px;background:var(--accent)}
+.gelecek-no{display:block;font-size:.78rem;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--accent);font-weight:700}
+.gelecek-ad{display:block;font-weight:700;margin:2px 0 3px}
+.gelecek-ozet{display:block;font-size:.9rem;color:var(--muted);line-height:1.45}
 .cilt{background:var(--surface);border:1px solid var(--line);border-radius:20px;
   padding:24px 24px 22px;border-top:4px solid var(--accent);
   display:flex;flex-direction:column;gap:8px;transition:transform .22s,box-shadow .22s}
@@ -482,9 +494,10 @@ __SERIES__
   <div class="sec-head">
     <span class="eyebrow">Ciltler ve atıf</span>
     <h2>Dört cilt, kalıcı bağlantı</h2>
-    <p>Her alt seri, kitapları bir arada tutan tek bir PDF cilt olarak Zenodo arşivine kondu. Ciltlerin DOI numarası vardır: bağlantı hiç kırılmaz, kaynak gösterirken bunu kullanabilirsiniz. Dördüncü cilt hazır, DOI alma süreci sürüyor.</p>
+    <p>Her alt seri, kitapları bir arada tutan tek bir PDF cilt olarak Zenodo arşivine kondu. Ciltlerin DOI numarası vardır: bağlantı hiç kırılmaz, kaynak gösterirken bunu kullanabilirsiniz.</p>
   </div>
 __CILTLER__
+__GELECEK__
 </div></section>
 
 <hr class="divider">

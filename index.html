@@ -281,6 +281,18 @@ section.band{padding:76px 0}
 .books-grid + .series-head{margin-top:54px}
 /* Zenodo ciltleri: alt seri basina toplu PDF, DOI ile arsivlenmis. */
 .cilt-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
+.gelecek{margin-top:34px;padding-top:24px;border-top:1px dashed var(--line)}
+.gelecek-not{margin:0 0 16px;color:var(--muted);font-size:.98rem}
+.gelecek-liste{list-style:none;margin:0;padding:0;display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.gelecek-liste li{position:relative;padding:12px 14px 12px 18px;border-radius:14px;
+  background:var(--surface);border:1px solid var(--line);overflow:hidden}
+.gelecek-liste li::before{content:"";position:absolute;left:0;top:0;bottom:0;
+  width:6px;background:var(--accent)}
+.gelecek-no{display:block;font-size:.78rem;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--accent);font-weight:700}
+.gelecek-ad{display:block;font-weight:700;margin:2px 0 3px}
+.gelecek-ozet{display:block;font-size:.9rem;color:var(--muted);line-height:1.45}
 .cilt{background:var(--surface);border:1px solid var(--line);border-radius:20px;
   padding:24px 24px 22px;border-top:4px solid var(--accent);
   display:flex;flex-direction:column;gap:8px;transition:transform .22s,box-shadow .22s}
@@ -1456,7 +1468,7 @@ footer p{color:var(--muted);font-size:.9rem}
   <div class="sec-head">
     <span class="eyebrow">Ciltler ve atıf</span>
     <h2>Dört cilt, kalıcı bağlantı</h2>
-    <p>Her alt seri, kitapları bir arada tutan tek bir PDF cilt olarak Zenodo arşivine kondu. Ciltlerin DOI numarası vardır: bağlantı hiç kırılmaz, kaynak gösterirken bunu kullanabilirsiniz. Dördüncü cilt hazır, DOI alma süreci sürüyor.</p>
+    <p>Her alt seri, kitapları bir arada tutan tek bir PDF cilt olarak Zenodo arşivine kondu. Ciltlerin DOI numarası vardır: bağlantı hiç kırılmaz, kaynak gösterirken bunu kullanabilirsiniz.</p>
   </div>
   <div class="cilt-grid">
     <article class="cilt" style="--accent:#2E8CC7">
@@ -1499,6 +1511,16 @@ footer p{color:var(--muted);font-size:.9rem}
       <p class="cilt-doi"><a href="https://doi.org/10.5281/zenodo.21854810" target="_blank" rel="noopener">doi.org/10.5281/zenodo.21854810</a></p>
       <a class="cilt-btn" href="https://zenodo.org/api/records/21854811/files/Bilge%20ve%20Yonga%20-%20Cilt%204%20-%20%C4%B0%C5%9Flemcinin%20%C4%B0%C3%A7i.pdf/content">Cildi indir</a>
     </article>
+  </div>
+  <div class="gelecek">
+    <p class="gelecek-not">Seri burada bitmiyor. Ders kitabının bölüm sırasını izleyen beş cilt daha planlandı.</p>
+    <ul class="gelecek-liste">
+      <li style="--accent:#199e99"><span class="gelecek-no">5. Cilt</span><span class="gelecek-ad">Boru Hattı</span><span class="gelecek-ozet">İşi istasyonlara bölüp art arda akıtmak</span></li>
+      <li style="--accent:#cc3d42"><span class="gelecek-no">6. Cilt</span><span class="gelecek-ad">Bellek</span><span class="gelecek-ozet">Bellek duvarının ardındaki dünya: hiyerarşi ve yerellik</span></li>
+      <li style="--accent:#d64594"><span class="gelecek-no">7. Cilt</span><span class="gelecek-ad">Giriş ve Çıkış</span><span class="gelecek-ozet">Bilgisayarın dış dünyayla konuşması</span></li>
+      <li style="--accent:#4c57bd"><span class="gelecek-no">8. Cilt</span><span class="gelecek-ad">Birlikte Çalışmak</span><span class="gelecek-ozet">Çok çekirdek: işi paylaşmanın kuralları</span></li>
+      <li style="--accent:#d1a31f"><span class="gelecek-no">9. Cilt</span><span class="gelecek-ad">Yapay Zekânın Makinesi</span><span class="gelecek-ozet">Öğrenen makinelerin donanımı</span></li>
+    </ul>
   </div>
 </div></section>
 

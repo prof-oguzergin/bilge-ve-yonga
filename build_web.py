@@ -1419,6 +1419,34 @@ CILTLER = {
 }
 
 
+# Yol haritasindaki ciltler (`_notlar/seri-yol-haritasi.md`). Renkler
+# yayimlanmis dort cildin renk cemberinde bos biraktigi yerlerden secildi.
+GELECEK_CILTLER = [
+    ('5', 'Boru Hattı', 'İşi istasyonlara bölüp art arda akıtmak', '#199e99'),
+    ('6', 'Bellek', 'Bellek duvarının ardındaki dünya: hiyerarşi ve yerellik', '#cc3d42'),
+    ('7', 'Giriş ve Çıkış', 'Bilgisayarın dış dünyayla konuşması', '#d64594'),
+    ('8', 'Birlikte Çalışmak', 'Çok çekirdek: işi paylaşmanın kuralları', '#4c57bd'),
+    ('9', 'Yapay Zekânın Makinesi', 'Öğrenen makinelerin donanımı', '#d1a31f'),
+]
+
+
+def build_gelecek():
+    """Gelecek ciltler seridi. Baglanti ve tarih verilmez."""
+    p = ['  <div class="gelecek">',
+         '    <p class="gelecek-not">Seri burada bitmiyor. Ders kitabının '
+         'bölüm sırasını izleyen beş cilt daha planlandı.</p>',
+         '    <ul class="gelecek-liste">']
+    for no, ad, ozet, renk in GELECEK_CILTLER:
+        p.append('      <li style="--accent:{}">'
+                 '<span class="gelecek-no">{}. Cilt</span>'
+                 '<span class="gelecek-ad">{}</span>'
+                 '<span class="gelecek-ozet">{}</span></li>'
+                 .format(renk, no, ad, ozet))
+    p.append('    </ul>')
+    p.append('  </div>')
+    return '\n'.join(p)
+
+
 def build_ciltler():
     """Ana sayfadaki cilt kartlarini uretir."""
     p = ['  <div class="cilt-grid">']
@@ -1474,6 +1502,7 @@ def build_index():
     tpl = tpl.replace('__DESTE__', kartlar)
     tpl = tpl.replace('__DESTE_HAVUZ__', havuz)
     tpl = tpl.replace('__CILTLER__', build_ciltler())
+    tpl = tpl.replace('__GELECEK__', build_gelecek())
     tpl = tpl.replace('__COUNT__', str(len(BOOKS)))
     (REPO / 'index.html').write_text(tpl, encoding='utf-8')
     temizle_bayat_okuyucular()
