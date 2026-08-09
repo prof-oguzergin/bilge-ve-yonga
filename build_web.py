@@ -1424,7 +1424,7 @@ CILTLER = {
 GELECEK_CILTLER = [
     ('5', 'Durmayan Tezgâh', 'Sıra sıra dizilen işler hiç beklemeden akar', '#199e99'),
     ('6', 'Yakın Raf, Uzak Depo', 'Bilgisayar en çok kullandığını nerede saklar?', '#cc3d42'),
-    ('7', 'Bilgisayarın Kapıları', 'Dış dünyayı görmek, duymak ve ona dokunmak', '#d64594'),
+    ('7', 'Gözler, Kulaklar ve Eller', 'Bilgisayar dışarıyı nasıl duyar, dışarıya nasıl dokunur?', '#d64594'),
     ('8', 'Hep Birlikte', 'Bir işi bölüşmenin kuralları ve karışıklıkları', '#4c57bd'),
     ('9', 'Öğrenen Makineler', 'Yapay zekâ hangi donanımın üstünde çalışır?', '#d1a31f'),
 ]
