@@ -123,7 +123,7 @@ Yonga alkışladı. {Y}"Sekiz artı iki?"
 {B}"On!" diye bağırdı Bilge.
 
 **Resim:**
-Havada dört ışıklı kutucuk yan yana, içlerinde soldan sağa 1, 0, 1, 0 rakamları. Her kutucuğun altında değeri yazıyor: soldan sağa 8, 4, 2, 1. İçinde bir olan kutucuklar parlıyor, sıfır olanlar sönük. Altta büyük bir 10 rakamı belirmiş. Bilge parmaklarıyla sayıyor, yüzü sevinçli.
+Havada dört ışıklı kutucuk yan yana, içlerinde soldan sağa 1, 0, 1, 0 rakamları. Her kutucuğun altında değeri yazıyor: soldan sağa 8, 4, 2, 1. İçinde bir olan kutucuklar parlıyor, sıfır olanlar sönük. Altta büyük bir 10 rakamı belirmiş. Bilge işaret parmağıyla en soldaki kutucuğu gösteriyor, yüzü sevinçli.
 
 ---
 
