@@ -10,7 +10,7 @@
 ## Sayfa 1 — Mutfakta Kocaman Bir Soğan
 
 **Metin:**
-Bilge bugün mutfakta annesiyle yemek yapıyordu. Büyükannesi için güzel bir çorba hazırlıyorlardı. Bilge büyük bir soğanı eline aldı ve burnunu kıvırdı. {B}"Bu soğanın kaç katmanı var acaba?" diye merak etti.
+Bilge bugün mutfakta annesiyle yemek yapıyordu. Anneannesi için güzel bir çorba hazırlıyorlardı. Bilge büyük bir soğanı eline aldı ve burnunu kıvırdı. {B}"Bu soğanın kaç katmanı var acaba?" diye merak etti.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Küçük, şirin bir mutfak — sarı duvarlar, çiçekli perde, güneş ışığı pencereden süzülüyor. Kıvırcık kahverengi saçlı, yuvarlak gözlüklü Bilge, önlüğünü takmış, elinde büyük kahverengi bir soğan tutuyor ve meraklı gözlerle inceliyor. Annesinin ellerini ve önlüğünü arka planda görebiliyoruz. Mutfak tezgahında sebzeler ve bir tencere var; sahne sıcak, sevecen ve davetkar bir his veriyor. Turuncu, sarı ve krem tonları hâkim.
@@ -140,7 +140,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 14 — Sofrada Soğan Çorbası
 
 **Metin:**
-Annesi çorbanın bir kısmını büyükannesine götürmek üzere ayırdı. Akşam sofrasında herkes soğan çorbasını içti. Bilge her kaşık aldığında gülümsedi. Artık soğanın sadece bir sebze olmadığını biliyordu. Soğan, bilgisayarların en güzel sırrını saklayan bir öğretmendi. Yonga da küçücük kasesinden içti!
+Annesi çorbanın bir kısmını anneannesine götürmek üzere ayırdı. Akşam sofrasında herkes soğan çorbasını içti. Bilge her kaşık aldığında gülümsedi. Artık soğanın sadece bir sebze olmadığını biliyordu. Soğan, bilgisayarların en güzel sırrını saklayan bir öğretmendi. Yonga da küçücük kasesinden içti!
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Aile sofrası — Bilge, annesi ve babası akşam yemeğinde soğan çorbası içiyor; ortada büyük bir çorba kasesi var. Yonga masanın köşesinde küçücük bir kaseden içiyor, buharlı ve mutlu. Bilge gülümseyerek kepçeye bakıyor, içi soğan katmanlarıyla hayal ediyor. Sahne sıcak, aile sevgisi dolu ve neşeli. Altın sarısı, turuncu ve kırmızı tonları.

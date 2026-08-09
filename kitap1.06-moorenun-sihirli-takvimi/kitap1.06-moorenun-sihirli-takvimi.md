@@ -10,20 +10,20 @@
 ## Sayfa 1 — Büyülü Bir Takvim
 
 **Metin:**
-Bilge, büyükannesinin çekmecesinde garip bir takvim buldu. Takvimin yanında büyükannesinin çok eski, kocaman bir hesap makinesi duruyordu. Bilge takvimi çevirdi. Her sayfada resimdeki nesneler bir anda ikiye katlanıyordu! Tek elma iki elmaya, iki elma dört elmaya dönüşüyordu. {B}"Bu koca hesap makinesi neden benim küçücük tabletim gibi değil?" diye merak etti Bilge.
+Bilge, anneannesinin çekmecesinde garip bir takvim buldu. Takvimin yanında anneannesinin çok eski, kocaman bir hesap makinesi duruyordu. Bilge takvimi çevirdi. Her sayfada resimdeki nesneler bir anda ikiye katlanıyordu! Tek elma iki elmaya, iki elma dört elmaya dönüşüyordu. {B}"Bu koca hesap makinesi neden benim küçücük tabletim gibi değil?" diye merak etti Bilge.
 
 **Resim:**
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bilge, tahta bir çekmecenin önünde diz çökmüş; elinde renkli, eski görünümlü bir takvim tutuyor, yanında büyükannesinin çok eski ve kocaman bir hesap makinesi duruyor. Takvimin sayfaları çevrilirken her sayfada küçük resimler ikiye katlanan meyvelerle dolup taşıyor — birer elma, iki elma, dört elma, sekiz elma. Yonga yanında ayakta, büyük yuvarlak gözleriyle heyecanla takvime bakıyor. Oda eski ahşap mobilyalarla dolu, sıcak sarı ve turuncu tonlar hâkim; sihirli ve merak uyandırıcı bir atmosfer var.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bilge, tahta bir çekmecenin önünde diz çökmüş; elinde renkli, eski görünümlü bir takvim tutuyor, yanında anneannesinin çok eski ve kocaman bir hesap makinesi duruyor. Takvimin sayfaları çevrilirken her sayfada küçük resimler ikiye katlanan meyvelerle dolup taşıyor — birer elma, iki elma, dört elma, sekiz elma. Yonga yanında ayakta, büyük yuvarlak gözleriyle heyecanla takvime bakıyor. Oda eski ahşap mobilyalarla dolu, sıcak sarı ve turuncu tonlar hâkim; sihirli ve merak uyandırıcı bir atmosfer var.
 
 ---
 
 ## Sayfa 2 — Yonga'nın Sırrı
 
 **Metin:**
-{Y}"Bu takvim sana neyi düşündürüyor?" diye sordu Yonga. Bilge elindeki hesap makinesine baktı: {B}"Büyükannemin bu koca hesap makinesi ile benim tabletim çok farklı görünüyor. Neden acaba?" Yonga gülümseyerek dedi: {Y}"Çünkü bilgisayarlar da tıpkı bu takvim gibi büyüyüp güçleniyor! Sana göstereyim."
+{Y}"Bu takvim sana neyi düşündürüyor?" diye sordu Yonga. Bilge elindeki hesap makinesine baktı: {B}"Anneannemin bu koca hesap makinesi ile benim tabletim çok farklı görünüyor. Neden acaba?" Yonga gülümseyerek dedi: {Y}"Çünkü bilgisayarlar da tıpkı bu takvim gibi büyüyüp güçleniyor! Sana göstereyim."
 
 **Resim:**
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga, küçük gövdesinden mavi bir hologram ışığı yayarak havada küçücük transistörlerin ikiye katlandığı bir animasyon gösteriyor. Bilge takvimi kucağında tutarken gözleri hologramda; ağzı yarı açık, merakla dinliyor. Arka planda büyükannenin sıcak oturma odası, güneş ışığı perdelerden süzülüyor. Mavi hologram renkleri ile sıcak altın-sarısı oda renkleri güzel bir kontrast oluşturuyor.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga, küçük gövdesinden mavi bir hologram ışığı yayarak havada küçücük transistörlerin ikiye katlandığı bir animasyon gösteriyor. Bilge takvimi kucağında tutarken gözleri hologramda; ağzı yarı açık, merakla dinliyor. Arka planda anneannenin sıcak oturma odası, güneş ışığı perdelerden süzülüyor. Mavi hologram renkleri ile sıcak altın-sarısı oda renkleri güzel bir kontrast oluşturuyor.
 
 ---
 
@@ -50,7 +50,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 5 — Küçük Bir Başlangıç
 
 **Metin:**
-{Y}"1970 yılında bir yonganın içinde binlerce transistör vardı." dedi Yonga. {Y}"Büyükannenin hesap makinesi de o yıllardan kalma olabilir!" Bilge düşündü: {B}"Binlerce mi? Ne kadar çok!" Yonga güldü: {Y}"Bekle, daha neler göreceksin!"
+{Y}"1970 yılında bir yonganın içinde binlerce transistör vardı." dedi Yonga. {Y}"Anneannenin hesap makinesi de o yıllardan kalma olabilir!" Bilge düşündü: {B}"Binlerce mi? Ne kadar çok!" Yonga güldü: {Y}"Bekle, daha neler göreceksin!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga, büyük bir zaman tüneli gibi görünen holografik bir koridor açıyor; tünelin başında "1970" yazısı ve içinde binlerce küçük nokta — bunlar transistörler. Bilge tünele girip girmemeye karar verememiş gibi eşikte duruyor, merakla içeriye bakıyor. Tünel maviden altın sarısına doğru renk değiştiriyor; zaman yolculuğu atmosferi var.
@@ -80,10 +80,10 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 8 — Küçülen Ama Güçlenen
 
 **Metin:**
-{B}"Peki büyükannemin hesap makinesi neden bu kadar büyük, benim tabletim neden bu kadar küçük?" diye sordu Bilge. Yonga açıkladı: {Y}"Transistörler küçüldükçe, daha fazlası bir araya sığıyor. Ve daha az enerji harcıyorlar!" Bilge anladı: {B}"Demek ki tabletim küçük ama çok güçlü!"
+{B}"Peki anneannemin hesap makinesi neden bu kadar büyük, benim tabletim neden bu kadar küçük?" diye sordu Bilge. Yonga açıkladı: {Y}"Transistörler küçüldükçe, daha fazlası bir araya sığıyor. Ve daha az enerji harcıyorlar!" Bilge anladı: {B}"Demek ki tabletim küçük ama çok güçlü!"
 
 **Resim:**
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. İki yonga yan yana gösteriliyor — soldaki büyük ve eski görünümlü, büyükannenin hesap makinesinden çıkma (1970'lerden), sağdaki minik ve modern, Bilge'nin tabletinden çıkma. Altındaki tabelalar "Az transistör, yavaş" ve "Milyarlarca transistör, süper hızlı!" yazıyor. Bilge iki yongayı karşılaştırıyor; küçük olanı işaret parmağının ucunda dengede tutmaya çalışıyor. Yonga gurur dolu bir ifadeyle açıklama yapıyor. Kıyaslama ve keşif hissiyle sıcak sarı ve mavi tonlar.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. İki yonga yan yana gösteriliyor — soldaki büyük ve eski görünümlü, anneannenin hesap makinesinden çıkma (1970'lerden), sağdaki minik ve modern, Bilge'nin tabletinden çıkma. Altındaki tabelalar "Az transistör, yavaş" ve "Milyarlarca transistör, süper hızlı!" yazıyor. Bilge iki yongayı karşılaştırıyor; küçük olanı işaret parmağının ucunda dengede tutmaya çalışıyor. Yonga gurur dolu bir ifadeyle açıklama yapıyor. Kıyaslama ve keşif hissiyle sıcak sarı ve mavi tonlar.
 
 ---
 
@@ -120,7 +120,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 12 — Takvim Hâlâ Çevrilir
 
 **Metin:**
-{B}"Öyleyse Moore'un takvimi bitmedi!" dedi Bilge sevinçle. {B}"Demek büyükannemin hesap makinesi ile benim tabletim arasındaki fark hiç bitmeyecek!" Yonga başını salladı: {Y}"Doğru! Mühendisler yeni yollar buldukça bilgisayarlar daha güçlü olmaya devam edecek."
+{B}"Öyleyse Moore'un takvimi bitmedi!" dedi Bilge sevinçle. {B}"Demek anneannemin hesap makinesi ile benim tabletim arasındaki fark hiç bitmeyecek!" Yonga başını salladı: {Y}"Doğru! Mühendisler yeni yollar buldukça bilgisayarlar daha güçlü olmaya devam edecek."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Büyülü takvim tekrar ön planda; sayfaları çevrilirken içinden transistörler değil yeni şekillerde — katlı yongalar, farklı malzemeler, renkli geometrik şekiller — çıkıyor. Bilge mutlu bir ifadeyle takvimi tutuyor; Yonga yanında kollarını kaldırmış "evet, devam ediyor!" der gibi. Renkli konfetiler gibi şekiller etrafta uçuşuyor. Neşeli, umut verici, canlı renkler.
@@ -130,10 +130,10 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 13 — Pencerede Hayal
 
 **Metin:**
-Bilge tekrar büyükannesinin evinde oturuyordu. Takvimi ve eski hesap makinesini yan yana koydu, sonra kendi tabletine baktı. {B}"Belki ben büyüyünce transistörlerden daha akıllı bir parça icat ederim!" dedi. Yonga parladı: {Y}"Eminim yaparsın, Bilge!"
+Bilge tekrar anneannesinin evinde oturuyordu. Takvimi ve eski hesap makinesini yan yana koydu, sonra kendi tabletine baktı. {B}"Belki ben büyüyünce transistörlerden daha akıllı bir parça icat ederim!" dedi. Yonga parladı: {Y}"Eminim yaparsın, Bilge!"
 
 **Resim:**
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bilge büyükannenin penceresinde oturmuş, dışarıyı hayal kurarak izliyor; düşünce balonunda kendi icat ettiği hayal ürünü yongalar ve renkli devreler görünüyor. Yonga omzunun yanında, mavi ışık halkaları yayarak Bilge'yi teşvik eder gibi bakıyor. Gün batımının altın-turuncu ışığı odayı sarıyor. Sıcak, ilham verici ve umut dolu bir kapanış sahnesi.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bilge anneannenin penceresinde oturmuş, dışarıyı hayal kurarak izliyor; düşünce balonunda kendi icat ettiği hayal ürünü yongalar ve renkli devreler görünüyor. Yonga omzunun yanında, mavi ışık halkaları yayarak Bilge'yi teşvik eder gibi bakıyor. Gün batımının altın-turuncu ışığı odayı sarıyor. Sıcak, ilham verici ve umut dolu bir kapanış sahnesi.
 
 ---
 
