@@ -88,14 +88,14 @@ Kâğıdın üstünde alt alta yazılmış kısa adımlar, her satırın başın
 **Metin:**
 Bilge yaramazlık yaptı ve iki satırın yerini değiştirdi.
 
-Yonga listeyi baştan uyguladı. Ortaya kare değil, karışık bir şekil çıktı.
+Yonga listeyi baştan uyguladı. Ortaya kare değil, kapanmamış bir şekil çıktı.
 
 {B}"Ama adımların hepsi aynıydı!" dedi Bilge şaşkınlıkla.
 
 {Y}"Aynıydı ama sıraları değildi." dedi Yonga. {Y}"Ben yukarıdan aşağıya, tek tek uygularım."
 
 **Resim:**
-Solda düzgün bir kare, sağda kenarları birbirine karışmış acayip bir şekil yan yana duruyor. İki listenin arasında yerleri değişmiş iki satır oklarla gösteriliyor. Bilge hem şaşkın hem gülüyor, Yonga omuz silker gibi.
+Solda ışıktan çizilmiş kapalı bir kare, sağda aynı listenin iki satırı yer değiştirince çıkan şekil yan yana duruyor. Sağdaki şeklin üç kenarı doğru çizilmiş ama son kenar iki katı uzunlukta devam ettiği için kare kapanmamış. Bilge hem şaşkın hem gülüyor, Yonga omuz silker gibi.
 
 ---
 
@@ -141,7 +141,7 @@ Yonga listeyi uyguladı ve şekil yine bozuldu.
 {Y}"Uyaramam." dedi Yonga. {Y}"Ben senin yazdığını yaparım. Yanlışı bulmak sana düşer."
 
 **Resim:**
-Kâğıtta bir satır kırmızıyla işaretlenmiş, o satırın karşılığında çizilen şeklin bir kenarı ters yöne gitmiş. Bilge kaşlarını çatmış listeye bakıyor, parmağı yanlış satırın üstünde. Yonga yanında sakin duruyor.
+Kâğıtta bir satır kırmızıyla işaretlenmiş. Havada çizilen şeklin üç kenarı doğru, ama son köşede kalem ters yöne dönmüş; kareyi kapatmak yerine köşeden dışarı uzayan bir çizgi çıkmış ve şekil kapanmamış. Bilge kaşlarını çatmış listeye bakıyor, parmağı yanlış satırın üstünde. Yonga yanında sakin duruyor.
 
 ---
 
