@@ -30,7 +30,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 3 — Kum, Silisyum Olur
 
 **Metin:**
-Yonga anlattı: {Y}"Bu kumlar sıradan kum değil. İçinde silisyum var!" Kum, silisyum ile oksijenin birleşmesinden oluşur. Mühendisler kumdan silisyumu ayırır, bilgisayar yongalarını o silisyumdan yapar.
+Yonga anlattı: {Y}"Bu kumlar sıradan kum değil. İçinde silisyum var!" Kum, silisyum ile oksijenin birleşmesinden oluşur. Sabah parıldamasının nedeni de budur: bu billur taneleri ışığı cam gibi yansıtır. Mühendisler kumdan silisyumu ayırır, bilgisayar yongalarını o silisyumdan yapar.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Büyütülmüş kum tanelerinin yanında Yonga küçük bir hologram gösteriyor: bir kum tanesinin altında "Si — Silisyum" yazısı ve parlak kristal yapıları ışıltılı şekilde beliriyor. Bilge merakla öne eğilmiş, hologram ışığı yüzüne yansıyor. Arka planda kumsal var ama ön plan sihirli, bilim dolu bir atmosfer taşıyor. Kristal mavi, gümüş ve altın sarısı renkleriyle bilimsel ama çocuksu bir dil kullanılmış.

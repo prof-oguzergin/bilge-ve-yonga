@@ -27,6 +27,8 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Sayfa 2 — Eğer… O Zaman…
 
 **Metin:**
+Bilge güldü ve sola döndü. {B}"Benim koşulum kolay: hava güzelse göl."
+
 {Y}"Programlarda bu seçime **if-else** denir." dedi Yonga.
 
 {Y}"'Eğer hava yağmurluysa, şemsiye al.

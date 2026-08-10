@@ -140,7 +140,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 14 — Sofrada Soğan Çorbası
 
 **Metin:**
-Annesi çorbanın bir kısmını anneannesine götürmek üzere ayırdı. Akşam sofrasında herkes soğan çorbasını içti. Bilge her kaşık aldığında gülümsedi. Artık soğanın sadece bir sebze olmadığını biliyordu. Soğan, bilgisayarların en güzel sırrını saklayan bir öğretmendi. Yonga da küçücük kasesinden içti!
+Annesi çorbanın bir kısmını bir kavanoza koydu; yarın anneannesine götüreceklerdi. Akşam sofrasında herkes soğan çorbasını içti. Bilge her kaşık aldığında gülümsedi. Artık soğanın sadece bir sebze olmadığını biliyordu. Soğan, bilgisayarların en güzel sırrını saklayan bir öğretmendi. Yonga da küçücük kasesinden içti!
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Aile sofrası — Bilge, annesi ve babası akşam yemeğinde soğan çorbası içiyor; ortada büyük bir çorba kasesi var. Yonga masanın köşesinde küçücük bir kaseden içiyor, buharlı ve mutlu. Bilge gülümseyerek kepçeye bakıyor, içi soğan katmanlarıyla hayal ediyor. Sahne sıcak, aile sevgisi dolu ve neşeli. Altın sarısı, turuncu ve kırmızı tonları.

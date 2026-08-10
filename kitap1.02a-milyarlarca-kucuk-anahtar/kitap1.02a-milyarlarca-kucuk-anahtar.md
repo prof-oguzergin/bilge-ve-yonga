@@ -122,6 +122,8 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 Bilge kocaman bir nefes aldı. {B}"Demek her şey, oyunlar, müzik, resimler, hepsi 0 ve 1'den yapılıyor!" dedi. {Y}"Evet!" dedi Yonga. {Y}"Bu dünyanın en güzel sırrı!"
 
+Yonga düğmeye bir kez daha bastı. İkisi de odada, eski boylarında buldular kendilerini.
+
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Büyük ve renkli bir pano: oyun kumandası, nota, fotoğraf, kitap görselleri; hepsinin altında küçük "0 1 0 1..." yazıları akıyor. Ortada Bilge ve Yonga el ele (Bilge Yonga'i avucunda tutuyor) mutlu ve aydınlanmış ifadelerle duruyor. Arka plan sıcak sarı-turuncu gradyan; bir "eureka" anı hissi. Renkli, dolgun ve neşeli bir kompozisyon.
 

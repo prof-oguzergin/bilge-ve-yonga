@@ -122,6 +122,8 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 Mağazaya döndüler. Bilge artık farklı gözlerle bakıyordu bilgisayarlara. Her birinin yanındaki etiketlerde puan yazan listeler gördü. {B}"SPEC puanları!" dedi heyecanla. {Y}"Evet." dedi Yonga. {Y}"Artık hangi bilgisayarın hangi işte iyi olduğunu anlayabilirsin." Bilge babasına döndü: {B}"Baba, ne için kullanacağımıza göre seçelim!"
 
+Etiketleri birlikte okudular ve Bilge'nin ödevlerine, resim çizmesine en uygun olanı seçtiler.
+
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Mağaza rafının önünde Bilge bir bilgisayarın yanındaki etikete bakıyor: etiketin üzerinde küçük bir tablo ve çeşitli puanlar görünüyor. Yonga Bilge'nin omzuna konmuş, ekranında küçük onay simgesi yanıyor. Arka planda gülümseyen baba figürü cüzdanını tutuyor.
 
