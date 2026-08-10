@@ -123,7 +123,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 Eve dönerken Bilge derin bir nefes aldı: {B}"Bunca zamandır çok şey öğrendim, Yonga." Yonga parmaklarıyla saydı: {Y}"Hız nasıl ölçülür. Amdahl Yasası. Gustafson Yasası. Sınama programları. Bellek duvarı. Ve şimdi, her iş için doğru araç." Bilge güldü: {B}"Sen iyi bir öğretmensin, Yonga."
 
 **Resim:**
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Akşam yolunda Bilge ve Yonga yan yana yürüyor. Yonga'nın ekranında küçük bir liste akıyor, öğrenilen konuların ikonları: kronometre, grafik, bahçe, kupa, depo kapısı. Bilge elinde bilim fuarı ödülü tutuyor (küçük rozet). Arka planda güneş batıyor, gökyüzü turuncu-pembe.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Akşam yolunda Bilge ve Yonga yan yana yürüyor. Yonga'nın ekranında küçük bir liste akıyor, öğrenilen konuların simgeleri: kronometre, grafik, bahçe, depo kapısı, telefon. Bilge'nin elleri boş, yürürken sohbet ediyor. Arka planda güneş batıyor, gökyüzü turuncu-pembe.
 
 ---
 

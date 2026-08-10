@@ -77,7 +77,7 @@ Yonga'nın açtığı hologramda iki hesap yan yana: "Çorumlu: 60 × 1,6 = 96 m
 Demek Edirneli Orhan bir dakikada 120 metre, Çorumlu Orhan 96 metre gidiyordu. Yol boyunca Edirneli yavaş yavaş öne geçti ve 400 metreyi önce bitirdi. Edirneli Orhan yarışı kazandı!
 
 **Resim:**
-Bitiş çizgisi anı: Edirneli Orhan gülümseyerek kurdeleyi göğüsler, Çorumlu Orhan hemen arkasında sakin bir gülümsemeyle geliyor. Tribünde Bilge sevinçle zıplıyor, Yonga ışık saçıyor. Konfeti ve neşe; dostça bir bitiş.
+Bitiş çizgisi anı: Edirneli Orhan gülümseyerek kurdeleyi göğüsler; Çorumlu Orhan pistin epey gerisinde, aradaki açıklık karenin dörtte biri kadar, dostça gülümseyerek koşmayı sürdürüyor. Tribünde Bilge sevinçle zıplıyor, Yonga ışık saçıyor. Konfeti ve neşe; dostça bir bitiş.
 
 ---
 

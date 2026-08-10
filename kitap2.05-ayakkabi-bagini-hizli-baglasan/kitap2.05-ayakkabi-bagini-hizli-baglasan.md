@@ -114,7 +114,7 @@ Toplam süre yirmi bir dakikadan sadece üç dakika on saniyeye düştü!
 {B}"Bu sefer erken bile geldim!" diye sevindi Bilge.
 
 **Resim:**
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bilge bisikletiyle okul kapısında dur yapmış; okul kapısı açık, öğretmen şaşkınlıkla karşılıyor. Etrafında hız çizgileri ve mutlu çiçekler. Yonga sepetle bisikletin üzerinde, göğsündeki ekranda "3 DK 10 SN!" yazıyor. Sayfanın alt köşesinde önce-sonra karşılaştırması: "Dünkü Bilge: 21 dk geç" vs. "Bugünkü Bilge: ERKENCE!". Parlak sabah güneşi, canlı mavi ve turuncu tonlar; zafer ve başarı havası.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bilge bisikletiyle okul kapısında dur yapmış; okul kapısı açık, öğretmen şaşkınlıkla karşılıyor. Etrafında hız çizgileri ve mutlu çiçekler. Yonga sepetle bisikletin üzerinde, göğsündeki ekranda "3 DK 10 SN!" yazıyor. Sayfanın alt köşesinde önce-sonra karşılaştırması: "Dün: yolculuk 21 dakika" vs. "Bugünkü Bilge: ERKENCE!". Parlak sabah güneşi, canlı mavi ve turuncu tonlar; zafer ve başarı havası.
 
 ---
 

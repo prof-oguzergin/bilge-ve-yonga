@@ -123,7 +123,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 {Y}"Curiosity şu an da Mars'ta." dedi Yonga saygıyla. {Y}"Yıllar geçti. Kozmik ışınlar geldi geçti, ama o hâlâ çalışıyor." Bilge gökyüzüne baktı. {B}"Süper kahraman gibi!" Yonga güldü. {Y}"Evet, ama süper kahramanı mühendisler yaptı."
 
 **Resim:**
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Mars'ta alacakaranlık: pembe-turuncu gökyüzü, güneş ufukta batıyor. Curiosity rover ön planda durgun ve kahraman gibi duruyor; arkasında uzun gölgesi uzanıyor. Kozmik ışın okları etrafında görünüyor ama Curiosity'ye değemiyor (küçük kalkan alanı). Sahne epik, onurlu ve duygusal. Kırmızı, turuncu ve altın tonları.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Mars'ta alacakaranlık: pembe-turuncu gökyüzü, güneş ufukta batıyor. Curiosity rover ön planda durgun ve kahraman gibi duruyor; arkasında uzun gölgesi uzanıyor. Gökten gelen kozmik ışın oklarından biri gezginin gövdesine ulaşıyor ve küçük bir kıvılcım çıkarıyor; hemen yanındaki iki panelden biri sönük, öbürü yeşil yanıyor. Işın geliyor ama makine çalışmayı sürdürüyor. Sahne epik, onurlu ve duygusal. Kırmızı, turuncu ve altın tonları.
 
 ---
 

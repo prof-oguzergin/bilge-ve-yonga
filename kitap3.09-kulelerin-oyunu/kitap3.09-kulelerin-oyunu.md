@@ -75,7 +75,7 @@ Yumuşak 3D render tarzında çocuk kitabı illüstrasyonu. Bilge'nin odasının
 Bilge parlayan gözlerle tamamladı: {B}"Ve iş bitince o adrese geri döner!"
 
 **Resim:**
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Büyük bir yol haritası çizilmiş: ana yol "ANA PROGRAM", yan bir yol "ALTYORDAM". Ana yoldan yola çıkılıyor, "dönüş adresi" bir posta kutusuna atılıyor (yığıt), altyordam yapılıyor, sonra posta kutusundan dönüş adresi alınıp ana yola dönülüyor. Renkler turuncu ve mavi, harita tarzında.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Büyük bir yol haritası çizilmiş: ana yol "ANA PROGRAM", yan bir yol "ALTYORDAM". Ana yolun ayrım noktasında tek bir küçük kutu duruyor ve içine dönüş adresini taşıyan bir kâğıt konmuş; bu kutu ra yazmacıdır. Yan yol bitince ok ana yola geri dönüyor. Halıda başka kutu yok. Renkler turuncu ve mavi, harita tarzında.
 
 ---
 

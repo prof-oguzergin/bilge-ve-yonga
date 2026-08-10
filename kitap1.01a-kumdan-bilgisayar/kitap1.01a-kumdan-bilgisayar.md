@@ -133,7 +133,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 O küçük yonga artık bir bilgisayar anakartının içine yerleşti. Bilge'nin dizüstü bilgisayarının içindeydi! Her bilgisayarda kumdan gelen bir kalp atıyor.
 
 **Resim:**
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Büyük bir anakart yakın çekim; üzerindeki işlemci soketine küçük bir yonga yerleşiyor. Arka planda büyük bir bilgisayar kasası açık ve aydınlık. Bilge bir dizüstü bilgisayar tutuyor, ekrandan içeriye doğru büyütülmüş bakış açısıyla yonga görünüyor. Yeşil anakart üzerindeki altın renkli devre yolları, kalpten uzanan damarlar gibi çizilmiş. Canlı yeşil, altın ve sıcak turuncu tonlar; hayat verme ve mucize hissi.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Büyük bir anakart yakın çekim; üzerindeki işlemci soketine küçük bir yonga yerleşiyor. Arka planda Bilge'nin tableti duruyor ve aydınlık. Bilge bir dizüstü bilgisayar tutuyor, ekrandan içeriye doğru büyütülmüş bakış açısıyla yonga görünüyor. Yeşil anakart üzerindeki altın renkli devre yolları, kalpten uzanan damarlar gibi çizilmiş. Canlı yeşil, altın ve sıcak turuncu tonlar; hayat verme ve mucize hissi.
 
 ---
 
