@@ -88,7 +88,7 @@ Büyük bir pasaport bürosu tezgâhı. Sıra olmuş harfler: bir Türkçe ş, b
 
 {B}"Peki gülen yüzün numarası?" diye sordu Bilge.
 
-{Y}"128.578."
+{Y}"128.578"
 
 Bilge güldü. {B}"Bu numara bir bayta sığmaz ki!"
 
