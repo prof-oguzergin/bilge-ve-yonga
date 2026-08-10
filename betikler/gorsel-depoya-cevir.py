@@ -36,6 +36,25 @@ def cevir(png: Path, jpg: Path) -> bool:
     return True
 
 
+def kart_kapagi(folder_adi: str) -> bool:
+    """Ana sayfadaki kitap kartinin kucuk kapagi (kapaklar/kitap1.02c.jpg).
+
+    build_web bu dosyayi uretmez, yalnizca baglar; yeni kitapta eksik
+    kalinca kart bos cikiyordu.
+    """
+    kaynak = DEPO / folder_adi / 'resimler' / 'GPT_Kapak.jpg'
+    hedef = DEPO / 'kapaklar' / (folder_adi.split('-')[0] + '.jpg')
+    if not kaynak.exists():
+        return False
+    if hedef.exists() and hedef.stat().st_mtime >= kaynak.stat().st_mtime:
+        return False
+    im = Image.open(kaynak).convert('RGB')
+    im = im.resize((480, round(im.height * 480 / im.width)), Image.LANCZOS)
+    hedef.parent.mkdir(parents=True, exist_ok=True)
+    im.save(hedef, 'JPEG', quality=82, optimize=True, progressive=True)
+    return True
+
+
 def main():
     hedefler = sys.argv[1:]
     klasorler = [d for d in sorted(KAYNAK.iterdir())
@@ -51,6 +70,8 @@ def main():
         for png in sorted(kaynak_res.glob('*.png')):
             if cevir(png, hedef_res / (png.stem + '.jpg')):
                 n += 1
+        if kart_kapagi(d.name):
+            print('  %-46s kart kapağı' % d.name)
         if n:
             print('  %-46s %2d kare' % (d.name, n))
             toplam += n
