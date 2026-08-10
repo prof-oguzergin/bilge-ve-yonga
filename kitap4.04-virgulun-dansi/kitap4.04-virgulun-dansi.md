@@ -104,7 +104,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 8 — Örnekle Görelim
 
 **Metin:**
-Yonga bir örnek gösterdi. {Y}"Bin iki yüz otuz dört buçuk sayısını düşün. Onu bir virgül iki üç dört beş çarpı bin olarak da yazabilirsin. Kesir iki üç dört beş, yani virgülden sonrası; üs ise virgülü üç basamak sağa kaydırıyor."
+Yonga bir örnek gösterdi. {Y}"Bin iki yüz otuz dört buçuk sayısını düşün. Onu bir virgül iki üç dört beş çarpı bin olarak da yazabilirsin. Kesir iki üç dört beş, virgülden sonraki bölüm; üs ise virgülü üç basamak sağa kaydırıyor."
 
 {B}"Bilgisayar aynısını yapıyor, sadece onluk yerine ikilik sistemle." dedi Bilge. {B}"İkinin kuvvetleriyle!"
 

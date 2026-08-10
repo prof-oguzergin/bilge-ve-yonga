@@ -116,7 +116,7 @@ Bilge dudak büktü. {B}"Küçük harfe küçük kutu lazım."
 **Metin:**
 {Y}"İşte bunun için **UTF-8** var." dedi Yonga. {Y}"Numaraları büyüklüklerine göre valize koyar: kimini bir bayta, kimini iki bayta, kimini üç bayta, en büyüklerini dört bayta."
 
-{B}"Yani valiz numaraya göre seçiliyor." dedi Bilge.
+{B}"Demek ki valiz numaraya göre seçiliyor." dedi Bilge.
 
 {Y}"Aynen. Küçük numaraya küçük valiz, büyük numaraya büyük valiz."
 
