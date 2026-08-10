@@ -113,7 +113,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 {B}"Bu anahtarlar ne kadar hızlı açılıp kapanır?" diye sordu Bilge. {Y}"Saniyede milyarlarca kez!" dedi Yonga. Bilge düşündü ve güldü: {B}"Çok hızlı!"
 
 **Resim:**
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bir saat görseli saathanesiyle birlikte ortada duruyor; saniye ibresi bulanık, çok hızlı dönüyor. Etrafında "1.000.000.000 kez!" yazısı parlıyor. Bilge şaşkınlıkla saate bakıyor, Yonga da onu göstermek için dans ediyor gibi bir pozda. Hareket çizgileri ve hız efektleri — sanki rüzgar esiyor. Altın, mavi ve turuncu tonlar; hız ve enerji dolu bir sayfa.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bir saat görseli saathanesiyle birlikte ortada duruyor; saniye ibresi bulanık, çok hızlı dönüyor. Bilge şaşkınlıkla saate bakıyor, Yonga da onu göstermek için dans ediyor gibi bir pozda. Hareket çizgileri ve hız efektleri — sanki rüzgar esiyor. Altın, mavi ve turuncu tonlar; hız ve enerji dolu bir sayfa.
 
 ---
 
