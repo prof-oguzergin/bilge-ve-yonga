@@ -72,7 +72,7 @@ BOOKS = [
      'Silisyum neden seçildi: yarı iletken ve transistörün doğuşu', '#2889C6'),
     ('kitap1.01c-anahtarlardan-mantik-kapilarina', '1.1c',
      'Anahtarlardan Mantık Kapılarına',
-     'VE, VEYA, DEĞİL: anahtarlardan kurulan üç geçit', '#2784C0'),
+     'VE, VEYA, DEĞİL: anahtarlardan kurulan üç mantık kapısı', '#2784C0'),
     ('kitap1.02a-milyarlarca-kucuk-anahtar', '1.2a', 'Milyarlarca Küçük Anahtar',
      'Transistörler, açık-kapalı anahtarlar ve ikili sayılar', '#267FBA'),
     ('kitap1.02b-ayni-rakam-baska-deger', '1.2b', 'Aynı Rakam, Başka Değer',
