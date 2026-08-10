@@ -105,7 +105,7 @@ Bilge düşündü ve gözleri parladı. {B}"Transistör!"
 {Y}"Aynen. Küçük bir işaretle açılıp kapanan kapı."
 
 **Resim:**
-Hologramda düğmeler eriyip yerlerini transistör simgelerine bırakıyor: her biri üç bacaklı küçük parlak parça. Bilge hayretle izliyor. Yonga elini kaldırmış, dönüşümü gösteriyor.
+Hologramda devre tahtasındaki basmalı düğmeler eriyip yerlerini transistörlere bırakıyor: her biri üç bacaklı küçük parlak parça. Düğmeler de transistörler de hologramın kendi mor ışığıyla, yarı saydam duruyor. Bilge hayretle izliyor. Yonga elini kaldırmış, dönüşümü gösteriyor.
 
 ---
 
