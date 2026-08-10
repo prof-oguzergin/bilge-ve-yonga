@@ -40,7 +40,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 {B}"Peki bu alete sayıları nasıl veriyorsun?" diye merak etti Bilge.
 
-{Y}"AMB'nin iki **girişi** var." diye açıkladı Yonga. {Y}"Her birine bir yazmaçtan sayı girer. AMB onları işler ve tek **çıkıştan** sonucu dışarı verir."
+{Y}"AMB'nin iki **girişi** var." diye açıkladı Yonga. {Y}"Çoğunlukla ikisine de yazmaçtan sayı girer; bazı buyruklarda ikinci giriş buyruğun içindeki küçük sayıdır. AMB onları işler ve tek **çıkıştan** sonucu dışarı verir."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Kutu biçimli AMB'nin sol tarafında iki ayrı giriş kapısından renkli sayı kutucukları (biri sarı 7, biri yeşil 3) içeri süzülüyor; sağ tarafındaki tek çıkış kapısından parlak bir sonuç ışını çıkıyor. Bilge iki eliyle iki girişi aynı anda işaret ediyor, Yonga çıkışın önünde bekliyor.
@@ -201,7 +201,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 📦 AMB tek bir kutudur ama içinde birçok iş saklıdır: toplama, çıkarma, **VE**, **VEYA**, **Dışlayan VEYA**, **DEĞİL** ve karşılaştırma.
 
-🔌 AMB'nin iki girişi (yazmaçlardan gelen sayılar) ve bir çıkışı (sonuç) vardır.
+🔌 AMB'nin iki girişi ve bir çıkışı (sonuç) vardır; girişler çoğunlukla yazmaçlardan gelir, bazen biri buyruğun içindeki sayıdır.
 
 🎛️ **İşlem seçici**, denetim biriminden gelen buyruğa göre AMB'nin hangi işi yapacağını belirler.
 

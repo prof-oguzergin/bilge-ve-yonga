@@ -124,8 +124,9 @@ O da başka bir fonksiyon çağırıyor.
 Sonunda nasıl geri döneceğimi bilebilir miyim?"
 
 {Y}"İşte yığıt tam burada devreye giriyor!" dedi Yonga.
-{Y}"Her fonksiyon çağrısında dönüş adresi yığıta konur.
-Geri dönerken yığıttan alınır.
+{Y}"JAL dönüş adresini önce **ra** yazmacına yazar.
+Fonksiyon başka bir fonksiyon çağıracaksa **ra**'daki adresi yığıta koyar.
+Geri dönerken yığıttan alır.
 Kim son koyduysa birinci çıkar!"
 
 **Resim:**

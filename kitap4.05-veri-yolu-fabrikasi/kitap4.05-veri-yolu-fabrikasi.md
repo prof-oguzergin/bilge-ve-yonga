@@ -242,6 +242,6 @@ Gece sahnesi: Bilge yatağında uyuyor, oda karanlık ve sakin. Masasındaki bil
 **Yanıtlar**
 
 1. Program Sayacı.
-2. Değildir; ikisi ayrı bellektir.
+2. Fabrikanın içinde iki ayrı kapıdan girilir; dışarıdaki büyük bellekte ikisi bir arada durur.
 3. 32 tane.
 4. Teller üstünden.

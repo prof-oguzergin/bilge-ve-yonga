@@ -187,7 +187,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 **Metin:**
 {Y}"Hadi bir buyruğu birlikte çözelim." dedi Yonga ve havaya otuz iki kutuluk bir şerit çizdi.
 
-{Y}"Şu buyruk geldi: `ADD x7, x5, x6`. En sağdaki bölme işlem kodu, 'bu bir yazmaç işlemi' diyor. Öteki bölmelerde hedef x7 ile kaynaklar x5 ve x6 duruyor."
+{Y}"Şu buyruk geldi: `ADD x7, x5, x6`. İşlem kodu bölmesi, 'bu bir yazmaç işlemi' diyor. Öteki bölmelerde hedef x7 ile kaynaklar x5 ve x6 duruyor."
 
 {B}"Kalan bölme ne?" diye sordu Bilge.
 

@@ -145,10 +145,12 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 {B}"Bu döngü ne kadar hızlı?" diye sordu Bilge.
 
 {Y}"Çağdaş bir işlemci, bu döngüyü saniyede
-**milyarlarca kez** tekrarlar! Döngünün saniyede kaç kez
-yinelendiğine **saat vuruş sıklığı** denir.
+**milyarlarca kez** tekrarlar! İşlemcinin saniyede kaç kez tık attığına
+**saat vuruş sıklığı** denir.
 Üzerinde 3 gigahertz yazan bir işlemci,
-saniyede 3 milyar kez döner!" dedi Yonga.
+saniyede 3 milyar kez tık atar!" dedi Yonga.
+{Y}"Bir buyruğun kaç tıkta bittiği ise
+işlemcinin tasarımına göre değişir."
 
 Bilge başı dönerek oturdu.
 {B}"3… milyar… kez…"
@@ -246,7 +248,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 
 📍 **Program Sayacı:** Sıradaki buyruğun nerede olduğunu gösteren özel bir kutu.
 
-⏱️ **Saat vuruş sıklığı:** Döngünün saniyede kaç kez yinelendiğini gösterir. Gigahertz, saniyede milyar kez demektir.
+⏱️ **Saat vuruş sıklığı:** İşlemcinin saniyede kaç kez tık attığını gösterir. Gigahertz, saniyede milyar tık demektir. Bir buyruk birden çok tık sürebilir.
 
 🔓 **RISC-V:** Açık ve ücretsiz bir BKM. Herkesin bakıp kullanabildiği tarif defteri!
 

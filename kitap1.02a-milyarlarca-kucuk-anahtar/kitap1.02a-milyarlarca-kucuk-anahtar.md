@@ -90,7 +90,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 9 — Harfler de 0 ve 1'den!
 
 **Metin:**
-{Y}"Harfler de 0 ve 1'den yapılır!" dedi Yonga. Her harf için 8 haneli bir 0-1 dizisi kullanılır; 8 bitlik böyle bir öbeğe **bayt** denir. Büyük 'A' harfi 01000001'dir. Hangi harfin hangi sayıyla yazıldığını söyleyen listenin adı **ASCII**'dir. Bilgisayar harfleri görmez, yalnızca 0 ile 1'i görür!
+{Y}"Harfler de 0 ve 1'den yapılır!" dedi Yonga. İngiliz alfabesinin her harfi için 8 haneli bir 0-1 dizisi yeter; 8 bitlik böyle bir öbeğe **bayt** denir. Büyük 'A' harfi 01000001'dir. Hangi harfin hangi sayıyla yazıldığını söyleyen listenin adı **ASCII**'dir. Bilgisayar harfleri görmez, yalnızca 0 ile 1'i görür!
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Büyük harfli "A" parçalanarak havada 0 ve 1'lere dönüşüyor; harf altın renkli, 0'lar kırmızı ve 1'ler mavi küçük parçacıklara ayrılıyor. Bilge buna bakarken ağzı açık kalmış, sanki bir sihirbazlık gösterisi izliyor. Yonga kenarında "= 01000001" yazısını gösteriyor. Arka planda büyük harfler ve sayılar dans eder gibi uçuşuyor. Renkli, hareketli ve büyülü bir alfabe-ikili dönüşüm sahnesi.
