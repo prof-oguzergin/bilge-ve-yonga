@@ -202,7 +202,7 @@ Bilge iletiyi bir daha okudu ve yolladı.
 
 Bu kez her harf yerindeydi. Bilge yatağına uzandı ve tavana baktı.
 
-{B}"Dünyanın bütün harflerinin bir numarası var." dedi. {B}"Benim ş'imin de."
+{B}"Dünyanın bütün harflerinin bir numarası var." dedi. {B}"Benim ş'min de."
 
 **Resim:**
 Bilge yatağında sırtüstü uzanmış, tablet göğsünün üstünde, gülümsüyor. Tavanda küçük ışıklı harfler yıldız gibi süzülüyor, aralarında bir ş harfi ötekilerden biraz daha parlak. Yonga yatağın kenarında hafifçe ışıldıyor.
