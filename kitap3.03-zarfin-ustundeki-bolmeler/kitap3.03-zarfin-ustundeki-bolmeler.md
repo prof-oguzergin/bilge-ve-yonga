@@ -156,7 +156,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 **Metin:**
 {B}"İşlemci hangi zarfın geldiğini nereden biliyor?" diye sordu Bilge.
 
-{Y}"En akıllı kısmı burada." dedi Yonga. {Y}"Altı biçim farklı, ama bazı bölmeler hepsinde aynı yerde durur. Hedef yazmaç hep aynı bitlerde, birinci kaynak hep aynı bitlerde. Böylece işlemci zarfın türünü daha anlamadan o bölmeleri okumaya başlar. Zaman kazanır."
+{Y}"En akıllı kısmı burada." dedi Yonga. {Y}"Altı biçim farklı, ama bazı bölmeler hepsinde aynı yerde durur. Bir zarfta hedef yazmaç varsa hep aynı bitlerde durur; birinci kaynak da öyle. Her zarfta ikisi birden bulunmaz. Böylece işlemci zarfın türünü daha anlamadan o bölmeleri okumaya başlar. Zaman kazanır."
 
 {B}"Bakmadan uzanıp alıyor." dedi Bilge. {B}"Kalemin hep aynı gözde durduğunu bildiğin gibi!"
 
@@ -261,7 +261,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 
 📏 **Altı biçim, tek boy:** Zarflar farklı bilgiler taşır ama hepsi 32 bittir.
 
-📐 **Alanlar hep aynı yerde:** Hedef ve birinci kaynak her biçimde aynı bitlerde durur; işlemci buyruğun türünü anlamadan onları okumaya başlar.
+📐 **Alanlar hep aynı yerde:** Bir alan kullanılıyorsa yeri biçimden biçime değişmez; işlemci buyruğun türünü anlamadan onları okumaya başlar. Her biçimde her alan bulunmaz.
 
 🗺️ **Adresleme kipleri:** Bir bellek adresini farklı şekillerde belirtme yolları.
 
@@ -275,7 +275,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 
 3. Altı zarf biçiminin ortak yanı nedir?
 
-4. Hedef ve birinci kaynak neden her biçimde aynı bitlerde durur?
+4. Bir alan kullanılıyorsa yeri neden biçimden biçime değişmez?
 
 **Yanıtlar**
 

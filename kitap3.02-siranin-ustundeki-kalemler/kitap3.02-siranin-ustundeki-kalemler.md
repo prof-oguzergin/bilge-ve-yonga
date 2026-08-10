@@ -158,9 +158,9 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 {B}"Şimdi anlıyorum." dedi Bilge. {B}"Yazmaçlar çok hızlı ama az.
 Bellek çok büyük ama daha yavaş."
 
-{Y}"Tam doğru!" dedi Yonga. {Y}"İşlemci önce yazmaçlara bakar.
-Orada yoksa bellekten alır.
-Bellekten almak yazmaçtan almaktan yüzlerce kat daha uzun sürer."
+{Y}"Tam doğru!" dedi Yonga. {Y}"İşlemci hesabı yazmaçlarla yapar.
+Bellekteki bir sayıyı kullanacaksa önce onu bir buyrukla yazmaca getirir.
+Bellekten getirmek yazmaçtan almaktan yüzlerce kat daha uzun sürer."
 
 {B}"Bu yüzden yazmaçları akıllıca kullanmak önemli." dedi Bilge.
 

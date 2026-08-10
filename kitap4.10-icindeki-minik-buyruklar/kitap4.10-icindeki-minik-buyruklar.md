@@ -78,7 +78,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 {B}"Şef bu defteri nereden buluyor?" diye sordu Bilge.
 
-{Y}"İşlemcinin içinde çok küçük, çok hızlı bir bellek var." dedi Yonga. {Y}"Mikroprogram orada saklı. Şef her buyruk geldiğinde o bellekten doğru sayfayı okuyup satır satır uyguluyor."
+{Y}"İşlemcinin içinde çok küçük, çok hızlı bir bellek var." dedi Yonga. {Y}"Mikroprogram orada saklı. Mikroprogramlı bir işlemcide şef, buyruk geldiğinde o bellekten doğru sayfayı okuyup satır satır uygular."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Küçük, parlayan bir kutu bellek içinde birçok minik tarif sayfası raflarda duruyor. Şef denetim birimi karakteri raftan bir sayfa çekip okuyor, sayfadaki satırları parmağıyla takip ediyor. Bilge rafları hayranlıkla süzüyor, Yonga yanında açıklıyor. Serin mavi ışıklı, düzenli bir kütüphane hissi.

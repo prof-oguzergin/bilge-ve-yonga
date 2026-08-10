@@ -120,7 +120,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 12 — Soğan Çorbası Hazır!
 
 **Metin:**
-Annesinin sesi geldi: {D}"Bilge, soğanları doğradın mı?" Bilge güldü ve soğanı doğramaya başladı. {B}"Evet anne! Hem soğanı hem de bilgisayarı öğrendim bugün!" Yonga mutfak tezgahında mutlulukla dans etti.
+Annesinin sesi geldi: {D}"Bilge, soğanları doğradın mı?" Bilge güldü ve son soğanı da doğradı. {B}"Bitti anne! Hem soğanı hem de bilgisayarı öğrendim bugün!" Yonga mutfak tezgahında mutlulukla dans etti.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bilge mutfakta neşeyle soğan doğruyor, yüzünde büyük bir gülümseme var; gözlerinde küçük yaşlar (soğandan değil, mutluluktan!). Yonga tezgahta küçük adımlarla dans ediyor. Arka planda annesi tencereyle ilgileniyor. Buhar tencereden yükseliyor, mutfak sıcak ve neşeli. Sarı, turuncu ve pembe tonları.

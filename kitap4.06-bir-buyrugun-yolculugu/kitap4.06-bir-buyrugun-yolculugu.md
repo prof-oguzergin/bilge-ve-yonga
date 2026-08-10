@@ -190,7 +190,7 @@ Beşinci istasyon bu kez ışıklarla parlıyor, peron dolu. Vagon durmuş, kü�
 
 {Y}"Sonra tıpkı öncekinde olduğu gibi, altıncı durakta dokuz sayısı x7 yazmacına yazılır, Program Sayacı bir adım ilerler." dedi Yonga.
 
-{B}"Demek yalnızca beşinci durak farklı, gerisi hep aynı." dedi Bilge, gözleri parlayarak.
+{B}"Demek duraklar hep aynı, ama her durakta yapılan iş buyruğa göre değişiyor." dedi Bilge, gözleri parlayarak.
 
 {Y}"Doğru gözlem!" dedi Yonga. {Y}"Her buyruk aynı istasyonlardan geçer, sadece bazı duraklarda iner, bazılarında inmez."
 

@@ -80,7 +80,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 8 — Beş Kişi Bahçede
 
 **Metin:**
-Beş kişiyle çalışmaya başladılar. Bilge kuzey köşeye, Ayşe Teyze'nin arkadaşları farklı bölümlere dağıldı. Yonga eşgüdümcü oldu: {Y}"Sen fideler dikerken ben toprak hazırlıyorum!" Üç saat sonra koskoca bahçe ekilmişti. {D}"Tek başıma bu bahçeyi bir günde asla bitiremezdim." dedi Ayşe Teyze.
+Beş kişiyle çalışmaya başladılar. Bilge kuzey köşeye, Ayşe Teyze'nin arkadaşları farklı bölümlere dağıldı. Yonga eşgüdümcü oldu: {Y}"Sen fideler dikerken ben toprak hazırlıyorum!" Üç saat sonra bahçe bitmiş, yandaki boş tarla da ekilmişti. Bilge tek başına dört saatte yalnız bahçeyi bitirebilecekti; beş kişi aynı sürenin altında iki katı işi bitirdi. {D}"Tek başıma bu bahçeyi bir günde asla bitiremezdim." dedi Ayşe Teyze.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bahçe beş bölgeye ayrılmış, her bölgede bir kişi çalışıyor; renkli sınır çizgileriyle ayrılmış. Yonga bahçenin ortasında küçük eşgüdümcü şapkasıyla (inşaat şapkası gibi) duruyor, ekranında bahçe haritası var. Güneş ufukta alçalıyor, bahçe neredeyse tamamlanmış, renkli fidelerin sıraları görünüyor.

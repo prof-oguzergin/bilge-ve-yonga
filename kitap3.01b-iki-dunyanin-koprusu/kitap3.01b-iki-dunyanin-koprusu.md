@@ -209,7 +209,7 @@ Bilge not defterine yazdı:
 {B}"Yonga, şunu sormalıyım." dedi Bilge.
 {B}"Sözleşme değişirse ne olur?"
 
-{Y}"Eski yazılımlar çalışmaz." dedi Yonga üzgün bir sesle.
+{Y}"Eski buyruklar bozulursa eski yazılımlar çalışmaz." dedi Yonga üzgün bir sesle. {Y}"Ama eskiler yerinde kalıp yanlarına yeni buyruk eklenirse eski yazılımlar çalışmayı sürdürür."
 {Y}"Bu yüzden BKM tasarımcıları çok dikkatli davranır.
 Bir kez kabul edilen sözleşme, uzun yıllar değişmez."
 

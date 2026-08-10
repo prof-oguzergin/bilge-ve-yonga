@@ -155,7 +155,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 ## Deneme Zamanı
 
-1. Kapalı bir işlemci tasarımını kim kullanabilir?
+1. Kapalı bir işlemci tasarımını kimler kullanabilir?
 
 2. RISC-V'i kimler kullanabilir?
 
@@ -165,7 +165,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 **Yanıtlar**
 
-1. Yalnızca onu tasarlayan şirket.
+1. Yalnızca sahibinin izin verdiği kişiler. Kimi şirket tasarımını hiç paylaşmaz, kimi de parayla kiralar.
 2. Herkes; açık kaynaklıdır, ücretsiz görülür, kullanılır ve geliştirilir.
 3. Katkı çoğaldıkça tasarım güçlenir.
 4. Kendi işlemcisini tasarlayabilir.
