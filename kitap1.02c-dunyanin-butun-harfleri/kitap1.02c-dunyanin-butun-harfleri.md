@@ -10,9 +10,9 @@
 ## Sayfa 1 — Kaybolan Harfler
 
 **Metin:**
-Bilge anneannesine ileti yazdı: iyi geceler, öptüm.
+Bilge anneannesine bir ileti yazdı: "İyi geceler, anneanne. Öptüm."
 
-Ekranda bir tuhaflık oldu. Bilge'nin yazdığı bazı harfler kaybolmuş, yerlerine küçük boş kutucuklar gelmişti.
+Az sonra anneannesi yanıt yazdı: "Kızım, iletinde bazı harflerin yerinde küçük boş kutucuklar var."
 
 {B}"Yonga, harflerim nereye gitti?" diye sordu Bilge.
 
@@ -38,25 +38,27 @@ Havada yan yana süzülen iki kart: birinde büyük bir A harfi, öbüründe 65 
 ## Sayfa 3 — Kısa Bir Liste
 
 **Metin:**
-Yonga eski bir liste açtı. {Y}"Buna ASCII deniyor." dedi. {Y}"İçinde tam 128 işaret var: İngiliz alfabesinin harfleri, rakamlar, birkaç noktalama."
+Yonga eski bir liste açtı. {Y}"Buna ASCII deniyor." dedi. {Y}"İçinde tam 128 yer var: İngiliz alfabesinin harfleri, rakamlar, noktalama işaretleri ve bilgisayarın kendine sakladığı birkaç görünmez işaret."
 
 Bilge listeyi baştan sona okudu. Sonra yeniden okudu.
 
 {B}"Burada ş yok." dedi. {B}"ğ de yok, ı da yok."
 
 **Resim:**
-Havada duran uzun ve dar bir liste rulosu; üstünde küçük harf ve rakam simgeleri sıra sıra dizili. Bilge parmağıyla listeyi tarıyor, kaşları çatık. Yonga rulonun öbür ucunu tutuyor. Listede boş bir yer parlak turuncu ile vurgulanmış.
+Havada duran uzun ve dar bir liste rulosu; üstünde küçük harf ve rakam simgeleri sıra sıra dizili. Bilge parmağıyla listeyi tarıyor, kaşları çatık. Yonga rulonun öbür ucunu tutuyor. Bilge aradığını bulamamış, listenin sonuna gelmiş.
 
 ---
 
 ## Sayfa 4 — Bir Kutuya Kaç İşaret Sığar?
 
 **Metin:**
-{Y}"Bir baytta sekiz basamak var." dedi Yonga. {Y}"Sekiz basamakla kaç ayrı desen yazabilirsin?"
+{Y}"Bir bayt sekiz bittir." dedi Yonga. {Y}"Her bite 0 ya da 1 yazabilirsin. Sekiz bitle kaç ayrı desen çıkar?"
 
-Bilge basamakları saydı, ikişer ikişer katladı. {B}"256!"
+Bilge her bit için ikiye katladı. {B}"256!"
 
-{Y}"İşte o kadar. Peki dünyadaki bütün alfabelerin harfleri kaç tane sence?"
+{Y}"İşte o kadar. ASCII yapılırken bu sekiz bitin yalnız yedisi kullanılıyordu; onun için 128'de kalmış."
+
+{Y}"Peki dünyadaki bütün yazıların harfleri, rakamları ve işaretleri kaç tane sence?"
 
 Bilge biraz düşündü ve gözleri büyüdü.
 
@@ -68,7 +70,7 @@ Bir yanda tek bir bayt: yan yana sekiz küçük ışıklı kutucuk. Öbür yanda
 ## Sayfa 5 — Herkese Bir Numara
 
 **Metin:**
-{Y}"Onun için yeni bir liste yapıldı." dedi Yonga. {Y}"Adı **Unicode**. Dünyadaki her işarete birer numara verir: her alfabenin her harfine, her rakama, her noktalamaya, emojilere bile."
+{Y}"Onun için yeni bir liste yapıldı." dedi Yonga. {Y}"Adı **Unicode**. Yazıda kullanılan her işarete bir numara verir: her alfabenin her harfine, her rakama, her noktalamaya, emojilere bile."
 
 {B}"Pasaport gibi." dedi Bilge. {B}"Herkesin kendi numarası var."
 
@@ -82,16 +84,16 @@ Büyük bir pasaport bürosu tezgâhı. Sıra olmuş harfler: bir Türkçe ş, b
 ## Sayfa 6 — Numaralar Büyüyor
 
 **Metin:**
-{Y}"Bak." dedi Yonga. {Y}"Büyük A'nın numarası 65. Küçük ş'nin numarası 351. Küçük ı'nın numarası 305."
+{Y}"Bak." dedi Yonga. {Y}"Büyük A'nın numarası 65. Küçük ı'nın numarası 305. Küçük ş'nin numarası 351."
 
-{B}"Gülen yüzünki?" diye sordu Bilge.
+{B}"Peki gülen yüzün numarası?" diye sordu Bilge.
 
-{Y}"128578."
+{Y}"128.578."
 
 Bilge güldü. {B}"Bu numara bir bayta sığmaz ki!"
 
 **Resim:**
-Havada dört kart yan yana: birinde A harfi, birinde ş, birinde ı, birinde gülen yüz. Kartların altında numaralar ışıkla yazılı ve kartlar soldan sağa giderek büyüyor. Bilge en sağdaki kartın büyüklüğüne şaşırmış, Yonga gülümsüyor.
+Havada dört kart yan yana: birinde A harfi, birinde ı, birinde ş, birinde gülen yüz. Kartların altında numaralar ışıkla yazılı ve kartlar soldan sağa giderek büyüyor. Bilge en sağdaki kartın büyüklüğüne şaşırmış, Yonga gülümsüyor.
 
 ---
 
@@ -100,7 +102,7 @@ Havada dört kart yan yana: birinde A harfi, birinde ş, birinde ı, birinde gü
 **Metin:**
 {B}"O zaman her harfe kocaman bir kutu verelim." dedi Bilge.
 
-{Y}"Verebiliriz." dedi Yonga. {Y}"Ama o zaman A harfi de kocaman kutuda durur. Bir kitabın yeri boşuna dört katına çıkar."
+{Y}"Verebiliriz." dedi Yonga. {Y}"Ama o zaman A harfi de kocaman kutuda durur. Bir kitabın yeri boşuna neredeyse dört katına çıkar."
 
 Bilge dudak büktü. {B}"Küçük harfe küçük kutu lazım."
 
@@ -112,7 +114,7 @@ Bilge dudak büktü. {B}"Küçük harfe küçük kutu lazım."
 ## Sayfa 8 — Küçüğe Küçük Valiz
 
 **Metin:**
-{Y}"İşte bunun için **UTF-8** var." dedi Yonga. {Y}"Numarayı büyüklüğüne göre valize koyar: kimi bir bayta, kimi iki bayta, kimi üç, en büyükleri dört bayta."
+{Y}"İşte bunun için **UTF-8** var." dedi Yonga. {Y}"Numaraları büyüklüklerine göre valize koyar: kimini bir bayta, kimini iki bayta, kimini üç bayta, en büyüklerini dört bayta."
 
 {B}"Yani valiz numaraya göre seçiliyor." dedi Bilge.
 
@@ -126,11 +128,11 @@ Bir bant üstünde dört valiz sıralanmış, soldan sağa giderek büyüyorlar;
 ## Sayfa 9 — Hangi Harf Hangi Valizde?
 
 **Metin:**
-Yonga üç harfi tek tek valizlere koydu.
+Yonga üç işareti tek tek valizlere koydu.
 
 {Y}"A tek bayta sığdı." dedi. {Y}"ş iki bayt istedi. Gülen yüz dört bayt."
 
-{B}"Demek benim adım da harf harf farklı yer tutuyor." dedi Bilge.
+{B}"Demek şeker yazarken ş öteki harflerden fazla yer tutuyor." dedi Bilge.
 
 **Resim:**
 Üç valiz açık duruyor. Birincinin içinde tek bir ışıklı kutucuk ve A harfi; ikincide iki kutucuk ve ş harfi; üçüncüde dört kutucuk ve gülen yüz. Bilge valizlerin yanında eğilmiş bakıyor, Yonga üçünü sırayla gösteriyor.
@@ -142,7 +144,7 @@ Yonga üç harfi tek tek valizlere koydu.
 **Metin:**
 {B}"Peki eski ASCII listesi ne oldu?" diye sordu Bilge.
 
-{Y}"Duruyor." dedi Yonga. {Y}"UTF-8 o 128 işareti aynı numarayla, aynı tek bayta koyar. Onun için eski yazılar hâlâ okunuyor."
+{Y}"Duruyor." dedi Yonga. {Y}"UTF-8 o 128 işareti aynı numarayla, aynı tek bayta koyar. Onun için ASCII ile yazılmış eski yazılar hâlâ okunuyor."
 
 {B}"Yeni liste eskisini çöpe atmamış." dedi Bilge.
 
@@ -168,7 +170,7 @@ Sahne ikiye bölünmüş. Solda Bilge'nin tableti bir harfi ışıklı bir numar
 ## Sayfa 12 — İki Taraf Anlaşınca
 
 **Metin:**
-Yonga tabletin ayarlarını açtı ve iletiyi yeniden yolladı.
+Yonga, anneannenin okuma programına yeni listeyi tanıttı. Bilge iletiyi yeniden yolladı.
 
 Bu kez kutucuklar yoktu. Bilge'nin ş'leri, ğ'leri, ı'ları yerli yerindeydi.
 
@@ -189,7 +191,7 @@ Bilge listeyi kaydırdıkça yeni yeni işaretler geçti.
 {B}"Bir tek liste, bütün dünya." dedi.
 
 **Resim:**
-Bilge ile Yonga büyük ışıklı bir panonun önünde duruyor. Panoda yan yana on kart var; her kartın üstünde dünyanın ayrı bir alfabesinden bir harf ışıkla yazılı, aralarında bir de gülen yüz. Bilge elini panoya uzatmış, dokunduğu kart daha parlak.
+Bilge ile Yonga büyük ışıklı bir panonun önünde duruyor. Panoda yan yana on kart var; kartlarda dünyanın farklı yazı sistemlerinden harfler ve işaretler ışıkla yazılı, bir kartta da gülen yüz duruyor. Bilge elini panoya uzatmış, dokunduğu kart daha parlak.
 
 ---
 
@@ -198,7 +200,7 @@ Bilge ile Yonga büyük ışıklı bir panonun önünde duruyor. Panoda yan yana
 **Metin:**
 Bilge iletiyi bir daha okudu ve yolladı.
 
-{B}"İyi geceler anneanne, öptüm."
+{B}"İyi geceler, anneanne. Öptüm."
 
 Bu kez her harf yerindeydi. Bilge yatağına uzandı ve tavana baktı.
 
@@ -215,17 +217,17 @@ Bilge yatağında sırtüstü uzanmış, tablet göğsünün üstünde, gülüms
 
 🔢 Bilgisayar harfleri değil, harflerin **numaralarını** saklar.
 
-📜 **ASCII** eski ve kısa bir listedir: 128 işaret. İçinde Türkçe ş, ğ, ı yoktur.
+📜 **ASCII** eski ve kısa bir listedir: 128 yer. İçinde Türkçe ş, ğ, ı yoktur.
 
-📦 Bir bayt 256 ayrı desen tutar; dünyanın bütün harfleri bir bayta sığmaz.
+📦 Bir bayt, 256 farklı desenden birini gösterir; dünyanın bütün işaretleri bir bayta sığmaz.
 
-🌍 **Unicode**, dünyadaki her işarete bir numara verir. Bugün yüz binden çok işaret vardır.
+🌍 **Unicode**, yazıda kullanılan her işarete bir numara verir. Bugün yüz binden çok işaret vardır.
 
-🔎 Büyük A'nın numarası 65, küçük ş'nin 351, küçük ı'nın 305, gülen yüzün 128578'dir.
+🔎 Büyük A'nın numarası 65, küçük ı'nın 305, küçük ş'nin 351, gülen yüzün 128.578'dir.
 
 🧳 **UTF-8**, numarayı büyüklüğüne göre bir, iki, üç ya da dört bayta yerleştirir.
 
-🤝 Eski 128 işaret UTF-8'de yine tek bayttadır; bu yüzden eski yazılar bozulmadan okunur.
+🤝 Eski 128 işaret UTF-8'de yine tek bayttadır; bu yüzden ASCII ile yazılmış eski yazılar bozulmadan okunur.
 
 📭 Yazan ile okuyan aynı listeyi kullanmazsa harfin yerine boş kutucuk çıkar.
 
@@ -235,15 +237,15 @@ Bilge yatağında sırtüstü uzanmış, tablet göğsünün üstünde, gülüms
 
 1. Bilgisayar bir harfi saklarken aslında neyi saklar?
 
-2. ASCII listesinde kaç işaret var, Türkçe ş bu listede var mı?
+2. ASCII listesinde kaç yer var, Türkçe ş bu listede var mı?
 
-3. Bir bayt 256 desen tutuyor. Dünyanın bütün harfleri neden bir bayta sığmaz?
+3. Bir bayt 256 desenden birini gösterebiliyor. Dünyanın bütün işaretleri neden bir bayta sığmaz?
 
 4. UTF-8 gülen yüzü kaç bayta, büyük A'yı kaç bayta koyar?
 
 **Yanıtlar**
 
 1. Harfin numarasını.
-2. 128 işaret var; Türkçe ş bu listede yok.
-3. Dünyada yüz binden çok işaret var, 256 desen bunların yanında çok az kalır.
+2. 128 yer var; Türkçe ş bu listede yok.
+3. Dünyada yüz binden çok işaret var; 256 desen bunların yanında çok az kalır.
 4. Gülen yüzü dört bayta, büyük A'yı tek bayta koyar.
