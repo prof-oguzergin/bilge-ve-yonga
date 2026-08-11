@@ -149,7 +149,7 @@ Bilge denedi: iki düğmeye birden bastığında lamba söndü, öteki durumlard
 {Y}"İşte böyle büyüyor. Kapılar birbirine bağlandıkça yeni işler çıkar."
 
 **Resim:**
-Hologramda iki kutu yan yana; birinci kutunun çıkış oku ikinci kutunun girişine giriyor, ikinci kutudan çıkan ok bir ampule bağlanıyor. Ampul sönük. Bilge iki düğmeye basmış duruyor, Yonga bağlantı okunu parmağıyla izliyor.
+Hologramda iki kutu yan yana; birincinin içinde VE, ikincinin içinde DEĞİL yazıyor. Birinci kutunun çıkış oku ikinci kutunun girişine giriyor, ikinci kutudan çıkan ok bir ampule bağlanıyor. Ampul sönük. Bilge iki düğmeye basmış duruyor, Yonga bağlantı okunu parmağıyla izliyor.
 
 ---
 
