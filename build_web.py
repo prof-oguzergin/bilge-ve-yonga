@@ -185,6 +185,15 @@ def find_pdf(folder_dir):
     return pdfs[0].name if pdfs else None
 
 
+# Deneme Zamani sayfasinin afisi. Ilk afis ikilik sayilar kitabi icin
+# cizilmisti, ortasinda dort basamak kutusu var; butun kitaplarda ayni afis
+# cikinca o kutular anlamsiz kaliyordu. Dort kutulu afis kendi kitabinda,
+# otekiler konudan bagimsiz afiste.
+DENEME_AFIS = {
+    'kitap1.02b-ayni-rakam-baska-deger': 'deneme-afisi.jpg',
+}
+
+
 # Okuyucuda beliren kucuk deneme alanlari. Kitap klasoru -> HTML.
 # Dis kitaplik yok, ag istegi yok; cevrimdisi da calisir.
 DENEME_WIDGET = {
@@ -282,6 +291,7 @@ def parse_book(folder, no, title, subtitle):
             hedef.append(re.sub(r'^\d+\.\s*', '', ln))
         pages.append({'type': 'deneme', 'title': 'Deneme Zamanı',
                       'sorular': sorular, 'yanitlar': yanitlar,
+                      'afis': DENEME_AFIS.get(folder, 'deneme-afisi-genel.jpg'),
                       'widget': DENEME_WIDGET.get(folder, '')})
     return pages
 
@@ -1208,7 +1218,7 @@ PAGES.forEach((p, idx)=>{
     const sor = p.sorular.map(s=>'<li>'+s.replace(/\*\*(.+?)\*\*/g,'<b>$1</b>')+'</li>').join('');
     const yan = p.yanitlar.map(s=>'<li>'+s.replace(/\*\*(.+?)\*\*/g,'<b>$1</b>')+'</li>').join('');
     s.innerHTML = '<div class="card"><h2>✏️ '+esc(p.title)+'</h2>'
-      + '<img class="dene-afis" src="../sus/deneme-afisi.jpg" alt="" aria-hidden="true"'+lz+'>'
+      + '<img class="dene-afis" src="../sus/'+p.afis+'" alt="" aria-hidden="true"'+lz+'>'
       + '<p class="dene-alt">Şimdi sıra sende.</p>'
       + '<ol class="dlist">'+sor+'</ol>'
       + (p.widget||'')
