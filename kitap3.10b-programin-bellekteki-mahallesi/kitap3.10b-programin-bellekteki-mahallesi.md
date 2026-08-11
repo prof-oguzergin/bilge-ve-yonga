@@ -74,7 +74,7 @@ Hologramın ikinci bölümü büyütülmüş: kutuların içinde bir sayı, bir 
 **Metin:**
 {B}"Peki program çalışırken yeni bir yere ihtiyaç duyarsa?" diye sordu Bilge.
 
-{Y}"Üçüncü mahalleye gider." dedi Yonga. {Y}"Oraya **öbek** denir. Program 'bana biraz yer ver' der, oradan yer alır."
+{Y}"Üçüncü mahalleye gider." dedi Yonga. {Y}"Oraya **öbek** (İngilizcesi heap) denir. Program 'bana biraz yer ver' der, oradan yer alır."
 
 **Resim:**
 Hologramın üçüncü bölümü; boş kutuların arasında birkaç tanesi yeni dolmuş ve hafifçe parlıyor. Bölümün kenarında küçük bir el simgesi bir kutuyu işaret ediyor: yer istendi, verildi. Bilge şaşkın, Yonga anlatıyor.
@@ -195,9 +195,9 @@ Gece odası. Kapanmakta olan dizüstü bilgisayarın ekranı sönmek üzere; hav
 
 📦 **Veri bölgesi**: program başlamadan önce hazırlanmış değerler buradadır.
 
-🧺 **Öbek**: program çalışırken yer istediğinde buradan alır; işi bitince geri verir.
+🧺 **Öbek** (İngilizcesi heap): program çalışırken yer istediğinde buradan alır; işi bitince geri verir.
 
-🗼 **Yığıt**: kule gibi üst üste dizilir; en son konan önce alınır.
+🗼 **Yığıt** (İngilizcesi stack): kule gibi üst üste dizilir; en son konan önce alınır.
 
 ↔️ Öbek bir yandan, yığıt öteki yandan büyür; ortadaki boşluk biterse program durur.
 
