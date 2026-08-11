@@ -531,6 +531,9 @@ function deneKapi(kap){
     'VEYA':  'M22,10 Q46,40 22,70 Q68,69 98,40 Q68,11 22,10 Z',
     'DEĞİL': 'M26,10 L84,40 L26,70 Z'
   };
+  // 1.02a'da isaretin sayi karsiligi da yazilir; 1.01c'de yazilmaz.
+  const sayi = kap.dataset.sayi === '1';
+  const yaz = v => v ? (sayi ? 'açık (1)' : 'açık') : (sayi ? 'kapalı (0)' : 'kapalı');
   let secili = 0;
   const giris = [0,0];
   const gorulen = [new Set(), new Set(), new Set()];
@@ -548,7 +551,7 @@ function deneKapi(kap){
     +   '<div class="dene-sag">'
     +     '<p class="dene-etiket">Çıkış</p>'
     +     '<p class="dene-lamba" aria-hidden="true">💡</p>'
-    +     '<p class="dene-cikis">kapalı</p>'
+    +     '<p class="dene-cikis"></p>'
     +   '</div>'
     + '</div>'
     + '<p class="dene-ipucu" role="status"></p>';
@@ -565,11 +568,11 @@ function deneKapi(kap){
   ['A','B'].forEach((ad,i)=>{
     const b = document.createElement('button');
     b.type='button'; b.className='dene-kutu';
-    b.innerHTML = '<span class="bit">'+ad+'</span><span class="agirlik">kapalı</span>';
+    b.innerHTML = '<span class="bit">'+ad+'</span><span class="agirlik">'+yaz(0)+'</span>';
     b.addEventListener('click', (e)=>{
       giris[i] = giris[i] ? 0 : 1;
       b.classList.toggle('acik', !!giris[i]);
-      b.querySelector('.agirlik').textContent = giris[i] ? 'açık' : 'kapalı';
+      b.querySelector('.agirlik').textContent = yaz(giris[i]);
       b.setAttribute('aria-label', ad + ' girişi ' + (giris[i]?'açık':'kapalı'));
       yenile();
       if(e.detail) b.blur();
@@ -610,7 +613,7 @@ function deneKapi(kap){
     telB.classList.toggle('canli', !!giris[1]);
     telC.classList.toggle('canli', !!acik);
     lamba.classList.toggle('yanik', !!acik);
-    cikis.textContent = acik ? 'açık' : 'kapalı';
+    cikis.textContent = yaz(acik);
     gorulen[secili].add(k.tek ? String(giris[0]) : giris[0]+'-'+giris[1]);
     const hepsi = k.tek ? 2 : 4;
     ipucu.textContent = gorulen[secili].size >= hepsi
