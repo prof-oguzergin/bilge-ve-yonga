@@ -235,6 +235,19 @@ body{margin:0}
 .dene-kutu.acik{border-color:var(--parlak-koyu); color:var(--parlak-koyu); transform:translateY(-3px)}
 .card .dene-sonuc{margin:0; max-width:none; font-family:var(--ff-disp); font-weight:800; line-height:1;
   font-size:clamp(2.4rem,4.6vw,3.2rem); color:var(--parlak-koyu)}
+/* Kapi denemesi */
+.dene-secim{display:flex; gap:8px; justify-content:center; flex-wrap:wrap; margin:0 0 14px}
+.dene-secim button{font-family:var(--ff-disp); font-weight:800; font-size:.82rem; letter-spacing:.04em;
+  padding:8px 14px; border-radius:999px; cursor:pointer; background:transparent;
+  border:1px solid var(--kagit-cizgi); color:var(--kagit-solgun)}
+.dene-secim button.secili{border-color:var(--parlak-koyu); color:var(--parlak-koyu)}
+.dene-lamba{margin:0; font-size:2.6rem; line-height:1; filter:grayscale(1) opacity(.4);
+  transition:filter .15s ease}
+.dene-lamba.yanik{filter:none}
+.card .dene-cikis{margin:.4em 0 0; max-width:none; font-family:var(--ff-disp); font-weight:800;
+  font-size:1.05rem; text-align:center; color:var(--kagit-koyu)}
+.card .dene-ipucu{margin:12px 0 0; max-width:none; text-align:center; font-size:.9rem;
+  min-height:1.2em; color:var(--kehribar-koyu)}
 .slist li{font-family:var(--ff-body); font-size:clamp(1.06rem,1.2vw,1.22rem); line-height:1.55;
   padding-left:14px; border-left:3px solid var(--amber)}
 .slist li b{font-family:var(--ff-disp)}
@@ -462,6 +475,7 @@ function fmt(s){var t=esc(s);
 function deneKur(kap){
   if(!kap || kap.dataset.kuruldu) return;
   kap.dataset.kuruldu = '1';
+  if(kap.dataset.dene === 'kapi'){ deneKapi(kap); return; }
   if(kap.dataset.dene !== 'basamak') return;
   const degerler = [8,4,2,1], durum = [0,0,0,0];
   kap.innerHTML = '<p class="dene-yonerge">Kutucuklara dokun, sayının ne olduğunu gör.</p>'
@@ -491,6 +505,81 @@ function deneKur(kap){
     });
     sira.appendChild(b);
   });
+}
+
+// Kapi denemesi: cocuk kapiyi secer, girisleri acip kapatir, lambaya bakar.
+// Kitap sifir-bir dilini kullanmiyor (1.02a'dan once geliyor), burada da
+// "acik/kapali" deniyor.
+function deneKapi(kap){
+  const KAPILAR = [
+    {ad:'VE',    tek:false, hesap:(a,b)=>a&&b},
+    {ad:'VEYA',  tek:false, hesap:(a,b)=>a||b},
+    {ad:'DEĞİL', tek:true,  hesap:(a)=>!a}
+  ];
+  let secili = 0;
+  const giris = [0,0];
+  const gorulen = [new Set(), new Set(), new Set()];
+  kap.innerHTML = '<p class="dene-yonerge">Bir kapı seç, düğmelere dokun, lambaya bak.</p>'
+    + '<div class="dene-secim"></div>'
+    + '<div class="dene-tahta">'
+    +   '<div class="dene-sol">'
+    +     '<p class="dene-etiket">Girişler</p>'
+    +     '<div class="dene-kutular"></div>'
+    +   '</div>'
+    +   '<div class="dene-sag">'
+    +     '<p class="dene-etiket">Çıkış</p>'
+    +     '<p class="dene-lamba" aria-hidden="true">💡</p>'
+    +     '<p class="dene-cikis">kapalı</p>'
+    +   '</div>'
+    + '</div>'
+    + '<p class="dene-ipucu" role="status"></p>';
+  const secim = kap.querySelector('.dene-secim');
+  const sira = kap.querySelector('.dene-kutular');
+  const lamba = kap.querySelector('.dene-lamba');
+  const cikis = kap.querySelector('.dene-cikis');
+  const ipucu = kap.querySelector('.dene-ipucu');
+
+  const dugmeler = [];
+  ['A','B'].forEach((ad,i)=>{
+    const b = document.createElement('button');
+    b.type='button'; b.className='dene-kutu';
+    b.innerHTML = '<span class="bit">'+ad+'</span><span class="agirlik">kapalı</span>';
+    b.addEventListener('click', (e)=>{
+      giris[i] = giris[i] ? 0 : 1;
+      b.classList.toggle('acik', !!giris[i]);
+      b.querySelector('.agirlik').textContent = giris[i] ? 'açık' : 'kapalı';
+      b.setAttribute('aria-label', ad + ' girişi ' + (giris[i]?'açık':'kapalı'));
+      yenile();
+      if(e.detail) b.blur();
+    });
+    dugmeler.push(b); sira.appendChild(b);
+  });
+
+  KAPILAR.forEach((k,i)=>{
+    const b = document.createElement('button');
+    b.type='button'; b.textContent = k.ad + ' kapısı';
+    b.addEventListener('click', (e)=>{
+      secili = i;
+      secim.querySelectorAll('button').forEach((o,j)=>o.classList.toggle('secili', j===i));
+      yenile();
+      if(e.detail) b.blur();
+    });
+    if(i===0) b.classList.add('secili');
+    secim.appendChild(b);
+  });
+
+  function yenile(){
+    const k = KAPILAR[secili];
+    dugmeler[1].hidden = k.tek;
+    const acik = k.tek ? k.hesap(giris[0]) : k.hesap(giris[0], giris[1]);
+    lamba.classList.toggle('yanik', !!acik);
+    cikis.textContent = acik ? 'açık' : 'kapalı';
+    gorulen[secili].add(k.tek ? String(giris[0]) : giris[0]+'-'+giris[1]);
+    const hepsi = k.tek ? 2 : 4;
+    ipucu.textContent = gorulen[secili].size >= hepsi
+      ? k.ad + ' kapısının bütün durumlarını denedin.' : '';
+  }
+  yenile();
 }
 
 PAGES.forEach((p, idx)=>{
