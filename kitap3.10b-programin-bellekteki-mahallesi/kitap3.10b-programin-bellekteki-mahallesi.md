@@ -171,14 +171,18 @@ Akşam odası. Havada dört bölmeli sokak hologramı duruyor, her bölmenin üs
 
 ---
 
-## Sayfa 14 — Yarının Sorusu
+## Sayfa 14 — Mahalle Dağılınca
 
 **Metin:**
 Bilge bilgisayarı kapattı. Mahalle karardı.
 
 {B}"Program kapanınca bu mahalleler ne oluyor?" diye sordu.
 
-Yonga göz kırptı. {Y}"Yarın onu konuşacağız."
+{Y}"Dağılıyor." dedi Yonga. {Y}"Alınan yer geri veriliyor, oraya başka bir program yerleşiyor."
+
+{B}"Yarın açınca?" dedi Bilge.
+
+{Y}"Mahalle baştan kurulur. Belki de sokağın başka bir yerinde."
 
 **Resim:**
 Gece odası. Kapanmakta olan dizüstü bilgisayarın ekranı sönmek üzere; havada duran dört bölmeli sokak hologramı da soluklaşıp kayboluyor. Bilge elini kapağın üstünde tutuyor, gülümsüyor. Yonga'nın gövdesinde küçük bir ışık yanıp sönüyor. Pencerede yıldızlar var.
