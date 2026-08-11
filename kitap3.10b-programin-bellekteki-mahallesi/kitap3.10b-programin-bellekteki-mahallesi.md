@@ -2,7 +2,7 @@
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 3: Buyrukların Dünyası — Kitap 3.10b
 **Yaş grubu:** 7–10 (okuma bilen)
-**Ana tema:** Çalışan bir programın bellekteki yerleşimi: buyruk, veri, öbek ve yığıt
+**Ana tema:** Çalışan bir programın bellekteki yerleşimi: buyruk, veri, yığın ve yığıt
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, gözlüklü kız) ve Yonga (küçük, yuvarlak, mavi-gümüş renkli sevimli robot)
 
 ---
@@ -74,7 +74,7 @@ Hologramın ikinci bölümü büyütülmüş: kutuların içinde bir sayı, bir 
 **Metin:**
 {B}"Peki program çalışırken yeni bir yere ihtiyaç duyarsa?" diye sordu Bilge.
 
-{Y}"Üçüncü mahalleye gider." dedi Yonga. {Y}"Oraya **öbek** (İngilizcesi heap) denir. Program 'bana biraz yer ver' der, oradan yer alır."
+{Y}"Üçüncü mahalleye gider." dedi Yonga. {Y}"Oraya **yığın** (İngilizcesi heap) denir. Program 'bana biraz yer ver' der, oradan yer alır."
 
 **Resim:**
 Hologramın üçüncü bölümü; boş kutuların arasında birkaç tanesi yeni dolmuş ve hafifçe parlıyor. Bölümün kenarında küçük bir el simgesi bir kutuyu işaret ediyor: yer istendi, verildi. Bilge şaşkın, Yonga anlatıyor.
@@ -84,7 +84,7 @@ Hologramın üçüncü bölümü; boş kutuların arasında birkaç tanesi yeni 
 ## Sayfa 7 — İşi Bitince Geri Verilir
 
 **Metin:**
-Yonga öbekten aldığı yeri geri bıraktı. Kutular yine boşaldı.
+Yonga yığından aldığı yeri geri bıraktı. Kutular yine boşaldı.
 
 {Y}"Alınan yer geri verilmezse mahalle dolar." dedi Yonga. {Y}"Program yavaşlar, sonunda hiç yer kalmaz."
 
@@ -110,12 +110,12 @@ Hologramın dördüncü bölümü; kutular yan yana değil üst üste, bir kule 
 ## Sayfa 9 — Karşılıklı Büyüyorlar
 
 **Metin:**
-Yonga iki mahalleyi karşı karşıya koydu. Öbek bir yandan büyüyordu, yığıt öteki yandan.
+Yonga iki mahalleyi karşı karşıya koydu. Yığın bir yandan büyüyordu, yığıt öteki yandan.
 
 {Y}"Aralarında boşluk vardır." dedi Yonga. {Y}"İkisi de büyüye büyüye ortada buluşursa program durur."
 
 **Resim:**
-Hologramda sokağın iki ucu: soldan sağa doğru büyüyen öbek, sağdan sola doğru büyüyen yığıt; ortada azalan bir boşluk var ve boşluk hafifçe kırmızıya çalıyor. Bilge iki ucun arasına bakıyor, elini ağzına götürmüş. Yonga ciddi bir ifadeyle izliyor.
+Hologramda sokağın iki ucu: soldan sağa doğru büyüyen yığın, sağdan sola doğru büyüyen yığıt; ortada azalan bir boşluk var ve boşluk hafifçe kırmızıya çalıyor. Bilge iki ucun arasına bakıyor, elini ağzına götürmüş. Yonga ciddi bir ifadeyle izliyor.
 
 ---
 
@@ -150,7 +150,7 @@ Aynı büyütülmüş sokak; blok çizgiye oturmuş ve üstünden tek bir hızl�
 **Metin:**
 Bilge defterine uzun bir dikdörtgen çizdi, dörde böldü.
 
-{B}"Buyruklar, veriler, öbek, yığıt." dedi. {B}"Program çalışırken hepsi aynı sokakta."
+{B}"Buyruklar, veriler, yığın, yığıt." dedi. {B}"Program çalışırken hepsi aynı sokakta."
 
 {Y}"Ve her biri kendi yerinde." dedi Yonga.
 
@@ -164,7 +164,7 @@ Bilge masasında, defterine uzun bir dikdörtgen çizmiş ve içini dört bölme
 **Metin:**
 {B}"Hepsi neden ayrı duruyor?" diye sordu Bilge.
 
-{Y}"Çünkü işleri ayrı." dedi Yonga. {Y}"Buyruklar okunur, veriler değişir, öbek büyür, yığıt gider gelir. Karışsalardı biri ötekinin üstüne yazardı."
+{Y}"Çünkü işleri ayrı." dedi Yonga. {Y}"Buyruklar okunur, veriler değişir, yığın büyür, yığıt gider gelir. Karışsalardı biri ötekinin üstüne yazardı."
 
 **Resim:**
 Akşam odası. Havada dört bölmeli sokak hologramı duruyor, her bölmenin üstünde o mahalleyi anlatan küçük bir hareket var: sabit duran kutular, değişen kutular, büyüyen kutular, gidip gelen kutular. Bilge düşünceli gülümsüyor. Yonga yanında hafifçe ışıldıyor.
@@ -195,11 +195,11 @@ Gece odası. Kapanmakta olan dizüstü bilgisayarın ekranı sönmek üzere; hav
 
 📦 **Veri bölgesi**: program başlamadan önce hazırlanmış değerler buradadır.
 
-🧺 **Öbek** (İngilizcesi heap): program çalışırken yer istediğinde buradan alır; işi bitince geri verir.
+🧺 **Yığın** (İngilizcesi heap): program çalışırken yer istediğinde buradan alır; işi bitince geri verir.
 
 🗼 **Yığıt** (İngilizcesi stack): kule gibi üst üste dizilir; en son konan önce alınır.
 
-↔️ Öbek bir yandan, yığıt öteki yandan büyür; ortadaki boşluk biterse program durur.
+↔️ Yığın bir yandan, yığıt öteki yandan büyür; ortadaki boşluk biterse program durur.
 
 📏 **Hizalama**: veri çizgiye oturursa tek seferde taşınır, kayarsa iki seferde.
 
@@ -219,5 +219,5 @@ Gece odası. Kapanmakta olan dizüstü bilgisayarın ekranı sönmek üzere; hav
 
 1. Adres denir.
 2. Buyruk bölgesinde durur; oraya yazılmaz, yalnız okunur.
-3. Öbekten alır; işi bitince geri verir.
+3. Yığından alır; işi bitince geri verir.
 4. Çizgilere tam oturduğu için tek seferde alınır; kayarsa ikiye bölünür ve iki seferde alınır.

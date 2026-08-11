@@ -144,7 +144,7 @@ BOOKS = [
     ('kitap3.10a-tasiyicilar', '3.10a', 'Taşıyıcılar',
      'Yükle ve sakla: bellek ile yazmaç arasındaki yolculuk', '#175229'),
     ('kitap3.10b-programin-bellekteki-mahallesi', '3.10b', 'Programın Bellekteki Mahallesi',
-     'Buyruk, veri, öbek ve yığıt: çalışan programın bellekteki yerleşimi', '#175229'),
+     'Buyruk, veri, yığın ve yığıt: çalışan programın bellekteki yerleşimi', '#175229'),
     ('kitap3.11-dedektif-bilge-ve-kayip-sonuc', '3.11', 'Dedektif Bilge ve Kayıp Sonuç',
      'Hata ayıklama: ara nokta, adım adım yürütme, yazmaçlara bakmak', '#144822'),
     ('kitap4.01a-eldenin-yolculugu', '4.1a', 'Eldenin Yolculuğu',
