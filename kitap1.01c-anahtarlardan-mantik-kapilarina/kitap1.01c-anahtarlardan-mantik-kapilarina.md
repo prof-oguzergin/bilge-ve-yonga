@@ -133,7 +133,7 @@ Hologramda devre tahtasındaki basmalı düğmeler eriyip yerlerini transistörl
 Bilge inanamadı. {B}"Üç kapıyla mı?"
 
 **Resim:**
-Havada üç kapı kutusu, çevrelerinde ışıktan bir halka. Halkanın dışında bilgisayarın yaptığı işleri anlatan küçük simgeler süzülüyor: bir nota, bir resim çerçevesi, bir oyun kumandası, bir hesap makinesi. Bilge halkanın ortasında duruyor.
+Havada üç kapı kutusu, çevrelerinde ışıktan bir halka. Kutuların içinde VE, VEYA ve DEĞİL yazıyor; ilk ikisinin solunda iki giriş oku, DEĞİL'in solunda tek giriş oku var. Halkanın dışında bilgisayarın yaptığı işleri anlatan küçük simgeler süzülüyor: bir nota, bir resim çerçevesi, bir oyun kumandası, bir hesap makinesi. Bilge halkanın ortasında duruyor.
 
 ---
 
