@@ -148,14 +148,14 @@ Hologramda sekiz mandal kutusu yan yana tek sıra hâlinde duruyor; hepsinin alt
 ## Sayfa 11 — Her Tikte Bir Artan
 
 **Metin:**
-Yonga yazmaca küçük bir toplayıcı taktı. Toplayıcı her tikte bire bir ekliyordu.
+Yonga yazmacın yanına küçük bir toplayıcı taktı. Toplayıcı yazmaçtaki sayının tamamını okuyor, bir ekliyor, sonucu yine yazmacın tamamına yazıyordu. Bu her tikte bir kez oluyordu.
 
 Bilge saydı: bir, iki, üç, dört...
 
 {Y}"Buna **sayaç** denir." dedi Yonga. {Y}"Ne kadar ilerlediğini böyle bilir."
 
 **Resim:**
-Hologramda sekizli yazmaç sırası duruyor; sağında küçük bir toplayıcı kutusu var, çıkışı dolanıp yazmacın girişine dönüyor. Kutuların içindeki sayı bir öncekinden bir fazla görünüyor. Bilge sayarken parmaklarını açıyor. Yonga sarkacın altında tempo tutuyor.
+Hologramda sekizli yazmaç sırası duruyor; sağında içinde artı olan küçük bir toplayıcı kutusu var. Yazmacın tamamından çıkan geniş bir ok toplayıcıya giriyor, toplayıcıdan çıkan yol da dolanıp sekiz hücrenin hepsine birden dönüyor: sonuç tek bir hücreye değil, yazmacın tamamına yazılıyor. Bilge sayarken parmaklarını açıyor. Yonga sarkacın altında tempo tutuyor.
 
 ---
 
