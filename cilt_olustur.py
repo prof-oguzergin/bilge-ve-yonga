@@ -217,15 +217,20 @@ def icindekiler(c, ad, renk, kitap_listesi):
     # 11 kitapli ciltlerde son kitap alt sinira takilip listeye girmiyordu.
     ust, altsinir = H - 138, 52
     adim = min(42.0, (ust - altsinir) / max(1, len(kitap_listesi)))
+    # Yazi boyu da adima gore kuculur. Sabit 15/10.5 punto ile 15 kitaplik
+    # ciltte alt basliklar bir sonraki kitabin adina giriyordu.
+    bas_punto = min(15.0, adim * 0.36)
+    alt_punto = min(10.5, adim * 0.26)
+    alt_kayma = bas_punto + 3
     c.setFillColorRGB(0.20, 0.16, 0.29)
     y = ust
     for klasor, no, baslik, alt, _g in kitap_listesi:
-        c.setFont(FB, 15)
+        c.setFont(FB, bas_punto)
         c.drawString(64, y, no)
         c.drawString(120, y, baslik)
-        c.setFont(FN, 10.5)
+        c.setFont(FN, alt_punto)
         c.setFillColorRGB(0.42, 0.38, 0.48)
-        c.drawString(120, y - 16, alt[:100])
+        c.drawString(120, y - alt_kayma, alt[:100])
         c.setFillColorRGB(0.20, 0.16, 0.29)
         y -= adim
     c.restoreState()
