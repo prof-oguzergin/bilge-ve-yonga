@@ -123,7 +123,21 @@ Hologramda devre tahtasındaki basmalı düğmeler eriyip yerlerini transistörl
 
 ---
 
-## Sayfa 9 — Üçü Yeter
+## Sayfa 9 — Mühendisin Kısa Çizimi
+
+**Metin:**
+{Y}"Mühendislerin bir de kısa çizimi vardır." dedi Yonga.
+
+Havada üç şekil belirdi. Her birinin solunda tanıdık kutu, sağında kutunun kısa çizimi duruyordu.
+
+{B}"Aynı şey, başka giysi." dedi Bilge.
+
+**Resim:**
+Havada ışıklı bir levha; üstünde alt alta üç satır var. Her satırın solunda içinde adı yazan bir kutu, ortasında eşittir işareti gibi bir bağ, sağında o kapının mühendislerin kullandığı kısa çizimi duruyor: VE için düz kenarlı ve sağ tarafı yarım daire biçiminde bir gövde, VEYA için sol kenarı içbükey ve sağda sivrilen bir gövde, DEĞİL için sağa bakan bir üçgen ve ucunda küçük bir yuvarlacık. Hepsinin solunda giriş okları, sağında çıkış oku var. Bilge levhanın yanında duruyor, Yonga üçüncü satırı gösteriyor.
+
+---
+
+## Sayfa 10 — Üçü Yeter
 
 **Metin:**
 {B}"Kaç çeşit kapı var?" diye sordu Bilge.
@@ -137,7 +151,7 @@ Havada üç kapı kutusu, çevrelerinde ışıktan bir halka. Kutuların içinde
 
 ---
 
-## Sayfa 10 — İki Kapı Birleşince
+## Sayfa 11 — İki Kapı Birleşince
 
 **Metin:**
 Yonga bir VE kapısının çıkışını bir DEĞİL kapısına bağladı.
@@ -153,7 +167,7 @@ Hologramda iki kutu yan yana; birincinin içinde VE, ikincinin içinde DEĞİL y
 
 ---
 
-## Sayfa 11 — Milyarlarca Kapı
+## Sayfa 12 — Milyarlarca Kapı
 
 **Metin:**
 {Y}"Bir yonganın içinde milyarlarca transistör var." dedi Yonga. {Y}"Onlar da yüz milyonlarca kapı kurar."
@@ -167,7 +181,7 @@ Yonga'nın göğsünden çıkan hologramda dev bir kent görünümü var; ama bi
 
 ---
 
-## Sayfa 12 — Kâğıt Üstünde
+## Sayfa 13 — Kâğıt Üstünde
 
 **Metin:**
 Bilge defterine iki kutu çizdi, birinin çıkışını ötekinin girişine bağladı.
@@ -181,7 +195,7 @@ Bilge masasında, defterine iki kutu çizmiş; birinci kutunun çıkışından i
 
 ---
 
-## Sayfa 13 — Karar Değil, Açıp Kapama
+## Sayfa 14 — Karar Değil, Açıp Kapama
 
 **Metin:**
 {B}"Bir kapı düşünüyor mu?" diye sordu Bilge.
@@ -193,7 +207,7 @@ Akşam odası. Masadaki küçük lamba yanıyor, ışığı Bilge'nin yüzüne v
 
 ---
 
-## Sayfa 14 — Yarının Sorusu
+## Sayfa 15 — Yarının Sorusu
 
 **Metin:**
 Bilge lambayı bir kez söndürdü, sonra yeniden yaktı.
