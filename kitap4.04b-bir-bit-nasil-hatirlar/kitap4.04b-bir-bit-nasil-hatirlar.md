@@ -2,7 +2,7 @@
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 4: İşlemcinin İçi — Kitap 4.4b
 **Yaş grubu:** 7–10 (okuma bilen)
-**Ana tema:** Geri besleme halkası, mandal, saat ve yazmaç: bir bit nasıl saklanır
+**Ana tema:** Geri besleme halkası, mandal, saat, flip-flop ve yazmaç: bir bit nasıl saklanır
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, gözlüklü kız) ve Yonga (küçük, yuvarlak, mavi-gümüş renkli sevimli robot)
 
 ---
@@ -124,7 +124,7 @@ Tik geldi. Üç mandal aynı anda yeni değerini aldı.
 
 Tik gelene kadar hiçbiri kımıldamadı.
 
-{Y}"Artık kim ne zaman değişecek belli." dedi Yonga.
+{Y}"Artık kim ne zaman değişecek belli." dedi Yonga. {Y}"Saate bağlanan mandalın da yeni bir adı olur: **flip-flop**."
 
 **Resim:**
 Aynı üç kutu; sarkaçtan gelen ışık dalgası tam üçüne birden değiyor ve üçünün içindeki değer aynı anda değişiyor. Kutuların içindeki ışıklar aynı parlaklıkta. Bilge sevinçle ellerini birbirine vurmuş. Yonga ışıldıyor.
@@ -134,7 +134,7 @@ Aynı üç kutu; sarkaçtan gelen ışık dalgası tam üçüne birden değiyor 
 ## Sayfa 10 — Sekizi Yan Yana
 
 **Metin:**
-Bilge sekiz mandalı yan yana dizdi. Hepsini aynı saate bağladı.
+Bilge sekiz flip-flopu yan yana dizdi. Hepsi aynı saati dinliyordu.
 
 {B}"Bu artık bir bit değil." dedi. {B}"Sekiz bit."
 
@@ -162,14 +162,14 @@ Hologramda sekizli yazmaç sırası duruyor; sağında küçük bir toplayıcı 
 ## Sayfa 12 — Nerede Kaldığını Bilmek
 
 **Metin:**
-Bilge pencereden sokaktaki trafik lambasına baktı. Kırmızı, sarı, yeşil, yine kırmızı.
+Bilge pencereden sokaktaki trafik lambasına baktı. Kırmızı, sonra yeşil, sonra sarı, yine kırmızı.
 
 {B}"Lamba da hatırlıyor!" dedi. {B}"Şimdi hangi renkte olduğunu biliyor."
 
 {Y}"İşte ona **durum** denir." dedi Yonga. {Y}"Makine, nerede kaldığını mandallarda saklar."
 
 **Resim:**
-Bilge pencerenin önünde, dışarıda bir trafik lambası duruyor; lambanın yanında havada küçük bir hologram üç daire gösteriyor: kırmızı, sarı, yeşil. Dairelerin arasında ok var, sonuncudan birinciye dönen bir ok da halkayı kapatıyor. Şu anda yeşil parlıyor. Yonga Bilge'nin omzu hizasında.
+Bilge pencerenin önünde, dışarıda bir trafik lambası duruyor; lambanın yanında havada küçük bir hologram üç daire gösteriyor: kırmızı, yeşil, sarı. Daireler bir çevrim oluşturuyor ve oklar tek yönlü: kırmızıdan yeşile, yeşilden sarıya, sarıdan yine kırmızıya. Şu anda yeşil parlıyor. Yonga Bilge'nin omzu hizasında.
 
 ---
 
@@ -211,7 +211,9 @@ Gece odası. Bilge masasında, defterine yan yana sekiz küçük kutu ve altlar�
 
 ⏱️ **Saat**, bilgisayarın içindeki tiktir; bütün mandallar aynı anda onunla değişir.
 
-📦 Sekiz mandal yan yana konursa bir **yazmaç** olur.
+🔁 Saate bağlanan mandala **flip-flop** denir.
+
+📦 Sekiz flip-flop yan yana konursa bir **yazmaç** olur.
 
 🔢 Yazmaca bir toplayıcı bağlanırsa her tikte bir artan bir **sayaç** olur.
 
@@ -227,11 +229,11 @@ Gece odası. Bilge masasında, defterine yan yana sekiz küçük kutu ve altlar�
 
 3. Saat ne yapar?
 
-4. Sekiz mandal yan yana konunca ortaya ne çıkar?
+4. Saate bağlanan mandalın adı nedir, sekiz tanesi yan yana konunca ne olur?
 
 **Yanıtlar**
 
 1. Yalnız şu anki girişine bakar; girişi değişince çıkışı da değişir.
 2. Bir kapının çıkışı kendi girişine geri verilerek kurulur; değeri kendi kendine tutar.
 3. Bütün mandalların aynı anda değişmesini sağlar; herkes tiki bekler.
-4. Bir yazmaç çıkar.
+4. Flip-flop denir; sekiz tanesi yan yana konunca bir yazmaç olur.
