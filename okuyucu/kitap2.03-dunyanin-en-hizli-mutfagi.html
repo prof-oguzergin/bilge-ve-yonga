@@ -236,6 +236,13 @@ body{margin:0}
 .card .dene-sonuc{margin:0; max-width:none; font-family:var(--ff-disp); font-weight:800; line-height:1;
   font-size:clamp(2.4rem,4.6vw,3.2rem); color:var(--parlak-koyu)}
 /* Kapi denemesi */
+.dene-kapi-duzen{display:flex; align-items:center; justify-content:center; gap:6px; flex-wrap:wrap}
+.dene-girisler{display:flex; flex-direction:column; gap:16px}
+.dene-sema{width:min(240px,44vw); height:auto; overflow:visible}
+.dene-sema .tel{fill:none; stroke:var(--kagit-cizgi); stroke-width:4; stroke-linecap:round}
+.dene-sema .tel.canli{stroke:var(--parlak-koyu)}
+.dene-sema .govde{fill:none; stroke:var(--kagit-koyu); stroke-width:4; stroke-linejoin:round}
+@media (max-width:520px){ .dene-sema{width:min(200px,60vw)} .dene-girisler{gap:10px} }
 .dene-secim{display:flex; gap:8px; justify-content:center; flex-wrap:wrap; margin:0 0 14px}
 .dene-secim button{font-family:var(--ff-disp); font-weight:800; font-size:.82rem; letter-spacing:.04em;
   padding:8px 14px; border-radius:999px; cursor:pointer; background:transparent;
@@ -516,16 +523,28 @@ function deneKapi(kap){
     {ad:'VEYA',  tek:false, hesap:(a,b)=>a||b},
     {ad:'DEĞİL', tek:true,  hesap:(a)=>!a}
   ];
+  // Kapinin kendi simgesi ortada durur; A ile B solda, girislere bagli,
+  // ampul sagda cikisa bagli. Ust siradan kapi secilince asagidaki simge
+  // ve tel sayisi degisir. Simgeler SVG: her olcekte keskin kalir.
+  const GOVDE = {
+    'VE':    'M22,10 H58 A30,30 0 0 1 58,70 H22 Z',
+    'VEYA':  'M22,10 Q46,40 22,70 Q68,69 98,40 Q68,11 22,10 Z',
+    'DEĞİL': 'M26,10 L84,40 L26,70 Z'
+  };
   let secili = 0;
   const giris = [0,0];
   const gorulen = [new Set(), new Set(), new Set()];
   kap.innerHTML = '<p class="dene-yonerge">Bir kapı seç, düğmelere dokun, lambaya bak.</p>'
     + '<div class="dene-secim"></div>'
-    + '<div class="dene-tahta">'
-    +   '<div class="dene-sol">'
-    +     '<p class="dene-etiket">Girişler</p>'
-    +     '<div class="dene-kutular"></div>'
-    +   '</div>'
+    + '<div class="dene-kapi-duzen">'
+    +   '<div class="dene-girisler"></div>'
+    +   '<svg class="dene-sema" viewBox="0 0 132 80" aria-hidden="true">'
+    +     '<path class="tel" id="tel-a" d="M0,25 H22"></path>'
+    +     '<path class="tel" id="tel-b" d="M0,55 H22"></path>'
+    +     '<path class="tel" id="tel-c" d="M98,40 H132"></path>'
+    +     '<path class="govde" id="govde" d=""></path>'
+    +     '<circle class="govde" id="yuvarlacik" cx="91" cy="40" r="7"></circle>'
+    +   '</svg>'
     +   '<div class="dene-sag">'
     +     '<p class="dene-etiket">Çıkış</p>'
     +     '<p class="dene-lamba" aria-hidden="true">💡</p>'
@@ -534,10 +553,13 @@ function deneKapi(kap){
     + '</div>'
     + '<p class="dene-ipucu" role="status"></p>';
   const secim = kap.querySelector('.dene-secim');
-  const sira = kap.querySelector('.dene-kutular');
+  const sira = kap.querySelector('.dene-girisler');
   const lamba = kap.querySelector('.dene-lamba');
   const cikis = kap.querySelector('.dene-cikis');
   const ipucu = kap.querySelector('.dene-ipucu');
+  const telA = kap.querySelector('#tel-a'), telB = kap.querySelector('#tel-b');
+  const telC = kap.querySelector('#tel-c'), govde = kap.querySelector('#govde');
+  const yuvarlacik = kap.querySelector('#yuvarlacik');
 
   const dugmeler = [];
   ['A','B'].forEach((ad,i)=>{
@@ -570,8 +592,23 @@ function deneKapi(kap){
 
   function yenile(){
     const k = KAPILAR[secili];
-    dugmeler[1].hidden = k.tek;
+    // hidden yetmiyor: .dene-kutu kendi display'ini kuruyor, dugme
+    // gizlenmiyordu.
+    dugmeler[1].style.display = k.tek ? 'none' : '';
     const acik = k.tek ? k.hesap(giris[0]) : k.hesap(giris[0], giris[1]);
+    govde.setAttribute('d', GOVDE[k.ad]);
+    yuvarlacik.style.display = k.tek ? '' : 'none';
+    // Teller govdeye degmeli: VEYA'nin arka kenari icbukey oldugu icin
+    // girisler 31'e kadar gider, VE'de 22'de biter; cikis da her kapinin
+    // kendi sag ucundan baslar.
+    const uc = {'VE':[22,88], 'VEYA':[31,98], 'DEĞİL':[26,98]}[k.ad];
+    telA.setAttribute('d', k.tek ? 'M0,40 H'+uc[0] : 'M0,25 H'+uc[0]);
+    telB.setAttribute('d', 'M0,55 H'+uc[0]);
+    telB.style.display = k.tek ? 'none' : '';
+    telC.setAttribute('d', 'M'+uc[1]+',40 H132');
+    telA.classList.toggle('canli', !!giris[0]);
+    telB.classList.toggle('canli', !!giris[1]);
+    telC.classList.toggle('canli', !!acik);
     lamba.classList.toggle('yanik', !!acik);
     cikis.textContent = acik ? 'açık' : 'kapalı';
     gorulen[secili].add(k.tek ? String(giris[0]) : giris[0]+'-'+giris[1]);
