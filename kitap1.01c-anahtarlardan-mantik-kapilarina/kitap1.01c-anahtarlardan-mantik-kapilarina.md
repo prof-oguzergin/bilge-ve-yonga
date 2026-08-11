@@ -133,7 +133,7 @@ Havada üç şekil belirdi. Her birinin solunda tanıdık kutu, sağında kutunu
 {B}"Aynı şey, başka giysi." dedi Bilge.
 
 **Resim:**
-Havada ışıklı bir levha; üstünde alt alta üç satır var. Her satırın solunda içinde adı yazan bir kutu, ortasında eşittir işareti gibi bir bağ, sağında o kapının mühendislerin kullandığı kısa çizimi duruyor: VE için düz kenarlı ve sağ tarafı yarım daire biçiminde bir gövde, VEYA için sol kenarı içbükey ve sağda sivrilen bir gövde, DEĞİL için sağa bakan bir üçgen ve ucunda küçük bir yuvarlacık. Hepsinin solunda giriş okları, sağında çıkış oku var. Bilge levhanın yanında duruyor, Yonga üçüncü satırı gösteriyor.
+Havada mavi, saydam bir hologram levha; arkasındaki oda içinden görünüyor. Levhanın üstünde alt alta üç satır var. Her satırın solunda içinde adı yazan bir kutu, ortasında eşittir işareti gibi bir bağ, sağında o kapının mühendislerin kullandığı kısa çizimi duruyor: VE için düz kenarlı ve sağ tarafı yarım daire biçiminde bir gövde, VEYA için sol kenarı içbükey ve sağda sivrilen bir gövde, DEĞİL için sağa bakan bir üçgen ve ucunda küçük bir yuvarlacık. Hepsinin solunda giriş okları, sağında çıkış oku var. Bilge levhanın yanında duruyor, Yonga üçüncü satırı gösteriyor.
 
 ---
 
