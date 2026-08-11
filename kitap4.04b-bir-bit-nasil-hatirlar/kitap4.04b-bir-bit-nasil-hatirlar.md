@@ -63,14 +63,14 @@ Aynı hologram halkası, şimdi içinde ışık dönüyor: halkanın üstünde k
 
 ---
 
-## Sayfa 5 — Yazma Kapısı
+## Sayfa 5 — Yazma Anahtarı
 
 **Metin:**
 {B}"Peki içindekini nasıl değiştiririm?" diye sordu Bilge.
 
-Yonga halkanın yanına küçük bir kapı koydu.
+Yonga halkanın yanına küçük bir anahtar koydu.
 
-{Y}"Bu kapı kapalıyken halka kendi değerini tutar." dedi. {Y}"Kapıyı açarsan yeni değer içeri girer."
+{Y}"Buna **yazma anahtarı** denir." dedi. {Y}"Kapalıyken halka kendi değerini tutar. Açarsan yeni değer içeri girer."
 
 **Resim:**
 Aynı halka; solunda küçük bir anahtar var, halkaya giden bir yol açıyor. Anahtar şu an kapalı. Yolun ucunda "yeni değer" anlamında tek bir giriş oku bekliyor. Bilge anahtara uzanmış, dokunmak üzere. Yonga yanında.
@@ -80,11 +80,11 @@ Aynı halka; solunda küçük bir anahtar var, halkaya giden bir yol açıyor. A
 ## Sayfa 6 — Bunun Adı Mandal
 
 **Metin:**
-Bilge kapıyı açtı, halkaya kapalı verdi, kapıyı yine kapattı.
+Bilge yazma anahtarını açtı, halkaya kapalı verdi, anahtarı yine kapattı.
 
 Halka artık kapalı tutuyordu.
 
-{Y}"Bu düzeneğe **mandal** denir." dedi Yonga. {Y}"Kapı açıkken dinler, kapı kapanınca tutar."
+{Y}"Bu düzeneğe **mandal** denir." dedi Yonga. {Y}"Yazma anahtarı açıkken dinler, kapanınca tutar."
 
 **Resim:**
 Halkanın içindeki ışık bu kez sönük; yandaki küçük anahtar kapanmış durumda. Hologramın altında Bilge'nin elinde küçük bir mandal var, iki parmağıyla sıkıştırıp bırakıyor: bir kâğıdı tutan çamaşır mandalı gibi. Yonga gülümsüyor.
@@ -94,7 +94,7 @@ Halkanın içindeki ışık bu kez sönük; yandaki küçük anahtar kapanmış 
 ## Sayfa 7 — Herkes Kendi Kafasına Göre
 
 **Metin:**
-Yonga yan yana üç mandal kurdu. Kapıları açık bıraktı.
+Yonga yan yana üç mandal kurdu. Yazma anahtarlarını açık bıraktı.
 
 Değerler bir o yana bir bu yana oynadı. Biri değişirken öteki de değişti.
 
@@ -207,7 +207,7 @@ Gece odası. Bilge masasında, defterine yan yana sekiz küçük kutu ve altlar�
 
 🔄 Bir kapının çıkışı kendi girişine geri verilirse bir **halka** olur; halka değerini kendi kendine tutar.
 
-🔒 Halkanın yanına bir yazma kapısı konursa **mandal** olur: kapı açıkken dinler, kapalıyken tutar.
+🔒 Halkanın yanına bir **yazma anahtarı** konursa **mandal** olur: anahtar açıkken dinler, kapalıyken tutar.
 
 ⏱️ **Saat**, bilgisayarın içindeki tiktir; bütün mandallar aynı anda onunla değişir.
 
