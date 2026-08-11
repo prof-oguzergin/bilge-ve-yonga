@@ -141,8 +141,10 @@ BOOKS = [
      'x0 yazmacı: hep sıfır kalan güvenilir arkadaş', '#1B5B30'),
     ('kitap3.09-kulelerin-oyunu', '3.9', 'Kulelerin Oyunu',
      'Yığıt ve altyordamlar: son giren ilk çıkar', '#195B2C'),
-    ('kitap3.10-tasiyicilar', '3.10', 'Taşıyıcılar',
+    ('kitap3.10a-tasiyicilar', '3.10a', 'Taşıyıcılar',
      'Yükle ve sakla: bellek ile yazmaç arasındaki yolculuk', '#175229'),
+    ('kitap3.10b-programin-bellekteki-mahallesi', '3.10b', 'Programın Bellekteki Mahallesi',
+     'Buyruk, veri, öbek ve yığıt: çalışan programın bellekteki yerleşimi', '#175229'),
     ('kitap3.11-dedektif-bilge-ve-kayip-sonuc', '3.11', 'Dedektif Bilge ve Kayıp Sonuç',
      'Hata ayıklama: ara nokta, adım adım yürütme, yazmaçlara bakmak', '#144822'),
     ('kitap4.01a-eldenin-yolculugu', '4.1a', 'Eldenin Yolculuğu',
@@ -154,8 +156,10 @@ BOOKS = [
      'Aritmetik Mantık Birimi: tek alette toplama, çıkarma, karşılaştırma', '#8F57C2'),
     ('kitap4.03-uzun-isler-carpma-bolme', '4.3', 'Uzun İşler: Çarpma ve Bölme',
      'Kaydır ve topla, kaydır ve çıkar: uzun işlemlerin donanımı', '#834EB4'),
-    ('kitap4.04-virgulun-dansi', '4.4', 'Virgülün Dansı',
+    ('kitap4.04a-virgulun-dansi', '4.4a', 'Virgülün Dansı',
      'Kayan nokta: işaret, üs ve kesirle dev ve minik sayılar', '#7746A7'),
+    ('kitap4.04b-bir-bit-nasil-hatirlar', '4.4b', 'Bir Bit Nasıl Hatırlar?',
+     'Halka, mandal, saat ve yazmaç: bir bit nasıl saklanır', '#7746A7'),
     ('kitap4.05-veri-yolu-fabrikasi', '4.5', 'Veri Yolu Fabrikası',
      'İşlemcinin beş istasyonu ve onları bağlayan teller', '#6B3E99'),
     ('kitap4.06-bir-buyrugun-yolculugu', '4.6', 'Bir Buyruğun Yolculuğu',
@@ -1513,6 +1517,8 @@ def uyar_bayat_klasor():
 # elle birakilan yonlendirmeyi de siliyordu; bu yuzden yonlendirmeler de
 # kurulumda uretilir ve temizlikten SONRA yazilir.
 YONLENDIRMELER = {
+    'kitap4.04-virgulun-dansi': 'kitap4.04a-virgulun-dansi',
+    'kitap3.10-tasiyicilar': 'kitap3.10a-tasiyicilar',
     'kitap3.01-iki-dunyanin-koprusu': 'kitap3.01b-iki-dunyanin-koprusu',
     'kitap1.02-milyarlarca-kucuk-anahtar': 'kitap1.02a-milyarlarca-kucuk-anahtar',
 }

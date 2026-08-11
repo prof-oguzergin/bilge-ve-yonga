@@ -137,7 +137,7 @@
       "surum": "1.1",
       "tarih": "9 Ağustos 2026"
     },
-    "kitap3.10-tasiyicilar": {
+    "kitap3.10a-tasiyicilar": {
       "surum": "1.1",
       "tarih": "9 Ağustos 2026"
     },
@@ -161,7 +161,7 @@
       "surum": "1.1",
       "tarih": "9 Ağustos 2026"
     },
-    "kitap4.04-virgulun-dansi": {
+    "kitap4.04a-virgulun-dansi": {
       "surum": "1.1",
       "tarih": "10 Ağustos 2026"
     },
@@ -196,6 +196,14 @@
     "kitap1.02c-dunyanin-butun-harfleri": {
       "surum": "1.0",
       "tarih": "10 Ağustos 2026"
+    },
+    "kitap4.04b-bir-bit-nasil-hatirlar": {
+      "surum": "1.0",
+      "tarih": "11 Ağustos 2026"
+    },
+    "kitap3.10b-programin-bellekteki-mahallesi": {
+      "surum": "1.0",
+      "tarih": "11 Ağustos 2026"
     }
   },
   "ciltler": {
