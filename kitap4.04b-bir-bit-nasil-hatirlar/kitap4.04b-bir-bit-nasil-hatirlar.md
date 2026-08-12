@@ -207,17 +207,17 @@ Gece odası. Bilge masasında, defterine yan yana sekiz küçük kutu ve altlar�
 
 🔄 Bir kapının çıkışı kendi girişine geri verilirse bir **halka** olur; halka değerini kendi kendine tutar.
 
-🔒 Halkanın yanına bir **yazma anahtarı** konursa **mandal** olur: anahtar açıkken dinler, kapalıyken tutar.
+🔒 Halkanın yanına bir **yazma anahtarı** konursa **mandal** (İngilizcesi latch) olur: anahtar açıkken dinler, kapalıyken tutar.
 
 ⏱️ **Saat**, bilgisayarın içindeki tiktir; bütün mandallar aynı anda onunla değişir.
 
 🔁 Saate bağlanan mandala **flip-flop** denir.
 
-📦 Sekiz flip-flop yan yana konursa bir **yazmaç** olur.
+📦 Sekiz flip-flop yan yana konursa bir **yazmaç** (İngilizcesi register) olur.
 
-🔢 Yazmaca bir toplayıcı bağlanırsa her tikte bir artan bir **sayaç** olur.
+🔢 Yazmaca bir toplayıcı bağlanırsa her tikte bir artan bir **sayaç** (İngilizcesi counter) olur.
 
-🚦 Makinenin nerede kaldığına **durum** denir; durumu mandallar saklar.
+🚦 Makinenin nerede kaldığına **durum** (İngilizcesi state) denir; durumu mandallar saklar.
 
 ---
 
