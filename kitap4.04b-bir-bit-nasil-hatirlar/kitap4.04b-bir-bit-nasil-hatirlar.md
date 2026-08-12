@@ -169,7 +169,7 @@ Bilge pencereden sokaktaki trafik lambasına baktı. Kırmızı, sonra sarı, so
 {Y}"İşte ona **durum** denir." dedi Yonga. {Y}"Makine, nerede kaldığını mandallarda saklar."
 
 **Resim:**
-Bilge pencerenin önünde, dışarıda bir trafik lambası duruyor; lambanın yanında havada küçük bir hologram üç daire gösteriyor: kırmızı, sarı, yeşil. Daireler bir çevrim oluşturuyor ve oklar tek yönlü: kırmızıdan sarıya, sarıdan yeşile, yeşilden yine kırmızıya. Şu anda yeşil parlıyor. Yonga Bilge'nin omzu hizasında.
+Bilge pencerenin önünde, dışarıda bir trafik lambası duruyor; lambanın yanında havada küçük bir hologram üç daire gösteriyor: kırmızı, sarı, yeşil. Daireler bir çevrim oluşturuyor ve oklar tek yönlü: kırmızıdan sarıya, sarıdan yeşile, yeşilden yine kırmızıya. Şu anda yalnız yeşil yanıyor; kırmızı ile sarı sönük duruyor: makine tek bir durumdadır. Pencere dışındaki gerçek lambada da yalnız yeşil yanıyor. Yonga Bilge'nin omzu hizasında.
 
 ---
 
