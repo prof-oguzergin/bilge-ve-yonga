@@ -87,7 +87,7 @@ Halka artık kapalı tutuyordu.
 {Y}"Bu düzeneğe **mandal** denir." dedi Yonga. {Y}"Yazma anahtarı açıkken dinler, kapanınca tutar."
 
 **Resim:**
-Halkanın içindeki ışık bu kez sönük; yandaki küçük anahtar kapanmış durumda. Hologramın altında Bilge'nin elinde küçük bir mandal var, iki parmağıyla sıkıştırıp bırakıyor: bir kâğıdı tutan çamaşır mandalı gibi. Yonga gülümsüyor.
+Bir önceki sayfayla aynı devre: solda yazma anahtarı, sağda halkayı kuran iki DEĞİL kutusu. Bu kez anahtar kapalı ve sönük; halka kendi değerini tutuyor. Bilge'nin elinde küçük bir çamaşır mandalı var, iki parmağıyla sıkıştırıp bırakıyor. Yonga gülümsüyor.
 
 ---
 
