@@ -185,14 +185,14 @@ Akşam odası. Havada iki hologram yan yana: solda içinde VE yazan bir kapı ku
 
 ---
 
-## Sayfa 14 — Yarının Sorusu
+## Sayfa 14 — Hepsi Bir Arada
 
 **Metin:**
 Bilge defterine sekiz küçük kutu çizdi, altına bir de sarkaç.
 
 {B}"Bu yazmaçlar işlemcinin neresinde duruyor?" diye sordu.
 
-Yonga göz kırptı. {Y}"Yarın onu konuşacağız."
+{Y}"Hepsi bir arada, tek bir yerde." dedi Yonga. {Y}"Oraya **yazmaç öbeği** denir. İşlemci bir sayı isteyince oradan alır, sonucu yine oraya bırakır."
 
 **Resim:**
 Gece odası. Bilge masasında, defterine yan yana sekiz küçük kutu ve altlarına ortak bir çizgiyle küçük bir sarkaç çizmiş; kaleminin ucu son kutunun kenarında. Masadaki küçük lamba yanıyor. Yonga defterin üstünde süzülüp çizime bakıyor. Pencerede yıldızlar var.
@@ -218,6 +218,8 @@ Gece odası. Bilge masasında, defterine yan yana sekiz küçük kutu ve altlar�
 🔢 Yazmaca bir toplayıcı bağlanırsa her tikte bir artan bir **sayaç** (counter) olur.
 
 🚦 Makinenin nerede kaldığına **durum** (state) denir; durumu mandallar saklar.
+
+🗄️ Yazmaçlar işlemcide bir arada durur; bu topluluğa **yazmaç öbeği** (register file) denir.
 
 ---
 
