@@ -53,14 +53,14 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 İlk durak: silisyum fabrikası! Kum önce tertemiz olana dek arıtıldı, sonra fırınlara girdi. Devasa fırınlar kumu yüksek ısıda eritiyordu. Kum, cam gibi sıvı hale geliyordu. {B}"Vay!" dedi Bilge. {B}"Kum eriyor!"
 
 **Resim:**
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Dev bir endüstriyel fırının içinde turuncu-kırmızı ergimiş silisyum akıyor; büyük bir kazan içinde altın-turuncu ışıltılı sıvı kabarcıklanıyor. Küçük Bilge ve Yonga güvenlik camının arkasından izliyorlar; Bilge'nin gözleri hayranlıkla faltaşı gibi açılmış. Sahne sıcak tonlarda — turuncu, kırmızı, sarı; arka planda büyük fabrika silueti. Dramatik ama çocuk gözüyle büyülü bir fabrika atmosferi var.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Dev bir endüstriyel fırının içinde turuncu-kırmızı erimiş silisyum akıyor; büyük bir kazan içinde altın-turuncu ışıltılı sıvı kabarcıklanıyor. Küçük Bilge ve Yonga güvenlik camının arkasından izliyorlar; Bilge'nin gözleri hayranlıkla faltaşı gibi açılmış. Sahne sıcak tonlarda — turuncu, kırmızı, sarı; arka planda büyük fabrika silueti. Dramatik ama çocuk gözüyle büyülü bir fabrika atmosferi var.
 
 ---
 
 ## Sayfa 6 — Kristal Büyüyor
 
 **Metin:**
-Ergimiş kum yavaş yavaş soğutulunca büyük bir kristal büyüdü. Bu büyük kristale **külçe** (ingot) denir. Düzgün, parlak, gri renkli bir silindir gibiydi.
+Erimiş kum yavaş yavaş soğutulunca büyük bir kristal büyüdü. Bu büyük kristale **külçe** (ingot) denir. Düzgün, parlak, gri renkli bir silindir gibiydi.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Uzun, gümüşi parlak bir silisyum ingotu, tutucular içinde dönerken ışık saçıyor; etrafında titiz beyaz önlüklü işçiler dikkatle izliyor. Bilge ve Yonga ön planda, Bilge eliyle ağzını kapatmış hayrete düşmüş, Yonga da ekranda ingotun büyümesini gösteriyor. Gümüş, soğuk mavi ve beyaz tonlar; kristal büyümesinin hassas ve büyülü doğasını vurguluyor.
