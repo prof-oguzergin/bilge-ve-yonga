@@ -60,7 +60,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 6 — Kristal Büyüyor
 
 **Metin:**
-Ergimiş kum yavaş yavaş soğutulunca büyük bir kristal büyüdü. Bu büyük kristale **külçe** (İngilizcesi ingot) denir. Düzgün, parlak, gri renkli bir silindir gibiydi.
+Ergimiş kum yavaş yavaş soğutulunca büyük bir kristal büyüdü. Bu büyük kristale **külçe** (ingot) denir. Düzgün, parlak, gri renkli bir silindir gibiydi.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Uzun, gümüşi parlak bir silisyum ingotu, tutucular içinde dönerken ışık saçıyor; etrafında titiz beyaz önlüklü işçiler dikkatle izliyor. Bilge ve Yonga ön planda, Bilge eliyle ağzını kapatmış hayrete düşmüş, Yonga da ekranda ingotun büyümesini gösteriyor. Gümüş, soğuk mavi ve beyaz tonlar; kristal büyümesinin hassas ve büyülü doğasını vurguluyor.

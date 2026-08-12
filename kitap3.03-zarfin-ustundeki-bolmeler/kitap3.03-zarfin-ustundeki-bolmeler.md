@@ -26,7 +26,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 
 **Metin:**
 {Y}"Her buyruğun en önemli bölümü **işlem kodu**dur." dedi Yonga.
-(İngilizcesi opcode: ne tür işlem yapılacağını söyler)
+(opcode: ne tür işlem yapılacağını söyler)
 
 {Y}"İşlem kodu, zarfın ilk satırı gibi: 'Bu ne tür bir mektup?
 Fatura mı, davetiye mi, haber mi?'
@@ -99,10 +99,10 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 **Metin:**
 {Y}"Veri aktarma buyrukları iki yönlü çalışır." dedi Yonga.
 
-{Y}"**YÜKLE** (İngilizcesi load): Bellekten oku, yazmaca koy.
+{Y}"**YÜKLE** (load): Bellekten oku, yazmaca koy.
 Örnek: 'Adres 100'deki sayıyı x5'e yükle.'"
 
-{Y}"**SAKLA** (İngilizcesi store): Yazmaçtaki değeri belleğe yaz.
+{Y}"**SAKLA** (store): Yazmaçtaki değeri belleğe yaz.
 Örnek: 'x5'teki sayıyı adres 200'e sakla.'"
 
 {B}"İkisi birbirinin tersi." dedi Bilge.
@@ -241,7 +241,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 ## Bugün Ne Öğrendik?
 
 
-🏷️ **İşlem kodu** (İngilizcesi opcode): Buyruğun ne tür işlem yapacağını belirten bit grubu.
+🏷️ **İşlem kodu** (opcode): Buyruğun ne tür işlem yapacağını belirten bit grubu.
 
 🧮 **R biçimi:** İki kaynak yazmaç + bir hedef yazmaç. Örnek: ADD, SUB.
 

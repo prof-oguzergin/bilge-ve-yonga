@@ -125,7 +125,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 {B}"Son maske?" diye sordu Bilge.
 
-{Y}"Dışlayan VEYA (İngilizcesi XOR) maskesi!" dedi Yonga heyecanla. {Y}"Bu en gizemli olanı. İkisi farklıysa 1, ikisi aynıysa 0! Buyruğun adı **XOR**. Bir sayıyı hep-1'lerle **XOR** yaparsan, DEĞİL'i elde edersin!"
+{Y}"Dışlayan VEYA (XOR) maskesi!" dedi Yonga heyecanla. {Y}"Bu en gizemli olanı. İkisi farklıysa 1, ikisi aynıysa 0! Buyruğun adı **XOR**. Bir sayıyı hep-1'lerle **XOR** yaparsan, DEĞİL'i elde edersin!"
 
 **Resim:**
 

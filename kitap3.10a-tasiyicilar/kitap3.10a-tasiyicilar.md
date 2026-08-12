@@ -60,7 +60,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 {B}"Peki bellekteki sayıyı nasıl kullanırız?" diye sordu Bilge.
 
-{Y}"Önce onu yazmaçlara getirmen gerekiyor." dedi Yonga. {Y}"Bu işe **YÜKLE** (İngilizcesi load) diyoruz!"
+{Y}"Önce onu yazmaçlara getirmen gerekiyor." dedi Yonga. {Y}"Bu işe **YÜKLE** (load) diyoruz!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Kütüphane rafından bir kitap alınıyor, hamal figürü omzuna alıyor, okuma masasına taşıyor. Kitabın üzerinde "42" yazıyor. Masada Bilge bekliyor. Yonga "lw x5, 100(x0): bellekteki 42'yi x5 yazmacına yükle!" diyor, küçük bir açıklama balonu içinde. Pastel sarı ve kahverengi tonlar.
@@ -84,7 +84,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 {B}"Peki işim bitince sayıyı nereye koyarım?" diye sordu Bilge.
 
-{Y}"Bellekte saklarsın, **SAKLA** (İngilizcesi store) buyruğu!" dedi Yonga. {Y}"Yazmaçtan belleğe taşırsın!"
+{Y}"Bellekte saklarsın, **SAKLA** (store) buyruğu!" dedi Yonga. {Y}"Yazmaçtan belleğe taşırsın!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bilge okuma masasındaki kitabı tamamlamış, kütüphane rafına geri götürüyor. Kitabın kapağında "99" yazıyor (değiştirilmiş değer). Yonga "sw x5, 200(x0): x5'teki sayıyı belleğin 200. adresine sakla!" diyor. Raf etiketi güncelleniyor. Yeşil ve bej tonlar, düzenli kütüphane ortamı.

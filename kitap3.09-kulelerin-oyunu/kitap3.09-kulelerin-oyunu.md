@@ -189,7 +189,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 ## Bugün Ne Öğrendik?
 
-📚 **Yığıt (stack)** bir tabak kulesi gibi çalışır, son konulan ilk alınır. Buna **son giren, ilk çıkar** (İngilizcesi LIFO) denir.
+📚 **Yığıt (stack)** bir tabak kulesi gibi çalışır, son konulan ilk alınır. Buna **son giren, ilk çıkar** (LIFO) denir.
 
 📌 Bir altyordam **JAL** ile çağrılır; **dönüş adresi** **ra** yazmacına yazılır. Başka bir altyordam çağrılmadan önce **ra** yığıta itilir (KOY), dönünce alınır (AL). Yığıtın tepesini **sp** yazmacı gösterir.
 

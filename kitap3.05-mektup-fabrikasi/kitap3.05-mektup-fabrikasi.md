@@ -29,7 +29,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 **Metin:**
 Yonga dört parmak kaldırdı:
 
-{Y}"**1. Derleyici**: Bilge'nin yazdığı program → RISC-V çevirici dili (İngilizcesi assembly)
+{Y}"**1. Derleyici**: Bilge'nin yazdığı program → RISC-V çevirici dili (assembly)
 **2. Çevirici**: RISC-V çevirici dili → makine kodu (sıfır ve birler)
 **3. Bağlayıcı**: Parça parça dosyaları birleştir
 **4. Yükleyici**: Programı belleğe yerleştir ve çalıştır"
