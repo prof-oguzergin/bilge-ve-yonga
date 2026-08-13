@@ -30,7 +30,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 3 — Kum, Silisyum Olur
 
 **Metin:**
-Yonga anlattı: {Y}"Bu kumlar sıradan kum değil. İçinde silisyum var!" Kum, silisyum ile oksijenin birleşmesinden oluşur. Sabah parıldamasının nedeni de budur: bu billur taneleri ışığı cam gibi yansıtır. Mühendisler kumdan silisyumu ayırır, bilgisayar yongalarını o silisyumdan yapar.
+Yonga anlattı: {Y}"Bu kumlar sıradan kum değil. İçinde silisyum var!" Kum, silisyum ile oksijenin birleşmesinden oluşur. Sabah parıldamasının nedeni de budur: bu billur taneleri ışığı cam gibi yansıtır. Mühendisler silisyumu kumdan ayırır, bilgisayar yongalarını o silisyumdan yapar.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Büyütülmüş kum tanelerinin yanında Yonga küçük bir hologram gösteriyor: bir kum tanesinin altında "Si — Silisyum" yazısı ve parlak kristal yapıları ışıltılı şekilde beliriyor. Bilge merakla öne eğilmiş, hologram ışığı yüzüne yansıyor. Arka planda kumsal var ama ön plan sihirli, bilim dolu bir atmosfer taşıyor. Kristal mavi, gümüş ve altın sarısı renkleriyle bilimsel ama çocuksu bir dil kullanılmış.
@@ -50,7 +50,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 5 — Kum Eriyince…
 
 **Metin:**
-İlk durak: silisyum fabrikası! Kum önce tertemiz olana dek arıtıldı, sonra fırınlara girdi. Devasa fırınlar kumu yüksek ısıda eritiyordu. Kum, cam gibi sıvı hale geliyordu. {B}"Vay!" dedi Bilge. {B}"Kum eriyor!"
+İlk durak: silisyum fabrikası! Kum önce tertemiz olana dek arıtıldı, sonra fırınlara girdi. Devasa fırınlar kumu yüksek ısıda eritti. Kum, cam gibi sıvı hâle geldi. {B}"Vay!" dedi Bilge. {B}"Kum eriyor!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Dev bir endüstriyel fırının içinde turuncu-kırmızı erimiş silisyum akıyor; büyük bir kazan içinde altın-turuncu ışıltılı sıvı kabarcıklanıyor. Küçük Bilge ve Yonga güvenlik camının arkasından izliyorlar; Bilge'nin gözleri hayranlıkla faltaşı gibi açılmış. Sahne sıcak tonlarda — turuncu, kırmızı, sarı; arka planda büyük fabrika silueti. Dramatik ama çocuk gözüyle büyülü bir fabrika atmosferi var.

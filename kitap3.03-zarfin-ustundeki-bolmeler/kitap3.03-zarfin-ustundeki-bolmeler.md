@@ -117,7 +117,7 @@ Horizontal children's book illustration, watercolor style, edge-to-edge, NO whit
 
 **Metin:**
 {Y}"**S biçimi** saklama buyrukları içindir." dedi Yonga.
-{Y}"Adresi bulmak için kullanılan kayma değeri buyruğun içinde iki parçaya bölünmüş halde saklanır."
+{Y}"Adresi bulmak için kullanılan kayma değeri buyruğun içinde iki parçaya bölünmüş hâlde saklanır."
 
 {B}"Neden bölünmüş?" diye sordu Bilge.
 

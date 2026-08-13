@@ -63,7 +63,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 {Y}"Ama bir işlemci tasarımı var ki kapısı her zaman açık!" dedi Yonga heyecanla. {Y}"Adı RISC-V! Herkes görebilir, herkes kullanabilir, üstelik ücretsiz!"
 
 **Resim:**
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga hologramda büyük, parlak yeşil kapı şeklinde RISC-V logosunu gösteriyor; kapı ardına kadar açık ve içeriden altın ışık akıyor. Devre tasarımları, çizimler, planlar herkese görünür halde duvarda asılı. Farklı ülkelerden çocuklar ve büyükler kapıdan girip çıkıyor — çeşitli kıyafetler, farklı yüzler. Bilge ve Yonga heyecanla bakıyor. Canlı yeşil, altın ve sıcak sarı tonlar.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga hologramda büyük, parlak yeşil kapı şeklinde RISC-V logosunu gösteriyor; kapı ardına kadar açık ve içeriden altın ışık akıyor. Devre tasarımları, çizimler, planlar herkese görünür hâlde duvarda asılı. Farklı ülkelerden çocuklar ve büyükler kapıdan girip çıkıyor — çeşitli kıyafetler, farklı yüzler. Bilge ve Yonga heyecanla bakıyor. Canlı yeşil, altın ve sıcak sarı tonlar.
 
 ---
 

@@ -78,7 +78,7 @@ Fırınlar hep birlikte uğulduyordu, mutfak koşuşturmayla dolmuştu.
 Yonga mutlu mutlu bip sesleri çıkardı: {Y}"İşte koşutluk bu!"
 
 **Resim:**
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Büyük, hareketli bir mutfak sahnesi; beş aşçı kendi tezgahında eş zamanlı çalışıyor. Her aşçının önünde pizzasının farklı bir aşaması görünüyor: hamur açma, sos sürme, malzeme koyma, fırına verme, dilim kesme. Mutfak buharı ve koku dalgaları sayfayı dolduruyor. Ortada Yonga zıplayarak neşeli "bip bip" sesleri çıkarıyor; küçük ekranında "KOŞUTLUK!" yazıyor. Canlı, renkli ve dinamik bir enerji; mutfak bambaşka bir hale gelmiş.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Büyük, hareketli bir mutfak sahnesi; beş aşçı kendi tezgahında eş zamanlı çalışıyor. Her aşçının önünde pizzasının farklı bir aşaması görünüyor: hamur açma, sos sürme, malzeme koyma, fırına verme, dilim kesme. Mutfak buharı ve koku dalgaları sayfayı dolduruyor. Ortada Yonga zıplayarak neşeli "bip bip" sesleri çıkarıyor; küçük ekranında "KOŞUTLUK!" yazıyor. Canlı, renkli ve dinamik bir enerji; mutfak bambaşka bir hâle gelmiş.
 
 ---
 

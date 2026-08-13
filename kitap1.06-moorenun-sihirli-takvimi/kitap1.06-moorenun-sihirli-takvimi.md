@@ -93,7 +93,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 {B}"Peki bu ikiye katlama durur mu?" diye sordu Bilge. Yonga biraz düşündü: {Y}"Aslında artık zorlaşıyor. Transistörler artık atomlarla ölçülecek kadar küçüldü. Daha da küçültmek çok güç."
 
 **Resim:**
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Büyüteç altında giderek küçülen transistörler görünüyor; en son görüntü neredeyse görünmez hale gelmiş — sadece titreyen küçük ışık noktaları kalmış. Bilge büyüteci tutarken kaşları merakla çatılmış. Yonga düşünceli bir ifadeyle çenesi elinde, sanki bu soruyu o da düşünüyor. Mavi, gümüş ve beyaz tonlar; sınırları zorlayan bilimsel soru işareti hissi.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Büyüteç altında giderek küçülen transistörler görünüyor; en son görüntü neredeyse görünmez hâle gelmiş — sadece titreyen küçük ışık noktaları kalmış. Bilge büyüteci tutarken kaşları merakla çatılmış. Yonga düşünceli bir ifadeyle çenesi elinde, sanki bu soruyu o da düşünüyor. Mavi, gümüş ve beyaz tonlar; sınırları zorlayan bilimsel soru işareti hissi.
 
 ---
 

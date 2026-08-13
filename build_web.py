@@ -1450,7 +1450,7 @@ def _card_html(folder, no, title, sub, glow):
            f'Sürüm {_surum_no(folder)}</span>\n'
            if _surum_no(folder) else '')
         + '          </div>\n'
-        f'          <h3>{title}</h3>\n'
+        f'          <h3><a class="kart-bag" href="{read_href}">{title}</a></h3>\n'
         f'          <p>{sub}</p>\n'
         + '          <div class="book-actions">\n'
         f'            <a class="btn-read" href="{read_href}">Oku</a>\n'
