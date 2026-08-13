@@ -241,11 +241,14 @@ def icindekiler(c, ad, renk, kitap_listesi):
 # surumleri temsil eder ve her zaman en guncele cozulur; surum DOI'si tek bir
 # surume cakilir. (Mimari kitabinda aylarca surum DOI'si kullanilip atif
 # verenler ilk taslaga yonlendirilmisti.)
+# ISBN: her cilt PDF (e-kitap) bicimi icin ayri numara alinir; basili ya da
+# EPUB surumu cikarsa onlara ayrica ISBN gerekir. Numara gelmeden bos birakilir,
+# kunyeye "(atanacak)" basilir.
 CILTLER = [
-    ('1', 'Kumdan Bilgisayara', '10.5281/zenodo.21725876'),
-    ('2', 'Hız ve Güç', '10.5281/zenodo.21725924'),
-    ('3', 'Buyrukların Dünyası', '10.5281/zenodo.21725978'),
-    ('4', 'İşlemcinin İçi', '10.5281/zenodo.21854810'),
+    ('1', 'Kumdan Bilgisayara', '10.5281/zenodo.21725876', ''),
+    ('2', 'Hız ve Güç', '10.5281/zenodo.21725924', ''),
+    ('3', 'Buyrukların Dünyası', '10.5281/zenodo.21725978', ''),
+    ('4', 'İşlemcinin İçi', '10.5281/zenodo.21854810', ''),
 ]
 
 
@@ -328,7 +331,7 @@ if __name__ == '__main__':
     print('=' * 72)
     print('Bilge ve Yonga — cilt uretimi')
     print('=' * 72)
-    for seri, ad, doi in CILTLER:
-        cilt_uret(seri, ad, doi=doi)
+    for seri, ad, doi, isbn in CILTLER:
+        cilt_uret(seri, ad, doi=doi, isbn=isbn)
     print()
     print('cikti:', CIKTI)
