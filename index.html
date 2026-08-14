@@ -311,6 +311,11 @@ section.band{padding:76px 0}
 .cilt-doi{margin:2px 0 0;font-size:.84rem;word-break:break-all}
 .cilt-doi a{color:var(--muted);text-decoration:none;border-bottom:1px dotted var(--line)}
 .cilt-doi a:hover{color:var(--accent)}
+.cilt-isbn{margin:2px 0 0;font-size:.84rem;color:var(--muted);letter-spacing:.01em}
+/* Cilt kartinin tamami DOI kaydina goturur; DOI satiri ile indirme dugmesi
+   kendi baglantilarini korur. */
+.cilt{position:relative}
+.cilt-doi a,.cilt-btn{position:relative;z-index:1}
 .cilt-bekliyor{color:var(--muted);font-style:italic;border:0;margin-top:auto;padding-top:6px}
 .cilt-btn{margin-top:auto;align-self:flex-start;display:inline-flex;align-items:center;
   gap:8px;background:var(--accent);color:#fff;text-decoration:none;font-weight:800;
@@ -1562,42 +1567,46 @@ footer p{color:var(--muted);font-size:.9rem}
     <article class="cilt" style="--accent:#2E8CC7">
       <div class="cilt-ust">
         <span class="cilt-no">1. Cilt</span>
-        <span class="cilt-surum" title="Sürüm 1.5, 13 Ağu 2026 tarihinde güncellendi">Sürüm 1.5</span>
+        <span class="cilt-surum" title="Sürüm 1.6, 14 Ağu 2026 tarihinde güncellendi">Sürüm 1.6</span>
       </div>
-      <h3>Kumdan Bilgisayara</h3>
+      <h3><a class="kart-bag" href="https://doi.org/10.5281/zenodo.21725876" target="_blank" rel="noopener">Kumdan Bilgisayara</a></h3>
       <p class="cilt-bilgi">15 kitap · 249 sayfa · PDF, 45 MB</p>
       <p class="cilt-doi"><a href="https://doi.org/10.5281/zenodo.21725876" target="_blank" rel="noopener">doi.org/10.5281/zenodo.21725876</a></p>
-      <a class="cilt-btn" href="https://zenodo.org/api/records/21910443/files/Bilge%20ve%20Yonga%20-%20Cilt%201%20-%20Kumdan%20Bilgisayara.pdf/content">Cildi indir</a>
+      <p class="cilt-isbn">ISBN 978-625-00-4591-6</p>
+      <a class="cilt-btn" href="https://zenodo.org/api/records/21936612/files/Bilge%20ve%20Yonga%20-%20Cilt%201%20-%20Kumdan%20Bilgisayara.pdf/content">Cildi indir</a>
     </article>
     <article class="cilt" style="--accent:#D97326">
       <div class="cilt-ust">
         <span class="cilt-no">2. Cilt</span>
-        <span class="cilt-surum" title="Sürüm 1.2, 13 Ağu 2026 tarihinde güncellendi">Sürüm 1.2</span>
+        <span class="cilt-surum" title="Sürüm 1.3, 14 Ağu 2026 tarihinde güncellendi">Sürüm 1.3</span>
       </div>
-      <h3>Hız ve Güç</h3>
+      <h3><a class="kart-bag" href="https://doi.org/10.5281/zenodo.21725924" target="_blank" rel="noopener">Hız ve Güç</a></h3>
       <p class="cilt-bilgi">10 kitap · 170 sayfa · PDF, 34 MB</p>
       <p class="cilt-doi"><a href="https://doi.org/10.5281/zenodo.21725924" target="_blank" rel="noopener">doi.org/10.5281/zenodo.21725924</a></p>
-      <a class="cilt-btn" href="https://zenodo.org/api/records/21910521/files/Bilge%20ve%20Yonga%20-%20Cilt%202%20-%20H%C4%B1z%20ve%20G%C3%BC%C3%A7.pdf/content">Cildi indir</a>
+      <p class="cilt-isbn">ISBN 978-625-90813-0-4</p>
+      <a class="cilt-btn" href="https://zenodo.org/api/records/21936797/files/Bilge%20ve%20Yonga%20-%20Cilt%202%20-%20H%C4%B1z%20ve%20G%C3%BC%C3%A7.pdf/content">Cildi indir</a>
     </article>
     <article class="cilt" style="--accent:#2E9E5B">
       <div class="cilt-ust">
         <span class="cilt-no">3. Cilt</span>
-        <span class="cilt-surum" title="Sürüm 1.3, 13 Ağu 2026 tarihinde güncellendi">Sürüm 1.3</span>
+        <span class="cilt-surum" title="Sürüm 1.4, 14 Ağu 2026 tarihinde güncellendi">Sürüm 1.4</span>
       </div>
-      <h3>Buyrukların Dünyası</h3>
+      <h3><a class="kart-bag" href="https://doi.org/10.5281/zenodo.21725978" target="_blank" rel="noopener">Buyrukların Dünyası</a></h3>
       <p class="cilt-bilgi">13 kitap · 217 sayfa · PDF, 38 MB</p>
       <p class="cilt-doi"><a href="https://doi.org/10.5281/zenodo.21725978" target="_blank" rel="noopener">doi.org/10.5281/zenodo.21725978</a></p>
-      <a class="cilt-btn" href="https://zenodo.org/api/records/21910584/files/Bilge%20ve%20Yonga%20-%20Cilt%203%20-%20Buyruklar%C4%B1n%20D%C3%BCnyas%C4%B1.pdf/content">Cildi indir</a>
+      <p class="cilt-isbn">ISBN 978-625-90813-1-1</p>
+      <a class="cilt-btn" href="https://zenodo.org/api/records/21936988/files/Bilge%20ve%20Yonga%20-%20Cilt%203%20-%20Buyruklar%C4%B1n%20D%C3%BCnyas%C4%B1.pdf/content">Cildi indir</a>
     </article>
     <article class="cilt" style="--accent:#8A4FC0">
       <div class="cilt-ust">
         <span class="cilt-no">4. Cilt</span>
-        <span class="cilt-surum" title="Sürüm 1.2, 13 Ağu 2026 tarihinde güncellendi">Sürüm 1.2</span>
+        <span class="cilt-surum" title="Sürüm 1.3, 14 Ağu 2026 tarihinde güncellendi">Sürüm 1.3</span>
       </div>
-      <h3>İşlemcinin İçi</h3>
+      <h3><a class="kart-bag" href="https://doi.org/10.5281/zenodo.21854810" target="_blank" rel="noopener">İşlemcinin İçi</a></h3>
       <p class="cilt-bilgi">13 kitap · 225 sayfa · PDF, 43 MB</p>
       <p class="cilt-doi"><a href="https://doi.org/10.5281/zenodo.21854810" target="_blank" rel="noopener">doi.org/10.5281/zenodo.21854810</a></p>
-      <a class="cilt-btn" href="https://zenodo.org/api/records/21910673/files/Bilge%20ve%20Yonga%20-%20Cilt%204%20-%20%C4%B0%C5%9Flemcinin%20%C4%B0%C3%A7i.pdf/content">Cildi indir</a>
+      <p class="cilt-isbn">ISBN 978-625-90813-2-8</p>
+      <a class="cilt-btn" href="https://zenodo.org/api/records/21937158/files/Bilge%20ve%20Yonga%20-%20Cilt%204%20-%20%C4%B0%C5%9Flemcinin%20%C4%B0%C3%A7i.pdf/content">Cildi indir</a>
     </article>
   </div>
   <div class="gelecek">

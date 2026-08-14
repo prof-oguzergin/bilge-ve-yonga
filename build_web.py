@@ -1562,16 +1562,16 @@ def temizle_bayat_okuyucular():
 # yere yazilmaz; mimari kitabinda aylarca surum DOI'si kullanilip atif verenler
 # ilk taslaga yonlendirilmisti.
 CILTLER = {
-    '1': {'doi': '10.5281/zenodo.21725876', 'kayit': 21910443,
+    '1': {'doi': '10.5281/zenodo.21725876', 'kayit': 21936612, 'isbn': '978-625-00-4591-6',
           'dosya': 'Bilge ve Yonga - Cilt 1 - Kumdan Bilgisayara.pdf',
           'sayfa': 249, 'mb': 45},
-    '2': {'doi': '10.5281/zenodo.21725924', 'kayit': 21910521,
+    '2': {'doi': '10.5281/zenodo.21725924', 'kayit': 21936797, 'isbn': '978-625-90813-0-4',
           'dosya': 'Bilge ve Yonga - Cilt 2 - Hız ve Güç.pdf',
           'sayfa': 170, 'mb': 34},
-    '3': {'doi': '10.5281/zenodo.21725978', 'kayit': 21910584,
+    '3': {'doi': '10.5281/zenodo.21725978', 'kayit': 21936988, 'isbn': '978-625-90813-1-1',
           'dosya': 'Bilge ve Yonga - Cilt 3 - Buyrukların Dünyası.pdf',
           'sayfa': 217, 'mb': 38},
-    '4': {'doi': '10.5281/zenodo.21854810', 'kayit': 21910673,
+    '4': {'doi': '10.5281/zenodo.21854810', 'kayit': 21937158, 'isbn': '978-625-90813-2-8',
           'dosya': 'Bilge ve Yonga - Cilt 4 - İşlemcinin İçi.pdf',
           'sayfa': 225, 'mb': 43},
 }
@@ -1621,7 +1621,15 @@ def build_ciltler():
                      'güncellendi">Sürüm {}</span>'
                      .format(_surum(key, 'ciltler'), _surum_no(key, 'ciltler')))
         p.append('      </div>')
-        p.append('      <h3>{}</h3>'.format(ad))
+        # Kartin tamami DOI kaydina goturur. Indirme baglantisi degil: karta
+        # dokununca 45 MB'lik dosyanin inmeye baslamasi istenmeyen bir surpriz
+        # olur. DOI sayfasinda surumler, ISBN ve indirme zaten duruyor.
+        if c['doi']:
+            p.append('      <h3><a class="kart-bag" href="https://doi.org/{}" '
+                     'target="_blank" rel="noopener">{}</a></h3>'
+                     .format(c['doi'], ad))
+        else:
+            p.append('      <h3>{}</h3>'.format(ad))
         p.append('      <p class="cilt-bilgi">{} kitap · {} sayfa · '
                  'PDF, {} MB</p>'.format(n, c['sayfa'], c['mb']))
         if c['doi']:
@@ -1630,6 +1638,9 @@ def build_ciltler():
             p.append('      <p class="cilt-doi"><a href="https://doi.org/{0}" '
                      'target="_blank" rel="noopener">doi.org/{0}</a></p>'
                      .format(c['doi']))
+            # ISBN kalici numaradir, baglanti degil; duz metin olarak durur.
+            if c.get('isbn'):
+                p.append('      <p class="cilt-isbn">ISBN {}</p>'.format(c['isbn']))
             p.append('      <a class="cilt-btn" href="{}">Cildi indir</a>'.format(indir))
         else:
             p.append('      <p class="cilt-doi cilt-bekliyor">DOI alma süreci '

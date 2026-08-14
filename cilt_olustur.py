@@ -245,10 +245,10 @@ def icindekiler(c, ad, renk, kitap_listesi):
 # EPUB surumu cikarsa onlara ayrica ISBN gerekir. Numara gelmeden bos birakilir,
 # kunyeye "(atanacak)" basilir.
 CILTLER = [
-    ('1', 'Kumdan Bilgisayara', '10.5281/zenodo.21725876', ''),
-    ('2', 'Hız ve Güç', '10.5281/zenodo.21725924', ''),
-    ('3', 'Buyrukların Dünyası', '10.5281/zenodo.21725978', ''),
-    ('4', 'İşlemcinin İçi', '10.5281/zenodo.21854810', ''),
+    ('1', 'Kumdan Bilgisayara', '10.5281/zenodo.21725876', '978-625-00-4591-6'),
+    ('2', 'Hız ve Güç', '10.5281/zenodo.21725924', '978-625-90813-0-4'),
+    ('3', 'Buyrukların Dünyası', '10.5281/zenodo.21725978', '978-625-90813-1-1'),
+    ('4', 'İşlemcinin İçi', '10.5281/zenodo.21854810', '978-625-90813-2-8'),
 ]
 
 

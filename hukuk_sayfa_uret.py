@@ -19,6 +19,8 @@ PAKET = r'C:\Users\Z GAMES\Downloads\bilgeveyonga'
 KOK = os.path.dirname(os.path.abspath(__file__))
 KURU = '--kuru' in sys.argv
 
+ISBN_METNI = ('Cilt 1: 978-625-00-4591-6 · Cilt 2: 978-625-90813-0-4 · '
+              'Cilt 3: 978-625-90813-1-1 · Cilt 4: 978-625-90813-2-8')
 YURURLUK = '27 Temmuz 2026'          # sartname A.2/6: fiilen yayimlandigi tarih
 SURUM = '1.0'
 ADRES = 'TOBB ETÜ, Söğütözü Cad. No:43, Söğütözü, Ankara'
@@ -72,8 +74,12 @@ DEGISTIR = [
     ('[POSTA ADRESİ — sözleşme aşaması için ayrıca bildirilir]', ADRES),
     # yanit suresi taahhut edilmiyor
     ('[Beş iş günü]', 'En kısa sürede'),
-    # ISBN yok
-    ("[Serinin ISBN'i yoktur / ISBN: ________]", "Serinin ISBN'i henüz yoktur."),
+    # ISBN 14 Agustos 2026'da alindi: her cilde bir numara. Belirsiz alanlar
+    # cizelgesindeki not da guncelleniyor, yoksa numaralarin yaninda
+    # "teyit edilmelidir" yaziyor.
+    ("[Serinin ISBN'i yoktur / ISBN: ________]", ISBN_METNI),
+    ('Serinin ISBN alıp almadığı teyit edilmelidir.',
+     'Numaralar 14 Ağustos 2026 tarihinde alınmıştır.'),
     # yururluk tarihi
     ('[Sitede yayımlandığı tarih — örn. 1 Ağustos 2026]', YURURLUK),
     ('[yürürlük tarihi]', YURURLUK),

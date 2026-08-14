@@ -311,6 +311,11 @@ section.band{padding:76px 0}
 .cilt-doi{margin:2px 0 0;font-size:.84rem;word-break:break-all}
 .cilt-doi a{color:var(--muted);text-decoration:none;border-bottom:1px dotted var(--line)}
 .cilt-doi a:hover{color:var(--accent)}
+.cilt-isbn{margin:2px 0 0;font-size:.84rem;color:var(--muted);letter-spacing:.01em}
+/* Cilt kartinin tamami DOI kaydina goturur; DOI satiri ile indirme dugmesi
+   kendi baglantilarini korur. */
+.cilt{position:relative}
+.cilt-doi a,.cilt-btn{position:relative;z-index:1}
 .cilt-bekliyor{color:var(--muted);font-style:italic;border:0;margin-top:auto;padding-top:6px}
 .cilt-btn{margin-top:auto;align-self:flex-start;display:inline-flex;align-items:center;
   gap:8px;background:var(--accent);color:#fff;text-decoration:none;font-weight:800;
