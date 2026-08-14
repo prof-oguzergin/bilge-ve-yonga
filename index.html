@@ -313,10 +313,13 @@ section.band{padding:76px 0}
 .cilt-doi a:hover{color:var(--accent)}
 /* Serinin sarkisi: ince bir serit. Kendiliginden calmaz (preload=none),
    ucuncu taraf gomulu oynatici yok; sitenin cerezsizlik sozu bozulmasin. */
-.sarki{display:flex;align-items:center;justify-content:space-between;gap:24px;
+.sarki{display:flex;align-items:center;gap:22px;
   flex-wrap:wrap;background:var(--surface);border:1px solid var(--line);
-  border-radius:20px;padding:20px 26px}
-.sarki-yazi{flex:1 1 320px}
+  border-radius:20px;padding:18px 22px}
+.sarki-gorsel{flex:0 0 240px;max-width:100%;border-radius:14px;overflow:hidden;
+  line-height:0;border:1px solid var(--line)}
+.sarki-gorsel img{width:100%;height:auto;display:block}
+.sarki-yazi{flex:1 1 260px}
 .sarki-yazi p{color:var(--muted);margin:6px 0 0;font-size:.98rem}
 .sarki-oynatici{flex:0 1 340px;width:340px;max-width:100%;height:40px}
 .cilt-isbn{margin:2px 0 0;font-size:.84rem;color:var(--muted);letter-spacing:.01em}
@@ -1567,6 +1570,9 @@ footer p{color:var(--muted);font-size:.9rem}
 
 <section class="band sarki-band"><div class="wrap">
   <div class="sarki">
+    <div class="sarki-gorsel">
+      <img src="sus/sarki-kare.jpg" alt="Bilge halının üstünde gözleri kapalı müzik dinliyor, Yonga yanında süzülüyor" loading="lazy">
+    </div>
     <div class="sarki-yazi">
       <span class="eyebrow">Serinin şarkısı</span>
       <p>Bilge ve Yonga'nın kendi şarkısı. Sözleri kitaplarda geçen kavramlardan derlendi: kum, sıfır ve bir, kapılar, saat.</p>
