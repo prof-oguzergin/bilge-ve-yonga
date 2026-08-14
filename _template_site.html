@@ -321,7 +321,12 @@ section.band{padding:76px 0}
 .sarki-gorsel img{width:100%;height:auto;display:block}
 .sarki-yazi{flex:1 1 260px}
 .sarki-yazi p{color:var(--muted);margin:6px 0 0;font-size:.98rem}
-.sarki-oynatici{flex:0 1 340px;width:340px;max-width:100%;height:40px}
+.sarki-oynat{flex:0 1 340px;display:flex;flex-direction:column;gap:9px;align-items:flex-start}
+.sarki-oynatici{width:340px;max-width:100%;height:40px}
+/* Klip gomulu degil, duz baglanti: ucuncu taraf izleyici gelmesin. */
+.sarki-klip{font-size:.86rem;color:var(--muted);text-decoration:none;
+  border-bottom:1px dotted var(--line);padding-bottom:1px}
+.sarki-klip:hover{color:var(--accent)}
 .cilt-isbn{margin:2px 0 0;font-size:.84rem;color:var(--muted);letter-spacing:.01em}
 /* Cilt kartinin tamami DOI kaydina goturur; DOI satiri ile indirme dugmesi
    kendi baglantilarini korur. */
@@ -523,11 +528,15 @@ __SERIES__
       <span class="eyebrow">Serinin şarkısı</span>
       <p>Bilge ve Yonga'nın kendi şarkısı. Sözleri kitaplarda geçen kavramlardan derlendi: kum, sıfır ve bir, kapılar, saat.</p>
     </div>
-    <audio class="sarki-oynatici" controls preload="none"
-           src="muzik/bilge-ve-yonga-sarki.mp3">
-      Tarayıcınız ses oynatmayı desteklemiyor.
-      <a href="muzik/bilge-ve-yonga-sarki.mp3">Şarkıyı indirin</a>.
-    </audio>
+    <div class="sarki-oynat">
+      <audio class="sarki-oynatici" controls preload="none"
+             src="muzik/bilge-ve-yonga-sarki.mp3">
+        Tarayıcınız ses oynatmayı desteklemiyor.
+        <a href="muzik/bilge-ve-yonga-sarki.mp3">Şarkıyı indirin</a>.
+      </audio>
+      <a class="sarki-klip" href="https://youtu.be/ZADM7KVgDmo"
+         target="_blank" rel="noopener">&#9654; Klibi YouTube'da izleyin</a>
+    </div>
   </div>
 </div></section>
 
