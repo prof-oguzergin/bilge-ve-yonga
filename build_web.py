@@ -846,6 +846,16 @@ body{margin:0}
 .cover-tag h1{font-family:var(--ff-disp); font-weight:800; color:#fff; margin:2px 0 0;
   font-size:clamp(1.5rem,4vw,2.3rem); line-height:1.08;
   text-shadow:0 1px 3px #000, 0 3px 18px #000e; text-wrap:balance}
+.mz{position:fixed;left:14px;bottom:14px;z-index:60;display:flex;
+  align-items:center;gap:8px;padding:7px 10px 7px 8px;border-radius:999px;
+  background:rgba(10,14,32,.86);border:1px solid rgba(150,190,240,.35);
+  backdrop-filter:blur(6px);box-shadow:0 10px 26px -14px #000}
+.mz-dugme,.mz-kapat{border:0;background:transparent;color:#dfeaff;cursor:pointer;
+  font-size:15px;line-height:1;padding:4px 6px;border-radius:999px}
+.mz-dugme:hover,.mz-kapat:hover{background:rgba(150,190,240,.18)}
+.mz-ad{color:#c9dcff;font-size:.82rem;white-space:nowrap}
+.mz-kapat{font-size:18px;opacity:.7}
+@media(max-width:520px){.mz-ad{display:none}}
 .cover-tag .csub{color:#fdf3df; font-family:var(--ff-body); font-style:italic;
   margin:8px 0 0; font-size:1.02rem; text-shadow:0 1px 3px #000, 0 2px 12px #000d; max-width:44ch}
 
@@ -1289,6 +1299,48 @@ book.addEventListener('touchend', e=>{
   x0=null;
 });
 go(0);
+</script>
+<div id="mz" class="mz" hidden>
+  <button id="mzc" class="mz-dugme" aria-label="Şarkıyı çal">&#9654;</button>
+  <span class="mz-ad">Bilge ve Yonga</span>
+  <button id="mzk" class="mz-kapat" aria-label="Kapat">&times;</button>
+  <audio id="mza" preload="none" src="../muzik/bilge-ve-yonga-sarki.mp3"></audio>
+</div>
+<script>
+(function(){
+  var d=document, a=d.getElementById('mza'), k=d.getElementById('mz'),
+      c=d.getElementById('mzc'), x=d.getElementById('mzk'),
+      ANAHTAR='bvy-muzik';
+  if(!a) return;
+  function oku(){ try{ return JSON.parse(sessionStorage.getItem(ANAHTAR)||'null'); }catch(e){ return null; } }
+  function yaz(){ try{ sessionStorage.setItem(ANAHTAR, JSON.stringify(
+      {t:a.currentTime, c:!a.paused, v:true})); }catch(e){} }
+  function goster(){ k.hidden=false; }
+  function simge(){ c.innerHTML = a.paused ? '&#9654;' : '&#10074;&#10074;'; }
+  var son=0;
+  a.addEventListener('timeupdate', function(){
+    if(a.currentTime-son>2 || a.currentTime<son){ son=a.currentTime; yaz(); } });
+  a.addEventListener('play', function(){ simge(); yaz(); goster(); });
+  a.addEventListener('pause', function(){ simge(); yaz(); });
+  a.addEventListener('ended', function(){ a.currentTime=0; simge(); yaz(); });
+  addEventListener('pagehide', yaz);
+  c.addEventListener('click', function(){ a.paused ? a.play() : a.pause(); });
+  x.addEventListener('click', function(){
+    a.pause(); k.hidden=true;
+    try{ sessionStorage.removeItem(ANAHTAR); }catch(e){} });
+  // baska sayfadan devir
+  var s=oku();
+  if(s && s.v){
+    goster(); a.currentTime = s.t || 0; simge();
+    if(s.c){ var p=a.play(); if(p && p.catch) p.catch(function(){ simge(); }); }
+  }
+  if('mediaSession' in navigator){
+    try{ navigator.mediaSession.metadata = new MediaMetadata({
+      title:'Bilge ve Yonga', artist:'Bilge ve Yonga Serisi',
+      album:'Bilgisayar Mimarisi Çocuk Kitapları Serisi'}); }catch(e){}
+  }
+  window.bvyMuzikCal = function(){ goster(); a.play(); };
+})();
 </script>
 </body>
 </html>
