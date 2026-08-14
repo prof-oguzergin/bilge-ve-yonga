@@ -311,6 +311,14 @@ section.band{padding:76px 0}
 .cilt-doi{margin:2px 0 0;font-size:.84rem;word-break:break-all}
 .cilt-doi a{color:var(--muted);text-decoration:none;border-bottom:1px dotted var(--line)}
 .cilt-doi a:hover{color:var(--accent)}
+/* Serinin sarkisi: ince bir serit. Kendiliginden calmaz (preload=none),
+   ucuncu taraf gomulu oynatici yok; sitenin cerezsizlik sozu bozulmasin. */
+.sarki{display:flex;align-items:center;justify-content:space-between;gap:24px;
+  flex-wrap:wrap;background:var(--surface);border:1px solid var(--line);
+  border-radius:20px;padding:20px 26px}
+.sarki-yazi{flex:1 1 320px}
+.sarki-yazi p{color:var(--muted);margin:6px 0 0;font-size:.98rem}
+.sarki-oynatici{flex:0 1 340px;width:340px;max-width:100%;height:40px}
 .cilt-isbn{margin:2px 0 0;font-size:.84rem;color:var(--muted);letter-spacing:.01em}
 /* Cilt kartinin tamami DOI kaydina goturur; DOI satiri ile indirme dugmesi
    kendi baglantilarini korur. */
@@ -1557,6 +1565,22 @@ footer p{color:var(--muted);font-size:.9rem}
 
 <hr class="divider">
 
+<section class="band sarki-band"><div class="wrap">
+  <div class="sarki">
+    <div class="sarki-yazi">
+      <span class="eyebrow">Serinin şarkısı</span>
+      <p>Bilge ve Yonga'nın kendi şarkısı. Sözleri kitaplarda geçen kavramlardan derlendi: kum, sıfır ve bir, kapılar, saat.</p>
+    </div>
+    <audio class="sarki-oynatici" controls preload="none"
+           src="muzik/bilge-ve-yonga-sarki.mp3">
+      Tarayıcınız ses oynatmayı desteklemiyor.
+      <a href="muzik/bilge-ve-yonga-sarki.mp3">Şarkıyı indirin</a>.
+    </audio>
+  </div>
+</div></section>
+
+<hr class="divider">
+
 <section class="band" id="ciltler"><div class="wrap">
   <div class="sec-head">
     <span class="eyebrow">Ciltler ve atıf</span>
@@ -1717,7 +1741,7 @@ footer p{color:var(--muted);font-size:.9rem}
 
     <div class="bolum">
       <h3>Görseller ve bundan sonrası</h3>
-      <p>Kitapların fikri, hikâye kurgusu, metinleri ve son denetimi bana ait. Görseller hazırlanırken yapay zekâ araçlarından yararlandım. Tüm sahneler aynı karakter föyüne bağlı kalınarak üretildi; ardından her görseli tek tek inceleyip gerekli düzeltmeleri yaptım.</p>
+      <p>Kitapların fikri, hikâye kurgusu, metinleri ve son denetimi bana ait. Görseller hazırlanırken yapay zekâ araçlarından yararlandım. Tüm sahneler aynı karakter föyüne bağlı kalınarak üretildi; ardından her görseli tek tek inceleyip gerekli düzeltmeleri yaptım. Serinin şarkısının müziği ve seslendirmesi de yapay zekâ ile üretildi; sözleri kitaplarda geçen kavramlardan derlendi.</p>
       <p>Şu anda 51 kitap tamamlandı. İlk iki seri, <strong>Kumdan Bilgisayara</strong> ile <strong>Hız ve Güç</strong>, okumayı bilen 7-10 yaş grubu için hazırlandı. Buyrukları anlatan <strong>Buyrukların Dünyası</strong> ve işlemcinin içini anlatan <strong>İşlemcinin İçi</strong> biraz daha yoğun bir anlatıma sahip; ikisi de 9-12 yaş grubuna uygun.</p>
     </div>
   </div>
