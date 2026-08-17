@@ -130,7 +130,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 13 — Kardeşler Veda Eder
 
 **Metin:**
-Risko ve Sisko el salladı ve geri gitti. Bilge güldü: {B}"Yonga, sen hangi ailedensin?" Yonga gururla dedi: {Y}"Ben RISC ailesindenim, az buyruk bilirim ama çok hızlıyım!"
+Risko ve Sisko el salladı ve geri gitti. Bilge güldü: {B}"Yonga, sen hangi ailedensin?" {Y}"Ben RISC ailesindenim, az buyruk bilirim ama çok hızlıyım!" dedi Yonga gururla.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Risko ve Sisko hologram ekranında el sallayarak yavaş yavaş soluklaşıyor. Yonga ön planda göğsünü kabartmış, üzerinde parlak bir "RISC" rozeti var ve mavi ışıklar yayıyor. Bilge Yonga'ya sarılmaya çalışıyor — küçük robot biraz şaşırmış ama mutlu görünüyor. Gün batımı tonları, sıcak ve mutlu kapanış sahnesi.

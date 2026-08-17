@@ -20,7 +20,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 2 — Bir Okula Gidiyoruz
 
 **Metin:**
-Yonga dedi: {Y}"Bilgisayarlar bir okula gidiyor! Bu okula 'yapay zeka okulu' diyebiliriz." Bilge heyecanlandı: {B}"Bilgisayarlar okula gidiyor mu? Ben de görmek istiyorum!"
+{Y}"Bilgisayarlar bir okula gidiyor! Bu okula 'yapay zeka okulu' diyebiliriz." dedi Yonga. Bilge heyecanlandı: {B}"Bilgisayarlar okula gidiyor mu? Ben de görmek istiyorum!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga hologramda şirin bir okul binası açıyor — ama bu okulun tabelasında "Yapay Zeka Okulu" yazıyor ve binalarda pencereler yerine devre desenleri var. Küçük robot öğretmenler sıra sıra kendi sınıflarına giriyor. Bilge hologramı merakla inceliyor, içine girmeye çalışır gibi parmağını uzatıyor. Mavi, yeşil ve altın tonlar; hayal gücü ve heyecan dolu okul atmosferi.
