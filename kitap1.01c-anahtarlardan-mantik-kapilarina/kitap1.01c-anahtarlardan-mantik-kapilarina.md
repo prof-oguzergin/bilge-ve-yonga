@@ -30,7 +30,7 @@ Lamba yandı.
 
 {B}"Neden ikisi birden?" diye sordu Bilge.
 
-{Y}"Çünkü iki anahtar arka arkaya bağlı." dedi Yonga. {Y}"Elektrik ikisinden de geçmek zorunda. Biri kapalıysa yol kapanır."
+{Y}"Çünkü iki anahtar arka arkaya bağlı." dedi Yonga. {Y}"Elektrik ikisinden de geçmek zorunda. Peş peşe iki köprü gibi. Biri yıkıksa karşıya geçemezsin."
 
 **Resim:**
 Aynı masa, aynı pilli devre tahtası. Bilge'nin iki parmağı iki düğmenin üstünde; ampul parlak parlak yanıyor. Ampulden çıkan sıcak sarı ışık masaya vuruyor. Yonga sevinçle ışıldıyor.
