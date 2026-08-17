@@ -251,8 +251,17 @@ body{margin:0}
 .dene-lamba{margin:0; font-size:2.6rem; line-height:1; filter:grayscale(1) opacity(.4);
   transition:filter .15s ease}
 .dene-lamba.yanik{filter:none}
-.card .dene-cikis{margin:.4em 0 0; max-width:none; font-family:var(--ff-disp); font-weight:800;
-  font-size:1.05rem; text-align:center; color:var(--kagit-koyu)}
+/* Cikis kutucugu iki durumda ayni gorunuyordu, yalnizca ampul emojisi
+ * degisiyordu; okur "isigin yandigi daha belli olsun" diye bildirdi
+ * (16 Agu 2026). Kutucuk artik girislerdeki .dene-kutu diliyle uyumlu:
+ * sonmusken solgun cerceve, yanikken kehribar zemin. */
+.card .dene-cikis{margin:.4em auto 0; max-width:none; font-family:var(--ff-disp); font-weight:800;
+  font-size:1.05rem; text-align:center; color:var(--kagit-solgun);
+  display:inline-block; padding:3px 14px; border:2px solid var(--kagit-cizgi);
+  border-radius:999px; background:transparent;
+  transition:border-color .15s, color .15s, background .15s}
+.card .dene-cikis.yanik{border-color:var(--kehribar-koyu); color:#3A2400;
+  background:var(--amber)}
 .card .dene-ipucu{margin:12px 0 0; max-width:none; text-align:center; font-size:.9rem;
   min-height:1.2em; color:var(--kehribar-koyu)}
 .slist li{font-family:var(--ff-body); font-size:clamp(1.06rem,1.2vw,1.22rem); line-height:1.55;
@@ -614,6 +623,7 @@ function deneKapi(kap){
     telC.classList.toggle('canli', !!acik);
     lamba.classList.toggle('yanik', !!acik);
     cikis.textContent = yaz(acik);
+    cikis.classList.toggle('yanik', !!acik);
     gorulen[secili].add(k.tek ? String(giris[0]) : giris[0]+'-'+giris[1]);
     const hepsi = k.tek ? 2 : 4;
     ipucu.textContent = gorulen[secili].size >= hepsi
