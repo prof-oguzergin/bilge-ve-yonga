@@ -22,7 +22,11 @@ DEPO = Path(__file__).resolve().parent.parent
 KAYNAK = Path(r'G:\My Drive\Yazdığımız Kitaplar\Çocuk Kitapları'
               r'\Bilgisayar Mimarisi Serisi')
 GEN = 1600          # depodaki JPEG genisligi
-KALITE = 82
+# Kalite 82'den 75'e indirildi (16 Agu 2026). Ayni cozunurlukte dosyalar
+# yariya iniyor (site 247 MB -> 126 MB); olculen yapisal benzerlik 0,99,
+# %240 yakinlastirmada gozle ayirt edilmiyor. Yavas baglantidan okuyan
+# okurlar 'metin geldi resim gelmedi' diye bildirmisti.
+KALITE = 75
 
 
 def cevir(png: Path, jpg: Path) -> bool:

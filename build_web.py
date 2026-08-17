@@ -1250,6 +1250,28 @@ PAGES.forEach((p, idx)=>{
   strip.appendChild(t);
 });
 
+/* Önden indirme: kitap açılınca kalan sayfa görselleri arka planda
+ * sırayla çekiliyor. Yavaş bağlantıdan okuyan okurlar "metin geldi,
+ * resim gelmedi" diye bildirdi. Hizmet çalışanı çekilen her görseli
+ * sakladığı için bir kez inince sayfa çevirmek anında oluyor ve
+ * bağlantı kesilse bile kitap sonuna kadar okunabiliyor. Görseller
+ * TEK TEK ve düşük öncelikle çekiliyor; hepsini birden istemek okunan
+ * sayfanın kendi isteklerinin önüne geçiyor. */
+function ondenIndir(){
+  const kuyruk = PAGES.map(p=>p.img).filter(Boolean).slice(1);
+  let n = 0;
+  (function sonraki(){
+    if(n >= kuyruk.length) return;
+    const im = new Image();
+    im.fetchPriority = 'low';
+    im.decoding = 'async';
+    im.onload = im.onerror = ()=>{ n++; setTimeout(sonraki, 120); };
+    im.src = kuyruk[n];
+  })();
+}
+if('requestIdleCallback' in window) requestIdleCallback(ondenIndir, {timeout:2500});
+else setTimeout(ondenIndir, 1500);
+
 const slides = [...book.children];
 const thumbs = [...strip.children];
 const prev = document.getElementById('prev');
@@ -1682,14 +1704,24 @@ def build_index():
 def build_sw():
     """sw-sablon.js dosyasini surum damgasiyla sw.js olarak yazar.
 
-    Surum, index.html'in ozetinden turetilir; site her degistiginde
-    hizmet calisani yenilenir ve eski onbellekler silinir.
+    Surum, index.html'in ozetinden VE sayfa gorsellerinin yol+boyut
+    dokumunden turetilir; site her degistiginde hizmet calisani yenilenir
+    ve eski onbellekler silinir.
+
+    Damga once yalnizca index.html'den turetiliyordu. Gorsellerin JPEG
+    kalitesi dusurulup dosyalar yariya indiginde index degismedigi icin
+    damga da degismedi; onbellek 'once onbellek' calistigi icin siteyi
+    daha once acmis okurlar eski buyuk dosyalari okumaya devam edecekti.
+    Gorsel dokumu de ozete katilinca bu sessiz bayatlama bitiyor.
     """
     import hashlib
     sablon = REPO / 'sw-sablon.js'
     if not sablon.exists():
         return
-    ozet = hashlib.sha1((REPO / 'index.html').read_bytes()).hexdigest()[:10]
+    h = hashlib.sha1((REPO / 'index.html').read_bytes())
+    for jpg in sorted(REPO.glob('kitap*/resimler/GPT_*.jpg')):
+        h.update(('%s|%d;' % (jpg.name, jpg.stat().st_size)).encode())
+    ozet = h.hexdigest()[:10]
     (REPO / 'sw.js').write_text(
         sablon.read_text(encoding='utf-8').replace('__SURUM__', ozet),
         encoding='utf-8')
