@@ -60,7 +60,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 6 — Kristal Büyüyor
 
 **Metin:**
-Erimiş kum yavaş yavaş soğutulunca büyük bir kristal büyüdü. Bu büyük kristale **külçe** (ingot) denir. Düzgün, parlak, gri renkli bir silindir gibiydi.
+Erimiş kum yavaş yavaş soğutuldu. Soğudukça tek bir kristal büyüdü, kocaman oldu. Bu kocaman kristale **külçe** (ingot) denir. Düzgün, parlak, gri renkli bir silindir gibiydi.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Uzun, gümüşi parlak bir silisyum ingotu, tutucular içinde dönerken ışık saçıyor; etrafında titiz beyaz önlüklü işçiler dikkatle izliyor. Bilge ve Yonga ön planda, Bilge eliyle ağzını kapatmış hayrete düşmüş, Yonga da ekranda ingotun büyümesini gösteriyor. Gümüş, soğuk mavi ve beyaz tonlar; kristal büyümesinin hassas ve büyülü doğasını vurguluyor.
@@ -151,7 +151,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 🏖️ Bazı kum türlerinde **silisyum** bulunur. Bilgisayar yongaları da silisyumdan yapılır!
 
-🔥 Kum eritilip büyük bir silisyum kristali oluşturulur. Bu kristale **külçe** denir.
+🔥 Kum eritilir, soğurken tek bir silisyum kristali büyür. Bu kristale **külçe** denir.
 
 💿 Kristal çok ince dilimlere kesilir. Bunlara **silisyum plaka** denir.
 
