@@ -232,6 +232,23 @@ body{margin:0}
 .dene-kutu .agirlik{font-size:.72rem; opacity:.7}
 /* Dar ekranda dört kutucuk tek satırda kalsın; sarınca üçe bir bölünüyordu. */
 @media (max-width:520px){ .dene-kutular{gap:8px} .dene-kutu{width:58px; height:70px} }
+/* Kapi denemesinin GIRIS kutucuklari, cikistaki kutucukla ayni dile
+ * getirildi (okur onerisi, 16 Agu 2026): deger yazisi sonmusken cerceveli
+ * ve solgun, yanikken kehribar zeminli; giris ile cikis simetrik okunuyor.
+ * Kural yalnizca .dene-girisler icine baglandi. Ayni .dene-kutu sinifi
+ * basamak denemesinde de kullaniliyor; oradaki bes kutu genisletilirse
+ * dar ekranda alt satira sariyor (kodda daha once duzeltilmis bir kusur).
+ * Genislik burada 66'dan 92'ye cikiyor, cunku deger yazisi sayi kipinde
+ * "kapali (0)" oluyor ve cerceveye sigmiyor. */
+.dene-girisler .dene-kutu{width:92px; height:82px; gap:5px}
+.dene-girisler .dene-kutu .agirlik{font-size:.72rem; font-weight:800; line-height:1.25;
+  white-space:nowrap; opacity:1; padding:2px 9px; border-radius:999px;
+  border:1.5px solid var(--kagit-cizgi); color:var(--kagit-solgun); background:transparent;
+  transition:border-color .15s, color .15s, background .15s}
+.dene-girisler .dene-kutu.acik .agirlik{border-color:var(--kehribar-koyu); color:#3A2400;
+  background:var(--amber)}
+@media (max-width:520px){ .dene-girisler .dene-kutu{width:86px; height:78px}
+  .dene-girisler .dene-kutu .agirlik{font-size:.66rem; padding:2px 7px} }
 .dene-kutu.acik{border-color:var(--parlak-koyu); color:var(--parlak-koyu); transform:translateY(-3px)}
 .card .dene-sonuc{margin:0; max-width:none; font-family:var(--ff-disp); font-weight:800; line-height:1;
   font-size:clamp(2.4rem,4.6vw,3.2rem); color:var(--parlak-koyu)}
