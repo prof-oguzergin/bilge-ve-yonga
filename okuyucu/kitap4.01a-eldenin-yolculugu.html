@@ -266,8 +266,13 @@ body{margin:0}
   border:1px solid var(--kagit-cizgi); color:var(--kagit-solgun)}
 .dene-secim button.secili{border-color:var(--parlak-koyu); color:var(--parlak-koyu)}
 .dene-lamba{margin:0; font-size:2.6rem; line-height:1; filter:grayscale(1) opacity(.4);
-  transition:filter .15s ease}
-.dene-lamba.yanik{filter:none}
+  transition:filter .18s ease}
+/* Yanan sey lamba olsun. Okur, cikis hucresinin tamaminin renk degistirmesini
+ * onermisti; hucreyi boyamak ayni bilgiyi dorduncu kez soylemek ve devre
+ * benzetmesini bulandirmak olurdu (yanan sey lambadir, bolme degil). Bunun
+ * yerine lambanin kendisine isik halesi verildi. */
+.dene-lamba.yanik{filter:drop-shadow(0 0 8px var(--amber))
+  drop-shadow(0 0 20px color-mix(in srgb,var(--amber) 55%,transparent))}
 /* Cikis kutucugu iki durumda ayni gorunuyordu, yalnizca ampul emojisi
  * degisiyordu; okur "isigin yandigi daha belli olsun" diye bildirdi
  * (16 Agu 2026). Kutucuk artik girislerdeki .dene-kutu diliyle uyumlu:
