@@ -20,7 +20,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 2 — Yonga'nın Sırrı
 
 **Metin:**
-{Y}"Bu takvim sana neyi düşündürüyor?" diye sordu Yonga. Bilge elindeki hesap makinesine baktı: {B}"Anneannemin bu koca hesap makinesi ile benim tabletim çok farklı görünüyor. Neden acaba?" {Y}"Çünkü bilgisayarlar da tıpkı bu takvim gibi büyüyüp güçleniyor! Sana göstereyim." dedi Yonga gülümseyerek.
+{Y}"Bu takvim sana neyi düşündürüyor?" diye sordu Yonga. Bilge sayfaları çevirdi: {B}"Her sayfada her şey ikiye katlanıyor." {Y}"Bilgisayarlar da böyle." dedi Yonga gülümseyerek. {Y}"Anneannenin kocaman hesap makinesiyle senin küçücük tabletinin farkı bu. Sana göstereyim."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga, küçük gövdesinden mavi bir hologram ışığı yayarak havada küçücük transistörlerin ikiye katlandığı bir animasyon gösteriyor. Bilge takvimi kucağında tutarken gözleri hologramda; ağzı yarı açık, merakla dinliyor. Arka planda anneannenin sıcak oturma odası, güneş ışığı perdelerden süzülüyor. Mavi hologram renkleri ile sıcak altın-sarısı oda renkleri güzel bir kontrast oluşturuyor.

@@ -30,7 +30,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 3 — Yonga Diyagramı Çiziyor
 
 **Metin:**
-Yonga soğanı aldı ve dikkatlice bir diyagram çizdi. {Y}"Şimdi soğanın en dış katmanından başlayalım." dedi. {Y}"Ama önce en içteki katmanı anlamamız lazım." Bilge soğanı soyarken Yonga anlatmaya başladı.
+Yonga soğanı aldı ve dikkatlice bir diyagram çizdi. {Y}"Soğanı ortadan ikiye keselim." dedi. {Y}"En içteki katmandan başlayıp dışa doğru gideceğiz." Bilge kesitteki halkaları sayarken Yonga anlatmaya başladı.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga, mutfak tezgahında küçük bir kağıda kalemle katmanlı bir soğan diyagramı çiziyor; kağıda iç içe daireler çizili. Bilge öne eğilmiş, dikkatlice izliyor, gözlükleri burnuna kaymış. Soğan ikisi arasında duruyor, yarı soyulmuş. Sahne meraklı ve odaklanmış bir his veriyor; kalem çizgileri ve diyagram net görünüyor. Krem, kahverengi ve mavi tonları hâkim.
@@ -50,7 +50,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 5 — İşletim Sistemi Katmanı
 
 **Metin:**
-Bilge bir katman daha soydu. {B}"Bu ne?" diye sordu. {Y}"İşletim sistemi!" dedi Yonga. {Y}"O, donanımla konuşmasını bilen büyük bir yönetici gibi. Telefonunu ya da tabletini açtığında karşına çıkan ekran var ya, işte onu da o hazırlar!"
+Bilge bir halka dışarı baktı. {B}"Bu ne?" diye sordu. {Y}"İşletim sistemi!" dedi Yonga. {Y}"O, donanımla konuşmasını bilen büyük bir yönetici gibi. Telefonunu ya da tabletini açtığında karşına çıkan ekran var ya, işte onu da o hazırlar!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yarı kesitli soğanın ortasında metalik çekirdek, onun dışında daha geniş, açık mavi bir halka — bu halkada küçük dişliler, anahtar ve ekran simgeleri var; "İşletim Sistemi" yazıyor. Bilge bu halkayı işaret ediyor, Yonga yönetici şapkası takmış ve elinde küçük bir baston tutuyor gibi poz veriyor. Sahne eğlenceli ve öğretici. Mavi, gri ve beyaz tonları.
@@ -60,7 +60,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 6 — Sistem Yazılımı Katmanı
 
 **Metin:**
-Bir katman daha! {B}"Bu katman ne işe yarıyor?" diye sordu Bilge. {Y}"Sistem yazılımı." diye açıkladı Yonga. {Y}"Bunlar çevirmenler gibidir. Uygulamaların işletim sistemiyle anlaşmasına yardım ederler. Örneğin bir oyunun ekrana güzel resimler çizmesine yardım eden hazır yardımcı programlar gibi." Tıpkı iki farklı dil konuşan insanlar arasındaki tercüman gibi!
+Bir halka daha dışarı! {B}"Bu katman ne işe yarıyor?" diye sordu Bilge. {Y}"Sistem yazılımı." diye açıkladı Yonga. {Y}"Bunlar çevirmenler gibidir. Uygulamaların işletim sistemiyle anlaşmasına yardım ederler. Örneğin bir oyunun ekrana güzel resimler çizmesine yardım eden hazır yardımcı programlar gibi." Tıpkı iki farklı dil konuşan insanlar arasındaki tercüman gibi!
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Soğan kesitinde üçüncü halka — yeşil tonlarında, içinde küçük köprüler, iki taraflı oklar ve küçük insan figürleri birbirine el sallıyor. "Sistem Yazılımı" yazısı halkada. Bilge ve Yonga bu halkayı işaret ediyor; Yonga'nın gözleri meraklı. Arka planda soğanın dışarısı güneşli mutfak. Yeşil, sarı ve krem tonları.

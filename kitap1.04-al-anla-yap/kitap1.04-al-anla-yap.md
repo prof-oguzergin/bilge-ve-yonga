@@ -120,7 +120,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 12 — Döngü Diyagramı
 
 **Metin:**
-İşte bilgisayarın sırrı: Al, Anla, Yap. Tekrar et. Tekrar et. Tekrar et. Bu üç adım milyarlarca kez dönerek her şeyi yapar!
+İşte bilgisayarın sırrı: Al, Anla, Yap. Sonra yine: Al, Anla, Yap. Bu üç adım milyarlarca kez dönerek her şeyi yapar!
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Tam sayfa şematik ama çocuksu bir diyagram: büyük üç daire birbirine ok ile bağlı. Mavi daire "AL" — içinde kitap ikonu. Sarı daire "ANLA" — içinde düşünen ampul ikonu. Yeşil daire "YAP" — içinde el ikonu. Ortada küçük Yonga dönüyor, etrafında ışık halkası. Daire kenarlıklarının altında basit Türkçe açıklamalar. Temiz, anlaşılır ve renkli bir kapanış şeması.
