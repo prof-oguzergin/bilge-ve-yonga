@@ -20,6 +20,8 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 2 — Risko'nun Yolu
 
 **Metin:**
+{Y}"Tabii!" dedi Yonga ve hologramın üstüne dokundu. Albümdeki iki robot yerinden kalkıp mutfağın ortasına atladı. {D}"Ben Risko!" dedi ince olan. {D}"Ben de Sisko." dedi iri olan.
+
 Bilge ikisine bir görev verdi: {B}"Bana birer sandviç yapar mısınız?" Önce Risko işe koyuldu: kes, koy, ekle, kapat. Hepsi küçücük adımlardı ama her biri şimşek gibiydi! {D}"Ben basit işler yaparım, ama çok hızlı!" dedi Risko.
 
 **Resim:**
@@ -80,7 +82,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 8 — ARM ve RISC-V
 
 **Metin:**
-{Y}"Telefonlardaki ARM işlemciler Risko ailesinden." dedi Yonga. {Y}"Onlar az buyrukla çok iş çıkarırlar!" Bilge meraklandı: {B}"Peki RISC-V?" Yonga'nın gözleri parladı: {Y}"O da aynı aileden! Ama bir farkı var: RISC-V'in kuralları herkese açık, isteyen ücretsiz kullanabilir."
+{Y}"Telefonlardaki ARM işlemciler Risko ailesinden." dedi Yonga. {Y}"Onlar az buyrukla çok iş çıkarırlar!" Sonra Risko'nun göğsüne ikinci bir rozet taktı: {Y}"Bu ailenin bir üyesi daha var, adı RISC-V." {B}"Onun farkı ne?" diye sordu Bilge. Yonga'nın gözleri parladı: {Y}"RISC-V'in kuralları herkese açık, isteyen ücretsiz kullanabilir."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga hologramda Risko'nun yanına iki küçük rozet takıyor — biri "ARM" yazan mavi rozet, diğeri "RISC-V" yazan yeşil rozet. Risko rozetlere bakarak gururla göğsünü kabartıyor. Bilge de "ben de bir tane istiyorum" der gibi eğlenceli bir ifadeyle elini kaldırıyor. Neşeli, çocuksu bir rozet töreni atmosferi; canlı mavi ve yeşil tonlar.
