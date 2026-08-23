@@ -146,11 +146,15 @@ a.brand{text-decoration:none;color:inherit;transition:opacity .15s}
 a.brand:hover{opacity:.82}
 /* Dugme yuvarlak simgeyken ne yaptigi anlasilmiyordu; yanina gececegi
    temanin adi yazildi ve dugme hap bicimine gecti. */
-.toggle{border:1px solid var(--line);background:var(--surface);color:var(--text);height:42px;padding:0 14px;border-radius:999px;gap:8px;font:inherit;font-size:.86rem;font-weight:600;
-  cursor:pointer;display:grid;place-items:center;transition:transform .2s,box-shadow .2s}
+.toggle{border:1px solid var(--line);background:var(--surface);color:var(--text);height:42px;padding:0 16px;border-radius:999px;
+  gap:8px;font:inherit;font-size:.86rem;font-weight:600;line-height:1;white-space:nowrap;
+  cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:transform .2s,box-shadow .2s}
 .toggle:hover{transform:translateY(-2px);box-shadow:0 8px 20px -10px var(--glow)}
 .toggle svg{width:20px;height:20px}
 .toggle:focus-visible{outline:3px solid var(--glow);outline-offset:2px}
+/* Dar ekranda ad ile dugme dip dibe geliyordu; simge gizlenip yalniz
+   yazi birakiliyor, dugme daralinca araya boskluk giriyor. */
+@media (max-width:460px){ .toggle{padding:0 12px;font-size:.8rem} .toggle svg{display:none} }
 
 .hero{position:relative;overflow:hidden;
   background:radial-gradient(120% 90% at 82% -10%,color-mix(in srgb,var(--glow) 20%,transparent),transparent 60%),
