@@ -20,7 +20,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 2 — Altın Çağ Başlıyor
 
 **Metin:**
-{B}"Bu nasıl mümkün olabildi?" diye sordu Bilge. Yonga anlatmaya başladı: {Y}"Uzun zaman önce, 1980'lerde, mühendisler her yıl yongalara biraz daha küçük ve biraz daha hızlı parçalar sığdırmayı başardılar." Bilge gözlerini kırptı: {B}"Her yıl biraz mı?" {Y}"Her yıl biraz." dedi Yonga. {Y}"O kadar ki iki yılda bir bilgisayarların hızı ikiye katlanıyordu. Bu döneme **altın çağ** deriz."
+{B}"Bu nasıl mümkün olabildi?" diye sordu Bilge. Yonga anlatmaya başladı: {Y}"Uzun zaman önce, 1980'lerde, mühendisler her yıl yongalara biraz daha küçük parçalar sığdırmayı başardılar." dedi Yonga. {Y}"Parçalar küçüldükçe yongaya daha çoğu sığıyor, hepsi de daha hızlı çalışıyordu." Bilge gözlerini kırptı: {B}"Her yıl biraz mı?" {Y}"Her yıl biraz." dedi Yonga. {Y}"Ama biriktikçe birikti. İki yılda bir bilgisayarların hızı ikiye katlanıyordu. Bu döneme **altın çağ** deriz."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Büyük bir takvim sayfası; 1980 yazıyor ve her yıl atlayışta yonganın üzerindeki parçalar küçülüyor, yonganın içindeki ışıklar hızla artıyor. Yonga küçük ellerini iki yana açmış heyecanla anlatıyor. Bilge çenesini parmağına dayamış, büyülenmiş gibi dinliyor. Arka fon altın rengi, sıcak bir parıltıyla kaplı.
