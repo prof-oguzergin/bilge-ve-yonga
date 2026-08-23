@@ -45,7 +45,7 @@
     Bilge <span>ve</span> Yonga
     <img src="yonga.png?v=10" width="30" height="30" alt="">
   </a>
-  <button class="tema" id="tt" type="button" aria-label="Açık / karanlık tema">Tema</button>
+  <button class="tema" id="tt" type="button" aria-label="Aydınlık temaya geç"><span id="tt-ad">Aydınlık</span></button>
   <a class="geri" href="index.html">‹ Kitaplara dön</a>
 </header>
 
@@ -453,10 +453,16 @@ dokunmadan okumaya devam edebilirsin.</p></div>
 (function(){
   var kok=document.documentElement, dgm=document.getElementById('tt');
   if(!dgm) return;
+  function temaYaz(){var k=(kok.getAttribute('data-theme')||'dark')==='dark';
+    var ad=document.getElementById('tt-ad');
+    if(ad)ad.textContent=k?'Aydınlık':'Karanlık';
+    dgm.setAttribute('aria-label',(k?'Aydınlık':'Karanlık')+' temaya geç');}
+  temaYaz();
   dgm.addEventListener('click',function(){
     var y=(kok.getAttribute('data-theme')||'dark')==='dark'?'light':'dark';
     kok.setAttribute('data-theme',y);
     try{localStorage.setItem('theme',y);}catch(e){}
+    temaYaz();
   });
 })();
 </script>
