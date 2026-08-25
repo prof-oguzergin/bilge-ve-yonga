@@ -481,6 +481,16 @@ footer p{color:var(--muted);font-size:.9rem}
   border:1px solid color-mix(in srgb,var(--bg) 45%,var(--text));
   padding:2px 8px;border-radius:999px}
 .book-tarih{font-size:.72rem;color:var(--muted);white-space:nowrap;margin-left:-4px}
+/* Sesli kitap rozeti kapagin uzerinde durur. Kart ust satirinda dururken
+   surum rozetini alt satira itiyordu. */
+.book-ses{position:absolute;left:10px;bottom:10px;z-index:2;
+  display:inline-flex;align-items:center;gap:.35em;
+  font-size:.68rem;font-weight:700;letter-spacing:.03em;white-space:nowrap;
+  padding:3px 9px;border-radius:999px;
+  background:color-mix(in srgb,var(--bg) 70%,transparent);
+  color:var(--text);
+  border:1px solid color-mix(in srgb,var(--text) 32%,transparent);
+  backdrop-filter:blur(4px)}
 </style>
 </head>
 <body>

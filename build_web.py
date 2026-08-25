@@ -10,6 +10,23 @@ from PIL import Image
 
 REPO = Path(__file__).resolve().parent
 OKU = REPO / 'okuyucu'
+
+# Sesli kitap: kitap klasorundeki ses/sayfa-NN.mp3 dosyalari. Ses varsa
+# okuyucuda Dinle dugmesi, kartta rozet cikar. YouTube kaydi olan kitaplar
+# asagidaki esleme ile baglanir (anahtar: kitap klasoru, deger: video kimligi).
+VIDEOLAR = {
+    'kitap1.01a-kumdan-bilgisayar': 'ZQuPAhBu--U',
+}
+
+
+def ses_klasoru(folder):
+    return REPO / folder / 'ses'
+
+
+def ses_var(folder):
+    d = ses_klasoru(folder)
+    return d.is_dir() and any(d.glob('sayfa-*.mp3'))
+
 THUMBS = OKU / 'thumbs'
 OKU.mkdir(exist_ok=True)
 THUMBS.mkdir(exist_ok=True)
@@ -268,9 +285,13 @@ def parse_book(folder, no, title, subtitle):
         if not png.exists():
             continue
         make_thumb(png, THUMBS / f'{key}_{n}.jpg')
-        pages.append({'type': 'page', 'no': n, 'title': ttl, 'text': text,
-                      'img': f'../{folder}/resimler/GPT_Sayfa_{n}.jpg' + _damga(png),
-                      'thumb': f'thumbs/{key}_{n}.jpg'})
+        sesyol = ses_klasoru(folder) / ('sayfa-%02d.mp3' % n)
+        kayit = {'type': 'page', 'no': n, 'title': ttl, 'text': text,
+                 'img': f'../{folder}/resimler/GPT_Sayfa_{n}.jpg' + _damga(png),
+                 'thumb': f'thumbs/{key}_{n}.jpg'}
+        if sesyol.exists():
+            kayit['ses'] = '../%s/ses/%s%s' % (folder, sesyol.name, _damga(sesyol))
+        pages.append(kayit)
 
     # bugun ne ogrendik
     sm = re.search(r'## Bugün Ne Öğrendik\?\s*\n(.+?)(?:\n\s*---|\Z)', md, re.S)
@@ -740,6 +761,8 @@ body{margin:0}
   border:1.5px solid var(--edge); padding:.55em 1em; border-radius:999px; background:transparent;
   cursor:pointer; transition:.18s}
 .dl:hover{border-color:var(--glow); color:var(--glow)}
+.dl.calisiyor{border-color:var(--glow); color:var(--glow);
+  box-shadow:0 0 0 3px color-mix(in srgb, var(--glow) 22%, transparent)}
 .dl svg{width:1.15em;height:1.15em}
 
 /* Ust cubuk dar ekranda sigmiyordu ve sayfayi yatay olarak 167 piksel
@@ -1033,6 +1056,11 @@ body{margin:0}
     <a class="dl" href="__EPUB__" download title="E-kitap (EPUB) indir">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
         stroke-linecap="round" stroke-linejoin="round"><path d="M4 5a2 2 0 0 1 2-2h9l5 5v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/><path d="M14 3v6h6"/></svg>E-kitap</a>
+    <button class="dl dinle" id="dinle" hidden title="Sayfayı sesli dinle">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+        stroke-linecap="round" stroke-linejoin="round"><path d="M3 14v-3a9 9 0 0 1 18 0v3"/>
+        <path d="M21 15a2 2 0 0 1-2 2h-1v-5h1a2 2 0 0 1 2 2z"/>
+        <path d="M3 15a2 2 0 0 0 2 2h1v-5H5a2 2 0 0 0-2 2z"/></svg><span id="dinleyazi">Dinle</span></button>
     <a class="dl" href="__PDF__" target="_blank" rel="noopener" title="Kitabı PDF olarak aç">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
         stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="M7 11l5 4 5-4"/>
@@ -1048,7 +1076,7 @@ body{margin:0}
   <div class="strip" id="strip"></div>
   <div class="booknav">__BOOKNAV__</div>
   <div class="hint">Oklarla veya <kbd>←</kbd> <kbd>→</kbd> tuşlarıyla gezin · alttaki küçük resimlere dokun</div>
-  <div class="gorus">
+__VIDEOBAG__  <div class="gorus">
     <a href="__GORUS__">✉ Bu kitap hakkında görüş bildir</a>
     <p>Beğendiğiniz, karışık bulduğunuz ya da yanlış olduğunu düşündüğünüz her şeyi yazabilirsiniz.</p>
   </div>
@@ -1316,6 +1344,7 @@ function go(n){
   document.getElementById('bar').style.width = ((i+1)/tot*100)+'%';
   prev.disabled = i===0; next.disabled = i===tot-1;
   thumbs[i].scrollIntoView({inline:'center', block:'nearest'});
+  if(typeof sesGuncelle === 'function') sesGuncelle();
 }
 // Fare ile tiklandiktan sonra odak dugmede kalirsa bosluk tusu sayfa
 // cevirmek yerine dugmeyi calistirir. Klavyeyle gelen tiklama (detail 0)
@@ -1334,6 +1363,51 @@ document.addEventListener('keydown', e=>{
   else if(e.key==='Home') go(0);
   else if(e.key==='End') go(tot-1);
 });
+/* Sesli kitap. Her sayfanın kendi okuması var; ses bitince sayfa
+ * kendiliğinden dönüyor, böylece çocuk dinlerken elini sürmüyor.
+ * Sayfa elle çevrilirse çalan ses o sayfanınkiyle değişiyor. */
+const dinleDugme = document.getElementById('dinle');
+const dinleYazi = document.getElementById('dinleyazi');
+const sesli = PAGES.some(p => p.ses);
+let calar = null, dinliyor = false;
+if(sesli && dinleDugme){
+  dinleDugme.hidden = false;
+  calar = new Audio();
+  calar.preload = 'none';
+  calar.addEventListener('ended', ()=>{
+    const sonraki = PAGES.findIndex((p,k)=> k>i && p.ses);
+    if(sonraki > -1){ go(sonraki); }
+    else { dinliyor = false; sesDurum(); }
+  });
+  dinleDugme.addEventListener('click', e=>{
+    odakBirak(e);
+    dinliyor = !dinliyor;
+    if(dinliyor && !PAGES[i].ses){
+      const ilk = PAGES.findIndex(p=>p.ses);
+      if(ilk > -1 && ilk !== i){ go(ilk); return; }
+    }
+    sesGuncelle();
+  });
+}
+function sesDurum(){
+  if(!dinleDugme) return;
+  dinleDugme.classList.toggle('calisiyor', dinliyor);
+  dinleYazi.textContent = dinliyor ? 'Duraklat' : 'Dinle';
+  dinleDugme.title = dinliyor ? 'Sesi duraklat' : 'Sayfayı sesli dinle';
+}
+function sesGuncelle(){
+  if(!calar) return;
+  const url = PAGES[i] && PAGES[i].ses;
+  if(!dinliyor){ calar.pause(); sesDurum(); return; }
+  if(!url){ calar.pause(); sesDurum(); return; }
+  if(calar.dataset.url !== url){
+    calar.src = url;
+    calar.dataset.url = url;
+  }
+  calar.play().catch(()=>{ dinliyor = false; sesDurum(); });
+  sesDurum();
+}
+
 let x0=null;
 book.addEventListener('touchstart', e=>x0=e.touches[0].clientX, {passive:true});
 book.addEventListener('touchend', e=>{
@@ -1402,6 +1476,17 @@ def _citation_meta(folder, no, title, medya):
                    for k, v in m)
 
 
+def _video_html(folder):
+    vid = VIDEOLAR.get(folder)
+    if not vid:
+        return ''
+    return ('  <div class="gorus">\n'
+            '    <a href="https://youtu.be/%s" target="_blank" rel="noopener">'
+            '▶ Bu kitabı YouTube\'da dinle</a>\n'
+            '    <p>Sesli hâli, sayfa sayfa. Arka planda dinlemek için uygun.</p>\n'
+            '  </div>\n') % vid
+
+
 def build_reader(folder, no, title, subtitle, glow, prev=None, nxt=None):
     d = REPO / folder
     pdf = find_pdf(d)
@@ -1418,6 +1503,7 @@ def build_reader(folder, no, title, subtitle, glow, prev=None, nxt=None):
             .replace('__EPUB__', epub_href)
             .replace('__GORUS__', _gorus_href('Kitap %s · %s' % (no, title)))
             .replace('__BOOKNAV__', _booknav_html(prev, nxt))
+            .replace('__VIDEOBAG__', _video_html(folder))
             .replace('__DATA__', data))
 
     # Sartname B.1 + D.5: telif meta blogu ve kitap yapisal verisi.
@@ -1496,7 +1582,8 @@ def _card_html(folder, no, title, sub, glow):
         f'          <a href="{read_href}"><img src="kapaklar/{kapak}.jpg'
         f'{_damga(REPO / "kapaklar" / (kapak + ".jpg"))}" '
         f'alt="{title} kapağı" loading="lazy"></a>\n'
-        '        </div>\n'
+        + ('          <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>\n' if ses_var(folder) else '')
+        + '        </div>\n'
         '        <div class="book-meta">\n'
         '          <div class="book-ust">\n'
         f'            <span class="book-no">Kitap {no}</span>\n'

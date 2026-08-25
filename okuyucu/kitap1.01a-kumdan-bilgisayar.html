@@ -77,6 +77,8 @@ body{margin:0}
   border:1.5px solid var(--edge); padding:.55em 1em; border-radius:999px; background:transparent;
   cursor:pointer; transition:.18s}
 .dl:hover{border-color:var(--glow); color:var(--glow)}
+.dl.calisiyor{border-color:var(--glow); color:var(--glow);
+  box-shadow:0 0 0 3px color-mix(in srgb, var(--glow) 22%, transparent)}
 .dl svg{width:1.15em;height:1.15em}
 
 /* Ust cubuk dar ekranda sigmiyordu ve sayfayi yatay olarak 167 piksel
@@ -445,6 +447,11 @@ body{margin:0}
     <a class="dl" href="../kitap1.01a-kumdan-bilgisayar/Kumdan%20Bilgisayar.epub" download title="E-kitap (EPUB) indir">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
         stroke-linecap="round" stroke-linejoin="round"><path d="M4 5a2 2 0 0 1 2-2h9l5 5v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/><path d="M14 3v6h6"/></svg>E-kitap</a>
+    <button class="dl dinle" id="dinle" hidden title="Sayfayı sesli dinle">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+        stroke-linecap="round" stroke-linejoin="round"><path d="M3 14v-3a9 9 0 0 1 18 0v3"/>
+        <path d="M21 15a2 2 0 0 1-2 2h-1v-5h1a2 2 0 0 1 2 2z"/>
+        <path d="M3 15a2 2 0 0 0 2 2h1v-5H5a2 2 0 0 0-2 2z"/></svg><span id="dinleyazi">Dinle</span></button>
     <a class="dl" href="../kitap1.01a-kumdan-bilgisayar/Kumdan%20Bilgisayar.pdf" target="_blank" rel="noopener" title="Kitabı PDF olarak aç">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
         stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="M7 11l5 4 5-4"/>
@@ -461,13 +468,17 @@ body{margin:0}
   <div class="booknav"><span class="bn disabled"></span><a class="bn home" href="../index.html"><b>Tüm seri</b></a><a class="bn next" href="kitap1.01b-bazen-gecer-bazen-gecmez.html" title="Kitap 1.1b"><span>Sonraki kitap ›</span><b>Bazen Geçer, Bazen Geçmez</b></a></div>
   <div class="hint">Oklarla veya <kbd>←</kbd> <kbd>→</kbd> tuşlarıyla gezin · alttaki küçük resimlere dokun</div>
   <div class="gorus">
+    <a href="https://youtu.be/ZQuPAhBu--U" target="_blank" rel="noopener">▶ Bu kitabı YouTube'da dinle</a>
+    <p>Sesli hâli, sayfa sayfa. Arka planda dinlemek için uygun.</p>
+  </div>
+  <div class="gorus">
     <a href="mailto:bilgi@oguzergin.net?subject=Bilge%20ve%20Yonga%20%C2%B7%20Kitap%201.1a%20%C2%B7%20Kumdan%20Bilgisayar%20hakk%C4%B1nda%20g%C3%B6r%C3%BC%C5%9F%C3%BCm">✉ Bu kitap hakkında görüş bildir</a>
     <p>Beğendiğiniz, karışık bulduğunuz ya da yanlış olduğunu düşündüğünüz her şeyi yazabilirsiniz.</p>
   </div>
 </div>
 
 <script>
-const PAGES = [{"type": "cover", "eyebrow": "Bilge ve Yonga · Kitap 1.1a", "title": "Kumdan Bilgisayar", "sub": "Bir avuç kumdan yongaya uzanan üretim yolculuğu", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Kapak.jpg?v=16dff09f", "thumb": "thumbs/k11a_K.jpg"}, {"type": "page", "no": 1, "title": "Sahilde Keşif", "text": "Bilge, güneşli bir sabah deniz kenarında kumları avuçluyordu. Kum taneleri parıl parıl parlıyordu. {B}\"Bu kumlar neden böyle parlıyor?\" diye merak etti.", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Sayfa_1.jpg?v=2b8061cf", "thumb": "thumbs/k11a_1.jpg"}, {"type": "page", "no": 2, "title": "Yonga Belirir", "text": "Tam o sırada bir ses duyuldu: {Y}\"Merhaba!\" Küçük, yuvarlak, mavi-gümüş renkli bir robot, kumların arasından fırladı. {Y}\"Adım Yonga, çünkü ben de küçük bir yongadan yapıldım! Sana o kumların nereye gittiğini göstereyim mi?\" dedi gülerek.", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Sayfa_2.jpg?v=a853a999", "thumb": "thumbs/k11a_2.jpg"}, {"type": "page", "no": 3, "title": "Kum, Silisyum Olur", "text": "Yonga anlattı: {Y}\"Bu kumlar sıradan kum değil. İçinde silisyum var!\" Kum, silisyum ile oksijenin birleşmesinden oluşur. Sabah parıldamasının nedeni de budur: bu billur taneleri ışığı cam gibi yansıtır. Mühendisler silisyumu kumdan ayırır, bilgisayar yongalarını o silisyumdan yapar.", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Sayfa_3.jpg?v=2e906f06", "thumb": "thumbs/k11a_3.jpg"}, {"type": "page", "no": 4, "title": "Yolculuk Başlıyor", "text": "{Y}\"Hazır mısın?\" diye sordu Yonga. Bilge heyecanla başını salladı. Yonga gövdesindeki düğmeye bastı ve ikisi birlikte minik bir ışık topu içinde süzülmeye başladı.", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Sayfa_4.jpg?v=e7f42029", "thumb": "thumbs/k11a_4.jpg"}, {"type": "page", "no": 5, "title": "Kum Eriyince…", "text": "İlk durak: silisyum fabrikası! Kum önce tertemiz olana dek arıtıldı, sonra fırınlara girdi. Devasa fırınlar kumu yüksek ısıda eritti. Kum, cam gibi sıvı hâle geldi. {B}\"Vay!\" dedi Bilge. {B}\"Kum eriyor!\"", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Sayfa_5.jpg?v=aa19e3ee", "thumb": "thumbs/k11a_5.jpg"}, {"type": "page", "no": 6, "title": "Kristal Büyüyor", "text": "Erimiş kum yavaş yavaş soğutuldu. Soğudukça tek bir kristal büyüdü, kocaman oldu. Bu kocaman kristale **külçe** (ingot) denir. Düzgün, parlak, gri renkli bir silindir gibiydi.", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Sayfa_6.jpg?v=c82b3d9d", "thumb": "thumbs/k11a_6.jpg"}, {"type": "page", "no": 7, "title": "İnce Silisyum Dilimler", "text": "Sonra kristal çok ince dilimler hâlinde kesildi. Her dilime **silisyum plaka** deniyordu. Plakalar yuvarlak ve pırıl pırıldı, bir gözlük camından bile inceydi!", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Sayfa_7.jpg?v=eec79cf7", "thumb": "thumbs/k11a_7.jpg"}, {"type": "page", "no": 8, "title": "Temiz Oda", "text": "Yonga fısıldadı: {Y}\"Buraya tek bir toz taneciği bile giremez!\" Temiz odada herkes uzaydan gelmiş gibi özel giysiler giyiyordu. Silisyum plakalar çok hassastı.", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Sayfa_8.jpg?v=83d345df", "thumb": "thumbs/k11a_8.jpg"}, {"type": "page", "no": 9, "title": "Devrelerin Baskısı", "text": "Silisyum plakanın üzerine çok ince devreler çizildi. Bu iş **litografi** denilen, ışıkla minicik desen çizme yöntemiyle yapıldı. Gözle göremediğimiz morötesi bir ışık, tıpkı bir kalıp gibi, devre desenini plakaya bastı. Desen plakaya işlenince fazlalık kısımlar kazınarak temizlendi. Devreler gözle görülemeyecek kadar minikti!", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Sayfa_9.jpg?v=89619471", "thumb": "thumbs/k11a_9.jpg"}, {"type": "page", "no": 10, "title": "Yongalar Kesilir", "text": "Devreli plakanın üzerinde yüzlerce küçük yonga vardı. Bir elmas testere her yongayı tek tek kesti. Her yonga ayrı bir bilgisayar beyniydi!", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Sayfa_10.jpg?v=71491852", "thumb": "thumbs/k11a_10.jpg"}, {"type": "page", "no": 11, "title": "Test Zamanı", "text": "Her yonga tek tek test edildi. Küçük iğne uçlu aletler yongaları uyandırdı ve \"Çalışıyor mu?\" diye sordu. Geçenler yoluna devam etti, geçemeyenler ise geri dönüştürüldü.", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Sayfa_11.jpg?v=09c97d32", "thumb": "thumbs/k11a_11.jpg"}, {"type": "page", "no": 12, "title": "Paketleme", "text": "Geçen yongalar plastik ya da seramik bir kılıfa yerleştirildi. Bu kılıfın altında küçük bacaklar vardı. Artık bilgisayarın içine takılabilecek gerçek bir yonga olmuştu!", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Sayfa_12.jpg?v=1df4654c", "thumb": "thumbs/k11a_12.jpg"}, {"type": "page", "no": 13, "title": "Bilgisayara Giriyor", "text": "O küçük yonga artık bir bilgisayar anakartının içine yerleşti. Bilge'nin dizüstü bilgisayarının içindeydi! Her bilgisayarda kumdan gelen bir kalp atıyor.", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Sayfa_13.jpg?v=ec50ab1e", "thumb": "thumbs/k11a_13.jpg"}, {"type": "page", "no": 14, "title": "Geri Sahile", "text": "Bilge ve Yonga sahile döndüler. Bilge bir avuç kum aldı ve güldü. {B}\"Artık biliyorum! Bu kumdan bilgisayar yapılır!\" dedi. Yonga da mutlulukla parladı.", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Sayfa_14.jpg?v=686b75e0", "thumb": "thumbs/k11a_14.jpg"}, {"type": "summary", "title": "Bugün Ne Öğrendik?", "lines": ["🏖️ Bazı kum türlerinde **silisyum** bulunur. Bilgisayar yongaları da silisyumdan yapılır!", "🔥 Kum eritilir, soğurken tek bir silisyum kristali büyür. Bu kristale **külçe** denir.", "💿 Kristal çok ince dilimlere kesilir. Bunlara **silisyum plaka** denir.", "💡 Plakaların üzerine **litografi** (ışıkla minicik desen çizme) yöntemiyle devreler çizilir.", "✂️ Plaka küçük parçalara ayrılır. Her bir parça bir **yonga**dır.", "✅ Yongalar test edilir, kılıflanır ve bilgisayarların içine yerleştirilir.", "💻 Her bilgisayarın içinde **kumdan gelen bir kalp** atıyor!"]}, {"type": "deneme", "title": "Deneme Zamanı", "sorular": ["Yonga yapımı hangi maddeyle başlar, o madde nereden çıkar?", "Eritilen kumdan büyütülen kocaman kristale ne denir?", "Kristal ince ince kesilince ortaya ne çıkar?", "Plakanın üstüne devreler hangi yöntemle çizilir?"], "yanitlar": ["Silisyumla başlar; silisyum kumun içinden çıkar.", "Külçe denir.", "Silisyum plaka çıkar.", "Litografi, ışıkla minicik desen çizme yöntemiyle."], "afis": "deneme-afisi-genel.jpg", "widget": ""}];
+const PAGES = [{"type": "cover", "eyebrow": "Bilge ve Yonga · Kitap 1.1a", "title": "Kumdan Bilgisayar", "sub": "Bir avuç kumdan yongaya uzanan üretim yolculuğu", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Kapak.jpg?v=16dff09f", "thumb": "thumbs/k11a_K.jpg"}, {"type": "page", "no": 1, "title": "Sahilde Keşif", "text": "Bilge, güneşli bir sabah deniz kenarında kumları avuçluyordu. Kum taneleri parıl parıl parlıyordu. {B}\"Bu kumlar neden böyle parlıyor?\" diye merak etti.", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Sayfa_1.jpg?v=2b8061cf", "thumb": "thumbs/k11a_1.jpg", "ses": "../kitap1.01a-kumdan-bilgisayar/ses/sayfa-01.mp3?v=89dd688d"}, {"type": "page", "no": 2, "title": "Yonga Belirir", "text": "Tam o sırada bir ses duyuldu: {Y}\"Merhaba!\" Küçük, yuvarlak, mavi-gümüş renkli bir robot, kumların arasından fırladı. {Y}\"Adım Yonga, çünkü ben de küçük bir yongadan yapıldım! Sana o kumların nereye gittiğini göstereyim mi?\" dedi gülerek.", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Sayfa_2.jpg?v=a853a999", "thumb": "thumbs/k11a_2.jpg", "ses": "../kitap1.01a-kumdan-bilgisayar/ses/sayfa-02.mp3?v=48b3b7e6"}, {"type": "page", "no": 3, "title": "Kum, Silisyum Olur", "text": "Yonga anlattı: {Y}\"Bu kumlar sıradan kum değil. İçinde silisyum var!\" Kum, silisyum ile oksijenin birleşmesinden oluşur. Sabah parıldamasının nedeni de budur: bu billur taneleri ışığı cam gibi yansıtır. Mühendisler silisyumu kumdan ayırır, bilgisayar yongalarını o silisyumdan yapar.", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Sayfa_3.jpg?v=2e906f06", "thumb": "thumbs/k11a_3.jpg", "ses": "../kitap1.01a-kumdan-bilgisayar/ses/sayfa-03.mp3?v=d261b7f2"}, {"type": "page", "no": 4, "title": "Yolculuk Başlıyor", "text": "{Y}\"Hazır mısın?\" diye sordu Yonga. Bilge heyecanla başını salladı. Yonga gövdesindeki düğmeye bastı ve ikisi birlikte minik bir ışık topu içinde süzülmeye başladı.", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Sayfa_4.jpg?v=e7f42029", "thumb": "thumbs/k11a_4.jpg", "ses": "../kitap1.01a-kumdan-bilgisayar/ses/sayfa-04.mp3?v=519f3560"}, {"type": "page", "no": 5, "title": "Kum Eriyince…", "text": "İlk durak: silisyum fabrikası! Kum önce tertemiz olana dek arıtıldı, sonra fırınlara girdi. Devasa fırınlar kumu yüksek ısıda eritti. Kum, cam gibi sıvı hâle geldi. {B}\"Vay!\" dedi Bilge. {B}\"Kum eriyor!\"", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Sayfa_5.jpg?v=aa19e3ee", "thumb": "thumbs/k11a_5.jpg", "ses": "../kitap1.01a-kumdan-bilgisayar/ses/sayfa-05.mp3?v=64225c45"}, {"type": "page", "no": 6, "title": "Kristal Büyüyor", "text": "Erimiş kum yavaş yavaş soğutuldu. Soğudukça tek bir kristal büyüdü, kocaman oldu. Bu kocaman kristale **külçe** (ingot) denir. Düzgün, parlak, gri renkli bir silindir gibiydi.", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Sayfa_6.jpg?v=c82b3d9d", "thumb": "thumbs/k11a_6.jpg", "ses": "../kitap1.01a-kumdan-bilgisayar/ses/sayfa-06.mp3?v=9648c734"}, {"type": "page", "no": 7, "title": "İnce Silisyum Dilimler", "text": "Sonra kristal çok ince dilimler hâlinde kesildi. Her dilime **silisyum plaka** deniyordu. Plakalar yuvarlak ve pırıl pırıldı, bir gözlük camından bile inceydi!", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Sayfa_7.jpg?v=eec79cf7", "thumb": "thumbs/k11a_7.jpg", "ses": "../kitap1.01a-kumdan-bilgisayar/ses/sayfa-07.mp3?v=747f0344"}, {"type": "page", "no": 8, "title": "Temiz Oda", "text": "Yonga fısıldadı: {Y}\"Buraya tek bir toz taneciği bile giremez!\" Temiz odada herkes uzaydan gelmiş gibi özel giysiler giyiyordu. Silisyum plakalar çok hassastı.", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Sayfa_8.jpg?v=83d345df", "thumb": "thumbs/k11a_8.jpg", "ses": "../kitap1.01a-kumdan-bilgisayar/ses/sayfa-08.mp3?v=f3c021f2"}, {"type": "page", "no": 9, "title": "Devrelerin Baskısı", "text": "Silisyum plakanın üzerine çok ince devreler çizildi. Bu iş **litografi** denilen, ışıkla minicik desen çizme yöntemiyle yapıldı. Gözle göremediğimiz morötesi bir ışık, tıpkı bir kalıp gibi, devre desenini plakaya bastı. Desen plakaya işlenince fazlalık kısımlar kazınarak temizlendi. Devreler gözle görülemeyecek kadar minikti!", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Sayfa_9.jpg?v=89619471", "thumb": "thumbs/k11a_9.jpg", "ses": "../kitap1.01a-kumdan-bilgisayar/ses/sayfa-09.mp3?v=aac0aa33"}, {"type": "page", "no": 10, "title": "Yongalar Kesilir", "text": "Devreli plakanın üzerinde yüzlerce küçük yonga vardı. Bir elmas testere her yongayı tek tek kesti. Her yonga ayrı bir bilgisayar beyniydi!", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Sayfa_10.jpg?v=71491852", "thumb": "thumbs/k11a_10.jpg", "ses": "../kitap1.01a-kumdan-bilgisayar/ses/sayfa-10.mp3?v=4c630d5a"}, {"type": "page", "no": 11, "title": "Test Zamanı", "text": "Her yonga tek tek test edildi. Küçük iğne uçlu aletler yongaları uyandırdı ve \"Çalışıyor mu?\" diye sordu. Geçenler yoluna devam etti, geçemeyenler ise geri dönüştürüldü.", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Sayfa_11.jpg?v=09c97d32", "thumb": "thumbs/k11a_11.jpg", "ses": "../kitap1.01a-kumdan-bilgisayar/ses/sayfa-11.mp3?v=7d0b175b"}, {"type": "page", "no": 12, "title": "Paketleme", "text": "Geçen yongalar plastik ya da seramik bir kılıfa yerleştirildi. Bu kılıfın altında küçük bacaklar vardı. Artık bilgisayarın içine takılabilecek gerçek bir yonga olmuştu!", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Sayfa_12.jpg?v=1df4654c", "thumb": "thumbs/k11a_12.jpg", "ses": "../kitap1.01a-kumdan-bilgisayar/ses/sayfa-12.mp3?v=9845a5c9"}, {"type": "page", "no": 13, "title": "Bilgisayara Giriyor", "text": "O küçük yonga artık bir bilgisayar anakartının içine yerleşti. Bilge'nin dizüstü bilgisayarının içindeydi! Her bilgisayarda kumdan gelen bir kalp atıyor.", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Sayfa_13.jpg?v=ec50ab1e", "thumb": "thumbs/k11a_13.jpg", "ses": "../kitap1.01a-kumdan-bilgisayar/ses/sayfa-13.mp3?v=396b6ca1"}, {"type": "page", "no": 14, "title": "Geri Sahile", "text": "Bilge ve Yonga sahile döndüler. Bilge bir avuç kum aldı ve güldü. {B}\"Artık biliyorum! Bu kumdan bilgisayar yapılır!\" dedi. Yonga da mutlulukla parladı.", "img": "../kitap1.01a-kumdan-bilgisayar/resimler/GPT_Sayfa_14.jpg?v=686b75e0", "thumb": "thumbs/k11a_14.jpg", "ses": "../kitap1.01a-kumdan-bilgisayar/ses/sayfa-14.mp3?v=08f5a973"}, {"type": "summary", "title": "Bugün Ne Öğrendik?", "lines": ["🏖️ Bazı kum türlerinde **silisyum** bulunur. Bilgisayar yongaları da silisyumdan yapılır!", "🔥 Kum eritilir, soğurken tek bir silisyum kristali büyür. Bu kristale **külçe** denir.", "💿 Kristal çok ince dilimlere kesilir. Bunlara **silisyum plaka** denir.", "💡 Plakaların üzerine **litografi** (ışıkla minicik desen çizme) yöntemiyle devreler çizilir.", "✂️ Plaka küçük parçalara ayrılır. Her bir parça bir **yonga**dır.", "✅ Yongalar test edilir, kılıflanır ve bilgisayarların içine yerleştirilir.", "💻 Her bilgisayarın içinde **kumdan gelen bir kalp** atıyor!"]}, {"type": "deneme", "title": "Deneme Zamanı", "sorular": ["Yonga yapımı hangi maddeyle başlar, o madde nereden çıkar?", "Eritilen kumdan büyütülen kocaman kristale ne denir?", "Kristal ince ince kesilince ortaya ne çıkar?", "Plakanın üstüne devreler hangi yöntemle çizilir?"], "yanitlar": ["Silisyumla başlar; silisyum kumun içinden çıkar.", "Külçe denir.", "Silisyum plaka çıkar.", "Litografi, ışıkla minicik desen çizme yöntemiyle."], "afis": "deneme-afisi-genel.jpg", "widget": ""}];
 let i = 0;
 const book = document.getElementById('book');
 const strip = document.getElementById('strip');
@@ -728,6 +739,7 @@ function go(n){
   document.getElementById('bar').style.width = ((i+1)/tot*100)+'%';
   prev.disabled = i===0; next.disabled = i===tot-1;
   thumbs[i].scrollIntoView({inline:'center', block:'nearest'});
+  if(typeof sesGuncelle === 'function') sesGuncelle();
 }
 // Fare ile tiklandiktan sonra odak dugmede kalirsa bosluk tusu sayfa
 // cevirmek yerine dugmeyi calistirir. Klavyeyle gelen tiklama (detail 0)
@@ -746,6 +758,51 @@ document.addEventListener('keydown', e=>{
   else if(e.key==='Home') go(0);
   else if(e.key==='End') go(tot-1);
 });
+/* Sesli kitap. Her sayfanın kendi okuması var; ses bitince sayfa
+ * kendiliğinden dönüyor, böylece çocuk dinlerken elini sürmüyor.
+ * Sayfa elle çevrilirse çalan ses o sayfanınkiyle değişiyor. */
+const dinleDugme = document.getElementById('dinle');
+const dinleYazi = document.getElementById('dinleyazi');
+const sesli = PAGES.some(p => p.ses);
+let calar = null, dinliyor = false;
+if(sesli && dinleDugme){
+  dinleDugme.hidden = false;
+  calar = new Audio();
+  calar.preload = 'none';
+  calar.addEventListener('ended', ()=>{
+    const sonraki = PAGES.findIndex((p,k)=> k>i && p.ses);
+    if(sonraki > -1){ go(sonraki); }
+    else { dinliyor = false; sesDurum(); }
+  });
+  dinleDugme.addEventListener('click', e=>{
+    odakBirak(e);
+    dinliyor = !dinliyor;
+    if(dinliyor && !PAGES[i].ses){
+      const ilk = PAGES.findIndex(p=>p.ses);
+      if(ilk > -1 && ilk !== i){ go(ilk); return; }
+    }
+    sesGuncelle();
+  });
+}
+function sesDurum(){
+  if(!dinleDugme) return;
+  dinleDugme.classList.toggle('calisiyor', dinliyor);
+  dinleYazi.textContent = dinliyor ? 'Duraklat' : 'Dinle';
+  dinleDugme.title = dinliyor ? 'Sesi duraklat' : 'Sayfayı sesli dinle';
+}
+function sesGuncelle(){
+  if(!calar) return;
+  const url = PAGES[i] && PAGES[i].ses;
+  if(!dinliyor){ calar.pause(); sesDurum(); return; }
+  if(!url){ calar.pause(); sesDurum(); return; }
+  if(calar.dataset.url !== url){
+    calar.src = url;
+    calar.dataset.url = url;
+  }
+  calar.play().catch(()=>{ dinliyor = false; sesDurum(); });
+  sesDurum();
+}
+
 let x0=null;
 book.addEventListener('touchstart', e=>x0=e.touches[0].clientX, {passive:true});
 book.addEventListener('touchend', e=>{
