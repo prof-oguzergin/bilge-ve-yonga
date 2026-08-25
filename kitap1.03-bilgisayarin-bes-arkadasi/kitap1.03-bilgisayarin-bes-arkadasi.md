@@ -17,7 +17,7 @@
 ## Sayfa 1 — Bilge Bir Hikaye Yazmak İstiyor
 
 **Metin:**
-Bilge bir gün dedi ki: {B}"Yonga, bir hikaye yazmak ve onu yazdırmak istiyorum!" Yonga güldü. {Y}"Harika! Beş arkadaşıma ihtiyacın olacak!" dedi.
+Bilge bir gün dedi ki: {B}"Yonga, bilgisayarda bir hikaye yazmak ve yazıcıdan çıkarmak istiyorum!" Yonga güldü. {Y}"Harika! Beş arkadaşıma ihtiyacın olacak!" dedi. {Y}"Beşi de şu bilgisayarın içinde yaşar."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bilge masasında oturuyor, önünde boş bir kağıt ve kalem var; neşeli ve heyecanlı bir ifade taşıyor. Yonga masanın köşesinde duruyor ve arka planda bilgisayar ekranı parlıyor. Arka planda kitap dolu raflar ve renkli resimler var. Sıcak sarı-turuncu tonlar; yaratıcı, pozitif ve davetkar bir ev ortamı.
@@ -77,7 +77,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 7 — Beş Arkadaş Bir Arada
 
 **Metin:**
-İşlemci, Bellek, Depo, Giriş ve Çıkış, beş arkadaş yan yana durdu. {D}"Biz birlikte çalışırız!" dediler hep bir ağızdan. Bilge sevinçle alkış tuttu.
+İşlemci, Bellek, Depo, Giriş ve Çıkış, beş arkadaş yan yana durdu. {D}"Biz birlikte çalışırız!" dediler hep bir ağızdan. Bilge sevinçle alkış tuttu. {Y}"Hadi başlayalım!" dedi Yonga. {Y}"Sen klavyeye geç, gerisini onlar halleder."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Beş karakter yan yana sıralanmış: İşlemci (sarı), Bellek (mavi), Depo (kahverengi-yeşil), Giriş (mor), Çıkış (pembe). Aralarında renkli ok ve çizgiler var — birbirlerine bağlı. Bilge ve Yonga önlerinde duruyor, Bilge sevinçle el kaldırmış. Arka plan beyaz ve temiz, karakterler birer kardeş gibi poz veriyor. Gökkuşağı renkleri; birlik, takım ruhu ve neşe dolu bir grup fotoğrafı havası.
@@ -97,7 +97,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 9 — İşlemci Düşünüyor
 
 **Metin:**
-İşlemci harfleri aldı, hepsini sırayla dizdi ve anlamlı bir tümce haline getirdi. {D}"Çalışıyorum!" dedi İşlemci. Kafasındaki dişliler hızla döndü.
+İşlemci harfleri aldı, hepsini sırayla dizdi ve her birinin nereye gideceğini hesapladı. {D}"Çalışıyorum!" dedi İşlemci. Kafasındaki dişliler hızla döndü.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. İşlemci karakteri masada çalışıyor; önünde uçuşan harfler ve sözcükler var, eliyle onları sıralıyor. Kafasının içindeki cam bölmede dönen dişliler ve ampuller görünüyor. Çevresinde hesap sembolleri ve ok işaretleri uçuşuyor. Altın-sarı ışık yayıyor. Bilge merakla izliyor, Yonga onaylar gibi başını sallıyor. Altın ve turuncu tonlar; yoğun, odaklı çalışma anı.
