@@ -1702,6 +1702,11 @@ def temizle_bayat_okuyucular():
 # eder ve her zaman en guncele cozulur. Surum DOI'si (kayit numarasi) hicbir
 # yere yazilmaz; mimari kitabinda aylarca surum DOI'si kullanilip atif verenler
 # ilk taslaga yonlendirilmisti.
+# Serinin dort cildini bir arada temsil eden set ISBN'i. Ciltlerin kendi
+# numaralari ayrica duruyor; bu numara kutuphanelerin seti tek kayit
+# olarak katalogladigi numaradir.
+SET_ISBN = '978-625-90813-3-5'
+
 CILTLER = {
     '1': {'doi': '10.5281/zenodo.21725876', 'kayit': 21936612, 'isbn': '978-625-00-4591-6',
           'dosya': 'Bilge ve Yonga - Cilt 1 - Kumdan Bilgisayara.pdf',
@@ -1788,6 +1793,8 @@ def build_ciltler():
                      'sürüyor; numara gelince buraya eklenecek.</p>')
         p.append('    </article>')
     p.append('  </div>')
+    p.append('  <p class="cilt-set">Serinin dört cildini birlikte gösteren '
+             'set ISBN’i: {}</p>'.format(SET_ISBN))
     return '\n'.join(p)
 
 
