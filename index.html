@@ -344,7 +344,11 @@ section.band{padding:76px 0}
   .sarki-klip{width:100%;justify-content:center}
 }
 .cilt-isbn{margin:2px 0 0;font-size:.84rem;color:var(--muted);letter-spacing:.01em}
-.cilt-set{margin:20px 0 0;font-size:.86rem;color:var(--muted);text-align:center;letter-spacing:.01em}
+.cilt-set{margin:26px 0 0;text-align:center}
+.cilt-set span{display:inline-flex;align-items:center;gap:12px;padding:11px 20px;border:1px solid var(--line);border-radius:14px;background:var(--surface);box-shadow:var(--shadow)}
+.cilt-set i{font-style:normal;font-size:.82rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.cilt-set b{font-size:1.02rem;color:var(--text);letter-spacing:.02em}
+@media(max-width:520px){.cilt-set span{flex-direction:column;gap:5px}}
 /* Cilt kartinin tamami DOI kaydina goturur; DOI satiri ile indirme dugmesi
    kendi baglantilarini korur. */
 .cilt{position:relative}
@@ -1676,7 +1680,7 @@ footer p{color:var(--muted);font-size:.9rem}
       <a class="cilt-btn" href="https://zenodo.org/api/records/21937158/files/Bilge%20ve%20Yonga%20-%20Cilt%204%20-%20%C4%B0%C5%9Flemcinin%20%C4%B0%C3%A7i.pdf/content">Cildi indir</a>
     </article>
   </div>
-  <p class="cilt-set">Serinin dört cildini birlikte gösteren set ISBN’i: 978-625-90813-3-5</p>
+  <p class="cilt-set"><span><i>Serinin set ISBN’i</i><b>978-625-90813-3-5</b></span></p>
   <div class="gelecek">
     <p class="gelecek-not">Seri burada bitmiyor. Ders kitabının bölüm sırasını izleyen beş cilt daha planlandı.</p>
     <ul class="gelecek-liste">

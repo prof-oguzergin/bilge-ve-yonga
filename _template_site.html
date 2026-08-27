@@ -344,7 +344,11 @@ section.band{padding:76px 0}
   .sarki-klip{width:100%;justify-content:center}
 }
 .cilt-isbn{margin:2px 0 0;font-size:.84rem;color:var(--muted);letter-spacing:.01em}
-.cilt-set{margin:20px 0 0;font-size:.86rem;color:var(--muted);text-align:center;letter-spacing:.01em}
+.cilt-set{margin:26px 0 0;text-align:center}
+.cilt-set span{display:inline-flex;align-items:center;gap:12px;padding:11px 20px;border:1px solid var(--line);border-radius:14px;background:var(--surface);box-shadow:var(--shadow)}
+.cilt-set i{font-style:normal;font-size:.82rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.cilt-set b{font-size:1.02rem;color:var(--text);letter-spacing:.02em}
+@media(max-width:520px){.cilt-set span{flex-direction:column;gap:5px}}
 /* Cilt kartinin tamami DOI kaydina goturur; DOI satiri ile indirme dugmesi
    kendi baglantilarini korur. */
 .cilt{position:relative}

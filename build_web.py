@@ -1793,8 +1793,8 @@ def build_ciltler():
                      'sürüyor; numara gelince buraya eklenecek.</p>')
         p.append('    </article>')
     p.append('  </div>')
-    p.append('  <p class="cilt-set">Serinin dört cildini birlikte gösteren '
-             'set ISBN’i: {}</p>'.format(SET_ISBN))
+    p.append('  <p class="cilt-set"><span><i>Serinin set ISBN’i</i>'
+             '<b>{}</b></span></p>'.format(SET_ISBN))
     return '\n'.join(p)
 
 
