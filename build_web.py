@@ -993,7 +993,13 @@ body{margin:0}
 /* min-width:0 sart: esnek kutu icindeki oge bunsuz icerigin altina kuculemez,
    serit de sayfayi yatay olarak genisletir (telefonda 190 piksel tasma). */
 .strip{display:flex; gap:10px; overflow-x:auto; padding:14px 20px 20px;
-  scroll-behavior:smooth; min-width:0}
+  scroll-behavior:smooth; min-width:0;
+  /* Kucuk resimler sayfaya ortalanir. "safe" onemli: seritten tasan kitaplarda
+     ortalama yerine soldan hizalamaya doner, yoksa bastaki kareler kaydirmayla
+     bile erisilemez hale gelir. Desteklemeyen tarayicida ikinci satir gecerli
+     olur ve davranis eskisi gibi kalir. */
+  justify-content:flex-start;
+  justify-content:safe center}
 .strip::-webkit-scrollbar{height:8px}
 .strip::-webkit-scrollbar-thumb{background:var(--edge); border-radius:8px}
 .thumb{flex:none; width:104px; aspect-ratio:16/9; border-radius:9px; overflow:hidden;
