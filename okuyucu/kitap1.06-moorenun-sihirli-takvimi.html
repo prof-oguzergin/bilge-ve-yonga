@@ -570,8 +570,11 @@ function deneKur(kap){
 // gorur. Sayfa 9'daki "A harfi 01000001'dir" cumlesinin elle denenebilir hali.
 // Harfler Ingiliz alfabesinden, kitap da oyle diyor.
 function deneHarf(kap){
-  const HARFLER = ['A','B','C','E','K','M','R','Z'];
-  kap.innerHTML = '<p class="dene-yonerge">Bir harfe dokun, bilgisayarın onu nasıl yazdığını gör.</p>'
+  // Harfler iki karakterin adindan: Bilge ve Yonga. Yinelenenler bir kez
+  // yazilir. Buyuk ve kucuk harf oldugu gibi durur, cunku ikisinin sayisi
+  // farklidir; cocuk buna da carpar.
+  const HARFLER = ['B','i','l','g','e','Y','o','n','a'];
+    + '<p class="dene-yonerge">Bilge ve Yonga\'nın harflerine dokun, bilgisayarın onları nasıl yazdığını gör.</p>'
     + '<div class="dene-harfler"></div>'
     + '<div class="dene-tahta">'
     +   '<div class="dene-sol">'
