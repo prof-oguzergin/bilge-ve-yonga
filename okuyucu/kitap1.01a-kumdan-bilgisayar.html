@@ -238,6 +238,8 @@ body{margin:0}
   background:transparent; border:2px solid var(--kagit-cizgi); color:var(--kagit-solgun)}
 .dene-bit.acik{border-color:var(--parlak-koyu); color:var(--parlak-koyu); transform:translateY(-2px)}
 .dene-harf-buyuk{font-size:2.6rem}
+.card .dene-not{margin:14px 0 0; max-width:none; text-align:center; font-size:.86rem;
+  color:var(--kagit-solgun)}
 @media (max-width:520px){ .dene-bit{width:26px; height:34px} .dene-harf{width:42px; height:42px} }
 .dene-kutu{width:66px; height:78px; border-radius:14px; cursor:pointer;
   border:2px solid var(--kagit-cizgi); background:transparent; color:var(--kagit-solgun);
@@ -580,10 +582,10 @@ function deneKur(kap){
 // gorur. Sayfa 9'daki "A harfi 01000001'dir" cumlesinin elle denenebilir hali.
 // Harfler Ingiliz alfabesinden, kitap da oyle diyor.
 function deneHarf(kap){
-  // Harfler iki karakterin adindan: Bilge ve Yonga. Yinelenenler bir kez
-  // yazilir. Buyuk ve kucuk harf oldugu gibi durur, cunku ikisinin sayisi
-  // farklidir; cocuk buna da carpar.
-  const HARFLER = ['B','i','l','g','e','Y','o','n','a'];
+  // Harfler iki karakterin adindan: Bilge - YONGA. Biri kucuk biri buyuk
+  // yazildi ki kucuk g ile buyuk G'nin ayri sayilar oldugu gorulsun. Aradaki
+  // kisa cizginin de bir sayisi var, o da dugme.
+  const HARFLER = ['B','i','l','g','e','-','Y','O','N','G','A'];
   kap.innerHTML = '<p class="dene-yonerge">Bilge ve Yonga\'nın harflerine dokun, bilgisayarın onları nasıl yazdığını gör.</p>'
     + '<div class="dene-harfler"></div>'
     + '<div class="dene-tahta">'
@@ -595,7 +597,8 @@ function deneHarf(kap){
     +     '<p class="dene-etiket">Sekiz bit</p>'
     +     '<div class="dene-bitler"></div>'
     +   '</div>'
-    + '</div>';
+    + '</div>'
+    + '<p class="dene-not">Küçük g ile büyük G aynı harf değil; bilgisayar ikisini ayrı sayılarla yazar.</p>';
   const sira = kap.querySelector('.dene-harfler');
   const buyuk = kap.querySelector('.dene-harf-buyuk');
   const bitler = kap.querySelector('.dene-bitler');
