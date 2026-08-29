@@ -226,6 +226,19 @@ body{margin:0}
 .card .dene-etiket{margin:0 0 8px; max-width:none; font-family:var(--ff-disp); font-size:.76rem;
   letter-spacing:.05em; text-transform:uppercase; color:var(--kagit-solgun)}
 .dene-kutular{display:flex; gap:12px; justify-content:center; flex-wrap:wrap}
+.dene-harfler{display:flex; flex-wrap:wrap; gap:8px; justify-content:center; margin:0 0 14px}
+.dene-harf{width:46px; height:46px; border-radius:12px; cursor:pointer; font-family:var(--ff-disp);
+  font-weight:800; font-size:1.05rem; color:var(--kagit-solgun); background:transparent;
+  border:2px solid var(--kagit-cizgi); transition:transform .12s, border-color .12s, color .12s}
+.dene-harf:hover{transform:translateY(-2px)}
+.dene-harf.secili{border-color:var(--parlak-koyu); color:var(--parlak-koyu); transform:translateY(-2px)}
+.dene-bitler{display:flex; gap:5px; justify-content:center; flex-wrap:wrap}
+.dene-bit{width:30px; height:38px; border-radius:9px; display:flex; align-items:center;
+  justify-content:center; font-family:var(--ff-disp); font-weight:800; font-size:1.15rem;
+  background:transparent; border:2px solid var(--kagit-cizgi); color:var(--kagit-solgun)}
+.dene-bit.acik{border-color:var(--parlak-koyu); color:var(--parlak-koyu); transform:translateY(-2px)}
+.dene-harf-buyuk{font-size:2.6rem}
+@media (max-width:520px){ .dene-bit{width:26px; height:34px} .dene-harf{width:42px; height:42px} }
 .dene-kutu{width:66px; height:78px; border-radius:14px; cursor:pointer;
   border:2px solid var(--kagit-cizgi); background:transparent; color:var(--kagit-solgun);
   display:flex; flex-direction:column; align-items:center; justify-content:center; gap:2px;
@@ -521,6 +534,7 @@ function deneKur(kap){
   if(!kap || kap.dataset.kuruldu) return;
   kap.dataset.kuruldu = '1';
   if(kap.dataset.dene === 'kapi'){ deneKapi(kap); return; }
+  if(kap.dataset.dene === 'harf'){ deneHarf(kap); return; }
   if(kap.dataset.dene !== 'basamak') return;
   const degerler = [8,4,2,1], durum = [0,0,0,0];
   kap.innerHTML = '<p class="dene-yonerge">Kutucuklara dokun, sayının ne olduğunu gör.</p>'
@@ -550,6 +564,59 @@ function deneKur(kap){
     });
     sira.appendChild(b);
   });
+}
+
+// Harf denemesi: cocuk bir harfe dokunur, harfin sekiz bitlik karsiligini
+// gorur. Sayfa 9'daki "A harfi 01000001'dir" cumlesinin elle denenebilir hali.
+// Harfler Ingiliz alfabesinden, kitap da oyle diyor.
+function deneHarf(kap){
+  const HARFLER = ['A','B','C','E','K','M','R','Z'];
+  kap.innerHTML = '<p class="dene-yonerge">Bir harfe dokun, bilgisayarın onu nasıl yazdığını gör.</p>'
+    + '<div class="dene-harfler"></div>'
+    + '<div class="dene-tahta">'
+    +   '<div class="dene-sol">'
+    +     '<p class="dene-etiket">Harf</p>'
+    +     '<p class="dene-sonuc dene-harf-buyuk">A</p>'
+    +   '</div>'
+    +   '<div class="dene-sag">'
+    +     '<p class="dene-etiket">Sekiz bit</p>'
+    +     '<div class="dene-bitler"></div>'
+    +   '</div>'
+    + '</div>';
+  const sira = kap.querySelector('.dene-harfler');
+  const buyuk = kap.querySelector('.dene-harf-buyuk');
+  const bitler = kap.querySelector('.dene-bitler');
+  const kutular = [];
+  for(let i=0;i<8;i++){
+    const s = document.createElement('span');
+    s.className = 'dene-bit';
+    s.textContent = '0';
+    bitler.appendChild(s);
+    kutular.push(s);
+  }
+  function goster(h){
+    buyuk.textContent = h;
+    const kod = h.charCodeAt(0);
+    for(let i=0;i<8;i++){
+      const b = (kod >> (7-i)) & 1;
+      kutular[i].textContent = b;
+      kutular[i].classList.toggle('acik', !!b);
+    }
+  }
+  HARFLER.forEach((h,i)=>{
+    const b = document.createElement('button');
+    b.type = 'button'; b.className = 'dene-harf';
+    b.textContent = h;
+    b.addEventListener('click', (e)=>{
+      sira.querySelectorAll('.dene-harf').forEach(x=>x.classList.remove('secili'));
+      b.classList.add('secili');
+      goster(h);
+      if(e.detail) b.blur();
+    });
+    sira.appendChild(b);
+    if(i === 0) b.classList.add('secili');
+  });
+  goster(HARFLER[0]);
 }
 
 // Kapi denemesi: cocuk kapiyi secer, girisleri acip kapatir, lambaya bakar.

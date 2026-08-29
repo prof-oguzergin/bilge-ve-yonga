@@ -80,7 +80,9 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 8 — İkili Saymak
 
 **Metin:**
-{Y}"Hadi saymayı öğrenelim!" dedi Yonga. Sıfır: 0. Bir: 1. İki: 10. Üç: 11. Dört: 100. Bilgisayarlar böyle sayar!
+{Y}"Hadi saymayı öğrenelim!" dedi Yonga. {Y}"Sıfır sıfırdır, bir de birdir. Ama ikiyi yazacak başka rakam yok!"
+
+Yonga bir 1 ile bir 0'ı yan yana koydu. {Y}"İşte iki: bir sıfır. Üç: bir bir. Dört: bir sıfır sıfır. Bilgisayarlar böyle sayar!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga havada küçük bir kara tahta hologramı açmış; üzerinde renkli dikdörtgen kutucuklarla şu tablo yazıyor: "0→0, 1→1, 2→10, 3→11, 4→100". Her satırda solda tanıdık sayı, sağda onun 0-1 karşılığı bulunuyor. Bilge parmaklarını sayarcasına büküyor, "şaşırtıcı!" der gibi gülümsüyor. Tahta yeşil-siyah, rakamlar sarı ve beyaz. Eğlenceli, okul tahtası gibi şakacı bir atmosfer.
@@ -90,7 +92,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 9 — Harfler de 0 ve 1'den!
 
 **Metin:**
-{Y}"Harfler de 0 ve 1'den yapılır!" dedi Yonga. İngiliz alfabesinin her harfi için 8 haneli bir 0-1 dizisi yeter; 8 bitlik böyle bir öbeğe **bayt** denir. Büyük 'A' harfi 01000001'dir. Hangi harfin hangi sayıyla yazıldığını söyleyen listenin adı **ASCII**'dir. Bilgisayar harfleri görmez, yalnızca 0 ile 1'i görür!
+{Y}"Harfler de 0 ve 1'den yapılır!" dedi Yonga. {Y}"İngiliz alfabesinin her harfi için 8 haneli bir 0-1 dizisi yeter; 8 bitlik böyle bir öbeğe **bayt** denir. Büyük 'A' harfi 01000001'dir. Hangi harfin hangi sayıyla yazıldığını söyleyen listenin adı **ASCII**'dir. Bilgisayar harfleri görmez, yalnızca 0 ile 1'i görür!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Büyük harfli "A" parçalanarak havada 0 ve 1'lere dönüşüyor; harf altın renkli, 0'lar kırmızı ve 1'ler mavi küçük parçacıklara ayrılıyor. Bilge buna bakarken ağzı açık kalmış, sanki bir sihirbazlık gösterisi izliyor. Yonga kenarında "= 01000001" yazısını gösteriyor. Arka planda büyük harfler ve sayılar dans eder gibi uçuşuyor. Renkli, hareketli ve büyülü bir alfabe-ikili dönüşüm sahnesi.
@@ -120,7 +122,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 12 — Her Şeyin Sırrı
 
 **Metin:**
-Bilge kocaman bir nefes aldı. {B}"Demek her şey, oyunlar, müzik, resimler, hepsi 0 ve 1'den yapılıyor!" dedi. {Y}"Evet!" dedi Yonga. {Y}"Bu dünyanın en güzel sırrı!"
+Bilge kocaman bir nefes aldı. {B}"Demek her şey, oyunlar, müzik, resimler, hepsi 0 ve 1'den yapılıyor!" dedi. {Y}"Evet!" dedi Yonga. Bilge gülümsedi: {B}"Bu dünyanın en güzel sırrı!"
 
 Yonga düğmeye bir kez daha bastı. İkisi de odada, eski boylarında buldular kendilerini.
 
