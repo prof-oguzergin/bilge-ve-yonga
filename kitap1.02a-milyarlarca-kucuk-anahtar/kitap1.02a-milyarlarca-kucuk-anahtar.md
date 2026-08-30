@@ -60,7 +60,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 6 — Yonga Diyarında
 
 **Metin:**
-Artık içindeydiler! Etraflarında dev transistörler birer kapı gibi duruyordu. Bazıları açık, bazıları kapalıydı. Açık olanlardan mavi bir ışık akıyordu. O ışık elektrikti.
+Şimdi tam içindeydiler! Etraflarında dev transistörler birer kapı gibi duruyordu. Bazıları açık, bazıları kapalıydı. Açık olanlardan mavi bir ışık akıyordu. O ışık elektrikti.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bilge ve Yonga devasa transistörlerin arasında yürüyor; transistörler birer kapı gibi görünüyor, açık olanlardan mavi elektrik ışığı akıyor, kapalı olanlar karanlık. Mavi elektrik nehirleri zeminde akarken etrafı aydınlatıyor. Bilge hayranlıkla etrafa bakıyor, Yonga ise bir rehber gibi ilerliyor. Yoğun mavi ve gümüş tonlar; mistik, neonlu, fütüristik ama çocuksu bir manzara.
