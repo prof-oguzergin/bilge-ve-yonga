@@ -102,7 +102,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 10 — Resimler de 0 ve 1'den!
 
 **Metin:**
-{Y}"Resimler de!" diye güldü Yonga. {Y}"Her nokta bir renk, her renk 0 ve 1'lerden oluşur. Fotoğrafın bile içinde milyonlarca 0 ve 1 var!" Bilge kahkahayı bastı.
+{Y}"Resimler de!" diye güldü Yonga. {Y}"Her nokta bir renk, her renk 0 ve 1'lerden oluşur. Fotoğrafın bile içinde milyonlarca 0 ve 1 var!" Bilge kahkahayı bastı: {B}"Demek benim fotoğrafım da 0 ve 1!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bilge'in fotoğrafı büyütülmüş; bir köşesinden "zoom" yapılmış ve orada benekler görünüyor — her benek küçük kırmızı, yeşil, mavi kutucuklar. Bir kutucuktan daha da yaklaşılmış: içinde "11001010 01110011..." yazıyor. Bilge kendi fotoğrafına bakıp güluyor, Yonga da gülüyor. Renkli, neşeli ve merak uyandıran bir meta-sahne (Bilge kendini benek olarak görüyor).
