@@ -16,6 +16,10 @@ OKU = REPO / 'okuyucu'
 # asagidaki esleme ile baglanir (anahtar: kitap klasoru, deger: video kimligi).
 VIDEOLAR = {
     'kitap1.01a-kumdan-bilgisayar': 'ZQuPAhBu--U',
+    'kitap1.01b-bazen-gecer-bazen-gecmez': 'ftslnJqKkuM',
+    'kitap1.01c-anahtarlardan-mantik-kapilarina': 'BgZHFp2cQ2w',
+    'kitap1.02a-milyarlarca-kucuk-anahtar': 'EW4KrKHO7yE',
+    'kitap1.02b-ayni-rakam-baska-deger': 'mvwJCofQKhA',
 }
 
 
