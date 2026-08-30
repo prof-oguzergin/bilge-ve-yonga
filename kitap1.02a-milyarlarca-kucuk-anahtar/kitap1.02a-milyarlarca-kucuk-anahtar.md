@@ -20,7 +20,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 2 — Yonga'nın Sürprizi
 
 **Metin:**
-Yonga, Bilge'nin omzuna kondu ve fısıldadı: {Y}"Sen bir tek anahtar öğrendin. Bugün seni milyarlarcasının arasına götüreceğim. Hem de ne dediklerini öğreneceksin." Bilge durdu. {B}"Anahtarlar konuşuyor mu?"
+Yonga, Bilge'nin omzuna kondu ve fısıldadı: {Y}"Sen bir tek anahtar öğrendin. Bugün seni milyarlarcasının arasına götüreceğim. Hem de ne dediklerini öğreneceksin." Bilge durdu ve güldü: {B}"Anahtarlar konuşuyor mu?"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga, Bilge'nin omzuna konmuş; küçük elleriyle Bilge'nin kulağına fısıldarcasına yaklaşmış. Bilge şaşkınlıkla dönerek Yonga'ya bakıyor, soru işaretleri ufak ufak kafasının etrafında uçuşuyor (çizgi roman tarzında). Arka planda Bilge'in sevimli odası; rafta oyuncaklar ve kitaplar var. Sıcak oranj ve altın renkleri; samimi, arkadaşça bir an.
@@ -30,7 +30,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 3 — İki Anahtar, Aynı İş
 
 **Metin:**
-{B}"Ben anlatayım!" dedi Bilge. {B}"Bekçiye işaret gidince geçit açılıyor, elektrik geçiyor. İşaret kesilince kapanıyor. Adı da transistör." Yonga iki hologram açtı: bir yanda duvardaki kocaman ışık anahtarı, öbür yanda minicik bir transistör. Arada bir eşittir işareti duruyordu. {Y}"Aynı iş, başka boy." dedi Yonga.
+{B}"Bunu bana sen anlatmıştın!" dedi Bilge. {B}"Bekçiye işaret gidince geçit açılıyor, elektrik geçiyor. İşaret kesilince kapanıyor. Adı da transistör." Yonga iki hologram açtı: bir yanda duvardaki kocaman ışık anahtarı, öbür yanda minicik bir transistör. Arada bir eşittir işareti duruyordu. {Y}"Aynı iş, başka boy." dedi Yonga.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga, havada iki hologram gösteriyor: biri duvardaki büyük ışık anahtarı, diğeri küçücük bir transistör sembolü. İki görüntü arasında büyük bir eşittir işareti var. Bilge ikisine bakıp gülümsüyor, "aa, aynı şey!" der gibi bir ifade taşıyor. Hologramlar mavi ve altın tonlarda parlıyor. Sade, anlaşılır ve renkli bir "büyük=küçük" karşılaştırması hissi veriyor.
