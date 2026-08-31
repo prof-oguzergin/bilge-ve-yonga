@@ -10,9 +10,9 @@
 ## Sayfa 1 — Kaybolan Harfler
 
 **Metin:**
-Bilge anneannesine bir ileti yazdı: "İyi geceler, anneanne. Öptüm."
+Bilge anneannesine bir ileti yazdı: {B}"İyi geceler, anneanne. Öptüm."
 
-Az sonra anneannesi yanıt yazdı: "Kızım, iletinde bazı harflerin yerinde küçük boş kutucuklar var."
+Az sonra anneannesi yanıt yazdı: {D}"Kızım, iletinde bazı harflerin yerinde küçük boş kutucuklar var."
 
 {B}"Yonga, harflerim nereye gitti?" diye sordu Bilge.
 
