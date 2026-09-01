@@ -20,6 +20,7 @@ VIDEOLAR = {
     'kitap1.01c-anahtarlardan-mantik-kapilarina': 'BgZHFp2cQ2w',
     'kitap1.02a-milyarlarca-kucuk-anahtar': 'EW4KrKHO7yE',
     'kitap1.02b-ayni-rakam-baska-deger': 'mvwJCofQKhA',
+    'kitap1.02c-dunyanin-butun-harfleri': 'XAbuI0VVdPA',
 }
 
 
