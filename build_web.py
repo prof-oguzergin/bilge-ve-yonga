@@ -25,6 +25,7 @@ VIDEOLAR = {
     'kitap1.02b-ayni-rakam-baska-deger': 'mvwJCofQKhA',
     'kitap1.02c-dunyanin-butun-harfleri': 'XAbuI0VVdPA',
     'kitap1.03-bilgisayarin-bes-arkadasi': 'H7CwdSdkLZk',
+    'kitap1.04-al-anla-yap': 'JdmV84YzYlE',
 }
 
 
