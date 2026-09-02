@@ -21,6 +21,7 @@ VIDEOLAR = {
     'kitap1.02a-milyarlarca-kucuk-anahtar': 'EW4KrKHO7yE',
     'kitap1.02b-ayni-rakam-baska-deger': 'mvwJCofQKhA',
     'kitap1.02c-dunyanin-butun-harfleri': 'XAbuI0VVdPA',
+    'kitap1.03-bilgisayarin-bes-arkadasi': 'H7CwdSdkLZk',
 }
 
 
