@@ -14,6 +14,9 @@ OKU = REPO / 'okuyucu'
 # Sesli kitap: kitap klasorundeki ses/sayfa-NN.mp3 dosyalari. Ses varsa
 # okuyucuda Dinle dugmesi, kartta rozet cikar. YouTube kaydi olan kitaplar
 # asagidaki esleme ile baglanir (anahtar: kitap klasoru, deger: video kimligi).
+# Butun sesli kitaplarin YouTube oynatma listesi (sarki + kitaplar).
+OYNATMA_LISTESI = 'https://www.youtube.com/playlist?list=PLdwj50-HbzTo'
+
 VIDEOLAR = {
     'kitap1.01a-kumdan-bilgisayar': 'ZQuPAhBu--U',
     'kitap1.01b-bazen-gecer-bazen-gecmez': 'ftslnJqKkuM',
@@ -1569,8 +1572,10 @@ def _video_html(folder):
     return ('  <div class="gorus">\n'
             '    <a href="https://youtu.be/%s" target="_blank" rel="noopener">'
             '▶ Bu kitabı YouTube\'da dinle</a>\n'
-            '    <p>Sesli hâli, sayfa sayfa. Arka planda dinlemek için uygun.</p>\n'
-            '  </div>\n') % vid
+            '    <p>Sesli hâli, sayfa sayfa. Arka planda dinlemek için uygun. '
+            '<a href="%s" target="_blank" rel="noopener">Bütün videolar</a> '
+            'bir oynatma listesinde.</p>\n'
+            '  </div>\n') % (vid, OYNATMA_LISTESI)
 
 
 def build_reader(folder, no, title, subtitle, glow, prev=None, nxt=None):
