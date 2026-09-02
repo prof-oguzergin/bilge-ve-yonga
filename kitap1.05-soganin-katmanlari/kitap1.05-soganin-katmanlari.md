@@ -50,7 +50,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 5 — İşletim Sistemi Katmanı
 
 **Metin:**
-Bilge bir halka dışarı baktı. {B}"Bu ne?" diye sordu. {Y}"İşletim sistemi!" dedi Yonga. {Y}"O, donanımla konuşmasını bilen büyük bir yönetici gibi. Telefonunu ya da tabletini açtığında karşına çıkan ekran var ya, işte onu da o hazırlar!"
+Bilge bir sonraki halkaya baktı. {B}"Bu ne?" diye sordu. {Y}"İşletim sistemi!" dedi Yonga. {Y}"O, donanımla konuşmasını bilen büyük bir yönetici gibi. Telefonunu ya da tabletini açtığında karşına çıkan ekran var ya, işte onu da o hazırlar!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yarı kesitli soğanın ortasında metalik çekirdek, onun dışında daha geniş, açık mavi bir halka — bu halkada küçük dişliler, anahtar ve ekran simgeleri var; "İşletim Sistemi" yazıyor. Bilge bu halkayı işaret ediyor, Yonga yönetici şapkası takmış ve elinde küçük bir baston tutuyor gibi poz veriyor. Sahne eğlenceli ve öğretici. Mavi, gri ve beyaz tonları.
