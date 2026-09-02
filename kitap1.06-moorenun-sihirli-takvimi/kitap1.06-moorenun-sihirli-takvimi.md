@@ -110,7 +110,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 11 — Yeni Çözümler
 
 **Metin:**
-{Y}"Mühendislerin aklına parlak bir fikir geldi." dedi Yonga. {Y}"Transistörler daha fazla küçülemiyorsa, üst üste yığalım dediler!" Bilge hayretle dinledi: {B}"Kat kat transistörler mi? Baklava gibi mi?" {Y}"Tıpkı baklava gibi!" dedi Yonga.
+{Y}"Mühendislerin aklına parlak bir fikir geldi." dedi Yonga. {Y}"Transistörler daha fazla küçülemiyorsa, üst üste yığalım dediler!" Bilge hayretle dinledi: {B}"Kat kat transistörler mi? Pasta gibi mi?" {Y}"Tıpkı pasta gibi!" dedi Yonga.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga, çok katlı bir pasta şeklinde gösterilen yonga modelini hologramla anlatıyor; her kat farklı renkte transistör katmanları içeriyor — sarı, mavi, yeşil, kırmızı katmanlar. Bilge parmaklarıyla pastayı kesme hareketini taklit ediyor ve gülümsüyor. Arka planda bir pastane atmosferi değil ama laboratuvar ortamında pasta benzetmesi renkli ve eğlenceli görünüyor. Katmanlı ve canlı renkler; yaratıcı çözümlerin neşeli anlatımı.
