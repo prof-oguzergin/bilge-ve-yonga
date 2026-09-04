@@ -27,6 +27,7 @@ VIDEOLAR = {
     'kitap1.03-bilgisayarin-bes-arkadasi': 'H7CwdSdkLZk',
     'kitap1.04-al-anla-yap': 'JdmV84YzYlE',
     'kitap1.05-soganin-katmanlari': 'SoZvWTBW5Xk',
+    'kitap1.06-moorenun-sihirli-takvimi': '_dGJjbYJCZY',
 }
 
 
