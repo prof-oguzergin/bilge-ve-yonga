@@ -360,6 +360,10 @@ section.band{padding:76px 0}
   transition:transform .16s, box-shadow .16s}
 .cilt-btn:hover{transform:translateY(-2px);box-shadow:0 14px 30px -14px var(--accent)}
 .cilt-btn:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+/* Indirme ve YouTube sezonu yan yana; sigmazsa alt alta iner. */
+.cilt-btnler{margin-top:auto;display:flex;flex-wrap:wrap;gap:10px}
+.cilt-btnler .cilt-btn{margin-top:0}
+.cilt-btn-dizi{background:transparent;color:var(--accent);box-shadow:inset 0 0 0 2px var(--accent)}
 .book{background:var(--surface);border:1px solid var(--line);border-radius:20px;overflow:hidden;
   display:flex;flex-direction:column;transition:transform .22s,box-shadow .22s;
   position:relative}
@@ -390,13 +394,64 @@ section.band{padding:76px 0}
   background:var(--bg);color:#fff;box-shadow:0 12px 24px -14px var(--bg);
   transition:transform .16s,box-shadow .16s}
 .btn-read:hover{transform:translateY(-2px);box-shadow:0 16px 30px -14px var(--bg)}
-.book-dl{display:flex;gap:8px}
-.book-dl a{flex:1;text-align:center;font-family:var(--font-display);font-weight:700;
+.book-dl{display:flex;flex-wrap:wrap;gap:8px}
+/* Sesi ve videosu olan kitapta dort dugme ikiser ikiser dizilir. */
+.book-dl a{flex:1 1 calc(50% - 4px);text-align:center;font-family:var(--font-display);font-weight:700;
   font-size:.82rem;border-radius:999px;padding:8px 10px;text-decoration:none;
   background:transparent;border:1.5px solid var(--line);color:var(--muted);
   transition:transform .16s,border-color .16s,color .16s}
 .book-dl a:hover{transform:translateY(-2px);border-color:var(--bg);color:var(--text)}
 .btn-read:focus-visible,.book-dl a:focus-visible{outline:3px solid var(--glow);outline-offset:2px}
+
+/* Kart / liste gecisi. Secim tarayicida saklanir; kart gorunumu varsayilan. */
+.gorunum{display:inline-flex;gap:4px;padding:4px;margin:0 0 26px;border:1px solid var(--line);
+  border-radius:999px;background:var(--surface)}
+.gorunum button{display:inline-flex;align-items:center;gap:8px;border:0;background:transparent;
+  color:var(--muted);font:inherit;font-weight:700;font-size:.9rem;padding:8px 16px;
+  border-radius:999px;cursor:pointer;transition:background .16s,color .16s}
+.gorunum button svg{width:15px;height:15px;fill:currentColor}
+.gorunum button[aria-pressed="true"]{background:var(--ground-2);color:var(--text)}
+.gorunum button:focus-visible{outline:3px solid var(--glow);outline-offset:2px}
+.book-dl .yer{display:none}
+.book-bas{display:flex;flex-direction:column;gap:5px}
+
+/* Liste gorunumu: her kitap bir satir. Solda kucuk kapak, ortada numara,
+   baslik ve tek satir aciklama, sagda butun baglantilar. */
+[data-gorunum="liste"] .books-grid{grid-template-columns:1fr;grid-auto-rows:auto;gap:10px}
+[data-gorunum="liste"] .book{flex-direction:row;align-items:center;border-radius:16px}
+[data-gorunum="liste"] .book:hover{transform:translateY(-2px)}
+[data-gorunum="liste"] .book:hover .book-cover img{transform:none}
+[data-gorunum="liste"] .book-cover{flex:0 0 150px;align-self:stretch;aspect-ratio:auto;min-height:84px}
+[data-gorunum="liste"] .book-cover::after{display:none}
+[data-gorunum="liste"] .book-ses{display:none}
+[data-gorunum="liste"] .book-meta{flex-direction:row;align-items:center;gap:18px;padding:10px 16px;min-width:0}
+[data-gorunum="liste"] .book-bas{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:3px}
+[data-gorunum="liste"] .book h3{font-size:1.06rem}
+[data-gorunum="liste"] .book p{font-size:.9rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+[data-gorunum="liste"] .book-actions{flex:none;flex-direction:row;align-items:center;margin:0;padding:0;gap:6px}
+[data-gorunum="liste"] .btn-read{padding:8px 18px;font-size:.88rem}
+/* Listede soldan saga: Video, Dinle, E-kitap, PDF, Oku. Oku en sagda (Oguz). */
+[data-gorunum="liste"] .btn-read{order:2}
+[data-gorunum="liste"] .book-dl{order:1}
+[data-gorunum="liste"] .book-dl .k-video{order:-2}
+[data-gorunum="liste"] .book-dl .k-dinle{order:-1}
+[data-gorunum="liste"] .book-dl{gap:6px;flex-wrap:nowrap}
+[data-gorunum="liste"] .book-dl a,[data-gorunum="liste"] .book-dl .yer{flex:none;padding:7px 13px}
+[data-gorunum="liste"] .book-dl .yer{display:inline-block;visibility:hidden;font-family:var(--font-display);font-weight:700;
+  font-size:.82rem;border:1.5px solid transparent;border-radius:999px}
+@media (max-width:860px){
+  [data-gorunum="liste"] .book-meta{flex-direction:column;align-items:stretch;gap:8px}
+  [data-gorunum="liste"] .book-actions{flex-wrap:wrap}
+  [data-gorunum="liste"] .book-dl{flex-wrap:wrap}
+  [data-gorunum="liste"] .book-dl .yer{display:none}
+  /* Dar ekranda dugmeler alt alta iner; ana dugme Oku en uste gecer. */
+  [data-gorunum="liste"] .btn-read{order:0;align-self:flex-start}
+  [data-gorunum="liste"] .book p{white-space:normal;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+}
+@media (max-width:520px){
+  [data-gorunum="liste"] .book-cover{flex-basis:96px;min-height:0}
+  [data-gorunum="liste"] .book p{display:none}
+}
 
 .learn-grid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:1fr;gap:18px}
 .tile{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:20px 20px 22px;
@@ -544,10 +599,18 @@ footer p{color:var(--muted);font-size:.9rem}
 <hr class="divider">
 
 <section class="band" id="kitaplar"><div class="wrap">
+<!-- Ilk acilista bilgisayarda kart, telefonda liste; ziyaretci secerse onun secimi saklanir. -->
+<script>(function(){var g=null;try{g=localStorage.getItem('gorunum');}catch(e){}if(!g)g=matchMedia('(max-width:700px)').matches?'liste':'kart';if(g==='liste')document.getElementById('kitaplar').setAttribute('data-gorunum','liste');})();</script>
   <div class="sec-head">
     <span class="eyebrow">Bilge ve Yonga</span>
     <h2>Şimdiye kadar yayımlanan kitaplar</h2>
     <p>Her kitap tek bir fikri, baştan sona bir hikayeyle anlatır. Kapaklar gerçek kitap görselleridir.</p>
+  </div>
+  <div class="gorunum" role="group" aria-label="Kitapların görünümü">
+    <button type="button" data-g="kart" aria-pressed="true">
+      <svg viewBox="0 0 16 16" aria-hidden="true"><rect x="1" y="1" width="6" height="6" rx="1.5"/><rect x="9" y="1" width="6" height="6" rx="1.5"/><rect x="1" y="9" width="6" height="6" rx="1.5"/><rect x="9" y="9" width="6" height="6" rx="1.5"/></svg>Kartlar</button>
+    <button type="button" data-g="liste" aria-pressed="false">
+      <svg viewBox="0 0 16 16" aria-hidden="true"><rect x="1" y="1.5" width="4" height="3" rx="1"/><rect x="7" y="2" width="8" height="2" rx="1"/><rect x="1" y="6.5" width="4" height="3" rx="1"/><rect x="7" y="7" width="8" height="2" rx="1"/><rect x="1" y="11.5" width="4" height="3" rx="1"/><rect x="7" y="12" width="8" height="2" rx="1"/></svg>Liste</button>
   </div>
   <div class="series-head" style="--accent:#2E8CC7">
     <span class="series-no">1. Seri</span>
@@ -561,15 +624,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 1.1a</span>
             <span class="book-surum" title="Sürüm 1.3, 13 Eyl 2026 tarihinde güncellendi">Sürüm 1.3</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap1.01a-kumdan-bilgisayar.html">Kumdan Bilgisayar</a></h3>
           <p>Bir avuç kumdan yongaya uzanan üretim yolculuğu</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap1.01a-kumdan-bilgisayar.html">Oku</a>
             <div class="book-dl">
+              <a class="ek k-dinle" href="okuyucu/kitap1.01a-kumdan-bilgisayar.html#dinle">Dinle</a>
+              <a class="ek k-video" href="https://youtu.be/ZQuPAhBu--U" target="_blank" rel="noopener">Video</a>
               <a href="kitap1.01a-kumdan-bilgisayar/Kumdan%20Bilgisayar.epub" download>E-kitap</a>
               <a href="kitap1.01a-kumdan-bilgisayar/Kumdan%20Bilgisayar.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -582,15 +649,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 1.1b</span>
             <span class="book-surum" title="Sürüm 1.2, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.2</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap1.01b-bazen-gecer-bazen-gecmez.html">Bazen Geçer, Bazen Geçmez</a></h3>
           <p>Silisyum neden seçildi: yarı iletken ve transistörün doğuşu</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap1.01b-bazen-gecer-bazen-gecmez.html">Oku</a>
             <div class="book-dl">
+              <a class="ek k-dinle" href="okuyucu/kitap1.01b-bazen-gecer-bazen-gecmez.html#dinle">Dinle</a>
+              <a class="ek k-video" href="https://youtu.be/ftslnJqKkuM" target="_blank" rel="noopener">Video</a>
               <a href="kitap1.01b-bazen-gecer-bazen-gecmez/Bazen%20Ge%C3%A7er%2C%20Bazen%20Ge%C3%A7mez.epub" download>E-kitap</a>
               <a href="kitap1.01b-bazen-gecer-bazen-gecmez/Bazen%20Ge%C3%A7er%2C%20Bazen%20Ge%C3%A7mez.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -603,15 +674,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 1.1c</span>
             <span class="book-surum" title="Sürüm 1.2, 13 Eyl 2026 tarihinde güncellendi">Sürüm 1.2</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap1.01c-anahtarlardan-mantik-kapilarina.html">Anahtarlardan Mantık Kapılarına</a></h3>
           <p>VE, VEYA, DEĞİL: anahtarlardan kurulan üç mantık kapısı</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap1.01c-anahtarlardan-mantik-kapilarina.html">Oku</a>
             <div class="book-dl">
+              <a class="ek k-dinle" href="okuyucu/kitap1.01c-anahtarlardan-mantik-kapilarina.html#dinle">Dinle</a>
+              <a class="ek k-video" href="https://youtu.be/BgZHFp2cQ2w" target="_blank" rel="noopener">Video</a>
               <a href="kitap1.01c-anahtarlardan-mantik-kapilarina/Anahtarlardan%20Mant%C4%B1k%20Kap%C4%B1lar%C4%B1na.epub" download>E-kitap</a>
               <a href="kitap1.01c-anahtarlardan-mantik-kapilarina/Anahtarlardan%20Mant%C4%B1k%20Kap%C4%B1lar%C4%B1na.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -624,15 +699,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 1.2a</span>
             <span class="book-surum" title="Sürüm 1.2, 13 Eyl 2026 tarihinde güncellendi">Sürüm 1.2</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap1.02a-milyarlarca-kucuk-anahtar.html">Milyarlarca Küçük Anahtar</a></h3>
           <p>Transistörler, açık-kapalı anahtarlar ve ikili sayılar</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap1.02a-milyarlarca-kucuk-anahtar.html">Oku</a>
             <div class="book-dl">
+              <a class="ek k-dinle" href="okuyucu/kitap1.02a-milyarlarca-kucuk-anahtar.html#dinle">Dinle</a>
+              <a class="ek k-video" href="https://youtu.be/EW4KrKHO7yE" target="_blank" rel="noopener">Video</a>
               <a href="kitap1.02a-milyarlarca-kucuk-anahtar/Milyarlarca%20K%C3%BC%C3%A7%C3%BCk%20Anahtar.epub" download>E-kitap</a>
               <a href="kitap1.02a-milyarlarca-kucuk-anahtar/Milyarlarca%20K%C3%BC%C3%A7%C3%BCk%20Anahtar.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -645,15 +724,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 1.2b</span>
             <span class="book-surum" title="Sürüm 1.2, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.2</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap1.02b-ayni-rakam-baska-deger.html">Aynı Rakam, Başka Değer</a></h3>
           <p>Basamak değeri: aynı rakam nerede durduğuna göre başka değer taşır</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap1.02b-ayni-rakam-baska-deger.html">Oku</a>
             <div class="book-dl">
+              <a class="ek k-dinle" href="okuyucu/kitap1.02b-ayni-rakam-baska-deger.html#dinle">Dinle</a>
+              <a class="ek k-video" href="https://youtu.be/mvwJCofQKhA" target="_blank" rel="noopener">Video</a>
               <a href="kitap1.02b-ayni-rakam-baska-deger/Ayn%C4%B1%20Rakam%2C%20Ba%C5%9Fka%20De%C4%9Fer.epub" download>E-kitap</a>
               <a href="kitap1.02b-ayni-rakam-baska-deger/Ayn%C4%B1%20Rakam%2C%20Ba%C5%9Fka%20De%C4%9Fer.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -666,15 +749,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 1.2c</span>
             <span class="book-surum" title="Sürüm 1.2, 13 Eyl 2026 tarihinde güncellendi">Sürüm 1.2</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap1.02c-dunyanin-butun-harfleri.html">Dünyanın Bütün Harfleri</a></h3>
           <p>Unicode ve UTF-8: her işarete bir numara, numaraya göre valiz</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap1.02c-dunyanin-butun-harfleri.html">Oku</a>
             <div class="book-dl">
+              <a class="ek k-dinle" href="okuyucu/kitap1.02c-dunyanin-butun-harfleri.html#dinle">Dinle</a>
+              <a class="ek k-video" href="https://youtu.be/XAbuI0VVdPA" target="_blank" rel="noopener">Video</a>
               <a href="kitap1.02c-dunyanin-butun-harfleri/D%C3%BCnyan%C4%B1n%20B%C3%BCt%C3%BCn%20Harfleri.epub" download>E-kitap</a>
               <a href="kitap1.02c-dunyanin-butun-harfleri/D%C3%BCnyan%C4%B1n%20B%C3%BCt%C3%BCn%20Harfleri.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -687,15 +774,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 1.3</span>
             <span class="book-surum" title="Sürüm 1.2, 13 Eyl 2026 tarihinde güncellendi">Sürüm 1.2</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap1.03-bilgisayarin-bes-arkadasi.html">Bilgisayarın Beş Arkadaşı</a></h3>
           <p>İşlemci, bellek, depo, giriş ve çıkış</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap1.03-bilgisayarin-bes-arkadasi.html">Oku</a>
             <div class="book-dl">
+              <a class="ek k-dinle" href="okuyucu/kitap1.03-bilgisayarin-bes-arkadasi.html#dinle">Dinle</a>
+              <a class="ek k-video" href="https://youtu.be/H7CwdSdkLZk" target="_blank" rel="noopener">Video</a>
               <a href="kitap1.03-bilgisayarin-bes-arkadasi/Bilgisayar%C4%B1n%20Be%C5%9F%20Arkada%C5%9F%C4%B1.epub" download>E-kitap</a>
               <a href="kitap1.03-bilgisayarin-bes-arkadasi/Bilgisayar%C4%B1n%20Be%C5%9F%20Arkada%C5%9F%C4%B1.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -708,15 +799,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 1.4</span>
             <span class="book-surum" title="Sürüm 1.2, 13 Eyl 2026 tarihinde güncellendi">Sürüm 1.2</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap1.04-al-anla-yap.html">Al, Anla, Yap!</a></h3>
           <p>Bir bilgisayar buyrukları nasıl adım adım işler</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap1.04-al-anla-yap.html">Oku</a>
             <div class="book-dl">
+              <a class="ek k-dinle" href="okuyucu/kitap1.04-al-anla-yap.html#dinle">Dinle</a>
+              <a class="ek k-video" href="https://youtu.be/JdmV84YzYlE" target="_blank" rel="noopener">Video</a>
               <a href="kitap1.04-al-anla-yap/Al%2C%20Anla%2C%20Yap%21.epub" download>E-kitap</a>
               <a href="kitap1.04-al-anla-yap/Al%2C%20Anla%2C%20Yap%21.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -729,15 +824,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 1.5</span>
             <span class="book-surum" title="Sürüm 1.1, 13 Eyl 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap1.05-soganin-katmanlari.html">Soğanın Katmanları</a></h3>
           <p>Donanımdan uygulamalara yazılımın katmanları</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap1.05-soganin-katmanlari.html">Oku</a>
             <div class="book-dl">
+              <a class="ek k-dinle" href="okuyucu/kitap1.05-soganin-katmanlari.html#dinle">Dinle</a>
+              <a class="ek k-video" href="https://youtu.be/SoZvWTBW5Xk" target="_blank" rel="noopener">Video</a>
               <a href="kitap1.05-soganin-katmanlari/So%C4%9Fan%C4%B1n%20Katmanlar%C4%B1.epub" download>E-kitap</a>
               <a href="kitap1.05-soganin-katmanlari/So%C4%9Fan%C4%B1n%20Katmanlar%C4%B1.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -750,15 +849,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 1.6</span>
             <span class="book-surum" title="Sürüm 1.2, 13 Eyl 2026 tarihinde güncellendi">Sürüm 1.2</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap1.06-moorenun-sihirli-takvimi.html">Moore’un Sihirli Takvimi</a></h3>
           <p>Moore Yasası ve transistörlerin çoğalışı</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap1.06-moorenun-sihirli-takvimi.html">Oku</a>
             <div class="book-dl">
+              <a class="ek k-dinle" href="okuyucu/kitap1.06-moorenun-sihirli-takvimi.html#dinle">Dinle</a>
+              <a class="ek k-video" href="https://youtu.be/_dGJjbYJCZY" target="_blank" rel="noopener">Video</a>
               <a href="kitap1.06-moorenun-sihirli-takvimi/Moore%27un%20Sihirli%20Takvimi.epub" download>E-kitap</a>
               <a href="kitap1.06-moorenun-sihirli-takvimi/Moore%27un%20Sihirli%20Takvimi.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -771,15 +874,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 1.7</span>
             <span class="book-surum" title="Sürüm 1.2, 13 Eyl 2026 tarihinde güncellendi">Sürüm 1.2</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap1.07-iki-kardes-risc-ve-cisc.html">İki Kardeş: RISC ve CISC</a></h3>
           <p>İki buyruk kümesi ailesi: az ama hızlı, çok ama güçlü</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap1.07-iki-kardes-risc-ve-cisc.html">Oku</a>
             <div class="book-dl">
+              <a class="ek k-dinle" href="okuyucu/kitap1.07-iki-kardes-risc-ve-cisc.html#dinle">Dinle</a>
+              <a class="ek k-video" href="https://youtu.be/gwQsvVY5pZs" target="_blank" rel="noopener">Video</a>
               <a href="kitap1.07-iki-kardes-risc-ve-cisc/%C4%B0ki%20Karde%C5%9F-%20RISC%20ve%20CISC.epub" download>E-kitap</a>
               <a href="kitap1.07-iki-kardes-risc-ve-cisc/%C4%B0ki%20Karde%C5%9F-%20RISC%20ve%20CISC.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -792,15 +899,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 1.8</span>
             <span class="book-surum" title="Sürüm 1.2, 13 Eyl 2026 tarihinde güncellendi">Sürüm 1.2</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap1.08-acik-kapi.html">Açık Kapı</a></h3>
           <p>Açık kaynak donanım ve RISC-V: paylaşınca herkes büyür</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap1.08-acik-kapi.html">Oku</a>
             <div class="book-dl">
+              <a class="ek k-dinle" href="okuyucu/kitap1.08-acik-kapi.html#dinle">Dinle</a>
+              <a class="ek k-video" href="https://youtu.be/mqXeAl-Xvv0" target="_blank" rel="noopener">Video</a>
               <a href="kitap1.08-acik-kapi/A%C3%A7%C4%B1k%20Kap%C4%B1.epub" download>E-kitap</a>
               <a href="kitap1.08-acik-kapi/A%C3%A7%C4%B1k%20Kap%C4%B1.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -813,15 +924,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 1.9</span>
             <span class="book-surum" title="Sürüm 1.2, 13 Eyl 2026 tarihinde güncellendi">Sürüm 1.2</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap1.09-bilgisayarin-atesi.html">Bilgisayarın Ateşi</a></h3>
           <p>Güç, ısı ve güç duvarı: bilgisayar neden ısınır</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap1.09-bilgisayarin-atesi.html">Oku</a>
             <div class="book-dl">
+              <a class="ek k-dinle" href="okuyucu/kitap1.09-bilgisayarin-atesi.html#dinle">Dinle</a>
+              <a class="ek k-video" href="https://youtu.be/8DfZLFUr6Sk" target="_blank" rel="noopener">Video</a>
               <a href="kitap1.09-bilgisayarin-atesi/Bilgisayar%C4%B1n%20Ate%C5%9Fi.epub" download>E-kitap</a>
               <a href="kitap1.09-bilgisayarin-atesi/Bilgisayar%C4%B1n%20Ate%C5%9Fi.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -834,15 +949,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 1.10</span>
             <span class="book-surum" title="Sürüm 1.2, 13 Eyl 2026 tarihinde güncellendi">Sürüm 1.2</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap1.10-bilgisayar-dusunmeyi-ogreniyor.html">Bilgisayar Düşünmeyi Öğreniyor</a></h3>
           <p>Yapay zeka hızlandırıcıları: CPU, GPU, TPU, NPU</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap1.10-bilgisayar-dusunmeyi-ogreniyor.html">Oku</a>
             <div class="book-dl">
+              <a class="ek k-dinle" href="okuyucu/kitap1.10-bilgisayar-dusunmeyi-ogreniyor.html#dinle">Dinle</a>
+              <a class="ek k-video" href="https://youtu.be/IipHGQcyM5g" target="_blank" rel="noopener">Video</a>
               <a href="kitap1.10-bilgisayar-dusunmeyi-ogreniyor/Bilgisayar%20D%C3%BC%C5%9F%C3%BCnmeyi%20%C3%96%C4%9Freniyor.epub" download>E-kitap</a>
               <a href="kitap1.10-bilgisayar-dusunmeyi-ogreniyor/Bilgisayar%20D%C3%BC%C5%9F%C3%BCnmeyi%20%C3%96%C4%9Freniyor.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -855,15 +974,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 1.11</span>
             <span class="book-surum" title="Sürüm 1.2, 13 Eyl 2026 tarihinde güncellendi">Sürüm 1.2</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap1.11-bilgisayardan-once.html">Bilgisayardan Önce</a></h3>
           <p>Abaküsten mikroişlemciye: makineler nasıl bilgisayara dönüştü</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap1.11-bilgisayardan-once.html">Oku</a>
             <div class="book-dl">
+              <a class="ek k-dinle" href="okuyucu/kitap1.11-bilgisayardan-once.html#dinle">Dinle</a>
+              <a class="ek k-video" href="https://youtu.be/OjH6nu0mVqg" target="_blank" rel="noopener">Video</a>
               <a href="kitap1.11-bilgisayardan-once/Bilgisayardan%20%C3%96nce.epub" download>E-kitap</a>
               <a href="kitap1.11-bilgisayardan-once/Bilgisayardan%20%C3%96nce.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -883,15 +1006,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap2.01-uzaydaki-bilgisayar.html"><img src="kapaklar/kitap2.01.jpg?v=8d803049" alt="Uzaydaki Bilgisayar kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 2.1</span>
             <span class="book-surum" title="Sürüm 1.1, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap2.01-uzaydaki-bilgisayar.html">Uzaydaki Bilgisayar</a></h3>
           <p>Güvenilirlik, kozmik ışınlar ve Mars’taki Curiosity</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap2.01-uzaydaki-bilgisayar.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap2.01-uzaydaki-bilgisayar/Uzaydaki%20Bilgisayar.epub" download>E-kitap</a>
               <a href="kitap2.01-uzaydaki-bilgisayar/Uzaydaki%20Bilgisayar.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -903,15 +1030,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap2.02-davulcu-ve-kurekciler.html"><img src="kapaklar/kitap2.02.jpg?v=b5a03625" alt="Davulcu ve Kürekçiler kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 2.2</span>
             <span class="book-surum" title="Sürüm 1.1, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap2.02-davulcu-ve-kurekciler.html">Davulcu ve Kürekçiler</a></h3>
           <p>Saat vuruş sıklığı, buyruk sayısı ve BBÇ: başarım denklemi</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap2.02-davulcu-ve-kurekciler.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap2.02-davulcu-ve-kurekciler/Davulcu%20ve%20K%C3%BCrek%C3%A7iler.epub" download>E-kitap</a>
               <a href="kitap2.02-davulcu-ve-kurekciler/Davulcu%20ve%20K%C3%BCrek%C3%A7iler.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -923,15 +1054,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap2.03-dunyanin-en-hizli-mutfagi.html"><img src="kapaklar/kitap2.03.jpg?v=edf10da4" alt="Dünyanın En Hızlı Mutfağı kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 2.3</span>
             <span class="book-surum" title="Sürüm 1.1, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap2.03-dunyanin-en-hizli-mutfagi.html">Dünyanın En Hızlı Mutfağı</a></h3>
           <p>Gecikme, işlem hacmi ve koşutluk: aşçılar gibi çekirdekler</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap2.03-dunyanin-en-hizli-mutfagi.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap2.03-dunyanin-en-hizli-mutfagi/D%C3%BCnyan%C4%B1n%20En%20H%C4%B1zl%C4%B1%20Mutfa%C4%9F%C4%B1.epub" download>E-kitap</a>
               <a href="kitap2.03-dunyanin-en-hizli-mutfagi/D%C3%BCnyan%C4%B1n%20En%20H%C4%B1zl%C4%B1%20Mutfa%C4%9F%C4%B1.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -943,15 +1078,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap2.04-corumlu-orhan-ile-edirneli-orhan.html"><img src="kapaklar/kitap2.04.jpg?v=33d8346d" alt="Çorumlu Orhan ile Edirneli Orhan kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 2.4</span>
             <span class="book-surum" title="Sürüm 1.1, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap2.04-corumlu-orhan-ile-edirneli-orhan.html">Çorumlu Orhan ile Edirneli Orhan</a></h3>
           <p>Adım boyu × tempo: bir adımda yapılan iş ile saat hızı</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap2.04-corumlu-orhan-ile-edirneli-orhan.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap2.04-corumlu-orhan-ile-edirneli-orhan/%C3%87orumlu%20Orhan%20ile%20Edirneli%20Orhan.epub" download>E-kitap</a>
               <a href="kitap2.04-corumlu-orhan-ile-edirneli-orhan/%C3%87orumlu%20Orhan%20ile%20Edirneli%20Orhan.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -963,15 +1102,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap2.05-ayakkabi-bagini-hizli-baglasan.html"><img src="kapaklar/kitap2.05.jpg?v=9b294c79" alt="Ayakkabı Bağını Hızlı Bağlasan Ne Olur? kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 2.5</span>
             <span class="book-surum" title="Sürüm 1.1, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap2.05-ayakkabi-bagini-hizli-baglasan.html">Ayakkabı Bağını Hızlı Bağlasan Ne Olur?</a></h3>
           <p>Amdahl Yasası: en büyük parçayı, darboğazı hızlandır</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap2.05-ayakkabi-bagini-hizli-baglasan.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap2.05-ayakkabi-bagini-hizli-baglasan/Ayakkab%C4%B1%20Ba%C4%9F%C4%B1n%C4%B1%20H%C4%B1zl%C4%B1%20Ba%C4%9Flasan%20Ne%20Olur-.epub" download>E-kitap</a>
               <a href="kitap2.05-ayakkabi-bagini-hizli-baglasan/Ayakkab%C4%B1%20Ba%C4%9F%C4%B1n%C4%B1%20H%C4%B1zl%C4%B1%20Ba%C4%9Flasan%20Ne%20Olur-.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -983,15 +1126,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap2.06-yaris-pisti.html"><img src="kapaklar/kitap2.06.jpg?v=da5aa399" alt="Yarış Pisti kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 2.6</span>
             <span class="book-surum" title="Sürüm 1.1, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap2.06-yaris-pisti.html">Yarış Pisti</a></h3>
           <p>Sınama programları ve SPEC: bilgisayarları adil karşılaştırmak</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap2.06-yaris-pisti.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap2.06-yaris-pisti/Yar%C4%B1%C5%9F%20Pisti.epub" download>E-kitap</a>
               <a href="kitap2.06-yaris-pisti/Yar%C4%B1%C5%9F%20Pisti.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1003,15 +1150,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap2.07-altin-cag-ve-duvar.html"><img src="kapaklar/kitap2.07.jpg?v=253c7ed8" alt="Altın Çağ ve Duvar kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 2.7</span>
             <span class="book-surum" title="Sürüm 1.2, 13 Eyl 2026 tarihinde güncellendi">Sürüm 1.2</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap2.07-altin-cag-ve-duvar.html">Altın Çağ ve Duvar</a></h3>
           <p>Altın çağ, güç duvarı ve çok çekirdeğe geçiş</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap2.07-altin-cag-ve-duvar.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap2.07-altin-cag-ve-duvar/Alt%C4%B1n%20%C3%87a%C4%9F%20ve%20Duvar.epub" download>E-kitap</a>
               <a href="kitap2.07-altin-cag-ve-duvar/Alt%C4%B1n%20%C3%87a%C4%9F%20ve%20Duvar.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1023,15 +1174,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap2.08-gustafsonun-bahcesi.html"><img src="kapaklar/kitap2.08.jpg?v=ffa599af" alt="Gustafson'un Bahçesi kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 2.8</span>
             <span class="book-surum" title="Sürüm 1.1, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap2.08-gustafsonun-bahcesi.html">Gustafson'un Bahçesi</a></h3>
           <p>Gustafson Yasası: daha çok çekirdekle daha büyük iş</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap2.08-gustafsonun-bahcesi.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap2.08-gustafsonun-bahcesi/Gustafson%27un%20Bah%C3%A7esi.epub" download>E-kitap</a>
               <a href="kitap2.08-gustafsonun-bahcesi/Gustafson%27un%20Bah%C3%A7esi.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1043,15 +1198,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap2.09-dar-gecit.html"><img src="kapaklar/kitap2.09.jpg?v=179086c3" alt="Dar Geçit kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 2.9</span>
             <span class="book-surum" title="Sürüm 1.1, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap2.09-dar-gecit.html">Dar Geçit</a></h3>
           <p>Bellek duvarı ve önbellek: hızlı işlemci, yavaş bellek</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap2.09-dar-gecit.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap2.09-dar-gecit/Dar%20Ge%C3%A7it.epub" download>E-kitap</a>
               <a href="kitap2.09-dar-gecit/Dar%20Ge%C3%A7it.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1063,15 +1222,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap2.10-kim-daha-hizli.html"><img src="kapaklar/kitap2.10.jpg?v=1bff80ef" alt="Kim Daha Hızlı? kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 2.10</span>
             <span class="book-surum" title="Sürüm 1.1, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap2.10-kim-daha-hizli.html">Kim Daha Hızlı?</a></h3>
           <p>Her iş için doğru araç: telefondan süper bilgisayara</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap2.10-kim-daha-hizli.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap2.10-kim-daha-hizli/Kim%20Daha%20H%C4%B1zl%C4%B1-.epub" download>E-kitap</a>
               <a href="kitap2.10-kim-daha-hizli/Kim%20Daha%20H%C4%B1zl%C4%B1-.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1091,15 +1254,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap3.01a-dedigimi-yap.html"><img src="kapaklar/kitap3.01a.jpg?v=41f124b4" alt="Dediğimi Yap kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 3.1a</span>
             <span class="book-surum" title="Sürüm 1.1, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap3.01a-dedigimi-yap.html">Dediğimi Yap</a></h3>
           <p>Program nedir: bilgisayara iş adım adım ve kesin anlatılır</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap3.01a-dedigimi-yap.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap3.01a-dedigimi-yap/Dedi%C4%9Fimi%20Yap.epub" download>E-kitap</a>
               <a href="kitap3.01a-dedigimi-yap/Dedi%C4%9Fimi%20Yap.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1111,15 +1278,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap3.01b-iki-dunyanin-koprusu.html"><img src="kapaklar/kitap3.01b.jpg?v=cc1402b7" alt="İki Dünyanın Köprüsü kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 3.1b</span>
             <span class="book-surum" title="Sürüm 1.1, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap3.01b-iki-dunyanin-koprusu.html">İki Dünyanın Köprüsü</a></h3>
           <p>Buyruk kümesi mimarisi: yazılım ile donanımın ortak dili</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap3.01b-iki-dunyanin-koprusu.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap3.01b-iki-dunyanin-koprusu/%C4%B0ki%20D%C3%BCnyan%C4%B1n%20K%C3%B6pr%C3%BCs%C3%BC.epub" download>E-kitap</a>
               <a href="kitap3.01b-iki-dunyanin-koprusu/%C4%B0ki%20D%C3%BCnyan%C4%B1n%20K%C3%B6pr%C3%BCs%C3%BC.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1131,15 +1302,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap3.02-siranin-ustundeki-kalemler.html"><img src="kapaklar/kitap3.02.jpg?v=31eb7ece" alt="Sıranın Üstündeki Kalemler kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 3.2</span>
             <span class="book-surum" title="Sürüm 1.1, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap3.02-siranin-ustundeki-kalemler.html">Sıranın Üstündeki Kalemler</a></h3>
           <p>Yazmaçlar, bellek düzeni ve bayt sırası</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap3.02-siranin-ustundeki-kalemler.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap3.02-siranin-ustundeki-kalemler/S%C4%B1ran%C4%B1n%20%C3%9Cst%C3%BCndeki%20Kalemler.epub" download>E-kitap</a>
               <a href="kitap3.02-siranin-ustundeki-kalemler/S%C4%B1ran%C4%B1n%20%C3%9Cst%C3%BCndeki%20Kalemler.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1151,15 +1326,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap3.03-zarfin-ustundeki-bolmeler.html"><img src="kapaklar/kitap3.03.jpg?v=00b3e30f" alt="Zarfın Üstündeki Bölmeler kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 3.3</span>
             <span class="book-surum" title="Sürüm 1.1, 13 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap3.03-zarfin-ustundeki-bolmeler.html">Zarfın Üstündeki Bölmeler</a></h3>
           <p>Buyruk biçimleri ve adresleme kipleri</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap3.03-zarfin-ustundeki-bolmeler.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap3.03-zarfin-ustundeki-bolmeler/Zarf%C4%B1n%20%C3%9Cst%C3%BCndeki%20B%C3%B6lmeler.epub" download>E-kitap</a>
               <a href="kitap3.03-zarfin-ustundeki-bolmeler/Zarf%C4%B1n%20%C3%9Cst%C3%BCndeki%20B%C3%B6lmeler.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1171,15 +1350,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap3.04-parkta-kavsak.html"><img src="kapaklar/kitap3.04.jpg?v=cc618b11" alt="Parkta Kavşak kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 3.4</span>
             <span class="book-surum" title="Sürüm 1.1, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap3.04-parkta-kavsak.html">Parkta Kavşak</a></h3>
           <p>Dallanma, döngüler ve altyordamlar</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap3.04-parkta-kavsak.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap3.04-parkta-kavsak/Parkta%20Kav%C5%9Fak.epub" download>E-kitap</a>
               <a href="kitap3.04-parkta-kavsak/Parkta%20Kav%C5%9Fak.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1191,15 +1374,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap3.05-mektup-fabrikasi.html"><img src="kapaklar/kitap3.05.jpg?v=eda1ef9f" alt="Mektup Fabrikası kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 3.5</span>
             <span class="book-surum" title="Sürüm 1.1, 11 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap3.05-mektup-fabrikasi.html">Mektup Fabrikası</a></h3>
           <p>Derleme zinciri: derleyici, çevirici, bağlayıcı</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap3.05-mektup-fabrikasi.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap3.05-mektup-fabrikasi/Mektup%20Fabrikas%C4%B1.epub" download>E-kitap</a>
               <a href="kitap3.05-mektup-fabrikasi/Mektup%20Fabrikas%C4%B1.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1211,15 +1398,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap3.06-toplama-makinesi.html"><img src="kapaklar/kitap3.06.jpg?v=f03cd6a5" alt="Toplama Makinesi kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 3.6</span>
             <span class="book-surum" title="Sürüm 1.1, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap3.06-toplama-makinesi.html">Toplama Makinesi</a></h3>
           <p>Aritmetik buyruklar: toplama, çıkarma, çarpma</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap3.06-toplama-makinesi.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap3.06-toplama-makinesi/Toplama%20Makinesi.epub" download>E-kitap</a>
               <a href="kitap3.06-toplama-makinesi/Toplama%20Makinesi.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1231,15 +1422,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap3.07-sihirli-maskeler.html"><img src="kapaklar/kitap3.07.jpg?v=24566644" alt="Sihirli Maskeler kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 3.7</span>
             <span class="book-surum" title="Sürüm 1.2, 11 Ağu 2026 tarihinde güncellendi">Sürüm 1.2</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap3.07-sihirli-maskeler.html">Sihirli Maskeler</a></h3>
           <p>Mantık buyrukları: VE, VEYA, DEĞİL ve bit maskeleri</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap3.07-sihirli-maskeler.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap3.07-sihirli-maskeler/Sihirli%20Maskeler.epub" download>E-kitap</a>
               <a href="kitap3.07-sihirli-maskeler/Sihirli%20Maskeler.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1251,15 +1446,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap3.08-sifirin-gucu.html"><img src="kapaklar/kitap3.08.jpg?v=5a30af65" alt="Sıfırın Gücü kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 3.8</span>
             <span class="book-surum" title="Sürüm 1.1, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap3.08-sifirin-gucu.html">Sıfırın Gücü</a></h3>
           <p>x0 yazmacı: hep sıfır kalan güvenilir arkadaş</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap3.08-sifirin-gucu.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap3.08-sifirin-gucu/S%C4%B1f%C4%B1r%C4%B1n%20G%C3%BCc%C3%BC.epub" download>E-kitap</a>
               <a href="kitap3.08-sifirin-gucu/S%C4%B1f%C4%B1r%C4%B1n%20G%C3%BCc%C3%BC.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1271,15 +1470,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap3.09-kulelerin-oyunu.html"><img src="kapaklar/kitap3.09.jpg?v=7b0ce07e" alt="Kulelerin Oyunu kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 3.9</span>
             <span class="book-surum" title="Sürüm 1.1, 11 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap3.09-kulelerin-oyunu.html">Kulelerin Oyunu</a></h3>
           <p>Yığıt ve altyordamlar: son giren ilk çıkar</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap3.09-kulelerin-oyunu.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap3.09-kulelerin-oyunu/Kulelerin%20Oyunu.epub" download>E-kitap</a>
               <a href="kitap3.09-kulelerin-oyunu/Kulelerin%20Oyunu.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1291,15 +1494,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap3.10a-tasiyicilar.html"><img src="kapaklar/kitap3.10a.jpg?v=cbc0d8b3" alt="Taşıyıcılar kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 3.10a</span>
             <span class="book-surum" title="Sürüm 1.1, 11 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap3.10a-tasiyicilar.html">Taşıyıcılar</a></h3>
           <p>Yükle ve sakla: bellek ile yazmaç arasındaki yolculuk</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap3.10a-tasiyicilar.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap3.10a-tasiyicilar/Ta%C5%9F%C4%B1y%C4%B1c%C4%B1lar.epub" download>E-kitap</a>
               <a href="kitap3.10a-tasiyicilar/Ta%C5%9F%C4%B1y%C4%B1c%C4%B1lar.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1311,15 +1518,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap3.10b-programin-bellekteki-mahallesi.html"><img src="kapaklar/kitap3.10b.jpg?v=aa256d5f" alt="Programın Bellekteki Mahallesi kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 3.10b</span>
             <span class="book-surum" title="Sürüm 1.0, 11 Ağu 2026 tarihinde güncellendi">Sürüm 1.0</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap3.10b-programin-bellekteki-mahallesi.html">Programın Bellekteki Mahallesi</a></h3>
           <p>Buyruk, veri, yığın ve yığıt: çalışan programın bellekteki yerleşimi</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap3.10b-programin-bellekteki-mahallesi.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap3.10b-programin-bellekteki-mahallesi/Program%C4%B1n%20Bellekteki%20Mahallesi.epub" download>E-kitap</a>
               <a href="kitap3.10b-programin-bellekteki-mahallesi/Program%C4%B1n%20Bellekteki%20Mahallesi.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1331,15 +1542,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap3.11-dedektif-bilge-ve-kayip-sonuc.html"><img src="kapaklar/kitap3.11.jpg?v=cca475d4" alt="Dedektif Bilge ve Kayıp Sonuç kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 3.11</span>
             <span class="book-surum" title="Sürüm 1.1, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap3.11-dedektif-bilge-ve-kayip-sonuc.html">Dedektif Bilge ve Kayıp Sonuç</a></h3>
           <p>Hata ayıklama: ara nokta, adım adım yürütme, yazmaçlara bakmak</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap3.11-dedektif-bilge-ve-kayip-sonuc.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap3.11-dedektif-bilge-ve-kayip-sonuc/Dedektif%20Bilge%20ve%20Kay%C4%B1p%20Sonu%C3%A7.epub" download>E-kitap</a>
               <a href="kitap3.11-dedektif-bilge-ve-kayip-sonuc/Dedektif%20Bilge%20ve%20Kay%C4%B1p%20Sonu%C3%A7.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1359,15 +1574,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap4.01a-eldenin-yolculugu.html"><img src="kapaklar/kitap4.01a.jpg?v=9b40dafa" alt="Eldenin Yolculuğu kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 4.1a</span>
             <span class="book-surum" title="Sürüm 1.1, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap4.01a-eldenin-yolculugu.html">Eldenin Yolculuğu</a></h3>
           <p>Toplayıcılar ve eldenin basamaktan basamağa yolculuğu</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap4.01a-eldenin-yolculugu.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap4.01a-eldenin-yolculugu/Eldenin%20Yolculu%C4%9Fu.epub" download>E-kitap</a>
               <a href="kitap4.01a-eldenin-yolculugu/Eldenin%20Yolculu%C4%9Fu.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1379,15 +1598,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap4.01b-yonganin-eksi-derdi.html"><img src="kapaklar/kitap4.01b.jpg?v=00757d9f" alt="Yonga'nın Eksi Derdi kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 4.1b</span>
             <span class="book-surum" title="Sürüm 1.1, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap4.01b-yonganin-eksi-derdi.html">Yonga'nın Eksi Derdi</a></h3>
           <p>Eksi sayılar bitlerle nasıl yazılır: sıfırdan bir geri ve ikiye tümleyen</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap4.01b-yonganin-eksi-derdi.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap4.01b-yonganin-eksi-derdi/Yonga%27n%C4%B1n%20Eksi%20Derdi.epub" download>E-kitap</a>
               <a href="kitap4.01b-yonganin-eksi-derdi/Yonga%27n%C4%B1n%20Eksi%20Derdi.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1399,15 +1622,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap4.02-cok-yonlu-alet-amb.html"><img src="kapaklar/kitap4.02.jpg?v=8a3fb9b4" alt="Çok Yönlü Alet: AMB kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 4.2</span>
             <span class="book-surum" title="Sürüm 1.1, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap4.02-cok-yonlu-alet-amb.html">Çok Yönlü Alet: AMB</a></h3>
           <p>Aritmetik Mantık Birimi: tek alette toplama, çıkarma, karşılaştırma</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap4.02-cok-yonlu-alet-amb.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap4.02-cok-yonlu-alet-amb/%C3%87ok%20Y%C3%B6nl%C3%BC%20Alet-%20AMB.epub" download>E-kitap</a>
               <a href="kitap4.02-cok-yonlu-alet-amb/%C3%87ok%20Y%C3%B6nl%C3%BC%20Alet-%20AMB.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1419,15 +1646,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap4.03-uzun-isler-carpma-bolme.html"><img src="kapaklar/kitap4.03.jpg?v=6953a97e" alt="Uzun İşler: Çarpma ve Bölme kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 4.3</span>
             <span class="book-surum" title="Sürüm 1.1, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap4.03-uzun-isler-carpma-bolme.html">Uzun İşler: Çarpma ve Bölme</a></h3>
           <p>Kaydır ve topla, kaydır ve çıkar: uzun işlemlerin donanımı</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap4.03-uzun-isler-carpma-bolme.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap4.03-uzun-isler-carpma-bolme/Uzun%20%C4%B0%C5%9Fler-%20%C3%87arpma%20ve%20B%C3%B6lme.epub" download>E-kitap</a>
               <a href="kitap4.03-uzun-isler-carpma-bolme/Uzun%20%C4%B0%C5%9Fler-%20%C3%87arpma%20ve%20B%C3%B6lme.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1439,15 +1670,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap4.04a-virgulun-dansi.html"><img src="kapaklar/kitap4.04a.jpg?v=4e488f4e" alt="Virgülün Dansı kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 4.4a</span>
             <span class="book-surum" title="Sürüm 1.1, 10 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap4.04a-virgulun-dansi.html">Virgülün Dansı</a></h3>
           <p>Kayan nokta: işaret, üs ve kesirle dev ve minik sayılar</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap4.04a-virgulun-dansi.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap4.04a-virgulun-dansi/Virg%C3%BCl%C3%BCn%20Dans%C4%B1.epub" download>E-kitap</a>
               <a href="kitap4.04a-virgulun-dansi/Virg%C3%BCl%C3%BCn%20Dans%C4%B1.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1459,15 +1694,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap4.04b-bir-bit-nasil-hatirlar.html"><img src="kapaklar/kitap4.04b.jpg?v=7cec677e" alt="Bir Bit Nasıl Hatırlar? kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 4.4b</span>
             <span class="book-surum" title="Sürüm 1.1, 13 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap4.04b-bir-bit-nasil-hatirlar.html">Bir Bit Nasıl Hatırlar?</a></h3>
           <p>Halka, mandal, saat ve yazmaç: bir bit nasıl saklanır</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap4.04b-bir-bit-nasil-hatirlar.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap4.04b-bir-bit-nasil-hatirlar/Bir%20Bit%20Nas%C4%B1l%20Hat%C4%B1rlar-.epub" download>E-kitap</a>
               <a href="kitap4.04b-bir-bit-nasil-hatirlar/Bir%20Bit%20Nas%C4%B1l%20Hat%C4%B1rlar-.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1479,15 +1718,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap4.05-veri-yolu-fabrikasi.html"><img src="kapaklar/kitap4.05.jpg?v=0d658eed" alt="Veri Yolu Fabrikası kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 4.5</span>
             <span class="book-surum" title="Sürüm 1.1, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap4.05-veri-yolu-fabrikasi.html">Veri Yolu Fabrikası</a></h3>
           <p>İşlemcinin beş istasyonu ve onları bağlayan teller</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap4.05-veri-yolu-fabrikasi.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap4.05-veri-yolu-fabrikasi/Veri%20Yolu%20Fabrikas%C4%B1.epub" download>E-kitap</a>
               <a href="kitap4.05-veri-yolu-fabrikasi/Veri%20Yolu%20Fabrikas%C4%B1.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1499,15 +1742,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap4.06-bir-buyrugun-yolculugu.html"><img src="kapaklar/kitap4.06.jpg?v=3647633b" alt="Bir Buyruğun Yolculuğu kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 4.6</span>
             <span class="book-surum" title="Sürüm 1.1, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap4.06-bir-buyrugun-yolculugu.html">Bir Buyruğun Yolculuğu</a></h3>
           <p>Bir buyruğun yedi durağı: getir, çöz, yürüt, geri yaz</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap4.06-bir-buyrugun-yolculugu.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap4.06-bir-buyrugun-yolculugu/Bir%20Buyru%C4%9Fun%20Yolculu%C4%9Fu.epub" download>E-kitap</a>
               <a href="kitap4.06-bir-buyrugun-yolculugu/Bir%20Buyru%C4%9Fun%20Yolculu%C4%9Fu.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1519,15 +1766,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap4.07-orkestra-sefi-denetim-birimi.html"><img src="kapaklar/kitap4.07.jpg?v=5bef2378" alt="Orkestra Şefi: Denetim Birimi kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 4.7</span>
             <span class="book-surum" title="Sürüm 1.1, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap4.07-orkestra-sefi-denetim-birimi.html">Orkestra Şefi: Denetim Birimi</a></h3>
           <p>Her parçaya doğru zamanda doğru işareti veren şef</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap4.07-orkestra-sefi-denetim-birimi.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap4.07-orkestra-sefi-denetim-birimi/Orkestra%20%C5%9Eefi-%20Denetim%20Birimi.epub" download>E-kitap</a>
               <a href="kitap4.07-orkestra-sefi-denetim-birimi/Orkestra%20%C5%9Eefi-%20Denetim%20Birimi.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1539,15 +1790,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap4.08-tek-vurusta.html"><img src="kapaklar/kitap4.08.jpg?v=c679391f" alt="Tek Vuruşta kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 4.8</span>
             <span class="book-surum" title="Sürüm 1.1, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap4.08-tek-vurusta.html">Tek Vuruşta</a></h3>
           <p>Tek vuruşluk işlemci: her buyruk tek saat vuruşunda biter, ama beklenir</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap4.08-tek-vurusta.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap4.08-tek-vurusta/Tek%20Vuru%C5%9Fta.epub" download>E-kitap</a>
               <a href="kitap4.08-tek-vurusta/Tek%20Vuru%C5%9Fta.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1559,15 +1814,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap4.09-adim-adim.html"><img src="kapaklar/kitap4.09.jpg?v=6513376c" alt="Adım Adım kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 4.9</span>
             <span class="book-surum" title="Sürüm 1.1, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap4.09-adim-adim.html">Adım Adım</a></h3>
           <p>Çok vuruşluk işlemci: buyruğu küçük adımlara bölmek, kısa buyruk çabuk biter</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap4.09-adim-adim.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap4.09-adim-adim/Ad%C4%B1m%20Ad%C4%B1m.epub" download>E-kitap</a>
               <a href="kitap4.09-adim-adim/Ad%C4%B1m%20Ad%C4%B1m.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1579,15 +1838,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap4.10-icindeki-minik-buyruklar.html"><img src="kapaklar/kitap4.10.jpg?v=ca9b3deb" alt="İçindeki Minik Buyruklar kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 4.10</span>
             <span class="book-surum" title="Sürüm 1.1, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap4.10-icindeki-minik-buyruklar.html">İçindeki Minik Buyruklar</a></h3>
           <p>Mikroprogram: şefin küçük bir bellekten okuduğu minik adımlar</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap4.10-icindeki-minik-buyruklar.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap4.10-icindeki-minik-buyruklar/%C4%B0%C3%A7indeki%20Minik%20Buyruklar.epub" download>E-kitap</a>
               <a href="kitap4.10-icindeki-minik-buyruklar/%C4%B0%C3%A7indeki%20Minik%20Buyruklar.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1599,15 +1862,19 @@ footer p{color:var(--muted);font-size:.9rem}
           <a href="okuyucu/kitap4.11-bir-seferde-kac-bit.html"><img src="kapaklar/kitap4.11.jpg?v=7ec54486" alt="Bir Seferde Kaç Bit? kapağı" loading="lazy"></a>
         </div>
         <div class="book-meta">
+          <div class="book-bas">
           <div class="book-ust">
             <span class="book-no">Kitap 4.11</span>
             <span class="book-surum" title="Sürüm 1.1, 9 Ağu 2026 tarihinde güncellendi">Sürüm 1.1</span>
           </div>
           <h3><a class="kart-bag" href="okuyucu/kitap4.11-bir-seferde-kac-bit.html">Bir Seferde Kaç Bit?</a></h3>
           <p>Sözcük boyu ve adres yolu: bir seferde ne kadarı taşınır, kaç göze ulaşılır</p>
+          </div>
           <div class="book-actions">
             <a class="btn-read" href="okuyucu/kitap4.11-bir-seferde-kac-bit.html">Oku</a>
             <div class="book-dl">
+              <span class="yer k-dinle" aria-hidden="true">Dinle</span>
+              <span class="yer k-video" aria-hidden="true">Video</span>
               <a href="kitap4.11-bir-seferde-kac-bit/Bir%20Seferde%20Ka%C3%A7%20Bit-.epub" download>E-kitap</a>
               <a href="kitap4.11-bir-seferde-kac-bit/Bir%20Seferde%20Ka%C3%A7%20Bit-.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
@@ -1659,7 +1926,9 @@ footer p{color:var(--muted);font-size:.9rem}
       <p class="cilt-bilgi">15 kitap · 249 sayfa · PDF, 45 MB</p>
       <p class="cilt-doi"><a href="https://doi.org/10.5281/zenodo.21725876" target="_blank" rel="noopener">doi.org/10.5281/zenodo.21725876</a></p>
       <p class="cilt-isbn">ISBN 978-625-00-4591-6</p>
-      <a class="cilt-btn" href="https://zenodo.org/api/records/22737378/files/Bilge%20ve%20Yonga%20-%20Cilt%201%20-%20Kumdan%20Bilgisayara.pdf/content">Cildi indir</a>
+      <div class="cilt-btnler">
+        <a class="cilt-btn" href="https://zenodo.org/api/records/22737378/files/Bilge%20ve%20Yonga%20-%20Cilt%201%20-%20Kumdan%20Bilgisayara.pdf/content">Cildi indir</a>
+      </div>
     </article>
     <article class="cilt" style="--accent:#D97326">
       <div class="cilt-ust">
@@ -1670,7 +1939,9 @@ footer p{color:var(--muted);font-size:.9rem}
       <p class="cilt-bilgi">10 kitap · 170 sayfa · PDF, 34 MB</p>
       <p class="cilt-doi"><a href="https://doi.org/10.5281/zenodo.21725924" target="_blank" rel="noopener">doi.org/10.5281/zenodo.21725924</a></p>
       <p class="cilt-isbn">ISBN 978-625-90813-0-4</p>
-      <a class="cilt-btn" href="https://zenodo.org/api/records/21936797/files/Bilge%20ve%20Yonga%20-%20Cilt%202%20-%20H%C4%B1z%20ve%20G%C3%BC%C3%A7.pdf/content">Cildi indir</a>
+      <div class="cilt-btnler">
+        <a class="cilt-btn" href="https://zenodo.org/api/records/21936797/files/Bilge%20ve%20Yonga%20-%20Cilt%202%20-%20H%C4%B1z%20ve%20G%C3%BC%C3%A7.pdf/content">Cildi indir</a>
+      </div>
     </article>
     <article class="cilt" style="--accent:#2E9E5B">
       <div class="cilt-ust">
@@ -1681,7 +1952,9 @@ footer p{color:var(--muted);font-size:.9rem}
       <p class="cilt-bilgi">13 kitap · 217 sayfa · PDF, 38 MB</p>
       <p class="cilt-doi"><a href="https://doi.org/10.5281/zenodo.21725978" target="_blank" rel="noopener">doi.org/10.5281/zenodo.21725978</a></p>
       <p class="cilt-isbn">ISBN 978-625-90813-1-1</p>
-      <a class="cilt-btn" href="https://zenodo.org/api/records/21936988/files/Bilge%20ve%20Yonga%20-%20Cilt%203%20-%20Buyruklar%C4%B1n%20D%C3%BCnyas%C4%B1.pdf/content">Cildi indir</a>
+      <div class="cilt-btnler">
+        <a class="cilt-btn" href="https://zenodo.org/api/records/21936988/files/Bilge%20ve%20Yonga%20-%20Cilt%203%20-%20Buyruklar%C4%B1n%20D%C3%BCnyas%C4%B1.pdf/content">Cildi indir</a>
+      </div>
     </article>
     <article class="cilt" style="--accent:#8A4FC0">
       <div class="cilt-ust">
@@ -1692,7 +1965,9 @@ footer p{color:var(--muted);font-size:.9rem}
       <p class="cilt-bilgi">13 kitap · 225 sayfa · PDF, 43 MB</p>
       <p class="cilt-doi"><a href="https://doi.org/10.5281/zenodo.21854810" target="_blank" rel="noopener">doi.org/10.5281/zenodo.21854810</a></p>
       <p class="cilt-isbn">ISBN 978-625-90813-2-8</p>
-      <a class="cilt-btn" href="https://zenodo.org/api/records/21937158/files/Bilge%20ve%20Yonga%20-%20Cilt%204%20-%20%C4%B0%C5%9Flemcinin%20%C4%B0%C3%A7i.pdf/content">Cildi indir</a>
+      <div class="cilt-btnler">
+        <a class="cilt-btn" href="https://zenodo.org/api/records/21937158/files/Bilge%20ve%20Yonga%20-%20Cilt%204%20-%20%C4%B0%C5%9Flemcinin%20%C4%B0%C3%A7i.pdf/content">Cildi indir</a>
+      </div>
     </article>
   </div>
   <p class="cilt-set"><span><i>Serinin set ISBN’i</i><b>978-625-90813-3-5</b></span></p>
@@ -1851,6 +2126,17 @@ footer p{color:var(--muted);font-size:.9rem}
     tt.setAttribute('aria-label',(k?'Aydınlık':'Karanlık')+' temaya geç');}
   temaYaz();
   tt.addEventListener('click',function(){var n=cur()==='dark'?'light':'dark';root.setAttribute('data-theme',n);try{localStorage.setItem('theme',n);}catch(e){}temaYaz();});
+
+  /* Kitaplar: kart / liste gecisi. Secim tarayicida saklanir. */
+  var kb=document.getElementById('kitaplar'), gd=document.querySelectorAll('.gorunum button');
+  function gorunumYaz(g){
+    if(g==='liste')kb.setAttribute('data-gorunum','liste');else kb.removeAttribute('data-gorunum');
+    for(var j=0;j<gd.length;j++)gd[j].setAttribute('aria-pressed',gd[j].getAttribute('data-g')===g?'true':'false');
+  }
+  gorunumYaz(kb.getAttribute('data-gorunum')==='liste'?'liste':'kart');
+  for(var j=0;j<gd.length;j++)gd[j].addEventListener('click',function(){
+    var g=this.getAttribute('data-g');gorunumYaz(g);try{localStorage.setItem('gorunum',g);}catch(e){}
+  });
 
   var cv=document.getElementById('dust'), ctx=cv.getContext('2d'), parts=[], raf=null;
   var reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;

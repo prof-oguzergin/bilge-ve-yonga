@@ -782,6 +782,8 @@ body{margin:0}
 .dl.calisiyor{border-color:var(--glow); color:var(--glow);
   box-shadow:0 0 0 3px color-mix(in srgb, var(--glow) 22%, transparent)}
 .dl svg{width:1.15em;height:1.15em}
+.dl.vurgula{border-color:var(--glow); color:var(--glow); animation:vurgu 1.2s ease-in-out 4}
+@keyframes vurgu{50%{box-shadow:0 0 0 6px color-mix(in srgb, var(--glow) 35%, transparent)}}
 
 /* Ust cubuk dar ekranda sigmiyordu ve sayfayi yatay olarak 167 piksel
    tasiriyordu. Uzun kitap adi artik kirpiliyor, indirme dugmeleri
@@ -1504,6 +1506,14 @@ function sesGuncelle(){
   calar.play().catch(()=>{ dinliyor = false; sesDurum(); });
   sesDurum();
 }
+/* Ana sayfanin liste gorunumundeki "Dinle" buraya #dinle ile gelir. Tarayici
+ * sayfa acilir acilmaz sesi baslatmaya izin vermezse dugme belirginlesir. */
+if(location.hash === '#dinle' && sesli && dinleDugme){
+  dinliyor = true;
+  const ilk = PAGES.findIndex(p=>p.ses);
+  if(!PAGES[i].ses && ilk > -1) go(ilk); else sesGuncelle();
+  setTimeout(()=>{ if(!dinliyor) dinleDugme.classList.add('vurgula'); }, 600);
+}
 
 let x0=null;
 book.addEventListener('touchstart', e=>x0=e.touches[0].clientX, {passive:true});
@@ -1684,6 +1694,7 @@ def _card_html(folder, no, title, sub, glow):
         + ('          <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>\n' if ses_var(folder) else '')
         + '        </div>\n'
         '        <div class="book-meta">\n'
+        '          <div class="book-bas">\n'
         '          <div class="book-ust">\n'
         f'            <span class="book-no">Kitap {no}</span>\n'
         + (f'            <span class="book-surum" title="{_surum(folder)} tarihinde güncellendi">'
@@ -1692,10 +1703,22 @@ def _card_html(folder, no, title, sub, glow):
         + '          </div>\n'
         f'          <h3><a class="kart-bag" href="{read_href}">{title}</a></h3>\n'
         f'          <p>{sub}</p>\n'
+        '          </div>\n'
         + '          <div class="book-actions">\n'
         f'            <a class="btn-read" href="{read_href}">Oku</a>\n'
         '            <div class="book-dl">\n'
-        f'              <a href="{epub_href}" download>E-kitap</a>\n'
+        # Dinle ve Video kitabin sesi ve videosu varsa cikar (Oguz, 14 Eyl 2026).
+        # Olmayan dugmenin yerinde gorunmez bir yer tutucu durur; boylece
+        # liste gorunumunde her satirin dugmeleri ayni sutunlara hizalanir.
+        # Kart gorunumunde yer tutucu gizlidir.
+        + (f'              <a class="ek k-dinle" href="{read_href}#dinle">Dinle</a>\n'
+           if ses_var(folder) else
+           '              <span class="yer k-dinle" aria-hidden="true">Dinle</span>\n')
+        + (f'              <a class="ek k-video" href="https://youtu.be/{VIDEOLAR[folder]}" '
+           'target="_blank" rel="noopener">Video</a>\n'
+           if folder in VIDEOLAR else
+           '              <span class="yer k-video" aria-hidden="true">Video</span>\n')
+        + f'              <a href="{epub_href}" download>E-kitap</a>\n'
         f'              <a href="{pdf_href}" target="_blank" rel="noopener">PDF</a>\n'
         '            </div>\n'
         '          </div>\n'
@@ -1809,7 +1832,12 @@ SET_ISBN = '978-625-90813-3-5'
 CILTLER = {
     '1': {'doi': '10.5281/zenodo.21725876', 'kayit': 22737378, 'isbn': '978-625-00-4591-6',
           'dosya': 'Bilge ve Yonga - Cilt 1 - Kumdan Bilgisayara.pdf',
-          'sayfa': 249, 'mb': 45},
+          'sayfa': 249, 'mb': 45,
+          # YouTube programinin sezonu: cildin kitaplari sirali bolumler olarak.
+          # 1.02b-1.11 videolari herkese acik olunca asagidaki satir acilir
+          # (Oguz, 14 Eyl 2026): programda simdilik yalniz 4 bolum gorunuyor.
+          # 'dizi': 'https://www.youtube.com/show/VLPLBjH1msvm7uc', 'sezon': 1,
+          },
     '2': {'doi': '10.5281/zenodo.21725924', 'kayit': 21936797, 'isbn': '978-625-90813-0-4',
           'dosya': 'Bilge ve Yonga - Cilt 2 - Hız ve Güç.pdf',
           'sayfa': 170, 'mb': 34},
@@ -1886,7 +1914,13 @@ def build_ciltler():
             # ISBN kalici numaradir, baglanti degil; duz metin olarak durur.
             if c.get('isbn'):
                 p.append('      <p class="cilt-isbn">ISBN {}</p>'.format(c['isbn']))
-            p.append('      <a class="cilt-btn" href="{}">Cildi indir</a>'.format(indir))
+            p.append('      <div class="cilt-btnler">')
+            p.append('        <a class="cilt-btn" href="{}">Cildi indir</a>'.format(indir))
+            if c.get('dizi'):
+                p.append('        <a class="cilt-btn cilt-btn-dizi" href="{}" target="_blank" '
+                         'rel="noopener">YouTube’da izle: {}. Sezon</a>'
+                         .format(c['dizi'], c['sezon']))
+            p.append('      </div>')
         else:
             p.append('      <p class="cilt-doi cilt-bekliyor">DOI alma süreci '
                      'sürüyor; numara gelince buraya eklenecek.</p>')

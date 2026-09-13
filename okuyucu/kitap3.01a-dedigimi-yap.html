@@ -80,6 +80,8 @@ body{margin:0}
 .dl.calisiyor{border-color:var(--glow); color:var(--glow);
   box-shadow:0 0 0 3px color-mix(in srgb, var(--glow) 22%, transparent)}
 .dl svg{width:1.15em;height:1.15em}
+.dl.vurgula{border-color:var(--glow); color:var(--glow); animation:vurgu 1.2s ease-in-out 4}
+@keyframes vurgu{50%{box-shadow:0 0 0 6px color-mix(in srgb, var(--glow) 35%, transparent)}}
 
 /* Ust cubuk dar ekranda sigmiyordu ve sayfayi yatay olarak 167 piksel
    tasiriyordu. Uzun kitap adi artik kirpiliyor, indirme dugmeleri
@@ -876,6 +878,14 @@ function sesGuncelle(){
   }
   calar.play().catch(()=>{ dinliyor = false; sesDurum(); });
   sesDurum();
+}
+/* Ana sayfanin liste gorunumundeki "Dinle" buraya #dinle ile gelir. Tarayici
+ * sayfa acilir acilmaz sesi baslatmaya izin vermezse dugme belirginlesir. */
+if(location.hash === '#dinle' && sesli && dinleDugme){
+  dinliyor = true;
+  const ilk = PAGES.findIndex(p=>p.ses);
+  if(!PAGES[i].ses && ilk > -1) go(ilk); else sesGuncelle();
+  setTimeout(()=>{ if(!dinliyor) dinleDugme.classList.add('vurgula'); }, 600);
 }
 
 let x0=null;
