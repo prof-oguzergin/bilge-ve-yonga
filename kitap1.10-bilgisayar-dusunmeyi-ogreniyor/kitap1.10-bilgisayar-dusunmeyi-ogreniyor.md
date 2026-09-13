@@ -130,7 +130,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 13 — Düşünmek Nedir?
 
 **Metin:**
-Bilge düşündü: {B}"Peki bilgisayar gerçekten düşünüyor mu?" Yonga ciddi ama şefkatli bir sesle yanıt verdi: {Y}"Bilgisayar işlem yapıyor, ama bizim gibi hissetmiyor. Öğrenmesi ve düşünmesi... farklı!"
+{B}"Peki bilgisayar gerçekten düşünüyor mu?" Yonga ciddi ama şefkatli bir sesle yanıt verdi: {Y}"Bilgisayar işlem yapıyor, ama bizim gibi hissetmiyor. Öğrenmesi ve düşünmesi... farklı!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bilge ve Yonga akşam ışığında oturmuş, derin bir sohbet halindeler. Bilge'nin düşünce balonunda kendi beyin görüntüsü ve bilgisayar devreleri yan yana — benzer ama farklı. Yonga'nın ifadesi düşünceli ve yumuşak. Arka planda yıldızların çıktığı bir akşam gökyüzü. Koyu mavi, mor ve altın tonlar; derinlik, merak ve anlayış hissiyle dolu.
