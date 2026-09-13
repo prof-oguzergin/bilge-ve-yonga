@@ -1807,7 +1807,7 @@ def temizle_bayat_okuyucular():
 SET_ISBN = '978-625-90813-3-5'
 
 CILTLER = {
-    '1': {'doi': '10.5281/zenodo.21725876', 'kayit': 21936612, 'isbn': '978-625-00-4591-6',
+    '1': {'doi': '10.5281/zenodo.21725876', 'kayit': 22737378, 'isbn': '978-625-00-4591-6',
           'dosya': 'Bilge ve Yonga - Cilt 1 - Kumdan Bilgisayara.pdf',
           'sayfa': 249, 'mb': 45},
     '2': {'doi': '10.5281/zenodo.21725924', 'kayit': 21936797, 'isbn': '978-625-90813-0-4',
