@@ -31,6 +31,7 @@ VIDEOLAR = {
     'kitap1.07-iki-kardes-risc-ve-cisc': 'gwQsvVY5pZs',
     'kitap1.08-acik-kapi': 'mqXeAl-Xvv0',
     'kitap1.09-bilgisayarin-atesi': '8DfZLFUr6Sk',
+    'kitap1.10-bilgisayar-dusunmeyi-ogreniyor': 'K0CJmCyX3Fo',
 }
 
 
