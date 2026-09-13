@@ -116,7 +116,7 @@ Loş bir salonda, insan boyunda, önü sıra sıra döner tamburlarla kaplı bü
 ## Sayfa 8 — Otuz Ton
 
 **Metin:**
-{Y}"1945'te ENIAC tamamlandı." dedi Yonga. {Y}"İçinde, anahtar gibi açılıp kapanan yaklaşık 18.000 vakum tüpü vardı." dedi Yonga. {Y}"30 ton ağırlığındaydı."
+{Y}"1945'te ENIAC tamamlandı." dedi Yonga. {Y}"İçinde, anahtar gibi açılıp kapanan yaklaşık 18.000 vakum tüpü vardı. 30 ton ağırlığındaydı."
 
 Bilge'nin ağzı açık kaldı. {B}"Otuz ton mu? Bir sınıf dolusu fil gibi!"
 
@@ -130,7 +130,7 @@ Duvarları baştan başa kaplayan devasa bir makine; üst üste raflarda yüzler
 ## Sayfa 9 — Büyük Fikir
 
 **Metin:**
-{Y}"Sonra bir fikir geldi ve her şeyi değiştirdi." dedi Yonga. {Y}"EDVAC adlı makinede iki çeşit bilgi aynı bellekte durdu." dedi Yonga. {Y}"Yapılacak işi söyleyen buyruklar ve üzerinde çalışılan sayılar." dedi Yonga. {Y}"O sayılara **veri** diyoruz."
+{Y}"Sonra bir fikir geldi ve her şeyi değiştirdi." dedi Yonga. {Y}"EDVAC adlı makinede iki çeşit bilgi aynı bellekte durdu. Yapılacak işi söyleyen buyruklar ve üzerinde çalışılan sayılar. O sayılara **veri** diyoruz."
 
 {B}"Bunun nesi büyük fikir?" diye sordu Bilge.
 
@@ -150,7 +150,7 @@ Bilge bunu sindirmek için biraz düşündü.
 
 {Y}"İşte bu yüzden bugün aynı bilgisayarla hem resim yapıyor hem müzik dinliyorsun." dedi Yonga.
 
-{Y}"Bir gün işlemcinin içine girersek şunu göreceksin." dedi Yonga. {Y}"Orada buyruklar bir kapıdan, sayılar başka bir kapıdan girer. Ama ikisi de o büyük bellekten gelir; iki kapı, işlemci ikisine aynı anda uzanabilsin diyedir."
+{Y}"Bir gün işlemcinin içine girersek şunu göreceksin. Orada buyruklar bir kapıdan, sayılar başka bir kapıdan girer. Ama ikisi de o büyük bellekten gelir; iki kapı, işlemci ikisine aynı anda uzanabilsin diyedir."
 
 **Resim:**
 Ortada tek bir makine duruyor. Çevresinde ondan çıkan üç ışık huzmesi var ve her huzmenin ucunda başka bir sonuç beliriyor: bir resim, bir nota ve bir hesap tablosu. Makinenin altındaki bellek rafı görünüyor. Bilge sevinçle huzmelerin ortasında duruyor.
@@ -160,7 +160,7 @@ Ortada tek bir makine duruyor. Çevresinde ondan çıkan üç ışık huzmesi va
 ## Sayfa 11 — Küçülme Başlıyor
 
 **Metin:**
-{Y}"1947 yılında transistör icat edildi." dedi Yonga. {Y}"Vakum tüplerinin yerini aldı. Çok daha küçük ve ucuzdu." dedi Yonga. {Y}"Daha az bozuluyor, daha az elektrik harcıyordu."
+{Y}"1947 yılında transistör icat edildi." dedi Yonga. {Y}"Vakum tüplerinin yerini aldı. Çok daha küçük ve ucuzdu. Daha az bozuluyor, daha az elektrik harcıyordu."
 
 {B}"Benim öğrendiğim anahtarlar!" dedi Bilge.
 

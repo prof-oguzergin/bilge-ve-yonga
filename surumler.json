@@ -2,60 +2,60 @@
   "aciklama": "Kitap ve cilt surumleri. Bir kitabin metni degisince o kitabin ikinci hanesi artar; icinde degisiklik olan cildin de ikinci hanesi artar. Yeni alt seri eklenince birinci hane artar. Seri 4 kitaplari henuz yayimlanmadi; yayina cikinca 1.0 ve o gunun tarihiyle eklenecek, o zamana kadar kunyede surum satiri yok.",
   "kitaplar": {
     "kitap1.01a-kumdan-bilgisayar": {
-      "surum": "1.2",
-      "tarih": "13 Ağustos 2026"
+      "surum": "1.3",
+      "tarih": "13 Eylül 2026"
     },
     "kitap1.01b-bazen-gecer-bazen-gecmez": {
       "surum": "1.2",
       "tarih": "9 Ağustos 2026"
     },
     "kitap1.01c-anahtarlardan-mantik-kapilarina": {
-      "surum": "1.1",
-      "tarih": "11 Ağustos 2026"
+      "surum": "1.2",
+      "tarih": "13 Eylül 2026"
     },
     "kitap1.02a-milyarlarca-kucuk-anahtar": {
-      "surum": "1.1",
-      "tarih": "9 Ağustos 2026"
+      "surum": "1.2",
+      "tarih": "13 Eylül 2026"
     },
     "kitap1.02b-ayni-rakam-baska-deger": {
       "surum": "1.2",
       "tarih": "9 Ağustos 2026"
     },
     "kitap1.03-bilgisayarin-bes-arkadasi": {
-      "surum": "1.1",
-      "tarih": "9 Ağustos 2026"
+      "surum": "1.2",
+      "tarih": "13 Eylül 2026"
     },
     "kitap1.04-al-anla-yap": {
-      "surum": "1.1",
-      "tarih": "9 Ağustos 2026"
+      "surum": "1.2",
+      "tarih": "13 Eylül 2026"
     },
     "kitap1.05-soganin-katmanlari": {
       "surum": "1.1",
-      "tarih": "9 Ağustos 2026"
+      "tarih": "13 Eylül 2026"
     },
     "kitap1.06-moorenun-sihirli-takvimi": {
-      "surum": "1.1",
-      "tarih": "9 Ağustos 2026"
+      "surum": "1.2",
+      "tarih": "13 Eylül 2026"
     },
     "kitap1.07-iki-kardes-risc-ve-cisc": {
-      "surum": "1.1",
-      "tarih": "9 Ağustos 2026"
+      "surum": "1.2",
+      "tarih": "13 Eylül 2026"
     },
     "kitap1.08-acik-kapi": {
-      "surum": "1.1",
-      "tarih": "9 Ağustos 2026"
+      "surum": "1.2",
+      "tarih": "13 Eylül 2026"
     },
     "kitap1.09-bilgisayarin-atesi": {
-      "surum": "1.1",
-      "tarih": "9 Ağustos 2026"
+      "surum": "1.2",
+      "tarih": "13 Eylül 2026"
     },
     "kitap1.10-bilgisayar-dusunmeyi-ogreniyor": {
-      "surum": "1.1",
-      "tarih": "9 Ağustos 2026"
+      "surum": "1.2",
+      "tarih": "13 Eylül 2026"
     },
     "kitap1.11-bilgisayardan-once": {
-      "surum": "1.1",
-      "tarih": "9 Ağustos 2026"
+      "surum": "1.2",
+      "tarih": "13 Eylül 2026"
     },
     "kitap2.01-uzaydaki-bilgisayar": {
       "surum": "1.1",
@@ -82,8 +82,8 @@
       "tarih": "9 Ağustos 2026"
     },
     "kitap2.07-altin-cag-ve-duvar": {
-      "surum": "1.1",
-      "tarih": "9 Ağustos 2026"
+      "surum": "1.2",
+      "tarih": "13 Eylül 2026"
     },
     "kitap2.08-gustafsonun-bahcesi": {
       "surum": "1.1",
@@ -194,8 +194,8 @@
       "tarih": "9 Ağustos 2026"
     },
     "kitap1.02c-dunyanin-butun-harfleri": {
-      "surum": "1.1",
-      "tarih": "11 Ağustos 2026"
+      "surum": "1.2",
+      "tarih": "13 Eylül 2026"
     },
     "kitap4.04b-bir-bit-nasil-hatirlar": {
       "surum": "1.1",
