@@ -28,6 +28,7 @@ VIDEOLAR = {
     'kitap1.04-al-anla-yap': 'JdmV84YzYlE',
     'kitap1.05-soganin-katmanlari': 'SoZvWTBW5Xk',
     'kitap1.06-moorenun-sihirli-takvimi': '_dGJjbYJCZY',
+    'kitap1.07-iki-kardes-risc-ve-cisc': 'gwQsvVY5pZs',
 }
 
 
