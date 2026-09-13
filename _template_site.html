@@ -402,6 +402,20 @@ section.band{padding:76px 0}
   transition:transform .16s,border-color .16s,color .16s}
 .book-dl a:hover{transform:translateY(-2px);border-color:var(--bg);color:var(--text)}
 .btn-read:focus-visible,.book-dl a:focus-visible{outline:3px solid var(--glow);outline-offset:2px}
+/* Ikincil dugmelere hafif renk: Dinle kehribar, Video mercan, E-kitap ve PDF
+   mavi (ikisi de indirme). Zemin cok acik, kenar ve yazi tonun yarisi;
+   yazi temanin yazi rengiyle karistirilir ki acik temada da okunsun. */
+.book-dl .k-dinle{--k:var(--amber)}
+.book-dl .k-video{--k:var(--coral)}
+.book-dl .k-epub,.book-dl .k-pdf{--k:var(--glow)}
+.book-dl a[class*="k-"]{background:color-mix(in srgb,var(--k) 12%,transparent);
+  border-color:color-mix(in srgb,var(--k) 45%,transparent);
+  color:color-mix(in srgb,var(--k) 62%,var(--text))}
+.book-dl a[class*="k-"]:hover{border-color:var(--k);color:var(--text);
+  background:color-mix(in srgb,var(--k) 22%,transparent)}
+:root[data-theme="light"] .book-dl a[class*="k-"]{color:color-mix(in srgb,var(--k) 38%,var(--text));
+  border-color:color-mix(in srgb,var(--k) 60%,transparent);
+  background:color-mix(in srgb,var(--k) 14%,transparent)}
 
 /* Kart / liste gecisi. Secim tarayicida saklanir; kart gorunumu varsayilan. */
 .gorunum{display:inline-flex;gap:4px;padding:4px;margin:0 0 26px;border:1px solid var(--line);

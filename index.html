@@ -402,6 +402,20 @@ section.band{padding:76px 0}
   transition:transform .16s,border-color .16s,color .16s}
 .book-dl a:hover{transform:translateY(-2px);border-color:var(--bg);color:var(--text)}
 .btn-read:focus-visible,.book-dl a:focus-visible{outline:3px solid var(--glow);outline-offset:2px}
+/* Ikincil dugmelere hafif renk: Dinle kehribar, Video mercan, E-kitap ve PDF
+   mavi (ikisi de indirme). Zemin cok acik, kenar ve yazi tonun yarisi;
+   yazi temanin yazi rengiyle karistirilir ki acik temada da okunsun. */
+.book-dl .k-dinle{--k:var(--amber)}
+.book-dl .k-video{--k:var(--coral)}
+.book-dl .k-epub,.book-dl .k-pdf{--k:var(--glow)}
+.book-dl a[class*="k-"]{background:color-mix(in srgb,var(--k) 12%,transparent);
+  border-color:color-mix(in srgb,var(--k) 45%,transparent);
+  color:color-mix(in srgb,var(--k) 62%,var(--text))}
+.book-dl a[class*="k-"]:hover{border-color:var(--k);color:var(--text);
+  background:color-mix(in srgb,var(--k) 22%,transparent)}
+:root[data-theme="light"] .book-dl a[class*="k-"]{color:color-mix(in srgb,var(--k) 38%,var(--text));
+  border-color:color-mix(in srgb,var(--k) 60%,transparent);
+  background:color-mix(in srgb,var(--k) 14%,transparent)}
 
 /* Kart / liste gecisi. Secim tarayicida saklanir; kart gorunumu varsayilan. */
 .gorunum{display:inline-flex;gap:4px;padding:4px;margin:0 0 26px;border:1px solid var(--line);
@@ -621,7 +635,6 @@ footer p{color:var(--muted);font-size:.9rem}
       <article class="book" style="--bg:#2B93D1">
         <div class="book-cover">
           <a href="okuyucu/kitap1.01a-kumdan-bilgisayar.html"><img src="kapaklar/kitap1.01a.jpg?v=b52cdfe4" alt="Kumdan Bilgisayar kapağı" loading="lazy"></a>
-          <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
           <div class="book-bas">
@@ -637,8 +650,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <a class="ek k-dinle" href="okuyucu/kitap1.01a-kumdan-bilgisayar.html#dinle">Dinle</a>
               <a class="ek k-video" href="https://youtu.be/ZQuPAhBu--U" target="_blank" rel="noopener">Video</a>
-              <a href="kitap1.01a-kumdan-bilgisayar/Kumdan%20Bilgisayar.epub" download>E-kitap</a>
-              <a href="kitap1.01a-kumdan-bilgisayar/Kumdan%20Bilgisayar.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap1.01a-kumdan-bilgisayar/Kumdan%20Bilgisayar.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap1.01a-kumdan-bilgisayar/Kumdan%20Bilgisayar.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -646,7 +659,6 @@ footer p{color:var(--muted);font-size:.9rem}
       <article class="book" style="--bg:#2889C6">
         <div class="book-cover">
           <a href="okuyucu/kitap1.01b-bazen-gecer-bazen-gecmez.html"><img src="kapaklar/kitap1.01b.jpg?v=50654e8a" alt="Bazen Geçer, Bazen Geçmez kapağı" loading="lazy"></a>
-          <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
           <div class="book-bas">
@@ -662,8 +674,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <a class="ek k-dinle" href="okuyucu/kitap1.01b-bazen-gecer-bazen-gecmez.html#dinle">Dinle</a>
               <a class="ek k-video" href="https://youtu.be/ftslnJqKkuM" target="_blank" rel="noopener">Video</a>
-              <a href="kitap1.01b-bazen-gecer-bazen-gecmez/Bazen%20Ge%C3%A7er%2C%20Bazen%20Ge%C3%A7mez.epub" download>E-kitap</a>
-              <a href="kitap1.01b-bazen-gecer-bazen-gecmez/Bazen%20Ge%C3%A7er%2C%20Bazen%20Ge%C3%A7mez.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap1.01b-bazen-gecer-bazen-gecmez/Bazen%20Ge%C3%A7er%2C%20Bazen%20Ge%C3%A7mez.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap1.01b-bazen-gecer-bazen-gecmez/Bazen%20Ge%C3%A7er%2C%20Bazen%20Ge%C3%A7mez.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -671,7 +683,6 @@ footer p{color:var(--muted);font-size:.9rem}
       <article class="book" style="--bg:#2784C0">
         <div class="book-cover">
           <a href="okuyucu/kitap1.01c-anahtarlardan-mantik-kapilarina.html"><img src="kapaklar/kitap1.01c.jpg?v=b4d51770" alt="Anahtarlardan Mantık Kapılarına kapağı" loading="lazy"></a>
-          <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
           <div class="book-bas">
@@ -687,8 +698,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <a class="ek k-dinle" href="okuyucu/kitap1.01c-anahtarlardan-mantik-kapilarina.html#dinle">Dinle</a>
               <a class="ek k-video" href="https://youtu.be/BgZHFp2cQ2w" target="_blank" rel="noopener">Video</a>
-              <a href="kitap1.01c-anahtarlardan-mantik-kapilarina/Anahtarlardan%20Mant%C4%B1k%20Kap%C4%B1lar%C4%B1na.epub" download>E-kitap</a>
-              <a href="kitap1.01c-anahtarlardan-mantik-kapilarina/Anahtarlardan%20Mant%C4%B1k%20Kap%C4%B1lar%C4%B1na.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap1.01c-anahtarlardan-mantik-kapilarina/Anahtarlardan%20Mant%C4%B1k%20Kap%C4%B1lar%C4%B1na.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap1.01c-anahtarlardan-mantik-kapilarina/Anahtarlardan%20Mant%C4%B1k%20Kap%C4%B1lar%C4%B1na.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -696,7 +707,6 @@ footer p{color:var(--muted);font-size:.9rem}
       <article class="book" style="--bg:#267FBA">
         <div class="book-cover">
           <a href="okuyucu/kitap1.02a-milyarlarca-kucuk-anahtar.html"><img src="kapaklar/kitap1.02a.jpg?v=d6e36bd3" alt="Milyarlarca Küçük Anahtar kapağı" loading="lazy"></a>
-          <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
           <div class="book-bas">
@@ -712,8 +722,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <a class="ek k-dinle" href="okuyucu/kitap1.02a-milyarlarca-kucuk-anahtar.html#dinle">Dinle</a>
               <a class="ek k-video" href="https://youtu.be/EW4KrKHO7yE" target="_blank" rel="noopener">Video</a>
-              <a href="kitap1.02a-milyarlarca-kucuk-anahtar/Milyarlarca%20K%C3%BC%C3%A7%C3%BCk%20Anahtar.epub" download>E-kitap</a>
-              <a href="kitap1.02a-milyarlarca-kucuk-anahtar/Milyarlarca%20K%C3%BC%C3%A7%C3%BCk%20Anahtar.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap1.02a-milyarlarca-kucuk-anahtar/Milyarlarca%20K%C3%BC%C3%A7%C3%BCk%20Anahtar.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap1.02a-milyarlarca-kucuk-anahtar/Milyarlarca%20K%C3%BC%C3%A7%C3%BCk%20Anahtar.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -721,7 +731,6 @@ footer p{color:var(--muted);font-size:.9rem}
       <article class="book" style="--bg:#257AB5">
         <div class="book-cover">
           <a href="okuyucu/kitap1.02b-ayni-rakam-baska-deger.html"><img src="kapaklar/kitap1.02b.jpg?v=617d8949" alt="Aynı Rakam, Başka Değer kapağı" loading="lazy"></a>
-          <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
           <div class="book-bas">
@@ -737,8 +746,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <a class="ek k-dinle" href="okuyucu/kitap1.02b-ayni-rakam-baska-deger.html#dinle">Dinle</a>
               <a class="ek k-video" href="https://youtu.be/mvwJCofQKhA" target="_blank" rel="noopener">Video</a>
-              <a href="kitap1.02b-ayni-rakam-baska-deger/Ayn%C4%B1%20Rakam%2C%20Ba%C5%9Fka%20De%C4%9Fer.epub" download>E-kitap</a>
-              <a href="kitap1.02b-ayni-rakam-baska-deger/Ayn%C4%B1%20Rakam%2C%20Ba%C5%9Fka%20De%C4%9Fer.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap1.02b-ayni-rakam-baska-deger/Ayn%C4%B1%20Rakam%2C%20Ba%C5%9Fka%20De%C4%9Fer.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap1.02b-ayni-rakam-baska-deger/Ayn%C4%B1%20Rakam%2C%20Ba%C5%9Fka%20De%C4%9Fer.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -746,7 +755,6 @@ footer p{color:var(--muted);font-size:.9rem}
       <article class="book" style="--bg:#2477B2">
         <div class="book-cover">
           <a href="okuyucu/kitap1.02c-dunyanin-butun-harfleri.html"><img src="kapaklar/kitap1.02c.jpg?v=f3f1a206" alt="Dünyanın Bütün Harfleri kapağı" loading="lazy"></a>
-          <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
           <div class="book-bas">
@@ -762,8 +770,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <a class="ek k-dinle" href="okuyucu/kitap1.02c-dunyanin-butun-harfleri.html#dinle">Dinle</a>
               <a class="ek k-video" href="https://youtu.be/XAbuI0VVdPA" target="_blank" rel="noopener">Video</a>
-              <a href="kitap1.02c-dunyanin-butun-harfleri/D%C3%BCnyan%C4%B1n%20B%C3%BCt%C3%BCn%20Harfleri.epub" download>E-kitap</a>
-              <a href="kitap1.02c-dunyanin-butun-harfleri/D%C3%BCnyan%C4%B1n%20B%C3%BCt%C3%BCn%20Harfleri.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap1.02c-dunyanin-butun-harfleri/D%C3%BCnyan%C4%B1n%20B%C3%BCt%C3%BCn%20Harfleri.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap1.02c-dunyanin-butun-harfleri/D%C3%BCnyan%C4%B1n%20B%C3%BCt%C3%BCn%20Harfleri.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -771,7 +779,6 @@ footer p{color:var(--muted);font-size:.9rem}
       <article class="book" style="--bg:#2375AF">
         <div class="book-cover">
           <a href="okuyucu/kitap1.03-bilgisayarin-bes-arkadasi.html"><img src="kapaklar/kitap1.03.jpg?v=e67f7c01" alt="Bilgisayarın Beş Arkadaşı kapağı" loading="lazy"></a>
-          <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
           <div class="book-bas">
@@ -787,8 +794,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <a class="ek k-dinle" href="okuyucu/kitap1.03-bilgisayarin-bes-arkadasi.html#dinle">Dinle</a>
               <a class="ek k-video" href="https://youtu.be/H7CwdSdkLZk" target="_blank" rel="noopener">Video</a>
-              <a href="kitap1.03-bilgisayarin-bes-arkadasi/Bilgisayar%C4%B1n%20Be%C5%9F%20Arkada%C5%9F%C4%B1.epub" download>E-kitap</a>
-              <a href="kitap1.03-bilgisayarin-bes-arkadasi/Bilgisayar%C4%B1n%20Be%C5%9F%20Arkada%C5%9F%C4%B1.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap1.03-bilgisayarin-bes-arkadasi/Bilgisayar%C4%B1n%20Be%C5%9F%20Arkada%C5%9F%C4%B1.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap1.03-bilgisayarin-bes-arkadasi/Bilgisayar%C4%B1n%20Be%C5%9F%20Arkada%C5%9F%C4%B1.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -796,7 +803,6 @@ footer p{color:var(--muted);font-size:.9rem}
       <article class="book" style="--bg:#216BA3">
         <div class="book-cover">
           <a href="okuyucu/kitap1.04-al-anla-yap.html"><img src="kapaklar/kitap1.04.jpg?v=2048817b" alt="Al, Anla, Yap! kapağı" loading="lazy"></a>
-          <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
           <div class="book-bas">
@@ -812,8 +818,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <a class="ek k-dinle" href="okuyucu/kitap1.04-al-anla-yap.html#dinle">Dinle</a>
               <a class="ek k-video" href="https://youtu.be/JdmV84YzYlE" target="_blank" rel="noopener">Video</a>
-              <a href="kitap1.04-al-anla-yap/Al%2C%20Anla%2C%20Yap%21.epub" download>E-kitap</a>
-              <a href="kitap1.04-al-anla-yap/Al%2C%20Anla%2C%20Yap%21.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap1.04-al-anla-yap/Al%2C%20Anla%2C%20Yap%21.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap1.04-al-anla-yap/Al%2C%20Anla%2C%20Yap%21.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -821,7 +827,6 @@ footer p{color:var(--muted);font-size:.9rem}
       <article class="book" style="--bg:#1E6298">
         <div class="book-cover">
           <a href="okuyucu/kitap1.05-soganin-katmanlari.html"><img src="kapaklar/kitap1.05.jpg?v=f536ef12" alt="Soğanın Katmanları kapağı" loading="lazy"></a>
-          <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
           <div class="book-bas">
@@ -837,8 +842,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <a class="ek k-dinle" href="okuyucu/kitap1.05-soganin-katmanlari.html#dinle">Dinle</a>
               <a class="ek k-video" href="https://youtu.be/SoZvWTBW5Xk" target="_blank" rel="noopener">Video</a>
-              <a href="kitap1.05-soganin-katmanlari/So%C4%9Fan%C4%B1n%20Katmanlar%C4%B1.epub" download>E-kitap</a>
-              <a href="kitap1.05-soganin-katmanlari/So%C4%9Fan%C4%B1n%20Katmanlar%C4%B1.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap1.05-soganin-katmanlari/So%C4%9Fan%C4%B1n%20Katmanlar%C4%B1.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap1.05-soganin-katmanlari/So%C4%9Fan%C4%B1n%20Katmanlar%C4%B1.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -846,7 +851,6 @@ footer p{color:var(--muted);font-size:.9rem}
       <article class="book" style="--bg:#1B588D">
         <div class="book-cover">
           <a href="okuyucu/kitap1.06-moorenun-sihirli-takvimi.html"><img src="kapaklar/kitap1.06.jpg?v=3ec1f237" alt="Moore’un Sihirli Takvimi kapağı" loading="lazy"></a>
-          <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
           <div class="book-bas">
@@ -862,8 +866,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <a class="ek k-dinle" href="okuyucu/kitap1.06-moorenun-sihirli-takvimi.html#dinle">Dinle</a>
               <a class="ek k-video" href="https://youtu.be/_dGJjbYJCZY" target="_blank" rel="noopener">Video</a>
-              <a href="kitap1.06-moorenun-sihirli-takvimi/Moore%27un%20Sihirli%20Takvimi.epub" download>E-kitap</a>
-              <a href="kitap1.06-moorenun-sihirli-takvimi/Moore%27un%20Sihirli%20Takvimi.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap1.06-moorenun-sihirli-takvimi/Moore%27un%20Sihirli%20Takvimi.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap1.06-moorenun-sihirli-takvimi/Moore%27un%20Sihirli%20Takvimi.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -871,7 +875,6 @@ footer p{color:var(--muted);font-size:.9rem}
       <article class="book" style="--bg:#194E81">
         <div class="book-cover">
           <a href="okuyucu/kitap1.07-iki-kardes-risc-ve-cisc.html"><img src="kapaklar/kitap1.07.jpg?v=a888883d" alt="İki Kardeş: RISC ve CISC kapağı" loading="lazy"></a>
-          <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
           <div class="book-bas">
@@ -887,8 +890,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <a class="ek k-dinle" href="okuyucu/kitap1.07-iki-kardes-risc-ve-cisc.html#dinle">Dinle</a>
               <a class="ek k-video" href="https://youtu.be/gwQsvVY5pZs" target="_blank" rel="noopener">Video</a>
-              <a href="kitap1.07-iki-kardes-risc-ve-cisc/%C4%B0ki%20Karde%C5%9F-%20RISC%20ve%20CISC.epub" download>E-kitap</a>
-              <a href="kitap1.07-iki-kardes-risc-ve-cisc/%C4%B0ki%20Karde%C5%9F-%20RISC%20ve%20CISC.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap1.07-iki-kardes-risc-ve-cisc/%C4%B0ki%20Karde%C5%9F-%20RISC%20ve%20CISC.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap1.07-iki-kardes-risc-ve-cisc/%C4%B0ki%20Karde%C5%9F-%20RISC%20ve%20CISC.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -896,7 +899,6 @@ footer p{color:var(--muted);font-size:.9rem}
       <article class="book" style="--bg:#164476">
         <div class="book-cover">
           <a href="okuyucu/kitap1.08-acik-kapi.html"><img src="kapaklar/kitap1.08.jpg?v=2e3c9122" alt="Açık Kapı kapağı" loading="lazy"></a>
-          <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
           <div class="book-bas">
@@ -912,8 +914,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <a class="ek k-dinle" href="okuyucu/kitap1.08-acik-kapi.html#dinle">Dinle</a>
               <a class="ek k-video" href="https://youtu.be/mqXeAl-Xvv0" target="_blank" rel="noopener">Video</a>
-              <a href="kitap1.08-acik-kapi/A%C3%A7%C4%B1k%20Kap%C4%B1.epub" download>E-kitap</a>
-              <a href="kitap1.08-acik-kapi/A%C3%A7%C4%B1k%20Kap%C4%B1.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap1.08-acik-kapi/A%C3%A7%C4%B1k%20Kap%C4%B1.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap1.08-acik-kapi/A%C3%A7%C4%B1k%20Kap%C4%B1.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -921,7 +923,6 @@ footer p{color:var(--muted);font-size:.9rem}
       <article class="book" style="--bg:#143A6A">
         <div class="book-cover">
           <a href="okuyucu/kitap1.09-bilgisayarin-atesi.html"><img src="kapaklar/kitap1.09.jpg?v=e208ca40" alt="Bilgisayarın Ateşi kapağı" loading="lazy"></a>
-          <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
           <div class="book-bas">
@@ -937,8 +938,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <a class="ek k-dinle" href="okuyucu/kitap1.09-bilgisayarin-atesi.html#dinle">Dinle</a>
               <a class="ek k-video" href="https://youtu.be/8DfZLFUr6Sk" target="_blank" rel="noopener">Video</a>
-              <a href="kitap1.09-bilgisayarin-atesi/Bilgisayar%C4%B1n%20Ate%C5%9Fi.epub" download>E-kitap</a>
-              <a href="kitap1.09-bilgisayarin-atesi/Bilgisayar%C4%B1n%20Ate%C5%9Fi.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap1.09-bilgisayarin-atesi/Bilgisayar%C4%B1n%20Ate%C5%9Fi.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap1.09-bilgisayarin-atesi/Bilgisayar%C4%B1n%20Ate%C5%9Fi.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -946,7 +947,6 @@ footer p{color:var(--muted);font-size:.9rem}
       <article class="book" style="--bg:#11305F">
         <div class="book-cover">
           <a href="okuyucu/kitap1.10-bilgisayar-dusunmeyi-ogreniyor.html"><img src="kapaklar/kitap1.10.jpg?v=200c9c09" alt="Bilgisayar Düşünmeyi Öğreniyor kapağı" loading="lazy"></a>
-          <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
           <div class="book-bas">
@@ -962,8 +962,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <a class="ek k-dinle" href="okuyucu/kitap1.10-bilgisayar-dusunmeyi-ogreniyor.html#dinle">Dinle</a>
               <a class="ek k-video" href="https://youtu.be/IipHGQcyM5g" target="_blank" rel="noopener">Video</a>
-              <a href="kitap1.10-bilgisayar-dusunmeyi-ogreniyor/Bilgisayar%20D%C3%BC%C5%9F%C3%BCnmeyi%20%C3%96%C4%9Freniyor.epub" download>E-kitap</a>
-              <a href="kitap1.10-bilgisayar-dusunmeyi-ogreniyor/Bilgisayar%20D%C3%BC%C5%9F%C3%BCnmeyi%20%C3%96%C4%9Freniyor.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap1.10-bilgisayar-dusunmeyi-ogreniyor/Bilgisayar%20D%C3%BC%C5%9F%C3%BCnmeyi%20%C3%96%C4%9Freniyor.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap1.10-bilgisayar-dusunmeyi-ogreniyor/Bilgisayar%20D%C3%BC%C5%9F%C3%BCnmeyi%20%C3%96%C4%9Freniyor.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -971,7 +971,6 @@ footer p{color:var(--muted);font-size:.9rem}
       <article class="book" style="--bg:#0E2A54">
         <div class="book-cover">
           <a href="okuyucu/kitap1.11-bilgisayardan-once.html"><img src="kapaklar/kitap1.11.jpg?v=9fcdead3" alt="Bilgisayardan Önce kapağı" loading="lazy"></a>
-          <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>
         </div>
         <div class="book-meta">
           <div class="book-bas">
@@ -987,8 +986,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <a class="ek k-dinle" href="okuyucu/kitap1.11-bilgisayardan-once.html#dinle">Dinle</a>
               <a class="ek k-video" href="https://youtu.be/OjH6nu0mVqg" target="_blank" rel="noopener">Video</a>
-              <a href="kitap1.11-bilgisayardan-once/Bilgisayardan%20%C3%96nce.epub" download>E-kitap</a>
-              <a href="kitap1.11-bilgisayardan-once/Bilgisayardan%20%C3%96nce.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap1.11-bilgisayardan-once/Bilgisayardan%20%C3%96nce.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap1.11-bilgisayardan-once/Bilgisayardan%20%C3%96nce.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1019,8 +1018,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap2.01-uzaydaki-bilgisayar/Uzaydaki%20Bilgisayar.epub" download>E-kitap</a>
-              <a href="kitap2.01-uzaydaki-bilgisayar/Uzaydaki%20Bilgisayar.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap2.01-uzaydaki-bilgisayar/Uzaydaki%20Bilgisayar.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap2.01-uzaydaki-bilgisayar/Uzaydaki%20Bilgisayar.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1043,8 +1042,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap2.02-davulcu-ve-kurekciler/Davulcu%20ve%20K%C3%BCrek%C3%A7iler.epub" download>E-kitap</a>
-              <a href="kitap2.02-davulcu-ve-kurekciler/Davulcu%20ve%20K%C3%BCrek%C3%A7iler.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap2.02-davulcu-ve-kurekciler/Davulcu%20ve%20K%C3%BCrek%C3%A7iler.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap2.02-davulcu-ve-kurekciler/Davulcu%20ve%20K%C3%BCrek%C3%A7iler.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1067,8 +1066,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap2.03-dunyanin-en-hizli-mutfagi/D%C3%BCnyan%C4%B1n%20En%20H%C4%B1zl%C4%B1%20Mutfa%C4%9F%C4%B1.epub" download>E-kitap</a>
-              <a href="kitap2.03-dunyanin-en-hizli-mutfagi/D%C3%BCnyan%C4%B1n%20En%20H%C4%B1zl%C4%B1%20Mutfa%C4%9F%C4%B1.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap2.03-dunyanin-en-hizli-mutfagi/D%C3%BCnyan%C4%B1n%20En%20H%C4%B1zl%C4%B1%20Mutfa%C4%9F%C4%B1.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap2.03-dunyanin-en-hizli-mutfagi/D%C3%BCnyan%C4%B1n%20En%20H%C4%B1zl%C4%B1%20Mutfa%C4%9F%C4%B1.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1091,8 +1090,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap2.04-corumlu-orhan-ile-edirneli-orhan/%C3%87orumlu%20Orhan%20ile%20Edirneli%20Orhan.epub" download>E-kitap</a>
-              <a href="kitap2.04-corumlu-orhan-ile-edirneli-orhan/%C3%87orumlu%20Orhan%20ile%20Edirneli%20Orhan.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap2.04-corumlu-orhan-ile-edirneli-orhan/%C3%87orumlu%20Orhan%20ile%20Edirneli%20Orhan.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap2.04-corumlu-orhan-ile-edirneli-orhan/%C3%87orumlu%20Orhan%20ile%20Edirneli%20Orhan.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1115,8 +1114,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap2.05-ayakkabi-bagini-hizli-baglasan/Ayakkab%C4%B1%20Ba%C4%9F%C4%B1n%C4%B1%20H%C4%B1zl%C4%B1%20Ba%C4%9Flasan%20Ne%20Olur-.epub" download>E-kitap</a>
-              <a href="kitap2.05-ayakkabi-bagini-hizli-baglasan/Ayakkab%C4%B1%20Ba%C4%9F%C4%B1n%C4%B1%20H%C4%B1zl%C4%B1%20Ba%C4%9Flasan%20Ne%20Olur-.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap2.05-ayakkabi-bagini-hizli-baglasan/Ayakkab%C4%B1%20Ba%C4%9F%C4%B1n%C4%B1%20H%C4%B1zl%C4%B1%20Ba%C4%9Flasan%20Ne%20Olur-.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap2.05-ayakkabi-bagini-hizli-baglasan/Ayakkab%C4%B1%20Ba%C4%9F%C4%B1n%C4%B1%20H%C4%B1zl%C4%B1%20Ba%C4%9Flasan%20Ne%20Olur-.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1139,8 +1138,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap2.06-yaris-pisti/Yar%C4%B1%C5%9F%20Pisti.epub" download>E-kitap</a>
-              <a href="kitap2.06-yaris-pisti/Yar%C4%B1%C5%9F%20Pisti.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap2.06-yaris-pisti/Yar%C4%B1%C5%9F%20Pisti.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap2.06-yaris-pisti/Yar%C4%B1%C5%9F%20Pisti.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1163,8 +1162,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap2.07-altin-cag-ve-duvar/Alt%C4%B1n%20%C3%87a%C4%9F%20ve%20Duvar.epub" download>E-kitap</a>
-              <a href="kitap2.07-altin-cag-ve-duvar/Alt%C4%B1n%20%C3%87a%C4%9F%20ve%20Duvar.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap2.07-altin-cag-ve-duvar/Alt%C4%B1n%20%C3%87a%C4%9F%20ve%20Duvar.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap2.07-altin-cag-ve-duvar/Alt%C4%B1n%20%C3%87a%C4%9F%20ve%20Duvar.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1187,8 +1186,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap2.08-gustafsonun-bahcesi/Gustafson%27un%20Bah%C3%A7esi.epub" download>E-kitap</a>
-              <a href="kitap2.08-gustafsonun-bahcesi/Gustafson%27un%20Bah%C3%A7esi.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap2.08-gustafsonun-bahcesi/Gustafson%27un%20Bah%C3%A7esi.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap2.08-gustafsonun-bahcesi/Gustafson%27un%20Bah%C3%A7esi.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1211,8 +1210,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap2.09-dar-gecit/Dar%20Ge%C3%A7it.epub" download>E-kitap</a>
-              <a href="kitap2.09-dar-gecit/Dar%20Ge%C3%A7it.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap2.09-dar-gecit/Dar%20Ge%C3%A7it.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap2.09-dar-gecit/Dar%20Ge%C3%A7it.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1235,8 +1234,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap2.10-kim-daha-hizli/Kim%20Daha%20H%C4%B1zl%C4%B1-.epub" download>E-kitap</a>
-              <a href="kitap2.10-kim-daha-hizli/Kim%20Daha%20H%C4%B1zl%C4%B1-.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap2.10-kim-daha-hizli/Kim%20Daha%20H%C4%B1zl%C4%B1-.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap2.10-kim-daha-hizli/Kim%20Daha%20H%C4%B1zl%C4%B1-.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1267,8 +1266,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap3.01a-dedigimi-yap/Dedi%C4%9Fimi%20Yap.epub" download>E-kitap</a>
-              <a href="kitap3.01a-dedigimi-yap/Dedi%C4%9Fimi%20Yap.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap3.01a-dedigimi-yap/Dedi%C4%9Fimi%20Yap.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap3.01a-dedigimi-yap/Dedi%C4%9Fimi%20Yap.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1291,8 +1290,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap3.01b-iki-dunyanin-koprusu/%C4%B0ki%20D%C3%BCnyan%C4%B1n%20K%C3%B6pr%C3%BCs%C3%BC.epub" download>E-kitap</a>
-              <a href="kitap3.01b-iki-dunyanin-koprusu/%C4%B0ki%20D%C3%BCnyan%C4%B1n%20K%C3%B6pr%C3%BCs%C3%BC.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap3.01b-iki-dunyanin-koprusu/%C4%B0ki%20D%C3%BCnyan%C4%B1n%20K%C3%B6pr%C3%BCs%C3%BC.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap3.01b-iki-dunyanin-koprusu/%C4%B0ki%20D%C3%BCnyan%C4%B1n%20K%C3%B6pr%C3%BCs%C3%BC.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1315,8 +1314,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap3.02-siranin-ustundeki-kalemler/S%C4%B1ran%C4%B1n%20%C3%9Cst%C3%BCndeki%20Kalemler.epub" download>E-kitap</a>
-              <a href="kitap3.02-siranin-ustundeki-kalemler/S%C4%B1ran%C4%B1n%20%C3%9Cst%C3%BCndeki%20Kalemler.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap3.02-siranin-ustundeki-kalemler/S%C4%B1ran%C4%B1n%20%C3%9Cst%C3%BCndeki%20Kalemler.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap3.02-siranin-ustundeki-kalemler/S%C4%B1ran%C4%B1n%20%C3%9Cst%C3%BCndeki%20Kalemler.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1339,8 +1338,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap3.03-zarfin-ustundeki-bolmeler/Zarf%C4%B1n%20%C3%9Cst%C3%BCndeki%20B%C3%B6lmeler.epub" download>E-kitap</a>
-              <a href="kitap3.03-zarfin-ustundeki-bolmeler/Zarf%C4%B1n%20%C3%9Cst%C3%BCndeki%20B%C3%B6lmeler.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap3.03-zarfin-ustundeki-bolmeler/Zarf%C4%B1n%20%C3%9Cst%C3%BCndeki%20B%C3%B6lmeler.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap3.03-zarfin-ustundeki-bolmeler/Zarf%C4%B1n%20%C3%9Cst%C3%BCndeki%20B%C3%B6lmeler.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1363,8 +1362,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap3.04-parkta-kavsak/Parkta%20Kav%C5%9Fak.epub" download>E-kitap</a>
-              <a href="kitap3.04-parkta-kavsak/Parkta%20Kav%C5%9Fak.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap3.04-parkta-kavsak/Parkta%20Kav%C5%9Fak.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap3.04-parkta-kavsak/Parkta%20Kav%C5%9Fak.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1387,8 +1386,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap3.05-mektup-fabrikasi/Mektup%20Fabrikas%C4%B1.epub" download>E-kitap</a>
-              <a href="kitap3.05-mektup-fabrikasi/Mektup%20Fabrikas%C4%B1.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap3.05-mektup-fabrikasi/Mektup%20Fabrikas%C4%B1.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap3.05-mektup-fabrikasi/Mektup%20Fabrikas%C4%B1.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1411,8 +1410,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap3.06-toplama-makinesi/Toplama%20Makinesi.epub" download>E-kitap</a>
-              <a href="kitap3.06-toplama-makinesi/Toplama%20Makinesi.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap3.06-toplama-makinesi/Toplama%20Makinesi.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap3.06-toplama-makinesi/Toplama%20Makinesi.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1435,8 +1434,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap3.07-sihirli-maskeler/Sihirli%20Maskeler.epub" download>E-kitap</a>
-              <a href="kitap3.07-sihirli-maskeler/Sihirli%20Maskeler.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap3.07-sihirli-maskeler/Sihirli%20Maskeler.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap3.07-sihirli-maskeler/Sihirli%20Maskeler.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1459,8 +1458,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap3.08-sifirin-gucu/S%C4%B1f%C4%B1r%C4%B1n%20G%C3%BCc%C3%BC.epub" download>E-kitap</a>
-              <a href="kitap3.08-sifirin-gucu/S%C4%B1f%C4%B1r%C4%B1n%20G%C3%BCc%C3%BC.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap3.08-sifirin-gucu/S%C4%B1f%C4%B1r%C4%B1n%20G%C3%BCc%C3%BC.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap3.08-sifirin-gucu/S%C4%B1f%C4%B1r%C4%B1n%20G%C3%BCc%C3%BC.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1483,8 +1482,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap3.09-kulelerin-oyunu/Kulelerin%20Oyunu.epub" download>E-kitap</a>
-              <a href="kitap3.09-kulelerin-oyunu/Kulelerin%20Oyunu.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap3.09-kulelerin-oyunu/Kulelerin%20Oyunu.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap3.09-kulelerin-oyunu/Kulelerin%20Oyunu.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1507,8 +1506,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap3.10a-tasiyicilar/Ta%C5%9F%C4%B1y%C4%B1c%C4%B1lar.epub" download>E-kitap</a>
-              <a href="kitap3.10a-tasiyicilar/Ta%C5%9F%C4%B1y%C4%B1c%C4%B1lar.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap3.10a-tasiyicilar/Ta%C5%9F%C4%B1y%C4%B1c%C4%B1lar.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap3.10a-tasiyicilar/Ta%C5%9F%C4%B1y%C4%B1c%C4%B1lar.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1531,8 +1530,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap3.10b-programin-bellekteki-mahallesi/Program%C4%B1n%20Bellekteki%20Mahallesi.epub" download>E-kitap</a>
-              <a href="kitap3.10b-programin-bellekteki-mahallesi/Program%C4%B1n%20Bellekteki%20Mahallesi.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap3.10b-programin-bellekteki-mahallesi/Program%C4%B1n%20Bellekteki%20Mahallesi.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap3.10b-programin-bellekteki-mahallesi/Program%C4%B1n%20Bellekteki%20Mahallesi.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1555,8 +1554,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap3.11-dedektif-bilge-ve-kayip-sonuc/Dedektif%20Bilge%20ve%20Kay%C4%B1p%20Sonu%C3%A7.epub" download>E-kitap</a>
-              <a href="kitap3.11-dedektif-bilge-ve-kayip-sonuc/Dedektif%20Bilge%20ve%20Kay%C4%B1p%20Sonu%C3%A7.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap3.11-dedektif-bilge-ve-kayip-sonuc/Dedektif%20Bilge%20ve%20Kay%C4%B1p%20Sonu%C3%A7.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap3.11-dedektif-bilge-ve-kayip-sonuc/Dedektif%20Bilge%20ve%20Kay%C4%B1p%20Sonu%C3%A7.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1587,8 +1586,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap4.01a-eldenin-yolculugu/Eldenin%20Yolculu%C4%9Fu.epub" download>E-kitap</a>
-              <a href="kitap4.01a-eldenin-yolculugu/Eldenin%20Yolculu%C4%9Fu.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap4.01a-eldenin-yolculugu/Eldenin%20Yolculu%C4%9Fu.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap4.01a-eldenin-yolculugu/Eldenin%20Yolculu%C4%9Fu.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1611,8 +1610,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap4.01b-yonganin-eksi-derdi/Yonga%27n%C4%B1n%20Eksi%20Derdi.epub" download>E-kitap</a>
-              <a href="kitap4.01b-yonganin-eksi-derdi/Yonga%27n%C4%B1n%20Eksi%20Derdi.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap4.01b-yonganin-eksi-derdi/Yonga%27n%C4%B1n%20Eksi%20Derdi.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap4.01b-yonganin-eksi-derdi/Yonga%27n%C4%B1n%20Eksi%20Derdi.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1635,8 +1634,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap4.02-cok-yonlu-alet-amb/%C3%87ok%20Y%C3%B6nl%C3%BC%20Alet-%20AMB.epub" download>E-kitap</a>
-              <a href="kitap4.02-cok-yonlu-alet-amb/%C3%87ok%20Y%C3%B6nl%C3%BC%20Alet-%20AMB.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap4.02-cok-yonlu-alet-amb/%C3%87ok%20Y%C3%B6nl%C3%BC%20Alet-%20AMB.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap4.02-cok-yonlu-alet-amb/%C3%87ok%20Y%C3%B6nl%C3%BC%20Alet-%20AMB.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1659,8 +1658,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap4.03-uzun-isler-carpma-bolme/Uzun%20%C4%B0%C5%9Fler-%20%C3%87arpma%20ve%20B%C3%B6lme.epub" download>E-kitap</a>
-              <a href="kitap4.03-uzun-isler-carpma-bolme/Uzun%20%C4%B0%C5%9Fler-%20%C3%87arpma%20ve%20B%C3%B6lme.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap4.03-uzun-isler-carpma-bolme/Uzun%20%C4%B0%C5%9Fler-%20%C3%87arpma%20ve%20B%C3%B6lme.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap4.03-uzun-isler-carpma-bolme/Uzun%20%C4%B0%C5%9Fler-%20%C3%87arpma%20ve%20B%C3%B6lme.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1683,8 +1682,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap4.04a-virgulun-dansi/Virg%C3%BCl%C3%BCn%20Dans%C4%B1.epub" download>E-kitap</a>
-              <a href="kitap4.04a-virgulun-dansi/Virg%C3%BCl%C3%BCn%20Dans%C4%B1.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap4.04a-virgulun-dansi/Virg%C3%BCl%C3%BCn%20Dans%C4%B1.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap4.04a-virgulun-dansi/Virg%C3%BCl%C3%BCn%20Dans%C4%B1.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1707,8 +1706,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap4.04b-bir-bit-nasil-hatirlar/Bir%20Bit%20Nas%C4%B1l%20Hat%C4%B1rlar-.epub" download>E-kitap</a>
-              <a href="kitap4.04b-bir-bit-nasil-hatirlar/Bir%20Bit%20Nas%C4%B1l%20Hat%C4%B1rlar-.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap4.04b-bir-bit-nasil-hatirlar/Bir%20Bit%20Nas%C4%B1l%20Hat%C4%B1rlar-.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap4.04b-bir-bit-nasil-hatirlar/Bir%20Bit%20Nas%C4%B1l%20Hat%C4%B1rlar-.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1731,8 +1730,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap4.05-veri-yolu-fabrikasi/Veri%20Yolu%20Fabrikas%C4%B1.epub" download>E-kitap</a>
-              <a href="kitap4.05-veri-yolu-fabrikasi/Veri%20Yolu%20Fabrikas%C4%B1.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap4.05-veri-yolu-fabrikasi/Veri%20Yolu%20Fabrikas%C4%B1.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap4.05-veri-yolu-fabrikasi/Veri%20Yolu%20Fabrikas%C4%B1.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1755,8 +1754,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap4.06-bir-buyrugun-yolculugu/Bir%20Buyru%C4%9Fun%20Yolculu%C4%9Fu.epub" download>E-kitap</a>
-              <a href="kitap4.06-bir-buyrugun-yolculugu/Bir%20Buyru%C4%9Fun%20Yolculu%C4%9Fu.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap4.06-bir-buyrugun-yolculugu/Bir%20Buyru%C4%9Fun%20Yolculu%C4%9Fu.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap4.06-bir-buyrugun-yolculugu/Bir%20Buyru%C4%9Fun%20Yolculu%C4%9Fu.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1779,8 +1778,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap4.07-orkestra-sefi-denetim-birimi/Orkestra%20%C5%9Eefi-%20Denetim%20Birimi.epub" download>E-kitap</a>
-              <a href="kitap4.07-orkestra-sefi-denetim-birimi/Orkestra%20%C5%9Eefi-%20Denetim%20Birimi.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap4.07-orkestra-sefi-denetim-birimi/Orkestra%20%C5%9Eefi-%20Denetim%20Birimi.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap4.07-orkestra-sefi-denetim-birimi/Orkestra%20%C5%9Eefi-%20Denetim%20Birimi.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1803,8 +1802,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap4.08-tek-vurusta/Tek%20Vuru%C5%9Fta.epub" download>E-kitap</a>
-              <a href="kitap4.08-tek-vurusta/Tek%20Vuru%C5%9Fta.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap4.08-tek-vurusta/Tek%20Vuru%C5%9Fta.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap4.08-tek-vurusta/Tek%20Vuru%C5%9Fta.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1827,8 +1826,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap4.09-adim-adim/Ad%C4%B1m%20Ad%C4%B1m.epub" download>E-kitap</a>
-              <a href="kitap4.09-adim-adim/Ad%C4%B1m%20Ad%C4%B1m.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap4.09-adim-adim/Ad%C4%B1m%20Ad%C4%B1m.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap4.09-adim-adim/Ad%C4%B1m%20Ad%C4%B1m.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1851,8 +1850,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap4.10-icindeki-minik-buyruklar/%C4%B0%C3%A7indeki%20Minik%20Buyruklar.epub" download>E-kitap</a>
-              <a href="kitap4.10-icindeki-minik-buyruklar/%C4%B0%C3%A7indeki%20Minik%20Buyruklar.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap4.10-icindeki-minik-buyruklar/%C4%B0%C3%A7indeki%20Minik%20Buyruklar.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap4.10-icindeki-minik-buyruklar/%C4%B0%C3%A7indeki%20Minik%20Buyruklar.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>
@@ -1875,8 +1874,8 @@ footer p{color:var(--muted);font-size:.9rem}
             <div class="book-dl">
               <span class="yer k-dinle" aria-hidden="true">Dinle</span>
               <span class="yer k-video" aria-hidden="true">Video</span>
-              <a href="kitap4.11-bir-seferde-kac-bit/Bir%20Seferde%20Ka%C3%A7%20Bit-.epub" download>E-kitap</a>
-              <a href="kitap4.11-bir-seferde-kac-bit/Bir%20Seferde%20Ka%C3%A7%20Bit-.pdf" target="_blank" rel="noopener">PDF</a>
+              <a class="k-epub" href="kitap4.11-bir-seferde-kac-bit/Bir%20Seferde%20Ka%C3%A7%20Bit-.epub" download>E-kitap</a>
+              <a class="k-pdf" href="kitap4.11-bir-seferde-kac-bit/Bir%20Seferde%20Ka%C3%A7%20Bit-.pdf" target="_blank" rel="noopener">PDF</a>
             </div>
           </div>
         </div>

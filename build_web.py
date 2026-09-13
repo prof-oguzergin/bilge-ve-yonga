@@ -1691,7 +1691,8 @@ def _card_html(folder, no, title, sub, glow):
         f'          <a href="{read_href}"><img src="kapaklar/{kapak}.jpg'
         f'{_damga(REPO / "kapaklar" / (kapak + ".jpg"))}" '
         f'alt="{title} kapağı" loading="lazy"></a>\n'
-        + ('          <span class="book-ses" title="Bu kitabın sesli hâli var">🎧 Sesli</span>\n' if ses_var(folder) else '')
+        # Kapaktaki "Sesli" rozeti kaldirildi: Dinle dugmesi ayni bilgiyi veriyor
+        # (Oguz, 14 Eyl 2026).
         + '        </div>\n'
         '        <div class="book-meta">\n'
         '          <div class="book-bas">\n'
@@ -1718,8 +1719,8 @@ def _card_html(folder, no, title, sub, glow):
            'target="_blank" rel="noopener">Video</a>\n'
            if folder in VIDEOLAR else
            '              <span class="yer k-video" aria-hidden="true">Video</span>\n')
-        + f'              <a href="{epub_href}" download>E-kitap</a>\n'
-        f'              <a href="{pdf_href}" target="_blank" rel="noopener">PDF</a>\n'
+        + f'              <a class="k-epub" href="{epub_href}" download>E-kitap</a>\n'
+        f'              <a class="k-pdf" href="{pdf_href}" target="_blank" rel="noopener">PDF</a>\n'
         '            </div>\n'
         '          </div>\n'
         '        </div>\n'
