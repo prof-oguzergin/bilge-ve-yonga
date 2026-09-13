@@ -4,10 +4,10 @@
  * kitapların çevrimdışı açılmasını sağlamak. Uygulama mağazası yok,
  * hesap yok, ölçüm yok.
  *
- * Bu dosya build_web.py tarafından fa9a79370f damgası değiştirilerek
+ * Bu dosya build_web.py tarafından a2fffee52d damgası değiştirilerek
  * sw.js olarak yazılır. Sürüm değişince eski önbellekler silinir.
  */
-const SURUM = 'fa9a79370f';
+const SURUM = 'a2fffee52d';
 const KABUK = 'bvy-kabuk-' + SURUM;   // sayfalar ve simgeler
 const ICERIK = 'bvy-icerik-' + SURUM; // okunan kitapların görselleri
 
