@@ -30,7 +30,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 3 — Normal İşlemci Her Şeyi Yapar
 
 **Metin:**
-{Y}"Önce normal işlemciyi tanı; ona CPU denir." dedi Yonga. {Y}"Hani sana tanıttığım İşlemci'yi hatırlıyor musun? O her türlü işi yapabilir: matematik, yazı, resim, ses... Her şeyi o halleder!" Bilge anladı: {B}"Sınıfın her dersine giren öğretmen gibi!"
+{Y}"Önce ana işlemciyi tanı; ona kısaca CPU denir." dedi Yonga. {Y}"Hani sana tanıttığım İşlemci'yi hatırlıyor musun? O her türlü işi yapabilir: matematik, yazı, resim, ses... Her şeyi o halleder!" Bilge anladı: {B}"Sınıfın her dersine giren öğretmen gibi!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Hologramda evrensel öğretmen "CPU" karakteri gösteriliyor — elinde kitap, matematik tahtası, müzik notası ve resim fırçası olan neşeli bir robot öğretmen. Her derse koşuyor ama biraz soluk soluğa. Bilge "ah, o her şeyi öğretiyor!" der gibi başını sallıyor. Sıcak, renkli, sınıf atmosferi.
@@ -60,7 +60,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 6 — Resim Ustası
 
 **Metin:**
-{Y}"GPU resim ve görüntü işlemede çok iyidir." dedi Yonga. {Y}"Aynı anda binlerce küçük işlemi yapar. Oyun grafikleri, filmler, hepsi GPU sayesinde!"
+{Y}"Grafik işlemcisi GPU, resim ve görüntü işlemede çok iyidir." dedi Yonga. {Y}"Aynı anda binlerce küçük işlemi yapar. Oyun grafikleri, filmler, hepsi GPU sayesinde!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. GPU karakteri geniş bir stüdyoda çalışıyor; aynı anda yüzlerce küçük resim tuvaline fırça vuruyor — kopyası olmayan yüzlerce kolu var gibi. Rengarenk piksel bulutları etrafında uçuşuyor. Ekranda muhteşem bir oyun grafiği oluşuyor. Bilge ve Yonga büyülenmişçesine izliyor. Canlı mor, mavi ve turuncu tonlar; sanatsal ve dinamik enerji.
@@ -80,7 +80,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 8 — Yapay Zeka Hocası
 
 **Metin:**
-{Y}"TPU, yapay zekayı öğretmek için tasarlanmış." dedi Yonga. {Y}"Öğrenmenin gerektirdiği hesapları herkesten hızlı yapar. Binlerce örnek arasındaki ortak deseni bulmak da böyle çabuklaşır." Bilge sordu: {B}"Öğrenmek mi? Bilgisayar da öğreniyor mu?"
+{Y}"Yapay zeka işlemcisi TPU, yapay zekayı öğretmek için tasarlanmış." dedi Yonga. {Y}"Öğrenmenin gerektirdiği hesapları herkesten hızlı yapar. Binlerce örnek arasındaki ortak deseni bulmak da böyle çabuklaşır." Bilge sordu: {B}"Öğrenmek mi? Bilgisayar da öğreniyor mu?"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. TPU karakteri büyük bir sınıf tahtasının önünde — tahta üzerinde birbirine bağlı düğümlerden oluşan bir sinir ağı çizimi var (beyne benzer bir ağ). TPU sayısız bağlantıyı hızla güçlendiriyor. Bilge hayretle bakıyor: "Bu bilgisayar beyne benziyor!" diye düşünce balonunda. Mor, mavi ve altın tonlar; beyin ve öğrenme metaforu.
@@ -100,7 +100,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 10 — Telefon Dehası
 
 **Metin:**
-{Y}"NPU ise telefonun içinde yaşar." dedi Yonga. {Y}"Yüzünü tanır, sesini anlar, fotoğrafını güzelleştirir, hepsini çok az enerjiyle yapar!" Bilge hatırladı: {B}"Telefonlar enerjiyi çok dikkatli kullanır demiştin! Peki beni tanıyor mu?" Yonga sevinçle ışıldadı: {Y}"Elbette! Yüzünü tanıyan işte o NPU. Telefonuna baktığın anda seni tanıyıp kilidi açıyor."
+{Y}"NPU ise telefonun içinde yaşayan küçük yapay zeka işlemcisidir." dedi Yonga. {Y}"Yüzünü tanır, sesini anlar, fotoğrafını güzelleştirir, hepsini çok az enerjiyle yapar!" Bilge hatırladı: {B}"Telefonlar enerjiyi çok dikkatli kullanır demiştin! Peki beni tanıyor mu?" Yonga sevinçle ışıldadı: {Y}"Elbette! Yüzünü tanıyan işte o NPU. Telefonuna baktığın anda seni tanıyıp kilidi açıyor."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. NPU karakteri küçük ama çok zeki görünümlü; telefonun içinde oturmuş. Aynı anda üç şey yapıyor: yüz tanıma (ekranda Bilge'nin yüzü eşleşiyor), ses tanıma (ses dalgaları analiz ediliyor), fotoğraf güzelleme (fotoğraf parlaklığı artıyor). Altında pil göstergesi yeşil ve dolu — az enerji harcıyor. Bilge telefonuna bakıp "içinde biri var!" der gibi güliyor. Yeşil, mavi ve altın tonlar.
