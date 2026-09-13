@@ -90,10 +90,10 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 9 — Çok Çekirdek Çözümü
 
 **Metin:**
-{Y}"Başka bir çözüm daha buldular." dedi Yonga. {Y}"Tek hızlı işlemci yerine birkaç sakin işlemci yan yana koydular! Buna **çok çekirdek** denir." Bilge güldü: {B}"Bir koşucu yerine birkaç yürüyüşçü!"
+{Y}"Başka bir çözüm daha buldular." dedi Yonga. {Y}"Tek hızlı çekirdek yerine, bir yonganın içine birkaç sakin çekirdek koydular! Buna **çok çekirdek** denir." Bilge güldü: {B}"Bir koşucu yerine birkaç yürüyüşçü!"
 
 **Resim:**
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga hologramda iki sahne gösteriyor: soldaki tek dev işlemci dumanlar tüttürerek neredeyse erimek üzere; sağdaki dört küçük işlemci yan yana sakin sakin çalışıyor, yüzlerinde gülümser ifadeler var. Bilge dört küçük işlemciyi görünce "ah, akıllı!" der gibi parmağını şakağına götürüyor. Mavi ve yeşil renkler; takım çalışması ve verimlilik hissi.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga hologramda iki sahne gösteriyor: soldaki tek dev işlemci dumanlar tüttürerek neredeyse erimek üzere; sağda tek bir yonganın içinde dört küçük çekirdek sakin sakin çalışıyor, yüzlerinde gülümser ifadeler var. Bilge yonganın içindeki dört çekirdeği görünce "ah, akıllı!" der gibi parmağını şakağına götürüyor. Mavi ve yeşil renkler; takım çalışması ve verimlilik hissi.
 
 ---
 
