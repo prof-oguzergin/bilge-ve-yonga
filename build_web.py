@@ -1836,11 +1836,10 @@ CILTLER = {
     '1': {'doi': '10.5281/zenodo.21725876', 'kayit': 22737378, 'isbn': '978-625-00-4591-6',
           'dosya': 'Bilge ve Yonga - Cilt 1 - Kumdan Bilgisayara.pdf',
           'sayfa': 249, 'mb': 45,
-          # YouTube programinin sezonu: cildin kitaplari sirali bolumler olarak.
-          # 1.02b-1.11 videolari herkese acik olunca asagidaki satir acilir
-          # (Oguz, 14 Eyl 2026): programda simdilik yalniz 4 bolum gorunuyor.
-          # 'dizi': 'https://www.youtube.com/show/VLPLBjH1msvm7uc', 'sezon': 1,
-          },
+          # Bilge ve Yonga kanalindaki cildin oynatma listesi (14 Eyl 2026). Yeni
+          # kanal program ozelligine uygun degil; liste ayni sirayla oynatir.
+          'dizi': 'https://www.youtube.com/playlist?list=PLXeXhhkVIlyE',
+          'dizi_ad': 'Kumdan Bilgisayara'},
     '2': {'doi': '10.5281/zenodo.21725924', 'kayit': 21936797, 'isbn': '978-625-90813-0-4',
           'dosya': 'Bilge ve Yonga - Cilt 2 - Hız ve Güç.pdf',
           'sayfa': 170, 'mb': 34},
@@ -1921,8 +1920,8 @@ def build_ciltler():
             p.append('        <a class="cilt-btn" href="{}">Cildi indir</a>'.format(indir))
             if c.get('dizi'):
                 p.append('        <a class="cilt-btn cilt-btn-dizi" href="{}" target="_blank" '
-                         'rel="noopener">YouTube’da izle: {}. Sezon</a>'
-                         .format(c['dizi'], c['sezon']))
+                         'rel="noopener">YouTube’da izle</a>'
+                         .format(c['dizi']))
             p.append('      </div>')
         else:
             p.append('      <p class="cilt-doi cilt-bekliyor">DOI alma süreci '
