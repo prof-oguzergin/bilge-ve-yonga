@@ -15,24 +15,26 @@ OKU = REPO / 'okuyucu'
 # okuyucuda Dinle dugmesi, kartta rozet cikar. YouTube kaydi olan kitaplar
 # asagidaki esleme ile baglanir (anahtar: kitap klasoru, deger: video kimligi).
 # Butun sesli kitaplarin YouTube oynatma listesi (sarki + kitaplar).
-OYNATMA_LISTESI = 'https://www.youtube.com/playlist?list=PLdwj50-HbzTo'
+# Bilge ve Yonga'nin kendi YouTube kanali (14 Eyl 2026'da acildi; videolar
+# Oguz Ergin kanalindan buraya yeniden yuklendi). Degisken adi eski kaldi.
+OYNATMA_LISTESI = 'https://www.youtube.com/@BilgeveYonga/videos'
 
 VIDEOLAR = {
-    'kitap1.01a-kumdan-bilgisayar': 'ZQuPAhBu--U',
-    'kitap1.01b-bazen-gecer-bazen-gecmez': 'ftslnJqKkuM',
-    'kitap1.01c-anahtarlardan-mantik-kapilarina': 'BgZHFp2cQ2w',
-    'kitap1.02a-milyarlarca-kucuk-anahtar': 'EW4KrKHO7yE',
-    'kitap1.02b-ayni-rakam-baska-deger': 'mvwJCofQKhA',
-    'kitap1.02c-dunyanin-butun-harfleri': 'XAbuI0VVdPA',
-    'kitap1.03-bilgisayarin-bes-arkadasi': 'H7CwdSdkLZk',
-    'kitap1.04-al-anla-yap': 'JdmV84YzYlE',
-    'kitap1.05-soganin-katmanlari': 'SoZvWTBW5Xk',
-    'kitap1.06-moorenun-sihirli-takvimi': '_dGJjbYJCZY',
-    'kitap1.07-iki-kardes-risc-ve-cisc': 'gwQsvVY5pZs',
-    'kitap1.08-acik-kapi': 'mqXeAl-Xvv0',
-    'kitap1.09-bilgisayarin-atesi': '8DfZLFUr6Sk',
-    'kitap1.10-bilgisayar-dusunmeyi-ogreniyor': 'IipHGQcyM5g',
-    'kitap1.11-bilgisayardan-once': 'OjH6nu0mVqg',
+    'kitap1.01a-kumdan-bilgisayar': 'qlI4n8THgG4',
+    'kitap1.01b-bazen-gecer-bazen-gecmez': 'OQS1vH5okok',
+    'kitap1.01c-anahtarlardan-mantik-kapilarina': 'SoJoh4hLj_Y',
+    'kitap1.02a-milyarlarca-kucuk-anahtar': '6emk-ZD8arw',
+    'kitap1.02b-ayni-rakam-baska-deger': 'Y0l9LQoCdT0',
+    'kitap1.02c-dunyanin-butun-harfleri': 'j8TD4jTexkg',
+    'kitap1.03-bilgisayarin-bes-arkadasi': 'xP7tIe2KC8w',
+    'kitap1.04-al-anla-yap': 'KnaTZ0G6xt8',
+    'kitap1.05-soganin-katmanlari': 'eTDUZVuwkgM',
+    'kitap1.06-moorenun-sihirli-takvimi': 'ozy-OI4MtNY',
+    'kitap1.07-iki-kardes-risc-ve-cisc': 'yP7qgkfpYnk',
+    'kitap1.08-acik-kapi': 'Qz2DnFxwVSs',
+    'kitap1.09-bilgisayarin-atesi': 'BHDo1eDEeOM',
+    'kitap1.10-bilgisayar-dusunmeyi-ogreniyor': '03jnMfqmQJk',
+    'kitap1.11-bilgisayardan-once': 'fGS4g1zHS5s',
 }
 
 
@@ -1592,7 +1594,7 @@ def _video_html(folder):
             '▶ Bu kitabı YouTube\'da dinle</a>\n'
             '    <p>Sesli hâli, sayfa sayfa. Arka planda dinlemek için uygun. '
             '<a href="%s" target="_blank" rel="noopener">Bütün videolar</a> '
-            'bir oynatma listesinde.</p>\n'
+            'Bilge ve Yonga kanalında.</p>\n'
             '  </div>\n') % (vid, OYNATMA_LISTESI)
 
 
