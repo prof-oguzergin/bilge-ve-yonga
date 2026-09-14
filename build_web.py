@@ -17,7 +17,7 @@ OKU = REPO / 'okuyucu'
 # Butun sesli kitaplarin YouTube oynatma listesi (sarki + kitaplar).
 # Bilge ve Yonga'nin kendi YouTube kanali (14 Eyl 2026'da acildi; videolar
 # Oguz Ergin kanalindan buraya yeniden yuklendi). Degisken adi eski kaldi.
-OYNATMA_LISTESI = 'https://www.youtube.com/@BilgeveYonga/videos'
+OYNATMA_LISTESI = 'https://www.youtube.com/@BilgeveYonga'
 
 VIDEOLAR = {
     'kitap1.01a-kumdan-bilgisayar': 'qlI4n8THgG4',
