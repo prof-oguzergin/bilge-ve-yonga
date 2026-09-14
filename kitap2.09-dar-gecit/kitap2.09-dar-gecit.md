@@ -1,7 +1,7 @@
 # Dar Geçit
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 2: Hız ve Güç — Kitap 2.9
-**Yaş grubu:** 7–10 (okuma bilen)
+**Yaş grubu:** 7–12 (okuma bilen)
 **Ana tema:** Bellek duvarı: işlemci hızlı ama bellek yavaş
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, gözlüklü kız) ve Yonga (küçük, yuvarlak, mavi-gümüş renkli sevimli robot)
 

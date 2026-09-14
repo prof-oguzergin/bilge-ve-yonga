@@ -1,7 +1,7 @@
 # Yonga'nın Eksi Derdi
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 4: İşlemcinin İçi — Kitap 4.1b
-**Yaş grubu:** 9–12 (okuma bilen)
+**Yaş grubu:** 7–12 (okuma bilen)
 **Ana tema:** Bilgisayarda eksi işareti yoktur; bir sayının eksisi, o sayıya eklendiğinde sıfır veren bit örüntüsüdür. Sayaç sıfırdan geriye dönünce bu örüntü ortaya çıkar, kısa yolu bitleri ters çevirip bir eklemektir ve adı ikiye tümleyendir.
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, yuvarlak gözlüklü meraklı kız) ve Yonga (küçük, yuvarlak, mavi-gümüş renkli sevimli robot)
 

@@ -1,7 +1,7 @@
 # Bazen Geçer, Bazen Geçmez
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 1: Kumdan Bilgisayara — Kitap 1.1b
-**Yaş grubu:** 7–10 (okuma bilen)
+**Yaş grubu:** 7–12 (okuma bilen)
 **Ana tema:** Silisyum neden seçildi? Kimi madde elektriği hep geçirir, kimi hiç geçirmez; silisyum ise ne zaman geçireceğine karar verilebilen bir maddedir. Denetlenebilir bu geçit, transistörün ta kendisidir.
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, yuvarlak gözlüklü meraklı bir kız) ve Yonga (küçük, yuvarlak, mavi-gümüş renkli bir robot; anlatmayı sever, hiç acele etmez)
 

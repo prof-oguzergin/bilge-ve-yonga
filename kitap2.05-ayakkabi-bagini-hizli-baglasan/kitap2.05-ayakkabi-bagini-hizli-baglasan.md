@@ -2,7 +2,7 @@
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 2: Hız ve Güç — Kitap 2.5
 **Ana tema:** Amdahl Yasası: Darboğazı Hızlandırmak
-**Yaş grubu:** 7–10 (okuma bilen)
+**Yaş grubu:** 7–12 (okuma bilen)
 
 **Karakterler:**
 - Bilge: 8 yaşında, kıvırcık kahverengi saçlı, gözlüklü kız

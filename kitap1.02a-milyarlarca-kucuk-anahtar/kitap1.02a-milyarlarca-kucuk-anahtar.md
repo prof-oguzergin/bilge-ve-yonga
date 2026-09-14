@@ -1,7 +1,7 @@
 # Milyarlarca Küçük Anahtar
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 1: Kumdan Bilgisayara — Kitap 1.2a
-**Yaş grubu:** 7–10 (okuma bilen)
+**Yaş grubu:** 7–12 (okuma bilen)
 **Ana tema:** Transistörler küçük anahtarlardır; ikili sistem (0 ve 1)
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, gözlüklü kız) ve Yonga (küçük, yuvarlak, mavi-gümüş renkli sevimli robot)
 

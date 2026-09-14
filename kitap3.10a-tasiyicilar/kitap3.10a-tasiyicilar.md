@@ -1,7 +1,7 @@
 # Taşıyıcılar
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 3: Buyrukların Dünyası — Kitap 3.10
-**Yaş grubu:** 9–12 (okuma bilen)
+**Yaş grubu:** 7–12 (okuma bilen)
 **Ana tema:** Veri aktarma buyrukları (YÜKLE/SAKLA, İngilizcesi load/store): bellekten yazmaca, yazmaçtan belleğe
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, gözlüklü kız) ve Yonga (küçük, yuvarlak, mavi-gümüş renkli sevimli robot)
 

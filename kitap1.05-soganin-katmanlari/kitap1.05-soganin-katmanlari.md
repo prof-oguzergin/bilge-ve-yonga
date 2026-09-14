@@ -1,7 +1,7 @@
 # Soğanın Katmanları
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 1: Kumdan Bilgisayara — Kitap 1.5
-**Yaş grubu:** 7–10 (okuma bilen)
+**Yaş grubu:** 7–12 (okuma bilen)
 **Ana tema:** Yazılım katmanları: donanımdan uygulamalara
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, gözlüklü kız), Yonga (küçük, yuvarlak, mavi-gümüş renkli sevimli robot)
 

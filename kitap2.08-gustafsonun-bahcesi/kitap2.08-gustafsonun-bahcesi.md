@@ -1,7 +1,7 @@
 # Gustafson'un Bahçesi
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 2: Hız ve Güç — Kitap 2.8
-**Yaş grubu:** 7–10 (okuma bilen)
+**Yaş grubu:** 7–12 (okuma bilen)
 **Ana tema:** Gustafson Yasası: daha fazla çalışanla daha büyük iş yapmak
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, gözlüklü kız) ve Yonga (küçük, yuvarlak, mavi-gümüş renkli sevimli robot)
 

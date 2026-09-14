@@ -1,7 +1,7 @@
 # Açık Kapı
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 1: Kumdan Bilgisayara — Kitap 1.8
-**Yaş grubu:** 7–10 (okuma bilen)
+**Yaş grubu:** 7–12 (okuma bilen)
 **Ana tema:** RISC-V ve açık kaynak donanım
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, gözlüklü kız) ve Yonga (küçük, yuvarlak, mavi-gümüş renkli sevimli robot)
 

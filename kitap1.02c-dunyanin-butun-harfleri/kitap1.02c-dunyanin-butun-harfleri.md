@@ -1,7 +1,7 @@
 # Dünyanın Bütün Harfleri
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 1: Kumdan Bilgisayara — Kitap 1.2c
-**Yaş grubu:** 7–10 (okuma bilen)
+**Yaş grubu:** 7–12 (okuma bilen)
 **Ana tema:** Unicode ve UTF-8: dünyanın bütün işaretlerine numara vermek ve o numarayı bayta yerleştirmek
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, gözlüklü kız) ve Yonga (küçük, yuvarlak, mavi-gümüş renkli sevimli robot)
 

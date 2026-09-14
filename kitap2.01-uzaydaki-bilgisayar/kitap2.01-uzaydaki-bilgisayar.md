@@ -1,7 +1,7 @@
 # Uzaydaki Bilgisayar
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 2: Hız ve Güç — Kitap 2.1
-**Yaş grubu:** 7–10 (okuma bilen)
+**Yaş grubu:** 7–12 (okuma bilen)
 **Ana tema:** Güvenilirlik, kozmik ışınlar, Mars Curiosity rover
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, gözlüklü kız), Yonga (küçük, yuvarlak, mavi-gümüş renkli sevimli robot)
 

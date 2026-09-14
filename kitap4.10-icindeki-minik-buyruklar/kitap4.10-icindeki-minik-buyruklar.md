@@ -1,7 +1,7 @@
 # İçindeki Minik Buyruklar
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 4: İşlemcinin İçi — Kitap 4.10
-**Yaş grubu:** 9–12 (okuma bilen)
+**Yaş grubu:** 7–12 (okuma bilen)
 **Ana tema:** Bir buyruk, denetim biriminin küçük bir bellekten okuduğu, mikroprogram denen minik adımlar listesiyle yürütülür.
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, yuvarlak gözlüklü meraklı kız) ve Yonga (küçük, yuvarlak, mavi-gümüş robot)
 

@@ -1,7 +1,7 @@
 # Parkta Kavşak
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 3: Buyrukların Dünyası — Kitap 3.4
-**Yaş grubu:** 9–12 (okuma bilen)
+**Yaş grubu:** 7–12 (okuma bilen)
 **Ana tema:** Dallanma ve atlama buyrukları (if-else, döngüler), altyordamlar (fonksiyon çağrısı) ve yığıtlar
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, yuvarlak gözlüklü kız), Yonga (küçük yuvarlak mavi-gümüş robot)
 

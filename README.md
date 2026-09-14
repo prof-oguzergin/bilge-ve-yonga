@@ -1,6 +1,6 @@
 # Bilge ve Yonga — Bilgisayar Mimarisi Çocuk Kitapları
 
-Bilgisayar biliminin temellerini okuma bilen 7-10 yaş çocuklarına hikayelerle anlatan resimli kitap serisi.
+Bilgisayar biliminin temellerini okuma bilen 7-12 yaş çocuklarına hikayelerle anlatan resimli kitap serisi.
 Karakterler: **Bilge** (8 yaşında, meraklı bir kız çocuğu) ve **Yonga** (yongadan doğmuş, süzülen sevimli bir robot).
 
 Seri, Bilge ile Yonga'nın maceraları üzerinden bilgisayarların nasıl çalıştığını anlatır. Yeni kitaplar hazır oldukça bu depoya eklenecektir.

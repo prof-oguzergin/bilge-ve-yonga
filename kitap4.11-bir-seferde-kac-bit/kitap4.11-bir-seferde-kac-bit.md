@@ -1,7 +1,7 @@
 # Bir Seferde Kaç Bit?
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 4: İşlemcinin İçi — Kitap 4.11
-**Yaş grubu:** 9–12 (okuma bilen)
+**Yaş grubu:** 7–12 (okuma bilen)
 **Ana tema:** Bir işlemcinin bir seferde işlediği bit sayısına sözcük boyu denir; bu sayı dörtten sekize, on altıya, otuz ikiye ve altmış dörde çıktı. Adres de bir sayı olduğu için adres yolunun genişliği kaç kutuya ulaşılabileceğini belirler ve iki genişlik aynı olmak zorunda değildir.
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, yuvarlak gözlüklü meraklı kız) ve Yonga (küçük, yuvarlak, mavi-gümüş renkli sevimli robot)
 

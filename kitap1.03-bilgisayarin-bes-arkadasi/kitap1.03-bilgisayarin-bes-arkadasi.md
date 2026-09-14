@@ -1,7 +1,7 @@
 # Bilgisayarın Beş Arkadaşı
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 1: Kumdan Bilgisayara — Kitap 1.3
-**Yaş grubu:** 7–10 (okuma bilen)
+**Yaş grubu:** 7–12 (okuma bilen)
 **Ana tema:** Bilgisayarın beş temel parçası karakter olarak
 **Karakterler:**
 - Bilge (8 yaşında, kıvırcık kahverengi saçlı, gözlüklü kız)

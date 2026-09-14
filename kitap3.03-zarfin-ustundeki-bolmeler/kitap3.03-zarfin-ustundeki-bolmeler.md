@@ -1,7 +1,7 @@
 # Zarfın Üstündeki Bölmeler
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 3: Buyrukların Dünyası — Kitap 3.3
-**Yaş grubu:** 9–12 (okuma bilen)
+**Yaş grubu:** 7–12 (okuma bilen)
 **Ana tema:** Buyruk biçimleri (R, I, S, B, U, J), veri aktarma (yükle/sakla), aritmetik, mantık ve kaydırma buyrukları
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, yuvarlak gözlüklü kız), Yonga (küçük yuvarlak mavi-gümüş robot)
 

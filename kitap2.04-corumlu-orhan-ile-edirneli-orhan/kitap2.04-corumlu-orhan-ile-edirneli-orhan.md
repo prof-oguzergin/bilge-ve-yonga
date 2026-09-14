@@ -1,7 +1,7 @@
 # Çorumlu Orhan ile Edirneli Orhan
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 2: Hız ve Güç — Kitap 2.4
-**Yaş grubu:** 7–10 (okuma bilen)
+**Yaş grubu:** 7–12 (okuma bilen)
 **Ana tema:** Başarım: hız = adım boyu × tempo; işlemcide bir adımda yapılan iş ile saat vuruş sıklığının çarpımı
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, gözlüklü kız) ve Yonga (küçük, yuvarlak, mavi-gümüş renkli sevimli robot)
 

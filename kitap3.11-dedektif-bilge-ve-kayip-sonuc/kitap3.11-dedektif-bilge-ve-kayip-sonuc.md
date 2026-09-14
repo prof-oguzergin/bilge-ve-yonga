@@ -1,7 +1,7 @@
 # Dedektif Bilge ve Kayıp Sonuç
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 3: Buyrukların Dünyası — Kitap 3.11
-**Yaş grubu:** 9–12 (okuma bilen)
+**Yaş grubu:** 7–12 (okuma bilen)
 **Ana tema:** Bir programın neden yanlış sonuç verdiğini bulmak, ipuçlarını sabırla izleyen bir dedektifin işine benzer; buna hata ayıklama denir.
 **Karakterler:** Bilge (8 yaşında, kıvırcık kahverengi saçlı, yuvarlak gözlüklü meraklı bir kız; bu kitapta dedektif olur) ve Yonga (küçük, yuvarlak, mavi-gümüş renkli bir robot; yardımcı dedektif)
 
