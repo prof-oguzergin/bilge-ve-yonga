@@ -83,7 +83,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 {Y}"Bazı uzay araçlarında ise farklı bir yöntem kullanılır." dedi Yonga. {Y}"Aynı işi üç bilgisayar birden yapar ve oylama yapar, tıpkı üç arkadaşın oy vermesi gibi! İki kişi 'evet' derse evet, iki kişi 'hayır' derse hayır!" Bilge güldü. {B}"Demek ki bilgisayarlar da demokratik!" Yonga kıkırdadı. {Y}"Aynen öyle!"
 
 **Resim:**
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Komik bir sınıf oylaması sahnesi: üç küçük robot öğrenci sandalyede oturuyor, biri "Evet" levhası kaldırmış, biri "Hayır" levhası kaldırmış, üçüncüsü kafası karışmış (kırmızı) yine de "Evet" diyor. Öğretmen robotu tahtada "2 > 1 = Çoğunluk!" yazıyor. Bilge ve Yonga altta oturmuş gülümsüyor. Sahne neşeli ve eğitici. Sarı, kırmızı ve yeşil tonları.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Komik bir sınıf oylaması sahnesi: aynı işi yapan aynı modelden üç küçük kutu bilgisayar robot (krem gövde, yeşil ekran yüz, anten) sandalyelerinde oturuyor; ikisi yeşil onaylı, biri kırmızı çarpılı levha kaldırmış, çarpılı olanın yüzü şaşkın. Tahtada iki onay ve bir çarpı; yanında lacivert silindir gövdeli, papyonlu öğretmen robot çubukla gösteriyor. Robotların hiçbiri Yonga'ya benzemiyor. Bilge solda sıranın arkasında sandalyede oturuyor, yanındaki Yonga'yla gülüşüyor; Yonga tahtayı gösteriyor. Sahne neşeli ve eğitici. Sarı, kırmızı ve yeşil tonları.
 
 ---
 
@@ -93,7 +93,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 {Y}"Üçlü sistemden başka yollar da var." dedi Yonga. {Y}"Bazı bilgisayarlar özel kodlar kullanır: eğer bir hata olursa bu kodlar hatayı hem bulur hem düzeltir!" Bilge şaşırdı. {B}"Kendi kendine mi?" {Y}"Evet! Tıpkı sihir gibi, ama aslında matematik!"
 
 **Resim:**
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Büyülü matematik sahnesi: bir bilgisayar ekranı üzerinde 0 ve 1'lerden oluşan bir satır var; bir hata (kırmızı bit) küçük bir büyüteçle tespit ediliyor ve yanında bir sihirli değnek onu düzeltip yeşile dönüştürüyor. Etrafta matematiksel semboller ve yıldız parıltıları. Bilge hayretle bakıyor, Yonga gurur dolu bir ifadeyle açıklıyor. Sahne büyülü ve eğlenceli. Mor, altın ve krem tonları.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Büyülü matematik sahnesi: bir bilgisayar ekranında alt alta iki satır: üstte 0 1 0 0 1 0, dördüncü bit (0) kırmızı ve küçük bir büyüteç onu gösteriyor; altta 0 1 0 1 1 0, aynı sütundaki bit (1) yeşil parlıyor. Aradaki kavisli ok ile Yonga'nın sihirli değneğinin ışığı düzeltmenin aynı bitte yapıldığını gösteriyor. Etrafta matematiksel semboller ve yıldız parıltıları. Bilge hayretle bakıyor, Yonga gurur dolu bir ifadeyle açıklıyor. Sahne büyülü ve eğlenceli. Mor, altın ve krem tonları.
 
 ---
 
