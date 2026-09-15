@@ -1839,7 +1839,9 @@ CILTLER = {
           # Bilge ve Yonga kanalindaki cildin oynatma listesi (14 Eyl 2026). Yeni
           # kanal program ozelligine uygun degil; liste ayni sirayla oynatir.
           'dizi': 'https://www.youtube.com/playlist?list=PLXeXhhkVIlyE',
-          'dizi_ad': 'Kumdan Bilgisayara'},
+          'dizi_ad': 'Kumdan Bilgisayara',
+          # Google Play Kitaplar'da ucretsiz (15 Eyl 2026'da yayina girdi).
+          'play': 'https://play.google.com/store/books/details?id=bAQNEgAAQBAJ'},
     '2': {'doi': '10.5281/zenodo.21725924', 'kayit': 21936797, 'isbn': '978-625-90813-0-4',
           'dosya': 'Bilge ve Yonga - Cilt 2 - Hız ve Güç.pdf',
           'sayfa': 170, 'mb': 34},
@@ -1922,6 +1924,10 @@ def build_ciltler():
                 p.append('        <a class="cilt-btn cilt-btn-dizi" href="{}" target="_blank" '
                          'rel="noopener">YouTube’da izle</a>'
                          .format(c['dizi']))
+            if c.get('play'):
+                p.append('        <a class="cilt-btn cilt-btn-dizi" href="{}" target="_blank" '
+                         'rel="noopener">Google Play’de</a>'
+                         .format(c['play']))
             p.append('      </div>')
         else:
             p.append('      <p class="cilt-doi cilt-bekliyor">DOI alma süreci '

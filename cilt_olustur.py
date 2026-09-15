@@ -267,11 +267,19 @@ def cilt_uret(seri, cilt_adi, doi='', isbn=''):
     c.setKeywords('bilgisayar mimarisi, çocuk kitabı, Bilge ve Yonga, açık erişim, '
                   'CC BY-NC-ND 4.0, Oğuz Ergin, STEM, bilgisayar bilimi, 7-12 yaş, RISC-V')
 
+    # Yer imleri (15 Eyl 2026): Google Play icindekileri bunlardan kuruyor,
+    # yoksa "Bolum 1 ... Bolum 40" diye kendi listesini uyduruyor.
+    def yer_imi(anahtar, baslik):
+        c.bookmarkPage(anahtar)
+        c.addOutlineEntry(baslik, anahtar, level=0)
+
     cilt_kapak(c, seri, cilt_adi, alt, renk, kl)
     c.showPage()
+    yer_imi('kunye', 'Künye')
     cilt_kunye(c, 'Cilt %s: %s' % (seri, cilt_adi), doi, isbn,
                cilt_surumu(seri))
     c.showPage()
+    yer_imi('icindekiler', 'İçindekiler')
     icindekiler(c, cilt_adi, renk, kl)
     c.showPage()
 
@@ -283,6 +291,7 @@ def cilt_uret(seri, cilt_adi, doi='', isbn=''):
         md = list(kd.glob('kitap*.md'))[0]
         meta, pages = po.parse_md(md)
         res = kd / 'resimler'
+        yer_imi('kitap' + no, '%s %s' % (no, baslik))
         po.draw_cover(c, meta, po.find_cover_image(res), no)
         c.showPage()
         sayfa += 1
@@ -305,8 +314,10 @@ def cilt_uret(seri, cilt_adi, doi='', isbn=''):
             c.showPage()
             sayfa += 1
 
+    yer_imi('seriler', 'Bütün seriler')
     po.draw_seriler_ozet_page(c, kl[0][1])
     c.showPage()
+    c.showOutline()
     po.draw_back_cover(c, {'title': 'Cilt %s: %s' % (seri, cilt_adi)}, kl[0][1])
     c.showPage()
     c.save()
