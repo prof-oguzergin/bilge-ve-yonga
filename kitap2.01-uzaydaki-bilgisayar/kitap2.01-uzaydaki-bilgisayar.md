@@ -20,17 +20,17 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 2 — Yonga'nın Sorusu
 
 **Metin:**
-{Y}"Bilge, bilgisayarlar uzayda da çalışıyor biliyor musun?" dedi Yonga. Bilge doğruldu. {B}"Uzayda mı? Nasıl olur?" Yonga'nın gözleri parladı. {Y}"Mars'ta bir robot var, adı Curiosity. Oraya bakalım mı?"
+{Y}"Bilge, bilgisayarlar uzayda da çalışıyor biliyor musun?" dedi Yonga. Bilge doğruldu. {B}"Uzayda mı? Nasıl olur?" Yonga'nın gözleri parladı. {Y}"Mars'ta bir robot var, adı Curiosity. İngilizcede 'merak' demek." Bilge güldü. {B}"Demek o da benim gibi meraklı! Ben ona Merak diyeceğim." {Y}"Olur! Hadi Merak'a bakalım mı?"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bilge doğrulmuş, Yonga'ya meraklı bakıyor; Yonga'nın göğsündeki küçük ekranda Mars'ın kırmızı yüzeyi ve küçük bir rover silüeti görünüyor. Gökyüzünde bir ışık oku Mars'ı işaret ediyor. Bahçe hâlâ karanlık ve yıldızlı. Sahne keşif heyecanı dolu. Kırmızı, lacivert ve turuncu tonları.
 
 ---
 
-## Sayfa 3 — Curiosity Mars'ta
+## Sayfa 3 — Merak Mars'ta
 
 **Metin:**
-Yonga havada kocaman bir hologram açtı: Mars. Kırmızı, tozlu, engin bir çöl. Ortasında altı tekerlekli, kameralar ve kollarla dolu büyük bir robot duruyordu. {Y}"Bu Curiosity!" dedi Yonga. {Y}"2012'den beri Mars'ta dolaşıyor ve hiç yorulmadan çalışıyor."
+Yonga havada kocaman bir hologram açtı: Mars. Kırmızı, tozlu, engin bir çöl. Ortasında altı tekerlekli, kameralar ve kollarla dolu büyük bir robot duruyordu. {Y}"İşte Merak!" dedi Yonga. {Y}"2012'den beri Mars'ta dolaşıyor ve hiç yorulmadan çalışıyor."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Mars yüzeyinin geniş, epik bir görünümü: kırmızı-turuncu toprak ve taşlar, pembe gökyüzü, uzakta dağlar. Merkezde Curiosity rover: altı büyük tekerleği, uzun kol, kameralar ve anten ile detaylı ama çocuksu tarzda çizilmiş. Küçük bir toz bulutu tekerleklerin arkasında. Sahne muhteşem ve macera dolu. Kırmızı, turuncu ve altın tonları.
@@ -40,7 +40,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 4 — Uzun Bir Yolculuk
 
 **Metin:**
-{B}"Curiosity oraya nasıl gitti?" diye sordu Bilge. {Y}"Roketle gitti!" dedi Yonga. {Y}"Aylar süren bir yolculuktu, hem çok uzak hem de çok tehlikeliydi." Bilge ürperdi. {B}"Tehlikeli mi? Neden?" Yonga'nın yüzü ciddileşti. {Y}"Uzay... gizli tehlikelerle dolu."
+{B}"Merak oraya nasıl gitti?" diye sordu Bilge. {Y}"Roketle gitti!" dedi Yonga. {Y}"Aylar süren bir yolculuktu, hem çok uzak hem de çok tehlikeliydi." Bilge ürperdi. {B}"Tehlikeli mi? Neden?" Yonga'nın yüzü ciddileşti. {Y}"Uzay... gizli tehlikelerle dolu."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Uzayda yol alan bir roket: arkasında alev ve duman izi, önünde kocaman yıldızlı uzay. Bir köşede Dünya (mavi-yeşil, küçük) görünüyor, diğer köşede Mars (kırmızı, biraz daha büyük). Roketin yan tarafında küçük Curiosity'nin silueti gösteriliyor (içinde yolculuk ediyor). Sahne destansı ve heyecanlı. Koyu lacivert, turuncu ve metalik gri tonları.
@@ -70,7 +70,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 7 — İki Bilgisayar, Bir Yedek
 
 **Metin:**
-{B}"Peki bilgisayarlar nasıl korunuyor?" diye sordu Bilge. Yonga güldü. {Y}"Curiosity'nin içinde aslında iki bilgisayar var!" dedi. {Y}"Biri çalışırken öbürü sessizce bekler. Çalışan bozulursa, yedek hemen görevi devralır. İş hiç durmaz!"
+{B}"Peki bilgisayarlar nasıl korunuyor?" diye sordu Bilge. Yonga güldü. {Y}"Merak'ın içinde aslında iki bilgisayar var!" dedi. {Y}"Biri çalışırken öbürü sessizce bekler. Çalışan bozulursa, yedek hemen görevi devralır. İş hiç durmaz!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. İki küçük, sevimli bilgisayar yan yana oturmuş, ikisi de Yonga'ya benziyor. Biri parlak yeşil ışıkla çalışıyor ve "Ben çalışıyorum!" diyor, öbürü sakin mavi ışıkla bekliyor ve "Ben yedeğim!" diyor. Aralarında küçük Curiosity rover silueti. Üstte büyük bir "Biri Bozulursa Öbürü Devreye Girer!" başlığı. Sahne güven verici ve anlaşılır. Yeşil, mavi ve gri tonları.
@@ -117,10 +117,10 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 ---
 
-## Sayfa 12 — Curiosity Hâlâ Çalışıyor!
+## Sayfa 12 — Merak Hâlâ Çalışıyor!
 
 **Metin:**
-{Y}"Curiosity şu an da Mars'ta." dedi Yonga saygıyla. {Y}"Yıllar geçti. Kozmik ışınlar geldi geçti, ama o hâlâ çalışıyor." Bilge gökyüzüne baktı. {B}"Süper kahraman gibi!" Yonga güldü. {Y}"Evet, ama süper kahramanı mühendisler yaptı."
+{Y}"Merak şu an da Mars'ta." dedi Yonga saygıyla. {Y}"Yıllar geçti. Kozmik ışınlar geldi geçti, ama o hâlâ çalışıyor." Bilge gökyüzüne baktı. {B}"Süper kahraman gibi!" Yonga güldü. {Y}"Evet, ama süper kahramanı mühendisler yaptı."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Mars'ta alacakaranlık: pembe-turuncu gökyüzü, güneş ufukta batıyor. Curiosity rover ön planda durgun ve kahraman gibi duruyor; arkasında uzun gölgesi uzanıyor. Gökten gelen kozmik ışın oklarından biri gezginin gövdesine ulaşıyor ve küçük bir kıvılcım çıkarıyor; hemen yanındaki iki panelden biri sönük, öbürü yeşil yanıyor. Işın geliyor ama makine çalışmayı sürdürüyor. Sahne epik, onurlu ve duygusal. Kırmızı, turuncu ve altın tonları.
@@ -130,10 +130,10 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 13 — Yıldızlara Veda
 
 **Metin:**
-Bilge battaniyesine uzandı ve tekrar yıldızlara baktı. Ama artık farklı bakıyordu. Orada, milyonlarca kilometre uzakta, küçük bir robot bilgisayar tüm tehlikelere rağmen çalışmaya devam ediyordu. Bilge fısıldadı: {B}"İyi geceler, Curiosity."
+Bilge battaniyesine uzandı ve tekrar yıldızlara baktı. Ama artık farklı bakıyordu. Orada, milyonlarca kilometre uzakta, küçük bir robot bilgisayar tüm tehlikelere rağmen çalışmaya devam ediyordu. Bilge fısıldadı: {B}"İyi geceler, Merak."
 
 **Resim:**
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Gece bahçesinde Bilge battaniyeye uzanmış, gökyüzüne bakıyor; yüzünde huzurlu ve hayalsi bir gülümseme. Yonga yanında oturmuş. Gökyüzünde yıldızların arasında küçük, parlak bir nokta Mars'ı temsil ediyor; o noktanın etrafında minik bir Curiosity silueti. Bilge'nin konuşma balonu: "İyi geceler, Curiosity." Sahne şiirsel, sıcak ve duygusal. Lacivert, mor ve altın tonları.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Gece bahçesinde Bilge battaniyeye uzanmış, gökyüzüne bakıyor; yüzünde huzurlu ve hayalsi bir gülümseme. Yonga yanında oturmuş. Gökyüzünde yıldızların arasında küçük, parlak bir nokta Mars'ı temsil ediyor; o noktanın etrafında minik bir Curiosity silueti. Bilge'nin konuşma balonu: "İyi geceler, Merak." Sahne şiirsel, sıcak ve duygusal. Lacivert, mor ve altın tonları.
 
 ---
 
@@ -141,11 +141,11 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 ## Bugün Ne Öğrendik?
 
-🛰️ Uzaydaki bilgisayarlar (Mars'taki **Curiosity** gibi) **kozmik ışınlara** karşı korunmalıdır. Bu enerjik tanecikler bir bilgisayarın içine girip bir 0'ı 1'e ya da bir 1'i 0'a çevirebilir, buna **bit dönüşümü** denir.
+🛰️ Uzaydaki bilgisayarlar (Bilge'nin Merak adını verdiği, Mars'taki **Curiosity** gibi) **kozmik ışınlara** karşı korunmalıdır. Bu enerjik tanecikler bir bilgisayarın içine girip bir 0'ı 1'e ya da bir 1'i 0'a çevirebilir, buna **bit dönüşümü** denir.
 
 🎯 Bir bilgisayarın **güvenilirliği**, hatalar olsa bile doğru çalışmaya devam edebilmesidir. Hızlı olmak yetmez, doğru olmak da gerekir.
 
-🔁 Curiosity'nin içinde iki bilgisayar bulunur. Biri çalışırken öbürü **yedek** olarak bekler, çalışan bozulursa yedek hemen görevi devralır.
+🔁 Merak'ın içinde iki bilgisayar bulunur. Biri çalışırken öbürü **yedek** olarak bekler, çalışan bozulursa yedek hemen görevi devralır.
 
 🗳️ Bazı uzay araçlarında üç bilgisayar aynı işi yapar ve sonucu **oylama** ile belirler. Çoğunluğun sonucu doğru kabul edilir, tıpkı sınıfta el kaldırıp oy vermek gibi.
 
@@ -161,7 +161,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 1. Kozmik ışın bir bilgisayarın içinde ne yapabilir?
 
-2. Curiosity'nin içinde kaç bilgisayar var, ikincisi ne yapar?
+2. Merak'ın içinde kaç bilgisayar var, ikincisi ne yapar?
 
 3. Üç bilgisayar aynı işi yapınca doğru sonuç nasıl seçilir?
 
