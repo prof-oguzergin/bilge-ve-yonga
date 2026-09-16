@@ -35,6 +35,7 @@ VIDEOLAR = {
     'kitap1.09-bilgisayarin-atesi': 'BHDo1eDEeOM',
     'kitap1.10-bilgisayar-dusunmeyi-ogreniyor': '03jnMfqmQJk',
     'kitap1.11-bilgisayardan-once': 'fGS4g1zHS5s',
+    'kitap2.01-uzaydaki-bilgisayar': 'NpzVxt3G79w',
 }
 
 
