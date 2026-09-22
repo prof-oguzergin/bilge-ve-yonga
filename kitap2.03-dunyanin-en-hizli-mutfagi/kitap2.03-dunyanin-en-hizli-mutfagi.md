@@ -174,7 +174,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 14 — Eve Dönüş
 
 **Metin:**
-Bilge ve Yonga restoranın önüne çıktılar, mideleri doymuş, kafaları yeni bilgilerle dolmuştu.
+Bilge ve Yonga restoranın önüne çıktılar, karınları doymuş, kafaları yeni bilgilerle dolmuştu.
 {B}"Gecikme... işlem hacmi... koşutluk." saydı Bilge parmaklarında.
 Yonga mutlu bip sesleri çıkararak atladı: {Y}"Ve bunların hepsi mutfakta öğrenilir!"
 
