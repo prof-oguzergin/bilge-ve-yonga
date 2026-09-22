@@ -37,6 +37,7 @@ VIDEOLAR = {
     'kitap1.11-bilgisayardan-once': 'fGS4g1zHS5s',
     'kitap2.01-uzaydaki-bilgisayar': 'NpzVxt3G79w',
     'kitap2.02-davulcu-ve-kurekciler': 'GsSUX5Ih3bg',
+    'kitap2.03-dunyanin-en-hizli-mutfagi': 'wElSNXKYiNg',
 }
 
 
