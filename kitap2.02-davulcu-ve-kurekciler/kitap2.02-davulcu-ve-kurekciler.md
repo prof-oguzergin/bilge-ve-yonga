@@ -40,10 +40,10 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 4 — Ritim ve Hız
 
 **Metin:**
-Yonga göğsündeki ekranda küçük bir canlandırma gösterdi. Davul çaldıkça kürekler ritmik biçimde suya iniyordu. {Y}"Her davul vuruşu bir **çevrim**." dedi Yonga. {Y}"Saniyede ne kadar çok vuruş olursa gemi o kadar hızlı gider. Buna **saat vuruş sıklığı** diyoruz!"
+Yonga havada küçük bir canlandırma açtı. Davul çaldıkça kürekler ritmik biçimde suya iniyordu. {Y}"Her davul vuruşu bir **çevrim**." dedi Yonga. {Y}"Saniyede ne kadar çok vuruş olursa gemi o kadar hızlı gider. Buna **saat vuruş sıklığı** diyoruz!"
 
 **Resim:**
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga'nın göğsündeki ekranda hareketli bir kadırga sahnesi: küreklerin her davul vuruşuyla eşzamanlı hareket ettiği görülüyor. Her davul vuruşunun üstünde küçük "♩" notası ve "1 çevrim" etiketi var. Alt köşede küçük bir metre göstergesi "Saat Sıklığı" yazıyor ve ibresi artıyor. Sahne dinamik ve bilgilendirici. Mavi, kırmızı ve altın tonları.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Yonga'nın yanında havada duran büyük mavi hologram karesinde hareketli bir kadırga sahnesi: küreklerin her davul vuruşuyla eşzamanlı hareket ettiği görülüyor. Her davul vuruşunun üstünde küçük "♩" notası ve "1 çevrim" etiketi var. Alt köşede küçük bir metre göstergesi "Saat Sıklığı" yazıyor ve ibresi artıyor. Sahne dinamik ve bilgilendirici. Mavi, kırmızı ve altın tonları.
 
 ---
 
@@ -80,7 +80,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 8 — Yarış Başlıyor!
 
 **Metin:**
-Yonga küçük bir canlandırma gösterdi. İki kadırga limandan aynı anda hareket ediyor. Kırmızı geminin davulcusu hızlı çalıyor, vuruş vuruş vuruş! Mavi gemi ise daha az ama düzenli kürek çekiyor. Bilge heyecanla bağırdı: {B}"Haydi mavi gemi!"
+Yonga yine bir canlandırma açtı. İki kadırga limandan aynı anda hareket ediyor. Kırmızı geminin davulcusu hızlı çalıyor: güm güm güm! Mavi gemi ise daha az ama düzenli kürek çekiyor. Bilge heyecanla bağırdı: {B}"Haydi mavi gemi!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Dramatik deniz yarışı sahnesi: iki gemi yan yana denizde ilerliyor; kırmızı gemide davulcu çılgınca çalıyor, kürekçiler yorulmuş görünüyor; mavi gemide sakin bir davulcu var, kürekçiler düzenli ve güçlü kürek çekiyor. Su üzerinde yarış çizgileri ve dalgalar var. Heyecanlı yarış atmosferi. Kırmızı, mavi ve deniz mavisi tonları.
