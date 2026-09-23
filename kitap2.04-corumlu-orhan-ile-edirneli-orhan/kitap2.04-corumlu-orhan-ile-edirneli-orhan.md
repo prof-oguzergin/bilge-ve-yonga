@@ -1,4 +1,4 @@
-# Çorumlu Orhan ile Edirneli Orhan
+# İki Orhan'ın Yarışı
 
 **Seri:** Bilgisayar Mimarisi Serisi — Alt Seri 2: Hız ve Güç — Kitap 2.4
 **Yaş grubu:** 7–12 (okuma bilen)

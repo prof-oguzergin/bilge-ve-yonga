@@ -147,7 +147,7 @@ BOOKS = [
      'Saat vuruş sıklığı, buyruk sayısı ve BBÇ: başarım denklemi', '#D97326'),
     ('kitap2.03-dunyanin-en-hizli-mutfagi', '2.3', 'Dünyanın En Hızlı Mutfağı',
      'Gecikme, işlem hacmi ve koşutluk: aşçılar gibi çekirdekler', '#C85F1F'),
-    ('kitap2.04-corumlu-orhan-ile-edirneli-orhan', '2.4', 'Çorumlu Orhan ile Edirneli Orhan',
+    ('kitap2.04-corumlu-orhan-ile-edirneli-orhan', '2.4', "İki Orhan'ın Yarışı",
      'Adım boyu × tempo: bir adımda yapılan iş ile saat hızı', '#C04F18'),
     ('kitap2.05-ayakkabi-bagini-hizli-baglasan', '2.5', 'Ayakkabı Bağını Hızlı Bağlasan Ne Olur?',
      'Amdahl Yasası: en büyük parçayı, darboğazı hızlandır', '#B84812'),
