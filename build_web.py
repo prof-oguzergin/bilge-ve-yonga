@@ -39,6 +39,7 @@ VIDEOLAR = {
     'kitap2.02-davulcu-ve-kurekciler': 'GsSUX5Ih3bg',
     'kitap2.03-dunyanin-en-hizli-mutfagi': 'wElSNXKYiNg',
     'kitap2.04-corumlu-orhan-ile-edirneli-orhan': 'kYbT65KmgyQ',
+    'kitap2.05-ayakkabi-bagini-hizli-baglasan': 'Amq2nQz0ck4',
 }
 
 
