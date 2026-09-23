@@ -14,7 +14,7 @@
 
 **Metin:**
 Her sabah Bilge okula gitmek için on dakika geç kalıyordu.
-Kapıya koşarken Yonga çantasının üstünde {Y}"bip bip!" diye ötüyordu.
+Kapıya koşarken Yonga çantasının üstünde endişeli sesler çıkarıyordu.
 {B}"Bugün zamanında gideceğim!" diye söz verdi Bilge kararlılıkla.
 
 **Resim:**
@@ -171,7 +171,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 **Metin:**
 O günden sonra Bilge her sabah bisikletiyle okula gitti ve hiç geç kalmadı.
 {B}"Önemli olan hızlı bağlamak değil, neyi hızlandıracağını bilmek!" dedi yolda.
-Yonga sepetin içinde mutluca bip bip sesler çıkararak gülümsedi.
+Yonga sepetin içinde mutlu sesler çıkararak gülümsedi.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Gün batımında Bilge bisikletiyle neşeyle pedal çeviriyor; kıvırcık saçları rüzgarda uçuşuyor, gözlükleri parlıyor. Yonga ön sepette oturmuş, göğsündeki ekranda "DOĞRU YERİ HIZLANDIR!" yazısı parlıyor. Yol boyunca ağaçlar ve çiçekler var; gökyüzü turuncu ve pembe tonlarda. Bisikletin arka tarafında küçük bir "Amdahl ♡" etiketi yapıştırılmış. Özgür, mutlu ve huzurlu bir kapanış sahnesi; kitabın ruhunu tam yansıtan sıcak, sevimli bir final.
