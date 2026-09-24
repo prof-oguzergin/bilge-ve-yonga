@@ -40,6 +40,7 @@ VIDEOLAR = {
     'kitap2.03-dunyanin-en-hizli-mutfagi': 'wElSNXKYiNg',
     'kitap2.04-corumlu-orhan-ile-edirneli-orhan': 'kYbT65KmgyQ',
     'kitap2.05-ayakkabi-bagini-hizli-baglasan': 'Amq2nQz0ck4',
+    'kitap2.06-yaris-pisti': 'LWtx3CH6veI',
 }
 
 
