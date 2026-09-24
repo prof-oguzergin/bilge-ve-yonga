@@ -10,7 +10,7 @@
 ## Sayfa 1 — Bilgisayar Mağazasında
 
 **Metin:**
-Bilge, babası ile birlikte yeni bir bilgisayar almaya gidiyordu. Mağazada onlarca farklı bilgisayar sıra sıra dizilmişti. {B}"Hangisi daha hızlı, Yonga?" diye sordu Bilge. Yonga küçük ışıkları ile kocaman bir gülümseme çizdi: {Y}"Bunu anlamak için önce onları aynı yolda koşturmamız gerekiyor!"
+Bilge, babası ile birlikte yeni bir bilgisayar almaya gitmişti. Mağazada onlarca farklı bilgisayar sıra sıra dizilmişti. {B}"Hangisi daha hızlı, Yonga?" diye sordu Bilge. Yonga küçük ışıkları ile kocaman bir gülümseme çizdi: {Y}"Bunu anlamak için önce onları aynı yolda koşturmamız gerekiyor!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Aydınlık bir bilgisayar mağazası; vitrin rafları farklı renklerde dizüstü ve masaüstü bilgisayarlarla dolu. Kıvırcık kahverengi saçlı, gözlüklü Bilge meraklı gözlerle vitrine bakıyor. Yanında küçük, yuvarlak, mavi-gümüş rengi Yonga ona gülümseyen küçük bir ekran gösteriyor. Arka planda mutlu bir baba figürü görünüyor.
