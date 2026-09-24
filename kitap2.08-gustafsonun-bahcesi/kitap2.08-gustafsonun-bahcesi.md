@@ -50,7 +50,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 5 — Soruyu Değiştirmek
 
 **Metin:**
-{Y}"Amdahl şunu dedi." diye anlattı Yonga. {Y}"Aynı küçük bahçeyi dört kişiyle ekersen, sıralı işler yüzünden çok hızlanamayabilirsin." Ellerini kavuşturdu: {Y}"Ama Gustafson şöyle baktı: Neden aynı küçük bahçede kalalım ki? Dört kişimiz varsa dört kat büyük bahçe ekelim!" Bilge aydınlandı: {B}"Soruyu değiştiriyor!"
+{Y}"Hayır, başka türlü düşündü." dedi Yonga. {Y}"Gustafson şöyle sordu: Neden aynı küçük bahçede kalalım ki? Dört kişimiz varsa dört kat büyük bahçe ekelim!" Bilge sevinçle sağdaki geniş bahçeyi gösterdi: {B}"Soruyu değiştiriyor!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. İki karikatür sahne yan yana: solda dört kişi küçük bir bahçede sıkışmış çalışıyor, yüzleri mutsuz. Sağda aynı dört kişi geniş bir bahçede mutlu ve hızlıca çalışıyor. Okun yönü soldan sağa, altında "Aynı iş → Daha büyük iş" yazıyor. Bilge sağdaki sahneyi sevinçle işaret ediyor.
