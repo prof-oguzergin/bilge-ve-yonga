@@ -20,7 +20,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 2 — Altın Çağ Başlıyor
 
 **Metin:**
-{B}"Bu nasıl mümkün olabildi?" diye sordu Bilge. Yonga anlatmaya başladı: {Y}"Uzun zaman önce, 1980'lerde, mühendisler her yıl yongalara biraz daha küçük parçalar sığdırmayı başardılar." {Y}"Parçalar küçüldükçe yongaya daha çoğu sığıyor, hepsi de daha hızlı çalışıyordu." Bilge gözlerini kırptı: {B}"Her yıl biraz mı?" {Y}"Her yıl biraz." dedi Yonga. {Y}"Ama biriktikçe birikti. İki yılda bir bilgisayarların hızı ikiye katlanıyordu. Bu döneme **altın çağ** deriz."
+{B}"Bu nasıl mümkün oldu?" diye sordu Bilge. Yonga anlatmaya başladı: {Y}"Uzun zaman önce, 1980'lerde, mühendisler her yıl yongalara biraz daha küçük parçalar sığdırmayı başardılar." {Y}"Parçalar küçüldükçe yongaya daha çoğu sığıyor, hepsi de daha hızlı çalışıyordu." Bilge gözlerini kırptı: {B}"Her yıl biraz mı?" {Y}"Her yıl biraz." dedi Yonga. {Y}"Ama biriktikçe birikti. İki yılda bir bilgisayarların hızı ikiye katlanıyordu. Bu döneme **altın çağ** deriz."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Büyük bir takvim sayfası; 1980 yazıyor ve her yıl atlayışta yonganın üzerindeki parçalar küçülüyor, yonganın içindeki ışıklar hızla artıyor. Yonga küçük ellerini iki yana açmış heyecanla anlatıyor. Bilge çenesini parmağına dayamış, büyülenmiş gibi dinliyor. Arka fon altın rengi, sıcak bir parıltıyla kaplı.
@@ -50,7 +50,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 5 — Güç Duvarı Ortaya Çıkıyor
 
 **Metin:**
-{B}"Bu duvar ne zaman belirdi?" diye sordu Bilge. {Y}"2004 ve 2005 yıllarında." dedi Yonga. {Y}"Mühendisler saat vuruş sıklığını daha fazla artıramayacaklarını fark etti. Yongalar o kadar ısınıyordu ki eriyip bozulabilirdi." Bilge içini çekti: {B}"O zaman yıllar boyu sürüp giden hız artışı durdu mu?" {Y}"Durdu." dedi Yonga.
+{B}"Bu duvar ne zaman belirdi?" diye sordu Bilge. {Y}"2004 ve 2005 yıllarında." dedi Yonga. {Y}"Mühendisler saat vuruş sıklığını daha fazla artıramayacaklarını fark etti. Yongalar o kadar ısınıyordu ki eriyip bozulabilirdi." Bilge içini çekti: {B}"O zaman yıllar boyu sürüp giden hız artışı durdu mu?" {Y}"Neredeyse durdu." dedi Yonga.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Büyük bir duvar çizimi; duvarın sol tarafında yıllara göre yükselen bir çubuk grafiği var: 1980'den 2004'e kadar tırmanıyor, sonra 2004'te düz bir çizgiyle duruyor. Duvarın üstünde "GÜÇ DUVARI" yazıyor. Bir mühendis figürü duvarın önünde başını eğmiş durmuş.
@@ -110,7 +110,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 11 — Dedeye Anlatmak
 
 **Metin:**
-Dedesi garajdan çıktı ve merakla baktı. {D}"Ne öğreniyorsunuz?" diye sordu. Bilge heyecanla anlattı: {B}"Dede, 1980'lerde arabaların hızlanması gibi bilgisayarlar da yaklaşık iki yılda bir iki katına çıkıyordu. Sonra güç duvarına çarptılar. Ama mühendisler çok çekirdekli çözüm buldu!"
+Dedesi garajdan çıktı ve merakla baktı. {D}"Ne öğreniyorsunuz?" diye sordu. Bilge heyecanla anlattı: {B}"Dede, 1980'lerde arabaların hızlanması gibi bilgisayarların hızı da yaklaşık iki yılda bir iki katına çıkıyordu. Sonra güç duvarına çarptılar. Ama mühendisler çok çekirdekli çözüm buldu!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Garajın kapısında beyaz saçlı gülümseyen dede duruyor. Bilge heyecanla ellerini sallayarak anlatıyor; başının üstünde konuşma baloncuğunda küçük zaman çizelgesi görünüyor. Yonga dedenin önünde saygılı bir eğilme hareketi yapıyor.
