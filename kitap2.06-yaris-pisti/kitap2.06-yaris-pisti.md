@@ -100,7 +100,8 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 10 — Aynı Parkurda Yarışmak
 
 **Metin:**
-{B}"Neden herkes aynı sınamayı kullanmak zorunda?" diye merak etti Bilge. Yonga güldü: {Y}"Düşün, eğer bir üretici 'benim bilgisayarım süper hızlı' dese ama kendi uydurduğu bir sınama kullansa, bu adil olur muydu?" Bilge {B}"Hayır!" dedi. {B}"Herkes aynı parkurda koşmalı. Yoksa karşılaştırma anlamsız olur."
+{B}"Neden herkes aynı sınamayı kullanmak zorunda?" diye merak etti Bilge. Yonga güldü: {Y}"Düşün, eğer bir üretici 'benim bilgisayarım süper hızlı' dese ama kendi uydurduğu bir sınama kullansa, bu adil olur muydu?"
+{B}"Hayır!" dedi Bilge. {B}"Herkes aynı parkurda koşmalı. Yoksa karşılaştırma anlamsız olur."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. İki küçük karikatür sahne yan yana: solda bir üretici figür kendi özel parkurunda arabasını koşturuyor ve "1 saniye!" yazıyor; sağda aynı araba standart SPEC parkurunda "5 saniye" yazıyor. Bilge ve Yonga sağdaki sahneyi işaret ederek "Bu doğru yol!" diyorlar.
