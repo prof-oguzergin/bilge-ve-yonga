@@ -110,7 +110,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 11 — Dedeye Anlatmak
 
 **Metin:**
-Dedesi garajdan çıktı ve merakla baktı. {D}"Ne öğreniyorsunuz?" diye sordu. Bilge heyecanla anlattı: {B}"Dede, 1980'lerde arabaların hızlanması gibi bilgisayarların hızı da yaklaşık iki yılda bir iki katına çıkıyordu. Sonra güç duvarına çarptılar. Ama mühendisler çok çekirdekli çözüm buldu!"
+Dedesi garajın kapısında belirdi ve merakla baktı. {D}"Ne öğreniyorsunuz?" diye sordu. Bilge heyecanla anlattı: {B}"Dede, 1980'lerde arabaların hızlanması gibi bilgisayarların hızı da yaklaşık iki yılda bir iki katına çıkıyordu. Sonra güç duvarına çarptılar. Ama mühendisler çok çekirdekli çözüm buldu!"
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Garajın kapısında beyaz saçlı gülümseyen dede duruyor. Bilge heyecanla ellerini sallayarak anlatıyor; başının üstünde konuşma baloncuğunda küçük zaman çizelgesi görünüyor. Yonga dedenin önünde saygılı bir eğilme hareketi yapıyor.
