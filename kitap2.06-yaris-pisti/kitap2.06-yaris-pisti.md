@@ -110,7 +110,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 11 — Sınama Hileleri
 
 **Metin:**
-Bilge'nin kafasında bir soru daha belirdi: {B}"Peki sınama sonuçları her zaman doğru mu?" Yonga ciddi bir ifade takındı: {Y}"Bazen üreticiler sınamalar için özel iyileştirmeler yapar. Araba yalnızca o parkurda iyi gider, gerçek yolda aynı hızda gidemez." {B}"Bu hile mi?" dedi Bilge. Yonga başını salladı: {Y}"Adil olmayan bir davranış evet."
+Bilge'nin kafasında bir soru daha belirdi: {B}"Peki sınama sonuçları her zaman doğru mu?" Yonga ciddi bir ifade takındı: {Y}"Bazen üreticiler sınamalar için özel iyileştirmeler yapar. Araba yalnızca o parkurda iyi gider, gerçek yolda aynı hızda gidemez." {B}"Bu hile mi?" dedi Bilge. Yonga başını salladı: {Y}"Adil olmayan bir davranış, evet."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Bir araba pist üzerinde parlak ve hızlı gidiyor; ama pistin yanındaki "gerçek yol" bölümünde aynı araba yavaş ve yorgun görünüyor. Arabanın üstünde küçük bir soru işareti. Yonga kaşlarını çatmış ciddi bakıyor, Bilge de düşünceli.
