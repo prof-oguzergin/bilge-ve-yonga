@@ -42,6 +42,7 @@ VIDEOLAR = {
     'kitap2.05-ayakkabi-bagini-hizli-baglasan': 'Amq2nQz0ck4',
     'kitap2.06-yaris-pisti': 'LWtx3CH6veI',
     'kitap2.07-altin-cag-ve-duvar': 'OVMEehkl3Qc',
+    'kitap2.08-gustafsonun-bahcesi': 'F9BdtZypXqk',
 }
 
 
