@@ -80,7 +80,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 8 — Her Araba Farklı Güçlü
 
 **Metin:**
-Üç yarış bitti. Bilge ellerini çırptı: {B}"Demek ki hiçbir araba her yarışı kazanamıyor!" {Y}"Aynen öyle." dedi Yonga. {Y}"Bu yüzden bilgisayar uzmanları birden fazla sınama yaparlar. Her sınamada farklı bir iş vardır: hesaplama, grafik, yapay zeka…" {B}"Ve hepsini birlikte değerlendirirler." diye tamamladı Bilge.
+Üç yarış bitti. Bilge pistin ortasına oturup düşündü: {B}"Demek ki hiçbir araba her yarışı kazanamıyor!" {Y}"Aynen öyle." dedi Yonga. {Y}"Bu yüzden bilgisayar uzmanları birden fazla sınama yaparlar. Her sınamada farklı bir iş vardır: hesaplama, grafik, yapay zeka…" {B}"Ve hepsini birlikte değerlendirirler." diye tamamladı Bilge.
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Üç arabanın yanında üç küçük kupa görünüyor: her biri farklı bir arabaya ait, her birinin altında farklı bir simge (sayı, gökkuşağı, robot). Bilge ve Yonga pistin ortasında yan yana oturmuş düşünüyor. Üç arabanın sürücüleri (küçük robot figürler) gülümseyen yüzlerle el sallıyor.
