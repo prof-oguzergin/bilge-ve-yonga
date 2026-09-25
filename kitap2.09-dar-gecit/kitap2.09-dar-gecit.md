@@ -119,7 +119,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 **Metin:**
 
-{B}"Önbellek tek katlı mı?" diye sordu Bilge. Yonga güldü: {Y}"Hayır! Genellikle birkaç katlıdır. Birinci kat (L1): işlemcinin hemen yanında, çok küçük ama çok hızlı. İkinci kat (L2): biraz daha büyük, biraz daha yavaş. Üçüncü kat (L3): daha da büyük…" Bilge tamamladı: {B}"Tıpkı tezgah, tezgah altı ve büyük raf gibi!"
+{B}"Önbellek tek katlı mı?" diye sordu Bilge. Yonga güldü: {Y}"Hayır! Genellikle birkaç katlıdır. Birinci kat (L1): işlemcinin hemen yanında, çok küçük ama çok hızlı. İkinci kat (L2): biraz daha büyük, biraz daha yavaş. Üçüncü kat (L3): daha da büyük…" Bilge tamamladı: {B}"Tıpkı küçük dolap, orta dolap ve büyük dolap gibi!"
 
 **Resim:**
 
@@ -155,7 +155,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 **Metin:**
 
-Festival günü kek harika olmuştu. Bilge bir parça yerken Yonga'ya döndü: {B}"Bu kek bana önbelleği hatırlatıyor. En önemli malzemeler, şeker ve yumurta, en yakın raflardaydı." Yonga güldü: {Y}"Her lezzetli hesaplamanın arkasında iyi bir önbellek stratejisi vardır." Bilge gülerek başını salladı.
+Şenlik günü kek harika olmuştu. Bilge bir parça yerken Yonga'ya döndü: {B}"Bu kek bana önbelleği hatırlatıyor. En önemli malzemeler, şeker ve yumurta, en yakın raflardaydı." Yonga güldü: {Y}"Her lezzetli hesaplamanın arkasında iyi bir önbellek stratejisi vardır." Bilge gülerek başını salladı.
 
 **Resim:**
 
@@ -167,11 +167,11 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 **Metin:**
 
-Eve dönerken Bilge'nin kafasında yeni bir soru belirdi: {B}"Peki ya önbellek yanlış verileri saklarsa?" Yonga güldü: {Y}"İşte o ayrı bir konu: önbellek yönetimi denen büyüleyici bir alan! Ama o hikayeyi başka bir gün anlatırım." Bilge sabırsızlıkla güldü: {B}"Söz mü?" Yonga ekranında küçük bir parmak sallama canlandırması gösterdi: {Y}"Söz!"
+Eve dönerken Bilge'nin kafasında yeni bir soru belirdi: {B}"Peki ya önbellek yanlış verileri saklarsa?" Yonga güldü: {Y}"İşte o ayrı bir konu: önbellek yönetimi denen büyüleyici bir alan! Ama o hikayeyi başka bir gün anlatırım." Bilge sabırsızlıkla güldü: {B}"Söz mü?" Yonga'nın ekranında üç küçük nokta yanıp söndü, elini kaldırdı: {Y}"Söz!"
 
 **Resim:**
 
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Akşam sokağında Bilge ve Yonga yan yana yürüyor. Bilge'nin başının üstünde soru işareti baloncuğu, içinde küçük bir önbellek diyagramı. Yonga ekranında "Devam edecek..." yazıyor ve sallayan küçük parmak animasyonu görünüyor. Arka planda festival ışıkları uzaklaşıyor, gece gökyüzünde yıldızlar beliriyor.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Akşam sokağında Bilge ve Yonga yan yana yürüyor. Bilge'nin başının üstünde soru işareti baloncuğu, içinde küçük bir önbellek diyagramı. Yonga'nın ekranında üç küçük nokta yanıyor, bir elini kaldırmış. Arka planda festival ışıkları uzaklaşıyor, gece gökyüzünde yıldızlar beliriyor.
 
 ---
 
