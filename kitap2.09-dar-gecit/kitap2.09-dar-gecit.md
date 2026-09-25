@@ -115,15 +115,15 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 ---
 
-## Sayfa 10 — Katlı Önbellek
+## Sayfa 10 — Önbellek Düzeyleri
 
 **Metin:**
 
-{B}"Önbellek tek katlı mı?" diye sordu Bilge. Yonga güldü: {Y}"Hayır! Genellikle birkaç katlıdır. Birinci kat (L1): işlemcinin hemen yanında, çok küçük ama çok hızlı. İkinci kat (L2): biraz daha büyük, biraz daha yavaş. Üçüncü kat (L3): daha da büyük…" Bilge tamamladı: {B}"Tıpkı küçük dolap, orta dolap ve büyük dolap gibi!"
+{B}"Önbellek tek düzeyli mi?" diye sordu Bilge. Yonga güldü: {Y}"Hayır! Genellikle birkaç düzeyi vardır. Birinci düzey işlemcinin hemen yanındadır, çok küçük ama çok hızlıdır. İkinci düzey biraz daha büyük, biraz daha yavaştır. Üçüncü düzey daha da büyüktür…" Bilge tamamladı: {B}"Tıpkı küçük dolap, orta dolap ve büyük dolap gibi!"
 
 **Resim:**
 
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Mutfak kesit görünümü; üç kat gösteriyor: işlemcinin tam yanı "L1 - Çok hızlı, küçük cep", bir adım uzakta "L2 - Hızlı, orta raf", iki adım uzakta "L3 - Orta hız, büyük dolap". En uzakta "Bellek - Yavaş, büyük depo". Her katın rengi farklı. Bilge bu katları şaşkın bir gülümsemeyle işaret ediyor.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Mutfak kesit görünümü; üç düzey gösteriyor: işlemcinin tam yanı "1 - Çok hızlı, küçük cep", bir adım uzakta "2 - Hızlı, orta raf", iki adım uzakta "3 - Orta hız, büyük dolap". En uzakta "Bellek - Yavaş, büyük depo". Her düzeyin rengi farklı. Bilge bu düzeyleri şaşkın bir gülümsemeyle işaret ediyor.
 
 ---
 
@@ -183,7 +183,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 🔍 İşlemci veriyi önbellekte bulursa buna **bulma**, bulamazsa **bulamama** denir. Bulamama durumunda veriyi yavaş bellekten getirmek gerekir.
 
-📦 Önbellek genellikle birden fazla katlıdır (L1, L2, L3); işlemciye yaklaştıkça küçülür ve hızlanır.
+📦 Önbelleğin genellikle birden fazla düzeyi vardır (birinci, ikinci, üçüncü düzey); düzeyler işlemciye yaklaştıkça küçülür ve hızlanır.
 
 ⚖️ Önbelleğin boyutu ile hızı arasında bir denge vardır. Mühendisler bu dengeyi dikkatle kurar.
 
@@ -199,7 +199,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 3. Aranan veri önbellekte yoksa buna ne denir?
 
-4. Önbellek katları işlemciye yaklaştıkça nasıl olur?
+4. Önbellek düzeyleri işlemciye yaklaştıkça nasıl olur?
 
 **Yanıtlar**
 
