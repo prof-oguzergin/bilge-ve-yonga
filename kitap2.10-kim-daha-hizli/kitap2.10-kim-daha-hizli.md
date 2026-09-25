@@ -60,7 +60,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 ## Sayfa 6 — Süper Bilgisayar Devi
 
 **Metin:**
-{B}"Süper bilgisayar ne?" diye sordu Bilge. Yonga gözlerini parıldattı: {Y}"Yüzlerce, binlerce işlemcinin birlikte çalıştığı devasa sistemler. Hava tahmini, deprem canlandırması, ilaç tasarımı, evrenin modellenmesi için kullanılır." Bilge ağzı açık kaldı: {B}"Bunları tek bir bilgisayar yapamaz mı?" {Y}"Yapamaz." dedi Yonga. {Y}"O kadar büyük işler ancak çok büyük güçle yapılır."
+{B}"Süper bilgisayar ne?" diye sordu Bilge. Yonga gözlerini parıldattı: {Y}"Yüzlerce, binlerce işlemcinin birlikte çalıştığı devasa sistemler. Hava tahmini, deprem benzetimi, ilaç tasarımı, evrenin modellenmesi için kullanılır." Bilge ağzı açık kaldı: {B}"Bunları tek bir bilgisayar yapamaz mı?" {Y}"Yapamaz." dedi Yonga. {Y}"O kadar büyük işler ancak çok büyük güçle yapılır."
 
 **Resim:**
 Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Devasa bir sunucu odası: sonsuz uzanan sıra sıra mavi ışıklı sunucu rafları. Bilge küçük kalıyor bu devasa odada, ağzı açık hayretle bakıyor. Yonga omzunda, ekranında "1000+ İşlemci!" yazıyor. Tavan yüksek, koridorlar geniş: ihtişamlı bir manzara.
