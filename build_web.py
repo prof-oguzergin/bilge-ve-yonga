@@ -1852,7 +1852,7 @@ CILTLER = {
           'dizi_ad': 'Kumdan Bilgisayara',
           # Google Play Kitaplar'da ucretsiz (15 Eyl 2026'da yayina girdi).
           'play': 'https://play.google.com/store/books/details?id=bAQNEgAAQBAJ'},
-    '2': {'doi': '10.5281/zenodo.21725924', 'kayit': 21936797, 'isbn': '978-625-90813-0-4',
+    '2': {'doi': '10.5281/zenodo.21725924', 'kayit': 22964330, 'isbn': '978-625-90813-0-4',
           'dosya': 'Bilge ve Yonga - Cilt 2 - Hız ve Güç.pdf',
           'sayfa': 170, 'mb': 34,
           # Cildin oynatma listesi (25 Eyl 2026).
