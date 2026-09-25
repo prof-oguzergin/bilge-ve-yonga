@@ -44,7 +44,7 @@ VIDEOLAR = {
     'kitap2.07-altin-cag-ve-duvar': 'OVMEehkl3Qc',
     'kitap2.08-gustafsonun-bahcesi': 'F9BdtZypXqk',
     'kitap2.09-dar-gecit': '_HmVUeioiUg',
-    'kitap2.10-kim-daha-hizli': 'A2sJfjZ_PQQ',
+    'kitap2.10-kim-daha-hizli': 'stpz2F8eFxA',
 }
 
 
