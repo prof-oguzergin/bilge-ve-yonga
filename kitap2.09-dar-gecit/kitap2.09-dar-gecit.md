@@ -11,23 +11,23 @@
 
 **Metin:**
 
-Bilge ve Yonga, mahalle şenliği için mutfakta kek yapmaya yardım ediyorlardı. Şef Amca çok hızlıydı, elleri uçuyordu, her hareketi kusursuzdu. Ama kek malzemeleri mutfak deposunda saklıydı ve deponun kapısı dar, koridoru uzundu. {B}"Şef Amca bekliyor." dedi Bilge endişeyle. Yonga gözlerini kırptı: {Y}"İşte burada bir sorun var."
+Bilge ve Yonga, mahalle şenliği için mutfakta kek yapmaya yardım ediyorlardı. Aşçı Murat Bey çok hızlıydı, elleri uçuyordu, her hareketi kusursuzdu. Ama kek malzemeleri mutfak deposunda saklıydı ve deponun kapısı dar, koridoru uzundu. {B}"Murat Bey bekliyor." dedi Bilge endişeyle. Yonga gözlerini kırptı: {Y}"İşte burada bir sorun var."
 
 **Resim:**
 
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Büyük, parlak bir mutfak; hızlı hareketli Şef Amca önlüklü, tezgahın başında duruyor ve ellerini iki yana açmış bekliyor: malzeme yok. Uzakta dar ve uzun bir koridorun sonunda küçük bir depo kapısı görünüyor. Bilge endişeli yüzle koridora bakıyor, Yonga yanında düşünceli.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Büyük, parlak bir mutfak; hızlı hareketli Murat Bey (tombul, kırmızı fularlı aşçı) tezgahın başında duruyor ve ellerini iki yana açmış bekliyor: malzeme yok. Uzakta dar ve uzun bir koridorun sonunda küçük bir depo kapısı görünüyor. Bilge endişeli yüzle koridora bakıyor, Yonga yanında düşünceli.
 
 ---
 
-## Sayfa 2 — Hızlı Şef, Yavaş Depo
+## Sayfa 2 — Hızlı Aşçı, Yavaş Depo
 
 **Metin:**
 
-{Y}"Şef Amca dakikada yüz hareket yapabiliyor." dedi Yonga. {Y}"Ama depodan malzeme getirmek dakikalar sürüyor. Bu süre boyunca Şef Amca ne yapıyor?" Bilge cevapladı: {B}"Bekliyor!" {Y}"Evet." dedi Yonga. {Y}"Şef Amca bir işlemci gibi: çok hızlı. Depo ise bellek gibi: çok yavaş."
+{Y}"Murat Bey dakikada yüz hareket yapabiliyor." dedi Yonga. {Y}"Ama depodan malzeme getirmek dakikalar sürüyor. Bu süre boyunca Murat Bey ne yapıyor?" Bilge cevapladı: {B}"Bekliyor!" {Y}"Evet." dedi Yonga. {Y}"Murat Bey bir işlemci gibi: çok hızlı. Depo ise bellek gibi: çok yavaş."
 
 **Resim:**
 
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. İki bölümlü resim: solda Şef Amca saate bakıyor ve sıkılıyor, ellerini kavuşturmuş bekliyor; başının üstünde hız ölçeri gibi bir gösterge var: iğnesi en yüksekte. Sağda karanlık depo koridoru uzuyor, sonunda küçük bir kapı var. Ortada kırmızı bir "DAR GEÇİT" tabelası asılı.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. İki bölümlü resim: solda Murat Bey saate bakıyor ve sıkılıyor, ellerini kavuşturmuş bekliyor; başının üstünde hız ölçeri gibi bir gösterge var: iğnesi en yüksekte. Sağda karanlık depo koridoru uzuyor, sonunda küçük bir kapı var. Ortada kırmızı bir "DAR GEÇİT" tabelası asılı.
 
 ---
 
@@ -47,7 +47,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 **Metin:**
 
-Yonga örnek verdi: {Y}"Düşün: Şef Amca bir keki yapmak için 20 malzemeye ihtiyaç duyuyor. Her malzeme için koridoru geçip depoya gitmek gerekiyor. Her seferinde 2 dakika." Bilge hızla hesapladı: {B}"20 malzeme × 2 dakika = 40 dakika beklemek!" Yonga başını salladı: {Y}"Ve Şef Amca bu süre boyunca sadece bekliyor."
+Yonga örnek verdi: {Y}"Düşün: Murat Bey bir keki yapmak için 20 malzemeye ihtiyaç duyuyor. Her malzeme için koridoru geçip depoya gitmek gerekiyor. Her seferinde 2 dakika." Bilge hızla hesapladı: {B}"20 malzeme × 2 dakika = 40 dakika beklemek!" Yonga başını salladı: {Y}"Ve Murat Bey bu süre boyunca sadece bekliyor."
 
 **Resim:**
 
@@ -59,11 +59,11 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 **Metin:**
 
-{B}"Peki buna çözüm ne?" diye sordu Bilge. Yonga güldü: {Y}"Şef Amca ne yapabilir?" Bilge düşündü, gözlerini kırptı: {B}"Sık kullandığı malzemeleri tezgahın yakınına koysaydı, her seferinde depoya gitmek zorunda kalmazdı!" Yonga sevinçle zıpladı: {Y}"İşte buldun! Buna bilgisayarlarda önbellek diyoruz!"
+{B}"Peki buna çözüm ne?" diye sordu Bilge. Yonga güldü: {Y}"Murat Bey ne yapabilir?" Bilge düşündü, gözlerini kırptı: {B}"Sık kullandığı malzemeleri tezgahın yakınına koysaydı, her seferinde depoya gitmek zorunda kalmazdı!" Yonga sevinçle zıpladı: {Y}"İşte buldun! Buna bilgisayarlarda önbellek diyoruz!"
 
 **Resim:**
 
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Mutfakta Şef Amca'nın tezgahının yanında küçük bir raf beliriyor, üstünde en çok kullanılan malzemeler: un, yumurta, şeker, tuz. Şef Amca gülümseyerek rafa uzanıyor ve anında malzemeyi alıyor. Arkada uzun koridor hâlâ görünüyor ama artık gitmek gerekmiyor. Bilge ve Yonga sevinçle el çırpıyor.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Mutfakta Murat Bey'in tezgahının yanında küçük bir raf beliriyor, üstünde en çok kullanılan malzemeler: un, yumurta, şeker, tuz. Murat Bey gülümseyerek rafa uzanıyor ve anında malzemeyi alıyor. Arkada uzun koridor hâlâ görünüyor ama artık gitmek gerekmiyor. Bilge ve Yonga sevinçle el çırpıyor.
 
 ---
 
@@ -83,11 +83,11 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 **Metin:**
 
-Bilge merak etti: {B}"Peki hangi malzemeleri tezgahın yanına koymalısın?" Yonga güldü: {Y}"En çok kullanılanları! Şef Amca sabah kahvaltısı yaparken yumurta ve tereyağı yanında olsun; öğleden sonra kek yaparken un ve şeker yanında olsun." Bilge anladı: {B}"Önbellek kendini güncelliyor, değil mi?" {Y}"Aynen öyle!" dedi Yonga. {Y}"Neyi çok kullanırsan önbellek onu yanında tutar, kullanmadığını da yerinden çıkarır."
+Bilge merak etti: {B}"Peki hangi malzemeleri tezgahın yanına koymalısın?" Yonga güldü: {Y}"En çok kullanılanları! Murat Bey sabah kahvaltısı yaparken yumurta ve tereyağı yanında olsun; öğleden sonra kek yaparken un ve şeker yanında olsun." Bilge anladı: {B}"Önbellek kendini güncelliyor, değil mi?" {Y}"Aynen öyle!" dedi Yonga. {Y}"Neyi çok kullanırsan önbellek onu yanında tutar, kullanmadığını da yerinden çıkarır."
 
 **Resim:**
 
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Sabah bölümü: tezgahın yanındaki rafta yumurta ve tereyağı; Şef Amca mutlu çalışıyor. Öğleden sonra bölümü: raf içeriği değişmiş, un ve şeker var; Şef Amca yine mutlu çalışıyor. Yonga sahneler arasındaki geçişi küçük bir ok animasyonuyla gösteriyor.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Sabah bölümü: tezgahın yanındaki rafta yumurta ve tereyağı; Murat Bey mutlu çalışıyor. Öğleden sonra bölümü: raf içeriği değişmiş, un ve şeker var; Murat Bey yine mutlu çalışıyor. Yonga sahneler arasındaki geçişi küçük bir ok animasyonuyla gösteriyor.
 
 ---
 
@@ -99,7 +99,7 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 **Resim:**
 
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Şef Amca tezgahın yanındaki rafa bakıyor: raf boş! Yüzünde hayal kırıklığı. Uzun koridora yürümek zorunda kalıyor. Başının üstünde "bulamama!" yazılı küçük kırmızı bir çan simgesi. Bilge bu sahneyi izliyor, yüzünde sempati ifadesi.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Murat Bey tezgahın yanındaki rafa bakıyor: raf boş! Yüzünde hayal kırıklığı. Uzun koridora yürümek zorunda kalıyor. Başının üstünde "bulamama!" yazılı küçük kırmızı bir çan simgesi. Bilge bu sahneyi izliyor, yüzünde sempati ifadesi.
 
 ---
 
@@ -127,15 +127,15 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 ---
 
-## Sayfa 11 — Hızlanan Şef Amca
+## Sayfa 11 — Hızlanan Murat Bey
 
 **Metin:**
 
-Şef Amca artık çok daha hızlı çalışıyordu, en çok kullandığı malzemeleri yanına almıştı. Keki neredeyse bitirmişti. {D}"Fark ettiniz mi?" dedi Şef Amca gülerek. {D}"Önce depodan her şeyi getiriyordum. Şimdi el uzatıyorum, malzeme orada." Bilge sevinçle bağırdı: {B}"Bu önbellek sayesinde!"
+Murat Bey artık çok daha hızlı çalışıyordu, en çok kullandığı malzemeleri yanına almıştı. Keki neredeyse bitirmişti. {D}"Fark ettiniz mi?" dedi Murat Bey gülerek. {D}"Önce depodan her şeyi getiriyordum. Şimdi el uzatıyorum, malzeme orada." Bilge sevinçle bağırdı: {B}"Bu önbellek sayesinde!"
 
 **Resim:**
 
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Mutfakta heyecanlı bir çalışma anı: Şef Amca hızla çalışıyor, yanındaki küçük raftan anında malzeme alıyor. Tezgahta güzel bir kek şekli oluşuyor. Bilge ve Yonga kenardan sevinçle izliyor. Mutfak sıcak sarı ışıkla dolmuş, her yer neşeli.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Mutfakta heyecanlı bir çalışma anı: Murat Bey hızla çalışıyor, yanındaki küçük raftan anında malzeme alıyor. Tezgahta güzel bir kek şekli oluşuyor. Bilge ve Yonga kenardan sevinçle izliyor. Mutfak sıcak sarı ışıkla dolmuş, her yer neşeli.
 
 ---
 
@@ -167,11 +167,11 @@ Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı ill�
 
 **Metin:**
 
-Eve dönerken Bilge'nin kafasında yeni bir soru belirdi: {B}"Peki ya önbellek yanlış verileri saklarsa?" Yonga güldü: {Y}"İşte o ayrı bir konu: önbellek yönetimi denen büyüleyici bir alan! Ama o hikayeyi başka bir gün anlatırım." Bilge sabırsızlıkla güldü: {B}"Söz mü?" Yonga'nın ekranında üç küçük nokta yanıp söndü, elini kaldırdı: {Y}"Söz!"
+Eve dönerken Bilge'nin kafasında yeni bir soru belirdi: {B}"Peki ya önbellek yanlış verileri saklarsa?" Yonga güldü: {Y}"İşte o ayrı bir konu: önbellek yönetimi denen büyüleyici bir alan! Ama o hikayeyi başka bir gün anlatırım." Bilge sabırsızlıkla güldü: {B}"Söz mü?" Yonga'nın ekranında üç küçük nokta neşeyle yanıp söndü: {Y}"Söz!"
 
 **Resim:**
 
-Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Akşam sokağında Bilge ve Yonga yan yana yürüyor. Bilge'nin başının üstünde soru işareti baloncuğu, içinde küçük bir önbellek diyagramı. Yonga'nın ekranında üç küçük nokta yanıyor, bir elini kaldırmış. Arka planda festival ışıkları uzaklaşıyor, gece gökyüzünde yıldızlar beliriyor.
+Sıcak renkli, yumuşak çizgili, dijital suluboya tarzında çocuk kitabı illüstrasyonu. Akşam sokağında Bilge ve Yonga yan yana yürüyor. Bilge'nin başının üstünde soru işareti baloncuğu, içinde küçük bir önbellek diyagramı. Yonga'nın ekranında üç küçük nokta yanıyor, kolları iki yanında. Arka planda festival ışıkları uzaklaşıyor, gece gökyüzünde yıldızlar beliriyor.
 
 ---
 
