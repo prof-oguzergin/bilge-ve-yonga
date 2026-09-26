@@ -1931,16 +1931,26 @@ def build_ciltler():
             # ISBN kalici numaradir, baglanti degil; duz metin olarak durur.
             if c.get('isbn'):
                 p.append('      <p class="cilt-isbn">ISBN {}</p>'.format(c['isbn']))
-            p.append('      <div class="cilt-btnler">')
-            p.append('        <a class="cilt-btn" href="{}">Cildi indir</a>'.format(indir))
+            # Ikincil baglantilar (YouTube, Play) sade metin; indirme dugmesi her
+            # kartta en altta ve kart genisliginde, dort kartta ayni hizada.
+            baglar = []
             if c.get('dizi'):
-                p.append('        <a class="cilt-btn cilt-btn-dizi" href="{}" target="_blank" '
-                         'rel="noopener">YouTube’da izle</a>'
-                         .format(c['dizi']))
+                baglar.append('<a class="cilt-bag" href="{}" target="_blank" rel="noopener">'
+                              '<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true">'
+                              '<path fill="currentColor" d="M8 5v14l11-7z"/></svg>YouTube’da izle</a>'
+                              .format(c['dizi']))
             if c.get('play'):
-                p.append('        <a class="cilt-btn cilt-btn-dizi" href="{}" target="_blank" '
-                         'rel="noopener">Google Play’de</a>'
-                         .format(c['play']))
+                baglar.append('<a class="cilt-bag" href="{}" target="_blank" rel="noopener">'
+                              '<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true">'
+                              '<path fill="currentColor" d="M12 6.5C10.3 5.2 7.9 4.5 5 4.5H3v14h2c2.6 0 4.8.6 6.5 1.8.3.2.7.2 1 0 1.7-1.2 3.9-1.8 6.5-1.8h2v-14h-2c-2.9 0-5.3.7-7 2zm-1 11.4C9.4 17 7.4 16.6 5 16.5v-10c2.6.1 4.6.7 6 1.8zm8-1.4c-2.4.1-4.4.5-6 1.4V8.3c1.4-1.1 3.4-1.7 6-1.8z"/></svg>'
+                              'Google Play’de oku</a>'.format(c['play']))
+            p.append('      <div class="cilt-eylem">')
+            if baglar:
+                p.append('        <div class="cilt-baglar">' + ''.join(baglar) + '</div>')
+            p.append('        <a class="cilt-btn" href="{}">'
+                     '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">'
+                     '<path fill="currentColor" d="M11 4h2v9.2l3.3-3.3 1.4 1.4L12 17l-5.7-5.7 1.4-1.4 3.3 3.3z'
+                     'M5 19h14v2H5z"/></svg>Cildi indir</a>'.format(indir))
             p.append('      </div>')
         else:
             p.append('      <p class="cilt-doi cilt-bekliyor">DOI alma süreci '

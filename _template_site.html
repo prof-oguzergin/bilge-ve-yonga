@@ -354,16 +354,20 @@ section.band{padding:76px 0}
 .cilt{position:relative}
 .cilt-doi a,.cilt-btn{position:relative;z-index:1}
 .cilt-bekliyor{color:var(--muted);font-style:italic;border:0;margin-top:auto;padding-top:6px}
-.cilt-btn{margin-top:auto;align-self:flex-start;display:inline-flex;align-items:center;
-  gap:8px;background:var(--accent);color:#fff;text-decoration:none;font-weight:800;
-  padding:11px 22px;border-radius:999px;font-size:.94rem;
-  transition:transform .16s, box-shadow .16s}
-.cilt-btn:hover{transform:translateY(-2px);box-shadow:0 14px 30px -14px var(--accent)}
+/* Kartin alt bolumu: sade baglantilar, en altta
+   kart genisliginde indirme dugmesi. Dort kartta dugmeler ayni hizada. */
+.cilt-eylem{margin-top:auto;display:flex;flex-direction:column;gap:12px;padding-top:14px}
+.cilt-baglar{display:flex;flex-wrap:wrap;gap:6px 18px}
+.cilt-bag{position:relative;z-index:1;display:inline-flex;align-items:center;gap:6px;
+  color:var(--accent);text-decoration:none;font-weight:700;font-size:.86rem}
+.cilt-bag:hover{text-decoration:underline;text-underline-offset:3px}
+.cilt-bag:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
+.cilt-btn{display:flex;align-items:center;justify-content:center;gap:8px;
+  background:var(--accent);color:#fff;text-decoration:none;font-weight:700;
+  padding:9px 16px;border-radius:12px;font-size:.9rem;
+  transition:filter .16s, box-shadow .16s}
+.cilt-btn:hover{filter:brightness(1.08);box-shadow:0 10px 24px -14px var(--accent)}
 .cilt-btn:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
-/* Indirme ve YouTube sezonu yan yana; sigmazsa alt alta iner. */
-.cilt-btnler{margin-top:auto;display:flex;flex-wrap:wrap;gap:10px}
-.cilt-btnler .cilt-btn{margin-top:0}
-.cilt-btn-dizi{background:transparent;color:var(--accent);box-shadow:inset 0 0 0 2px var(--accent)}
 .book{background:var(--surface);border:1px solid var(--line);border-radius:20px;overflow:hidden;
   display:flex;flex-direction:column;transition:transform .22s,box-shadow .22s;
   position:relative}

@@ -354,16 +354,20 @@ section.band{padding:76px 0}
 .cilt{position:relative}
 .cilt-doi a,.cilt-btn{position:relative;z-index:1}
 .cilt-bekliyor{color:var(--muted);font-style:italic;border:0;margin-top:auto;padding-top:6px}
-.cilt-btn{margin-top:auto;align-self:flex-start;display:inline-flex;align-items:center;
-  gap:8px;background:var(--accent);color:#fff;text-decoration:none;font-weight:800;
-  padding:11px 22px;border-radius:999px;font-size:.94rem;
-  transition:transform .16s, box-shadow .16s}
-.cilt-btn:hover{transform:translateY(-2px);box-shadow:0 14px 30px -14px var(--accent)}
+/* Kartin alt bolumu: sade baglantilar, en altta
+   kart genisliginde indirme dugmesi. Dort kartta dugmeler ayni hizada. */
+.cilt-eylem{margin-top:auto;display:flex;flex-direction:column;gap:12px;padding-top:14px}
+.cilt-baglar{display:flex;flex-wrap:wrap;gap:6px 18px}
+.cilt-bag{position:relative;z-index:1;display:inline-flex;align-items:center;gap:6px;
+  color:var(--accent);text-decoration:none;font-weight:700;font-size:.86rem}
+.cilt-bag:hover{text-decoration:underline;text-underline-offset:3px}
+.cilt-bag:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
+.cilt-btn{display:flex;align-items:center;justify-content:center;gap:8px;
+  background:var(--accent);color:#fff;text-decoration:none;font-weight:700;
+  padding:9px 16px;border-radius:12px;font-size:.9rem;
+  transition:filter .16s, box-shadow .16s}
+.cilt-btn:hover{filter:brightness(1.08);box-shadow:0 10px 24px -14px var(--accent)}
 .cilt-btn:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
-/* Indirme ve YouTube sezonu yan yana; sigmazsa alt alta iner. */
-.cilt-btnler{margin-top:auto;display:flex;flex-wrap:wrap;gap:10px}
-.cilt-btnler .cilt-btn{margin-top:0}
-.cilt-btn-dizi{background:transparent;color:var(--accent);box-shadow:inset 0 0 0 2px var(--accent)}
 .book{background:var(--surface);border:1px solid var(--line);border-radius:20px;overflow:hidden;
   display:flex;flex-direction:column;transition:transform .22s,box-shadow .22s;
   position:relative}
@@ -1925,10 +1929,9 @@ footer p{color:var(--muted);font-size:.9rem}
       <p class="cilt-bilgi">15 kitap · 249 sayfa · PDF, 45 MB</p>
       <p class="cilt-doi"><a href="https://doi.org/10.5281/zenodo.21725876" target="_blank" rel="noopener">doi.org/10.5281/zenodo.21725876</a></p>
       <p class="cilt-isbn">ISBN 978-625-00-4591-6</p>
-      <div class="cilt-btnler">
-        <a class="cilt-btn" href="https://zenodo.org/api/records/22737378/files/Bilge%20ve%20Yonga%20-%20Cilt%201%20-%20Kumdan%20Bilgisayara.pdf/content">Cildi indir</a>
-        <a class="cilt-btn cilt-btn-dizi" href="https://www.youtube.com/playlist?list=PLXeXhhkVIlyE" target="_blank" rel="noopener">YouTube’da izle</a>
-        <a class="cilt-btn cilt-btn-dizi" href="https://play.google.com/store/books/details?id=bAQNEgAAQBAJ" target="_blank" rel="noopener">Google Play’de</a>
+      <div class="cilt-eylem">
+        <div class="cilt-baglar"><a class="cilt-bag" href="https://www.youtube.com/playlist?list=PLXeXhhkVIlyE" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>YouTube’da izle</a><a class="cilt-bag" href="https://play.google.com/store/books/details?id=bAQNEgAAQBAJ" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M12 6.5C10.3 5.2 7.9 4.5 5 4.5H3v14h2c2.6 0 4.8.6 6.5 1.8.3.2.7.2 1 0 1.7-1.2 3.9-1.8 6.5-1.8h2v-14h-2c-2.9 0-5.3.7-7 2zm-1 11.4C9.4 17 7.4 16.6 5 16.5v-10c2.6.1 4.6.7 6 1.8zm8-1.4c-2.4.1-4.4.5-6 1.4V8.3c1.4-1.1 3.4-1.7 6-1.8z"/></svg>Google Play’de oku</a></div>
+        <a class="cilt-btn" href="https://zenodo.org/api/records/22737378/files/Bilge%20ve%20Yonga%20-%20Cilt%201%20-%20Kumdan%20Bilgisayara.pdf/content"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M11 4h2v9.2l3.3-3.3 1.4 1.4L12 17l-5.7-5.7 1.4-1.4 3.3 3.3zM5 19h14v2H5z"/></svg>Cildi indir</a>
       </div>
     </article>
     <article class="cilt" style="--accent:#D97326">
@@ -1940,9 +1943,9 @@ footer p{color:var(--muted);font-size:.9rem}
       <p class="cilt-bilgi">10 kitap · 170 sayfa · PDF, 34 MB</p>
       <p class="cilt-doi"><a href="https://doi.org/10.5281/zenodo.21725924" target="_blank" rel="noopener">doi.org/10.5281/zenodo.21725924</a></p>
       <p class="cilt-isbn">ISBN 978-625-90813-0-4</p>
-      <div class="cilt-btnler">
-        <a class="cilt-btn" href="https://zenodo.org/api/records/22964330/files/Bilge%20ve%20Yonga%20-%20Cilt%202%20-%20H%C4%B1z%20ve%20G%C3%BC%C3%A7.pdf/content">Cildi indir</a>
-        <a class="cilt-btn cilt-btn-dizi" href="https://www.youtube.com/playlist?list=PLdW33VgvaSKM" target="_blank" rel="noopener">YouTube’da izle</a>
+      <div class="cilt-eylem">
+        <div class="cilt-baglar"><a class="cilt-bag" href="https://www.youtube.com/playlist?list=PLdW33VgvaSKM" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>YouTube’da izle</a></div>
+        <a class="cilt-btn" href="https://zenodo.org/api/records/22964330/files/Bilge%20ve%20Yonga%20-%20Cilt%202%20-%20H%C4%B1z%20ve%20G%C3%BC%C3%A7.pdf/content"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M11 4h2v9.2l3.3-3.3 1.4 1.4L12 17l-5.7-5.7 1.4-1.4 3.3 3.3zM5 19h14v2H5z"/></svg>Cildi indir</a>
       </div>
     </article>
     <article class="cilt" style="--accent:#2E9E5B">
@@ -1954,8 +1957,8 @@ footer p{color:var(--muted);font-size:.9rem}
       <p class="cilt-bilgi">13 kitap · 217 sayfa · PDF, 38 MB</p>
       <p class="cilt-doi"><a href="https://doi.org/10.5281/zenodo.21725978" target="_blank" rel="noopener">doi.org/10.5281/zenodo.21725978</a></p>
       <p class="cilt-isbn">ISBN 978-625-90813-1-1</p>
-      <div class="cilt-btnler">
-        <a class="cilt-btn" href="https://zenodo.org/api/records/21936988/files/Bilge%20ve%20Yonga%20-%20Cilt%203%20-%20Buyruklar%C4%B1n%20D%C3%BCnyas%C4%B1.pdf/content">Cildi indir</a>
+      <div class="cilt-eylem">
+        <a class="cilt-btn" href="https://zenodo.org/api/records/21936988/files/Bilge%20ve%20Yonga%20-%20Cilt%203%20-%20Buyruklar%C4%B1n%20D%C3%BCnyas%C4%B1.pdf/content"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M11 4h2v9.2l3.3-3.3 1.4 1.4L12 17l-5.7-5.7 1.4-1.4 3.3 3.3zM5 19h14v2H5z"/></svg>Cildi indir</a>
       </div>
     </article>
     <article class="cilt" style="--accent:#8A4FC0">
@@ -1967,8 +1970,8 @@ footer p{color:var(--muted);font-size:.9rem}
       <p class="cilt-bilgi">13 kitap · 225 sayfa · PDF, 43 MB</p>
       <p class="cilt-doi"><a href="https://doi.org/10.5281/zenodo.21854810" target="_blank" rel="noopener">doi.org/10.5281/zenodo.21854810</a></p>
       <p class="cilt-isbn">ISBN 978-625-90813-2-8</p>
-      <div class="cilt-btnler">
-        <a class="cilt-btn" href="https://zenodo.org/api/records/21937158/files/Bilge%20ve%20Yonga%20-%20Cilt%204%20-%20%C4%B0%C5%9Flemcinin%20%C4%B0%C3%A7i.pdf/content">Cildi indir</a>
+      <div class="cilt-eylem">
+        <a class="cilt-btn" href="https://zenodo.org/api/records/21937158/files/Bilge%20ve%20Yonga%20-%20Cilt%204%20-%20%C4%B0%C5%9Flemcinin%20%C4%B0%C3%A7i.pdf/content"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M11 4h2v9.2l3.3-3.3 1.4 1.4L12 17l-5.7-5.7 1.4-1.4 3.3 3.3zM5 19h14v2H5z"/></svg>Cildi indir</a>
       </div>
     </article>
   </div>
