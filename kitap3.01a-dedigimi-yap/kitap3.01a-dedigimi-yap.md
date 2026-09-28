@@ -74,7 +74,7 @@ Bilge kollarını iki yana açmış, havaya kocaman bir kare çizer gibi yapıyo
 **Metin:**
 Bilge bir kâğıt aldı ve alt alta yazdı.
 
-Bir adım ileri git. Sağa dön. Bir adım ileri git. Sağa dön. Bir adım ileri git. Sağa dön. Bir adım ileri git.
+Bir adım ileri git. Sağa dön. Bir adım ileri git. Sağa dön. Bir adım ileri git. Sağa dön. Bir adım ileri git. Sağa dön.
 
 {Y}"İşte şimdi oldu." dedi Yonga. {Y}"Böyle bir adım listesine **program** denir."
 
