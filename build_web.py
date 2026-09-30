@@ -1857,7 +1857,9 @@ CILTLER = {
           'sayfa': 170, 'mb': 34,
           # Cildin oynatma listesi (25 Eyl 2026).
           'dizi': 'https://www.youtube.com/playlist?list=PLdW33VgvaSKM',
-          'dizi_ad': 'Hız ve Güç'},
+          'dizi_ad': 'Hız ve Güç',
+          # Google Play Kitaplar'da ücretsiz (30 Eyl 2026'da yayına girdi).
+          'play': 'https://play.google.com/store/books/details?id=cysREgAAQBAJ'},
     '3': {'doi': '10.5281/zenodo.21725978', 'kayit': 21936988, 'isbn': '978-625-90813-1-1',
           'dosya': 'Bilge ve Yonga - Cilt 3 - Buyrukların Dünyası.pdf',
           'sayfa': 217, 'mb': 38},
